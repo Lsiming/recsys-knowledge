@@ -1,0 +1,39 @@
+name: 知识库检查
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  knowledge:
+    name: 知识与工具 / Python ${{ matrix.python }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.9', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: 结构与索引
+        run: |
+          python scripts/wiki.py index --check
+          python scripts/wiki.py lint
+          python scripts/translations.py check
+      - name: 公开链接与入口
+        run: python scripts/check_context.py
+      - name: 公开历史与隐私
+        run: python scripts/check_public.py
+      - name: 工具行为
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: 差异空白
+        run: git show --format= --check HEAD

@@ -1,0 +1,45 @@
+{
+  "id": "SRC-SASREC",
+  "title": "SASRec · Self-Attentive Sequential Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1808.09781v1",
+      "revision": "1808.09781v1; 2018",
+      "read_scope": "正式PDF全部10页：摘要、§I–V、图1–5、表I–V及参考文献；原稿3/8页渲染核对注意力、消融与效率。保留上游原始LaTeX包，翻译活跃主tex全部正文及图表文字，defs仅公式定义；图内英文与文献保留。远程编译ZMQ资源错误，未取得中文PDF，交付中文Markdown与译后工程。未运行模型、未核查官方算法代码或独立精读被引论文。",
+      "artifacts": [
+        {
+          "name": "SASRec.1808.09781v1.pdf",
+          "sha256": "d58f18384a055a265f5ecf2776ed28e8a745c0d9a183db078449249599bf604a",
+          "snapshot": ".local/sources/SRC-SASREC/d58f18384a055a265f5ecf2776ed28e8a745c0d9a183db078449249599bf604a/SASRec.1808.09781v1.pdf"
+        },
+        {
+          "name": "SASRec.1808.09781v1.source.tar.gz",
+          "sha256": "eb760463b4c5088fc8892e7665071e8c71fc1c17c18aa82ce85b4d24c5670d8b",
+          "snapshot": ".local/sources/SRC-SASREC/eb760463b4c5088fc8892e7665071e8c71fc1c17c18aa82ce85b4d24c5670d8b/SASRec.1808.09781v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "b3d4b71e624bd9408fb5f8e7e921ee3232507127cdb039b4250d97eb9a94838b",
+        "pages": [
+          "implicit-pairwise-ranking",
+          "interaction-vector-denoising",
+          "language-personalized-tasks",
+          "multi-interest-retrieval",
+          "next-item-sequence",
+          "semantic-code-retrieval",
+          "target-aware-sequential-transduction",
+          "target-conditioned-interest-evolution"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对1808.09781v1全部10页及原稿3/8页，确认因果监督、采样BCE、共享表、101候选协议、消融与训练成本；与已读BPR比较目标，未跨协议排名。译后cite81/label15/ref14/图片12均保留，修正Markdown矩阵转义；独立只读子Agent CR核查关键公式、表III–V和比较一致，发现并修复一处Markdown加粗命令残留，无剩余可操作问题。远程编译ZMQ错误，无中文PDF，未核验译后排版或运行模型。 TIGER轮：复核新增语义短码问题中因果历史、采样BCE、共享表和101候选比较；沿用原版证据，不以TIGER转述替代SASRec精读，未新增训练或服务效率验证。 新增MIND多兴趣问题的机制比较：核对既有精读中的因果前缀/位置编码/100负例协议，保留原证据与限制，不跨协议比较数值，独立CR无新增发现。 本轮DIEN比较：复核既有精读中的因果前缀、末端内积和候选协议，不将CTR与101候选排名效果直接比较。无新实验，未重新全文阅读；独立CR未见比较实质问题。 本轮新增P5统一任务问题比较，按既有精读核对专家路由、序列候选打分或语义码的职责与条件，保留各原证据；不把跨协议数字作排名，未新增复现实验。 本轮按既有精读与固定原文§III/IV核对HSTU比较中的历史编码后内积、抽样BCE与100负例评估，不跨论文直接排名。 DiffRec：核对全目录交互向量与TIGER物品语义码、LightGCN图表示及SASRec前缀序列监督的对象、全物品/采样评估和服务接口差异，新增交互向量去噪问题；不跨协议排名。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

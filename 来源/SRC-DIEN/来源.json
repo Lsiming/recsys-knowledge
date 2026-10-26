@@ -1,0 +1,45 @@
+{
+  "id": "SRC-DIEN",
+  "title": "DIEN · Deep Interest Evolution Network for Click-Through Rate Prediction",
+  "kind": "paper",
+  "state": "active",
+  "current": "5a666f158a6a76f17987e5e05f4930991aacd59ef7d4b07f8fffb6d39dd9961b",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1809.03672v5",
+      "revision": "1809.03672v5 (2018-11-16)",
+      "read_scope": "已读9页摘要、正文、图1–3及表1–5，23条文献仅作定位；未读所引原论文或算法代码，未运行模型。正文、图表说明及描述性脚注已译，无附录；图内英文/专名/文献保留。编译HTTP400 ZMQ资源错误，无中文PDF。",
+      "artifacts": [
+        {
+          "name": "DIEN.1809.03672v5.pdf",
+          "sha256": "5d031ef60a874bf41e7642beee77627059d78f946a516f95866b870bd24b7e34",
+          "snapshot": ".local/sources/SRC-DIEN/5d031ef60a874bf41e7642beee77627059d78f946a516f95866b870bd24b7e34/DIEN.1809.03672v5.pdf"
+        },
+        {
+          "name": "DIEN.1809.03672v5.source.tar.gz",
+          "sha256": "faa1de7581a602ec3e969c26d85a71bf7beeda4d357fe6adc633201ffe99528a",
+          "snapshot": ".local/sources/SRC-DIEN/faa1de7581a602ec3e969c26d85a71bf7beeda4d357fe6adc633201ffe99528a/DIEN.1809.03672v5.source.tar.gz"
+        }
+      ],
+      "fingerprint": "5a666f158a6a76f17987e5e05f4930991aacd59ef7d4b07f8fffb6d39dd9961b",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "8bec4d8e097a9ab7be98b55d42123077966efb9d339090bd0f0f5ad93194b81d",
+        "pages": [
+          "candidate-conditioned-history-search",
+          "next-item-sequence",
+          "ranking-interaction",
+          "serving-efficiency",
+          "target-aware-history-reuse",
+          "target-aware-sequential-transduction",
+          "target-conditioned-interest-evolution",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "自查1809.03672v5正文、12式及5表：保留辅助损失原式歧义，区分局部监督/门控消融与线上BaseModel对照；解释候选条件状态及复用成本，比较SASRec/MIND而不跨协议排名。译后引用、公式及表值核对通过；独立只读子Agent CR仅发现中文Markdown两行编译注释，已删除，其余机制和数字无实质发现。编译ZMQ资源错误，无中文PDF，未验证译后排版或运行模型。 SIM轮：保留既有全文核对，复核新增长历史问题及演化页中下一行为辅助目标、AUGRU候选递推与SIM先筛选后建模的比较。未重新全文阅读或新增实验；独立只读CR未见比较实质问题。 本轮复核HSTU比较：第一层提取兴趣，第二层候选注意力/AUGRU递推，辅助下一行为监督；不能直接复用候选条件最终状态。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

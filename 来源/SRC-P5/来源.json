@@ -1,0 +1,43 @@
+{
+  "id": "SRC-P5",
+  "title": "Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)",
+  "kind": "paper",
+  "state": "active",
+  "current": "affaca0308a7df9e494e9f377bbda61d0e69704c19c59e0838462ee92966f1f8",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2203.13366v7",
+      "revision": "arXiv2203.13366v7，2023-01-02；RecSys2022，19页",
+      "read_scope": "已读固定19页PDF正文§1–6、附录A–E，核对2公式、9正文表、6图和附录Yelp/训练推理成本/采样量/提示协议；参考文献核身份，未独立精读所引基线；采用根main.tex，附录为嵌入PDF。未读官方代码，未运行模型。",
+      "artifacts": [
+        {
+          "name": "P5.2203.13366v7.pdf",
+          "sha256": "d6bb7caab20dda4470ba22b8817159193210425908314641ad06ccf0d965958c",
+          "snapshot": ".local/sources/SRC-P5/d6bb7caab20dda4470ba22b8817159193210425908314641ad06ccf0d965958c/P5.2203.13366v7.pdf"
+        },
+        {
+          "name": "P5.2203.13366v7.source.tar.gz",
+          "sha256": "11b18879a00aadaa4d0abc364c07cceb5af5b5378a7c6994a49bb15b7791ac88",
+          "snapshot": ".local/sources/SRC-P5/11b18879a00aadaa4d0abc364c07cceb5af5b5378a7c6994a49bb15b7791ac88/P5.2203.13366v7.source.tar.gz"
+        }
+      ],
+      "fingerprint": "affaca0308a7df9e494e9f377bbda61d0e69704c19c59e0838462ee92966f1f8",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "1d2d5ce3f9f5bd2a597176f28b059c035643cbb6ac7f0b6f10d531998c0200b8",
+        "pages": [
+          "generation-decoding",
+          "generative-recommendation",
+          "language-personalized-tasks",
+          "representations-tokenization",
+          "semantic-code-retrieval",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v7正文和附录A–E、2公式原字节、9表数值及6图，区分五族提示、ID子词/整词字段、生成/判别候选与任务切分；比较SASRec、TIGER与PLE机制，不跨协议排名。中文PDF16页全部渲染目视检查，附录原页英文保留；独立CR修复MD最优样式说明及评分设置引用定位。保留REV-017，未读实现或运行模型。 本轮按既有P5精读核对LC-Rec比较中的预训练T5、文本任务及ID子词接口；保留原实验与切分/解码边界，不用LC-Rec局部分类否认P5语言任务，不跨协议排名。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

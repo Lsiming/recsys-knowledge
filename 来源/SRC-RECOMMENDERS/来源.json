@@ -1,0 +1,48 @@
+{
+  "id": "SRC-RECOMMENDERS",
+  "title": "Recommenders · 算法教程与评估入口",
+  "kind": "tutorial",
+  "state": "active",
+  "current": "3be7981b28e705f3795fcc7a7a3b54fe3c53c20691569c42ccee1d76d404c230",
+  "versions": [
+    {
+      "locator": "https://github.com/recommenders-team/recommenders",
+      "revision": "ba49f480a3a6604b09c8cde903958f9d9dca8a9d",
+      "read_scope": "README Introduction、Algorithms、Algorithm Comparison 的协议说明；examples/03_evaluate/README 全文；未运行 Notebook",
+      "artifacts": [
+        {
+          "name": "README.md",
+          "sha256": "6d9355186167ededb5681dcd2b0e865d38d63865d406f3b4f09146a23c134bc9",
+          "snapshot": ".local/sources/SRC-RECOMMENDERS/6d9355186167ededb5681dcd2b0e865d38d63865d406f3b4f09146a23c134bc9/README.md"
+        },
+        {
+          "name": "evaluation-README.md",
+          "sha256": "58a3ba16a4f750f154004ec655e7227a0bc43441e539eb94193f9b4b381f1e17",
+          "snapshot": ".local/sources/SRC-RECOMMENDERS/58a3ba16a4f750f154004ec655e7227a0bc43441e539eb94193f9b4b381f1e17/evaluation-README.md"
+        }
+      ],
+      "fingerprint": "3be7981b28e705f3795fcc7a7a3b54fe3c53c20691569c42ccee1d76d404c230",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "47479c5f6aa8269716eddb640209c30ed0e49553162184a1481637f2d629ab65",
+        "pages": [
+          "classic-reading-path",
+          "evaluation-bias",
+          "exploration-longterm",
+          "generative-recommendation",
+          "learning-resources",
+          "paper-candidates",
+          "recommender-systems",
+          "representations-tokenization",
+          "retrieval",
+          "training-alignment",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对算法族、VAE、评估 README 指标类别与示例协议；不拼接榜单、不外推线上收益，未运行 Notebook。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SRC-DFM",
+  "title": "DFM · Modeling Delayed Feedback in Display Advertising",
+  "kind": "paper",
+  "state": "active",
+  "current": "048e1e37e18503223812d93ac93240a336180dcceeec742c17e42f6d1067e71b",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/2623330.2623634",
+      "revision": "KDD 2014出版版，pp.1097–1105，2014-08-24；PDF来自候选清单第三方GitHub镜像，题名作者页码DOI与Crossref核对一致；未取得LaTeX源码",
+      "read_scope": "已读9页PDF摘要、正文§1–7（第1–8页）、式1–19、5图与表1，17条参考文献仅定位；未读实现或运行模型。当前模型翻译正式正文、图表说明及描述脚注，参考文献和图内英文保留；无可用LaTeX，无译后源码/中文PDF，未验译后排版。",
+      "artifacts": [
+        {
+          "name": "DFM.KDD2014.pdf",
+          "sha256": "18a3b11f854585d827fc9e2e55edb623de4bc7ee326bef123c53d9309a59ef4a",
+          "snapshot": ".local/sources/SRC-DFM/18a3b11f854585d827fc9e2e55edb623de4bc7ee326bef123c53d9309a59ef4a/DFM.KDD2014.pdf"
+        }
+      ],
+      "fingerprint": "048e1e37e18503223812d93ac93240a336180dcceeec742c17e42f6d1067e71b",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "40c5d59d73d36aff442078ea1182c5db7ee5460fecd74365863610bd4fd9aa8a",
+        "pages": [
+          "data-labels",
+          "delayed-conversion-censoring",
+          "post-click-cvr-estimation"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对出版版§1–7、式1–19及5图1表；联合事件/删失似然、归一化后验和梯度推导对照，区分标签成熟与ESMM监督空间。原式10漏分母、归因与支持/基线常数/成熟协议保留REV-014。中文MD保留原式译注，无LaTeX/中文PDF，未运行模型或验中文排版。独立只读CR发现的审核表空行与Diff三项计数已修并定向复核，无剩余可操作发现。19公式编号、表1数字序列与6译文本地目标核对通过；两坐标轻量差分确认新增梯度推导。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SRC-INDUSTRIAL-REC",
+  "title": "工业搜推广深度学习论文分类清单",
+  "kind": "catalog",
+  "state": "active",
+  "current": "4d19d1eefb99ae4766663e5acc6236d4406fc5423d6b47fce1b2009fac4139b1",
+  "versions": [
+    {
+      "locator": "https://github.com/guyulongcs/Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising",
+      "revision": "7a6a0614d48c7d3a7316a703509f5d06e450762e",
+      "read_scope": "README 分类标题与首批候选条目：Embedding、Matching、Pre-ranking、Ranking、Post-ranking、RL；未读清单所链论文",
+      "artifacts": [
+        {
+          "name": "README.md",
+          "sha256": "9b7b55e5c1dda88e8f68f030a19325c37fb0c95ae0bd7708a0afccdbe9bf99ed",
+          "snapshot": ".local/sources/SRC-INDUSTRIAL-REC/9b7b55e5c1dda88e8f68f030a19325c37fb0c95ae0bd7708a0afccdbe9bf99ed/README.md"
+        }
+      ],
+      "fingerprint": "4d19d1eefb99ae4766663e5acc6236d4406fc5423d6b47fce1b2009fac4139b1",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "0d9b026c9011fafb565ffe764a8b0f64dcb5e225fbc783e06adb967803540401",
+        "pages": [
+          "classic-reading-path",
+          "data-labels",
+          "evaluation-bias",
+          "exploration-longterm",
+          "learning-resources",
+          "multidomain-transfer",
+          "multitask-objectives",
+          "paper-candidates",
+          "preranking-cascade",
+          "ranking-interaction",
+          "recommender-systems",
+          "reranking-slate"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对粗排、排序细分、列表和强化学习分类及候选条目；保留 PDF 镜像和 STAR 同名区别，经典选择为学习建议。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

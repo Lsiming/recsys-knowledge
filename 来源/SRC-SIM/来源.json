@@ -1,0 +1,43 @@
+{
+  "id": "SRC-SIM",
+  "title": "SIM · Search-based User Interest Modeling with Lifelong Sequential Behavior Data for Click-Through Rate Prediction",
+  "kind": "paper",
+  "state": "active",
+  "current": "5d8a59e0c59389edfb061af3443135943050f8af0260848521e909fa0df6792a",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2006.05639v2",
+      "revision": "2006.05639v2 (2020-06-29; arXiv预印本，Conference20模板不作出版依据)",
+      "read_scope": "已读固定PDF全部8页摘要、正文§1–6、图1–5与表1–6；20条文献仅作定位。未读所引论文或算法代码，未运行模型。正式正文、图表说明及脚注已译，无附录；图内英文、专名和文献保留。编译HTTP400 ZMQ资源错误，无中文PDF；交付中文Markdown与完整译后工程。",
+      "artifacts": [
+        {
+          "name": "SIM.2006.05639v2.pdf",
+          "sha256": "68cca574f9bfb0257f10a90ff46793876d78f4a24454988b8532c0b555103502",
+          "snapshot": ".local/sources/SRC-SIM/68cca574f9bfb0257f10a90ff46793876d78f4a24454988b8532c0b555103502/SIM.2006.05639v2.pdf"
+        },
+        {
+          "name": "SIM.2006.05639v2.source.tar.gz",
+          "sha256": "0b607e269ab9249a24f91370afebcc161d2b7b17e8833fed17fc73b24e47fec1",
+          "snapshot": ".local/sources/SRC-SIM/0b607e269ab9249a24f91370afebcc161d2b7b17e8833fed17fc73b24e47fec1/SIM.2006.05639v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "5d8a59e0c59389edfb061af3443135943050f8af0260848521e909fa0df6792a",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "670fc4f22d7610e839e02c6d7865911af24323fc431b7fa7dc18f04d2bda949b",
+        "pages": [
+          "candidate-conditioned-history-search",
+          "ranking-interaction",
+          "serving-efficiency",
+          "target-aware-history-reuse",
+          "target-conditioned-interest-evolution",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v2的8页正文、5个编号公式及6表，解释两阶段检索/长期CTR辅助头/候选注意力，保留符号与训练协议缺项，不将54倍覆盖长度或75%集合覆盖改为加速/真实兴趣召回。独立只读CR无剩余可操作发现；35cite/18label/18ref/5图、4显示环境及6表数字核对通过。编译ZMQ错误，无中文PDF、未验译后排版或跑模型。 本轮复核HSTU成本比较：硬检索按候选类目选历史，同类可复用子序列，仍需索引更新和精细网络；不将SIM等同SL或KV缓存。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

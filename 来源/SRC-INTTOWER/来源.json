@@ -1,0 +1,40 @@
+{
+  "id": "SRC-INTTOWER",
+  "title": "IntTower · IntTower: the Next Generation of Two-Tower Model for Pre-Ranking System",
+  "kind": "paper",
+  "state": "active",
+  "current": "c22f56e6146a86b1581c7ac15b1e8a21b749dcfe5709430b3c24258b8c1cb9fc",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2210.09890v1",
+      "revision": "2210.09890v1 (2022-10-18; PDF标CIKM’22及DOI 10.1145/3511808.3557072)",
+      "read_scope": "已读11页PDF正文§1–7，无附录；39条文献仅作定位，未读所引论文或算法实现。活跃主文件sample-authordraft.tex正文/摘要/图表说明已译，模板和注释旧稿不计入；图内英文/文献保留。编译HTTP400 ZMQ资源错误，无中文PDF。",
+      "artifacts": [
+        {
+          "name": "IntTower.2210.09890v1.pdf",
+          "sha256": "08c68012cdf6d7b44a9f610bf8b03b03cd9b3b4910f882b6b96c1b21ba6151b4",
+          "snapshot": ".local/sources/SRC-INTTOWER/08c68012cdf6d7b44a9f610bf8b03b03cd9b3b4910f882b6b96c1b21ba6151b4/IntTower.2210.09890v1.pdf"
+        },
+        {
+          "name": "IntTower.2210.09890v1.source.tar.gz",
+          "sha256": "b56e70535920a8dc74a820a50cc5e54747dde465b388f98cb5e2b63aec8345d1",
+          "snapshot": ".local/sources/SRC-INTTOWER/b56e70535920a8dc74a820a50cc5e54747dde465b388f98cb5e2b63aec8345d1/IntTower.2210.09890v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "c22f56e6146a86b1581c7ac15b1e8a21b749dcfe5709430b3c24258b8c1cb9fc",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "3841edcb3e16a3295129b5954e6edd6b83f5f6da96c152a8700125a77124845e",
+        "pages": [
+          "preranking-budget-retention",
+          "preranking-cascade",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对v1正文§1–7、式1–13、表1–5及原PDF第5–9页。明确多层多头最大匹配/缓存与CIR范围、存储和计算常数，保留维度/余弦/概率映射/采样/头数设置及RelaImpr疑点；与COLD比较不跨协议排名，不把工业日志AUC或公开效率图称线上A/B。13式和5表数字、cite60/label38/ref25/图片15保留，MD19目标存在。独立只读CR修复审核台表格和参数表头，自查修复阶段/重复引用，定向复核无剩余发现。中文Markdown与译后工程可用，ZMQ编译失败，无中文PDF，未验译后排版或跑模型。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

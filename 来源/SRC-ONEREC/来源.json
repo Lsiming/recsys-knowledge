@@ -1,0 +1,44 @@
+{
+  "id": "SRC-ONEREC",
+  "title": "OneRec: Unifying Retrieve and Rank with Generative Recommender and Preference Alignment",
+  "kind": "paper",
+  "state": "active",
+  "current": "9fc7f24bd5f62bbd00b1d93ee92af261a9469bc005cb1e41a3fa2147a59872c0",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2502.18965v1",
+      "revision": "arXiv:2502.18965v1, 2025-02-26",
+      "read_scope": "已读固定v1正式PDF全部正文§1–6（第1–8页）、图1–6、表1–2、算法1–2及10个编号公式；文献第9–10页仅作引用回查。核对对应LaTeX正文。未读QARM等转引原论文、未读算法实现或运行模型。",
+      "artifacts": [
+        {
+          "name": "OneRec.2502.18965v1.pdf",
+          "sha256": "a508e505e20d6cdfaba65979a92130f3868a12199d94edc5fd7e9bc9a4289dba",
+          "snapshot": ".local/sources/SRC-ONEREC/a508e505e20d6cdfaba65979a92130f3868a12199d94edc5fd7e9bc9a4289dba/OneRec.2502.18965v1.pdf"
+        },
+        {
+          "name": "OneRec.2502.18965v1.source.tar.gz",
+          "sha256": "e9541ef6fe8e2dc1a588bb1891189e8c1887d3a4101aae0e30617225630cbfb7",
+          "snapshot": ".local/sources/SRC-ONEREC/e9541ef6fe8e2dc1a588bb1891189e8c1887d3a4101aae0e30617225630cbfb7/OneRec.2502.18965v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "9fc7f24bd5f62bbd00b1d93ee92af261a9469bc005cb1e41a3fa2147a59872c0",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "8395713dbd2a4ab1d4002c3f81d65f396bd6674e02fe61aaaefecef22af06217",
+        "pages": [
+          "generative-preference-alignment",
+          "generative-recommendation",
+          "preranking-cascade",
+          "reranking-slate",
+          "semantic-code-retrieval",
+          "slate-prefix-dependence",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v1正文/图1–6/算法1–2/表1–2及公式，合并会话前缀、均衡码和RM相对参考DPO，区分代理/线上及采样成本；保留原式下标与百分比疑点，译文两次编译超时无PDF。未读实现或运行模型。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

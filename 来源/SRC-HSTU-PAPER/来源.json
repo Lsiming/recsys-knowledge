@@ -1,0 +1,43 @@
+{
+  "id": "SRC-HSTU-PAPER",
+  "title": "Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations",
+  "kind": "paper",
+  "state": "active",
+  "current": "3f959b9a9db7770623b18da44ce836ca02f106cace6136cb4781a3fc96ab0c0e",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2402.17152v3",
+      "revision": "arXiv2402.17152v3，2024-05-06，ICML2024，26页",
+      "read_scope": "已读固定26页PDF正文§1–6、影响声明及附录A–H，核对4编号公式、7张正文表和13幅全篇图；重点复核附录D的sampled softmax协议、F的随机长度及H的M-FALCON，文献仅核对引文身份。未读本轮官方实现，未运行模型。",
+      "artifacts": [
+        {
+          "name": "HSTU.2402.17152v3.pdf",
+          "sha256": "e4f953031df9cd67514bee657a6a342b6bdaad2a8cc9fccb3b0c3ce8a74591cf",
+          "snapshot": ".local/sources/SRC-HSTU-PAPER/e4f953031df9cd67514bee657a6a342b6bdaad2a8cc9fccb3b0c3ce8a74591cf/HSTU.2402.17152v3.pdf"
+        },
+        {
+          "name": "HSTU.2402.17152v3.source.tar.gz",
+          "sha256": "64c7e4b41f01ec8a71c7ba83376db454cfa5f0d48a57ad411e8e40c24e4031a8",
+          "snapshot": ".local/sources/SRC-HSTU-PAPER/64c7e4b41f01ec8a71c7ba83376db454cfa5f0d48a57ad411e8e40c24e4031a8/HSTU.2402.17152v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "3f959b9a9db7770623b18da44ce836ca02f106cace6136cb4781a3fc96ab0c0e",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "3993d5f3c96614dfe9de4a004550e90f6e2164bdb3eae135117ed015a492235f",
+        "pages": [
+          "generative-recommendation",
+          "multi-item-speculative-decoding",
+          "serving-efficiency",
+          "target-aware-history-reuse",
+          "target-aware-sequential-transduction",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "已核对固定v3正文及附录A–H、4公式、表1–7与关键附录表图；比较SASRec/DIEN/SIM与语义码，分清逐候选响应/序列训练/编码器和服务预算，候选QPS非请求QPS，65.8%非同规模改善。正文译后25页PDF逐页渲染目视、Markdown和译后工程可用；附录英文仅修布局，原件不变。独立只读CR修复表7NE相对比例并复核；原文2.6%/形状/加和/权重/s2疑点留REV-019。未核本轮Kernel，未运行模型或复现生产AB。 最终25页PDF逐页目视与笔记文末范围同步，原件不变。 AtSpeed本轮核对严格beam复现与宽松采样条件、TVD接受率、树形分支隔离、表1/4/7差异及LC-Rec/D³/M-FALCON机制比较；正文/附录已读，未运行实现。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

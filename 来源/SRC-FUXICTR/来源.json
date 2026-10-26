@@ -1,0 +1,39 @@
+{
+  "id": "SRC-FUXICTR",
+  "title": "FuxiCTR · CTR 模型目录与复现入口",
+  "kind": "repository",
+  "state": "active",
+  "current": "6e3cee4288f0e18cabc2ec59c05e3aa72ccd11c61822071ff3f670e19dd4d42e",
+  "versions": [
+    {
+      "locator": "https://github.com/reczoo/FuxiCTR",
+      "revision": "183da1c944ba8930fcdcd54114837c081959d748",
+      "read_scope": "README 简介、Key Features、Model Zoo、Benchmarking 与 Quick Start；未读模型实现、未复现实验",
+      "artifacts": [
+        {
+          "name": "README.md",
+          "sha256": "4474fb6635ecd55d0cffc7b9a2a3f3d75d258048378bf8867702b7fc64f6189f",
+          "snapshot": ".local/sources/SRC-FUXICTR/4474fb6635ecd55d0cffc7b9a2a3f3d75d258048378bf8867702b7fc64f6189f/README.md"
+        }
+      ],
+      "fingerprint": "6e3cee4288f0e18cabc2ec59c05e3aa72ccd11c61822071ff3f670e19dd4d42e",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "1748f35fd27670b062ee2210f09c6c651347747fb37b5e53dccb6674f6ef1045",
+        "pages": [
+          "classic-reading-path",
+          "learning-resources",
+          "multidomain-transfer",
+          "multitask-objectives",
+          "paper-candidates",
+          "ranking-interaction",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "逐项核对 Model Zoo 的交叉、序列、动态权重和多任务条目及候选原文链接；未把框架实现视为统一效果证据。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

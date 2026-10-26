@@ -1,0 +1,40 @@
+{
+  "id": "SRC-COLD",
+  "title": "COLD · COLD: Towards the Next Generation of Pre-Ranking System",
+  "kind": "paper",
+  "state": "active",
+  "current": "0ceb7e3efaee8ecc019b3d3a41dc7b49a90da4678a591264a611934a60590b1e",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2007.16122v2",
+      "revision": "2007.16122v2 (2020-08-17; DLP-KDD 2020工作坊稿，PDF占位DOI/ISBN不作有效标识)",
+      "read_scope": "已读8页正文§1–5，无附录；文献仅作定位，未读所引论文或算法实现。六个实际编译tex正文和图表说明已翻译，未用model/speed/experiment_old及注释旧稿不计入范围；图内英文/文献保留。编译HTTP400 ZMQ资源错误，无中文PDF。",
+      "artifacts": [
+        {
+          "name": "COLD.2007.16122v2.pdf",
+          "sha256": "6932c08784b3da1a21d03cfc17c5fcb77193439f52186918b9b8c0d5b65293db",
+          "snapshot": ".local/sources/SRC-COLD/6932c08784b3da1a21d03cfc17c5fcb77193439f52186918b9b8c0d5b65293db/COLD.2007.16122v2.pdf"
+        },
+        {
+          "name": "COLD.2007.16122v2.source.tar.gz",
+          "sha256": "73d5323b6afe5fd3120eb8ce62bad7de0e43e9ce780fa982184d27a96391155c",
+          "snapshot": ".local/sources/SRC-COLD/73d5323b6afe5fd3120eb8ce62bad7de0e43e9ce780fa982184d27a96391155c/COLD.2007.16122v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "0ceb7e3efaee8ecc019b3d3a41dc7b49a90da4678a591264a611934a60590b1e",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "7fada75e4708f539b74a98b662da8919e9df400a066f443dd9bc76b0b644c66b",
+        "pages": [
+          "preranking-budget-retention",
+          "preranking-cascade",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对COLD v2正文§1–5、式1–4、表1–5及原PDF关键页。区分候选保留/真实召回、模型系统协同/自动搜索、不同硬件、RT定义及线上整体贡献；SE维度与全局选组缺口保留并登记审核台，不采用未用旧稿数字。六个活跃tex已译，残留为专名、数学和排版命令；中文Markdown及完整译后工程可用，编译ZMQ错误无中文PDF，未验译后排版、未跑模型。 独立只读子Agent CR修复审核台表格分隔和MD权重向量写法；定向复核array换行、5表及机制/页码，无剩余可操作发现。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

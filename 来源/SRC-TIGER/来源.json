@@ -1,0 +1,44 @@
+{
+  "id": "SRC-TIGER",
+  "title": "TIGER · Recommender Systems with Generative Retrieval",
+  "kind": "paper",
+  "state": "active",
+  "current": "7b67860d29faa3066d6c1a8a0329e11fa7d14114ebfbb442ff8ba8eecb43fc9f",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2305.05065v3",
+      "revision": "2305.05065v3 (2023-11-03; NeurIPS 2023)",
+      "read_scope": "正文§1–5与附录A–E；文献表用于引文定位，未逐篇精读所引论文、未读算法实现。正文第1–10页已译，附录/图内英文/文献保留；编译HTTP400 ZMQ资源错误，无中文PDF。",
+      "artifacts": [
+        {
+          "name": "TIGER.2305.05065v3.pdf",
+          "sha256": "2cfc961a1f403d060995e87d7291d0de2533496bda595a97f1fa5c28c713af35",
+          "snapshot": ".local/sources/SRC-TIGER/2cfc961a1f403d060995e87d7291d0de2533496bda595a97f1fa5c28c713af35/TIGER.2305.05065v3.pdf"
+        },
+        {
+          "name": "TIGER.2305.05065v3.source.tar.gz",
+          "sha256": "d135e9924ddf7a8d28fef1ea532f0c449b6f86e4b874bf72a804d870121b4477",
+          "snapshot": ".local/sources/SRC-TIGER/d135e9924ddf7a8d28fef1ea532f0c449b6f86e4b874bf72a804d870121b4477/TIGER.2305.05065v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "7b67860d29faa3066d6c1a8a0329e11fa7d14114ebfbb442ff8ba8eecb43fc9f",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "014d85b50e7bc1bc6770998178f2783e21ad984ea38e28c2d78e9140b4970264",
+        "pages": [
+          "generation-decoding",
+          "interaction-vector-denoising",
+          "language-personalized-tasks",
+          "representations-tokenization",
+          "retrieval",
+          "semantic-code-retrieval",
+          "slate-prefix-dependence"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对2305.05065v3正文与附录A–E、原稿4/7/9/10/17页。区分分阶段内容量化与行为学习、残差码/消歧、冷启动前缀扩展与无效ID未来工作；保留损失下标/256^4算术/表10疑点。比较SASRec输出与训练而不跨协议排名，未补造候选采样和服务效率。正文已译、scan无残留；编译ZMQ资源错误，无中文PDF。未读算法实现、未运行模型。 活跃正文cite59/label25/ref37/图片8键与次数保留，另5个附录标题label不变。独立只读子Agent CR核查核心公式、表1/2/3/5/9/10与证据边界，修复SASRec协议页码和Markdown数学外百分号。 本轮新增列表前缀比较页，核对TIGER历史到语义码检索与Seq2Slate候选索引排列的生成对象/合法性区别，不引入新实验结论。 本轮新增P5统一任务问题比较，按既有精读核对专家路由、序列候选打分或语义码的职责与条件，保留各原证据；不把跨协议数字作排名，未新增复现实验。 DiffRec：核对全目录交互向量与TIGER物品语义码、LightGCN图表示及SASRec前缀序列监督的对象、全物品/采样评估和服务接口差异，新增交互向量去噪问题；不跨协议排名。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

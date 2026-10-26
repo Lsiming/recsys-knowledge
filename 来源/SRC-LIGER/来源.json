@@ -1,0 +1,40 @@
+{
+  "id": "SRC-LIGER",
+  "title": "Unifying Generative and Dense Retrieval for Sequential Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "723386fb4c93009d5719bcb815a654eb934ce6af92d51d2ff6048c591b56f40a",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2411.18814v2",
+      "revision": "arXiv:2411.18814v2，2024-12-06；原PDF内日期2024-12-10",
+      "read_scope": "已读固定18页PDF正文§1–6、全部图表、附录A–D，文献仅回查；活跃正文源码与原PDF图1/3/5、表1/2/4目视核对。未读算法实现、未运行实验。",
+      "artifacts": [
+        {
+          "name": "LIGER.2411.18814v2.pdf",
+          "sha256": "cc50cca611a1a0ce418fda60575c128b771f76e9bf4d6d065dddd04683e60180",
+          "snapshot": ".local/sources/SRC-LIGER/cc50cca611a1a0ce418fda60575c128b771f76e9bf4d6d065dddd04683e60180/LIGER.2411.18814v2.pdf"
+        },
+        {
+          "name": "LIGER.2411.18814v2.source.tar.gz",
+          "sha256": "aafcba9bb6b3ef0fc2eaf714ef07af377cf9bc711b3d1120ccbd529c5ed5c5cc",
+          "snapshot": ".local/sources/SRC-LIGER/aafcba9bb6b3ef0fc2eaf714ef07af377cf9bc711b3d1120ccbd529c5ed5c5cc/LIGER.2411.18814v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "723386fb4c93009d5719bcb815a654eb934ce6af92d51d2ff6048c591b56f40a",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "10f18ba448779ed2ce239e0585368b210ca6e098d8cddf7fc79349e9306eaff5",
+        "pages": [
+          "hybrid-generative-dense-retrieval",
+          "multidomain-transfer",
+          "retrieval"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v2正文§2–4、算法1、表2与附录B–D：双目标、冷池显式补入、K与冷池/文本存储成本、Toys排名异常和随K增加的冷启动竞争已限定；正文中文PDF15页逐页目视、公式/表值与引用核对，独立CR修订完成；未运行模型或复现时延。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

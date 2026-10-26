@@ -1,0 +1,63 @@
+{
+  "base_commit": "a6da56d2d67d867e97611fbfd2ee2daf2291652e",
+  "date": "2026-10-25",
+  "reason": "知识优先入口替换原有会话优先入口；归档只供查证，不代表当前规则或授权",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "106b3449d9fee9a45fef187089798b14bd239d8b4364c42876c8a9c54ef4451e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "4d978de90fedf4907aa5cb645cc31d852401756420228e8afa351ae3c1f5707a"
+    },
+    {
+      "path": "PROJECT_MEMORY.md",
+      "sha256": "fa34ce3263ed2e74c9dd7e39aae1e347638a3e57e454530e88d277beac91141b"
+    },
+    {
+      "path": "SESSION.md",
+      "sha256": "4dfdd931cbcec277d06a93a941cf148731dcb829353d3c159a6a7b4664953596"
+    },
+    {
+      "path": "TODO.md",
+      "sha256": "8e3e47622e36a2f4948338f2c68fec785da4c99ff026dbdda681198525911a2f"
+    },
+    {
+      "path": "docs/PROJECT_BACKGROUND.md",
+      "sha256": "9a8e824ffa1fabac139ad122679399805777cd6a0e56bd0913210666ca4de33c"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "8d6118b081ef1b4f8fc826840ba05ed1129729ebcd64f2ec3a6431c44620f11f"
+    },
+    {
+      "path": "docs/规范/上下文与多会话协作.md",
+      "sha256": "d57fcaad042c22f06bc8d10e9e2f5be37e5db9319dd713949a39d720b328c0e0"
+    },
+    {
+      "path": "docs/规范/研究工作流.md",
+      "sha256": "cb7716f1e34a71ef7f8a45fc1cc2bc6790baaa57eeb983131814f4973dcd66f6"
+    },
+    {
+      "path": "docs/会话/KB-001.md",
+      "sha256": "3ade3839f58ea899fea4c6a2ed95e43f322aeaf90ccef5453d0ae7e2b42bf6c6"
+    },
+    {
+      "path": "docs/会话/README.md",
+      "sha256": "648c5430a40d1dacec2f1f49a1d40fac0b34889ddf8307f3460c16c9df71da71"
+    },
+    {
+      "path": "docs/研究/README.md",
+      "sha256": "8dda2b48bdae2dcbf74bf61fbef36314d89f0e7c6ce0b5e1732a7eeff87fdb00"
+    },
+    {
+      "path": "docs/历史归档/README.md",
+      "sha256": "5d5afd2d5e676978bdc474602abbad175ac6ab20e31936c48d439af0bf4da8d1"
+    },
+    {
+      "path": "scripts/check_context.py",
+      "sha256": "715d61ac3517a2c5ed52ac7f8b130b46ac23905016dfff1fb56b483546ddf7fd"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "SRC-LIGHTGCN",
+  "title": "LightGCN · Simplifying and Powering Graph Convolution Network for Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "f5deb57410ab3ef722679a7bd08641bfab1a1669c6f9478bb68d9c7efc74013d",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2002.02126v4",
+      "revision": "2002.02126v4 (2020-07-07; SIGIR 2020; DOI 10.1145/3397271.3401063)",
+      "read_scope": "正文§1–6（PDF第1–10页），无附录；文献表用于引文定位，未逐篇精读所引论文，未读算法实现。正文与图表说明已翻译，文献/图内英文保留；编译HTTP400 ZMQ资源错误，无中文PDF。",
+      "artifacts": [
+        {
+          "name": "LightGCN.2002.02126v4.pdf",
+          "sha256": "e48e4c27e4dc9ffd50f531b69682da0a500ae9a8190c629aeff223b40b555306",
+          "snapshot": ".local/sources/SRC-LIGHTGCN/e48e4c27e4dc9ffd50f531b69682da0a500ae9a8190c629aeff223b40b555306/LightGCN.2002.02126v4.pdf"
+        },
+        {
+          "name": "LightGCN.2002.02126v4.source.tar.gz",
+          "sha256": "99a7b4ca45329e12eb70e1f49702ceb355d0f71191a2c9be92bda767032f6ea5",
+          "snapshot": ".local/sources/SRC-LIGHTGCN/99a7b4ca45329e12eb70e1f49702ceb355d0f71191a2c9be92bda767032f6ea5/LightGCN.2002.02126v4.source.tar.gz"
+        }
+      ],
+      "fingerprint": "f5deb57410ab3ef722679a7bd08641bfab1a1669c6f9478bb68d9c7efc74013d",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "c99034236d066bff8bab0b51b2f1c3493497ec3d556bf9b9ce5410b7d154b59d",
+        "pages": [
+          "collaborative-graph-representation",
+          "interaction-vector-denoising",
+          "multi-interest-retrieval",
+          "representations-tokenization",
+          "retrieval"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对2002.02126v4正文§1–6、原PDF第5–8页渲染、17公式与6表数值。区分纯ID消融、图传播和BPR目标；SGCN二项式仅省归一化条件下成立，APPNP恢复需同算子与匹配权重，默认均匀模型无任意深度保证。核对全库排序与基线复用、参数与图计算成本。表3/4/5及式16/17疑点原样保留并登记审核台，未补造采样、勘误或线上收益。正文已译，扫描残留仅专名/机构/指标；编译ZMQ资源错误无中文PDF，未验译后排版，未读算法实现或运行模型。 独立只读子Agent CR逐项核查核心机制、表1–6与式16/17、译文、引文页码和7处锚点，无可操作发现。 新增MIND多兴趣问题的机制比较：核对既有精读中的全局交互图线性传播与单向量接口，保留原证据与限制，不跨协议比较数值，独立CR无新增发现。 DiffRec：核对全目录交互向量与TIGER物品语义码、LightGCN图表示及SASRec前缀序列监督的对象、全物品/采样评估和服务接口差异，新增交互向量去噪问题；不跨协议排名。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

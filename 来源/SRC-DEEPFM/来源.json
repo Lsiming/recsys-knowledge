@@ -1,0 +1,38 @@
+{
+  "id": "SRC-DEEPFM",
+  "title": "DeepFM · DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+  "kind": "paper",
+  "state": "active",
+  "current": "6d956861c5121b815552f3a6dc639aa1ab58dbb38df6d0ce0b34bb6a3aed25f3",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1703.04247v1",
+      "revision": "1703.04247v1; IJCAI 2017",
+      "read_scope": "正式PDF全部8页：正文§1–5、图1–11、表1–2与参考文献；原稿第3/5页渲染核对结构、公式及实验。原始LaTeX压缩包已保留，6个活跃tex正文与图表注已译，图内英文/文献保留；编译服务资源错误，应用编译下载依赖超时，未得中文PDF。未读被引论文全文、未运行模型或官方代码。",
+      "artifacts": [
+        {
+          "name": "DeepFM.1703.04247v1.pdf",
+          "sha256": "31548d474c2c6100bbc11da68cabf0e242a3657d7277c81e61ccc1efd78e6dad",
+          "snapshot": ".local/sources/SRC-DEEPFM/31548d474c2c6100bbc11da68cabf0e242a3657d7277c81e61ccc1efd78e6dad/DeepFM.1703.04247v1.pdf"
+        },
+        {
+          "name": "DeepFM.1703.04247v1.source.tar.gz",
+          "sha256": "ca2cab5a5cd75e63d959a36ef515ac46039c26a8826cbe90288d9e0a45d60e03",
+          "snapshot": ".local/sources/SRC-DEEPFM/ca2cab5a5cd75e63d959a36ef515ac46039c26a8826cbe90288d9e0a45d60e03/DeepFM.1703.04247v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "6d956861c5121b815552f3a6dc639aa1ab58dbb38df6d0ce0b34bb6a3aed25f3",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "eba6b2fa2ff45538ff88093b4a43231f7dccf1b0d2d3e23d897b8c3f7a70b193",
+        "pages": [
+          "sparse-feature-interactions"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对1703.04247v1全部8页、原稿3/5页渲染、式1–4与表2；保留输出sigmoid及原FM下标歧义，区分统一符号/平方和推导和原文。正文6tex已译并保留原包，可读Markdown降级，编译服务ZMQ资源错误、应用编译依赖下载超时，无中文PDF。比较仅来自本篇基线，区分训练耗时与推理、离线与线上；未运行模型或独立精读被引论文。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

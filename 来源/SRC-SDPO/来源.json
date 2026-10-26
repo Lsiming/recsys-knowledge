@@ -1,0 +1,40 @@
+{
+  "id": "SRC-SDPO",
+  "title": "On Softmax Direct Preference Optimization for Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "79cdfc24cb6d70b53731868c03067f87c326a9a3f10790328130d48ec92696ef",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2406.09215v3",
+      "revision": "arXiv:2406.09215v3, 2024-11-07, NeurIPS 2024",
+      "read_scope": "已读固定v3正式PDF正文第1–10页§1–7、图1–3/表1–2、13编号公式，以及附录A–D第17–20页推导/实验协议/骨干比较/影响；致谢与参考文献仅回查。核对对应活跃LaTeX正文；未读官方算法实现，未运行模型。",
+      "artifacts": [
+        {
+          "name": "S-DPO.2406.09215v3.pdf",
+          "sha256": "6cbcbabb554d1e9c095983f18a0befb1aea34a1eddaf89ca276866c5ad35ebd4",
+          "snapshot": ".local/sources/SRC-SDPO/6cbcbabb554d1e9c095983f18a0befb1aea34a1eddaf89ca276866c5ad35ebd4/S-DPO.2406.09215v3.pdf"
+        },
+        {
+          "name": "S-DPO.2406.09215v3.source.tar.gz",
+          "sha256": "bdcf577f011b3008a703ee5c834beb15e84b440f4ed7fa201c01f4ba360fecf7",
+          "snapshot": ".local/sources/SRC-SDPO/bdcf577f011b3008a703ee5c834beb15e84b440f4ed7fa201c01f4ba360fecf7/S-DPO.2406.09215v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "79cdfc24cb6d70b53731868c03067f87c326a9a3f10790328130d48ec92696ef",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "90a1da5904e09e780631f4355ac70308df8acfc789288070603ca50e03991008",
+        "pages": [
+          "generative-preference-alignment",
+          "generative-recommendation",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v3正文§1–7、附录A–D、公式与表1/2/4；合并PL部分排序/相对SFT奖励/负例梯度及OneRec/BPR比较，保留奖励漏log与非单调/骨干例外。正文17页中文PDF逐页渲染核查，英文附录仅调公式字号；独立CR两处排版发现已修复，未读实现或运行模型。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

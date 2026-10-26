@@ -1,0 +1,39 @@
+{
+  "id": "SRC-PEPNET",
+  "title": "PEPNet · PEPNet: Parameter and Embedding Personalized Network for Infusing with Personalized Prior Information",
+  "kind": "paper",
+  "state": "active",
+  "current": "031104a6b2f8d39cb9f77ccfcb76886b6f3dbd5ddf91949cc99db0820734d58a",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2302.01115v3",
+      "revision": "arXiv 2302.01115v3，2023-06-27；KDD 2023，DOI 10.1145/3580305.3599884；固定v3 PDF与配套上游源码压缩包",
+      "read_scope": "已读10页摘要、正文§1–5、9个编号公式、3张编号表（5个源码表块）及5图；37条参考文献仅定位，无附录，未读算法实现或运行模型。当前模型翻译全部正式正文、摘要、图表说明和描述性脚注；图内英文、文献身份与专名保留。中文Markdown与译后pepnet_kdd.tex及完整工程保留；远程编译HTTP400 ZMQ资源错误，无中文PDF，未验中文排版。",
+      "artifacts": [
+        {
+          "name": "PEPNet.2302.01115v3.pdf",
+          "sha256": "1f709a18fa91ee3fe7be425c0eaf3efcb704302e6a99c8d91ccc26715143621f",
+          "snapshot": ".local/sources/SRC-PEPNET/1f709a18fa91ee3fe7be425c0eaf3efcb704302e6a99c8d91ccc26715143621f/PEPNet.2302.01115v3.pdf"
+        },
+        {
+          "name": "PEPNet.2302.01115v3.source.tar.gz",
+          "sha256": "0084aedfd15491226644423f5855184738680fe3f6ebdc60753b3a059a000f2e",
+          "snapshot": ".local/sources/SRC-PEPNET/0084aedfd15491226644423f5855184738680fe3f6ebdc60753b3a059a000f2e/PEPNet.2302.01115v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "031104a6b2f8d39cb9f77ccfcb76886b6f3dbd5ddf91949cc99db0820734d58a",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "bfde2b54e3152ee003234fa2d754dd611c145c5bbe00c7bfa4c6347db83383a2",
+        "pages": [
+          "multidomain-parameter-sharing",
+          "multidomain-transfer"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v3的10页正文、9式、3编号表及5图；区分SG门支路与主梯度、样本条件隐单元调制与任意满矩阵/每用户独立塔、PLE路由及STAR域权重。保留表2四处非最佳及次佳标记、DCNv2名称、标签/GAUC与工程设置边界REV-012。cite41/citet3/label14/ref19/图16顺序、9公式原字节、5表块TeX/译文数字及19本地目标核对通过。中文Markdown和完整译后工程可用，无中文PDF，未验中文排版或运行模型。独立只读CR修复译文表2次佳下划线遗漏与域A标识，36处下划线按序复核通过，无剩余可操作发现。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

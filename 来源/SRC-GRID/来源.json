@@ -1,0 +1,38 @@
+{
+  "id": "SRC-GRID",
+  "title": "Snap GRID · 语义 ID 推荐实践入口",
+  "kind": "repository",
+  "state": "active",
+  "current": "28706e2048f91715df536ffa3f8cd8b3a9ebac1b2e977db42d279b258e545fac",
+  "versions": [
+    {
+      "locator": "https://github.com/snap-research/GRID",
+      "revision": "2fe3475b2d369580234093f35d52b1a2f54d0472",
+      "read_scope": "README Overview、Quick Start、Supported Models、Citation 与 Bibliography；未读实现、未运行",
+      "artifacts": [
+        {
+          "name": "README.md",
+          "sha256": "38526be8ec8921fea6ca52d5388f00d4475ec0b373ba0543aae58e31b5095ef6",
+          "snapshot": ".local/sources/SRC-GRID/38526be8ec8921fea6ca52d5388f00d4475ec0b373ba0543aae58e31b5095ef6/README.md"
+        }
+      ],
+      "fingerprint": "28706e2048f91715df536ffa3f8cd8b3a9ebac1b2e977db42d279b258e545fac",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "4d2b7cecab06498e69acf34bb895a562dbd00b1ad017bd58dbe53d65a2a1d6b4",
+        "pages": [
+          "generation-decoding",
+          "generative-recommendation",
+          "learning-resources",
+          "paper-candidates",
+          "representations-tokenization",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对文本向量到语义 ID 再到生成的接口、重复码消歧说明及实践手册身份；明确 Snap 框架与 TIGER 原作者实现区别。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

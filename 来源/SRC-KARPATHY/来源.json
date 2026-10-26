@@ -1,0 +1,35 @@
+{
+  "id": "SRC-KARPATHY",
+  "title": "Karpathy · LLM Wiki",
+  "kind": "essay",
+  "state": "active",
+  "current": "96e0196042d56f4618353867668400f216300374c9b163c5089f50498213b4c7",
+  "versions": [
+    {
+      "locator": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "revision": "6b0cef32d73931fcab7498a7e82208e3ea41ee6f",
+      "read_scope": "全文通读；三层架构、Ingest/Query/Lint、索引日志、可选工具与限制",
+      "artifacts": [
+        {
+          "name": "karpathy.md",
+          "sha256": "dc3efe98ae62f23dd08acad13aba2e95287beb20b6bec2f4af0423557fe37401",
+          "snapshot": ".local/sources/SRC-KARPATHY/dc3efe98ae62f23dd08acad13aba2e95287beb20b6bec2f4af0423557fe37401/karpathy.md"
+        }
+      ],
+      "fingerprint": "96e0196042d56f4618353867668400f216300374c9b163c5089f50498213b4c7",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e6a92ccc3085ee2f90a2879fb25c7a3f5b07c435fad6e0205f9dd3d85beb8241",
+        "pages": [
+          "evidence-and-scope",
+          "knowledge-maintenance",
+          "persistent-knowledge"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核既有固定来源、阅读范围及引用陈述；将解读与知识正文改为技术文章，保留来源独有的条件与限制，并核对新导航及显式处理语义版本。仅迁移收据签名，不更改原件/来源指纹；未新增推荐论文、未执行论文翻译或上游应用。当前 Agent 自查。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "SRC-GRID-PAPER",
+  "title": "Generative Recommendation with Semantic IDs: A Practitioner's Handbook",
+  "kind": "paper",
+  "state": "active",
+  "current": "5f9ecf6afe2cf35345110a5dc029eb7fcc965a48e090e87df17a0e6c28a6a520",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2507.22224v1",
+      "revision": "arXiv:2507.22224v1，2025-07-29",
+      "read_scope": "已读固定6页PDF正文§1–5（第1–5页）、图1、表1–8及两条脚注；第5–6页文献仅回查。核对全部活跃LaTeX及原PDF第2–5页，正式版本无附录；未读框架实现、未运行实验。",
+      "artifacts": [
+        {
+          "name": "GRID.2507.22224v1.pdf",
+          "sha256": "918fc99dba739dd34625550c89885c06a83c20f9f3998bfb875aee801344b753",
+          "snapshot": ".local/sources/SRC-GRID-PAPER/918fc99dba739dd34625550c89885c06a83c20f9f3998bfb875aee801344b753/GRID.2507.22224v1.pdf"
+        },
+        {
+          "name": "GRID.2507.22224v1.source.tar.gz",
+          "sha256": "3c40e00f410263326f4ccb78ca42c57d8db4c48af69c924b3a652b0c42497b57",
+          "snapshot": ".local/sources/SRC-GRID-PAPER/3c40e00f410263326f4ccb78ca42c57d8db4c48af69c924b3a652b0c42497b57/GRID.2507.22224v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "5f9ecf6afe2cf35345110a5dc029eb7fcc965a48e090e87df17a0e6c28a6a520",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "430c3e9e3d93dfa4bd746642fbd3a25b4438e9df2a223997527665b30815aa82",
+        "pages": [
+          "generation-decoding",
+          "representations-tokenization",
+          "semantic-code-retrieval"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v1正式正文、8表212指标、图1与记号；中文Markdown和译后工程保留，三次编译失败无中文PDF。独立子Agent CR发现摘要排版残留已修并复核，新增summary/solution定向复核通过。保留原文表7异常与协议缺口至REV-025；未读实现或运行实验。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

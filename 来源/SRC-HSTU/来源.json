@@ -1,0 +1,38 @@
+{
+  "id": "SRC-HSTU",
+  "title": "Meta Generative Recommenders · HSTU 官方代码入口",
+  "kind": "repository",
+  "state": "active",
+  "current": "9af37a69771cbfea04e1f6909052317f7acb03587438a1b73667656b7d015b09",
+  "versions": [
+    {
+      "locator": "https://github.com/meta-recsys/generative-recommenders",
+      "revision": "f88532f2eea591361dd8796444971f66df82fe5d",
+      "read_scope": "README 导言、Public Experiments 的协议注释、效率实验入口与 DLRM-v3；未读论文全文和模型源码、未复现数值",
+      "artifacts": [
+        {
+          "name": "README.md",
+          "sha256": "de05ed6d206be9f0d93fd96f26a7f9b7fd3d0aaf29ed77dd46afba089da920a1",
+          "snapshot": ".local/sources/SRC-HSTU/de05ed6d206be9f0d93fd96f26a7f9b7fd3d0aaf29ed77dd46afba089da920a1/README.md"
+        }
+      ],
+      "fingerprint": "9af37a69771cbfea04e1f6909052317f7acb03587438a1b73667656b7d015b09",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "3197437753ec9b021e6a7fdb5628ecdf026a46fd30b0b38f3924822422b7a0b8",
+        "pages": [
+          "evaluation-bias",
+          "generative-recommendation",
+          "learning-resources",
+          "serving-efficiency",
+          "training-alignment",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对公开实验协议注释、效率与 DLRM-v3 入口；区分架构和输出方式，未引用效果/加速数字或声称复现。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

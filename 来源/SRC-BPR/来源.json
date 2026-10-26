@@ -1,0 +1,36 @@
+{
+  "id": "SRC-BPR",
+  "title": "BPR · Bayesian Personalized Ranking from Implicit Feedback",
+  "kind": "paper",
+  "state": "active",
+  "current": "84ab29d6f83398c50dd372a968ca899e34b882edda41868181ddc1786f4fd8e3",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1205.2618v1",
+      "revision": "1205.2618v1; UAI 2009, pp.452–461; arXiv上传2012-05-09",
+      "read_scope": "正式PDF全文10页：摘要、§1–7、图1–6、参考文献；以渲染页4/5/7核对似然、梯度与WR-MF排印问题。源码下载入口返回PDF，未取得LaTeX；中文Markdown覆盖正文与图注，图本体回查原文；未独立精读被引论文，未运行模型。",
+      "artifacts": [
+        {
+          "name": "BPR.1205.2618v1.pdf",
+          "sha256": "03a873c778deceb977e6dfae3fb8a24b3c5f9cf60d882a12c4bab4df1cf611df",
+          "snapshot": ".local/sources/SRC-BPR/03a873c778deceb977e6dfae3fb8a24b3c5f9cf60d882a12c4bab4df1cf611df/BPR.1205.2618v1.pdf"
+        }
+      ],
+      "fingerprint": "84ab29d6f83398c50dd372a968ca899e34b882edda41868181ddc1786f4fd8e3",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "52c514b6c84bfafa9fb89cf3b33f7749a07bdbb45fddcc1a71ff8f21cf8ea838",
+        "pages": [
+          "collaborative-graph-representation",
+          "generative-preference-alignment",
+          "implicit-pairwise-ranking",
+          "next-item-sequence"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对1205.2618v1全部10页、原稿4/5/7页渲染及数据/随机留一协议。中文Markdown降级，无源码/中文PDF。区分原文符号问题和推导，明确总和/平均目标正则缩放、全参数/局部正则。只读子Agent CR发现的数学定界符、表格竖线及正则缩放已修复并复核；无剩余可操作问题。未运行模型或独立精读被引方法。 本轮自查新增下一物品问题中的BPR分差公式、平移性质及与采样BCE比较，保留原论文AUC协议边界。 本轮新增图协同问题中的BPR-MF内积、成对目标与训练复杂度比较，保留Rossmann/Netflix随机留一AUC的原始证据，未跨数据/候选集与LightGCN排名。 保留既有BPR笔记与页面，新增偏好对齐页比较物品分差及OneRec列表相对参考分差，核对BPR §4第4–5页；不把相似log-sigmoid当同一标签/目标，未新增BPR模型实验。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

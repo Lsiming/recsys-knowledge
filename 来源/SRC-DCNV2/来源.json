@@ -1,0 +1,40 @@
+{
+  "id": "SRC-DCNV2",
+  "title": "DCNv2 · DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems",
+  "kind": "paper",
+  "state": "active",
+  "current": "d6f58155bfc68b29341b6cd1894716faa2b0285af39401d7d026890d194be147",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2008.13535v2",
+      "revision": "2008.13535v2 (2020-10-20)",
+      "read_scope": "已读14页摘要、正文§1–9及附录§10–11，52条文献仅作定位；未读所引原论文或运行模型。正式正文/图表说明/描述性脚注及致谢已译，图内英文、文献和附录保留。编译HTTP400 ZMQ资源错误，无中文PDF。",
+      "artifacts": [
+        {
+          "name": "DCNv2.2008.13535v2.pdf",
+          "sha256": "3611c6b15bc6d948b4f20bc2a58b46f33764fef154ddbdcf531d5e566a64a694",
+          "snapshot": ".local/sources/SRC-DCNV2/3611c6b15bc6d948b4f20bc2a58b46f33764fef154ddbdcf531d5e566a64a694/DCNv2.2008.13535v2.pdf"
+        },
+        {
+          "name": "DCNv2.2008.13535v2.source.tar.gz",
+          "sha256": "01b54ebd55ce96d27714971520d6566f8d73b102150f571d993410f029e6ad9d",
+          "snapshot": ".local/sources/SRC-DCNV2/01b54ebd55ce96d27714971520d6566f8d73b102150f571d993410f029e6ad9d/DCNv2.2008.13535v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "d6f58155bfc68b29341b6cd1894716faa2b0285af39401d7d026890d194be147",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "d49da3917dcb9fa89fc9bf5b44bae92bd0b7d49084b145ab6362cdba15fc40c4",
+        "pages": [
+          "ranking-interaction",
+          "serving-efficiency",
+          "sparse-feature-interactions"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对v2正文与附录、公式/表格/版本及AUCLoss口径；当前模型自查与独立只读CR完成，已修复两处格式残留。中文Markdown与译后工程可用，编译资源错误，无中文PDF，未运行模型。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "task_id": "KB-001",
+  "retrieved_on": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "purpose": "知识库架构设计依据；不包含推荐算法文献评估或外部应用运行验证",
+  "verification_scope": {
+    "external_app_executed": false,
+    "external_tests_executed": false,
+    "benchmark_numbers_reproduced": false,
+    "repository_completeness_ranking_verified": false,
+    "raw_snapshots_committed": false
+  },
+  "local_skill": {
+    "name": "llm-wiki",
+    "declared_version": "4.0.0",
+    "location_hint": "~/.codex/skills/llm-wiki",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "cd30b45812a139d58639db744e1972cc23b4dd343b0b76c9b4cf79ed7bc873aa",
+        "read_scope": "全文读取；索引只用于了解已有组织方式，不核实其金融业务内容"
+      },
+      {
+        "path": "AGENTS.md",
+        "sha256": "458e3a904a7c0be09dbdbba21435ee51e5bbe0a0dfdeb8969e90f7e298ca5595",
+        "read_scope": "全文读取；索引只用于了解已有组织方式，不核实其金融业务内容"
+      },
+      {
+        "path": "index.md",
+        "sha256": "88e5036af46a84cc9e2f5f81ea61b6f50fdde028515c84d1320f33bac14ae47c",
+        "read_scope": "全文读取；索引只用于了解已有组织方式，不核实其金融业务内容"
+      },
+      {
+        "path": "SCHEMA.md",
+        "sha256": "d0d1fcfd0790e60c18943172b43145667bdd9ab28da3817ace05fa718fe495aa",
+        "read_scope": "全文读取；索引只用于了解已有组织方式，不核实其金融业务内容"
+      },
+      {
+        "path": "_meta/context-packs.md",
+        "sha256": "0def6f4734c2662524d144ae374645fcc8d6bb206296dd7568436a1affde59e5",
+        "read_scope": "全文读取；索引只用于了解已有组织方式，不核实其金融业务内容"
+      },
+      {
+        "path": "_meta/update-policy.md",
+        "sha256": "f840a971ca481022a8c794102db50481c4b9d5ec8fd10496adcff64a70bb86cf",
+        "read_scope": "全文读取；索引只用于了解已有组织方式，不核实其金融业务内容"
+      },
+      {
+        "path": "_meta/lint-policy.md",
+        "sha256": "daeac89962a839296d4a4b88dc7a70ffc504173b831a0d1dddba659270b8a8fc",
+        "read_scope": "全文读取；索引只用于了解已有组织方式，不核实其金融业务内容"
+      }
+    ]
+  },
+  "karpathy_gist": {
+    "title": "LLM Wiki",
+    "author": "Andrej Karpathy",
+    "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+    "content_revision": "6b0cef32d73931fcab7498a7e82208e3ea41ee6f",
+    "pinned_raw_url": "https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/6b0cef32d73931fcab7498a7e82208e3ea41ee6f/llm-wiki.md",
+    "sha256": "dc3efe98ae62f23dd08acad13aba2e95287beb20b6bec2f4af0423557fe37401",
+    "read_scope": "全文通读"
+  },
+  "nashsu_repository": {
+    "url": "https://github.com/nashsu/llm_wiki",
+    "commit": "e08cfce65aad8b76b13546a081c1a8d4422b70c3",
+    "commit_date_utc": "2026-10-21T11:17:06Z",
+    "package_version": "0.6.13",
+    "read_scope": "README 与核心实现的定向静态阅读，不是完整源码审计",
+    "files": [
+      {
+        "path": "README_CN.md",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/README_CN.md",
+        "sha256": "90ce966bf1501d6a493e1196f76fee71128495116f0c66f9f8a9641b64a0e924",
+        "lines": 505,
+        "read_scope": "阅读功能、架构、摄入/检索/审核、删除、项目结构与工具接入章节；未复测文中效果数字"
+      },
+      {
+        "path": "package.json",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/package.json",
+        "sha256": "0dcd1071dd807ef82172362044456e0df5116313b52ea71740c97e8fcaf0d5c3",
+        "lines": 73,
+        "read_scope": "全文；核实声明版本与技术依赖"
+      },
+      {
+        "path": "src/lib/templates.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/templates.ts",
+        "sha256": "e400f232627f10c6ac6a35d7184e62013c9620ba1a39fdde6262478240b9bfa5",
+        "lines": 654,
+        "read_scope": "1–210 行：基础页面类型、Schema、Purpose 与研究模板"
+      },
+      {
+        "path": "src/lib/wiki-schema.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/wiki-schema.ts",
+        "sha256": "1210dc58abfc7793aae4afeddc02db9cec635acf559fe33c294cef792c7f2dd6",
+        "lines": 157,
+        "read_scope": "全文：页面类型与目录路由"
+      },
+      {
+        "path": "src/lib/ingest.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/ingest.ts",
+        "sha256": "f93cb6a9581a33169f3b49dfc2b2f153cb8e1ddeb48f2313cf42da8ca4e428bb",
+        "lines": 3940,
+        "read_scope": "定向阅读：分析/生成提示（约 2400–2640 行）、主写入与失败处理（约 1250–1510 行）、确定性索引/概要（1700–1820 行）、合并保护（约 2230–2290 行）；另用 rg 定位函数与调用关系；未逐行审计全文"
+      },
+      {
+        "path": "src/lib/ingest-commit-coordinator.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/ingest-commit-coordinator.ts",
+        "sha256": "7a05e75a216fa1789731fd3929df27acf5153e2089b013e7691591febe4a796e",
+        "lines": 42,
+        "read_scope": "全文：预留写入次序，允许准备阶段并行"
+      },
+      {
+        "path": "src/lib/ingest-cache.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/ingest-cache.ts",
+        "sha256": "c9390fbd7ef5d411f176f960d12fdc222c3689aff2f5a1a2087c9a6be1b222c9",
+        "lines": 151,
+        "read_scope": "全文：来源内容哈希、输出存在性、缓存迁移与失效"
+      },
+      {
+        "path": "src/lib/page-merge.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/page-merge.ts",
+        "sha256": "530a553f005fb7f466f1780cc1565600a8688e8ed1f98c2ef8f332a1fa790372",
+        "lines": 515,
+        "read_scope": "1–180 行：合并协议、元数据保护与部分失败分支；未执行"
+      },
+      {
+        "path": "src/lib/source-identity.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/source-identity.ts",
+        "sha256": "16ce32ab33fcae52dd3ba08e05d711f167d892beaf2b0850f3a30438f5dedf2f",
+        "lines": 167,
+        "read_scope": "1–155 行：路径身份、摘要 slug 与同名/长度处理"
+      },
+      {
+        "path": "src/lib/source-lifecycle.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/source-lifecycle.ts",
+        "sha256": "2aa85bdda0950a529387c6528d1cd85cc4cd381b3fb82449f26c89e7847ee4a1",
+        "lines": 747,
+        "read_scope": "函数定位和 460–578 行：多来源删除路径；非全生命周期审计"
+      },
+      {
+        "path": "src/lib/lint.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/lint.ts",
+        "sha256": "13ff18e153999651d12444265ccac6c4e0fd79a8de755ae1664eebee430dbe63",
+        "lines": 356,
+        "read_scope": "120–215 行及函数定位：结构检查与语义检查入口"
+      },
+      {
+        "path": "src/lib/lint-structural-core.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/lint-structural-core.ts",
+        "sha256": "90e9cc37a4a8dc4715e4dfaba3c08017639041ff6ed12407d5ce2feacc1db776",
+        "lines": 224,
+        "read_scope": "全文：孤页、无出链、断链与候选建议"
+      },
+      {
+        "path": "src/lib/sweep-reviews.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/sweep-reviews.ts",
+        "sha256": "dfc8f55809da55499a677ccdbb7fb32bbe365dfdec3dc769e1bb068814fc4982",
+        "lines": 462,
+        "read_scope": "1–150 行：审核清理设计与索引辅助"
+      },
+      {
+        "path": "src/lib/search.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/search.ts",
+        "sha256": "5c42b8bbe22a0287fd3bb29a74a52adb35eab22b6305f9e8ecc86be362e2456d",
+        "lines": 83,
+        "read_scope": "全文：查询分词与共享后端调用；非后端完整检索审计"
+      },
+      {
+        "path": "src/lib/context-budget.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/context-budget.ts",
+        "sha256": "cfc36b300fb24cbbfeb292323fab2aa8cf67cd8937dd186d9fc6d631841a3632",
+        "lines": 100,
+        "read_scope": "全文：前端字符预算辅助；未认定为当前 Agent 全部预算策略"
+      },
+      {
+        "path": "src/lib/persist.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/persist.ts",
+        "sha256": "c9c1476b888f3b893ad545312ef9f045bed425f59ea43fa7575f70b5d084f3c3",
+        "lines": 304,
+        "read_scope": "1–210 行：审核/lint/聊天状态存储与恢复"
+      },
+      {
+        "path": "src/lib/graph-insights.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/graph-insights.ts",
+        "sha256": "3bc85d26528aa6f3237f09cd89290ac7ccc59b9b5c6f26ddfe153df520d21965",
+        "lines": 215,
+        "read_scope": "1–150 行：结构型关联与知识空白启发"
+      },
+      {
+        "path": "src/lib/deep-research.ts",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src/lib/deep-research.ts",
+        "sha256": "5d401926b3257e106ce4816b9f06c3fd65c59ca11d1f20109b0c557618b91aba",
+        "lines": 730,
+        "read_scope": "1–100 行：研究页面生成与来源收集接口；非完整研究流程审计"
+      },
+      {
+        "path": "mcp-server/README.md",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/mcp-server/README.md",
+        "sha256": "e22e529aacaa745c2f282d2c710c3dcc9a3f4bad8babb91b105df346b2bea2a7",
+        "lines": 77,
+        "read_scope": "全文：应用 API 依赖与 MCP 工具边界"
+      },
+      {
+        "path": "src-tauri/src/agent/context.rs",
+        "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/e08cfce65aad8b76b13546a081c1a8d4422b70c3/src-tauri/src/agent/context.rs",
+        "sha256": "c6f828939b572883b2c9294f52eb1527e9dca3aa417ed765a7c9fd0cb328a514",
+        "lines": 645,
+        "read_scope": "关键词定位上下文装配、规则载入与版本/图谱引用；非全文审计"
+      }
+    ]
+  },
+  "recovery_note": "外部文件可按固定 URL 重新获取并核对 SHA256；本地 skill 的哈希仅标识本次读取内容，未提交外部 Wiki 或私有业务材料副本。临时下载目录不是长期备份。"
+}

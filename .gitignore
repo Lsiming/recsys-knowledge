@@ -1,0 +1,65 @@
+# 系统、编辑器和本地环境
+.DS_Store
+.idea/
+.vscode/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.worktrees/
+
+# 凭证与本地会话配置
+*.pem
+*.key
+.jupyter_exec.yaml
+.jupyter_exec.yml
+.local/
+
+# 原始资料、真实数据、权重与运行产物
+/papers/
+/data/
+/datasets/
+/outputs/
+/artifacts/
+/checkpoints/
+/models/
+/logs/
+/tmp/
+/cache/
+*.log
+*.parquet
+*.feather
+*.arrow
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+
+# 小型非敏感汇总CSV/图片允许按明确文件提交；禁止在此全局忽略它们。
+
+# 个人浏览配置与论文附件（正式 Markdown 译文另放译文/）
+.obsidian/
+*.pdf
+*.tex
+*.bib
+*.bbl
+*.bst
+*.cls
+*.sty
+*.aux
+*.toc
+*.out
+*.synctex.gz

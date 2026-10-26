@@ -1,0 +1,42 @@
+{
+  "id": "SRC-ESMM",
+  "title": "ESMM · Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate",
+  "kind": "paper",
+  "state": "active",
+  "current": "5a91d8dbd17d75bfe0f10b38f25a0e2ebda523aa51d5b33f1913b4a75be1e2f0",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1804.07931v2",
+      "revision": "1804.07931v2; SIGIR 2018; DOI 10.1145/3209978.3210104",
+      "read_scope": "正式PDF全文4页（摘要、§1–4、图1–3、表1–2、参考文献）；核对实际参与编译的5个TeX及bbl。source-bundle为下载后未修改源码的本地重新打包，不是上游压缩包原字节；未运行模型或绘图脚本，未独立精读被引论文。",
+      "artifacts": [
+        {
+          "name": "ESMM.1804.07931v2.pdf",
+          "sha256": "5e1c0a4df1b55cadb258cecada2560352a169d3b6b6e7fa29b407d9b004013b7",
+          "snapshot": ".local/sources/SRC-ESMM/5e1c0a4df1b55cadb258cecada2560352a169d3b6b6e7fa29b407d9b004013b7/ESMM.1804.07931v2.pdf"
+        },
+        {
+          "name": "ESMM.1804.07931v2.source-bundle.tar.gz",
+          "sha256": "bac0a13187c7b41abd836d5d4db09d6d997a4a73404d486600cd6532ac1a5759",
+          "snapshot": ".local/sources/SRC-ESMM/bac0a13187c7b41abd836d5d4db09d6d997a4a73404d486600cd6532ac1a5759/ESMM.1804.07931v2.source-bundle.tar.gz"
+        }
+      ],
+      "fingerprint": "5a91d8dbd17d75bfe0f10b38f25a0e2ebda523aa51d5b33f1913b4a75be1e2f0",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "d99a69612cf1ede484859965305cdd812e44e44fd490b35bf5d705b9a0572721",
+        "pages": [
+          "delayed-conversion-censoring",
+          "implicit-pairwise-ranking",
+          "multitask-negative-transfer",
+          "multitask-objectives",
+          "post-click-cvr-estimation"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "当前 Agent 全文核对正式 PDF 4 页、公式(1)–(3)、图1–3、表1–2与点击/全曝光评价协议；翻译实际 LaTeX 正文并以 Tectonic 编译、渲染目视核对4页，保留图内英文和参考文献。标明§2.1 CTR笔误、同一独立CTR评估协议及无一般无偏保证。比较仅覆盖本文定义的BASE/DIVISION/ESMM-NS/ESMM；未独立精读被引方法、未运行模型。笔记与问题页相互引用，方案/论文检索已命中。 KB-005 合并复核：笔记正文保持，仅迁移中文路径；问题页归入既有多任务模块并补反向导航。来源版本、指纹与原件哈希不变，未重做翻译或科研验证。 本次补充自查：核对已有原稿第2/3页渲染图，确认概率分解与目标函数位置；问题页及精读完整展示公式、补充BCE定义，修正摘要页链接为固定版本PDF页码并核对库内小节。公开PDF返回HTTP 200/application/pdf，未验证所有客户端页码跳转；未更改论文原件、实验结论或重跑翻译。 本批补充：本次未变更ESMM笔记、原件和原有问题页；重读已有精读中概率分解及损失，核对新增相对偏好页对ESMM的引用只说明CTR/CVR事件概率与BPR相对排序目标不同，不比较异协议数字或声明校准。本次复用既有翻译与公式核查，未重做翻译/模型实验。 PLE批次补充：保留既有CVR与BPR比较，新增与PLE任务mask/共享结构的作用区分：ESMM按CTR×CVR构成CTCVR并以全曝光可观测事件监督，不把未点击曝光当直接CVR负例，不保证一般无偏；PLE掩码确定有效标签域，不能代替联合事件约束。核对既有ESMM精读与问题页，独立CR未发现可操作问题；无新增模型实验。 本轮依据已读DFM补充标签成熟与点击监督空间区别；新增延迟问题比较，不宣称组合实验证据或通用无偏，原ESMM译文与PDF不变。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

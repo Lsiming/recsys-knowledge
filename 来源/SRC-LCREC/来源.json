@@ -1,0 +1,43 @@
+{
+  "id": "SRC-LCREC",
+  "title": "Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "0dd16db5d0cca1e73e418c26b4eb88e3c6c2083328ccdf3b8a498db08f8b73ce",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2311.09049v4",
+      "revision": "arXiv2311.09049v4，2024-04-19，14页",
+      "read_scope": "已读固定14页PDF正文§I–V，核对7编号公式、算法1、5表及6图；参考文献核对文内对应，不独立精读所引基线；采用main.tex及五正文子文件，无附录。未读官方实现或运行模型。",
+      "artifacts": [
+        {
+          "name": "LCRec.2311.09049v4.pdf",
+          "sha256": "f7dc4bbbd405dafb65f31c77c0cd3e27a0cf2411597ffd28c204c0538b81f41e",
+          "snapshot": ".local/sources/SRC-LCREC/f7dc4bbbd405dafb65f31c77c0cd3e27a0cf2411597ffd28c204c0538b81f41e/LCRec.2311.09049v4.pdf"
+        },
+        {
+          "name": "LCRec.2311.09049v4.source.tar.gz",
+          "sha256": "16ad7c11cbe086866ab58ce81de766b97a9f5f9a7b5e906c2ff7b4685f37ee28",
+          "snapshot": ".local/sources/SRC-LCREC/16ad7c11cbe086866ab58ce81de766b97a9f5f9a7b5e906c2ff7b4685f37ee28/LCRec.2311.09049v4.source.tar.gz"
+        }
+      ],
+      "fingerprint": "0dd16db5d0cca1e73e418c26b4eb88e3c6c2083328ccdf3b8a498db08f8b73ce",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a89967a06a2e957544b468a8d762050c30eaee3085707e3028068e2476ec44aa",
+        "pages": [
+          "generation-decoding",
+          "generative-recommendation",
+          "multi-item-speculative-decoding",
+          "representations-tokenization",
+          "semantic-code-retrieval",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v4的14页正文、7编号公式与算法1、5表数字、6图，比较TIGER消歧码/新语言骨干与P5任务接口，区分软平衡和硬唯一性、合成意图和真实查询、全库任务和有限beam；保留REV-018，未据缺项断言冲突或泄漏。正文中文Markdown与完整译后工程保留，编译字体/caption已修后服务30秒超时，无中文PDF，未验译后排版、未读实现或运行模型。 AtSpeed本轮核对严格beam复现与宽松采样条件、TVD接受率、树形分支隔离、表1/4/7差异及LC-Rec/D³/M-FALCON机制比较；正文/附录已读，未运行实现。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

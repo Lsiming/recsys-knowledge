@@ -1,0 +1,40 @@
+{
+  "id": "SRC-SLATEQ",
+  "title": "Reinforcement Learning for Slate-based Recommender Systems: A Tractable Decomposition and Practical Methodology",
+  "kind": "paper",
+  "state": "active",
+  "current": "94247d0cb026ca248f536e3ed696d003372d989dcae34315e9908136574327ca",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1905.12767v2",
+      "revision": "arXiv1905.12767v2，2019-05-31；38页扩展版",
+      "read_scope": "已读固定38页PDF正文§1–10、算法1、3图、正文未编号表及支持核心结论的证明；核对主文件和9个实际引入tex。参考文献核身份，未独立精读所引论文；appendix.tex不被主文件引入，不计入正式正文；未读实现、未运行模型。",
+      "artifacts": [
+        {
+          "name": "SlateQ.1905.12767v2.pdf",
+          "sha256": "19606162ed0db201dd3782960f261df3b940a533c6802227c6f31c75082f8cba",
+          "snapshot": ".local/sources/SRC-SLATEQ/19606162ed0db201dd3782960f261df3b940a533c6802227c6f31c75082f8cba/SlateQ.1905.12767v2.pdf"
+        },
+        {
+          "name": "SlateQ.1905.12767v2.source.tar.gz",
+          "sha256": "55fee677693c79e1b8293fcedb107bbc148cc0d7e872235c37d2d0375991e114",
+          "snapshot": ".local/sources/SRC-SLATEQ/55fee677693c79e1b8293fcedb107bbc148cc0d7e872235c37d2d0375991e114/SlateQ.1905.12767v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "94247d0cb026ca248f536e3ed696d003372d989dcae34315e9908136574327ca",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a2c93e53f476afcb67d11a165bd32f0e5d9c5c3cfec6516fbd1bdaaef94f8cc3",
+        "pages": [
+          "exploration-longterm",
+          "reranking-slate",
+          "slate-longterm-decomposition"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对SlateQ扩展v2正文分解式14/19/20、LP与反例、模拟表及线上SARSA-TS边界；比较LinUCB即时探索、Seq2Slate前缀和DPP集合目标。已有各来源独有陈述保持原证据，新增比较按原精读自查；原文疑点保留REV-016，未核实现或跑实验，无中文PDF。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

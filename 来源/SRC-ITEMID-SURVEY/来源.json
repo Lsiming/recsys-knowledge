@@ -1,0 +1,38 @@
+{
+  "id": "SRC-ITEMID-SURVEY",
+  "title": "Item Identifiers in Generative Recommendation · 配套清单",
+  "kind": "catalog",
+  "state": "active",
+  "current": "1046c33f8c361b13e8c5a37293ef4b2533bac6d3f5669e08239b3bde0036f82a",
+  "versions": [
+    {
+      "locator": "https://github.com/HKBU-LAGAS/Awesome-Item-ID-Gen-RecSys",
+      "revision": "e07102f2ccf546bb7f41699aabf8859e7225edcb",
+      "read_scope": "README 创建/Tokenization/对齐/有效生成/解码加速分类及候选条目；未读综述全文或所链论文",
+      "artifacts": [
+        {
+          "name": "README.md",
+          "sha256": "1b686c3623e24645e626e57849c205201cf4119bc00169721609518f72177bdc",
+          "snapshot": ".local/sources/SRC-ITEMID-SURVEY/1b686c3623e24645e626e57849c205201cf4119bc00169721609518f72177bdc/README.md"
+        }
+      ],
+      "fingerprint": "1046c33f8c361b13e8c5a37293ef4b2533bac6d3f5669e08239b3bde0036f82a",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "ed39375c2821fde65a2fbd9260a68e78b762473f0e239258b5560cb8ff7f0669",
+        "pages": [
+          "generation-decoding",
+          "generative-recommendation",
+          "learning-resources",
+          "multidomain-transfer",
+          "representations-tokenization",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对物品标识构建、对齐、有效生成和加速分类；只用于问题与方法族组织，未声称阅读所链论文或审计实现。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

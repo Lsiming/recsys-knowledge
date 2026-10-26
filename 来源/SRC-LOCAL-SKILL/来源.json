@@ -1,0 +1,51 @@
+{
+  "id": "SRC-LOCAL-SKILL",
+  "title": "本地 llm-wiki v4 · 操作规范",
+  "kind": "skill",
+  "state": "active",
+  "current": "bfd9b63e3116f109f49c41d4eba6f26fa78565f4430bf616bcea81f1e082372d",
+  "versions": [
+    {
+      "locator": "local-skill://llm-wiki",
+      "revision": "4.0.0；以各文件 SHA256 固定",
+      "read_scope": "全文读取 SKILL.md、SCHEMA.md、_meta/update-policy.md、_meta/lint-policy.md；仅研究维护机制，不采用团队业务内容",
+      "artifacts": [
+        {
+          "name": "SKILL.md",
+          "sha256": "cd30b45812a139d58639db744e1972cc23b4dd343b0b76c9b4cf79ed7bc873aa",
+          "snapshot": ".local/sources/SRC-LOCAL-SKILL/cd30b45812a139d58639db744e1972cc23b4dd343b0b76c9b4cf79ed7bc873aa/SKILL.md"
+        },
+        {
+          "name": "SCHEMA.md",
+          "sha256": "d0d1fcfd0790e60c18943172b43145667bdd9ab28da3817ace05fa718fe495aa",
+          "snapshot": ".local/sources/SRC-LOCAL-SKILL/d0d1fcfd0790e60c18943172b43145667bdd9ab28da3817ace05fa718fe495aa/SCHEMA.md"
+        },
+        {
+          "name": "update-policy.md",
+          "sha256": "f840a971ca481022a8c794102db50481c4b9d5ec8fd10496adcff64a70bb86cf",
+          "snapshot": ".local/sources/SRC-LOCAL-SKILL/f840a971ca481022a8c794102db50481c4b9d5ec8fd10496adcff64a70bb86cf/update-policy.md"
+        },
+        {
+          "name": "lint-policy.md",
+          "sha256": "daeac89962a839296d4a4b88dc7a70ffc504173b831a0d1dddba659270b8a8fc",
+          "snapshot": ".local/sources/SRC-LOCAL-SKILL/daeac89962a839296d4a4b88dc7a70ffc504173b831a0d1dddba659270b8a8fc/lint-policy.md"
+        }
+      ],
+      "fingerprint": "bfd9b63e3116f109f49c41d4eba6f26fa78565f4430bf616bcea81f1e082372d",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "079f4e420e0176a3b8c4ecfc617864ccc3fe3a4c17b1104c07f4b70d78368736",
+        "pages": [
+          "evidence-and-scope",
+          "incremental-ingestion",
+          "knowledge-maintenance",
+          "persistent-knowledge"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核既有固定来源、阅读范围及引用陈述；将解读与知识正文改为技术文章，保留来源独有的条件与限制，并核对新导航及显式处理语义版本。仅迁移收据签名，不更改原件/来源指纹；未新增推荐论文、未执行论文翻译或上游应用。当前 Agent 自查。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

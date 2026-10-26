@@ -1,0 +1,41 @@
+{
+  "id": "SRC-LINUCB",
+  "title": "LinUCB · A Contextual-Bandit Approach to Personalized News Article Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "d1acb3bc693f2c5d0ba870c2f5e9f968708812e36750a4072aae30ecb9e386e3",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1003.0146v2",
+      "revision": "arXiv 1003.0146v2，2012-03-01，WWW 2010，DOI10.1145/1772690.1772758；10页PDF及完整LaTeX源码原包",
+      "read_scope": "已读10页固定v2摘要、正文§1–6、6编号公式、3算法、定理1及证明、5图和表1；27条文献仅定位，未读实现或运行模型。当前模型翻译正文、算法/定理证明、图表说明与描述脚注，文献及图内英文保留；完整译后工程与中文Markdown。远端两次编译均30秒超时，无本地TeX工具，无中文PDF、未验译后排版。",
+      "artifacts": [
+        {
+          "name": "LinUCB.1003.0146v2.pdf",
+          "sha256": "e98ae83073fd959e1e36bdb8bbe81e2e2b6e0a7767d147098fedddcf3deb9da0",
+          "snapshot": ".local/sources/SRC-LINUCB/e98ae83073fd959e1e36bdb8bbe81e2e2b6e0a7767d147098fedddcf3deb9da0/LinUCB.1003.0146v2.pdf"
+        },
+        {
+          "name": "LinUCB.1003.0146v2.source.tar.gz",
+          "sha256": "942dc3d25685c52c613c5124d8f9ec8879c2c26ee2831e0a6b0fed943f7d51c2",
+          "snapshot": ".local/sources/SRC-LINUCB/942dc3d25685c52c613c5124d8f9ec8879c2c26ee2831e0a6b0fed943f7d51c2/LinUCB.1003.0146v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "d1acb3bc693f2c5d0ba870c2f5e9f968708812e36750a4072aae30ecb9e386e3",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "fb8950551961b69697e15b4e214023c30701c0c76826b7577839421fd46e46e9",
+        "pages": [
+          "contextual-bandit-log-evaluation",
+          "evaluation-bias",
+          "exploration-longterm",
+          "slate-longterm-decomposition"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "已核对固定v2正文§1–6、6公式原字节、3算法数学与控制、定理证明、表1 192数值和5图页码；中文MD8本地目标存在，英文残留为作者专名/数学；合并独立与共享线性模型、随机日志回放及双桶口径，保留REV-015和熵译注。独立只读CR修复审核表断行与汇总后无剩余发现。两次远端30秒超时，无中文PDF，未验中文排版、未运行模型。 本轮新增SlateQ长期列表问题的机制比较：按既有精读核对即时探索、前缀条件与集合多样性的职责和证据限制，不跨协议比较收益；旧页面独有结论与来源保持，未新增复现实验。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

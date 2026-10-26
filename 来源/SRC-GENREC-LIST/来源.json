@@ -1,0 +1,43 @@
+{
+  "id": "SRC-GENREC-LIST",
+  "title": "Awesome Generative Recommendation · 分类与论文线索",
+  "kind": "catalog",
+  "state": "active",
+  "current": "4d0da4fd5f444568f8eadb13a5a874b20c67e46d1e83fe2e909cb20d613404f1",
+  "versions": [
+    {
+      "locator": "https://github.com/hyp1231/awesome-generative-recommendation",
+      "revision": "a35954110ab2240ae7ce98ab88647586d9ac0f2a",
+      "read_scope": "README 分类标题及 Surveys、Semantic ID、训练/推理、召排统一和扩散推荐的候选条目；未读所链论文",
+      "artifacts": [
+        {
+          "name": "README.md",
+          "sha256": "3f2131163789cd869b2834e2d42ceca598f0a708eaf0a3a51fd87f4d4ddd0f9f",
+          "snapshot": ".local/sources/SRC-GENREC-LIST/3f2131163789cd869b2834e2d42ceca598f0a708eaf0a3a51fd87f4d4ddd0f9f/README.md"
+        }
+      ],
+      "fingerprint": "4d0da4fd5f444568f8eadb13a5a874b20c67e46d1e83fe2e909cb20d613404f1",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "33c58f393a9bc211ad52de592e156537cd8035803459d95809c850a212a5cecc",
+        "pages": [
+          "classic-reading-path",
+          "generation-decoding",
+          "generative-recommendation",
+          "learning-resources",
+          "paper-candidates",
+          "preranking-cascade",
+          "recommender-systems",
+          "reranking-slate",
+          "retrieval",
+          "serving-efficiency",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对生成式分类和候选题名/链接，区分表示、架构、目标、解码与扩散；新路线起点不冒充已精读经典或优劣结论。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

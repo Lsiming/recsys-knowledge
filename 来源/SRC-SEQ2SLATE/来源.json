@@ -1,0 +1,41 @@
+{
+  "id": "SRC-SEQ2SLATE",
+  "title": "Seq2Slate · Seq2Slate: Re-ranking and Slate Optimization with RNNs",
+  "kind": "paper",
+  "state": "active",
+  "current": "0c918c36d2db36cb6d617bea04f2d78b02add844e66568813b0fcbc1ac801dff",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1810.02019v3",
+      "revision": "arXiv 1810.02019v3，2019-03-19（初稿2018-10-04）；固定v3 PDF与配套上游源码压缩包，未另核会议版本或DOI",
+      "read_scope": "已读21页PDF的摘要、正文§1–6（第1–15页）、附录A（第16页）、9编号公式、5表及3图；59条参考文献仅定位。未读算法实现或运行模型。当前模型翻译全部正式正文、摘要、图表说明与描述性脚注，附录及文献保留英文、图内英文未重绘。中文Markdown和完整译后seq2slate.tex工程保留；远程编译HTTP400 ZMQ资源错误，无中文PDF、未验中文排版。",
+      "artifacts": [
+        {
+          "name": "Seq2Slate.1810.02019v3.pdf",
+          "sha256": "cf1b6dc533a498cf374f859f196d2905cede70de6801266a68fadc08c8728dd8",
+          "snapshot": ".local/sources/SRC-SEQ2SLATE/cf1b6dc533a498cf374f859f196d2905cede70de6801266a68fadc08c8728dd8/Seq2Slate.1810.02019v3.pdf"
+        },
+        {
+          "name": "Seq2Slate.1810.02019v3.source.tar.gz",
+          "sha256": "0dc9dd6b7d18f752fc7a5286f1a3f47ff690a13f04d9d7b1d4993024a52166b9",
+          "snapshot": ".local/sources/SRC-SEQ2SLATE/0dc9dd6b7d18f752fc7a5286f1a3f47ff690a13f04d9d7b1d4993024a52166b9/Seq2Slate.1810.02019v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "0c918c36d2db36cb6d617bea04f2d78b02add844e66568813b0fcbc1ac801dff",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "6407e857ca139cc6026a9fadf8b8a61f21f1d4b7bc2cfd8d119776455dab6dc5",
+        "pages": [
+          "generation-decoding",
+          "reranking-slate",
+          "slate-longterm-decomposition",
+          "slate-prefix-dependence"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v3正文§1–6与附录A，区分候选索引与语义码、前缀打分与集合目标、两项采样梯度与贪心分支、模拟标签离线排序与反事实收益。保留零损失/独立排列/成本简写及附录权重等边界REV-013。9编号公式、1align*、3显示式、5表数字、36粗体、引用及5译文本地目标保留，附录/文献原字节、scan0。无中文PDF，未验排版或运行模型。独立只读CR核对梯度、贪心、损失、模拟与线上证据、复杂度及方法比较，无可操作发现。 本轮新增SlateQ长期列表问题的机制比较：按既有精读核对即时探索、前缀条件与集合多样性的职责和证据限制，不跨协议比较收益；旧页面独有结论与来源保持，未新增复现实验。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

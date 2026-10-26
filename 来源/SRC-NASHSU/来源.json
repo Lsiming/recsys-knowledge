@@ -1,0 +1,60 @@
+{
+  "id": "SRC-NASHSU",
+  "title": "nashsu/llm_wiki · 工程实现",
+  "kind": "code",
+  "state": "active",
+  "current": "e8cfda709afe6267ee10e4439114bec8cb0d7104b1ed4caae2904f8aa63c47df",
+  "versions": [
+    {
+      "locator": "https://github.com/nashsu/llm_wiki/tree/e08cfce65aad8b76b13546a081c1a8d4422b70c3",
+      "revision": "e08cfce65aad8b76b13546a081c1a8d4422b70c3",
+      "read_scope": "README_CN 功能/架构/检索/审核等段落；ingest-cache、ingest-commit-coordinator、lint-structural-core、search 全文；page-merge 1–180 行；定向静态阅读，未运行应用或上游测试",
+      "artifacts": [
+        {
+          "name": "README_CN.md",
+          "sha256": "90ce966bf1501d6a493e1196f76fee71128495116f0c66f9f8a9641b64a0e924",
+          "snapshot": ".local/sources/SRC-NASHSU/90ce966bf1501d6a493e1196f76fee71128495116f0c66f9f8a9641b64a0e924/README_CN.md"
+        },
+        {
+          "name": "ingest-cache.ts",
+          "sha256": "c9390fbd7ef5d411f176f960d12fdc222c3689aff2f5a1a2087c9a6be1b222c9",
+          "snapshot": ".local/sources/SRC-NASHSU/c9390fbd7ef5d411f176f960d12fdc222c3689aff2f5a1a2087c9a6be1b222c9/ingest-cache.ts"
+        },
+        {
+          "name": "ingest-commit-coordinator.ts",
+          "sha256": "7a05e75a216fa1789731fd3929df27acf5153e2089b013e7691591febe4a796e",
+          "snapshot": ".local/sources/SRC-NASHSU/7a05e75a216fa1789731fd3929df27acf5153e2089b013e7691591febe4a796e/ingest-commit-coordinator.ts"
+        },
+        {
+          "name": "lint-structural-core.ts",
+          "sha256": "90e9cc37a4a8dc4715e4dfaba3c08017639041ff6ed12407d5ce2feacc1db776",
+          "snapshot": ".local/sources/SRC-NASHSU/90e9cc37a4a8dc4715e4dfaba3c08017639041ff6ed12407d5ce2feacc1db776/lint-structural-core.ts"
+        },
+        {
+          "name": "page-merge.ts",
+          "sha256": "530a553f005fb7f466f1780cc1565600a8688e8ed1f98c2ef8f332a1fa790372",
+          "snapshot": ".local/sources/SRC-NASHSU/530a553f005fb7f466f1780cc1565600a8688e8ed1f98c2ef8f332a1fa790372/page-merge.ts"
+        },
+        {
+          "name": "search.ts",
+          "sha256": "5c42b8bbe22a0287fd3bb29a74a52adb35eab22b6305f9e8ecc86be362e2456d",
+          "snapshot": ".local/sources/SRC-NASHSU/5c42b8bbe22a0287fd3bb29a74a52adb35eab22b6305f9e8ecc86be362e2456d/search.ts"
+        }
+      ],
+      "fingerprint": "e8cfda709afe6267ee10e4439114bec8cb0d7104b1ed4caae2904f8aa63c47df",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "03b47ffa657c7f89c050aa352a3f8e840ebc2e866c81b39cd1d502a87f7f2ce2",
+        "pages": [
+          "evidence-and-scope",
+          "incremental-ingestion",
+          "knowledge-maintenance"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核既有固定来源、阅读范围及引用陈述；将解读与知识正文改为技术文章，保留来源独有的条件与限制，并核对新导航及显式处理语义版本。仅迁移收据签名，不更改原件/来源指纹；未新增推荐论文、未执行论文翻译或上游应用。当前 Agent 自查。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

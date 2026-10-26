@@ -1,0 +1,40 @@
+{
+  "id": "SRC-DIFFREC",
+  "title": "Diffusion Recommender Model",
+  "kind": "paper",
+  "state": "active",
+  "current": "44e3015138d21f605dd0c691535780cbf15fbf00461a7a3dcbe814c99c972fa2",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2304.04971v3",
+      "revision": "arXiv:2304.04971v3，2025-06-25；SIGIR 2023",
+      "read_scope": "已读固定10页PDF正文§1–6（第1–9页）、式1–16、算法1–2、图1–7和表1–7；第10页参考文献仅回查。核对全部活跃LaTeX，正式版本无附录；未读官方实现、未运行模型。",
+      "artifacts": [
+        {
+          "name": "DiffRec.2304.04971v3.pdf",
+          "sha256": "cef8fb3b02cb093e2701af2cd076dad97e8f51081e0cf3985cfda1f8ff7acdaf",
+          "snapshot": ".local/sources/SRC-DIFFREC/cef8fb3b02cb093e2701af2cd076dad97e8f51081e0cf3985cfda1f8ff7acdaf/DiffRec.2304.04971v3.pdf"
+        },
+        {
+          "name": "DiffRec.2304.04971v3.source.tar.gz",
+          "sha256": "6d77e218eff73b804f812060feb47963fde6204569d67e8ee057dba58f371718",
+          "snapshot": ".local/sources/SRC-DIFFREC/6d77e218eff73b804f812060feb47963fde6204569d67e8ee057dba58f371718/DiffRec.2304.04971v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "44e3015138d21f605dd0c691535780cbf15fbf00461a7a3dcbe814c99c972fa2",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "9db7620c31fe342e4eaada8475d303f81cc9268581402f016a930e6c002e63a1",
+        "pages": [
+          "generation-decoding",
+          "interaction-vector-denoising",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "已读v3正文§1–6，核对16公式、7表、算法及图示，正文中文Markdown/译后源码已自查；三次编译失败无中文PDF。合并小噪声恢复、潜空间压缩、时间权重及跨路线比较；原文目标方向、重要性采样与概括例外保留译注和REV-024，未运行模型。 独立只读子Agent CR核对机制、原表和译文，修复审核台CODIGEM例外数量措辞；自查纠正把CDAE误认MultiDAE的比较，MD脚注/列表/星号已修，无剩余可操作发现。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "SRC-MIND",
+  "title": "MIND · Multi-Interest Network with Dynamic Routing for Recommendation at Tmall",
+  "kind": "paper",
+  "state": "active",
+  "current": "51afc5347a085d48d7421ada61c78c53ba0316f0065aac6400fe84b6ef4d95dc",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1904.08030v1",
+      "revision": "1904.08030v1 (2019-04-17; arXiv预印本，源码KDD模板及占位DOI不作发表依据)",
+      "read_scope": "已读正文§1–6（PDF第1–9页），无附录；文献仅用于定位，未读所引论文与算法实现。正文、图表及算法说明已翻译，图内英文/机构/文献保留；编译HTTP400 ZMQ资源错误，无中文PDF。",
+      "artifacts": [
+        {
+          "name": "MIND.1904.08030v1.pdf",
+          "sha256": "a1872c4d30bcb955f9f79254385a61f2d59a560800ac5041bff3fa1fde153914",
+          "snapshot": ".local/sources/SRC-MIND/a1872c4d30bcb955f9f79254385a61f2d59a560800ac5041bff3fa1fde153914/MIND.1904.08030v1.pdf"
+        },
+        {
+          "name": "MIND.1904.08030v1.source.tar.gz",
+          "sha256": "4748d8bbefdbd49fade38340f49ae71bfcae57b897bcef06b1a4295808ebe391",
+          "snapshot": ".local/sources/SRC-MIND/4748d8bbefdbd49fade38340f49ae71bfcae57b897bcef06b1a4295808ebe391/MIND.1904.08030v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "51afc5347a085d48d7421ada61c78c53ba0316f0065aac6400fe84b6ef4d95dc",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "27c04c7d95473e9cbd7f2fda78956308258fc4f5db13d07c98c73695c0b384d5",
+        "pages": [
+          "multi-interest-retrieval",
+          "retrieval",
+          "target-conditioned-interest-evolution",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对MIND v1全文、关键页渲染、12式/2表和算法。共享S、随机破对称、兴趣归一化、目标条件训练与多路ANN已解释；路由上界/兴趣数取整/幂式极限问题保留并登记审核台，未补造概率校准、候选协议或资源收益。正文翻译与图表算法说明已完成，21个扫描项为专名/机构/公式或排版命令；无中文PDF、未验译后排版、未读实现或跑模型。独立只读子Agent CR发现算法循环作用域及阅读入口汇总遗漏，均已修复并定向复核，其他机制数字页码无可操作发现。 本轮DIEN比较：复核既有精读中的目标选兴趣与sampled softmax训练、服务多兴趣ANN和候选复用边界，不跨协议排名。无新实验，未重新全文阅读；独立CR未见比较实质问题。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

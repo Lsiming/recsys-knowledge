@@ -1,0 +1,40 @@
+{
+  "id": "SRC-ATSPEED",
+  "title": "Efficient Inference for Large Language Model-based Generative Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "6b43ada35a0bda88b746c12d0003c6dfe0e29ed6640269428676919150af4320",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2410.05165v3",
+      "revision": "arXiv:2410.05165v3，2025-02-26；ICLR 2025",
+      "read_scope": "已读固定26页PDF正文§1–6及伦理/可复现性声明（第1–11页），附录A.1–A.3（第15–26页），算法1–2、式1–37、图1–7与表1–7；参考文献仅回查。核对实际活跃LaTeX，未读官方算法实现、未运行模型。",
+      "artifacts": [
+        {
+          "name": "AtSpeed.2410.05165v3.pdf",
+          "sha256": "6bc91715ce3930fb2d59cc9b4a94f395a87e100f554372dbe2b30ef3e5204991",
+          "snapshot": ".local/sources/SRC-ATSPEED/6bc91715ce3930fb2d59cc9b4a94f395a87e100f554372dbe2b30ef3e5204991/AtSpeed.2410.05165v3.pdf"
+        },
+        {
+          "name": "AtSpeed.2410.05165v3.source.tar.gz",
+          "sha256": "6c1ffa2f5e9ad489b316fbb3755aa49b70c920310b49b6aee7ee5af51f7c0919",
+          "snapshot": ".local/sources/SRC-ATSPEED/6c1ffa2f5e9ad489b316fbb3755aa49b70c920310b49b6aee7ee5af51f7c0919/AtSpeed.2410.05165v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "6b43ada35a0bda88b746c12d0003c6dfe0e29ed6640269428676919150af4320",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "70cfbb164a613565313c8e1fec83297e669d4aaa553e0157c60fa4e5eb4e4007",
+        "pages": [
+          "generation-decoding",
+          "multi-item-speculative-decoding",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "固定v3正文及附录核对；正文中文PDF25页已逐页渲染目视，9个公式/表值/引用/本地链接核对；原文式2/4、宽松证明/算法2及表值疑点保留为REV-023。 AtSpeed本轮核对严格beam复现与宽松采样条件、TVD接受率、树形分支隔离、表1/4/7差异及LC-Rec/D³/M-FALCON机制比较；正文/附录已读，未运行实现。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

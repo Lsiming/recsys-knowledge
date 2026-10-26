@@ -1,0 +1,41 @@
+{
+  "id": "SRC-GENRECSYS-REVIEW",
+  "title": "A Review of Modern Recommender Systems Using Generative Models (Gen-RecSys)",
+  "kind": "paper",
+  "state": "active",
+  "current": "c3c59fb19624472e9af898b76bfff7fc81073d5828ddfa04f55b082bfe7c5601",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2404.00579v2",
+      "revision": "arXiv:2404.00579v2，2024-07-04；KDD 2024教程配套综述，DOI 10.1145/3637528.3671474",
+      "read_scope": "已读固定11页PDF正文§1–6、图1与表1；文献仅用于回查，未逐篇核实其引用原论文、未运行代码或实验。",
+      "artifacts": [
+        {
+          "name": "GenRecSys.2404.00579v2.pdf",
+          "sha256": "8945c78bdaa4930179bfea78ca504093faa4279d21e966720274d3ff88688dc6",
+          "snapshot": ".local/sources/SRC-GENRECSYS-REVIEW/8945c78bdaa4930179bfea78ca504093faa4279d21e966720274d3ff88688dc6/GenRecSys.2404.00579v2.pdf"
+        },
+        {
+          "name": "GenRecSys.2404.00579v2.source.tar.gz",
+          "sha256": "c265ad27dde8800adf2eb6426a2e26a5e173995cc860cdfc1049544c1dca99f5",
+          "snapshot": ".local/sources/SRC-GENRECSYS-REVIEW/c265ad27dde8800adf2eb6426a2e26a5e173995cc860cdfc1049544c1dca99f5/GenRecSys.2404.00579v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "c3c59fb19624472e9af898b76bfff7fc81073d5828ddfa04f55b082bfe7c5601",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "8fc61cb292ff2154a3bbca9585f23e98af238d2bbd53a157ac400fd280f9ddb5",
+        "pages": [
+          "evaluation-bias",
+          "generation-decoding",
+          "generative-output-evaluation",
+          "generative-recommendation"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v2正文§1–6、图1/表1，按输出对象、RAG与特征提取方向及评估目标整合；综述无统一实测，引用工作的效果不作独立证据。三个正文源码259处引用/标签/图路径、13行内数学多重集与7行应用表已核对；三次30秒编译超时无中文PDF，未验排版、未运行模型。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

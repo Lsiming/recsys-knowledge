@@ -1,0 +1,37 @@
+{
+  "id": "SRC-RECBOLE",
+  "title": "RecBole · 统一推荐算法与评估框架",
+  "kind": "repository",
+  "state": "active",
+  "current": "0e6545def33e5af3816c1cbc294129a9ca5f32a87eeeb9d87ad98151048fef48",
+  "versions": [
+    {
+      "locator": "https://github.com/RUCAIBox/RecBole",
+      "revision": "7b02be5ec80a88310f2d04a27a82adfcbb5dc211",
+      "read_scope": "README 简介、Feature、Quick-Start 中评估配置与 Cite；未读模型实现、未运行训练",
+      "artifacts": [
+        {
+          "name": "README.md",
+          "sha256": "99bc0bc6c260a3605cedfbca02d951902d4f179f7ad35017295db598ee306129",
+          "snapshot": ".local/sources/SRC-RECBOLE/99bc0bc6c260a3605cedfbca02d951902d4f179f7ad35017295db598ee306129/README.md"
+        }
+      ],
+      "fingerprint": "0e6545def33e5af3816c1cbc294129a9ca5f32a87eeeb9d87ad98151048fef48",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "5f16fa83c5664e053da768e45fef75d3f3cd4847066eb52a6dfb1795449ea67a",
+        "pages": [
+          "data-labels",
+          "evaluation-bias",
+          "learning-resources",
+          "paper-candidates",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对任务分类、Quick-Start 切分/负采样配置与 Cite；用作协议和工具入口，未把统一框架当成实验公平性证明。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "SRC-WIDEDEEP",
+  "title": "Wide & Deep · Wide & Deep Learning for Recommender Systems",
+  "kind": "paper",
+  "state": "active",
+  "current": "6c59a4020320ff1eb4e55fe37148b4952cbf03e178c73479f225224b0fd1114e",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1606.07792v1",
+      "revision": "1606.07792v1 (2016-06-24)",
+      "read_scope": "已读4页摘要及正文§1–7，无附录，8条文献仅作定位，未读所引论文或运行算法实现。正式主文件正文/图表说明/描述性脚注已译，图内英文/文献保留；编译HTTP400 ZMQ资源错误，无中文PDF。",
+      "artifacts": [
+        {
+          "name": "WideDeep.1606.07792v1.pdf",
+          "sha256": "0f04fd0659345008ddcb4b0742b6d0e5475bb0c2cf2a2b222f1b06d109c6c4c8",
+          "snapshot": ".local/sources/SRC-WIDEDEEP/0f04fd0659345008ddcb4b0742b6d0e5475bb0c2cf2a2b222f1b06d109c6c4c8/WideDeep.1606.07792v1.pdf"
+        },
+        {
+          "name": "WideDeep.1606.07792v1.source.tar.gz",
+          "sha256": "0169ed5d0a841f8f3181962de3339d069add1c2602fa273e4f3a5199ebbe6d98",
+          "snapshot": ".local/sources/SRC-WIDEDEEP/0169ed5d0a841f8f3181962de3339d069add1c2602fa273e4f3a5199ebbe6d98/WideDeep.1606.07792v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "6c59a4020320ff1eb4e55fe37148b4952cbf03e178c73479f225224b0fd1114e",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "8afebd30e9b81904357637d328085676a7d290c7183600239dbe4d5e31cecb08",
+        "pages": [
+          "ranking-interaction",
+          "serving-efficiency",
+          "sparse-feature-interactions"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对v1全部4页、式1–3、图1–4与表1–2，区分独立交叉/共同监督/DeepFM共同嵌入；核实安装标签、三周各1%线上对照、相对增益及拆批时延范围。原PDF逐页目视，3公式/2表数字及cite9/label6/ref9/图片4保留，MD8目标存在，扫描残留仅作者及CCSXML。独立只读子Agent CR无可操作发现；中文Markdown及译后工程可用，编译ZMQ错误无中文PDF，未验译后排版或跑模型。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

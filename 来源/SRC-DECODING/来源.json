@@ -1,0 +1,41 @@
+{
+  "id": "SRC-DECODING",
+  "title": "Decoding Matters: Addressing Amplification Bias and Homogeneity Issue for LLM-based Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "9082d20a10043c1a34673aba931da732de2135f600cf33f329e57ad7915bb048",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2406.14900v3",
+      "revision": "arXiv:2406.14900v3，2024-11-05；EMNLP 2024 Main Conference",
+      "read_scope": "已读固定13页PDF正文§1–8（第1–9页）、致谢/局限/伦理及附录A–C（第11–13页），图1–6和表1–6；参考文献仅回查。以实际编译LaTeX核对正文，未读官方算法实现、未运行模型。",
+      "artifacts": [
+        {
+          "name": "DecodingMatters.2406.14900v3.pdf",
+          "sha256": "745802d7ea06a354dd0dce69070955f2c677609735e9450c491ab7b5fa53aae4",
+          "snapshot": ".local/sources/SRC-DECODING/745802d7ea06a354dd0dce69070955f2c677609735e9450c491ab7b5fa53aae4/DecodingMatters.2406.14900v3.pdf"
+        },
+        {
+          "name": "DecodingMatters.2406.14900v3.source.tar.gz",
+          "sha256": "d3b4f6d9885399c77e45f2a9d1e7e90b68de15aade4fd010911e7d28a325fa30",
+          "snapshot": ".local/sources/SRC-DECODING/d3b4f6d9885399c77e45f2a9d1e7e90b68de15aade4fd010911e7d28a325fa30/DecodingMatters.2406.14900v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "9082d20a10043c1a34673aba931da732de2135f600cf33f329e57ad7915bb048",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "652c88fce5e9999194f918affd4f1827ac4bca5a7adc8643e50be436a9405196",
+        "pages": [
+          "generation-decoding",
+          "generative-recommendation",
+          "item-decoding-bias",
+          "multi-item-speculative-decoding"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v3正式PDF、五组align共七式、四表数字、正文引用与图路径；取消长度归一化/前缀协同质量及DPP环节差异已合并。保留主表/消融和概括冲突，中文PDF10页主会话实际逐页目视，未读实现、未跑模型。 AtSpeed本轮核对严格beam复现与宽松采样条件、TVD接受率、树形分支隔离、表1/4/7差异及LC-Rec/D³/M-FALCON机制比较；正文/附录已读，未运行实现。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "SRC-DPP",
+  "title": "DPP · Fast Greedy MAP Inference for Determinantal Point Process to Improve Recommendation Diversity",
+  "kind": "paper",
+  "state": "active",
+  "current": "65ee8a105a179281c82ab75272c8567539faa94306cee0dff2f6941db764eb50",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1709.05135v2",
+      "revision": "1709.05135v2; 2018-05修订，v1为2017-09",
+      "read_scope": "固定正式PDF15页，结合活跃源码阅读正文§1–7、附录A–C及图表，参考文献作定位；渲染第3/7/8页核对推导、耗时、A/B和局部指标边界。正文全部8个活跃tex（主文件及7个子文件）的叙述、图表标题与描述性脚注已翻译；附录、文献、图内英文保留。远程编译HTTP400/ZMQ资源错误，无中文PDF；交付中文Markdown和译后工程。未运行模型/复现推断，未独立精读所引基线。",
+      "artifacts": [
+        {
+          "name": "DPP.1709.05135v2.pdf",
+          "sha256": "708e956695308213d79798a8bcaac8a63c1199d3fcbc557e11e82e8139d24cb6",
+          "snapshot": ".local/sources/SRC-DPP/708e956695308213d79798a8bcaac8a63c1199d3fcbc557e11e82e8139d24cb6/DPP.1709.05135v2.pdf"
+        },
+        {
+          "name": "DPP.1709.05135v2.source.tar.gz",
+          "sha256": "fc42b2128584494c3a517e0106c5679f6b73e4d443c35747b63de65652940fb9",
+          "snapshot": ".local/sources/SRC-DPP/fc42b2128584494c3a517e0106c5679f6b73e4d443c35747b63de65652940fb9/DPP.1709.05135v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "65ee8a105a179281c82ab75272c8567539faa94306cee0dff2f6941db764eb50",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "aac955ca517cfafa271a2ac00a878af1a70cc2f568d414d0721aa8454ec5d0f5",
+        "pages": [
+          "item-decoding-bias",
+          "list-relevance-diversity",
+          "multi-interest-retrieval",
+          "slate-longterm-decomposition",
+          "slate-prefix-dependence"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对1709.05135v2正文/附录和原稿3/7/8页，明确核/加权等价条件、增量Cholesky、窗口目标与给定核的推断成本；保留停止和局部指标边界歧义。表1/2、Cover反例、共同Control和A/B范围均已核对。独立只读子Agent CR无可操作发现，并确认正文cite56/label23/ref17/eqref21/图片15键无缺失或新增。未运行复现/核查算法代码/独立精读基线；正文8个tex已译，附录文献图内英文保留。编译ZMQ错误，无中文PDF与译后排版验收。 新增MIND多兴趣问题的机制比较：核对既有精读中的候选集合相关性与冗余权衡，保留原证据与限制，不跨协议比较数值，独立CR无新增发现。 本轮新增列表前缀比较页，核对DPP集合目标与窗口区别、增量计算及与Seq2Slate监督条件的差别；未将跨协议时延作排名。 本轮新增SlateQ长期列表问题的机制比较：按既有精读核对即时探索、前缀条件与集合多样性的职责和证据限制，不跨协议比较收益；旧页面独有结论与来源保持，未新增复现实验。 本轮沿已读DPP公式及精读复核集合目标、窗口与候选池边界；新增与D³前缀搜索评分的作用环节比较，不横比异协议效果，不声称组合收益；原有DPP结论和来源版本保留。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

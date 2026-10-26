@@ -1,0 +1,38 @@
+{
+  "id": "SRC-FUNREC",
+  "title": "Datawhale · 深度推荐算法实践（fun-rec）",
+  "kind": "tutorial",
+  "state": "active",
+  "current": "fb970dc4934a8a586ffa728e011ecf5fcc0d78d10109cced0774c4a756b0e597",
+  "versions": [
+    {
+      "locator": "https://github.com/datawhalechina/fun-rec",
+      "revision": "5f7bd84d4403b5f92b6bedbd31e3984ef00a4572",
+      "read_scope": "README 导言与章节目录第 12–60 行；未读各章全文、未运行项目",
+      "artifacts": [
+        {
+          "name": "README.md",
+          "sha256": "e4e3050bcc7813134931556ac536e4d667758382316565d53eded8c75e3b3b75",
+          "snapshot": ".local/sources/SRC-FUNREC/e4e3050bcc7813134931556ac536e4d667758382316565d53eded8c75e3b3b75/README.md"
+        }
+      ],
+      "fingerprint": "fb970dc4934a8a586ffa728e011ecf5fcc0d78d10109cced0774c4a756b0e597",
+      "retrieved_on": "2026-10-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "d0a07d101d5c7438cf738fdb6e2dda9d315a756d3436bf8fa48bcb4adbd3371f",
+        "pages": [
+          "classic-reading-path",
+          "learning-resources",
+          "multitask-objectives",
+          "recommender-systems",
+          "retrieval",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-10-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对 README 导言与章节目录，模块职责与分类有定位；统一主干和经典顺序属于本库编排，未通读课程或运行代码。 KB-004：逐份比对迁移前后笔记与所有引用页，仅更新本库中文路径与模块链接文字；核对稳定 ID、来源指纹、版本及原件哈希保持，未扩大阅读范围或重新验证科研结论。"
+      }
+    }
+  ]
+}

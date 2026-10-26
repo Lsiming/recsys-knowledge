@@ -1,0 +1,40 @@
+{
+  "id": "SRC-STAR",
+  "title": "STAR · One Model to Serve All: Star Topology Adaptive Recommender for Multi-Domain CTR Prediction",
+  "kind": "paper",
+  "state": "active",
+  "current": "40dc81a243b31deb25a3e277ba61550254afe2305eba5b01dcf9f73c3c3eb5ad",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2101.11427v5",
+      "revision": "arXiv 2101.11427v5，2021-11-02；CIKM 2021，DOI 10.1145/3459637.3481941；固定v5 PDF与配套上游源码压缩包",
+      "read_scope": "已读10页摘要、正文§1–5、9个编号公式、5表及7图；46条参考文献仅定位，无附录，未读算法实现或运行模型。当前模型翻译全部正式正文、摘要、图表说明和描述性脚注；图内英文、专名与文献保留，未参与编译旧稿不算正文。中文Markdown与译后main.tex/related.tex及完整工程保留；远程编译HTTP400 ZMQ资源错误，无中文PDF，未验中文排版。",
+      "artifacts": [
+        {
+          "name": "STAR.2101.11427v5.pdf",
+          "sha256": "00becf16521c71383d2a57bccd9815951994650720e790c2d8a5e4ccd4f7698d",
+          "snapshot": ".local/sources/SRC-STAR/00becf16521c71383d2a57bccd9815951994650720e790c2d8a5e4ccd4f7698d/STAR.2101.11427v5.pdf"
+        },
+        {
+          "name": "STAR.2101.11427v5.source.tar.gz",
+          "sha256": "32e2cddac53ceed778a0c11fa56a7d2dfe14c7920bc0401bc4ec5b96b344ebbb",
+          "snapshot": ".local/sources/SRC-STAR/32e2cddac53ceed778a0c11fa56a7d2dfe14c7920bc0401bc4ec5b96b344ebbb/STAR.2101.11427v5.source.tar.gz"
+        }
+      ],
+      "fingerprint": "40dc81a243b31deb25a3e277ba61550254afe2305eba5b01dcf9f73c3c3eb5ad",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e63ec76990e9c6569fbf731d4c96993d206779e1bbda3f16d27e1c33573b92d6",
+        "pages": [
+          "multidomain-parameter-sharing",
+          "multidomain-transfer",
+          "multitask-negative-transfer"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定v5的10页正文与配套源码、9编号公式、5表和7图，分清PN统计/仿射、星型权重与辅助logit、共享梯度与参数开销。保留统一aux基线、用户加权AUC、不可加消融增量，线上8/6及最高CTR域冲突登记REV-011。cite45/citet6/label19/ref20/图7保留，8equation+1align共9编号以及1equation*和batch显示式原字节、5表TeX/Markdown数字与10本地链接核对通过。独立CR发现负迁移比较页漏绑定本来源，已补并纳入本收据；其余无可操作发现。无中文PDF，未验译后排版或运行模型。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}

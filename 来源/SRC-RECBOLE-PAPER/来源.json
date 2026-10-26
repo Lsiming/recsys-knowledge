@@ -1,0 +1,40 @@
+{
+  "id": "SRC-RECBOLE-PAPER",
+  "title": "RecBole: Towards a Unified, Comprehensive and Efficient Framework for Recommendation Algorithms",
+  "kind": "paper",
+  "state": "active",
+  "current": "bece6dcbceb99be03aa969a9d112e809449f0d7ab618bd4af65da0bd0ef7dd57",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2011.01731v3",
+      "revision": "arXiv:2011.01731v3，2021-08-28；CIKM 2021，DOI 10.1145/3459637.3482016",
+      "read_scope": "已读固定12页PDF正文§1–6、图1–4及表1–9；无附录，未逐篇核实引用论文、未读算法实现或运行模型。",
+      "artifacts": [
+        {
+          "name": "RecBole.2011.01731v3.pdf",
+          "sha256": "b0662cb0329e021482452754c29b9fcce1c462086def9731776de08df8e0f5e5",
+          "snapshot": ".local/sources/SRC-RECBOLE-PAPER/b0662cb0329e021482452754c29b9fcce1c462086def9731776de08df8e0f5e5/RecBole.2011.01731v3.pdf"
+        },
+        {
+          "name": "RecBole.2011.01731v3.source.tar.gz",
+          "sha256": "b6a53419f26fcc8a24a92e0612eb63bee032cb22a2e68a611b433e489f5f5ef8",
+          "snapshot": ".local/sources/SRC-RECBOLE-PAPER/b6a53419f26fcc8a24a92e0612eb63bee032cb22a2e68a611b433e489f5f5ef8/RecBole.2011.01731v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "bece6dcbceb99be03aa969a9d112e809449f0d7ab618bd4af65da0bd0ef7dd57",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "457f9d56dc0e142b6051642ceb73959306bfb4cbae6e18ec3ea84fa46551c63d",
+        "pages": [
+          "evaluation-bias",
+          "serving-efficiency",
+          "unified-experiment-protocol"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对v3正文§1–6与图1–4/表1–9；中文PDF9页全部渲染目视。97处cite/citep、16标签、6图路径与9表数值保留；23处ref合并一处重复图3指向，其余保留。未读实现或运行模型；类型/计时疑点见REV-028。\n2026-10-26 KB-007：保留此前证据自查，本次仅核对公开导航/分发迁移；原文身份、版本、指纹与知识正文不变。已逐项比较变更：公开原文保留固定版本及既有页码，出版方入口明确需按标注位置查找，本地附件改代码路径；6篇正式译文依据固定版本页面许可登记。直接引用页与关联候选未产生新科研结论，无需扩大阅读；未重新翻译、阅读全文或运行论文实验。"
+      }
+    }
+  ]
+}
