@@ -1,0 +1,38 @@
+{
+  "id": "SRC-BERT4REC",
+  "title": "BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer",
+  "kind": "paper",
+  "state": "active",
+  "current": "5faa61c0e8691c69fa628196400ea083570ff5c40d04db118468688a2e25a4eb",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1904.06690v2",
+      "revision": "arXiv 1904.06690v2，2019-08-21；CIKM2019；源码为下载后未修改文件的本地重新打包",
+      "read_scope": "阅读固定v2全部11页，正文§1–5、式1–8、表1–5和图1–4；核对实际正文LaTeX与正式PDF，参考文献核对身份；未阅读官方算法实现，未复现实验",
+      "artifacts": [
+        {
+          "name": "BERT4Rec.1904.06690v2.pdf",
+          "sha256": "1e673114bbfa757a949f884c545e9548c4faa37e2cd70e6933eede8198ec4fb9",
+          "snapshot": ".local/sources/SRC-BERT4REC/1e673114bbfa757a949f884c545e9548c4faa37e2cd70e6933eede8198ec4fb9/BERT4Rec.1904.06690v2.pdf"
+        },
+        {
+          "name": "BERT4Rec.1904.06690v2.repacked-source.tar.gz",
+          "sha256": "5b107fbac76dd0493ce7cf7d96c5af5a55a55b4d594665ffa213b343e424a872",
+          "snapshot": ".local/sources/SRC-BERT4REC/5b107fbac76dd0493ce7cf7d96c5af5a55a55b4d594665ffa213b343e424a872/BERT4Rec.1904.06690v2.repacked-source.tar.gz"
+        }
+      ],
+      "fingerprint": "5faa61c0e8691c69fa628196400ea083570ff5c40d04db118468688a2e25a4eb",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "ac7fd89fee599f7783d2aec1559c2d5fcbf27a07a039eef8ef869f2eee68ff14",
+        "pages": [
+          "next-item-sequence"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对v2全部11页正文、式1–8及表1–5/图1–4；16页中文PDF逐页渲染目视，保留原文疑点REV-032；比较SASRec可见范围、损失、测试输入及采样协议，未读算法实现、未复现或独立审查。"
+      }
+    }
+  ]
+}
