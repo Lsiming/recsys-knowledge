@@ -1,0 +1,38 @@
+{
+  "id": "SRC-TRANSFORMER",
+  "title": "Attention Is All You Need",
+  "kind": "paper",
+  "state": "active",
+  "current": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1706.03762v7",
+      "revision": "arXiv 1706.03762v7，2023-08-02；NeurIPS 2017论文；源码为下载后未修改文件的本地重新打包",
+      "read_scope": "完整阅读固定v7的15页PDF，含正文、表1–4、参考文献和注意力可视化；逐节核对实际参与编译的正文LaTeX，不将注释旧稿视为正文；未核对官方实现，未复现实验",
+      "artifacts": [
+        {
+          "name": "Transformer.1706.03762v7.pdf",
+          "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+          "snapshot": ".local/sources/SRC-TRANSFORMER/bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697/Transformer.1706.03762v7.pdf"
+        },
+        {
+          "name": "Transformer.1706.03762v7.repacked-source.tar.gz",
+          "sha256": "4753a6dfa00f9032dd62056ddc0a2db8bd550d0671d75bf82711f2fb417ba7bd",
+          "snapshot": ".local/sources/SRC-TRANSFORMER/4753a6dfa00f9032dd62056ddc0a2db8bd550d0671d75bf82711f2fb417ba7bd/Transformer.1706.03762v7.repacked-source.tar.gz"
+        }
+      ],
+      "fingerprint": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "99065137e3ff224dd0d2b5d78bea0f305cbb836c42d1682ad4f7353e9ccad052",
+        "pages": [
+          "self-attention-context"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "固定v7全文15页与正文LaTeX自查；核对Q/K/V、多头总宽、遮罩与Post-LN、公式及表格/实验协议。正文译文18页全部渲染目视，最终摘要/参考文献标题调整后复核相关页；宽表无裁切、无缺字或未定义引用，原始数学/表数/标签保留。附录/文献/图内英文保留；41.0/41.8和句法分析概括冲突在REV-029记录。与既有SASRec比较机制，不跨协议排名，未运行模型，当前Agent自查，无独立审查。"
+      }
+    }
+  ]
+}
