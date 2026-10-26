@@ -1,0 +1,39 @@
+{
+  "id": "SRC-T5",
+  "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "kind": "paper",
+  "state": "active",
+  "current": "d61b0932f2362974aa17666592df5dc6d16f80f7033e9c43c622d8c78df6ec1c",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1910.10683v4",
+      "revision": "arXiv 1910.10683v4，2023-09-19修订；JMLR 21(140), 2020，1–67；源码为下载后未修改文件的本地重新打包",
+      "read_scope": "固定v4正文§1–4全部阅读，核对图1–6、表1–15、输入输出与训练协议；附录B的WNLI转换及附录E的相关结果行定向核对，附录A/C/D部分查阅；参考文献核身份；未读算法实现、未运行模型实验",
+      "artifacts": [
+        {
+          "name": "T5.1910.10683v4.pdf",
+          "sha256": "ad07e47cedf437a4156419ce5d3076e08a3e59bbfd6dac7cc53df1009cdcbe7f",
+          "snapshot": ".local/sources/SRC-T5/ad07e47cedf437a4156419ce5d3076e08a3e59bbfd6dac7cc53df1009cdcbe7f/T5.1910.10683v4.pdf"
+        },
+        {
+          "name": "T5.1910.10683v4.repacked-source.tar.gz",
+          "sha256": "dcc5357318ca969c2d0f0a84a08523edd279493c774dc5062b10302614a8c84a",
+          "snapshot": ".local/sources/SRC-T5/dcc5357318ca969c2d0f0a84a08523edd279493c774dc5062b10302614a8c84a/T5.1910.10683v4.repacked-source.tar.gz"
+        }
+      ],
+      "fingerprint": "d61b0932f2362974aa17666592df5dc6d16f80f7033e9c43c622d8c78df6ec1c",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "9cc93b4682752df6b2d0b4a822edacc1554432a07836efc0885340dae3cb679d",
+        "pages": [
+          "language-personalized-tasks",
+          "pretraining-task-transfer"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "当前Agent自查固定v4正文§1–4、图1–6及表1–15，附录B/E定向核对；正文译文47页逐页渲染核查、数学数据与引用保留。比较GPT/BERT/T5/P5迁移、任务采样及预算边界；正文表10与附录结果等疑点记REV-033，不自行勘误。未读算法实现或运行模型，无独立审查；译文留本地。"
+      }
+    }
+  ]
+}

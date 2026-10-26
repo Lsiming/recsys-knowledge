@@ -22,6 +22,28 @@
     "reason": "arXiv 非独占分发许可；全文译文待授权"
   },
   {
+    "source_id": "SRC-BERT",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "original_url": "https://arxiv.org/abs/1810.04805v2",
+    "revision": "arXiv 1810.04805v2，2019-05-24；NAACL2019；源码为下载后未修改文件的本地重新打包",
+    "checked_on": "2026-10-26",
+    "license_url": null,
+    "status": "local-only",
+    "authors": [],
+    "reason": "正文中文PDF与可编辑工程本地保留；尚未完成固定版本全文译文许可核实与正式Markdown发布登记"
+  },
+  {
+    "source_id": "SRC-BERT4REC",
+    "title": "BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer",
+    "original_url": "https://arxiv.org/abs/1904.06690v2",
+    "revision": "arXiv 1904.06690v2，2019-08-21；CIKM2019；源码为下载后未修改文件的本地重新打包",
+    "checked_on": "2026-10-26",
+    "license_url": null,
+    "status": "local-only",
+    "authors": [],
+    "reason": "正文中文PDF与可编辑工程本地保留；尚未完成固定版本全文译文许可核实与正式Markdown发布登记"
+  },
+  {
     "source_id": "SRC-BPR",
     "title": "BPR · Bayesian Personalized Ranking from Implicit Feedback",
     "original_url": "https://arxiv.org/abs/1205.2618v1",
@@ -239,6 +261,17 @@
     "evidence_sha256": "a5e844bf5dab57ced79215bb2214b2962ff95f3ba0424500bed8890d09fde76d",
     "evidence_url": "https://arxiv.org/abs/2404.00579v2",
     "reason": "arXiv 非独占分发许可；全文译文待授权"
+  },
+  {
+    "source_id": "SRC-GPT1",
+    "title": "Improving Language Understanding by Generative Pre-Training",
+    "original_url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+    "revision": "OpenAI 2018官方PDF，无arXiv版本号；2026-10-26获取，12页",
+    "checked_on": "2026-10-26",
+    "license_url": null,
+    "status": "local-only",
+    "authors": [],
+    "reason": "正文中文PDF与可编辑工程本地保留；尚未完成固定版本全文译文许可核实与正式Markdown发布登记"
   },
   {
     "source_id": "SRC-GRID-PAPER",
@@ -697,6 +730,17 @@
     "sha256": "76c2eaa1ddc9d101fb0cce02b4a276a8a7c0b44d0a153d48a261937b4e6e4793"
   },
   {
+    "source_id": "SRC-T5",
+    "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+    "original_url": "https://arxiv.org/abs/1910.10683v4",
+    "revision": "arXiv 1910.10683v4，2023-09-19修订；JMLR 21(140), 2020，1–67；源码为下载后未修改文件的本地重新打包",
+    "checked_on": "2026-10-26",
+    "license_url": null,
+    "status": "local-only",
+    "authors": [],
+    "reason": "正文中文PDF与可编辑工程本地保留；尚未完成固定版本全文译文许可核实与正式Markdown发布登记"
+  },
+  {
     "source_id": "SRC-TIGER",
     "title": "TIGER · Recommender Systems with Generative Retrieval",
     "original_url": "https://arxiv.org/abs/2305.05065v3",
@@ -722,6 +766,17 @@
     "evidence_sha256": "a4b3eb4bfc9aa8b7fd21bc925b7b87559c4f01605449b51243c1ee3390acd32a",
     "evidence_url": "https://arxiv.org/abs/2305.05065v3",
     "reason": "arXiv 非独占分发许可；全文译文待授权"
+  },
+  {
+    "source_id": "SRC-TRANSFORMER",
+    "title": "Attention Is All You Need",
+    "original_url": "https://arxiv.org/abs/1706.03762v7",
+    "revision": "arXiv 1706.03762v7，2023-08-02；NeurIPS 2017论文；源码为下载后未修改文件的本地重新打包",
+    "checked_on": "2026-10-26",
+    "license_url": null,
+    "status": "local-only",
+    "authors": [],
+    "reason": "正文中文PDF与可编辑工程本地保留；尚未完成固定版本全文译文许可核实与正式Markdown发布登记"
   },
   {
     "source_id": "SRC-WIDEDEEP",
