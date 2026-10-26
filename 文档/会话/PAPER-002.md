@@ -9,7 +9,7 @@
 | 顺序 | 候选与来源ID | 固定原文 | 当前进度 |
 |---|---|---|---|
 | 1 | P54 · SRC-TRANSFORMER | Attention Is All You Need，1706.03762v7 | 已完成：18页正文中文PDF/译后工程、独立精读、自注意力问题及SASRec比较；附录可视化英文保留 |
-| 2 | P55 · SRC-GPT1 | Improving Language Understanding by Generative Pre-Training，OpenAI 2018官方PDF | 已有原PDF；待查可编辑源码与正文翻译 |
+| 2 | P55 · SRC-GPT1 | Improving Language Understanding by Generative Pre-Training，OpenAI 2018官方PDF | 已完成：正文中文Markdown、12页中文重排PDF与可编辑工程、独立精读及预训练迁移问题；官方仓库无论文TeX |
 | 3 | P56 · SRC-BERT | BERT，1810.04805v2 | 已有原PDF；待获取源码 |
 | 4 | P57 · SRC-BERT4REC | BERT4Rec，1904.06690v2 | 已有原PDF；待获取源码 |
 | 5 | P58 · SRC-T5 | T5，1910.10683v4 | 已有原PDF；待获取源码，按正文分节处理 |
@@ -40,4 +40,10 @@ P54已完成正文翻译、精读、来源登记、自注意力问题和SASRec�
 
 首次两次fetch分别遇到HTTP/2及网络连接错误；2026-10-26再次fetch成功，远端main为1aa6931，公开仓库已用79245ac建立脱敏新根，与本任务2141cfa无共同祖先。KB-007明确禁止上传旧祖先，已将本次明确文件迁移到新公开历史；log追加冲突按保留双方记录解决；不merge旧历史，不带旧提交身份或无关内容。公开提交使用远端现有GitHub noreply身份。
 
-继续P55 GPT初代：定向核对官方可编辑源码，没有源码则按正式PDF逐节翻译并排版；随后按顺序处理BERT、BERT4Rec、T5。五篇总体目标未完成，不将首篇完成当成批次完成。
+P55已完成，接续BERT、BERT4Rec、T5。五篇总体目标未完成，不将部分完成当成批次完成。
+
+## P55完成与后续
+
+GPT初代正文第1–8页翻译，保留英文参考文献和原图内部文字；官方仓库树a69b5c43b0452462890bca8ff92fb75dee9290cf未发现论文LaTeX，采用PDF重排，不声称取得作者源码。复用现成Pandoc和TeX Live生成12页中文PDF，全部渲染目视；调整表格列宽后无溢出、缺字、未定义引用，式1–5和文献1–71保留，表1–5核对。原文分差/指标口径疑点REV-030已登记。当前Agent自查，未开发维护脚本，未做独立审查或模型实验。已将GPT与P5的迁移机制合并到预训练问题，候选与路线可检索。接续BERT、BERT4Rec、T5；批次2/5，不将部分交付当成全部完成。
+
+P55适用检查：check_context通过（161份Markdown/2191目标）、wiki lint 0错误0警告、plan为空；题名/问题双路检索可达，diff检查和公开隐私检查通过。仅新增或更新本任务知识与交接文件，无维护脚本变更。

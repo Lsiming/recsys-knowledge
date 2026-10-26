@@ -1,0 +1,33 @@
+{
+  "id": "SRC-GPT1",
+  "title": "Improving Language Understanding by Generative Pre-Training",
+  "kind": "paper",
+  "state": "active",
+  "current": "346378979c197abef55857af94342a537f9401868d4cac993cf0d3aab8260bee",
+  "versions": [
+    {
+      "locator": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+      "revision": "OpenAI 2018官方PDF，无arXiv版本号；2026-10-26获取，12页",
+      "read_scope": "阅读完整12页PDF，正文第1–8页、式1–5、表1–5和图1–2；参考文献核对身份。官方finetune-transformer-lm仓库树a69b5c43b0452462890bca8ff92fb75dee9290cf未发现论文TeX，不代表全网无源码；未读算法实现、未复现实验",
+      "artifacts": [
+        {
+          "name": "GPT1.OpenAI-2018.pdf",
+          "sha256": "eb81a65e0856bd38e855e1f1de6ee12e7c3eb92ae05c8270d345a475beb631d0",
+          "snapshot": ".local/sources/SRC-GPT1/eb81a65e0856bd38e855e1f1de6ee12e7c3eb92ae05c8270d345a475beb631d0/GPT1.OpenAI-2018.pdf"
+        }
+      ],
+      "fingerprint": "346378979c197abef55857af94342a537f9401868d4cac993cf0d3aab8260bee",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "dc1488cf60602f5f2d6335d91097af6b6c13aa9aae97b647b30bafa7a03defc6",
+        "pages": [
+          "pretraining-task-transfer"
+        ],
+        "reviewed_on": "2026-10-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对官方PDF正文1–8页、式1–5、表1–5、图1–2与文献身份；中文重排PDF12页全部渲染目视，最终编译无溢出缺字或未定义引用，保留英文文献与原图文字。区分因果预训练、分类头微调与P5条件生成；辅助LM依任务而定，GLUE分差和表5平均口径见REV-030。无作者TeX，官方仓库树核对不等于读实现；未运行模型，当前Agent自查。"
+      }
+    }
+  ]
+}
