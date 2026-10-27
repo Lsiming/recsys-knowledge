@@ -25,14 +25,14 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "9cc93b4682752df6b2d0b4a822edacc1554432a07836efc0885340dae3cb679d",
+        "notes_sha256": "03358442aebd71fff8088a7cfeb123c11f9896008eca39ca0c1c13db18c30779",
         "pages": [
           "language-personalized-tasks",
           "pretraining-task-transfer"
         ],
-        "reviewed_on": "2026-10-26",
+        "reviewed_on": "2026-10-27",
         "review_method": "agent-self-review",
-        "review_note": "当前Agent自查固定v4正文§1–4、图1–6及表1–15，附录B/E定向核对；正文译文47页逐页渲染核查、数学数据与引用保留。比较GPT/BERT/T5/P5迁移、任务采样及预算边界；正文表10与附录结果等疑点记REV-033，不自行勘误。未读算法实现或运行模型，无独立审查；译文留本地。"
+        "review_note": "当前Agent自查固定v4正文§1–4、图1–6及表1–15，附录B/E定向核对；正文译文47页逐页渲染核查、数学数据与引用保留。比较GPT/BERT/T5/P5迁移、任务采样及预算边界；正文表10与附录结果等疑点记REV-033，不自行勘误。未读算法实现或运行模型，无独立审查；译文留本地。；2026-10-27仅补充逐篇许可核实后的中文PDF发布入口/范围与后续成品状态，直接引用页及关联候选的科研内容未变化，保留此前科学内容自查；本次检查发布副本渲染与匿名下载，未重做全文科研结论审查，无独立审查。"
       }
     }
   ]

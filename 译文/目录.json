@@ -243,8 +243,8 @@
     "title": "A Review of Modern Recommender Systems Using Generative Models (Gen-RecSys)",
     "original_url": "https://arxiv.org/abs/2404.00579v2",
     "revision": "arXiv:2404.00579v2，2024-07-04；KDD 2024教程配套综述，DOI 10.1145/3637528.3671474",
-    "checked_on": "2026-10-26",
-    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "checked_on": "2026-10-27",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "status": "local-only",
     "authors": [
       "Deldjoo, Yashar",
@@ -258,9 +258,10 @@
       "Kasirzadeh, Atoosa",
       "Milano, Silvia"
     ],
-    "evidence_sha256": "a5e844bf5dab57ced79215bb2214b2962ff95f3ba0424500bed8890d09fde76d",
-    "evidence_url": "https://arxiv.org/abs/2404.00579v2",
-    "reason": "arXiv 非独占分发许可；全文译文待授权"
+    "evidence_sha256": "8945c78bdaa4930179bfea78ca504093faa4279d21e966720274d3ff88688dc6",
+    "evidence_url": "https://arxiv.org/pdf/2404.00579v2",
+    "reason": "原始PDF作品内明确的 CC BY 4.0 许可已核实；中文PDF按PDF目录发布，正式Markdown尚未纳入Git",
+    "license_id": "CC-BY-4.0"
   },
   {
     "source_id": "SRC-GPT1",
@@ -734,11 +735,24 @@
     "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
     "original_url": "https://arxiv.org/abs/1910.10683v4",
     "revision": "arXiv 1910.10683v4，2023-09-19修订；JMLR 21(140), 2020，1–67；源码为下载后未修改文件的本地重新打包",
-    "checked_on": "2026-10-26",
-    "license_url": null,
+    "checked_on": "2026-10-27",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "status": "local-only",
-    "authors": [],
-    "reason": "正文中文PDF与可编辑工程本地保留；尚未完成固定版本全文译文许可核实与正式Markdown发布登记"
+    "authors": [
+      "Raffel, Colin",
+      "Shazeer, Noam",
+      "Roberts, Adam",
+      "Lee, Katherine",
+      "Narang, Sharan",
+      "Matena, Michael",
+      "Zhou, Yanqi",
+      "Li, Wei",
+      "Liu, Peter J."
+    ],
+    "reason": "原始PDF作品内明确的 CC BY 4.0 许可已核实；中文PDF按PDF目录发布，正式Markdown尚未纳入Git",
+    "license_id": "CC-BY-4.0",
+    "evidence_url": "https://arxiv.org/pdf/1910.10683v4",
+    "evidence_sha256": "ad07e47cedf437a4156419ce5d3076e08a3e59bbfd6dac7cc53df1009cdcbe7f"
   },
   {
     "source_id": "SRC-TIGER",

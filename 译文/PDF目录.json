@@ -1,0 +1,1133 @@
+{
+  "schema_version": 1,
+  "repository": "Lsiming/recsys-knowledge",
+  "updated": "2026-10-27",
+  "inventory_note": "扫描现有 SRC-*/translation/ 顶层最终 PDF；48个文件按论文和SHA256去重为44篇，4个同内容别名未重复发布；原文、旧构建和图表不计为独立中文PDF。",
+  "entries": [
+    {
+      "source_id": "SRC-ATSPEED",
+      "title": "Efficient Inference for Large Language Model-based Generative Recommendation",
+      "original_url": "https://arxiv.org/abs/2410.05165v3",
+      "revision": "arXiv:2410.05165v3，2025-02-26；ICLR 2025",
+      "input_sha256": "d82bed5a56ae1b0e46ec189244be2be2f648fb36f9c2efdfaee61520999ab87b",
+      "input_pages": 25,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 25页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2410.05165v3",
+        "evidence_sha256": "8f0808f755e70c1a998a8e346b76897a94b3cbf4b14915066aa27248466b7dd0",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-BERT",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "original_url": "https://arxiv.org/abs/1810.04805v2",
+      "revision": "arXiv 1810.04805v2，2019-05-24；NAACL2019；源码为下载后未修改文件的本地重新打包",
+      "input_sha256": "44b29f155e555220caf0cf8f9860a2c656f2bb0dbaaa31084cae514d44083b37",
+      "input_pages": 17,
+      "duplicate_count": 1,
+      "scope": "现有本地中文 PDF 17页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。 ACL 出版版为 CC BY 4.0，但本地译文采用的 arXiv v2 与出版版不完全一致（多一处 GLUE 注释）；本次未改译文或改绑版本，待对齐后再发布。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。 ACL 出版版为 CC BY 4.0，但本地译文采用的 arXiv v2 与出版版不完全一致（多一处 GLUE 注释）；本次未改译文或改绑版本，待对齐后再发布。",
+        "evidence_url": "https://arxiv.org/abs/1810.04805v2",
+        "evidence_sha256": "2e32e3b94091656b156ae3ef7776c79b59160ffeb71f123fa31088dfe0141c8c",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-BERT4REC",
+      "title": "BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer",
+      "original_url": "https://arxiv.org/abs/1904.06690v2",
+      "revision": "arXiv 1904.06690v2，2019-08-21；CIKM2019；源码为下载后未修改文件的本地重新打包",
+      "input_sha256": "45be61d5b6cee623fbadbe9c4a6225a8ecdbdb308f99a77fc08a612bb64053e1",
+      "input_pages": 16,
+      "duplicate_count": 1,
+      "scope": "现有本地中文 PDF 16页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1904.06690v2",
+        "evidence_sha256": "eef35a88a8ccb6a8f925d6e7ebcc2997648fae41fde8d93b5ad24ae8fecf5ad4",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-BPR",
+      "title": "BPR · Bayesian Personalized Ranking from Implicit Feedback",
+      "original_url": "https://arxiv.org/abs/1205.2618v1",
+      "revision": "1205.2618v1; UAI 2009, pp.452–461; arXiv上传2012-05-09",
+      "input_sha256": "dfc3afba4bebb8ed48a9bc5720a2b4c5f5408a2cdebee03c997ffe16535a698e",
+      "input_pages": 12,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1205.2618v1",
+        "evidence_sha256": "5bd66f5134595295d4b62c133d8fcf07c4b5941b71dae952f814c098824fff85",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-COLD",
+      "title": "COLD · COLD: Towards the Next Generation of Pre-Ranking System",
+      "original_url": "https://arxiv.org/abs/2007.16122v2",
+      "revision": "2007.16122v2 (2020-08-17; DLP-KDD 2020工作坊稿，PDF占位DOI/ISBN不作有效标识)",
+      "input_sha256": "1ad2e87510a71e666dbfafd39dc422ba989cea7b9122d2ecc14bc5c3ebc0f465",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 6页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2007.16122v2",
+        "evidence_sha256": "5d61f031d6e2eae3ef0a756ca60b6270b05a9e3d7517a768887618d08ad772a5",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-DCNV2",
+      "title": "DCNv2 · DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems",
+      "original_url": "https://arxiv.org/abs/2008.13535v2",
+      "revision": "2008.13535v2 (2020-10-20)",
+      "input_sha256": "6aa08f115d52a15790ee143d7f9f84fd881f9b1a5b05bcd16039c044197ed4af",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–9、致谢及正文图表说明；附录§10–11、参考文献与图内英文保留",
+      "status": "published",
+      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-27",
+        "notes": "核对固定版本 arXiv 许可链接及论文署名；译文按同一许可发布，保留作品原有权利声明。",
+        "evidence_url": "https://arxiv.org/abs/2008.13535v2",
+        "evidence_sha256": "51a84d65a4bd19872b44e8ceb538c0d786334481223b1f887100a7d21f2860d2",
+        "license_id": "CC-BY-NC-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "authors": [
+          "Wang, Ruoxi",
+          "Shivanna, Rakesh",
+          "Cheng, Derek Z.",
+          "Jain, Sagar",
+          "Lin, Dong",
+          "Hong, Lichan",
+          "Chi, Ed H."
+        ]
+      },
+      "release": {
+        "tag": "zh-pdfs-20261027",
+        "asset_name": "SRC-DCNV2.zh-CN.20261027.1.pdf",
+        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-DCNV2.zh-CN.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "a114728dc3e0d380863615143f63ce7553a1d573ffa84b1cb7f50652ca95c72e",
+        "size_bytes": 1790096,
+        "pages": 12,
+        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
+        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
+        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
+        "verified_download_sha256": "a114728dc3e0d380863615143f63ce7553a1d573ffa84b1cb7f50652ca95c72e"
+      }
+    },
+    {
+      "source_id": "SRC-DECODING",
+      "title": "Decoding Matters: Addressing Amplification Bias and Homogeneity Issue for LLM-based Recommendation",
+      "original_url": "https://arxiv.org/abs/2406.14900v3",
+      "revision": "arXiv:2406.14900v3，2024-11-05；EMNLP 2024 Main Conference",
+      "input_sha256": "963546fffef50857ee4d6aadf16ed5a4f674ec1fdecc194f05948e9531d34001",
+      "input_pages": 10,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 10页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2406.14900v3",
+        "evidence_sha256": "d1e399093b983acb67764527eeebe2ed0f6bf26624ffe8f791ded4b433700302",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-DEEPFM",
+      "title": "DeepFM · DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+      "original_url": "https://arxiv.org/abs/1703.04247v1",
+      "revision": "1703.04247v1; IJCAI 2017",
+      "input_sha256": "97bb5a2f2d9bef0c10a736d25f8673e54b304ead581bc20027107b6bcc757a44",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 6页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1703.04247v1",
+        "evidence_sha256": "08488fedf75e06b4836f20e46c04149437768b2d6f694eca2a1e84416d981247",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-DFM",
+      "title": "DFM · Modeling Delayed Feedback in Display Advertising",
+      "original_url": "https://doi.org/10.1145/2623330.2623634",
+      "revision": "KDD 2014出版版，pp.1097–1105，2014-08-24；PDF来自候选清单第三方GitHub镜像，题名作者页码DOI与Crossref核对一致；未取得LaTeX源码",
+      "input_sha256": "99bf8b2fedb61bf455b62696f4f38517b3ba2615e17c4c40b39589115e7e65cf",
+      "input_pages": 13,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 13页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-27",
+        "notes": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+        "evidence_url": "https://api.crossref.org/works/10.1145/2623330.2623634",
+        "evidence_sha256": "5a0668dced2b7224dfdfd60254b3bd2eec57ce637a11963716ce6deec32661a1",
+        "authors": [
+          "Olivier Chapelle"
+        ]
+      }
+    },
+    {
+      "source_id": "SRC-DIEN",
+      "title": "DIEN · Deep Interest Evolution Network for Click-Through Rate Prediction",
+      "original_url": "https://arxiv.org/abs/1809.03672v5",
+      "revision": "1809.03672v5 (2018-11-16)",
+      "input_sha256": "ca0eac66d549586bafa5203d1b9da0806e94783c18a769a3e14c79fc41d24152",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 6页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1809.03672v5",
+        "evidence_sha256": "7d738fffd408a4a7860793b7489576e4ffcd97624e6422102084359676685319",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-DIFFREC",
+      "title": "Diffusion Recommender Model",
+      "original_url": "https://arxiv.org/abs/2304.04971v3",
+      "revision": "arXiv:2304.04971v3，2025-06-25；SIGIR 2023",
+      "input_sha256": "82f8f51f21ab6b92d9bd920296c70bc24beb3697eb482b749f046bcb5437b2c7",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 8页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2304.04971v3",
+        "evidence_sha256": "52ad47e73ab38d1c66d26ba8014e46529af0c97f4e0d9a2bf78f1d5987538e79",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-DIN",
+      "title": "Deep Interest Network for Click-Through Rate Prediction",
+      "original_url": "https://arxiv.org/abs/1706.06978v4",
+      "revision": "arXiv:1706.06978v4，9页PDF及配套源码",
+      "input_sha256": "fd693ae923a7c34a8677f98776154e22bc0dff5df69da0ced71bb19703d15336",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 6页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1706.06978v4",
+        "evidence_sha256": "ce80e185f04da14c2caa1ee70f45c9377592f9ce90785f3f9f2917285132209d",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-DPP",
+      "title": "DPP · Fast Greedy MAP Inference for Determinantal Point Process to Improve Recommendation Diversity",
+      "original_url": "https://arxiv.org/abs/1709.05135v2",
+      "revision": "1709.05135v2; 2018-05修订，v1为2017-09",
+      "input_sha256": "917745d7039dc4d0771c2efeb1b56e420e576ff3d6d3eaeb9d97887c7127f730",
+      "input_pages": 14,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 14页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1709.05135v2",
+        "evidence_sha256": "6de474966229c23527c936e77861e0d3898e6ac1f89f19acef29206a372250c0",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-ESMM",
+      "title": "ESMM · Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate",
+      "original_url": "https://arxiv.org/abs/1804.07931v2",
+      "revision": "1804.07931v2; SIGIR 2018; DOI 10.1145/3209978.3210104",
+      "input_sha256": "8b060f9b62fb1ad27a915f13dc3502bdd33f89314d081e12de17adc4fd8b3a2b",
+      "input_pages": 4,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 4页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1804.07931v2",
+        "evidence_sha256": "583dd88e6ac6526fb6de76eb803539e33aa8159bc90165b145b4f52008b7e3cb",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-GENRECSYS-REVIEW",
+      "title": "A Review of Modern Recommender Systems Using Generative Models (Gen-RecSys)",
+      "original_url": "https://arxiv.org/abs/2404.00579v2",
+      "revision": "arXiv:2404.00579v2，2024-07-04；KDD 2024教程配套综述，DOI 10.1145/3637528.3671474",
+      "input_sha256": "d58dda79f2e96f18117ce1cccf6dbda04943b4af2637774bb7dce7999ec75c91",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–6、描述性脚注和图表标题中文；无附录，图内英文及参考文献保留",
+      "status": "published",
+      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-27",
+        "notes": "原始 PDF 首页明确写有 CC BY 4.0 许可；原件哈希已绑定，优先采用作品内的明确许可，而非仅据 arXiv 分发许可。",
+        "evidence_url": "https://arxiv.org/pdf/2404.00579v2",
+        "evidence_sha256": "8945c78bdaa4930179bfea78ca504093faa4279d21e966720274d3ff88688dc6",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_id": "CC-BY-4.0",
+        "authors": [
+          "Deldjoo, Yashar",
+          "He, Zhankui",
+          "McAuley, Julian",
+          "Korikov, Anton",
+          "Sanner, Scott",
+          "Ramisa, Arnau",
+          "Vidal, René",
+          "Sathiamoorthy, Maheswaran",
+          "Kasirzadeh, Atoosa",
+          "Milano, Silvia"
+        ],
+        "original_pdf_sha256": "8945c78bdaa4930179bfea78ca504093faa4279d21e966720274d3ff88688dc6"
+      },
+      "release": {
+        "tag": "zh-pdfs-20261027",
+        "asset_name": "SRC-GENRECSYS-REVIEW.zh-CN.20261027.1.pdf",
+        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-GENRECSYS-REVIEW.zh-CN.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "3a513d74ee01085d906b444da1ef18762de2cbfb8bf5e1a6f4d437e4c3545ed2",
+        "size_bytes": 685379,
+        "pages": 10,
+        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
+        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
+        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
+        "verified_download_sha256": "3a513d74ee01085d906b444da1ef18762de2cbfb8bf5e1a6f4d437e4c3545ed2"
+      }
+    },
+    {
+      "source_id": "SRC-GPT1",
+      "title": "Improving Language Understanding by Generative Pre-Training",
+      "original_url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+      "revision": "OpenAI 2018官方PDF，无arXiv版本号；2026-10-26获取，12页",
+      "input_sha256": "cba95175789b1ae79f76c295bddf4c37cb1ead47b88a8039b7172eb795d5ddc8",
+      "input_pages": 12,
+      "duplicate_count": 1,
+      "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "官方 PDF 已获取并核对，未找到允许公开翻译再分发的声明；未把可下载当作译文许可。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-27",
+        "notes": "官方 PDF 已获取并核对，未找到允许公开翻译再分发的声明；未把可下载当作译文许可。",
+        "evidence_url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+        "evidence_sha256": "eb81a65e0856bd38e855e1f1de6ee12e7c3eb92ae05c8270d345a475beb631d0"
+      }
+    },
+    {
+      "source_id": "SRC-GRID-PAPER",
+      "title": "Generative Recommendation with Semantic IDs: A Practitioner's Handbook",
+      "original_url": "https://arxiv.org/abs/2507.22224v1",
+      "revision": "arXiv:2507.22224v1，2025-07-29",
+      "input_sha256": "e699c9da6bf6b45e137782ca1bcaeb225fd81978f3b6340b4e29588823336210",
+      "input_pages": 5,
+      "duplicate_count": 0,
+      "scope": "正式正文、摘要、图表说明；参考文献与图内英文保留",
+      "status": "published",
+      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-27",
+        "notes": "核对固定版本 arXiv 许可链接及论文署名；译文按同一许可发布，保留作品原有权利声明。",
+        "evidence_url": "https://arxiv.org/abs/2507.22224v1",
+        "evidence_sha256": "5b498ecb47f2dec0379596ec5e5e350629bd944e1258358fad5f0abd225377dd",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "authors": [
+          "Ju, Clark Mingxuan",
+          "Collins, Liam",
+          "Neves, Leonardo",
+          "Kumar, Bhuvesh",
+          "Wang, Louis Yufeng",
+          "Zhao, Tong",
+          "Shah, Neil"
+        ]
+      },
+      "release": {
+        "tag": "zh-pdfs-20261027",
+        "asset_name": "SRC-GRID-PAPER.zh-CN.20261027.1.pdf",
+        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-GRID-PAPER.zh-CN.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "06388d4d0f3f797bff42a8d0759a394ebd053ccdc0a512c38bac40b9dd279276",
+        "size_bytes": 674002,
+        "pages": 6,
+        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
+        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
+        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
+        "verified_download_sha256": "06388d4d0f3f797bff42a8d0759a394ebd053ccdc0a512c38bac40b9dd279276"
+      }
+    },
+    {
+      "source_id": "SRC-HERLOCKER-EVAL",
+      "title": "Evaluating Collaborative Filtering Recommender Systems",
+      "original_url": "https://doi.org/10.1145/963770.963772",
+      "revision": "ACM TOIS 2004正式版，22(1):5–53；用户提供PDF，无LaTeX源码",
+      "input_sha256": "259af5e52c113ee4af18bebe9e3187eef532740b8437378a0f8bd615874b1faf",
+      "input_pages": 27,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 27页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-27",
+        "notes": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+        "evidence_url": "https://api.crossref.org/works/10.1145/963770.963772",
+        "evidence_sha256": "917a54e9a818aa94ddd57163f5d82c7463c373c1840f7f3ed379a8480b4cb4e3",
+        "authors": [
+          "Jonathan L. Herlocker",
+          "Joseph A. Konstan",
+          "Loren G. Terveen",
+          "John T. Riedl"
+        ]
+      }
+    },
+    {
+      "source_id": "SRC-HSTU-PAPER",
+      "title": "Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations",
+      "original_url": "https://arxiv.org/abs/2402.17152v3",
+      "revision": "arXiv2402.17152v3，2024-05-06，ICML2024，26页",
+      "input_sha256": "cf6da70aa6a2689e35735d46cf4179a9395da19094d958ae81e62a71c715e01e",
+      "input_pages": 25,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–6、影响声明、致谢及图表说明；附录A–H、参考文献与图内英文保留",
+      "status": "published",
+      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-27",
+        "notes": "核对固定版本 arXiv 许可链接及论文署名；译文按同一许可发布，保留作品原有权利声明。",
+        "evidence_url": "https://arxiv.org/abs/2402.17152v3",
+        "evidence_sha256": "7214eea6ece5ffa7ffbb7249ce80a8935584f52ec7b6a3725664f036f18318e2",
+        "license_id": "CC-BY-NC-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "authors": [
+          "Zhai, Jiaqi",
+          "Liao, Lucy",
+          "Liu, Xing",
+          "Wang, Yueming",
+          "Li, Rui",
+          "Cao, Xuan",
+          "Gao, Leon",
+          "Gong, Zhaojie",
+          "Gu, Fangda",
+          "He, Michael",
+          "Lu, Yinghai",
+          "Shi, Yu"
+        ]
+      },
+      "release": {
+        "tag": "zh-pdfs-20261027",
+        "asset_name": "SRC-HSTU-PAPER.zh-CN.20261027.1.pdf",
+        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-HSTU-PAPER.zh-CN.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "370e0148a04621077f2c00b8316959dab89bce68358a2b447cbb21d6204b3bbf",
+        "size_bytes": 1805448,
+        "pages": 26,
+        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
+        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
+        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
+        "verified_download_sha256": "370e0148a04621077f2c00b8316959dab89bce68358a2b447cbb21d6204b3bbf"
+      }
+    },
+    {
+      "source_id": "SRC-INTTOWER",
+      "title": "IntTower · IntTower: the Next Generation of Two-Tower Model for Pre-Ranking System",
+      "original_url": "https://arxiv.org/abs/2210.09890v1",
+      "revision": "2210.09890v1 (2022-10-18; PDF标CIKM’22及DOI 10.1145/3511808.3557072)",
+      "input_sha256": "446216a6f3e37d1aa25d3ae677a5114077d4ef25efa99480350c60c6d7fe5130",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 8页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2210.09890v1",
+        "evidence_sha256": "b0223645b48605585c8434e23021e55e0e3912ad09b78178889a57af498aee7c",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-LCREC",
+      "title": "Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation",
+      "original_url": "https://arxiv.org/abs/2311.09049v4",
+      "revision": "arXiv2311.09049v4，2024-04-19，14页",
+      "input_sha256": "ae2b19f028a117f6069fd971dbbeb5bda1b7721dea7b50691dd00e9d64ec202b",
+      "input_pages": 10,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 10页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2311.09049v4",
+        "evidence_sha256": "277f93fab1bd9944dcd20ada664ac6ab60c208a91efd4afcf88ec4b2f5043b68",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-LIGER",
+      "title": "Unifying Generative and Dense Retrieval for Sequential Recommendation",
+      "original_url": "https://arxiv.org/abs/2411.18814v2",
+      "revision": "arXiv:2411.18814v2，2024-12-06；原PDF内日期2024-12-10",
+      "input_sha256": "e713e41cf687cc8fb9a244f54cdd9bd2804b6016ed2f6c4da993471e36399062",
+      "input_pages": 15,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 15页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2411.18814v2",
+        "evidence_sha256": "62d0cad8e5004ae24a83e05d8b09bec2be434a2d9fd5148daa0c359cc60cb96d",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-LIGHTGCN",
+      "title": "LightGCN · Simplifying and Powering Graph Convolution Network for Recommendation",
+      "original_url": "https://arxiv.org/abs/2002.02126v4",
+      "revision": "2002.02126v4 (2020-07-07; SIGIR 2020; DOI 10.1145/3397271.3401063)",
+      "input_sha256": "a9c91a4f44d3c8c51e5b23aab1f00b8b81d48a97b0c68f0f3714241534231da3",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 8页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2002.02126v4",
+        "evidence_sha256": "6b483c6bff961f74bf3429f89102d1c43c7c766a05773b4e922b636e3ff80064",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-LINUCB",
+      "title": "LinUCB · A Contextual-Bandit Approach to Personalized News Article Recommendation",
+      "original_url": "https://arxiv.org/abs/1003.0146v2",
+      "revision": "arXiv 1003.0146v2，2012-03-01，WWW 2010，DOI10.1145/1772690.1772758；10页PDF及完整LaTeX源码原包",
+      "input_sha256": "8ef1527d725c9582c2b9397461e1c8278402f1534c873978dfc096b88861d7a4",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 8页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1003.0146v2",
+        "evidence_sha256": "98f5694b7b031a2a8bf7aef1cbe2c1b26df184e3c6982c8c9492daeb262569f1",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-MIND",
+      "title": "MIND · Multi-Interest Network with Dynamic Routing for Recommendation at Tmall",
+      "original_url": "https://arxiv.org/abs/1904.08030v1",
+      "revision": "1904.08030v1 (2019-04-17; arXiv预印本，源码KDD模板及占位DOI不作发表依据)",
+      "input_sha256": "cf1650e256b068d29d1e6d72713a2ece19c80feadbbd95ec1f85ceaebe7ea8e4",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 7页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1904.08030v1",
+        "evidence_sha256": "593795e84a1aabd1febb544f06b10818acbb5d54c933e4a57ba0eabfa45469fa",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-MMOE",
+      "title": "Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts",
+      "original_url": "https://doi.org/10.1145/3219819.3220007",
+      "revision": "KDD 2018，1930–1939页，GitHub镜像出版PDF",
+      "input_sha256": "31e9affa8da477caaeaba058f5b617b3020ed5b1509b5904ef286fe3ff41da2c",
+      "input_pages": 12,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-27",
+        "notes": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+        "evidence_url": "https://api.crossref.org/works/10.1145/3219819.3220007",
+        "evidence_sha256": "8bcf731f2a6af8bf74b7d214393ff4056284c36c95c9d03d5c01542edc75f02f",
+        "authors": [
+          "Jiaqi Ma",
+          "Zhe Zhao",
+          "Xinyang Yi",
+          "Jilin Chen",
+          "Lichan Hong",
+          "Ed H. Chi"
+        ]
+      }
+    },
+    {
+      "source_id": "SRC-ONEREC",
+      "title": "OneRec: Unifying Retrieve and Rank with Generative Recommender and Preference Alignment",
+      "original_url": "https://arxiv.org/abs/2502.18965v1",
+      "revision": "arXiv:2502.18965v1, 2025-02-26",
+      "input_sha256": "825273256ef2d71f0fce0576737e7b260535055d8d9227040699fae39dd429ab",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "正式正文、摘要、图表说明；参考文献与图内英文保留",
+      "status": "published",
+      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-27",
+        "notes": "核对固定版本 arXiv 许可链接及论文署名；译文按同一许可发布，保留作品原有权利声明。",
+        "evidence_url": "https://arxiv.org/abs/2502.18965v1",
+        "evidence_sha256": "e572d9295498cbb2e7a07bbba0f14b832637c62fd258a3cc21a76ab9b53b621c",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "authors": [
+          "Deng, Jiaxin",
+          "Wang, Shiyao",
+          "Cai, Kuo",
+          "Ren, Lejian",
+          "Hu, Qigen",
+          "Ding, Weifeng",
+          "Luo, Qiang",
+          "Zhou, Guorui"
+        ]
+      },
+      "release": {
+        "tag": "zh-pdfs-20261027",
+        "asset_name": "SRC-ONEREC.zh-CN.20261027.1.pdf",
+        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-ONEREC.zh-CN.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "bc2a4930e052a4f013fa84b24bb959f7e77ac68a01e1c0f76a6473fdd628d550",
+        "size_bytes": 3830090,
+        "pages": 9,
+        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
+        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
+        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
+        "verified_download_sha256": "bc2a4930e052a4f013fa84b24bb959f7e77ac68a01e1c0f76a6473fdd628d550"
+      }
+    },
+    {
+      "source_id": "SRC-P5",
+      "title": "Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)",
+      "original_url": "https://arxiv.org/abs/2203.13366v7",
+      "revision": "arXiv2203.13366v7，2023-01-02；RecSys2022，19页",
+      "input_sha256": "5328400b3b4b203609c33455e3231ba05cc8620c3e83d10abaa936582c839b8a",
+      "input_pages": 16,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 16页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2203.13366v7",
+        "evidence_sha256": "622fba55e3a80851e3c4ae111de7bae742b46b4ad880ca6348c05711339a6e26",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-PEPNET",
+      "title": "PEPNet · PEPNet: Parameter and Embedding Personalized Network for Infusing with Personalized Prior Information",
+      "original_url": "https://arxiv.org/abs/2302.01115v3",
+      "revision": "arXiv 2302.01115v3，2023-06-27；KDD 2023，DOI 10.1145/3580305.3599884；固定v3 PDF与配套上游源码压缩包",
+      "input_sha256": "f09db0b05fd4efa71fef1b5249d3ac4ad3c1f808f801ea60f03e128db99d09bc",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 8页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2302.01115v3",
+        "evidence_sha256": "86a0c5feabcfc668438a0be1e80013352e71157b154be0ce1e863248ed458b0c",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-PLE",
+      "title": "PLE · Progressive Layered Extraction (PLE): A Novel Multi-Task Learning (MTL) Model for Personalized Recommendations",
+      "original_url": "https://doi.org/10.1145/3383313.3412236",
+      "revision": "RecSys 2020出版版，269–278页；第三方GitHub清单镜像PDF，Crossref与PDF身份一致；非作者官网，未取得LaTeX",
+      "input_sha256": "51bc0b3c52435781799ba4cfc7b8a823e4a1048dc24e1efca2b571401ea9f6c7",
+      "input_pages": 14,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 14页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-27",
+        "notes": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+        "evidence_url": "https://api.crossref.org/works/10.1145/3383313.3412236",
+        "evidence_sha256": "3cab243eb5e3bde2725c85ed0f7d04dbcba79b30b2efd38d47e7dda37de71631",
+        "authors": [
+          "Hongyan Tang",
+          "Junning Liu",
+          "Ming Zhao",
+          "Xudong Gong"
+        ]
+      }
+    },
+    {
+      "source_id": "SRC-POUL",
+      "title": "POUL · Orthogonal Uplift Learning with Permutation-Invariant Representations for Combinatorial Treatments",
+      "original_url": "https://arxiv.org/abs/2602.19851v1",
+      "revision": "2602.19851v1; submitted 2026-02-23; preprint PDF dated 2026-02-24",
+      "input_sha256": "395bf9f60040701d07f3ecb7a6a9110923d31a06b7478482e1926249917f7a92",
+      "input_pages": 20,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 20页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2602.19851v1",
+        "evidence_sha256": "9ce75dbdf8bab9d648a5ae495d68d4cc8ffe87c932e63218eb44402c629a0975",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-RECBOLE-PAPER",
+      "title": "RecBole: Towards a Unified, Comprehensive and Efficient Framework for Recommendation Algorithms",
+      "original_url": "https://arxiv.org/abs/2011.01731v3",
+      "revision": "arXiv:2011.01731v3，2021-08-28；CIKM 2021，DOI 10.1145/3459637.3482016",
+      "input_sha256": "c9c477d5a1a7f5fb19e0d32837ccf41d261ebd6ee066db20c546b75d73073ad4",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 9页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2011.01731v3",
+        "evidence_sha256": "19e20c7f434c7f0aee941af4c81d34545be905d8f5eabb88f50bc474124ef6ef",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-SAMPLED-METRICS",
+      "title": "On Sampled Metrics for Item Recommendation",
+      "original_url": "https://doi.org/10.1145/3394486.3403226",
+      "revision": "KDD 2020出版全文，1748–1757页，GitHub镜像PDF；未取得LaTeX源码",
+      "input_sha256": "4b60f3fc61c0b979892c3f39c9278ec7f95839bd0c44de5c9f2d643eeb0ca15d",
+      "input_pages": 13,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–8与复现§9中文；按出版全文10页重排为13页，公式重排、数值大表保留原图，文献与图内英文保留",
+      "status": "published",
+      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-27",
+        "notes": "原始 PDF 首页明确写有 CC BY 4.0 许可；原件哈希已绑定，优先采用作品内的明确许可，而非仅据 arXiv 分发许可。",
+        "evidence_url": "https://api.crossref.org/works/10.1145/3394486.3403226",
+        "evidence_sha256": "b795730d0cef5ad78d4510b5456fb325f7ff0467bb544ddf379c0f7711dd3f9e",
+        "authors": [
+          "Walid Krichene",
+          "Steffen Rendle"
+        ],
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "original_pdf_sha256": "5212f092b6ae91604950849882f8f61ec55995045f65b00b9c61ceb3757422c1"
+      },
+      "release": {
+        "tag": "zh-pdfs-20261027",
+        "asset_name": "SRC-SAMPLED-METRICS.zh-CN.20261027.1.pdf",
+        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-SAMPLED-METRICS.zh-CN.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "799467501b4160845784771f4d17f5ea2f1c6e887c05f832aac822fb093cfe1b",
+        "size_bytes": 1040947,
+        "pages": 14,
+        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
+        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
+        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
+        "verified_download_sha256": "799467501b4160845784771f4d17f5ea2f1c6e887c05f832aac822fb093cfe1b"
+      }
+    },
+    {
+      "source_id": "SRC-SASREC",
+      "title": "SASRec · Self-Attentive Sequential Recommendation",
+      "original_url": "https://arxiv.org/abs/1808.09781v1",
+      "revision": "1808.09781v1; 2018",
+      "input_sha256": "d591afc3a94d9122008d7946584804ce274620f67d526b9af92bd7aee03c6714",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 7页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1808.09781v1",
+        "evidence_sha256": "1878d4bae621b257af989b1ab5ed6f548cd1b71dba6c1ce6ed4431ca8fd16666",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-SDPO",
+      "title": "On Softmax Direct Preference Optimization for Recommendation",
+      "original_url": "https://arxiv.org/abs/2406.09215v3",
+      "revision": "arXiv:2406.09215v3, 2024-11-07, NeurIPS 2024",
+      "input_sha256": "803f1612762166e52413b5e6ad69de562b7636940f1e432f698cb7acadb1e038",
+      "input_pages": 17,
+      "duplicate_count": 0,
+      "scope": "摘要、正式正文和图表说明；附录、参考文献与图内英文保留",
+      "status": "published",
+      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-27",
+        "notes": "核对固定版本 arXiv 许可链接及论文署名；译文按同一许可发布，保留作品原有权利声明。",
+        "evidence_url": "https://arxiv.org/abs/2406.09215v3",
+        "evidence_sha256": "c42cde151a1d74dda1ba1e8a7464ead0653a05a7638b6e0291b34d0db7833212",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "authors": [
+          "Chen, Yuxin",
+          "Tan, Junfei",
+          "Zhang, An",
+          "Yang, Zhengyi",
+          "Sheng, Leheng",
+          "Zhang, Enzhi",
+          "Wang, Xiang",
+          "Chua, Tat-Seng"
+        ]
+      },
+      "release": {
+        "tag": "zh-pdfs-20261027",
+        "asset_name": "SRC-SDPO.zh-CN.20261027.1.pdf",
+        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-SDPO.zh-CN.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "6f02deaaacfd2ebd0157e5591ba673e37cad3772b834b7e7b014c6917ceb3ae9",
+        "size_bytes": 1580757,
+        "pages": 18,
+        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
+        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
+        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
+        "verified_download_sha256": "6f02deaaacfd2ebd0157e5591ba673e37cad3772b834b7e7b014c6917ceb3ae9"
+      }
+    },
+    {
+      "source_id": "SRC-SEQ2SLATE",
+      "title": "Seq2Slate · Seq2Slate: Re-ranking and Slate Optimization with RNNs",
+      "original_url": "https://arxiv.org/abs/1810.02019v3",
+      "revision": "arXiv 1810.02019v3，2019-03-19（初稿2018-10-04）；固定v3 PDF与配套上游源码压缩包，未另核会议版本或DOI",
+      "input_sha256": "e97ed10b67df409cc561d5d3d56c497a41844c6b4935a992ac916901697efddc",
+      "input_pages": 16,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 16页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1810.02019v3",
+        "evidence_sha256": "e80dcdd6294ef9d9f3c730694039c01f5c23c0226ba8e59ed6e429e3ba500016",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-SIM",
+      "title": "SIM · Search-based User Interest Modeling with Lifelong Sequential Behavior Data for Click-Through Rate Prediction",
+      "original_url": "https://arxiv.org/abs/2006.05639v2",
+      "revision": "2006.05639v2 (2020-06-29; arXiv预印本，Conference20模板不作出版依据)",
+      "input_sha256": "a8000f50a3d207862f80cc45146a4c6271c88ef0c0b353e690e25c879cb57c23",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 6页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2006.05639v2",
+        "evidence_sha256": "55be4e5e42351467404899f9ebbfd9c197d3f6245335f0ddc5762a105370d8ad",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-SLATEQ",
+      "title": "Reinforcement Learning for Slate-based Recommender Systems: A Tractable Decomposition and Practical Methodology",
+      "original_url": "https://arxiv.org/abs/1905.12767v2",
+      "revision": "arXiv1905.12767v2，2019-05-31；38页扩展版",
+      "input_sha256": "df0bc0a22937f7eb4a8ff90c8d59368c1398616b7528faa8995827039aa49d29",
+      "input_pages": 28,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 28页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1905.12767v2",
+        "evidence_sha256": "2ebcbe8c166ebce3bc285963f5557c894a13d0e63c64f3ac84d93f9b78d70656",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-STAR",
+      "title": "STAR · One Model to Serve All: Star Topology Adaptive Recommender for Multi-Domain CTR Prediction",
+      "original_url": "https://arxiv.org/abs/2101.11427v5",
+      "revision": "arXiv 2101.11427v5，2021-11-02；CIKM 2021，DOI 10.1145/3459637.3481941；固定v5 PDF与配套上游源码压缩包",
+      "input_sha256": "2c70d822473e7212e8ae3e0142c6f70041f6e3772f9847bc31cc5f8c4447b352",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明与描述性脚注；无附录，参考文献与图内英文保留",
+      "status": "published",
+      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-27",
+        "notes": "核对固定版本 arXiv 许可链接及论文署名；译文按同一许可发布，保留作品原有权利声明。",
+        "evidence_url": "https://arxiv.org/abs/2101.11427v5",
+        "evidence_sha256": "847fd4bc14a3166c008397595bf4c617f200448fc56b3131f762d7e9d9ede7b4",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "authors": [
+          "Sheng, Xiang-Rong",
+          "Zhao, Liqin",
+          "Zhou, Guorui",
+          "Ding, Xinyao",
+          "Dai, Binding",
+          "Luo, Qiang",
+          "Yang, Siran",
+          "Lv, Jingshan",
+          "Zhang, Chi",
+          "Deng, Hongbo",
+          "Zhu, Xiaoqiang"
+        ]
+      },
+      "release": {
+        "tag": "zh-pdfs-20261027",
+        "asset_name": "SRC-STAR.zh-CN.20261027.1.pdf",
+        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-STAR.zh-CN.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "9e9c643ad20353f153e5d1ea777db45e72bacc75183791dbb02f02d34b0db2b4",
+        "size_bytes": 2850621,
+        "pages": 7,
+        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
+        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
+        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
+        "verified_download_sha256": "9e9c643ad20353f153e5d1ea777db45e72bacc75183791dbb02f02d34b0db2b4"
+      }
+    },
+    {
+      "source_id": "SRC-T5",
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "original_url": "https://arxiv.org/abs/1910.10683v4",
+      "revision": "arXiv 1910.10683v4，2023-09-19修订；JMLR 21(140), 2020，1–67；源码为下载后未修改文件的本地重新打包",
+      "input_sha256": "6261757c5a6550be9cc704dd935e6b6d223efaf34bd8a45d780628d865a0b228",
+      "input_pages": 47,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–4及图表说明中文；附录A–E、参考文献与图内英文保留，原译文47页含一张大尺寸结果表",
+      "status": "published",
+      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-27",
+        "notes": "原始 PDF 首页明确写有 CC BY 4.0 许可；原件哈希已绑定，优先采用作品内的明确许可，而非仅据 arXiv 分发许可。",
+        "evidence_url": "https://arxiv.org/pdf/1910.10683v4",
+        "evidence_sha256": "ad07e47cedf437a4156419ce5d3076e08a3e59bbfd6dac7cc53df1009cdcbe7f",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_id": "CC-BY-4.0",
+        "authors": [
+          "Raffel, Colin",
+          "Shazeer, Noam",
+          "Roberts, Adam",
+          "Lee, Katherine",
+          "Narang, Sharan",
+          "Matena, Michael",
+          "Zhou, Yanqi",
+          "Li, Wei",
+          "Liu, Peter J."
+        ],
+        "original_pdf_sha256": "ad07e47cedf437a4156419ce5d3076e08a3e59bbfd6dac7cc53df1009cdcbe7f"
+      },
+      "release": {
+        "tag": "zh-pdfs-20261027",
+        "asset_name": "SRC-T5.zh-CN.20261027.1.pdf",
+        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-T5.zh-CN.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "7ad91d65ef021585a09766eff0b6ca231c7aaacfa6ad7efe5d12008f10bd92b7",
+        "size_bytes": 1240635,
+        "pages": 48,
+        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
+        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
+        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
+        "verified_download_sha256": "7ad91d65ef021585a09766eff0b6ca231c7aaacfa6ad7efe5d12008f10bd92b7"
+      }
+    },
+    {
+      "source_id": "SRC-TIGER",
+      "title": "TIGER · Recommender Systems with Generative Retrieval",
+      "original_url": "https://arxiv.org/abs/2305.05065v3",
+      "revision": "2305.05065v3 (2023-11-03; NeurIPS 2023)",
+      "input_sha256": "f8b83aefdf0ad9ef872a31dbf3d89c23836043800e4a86248a1ba1ac8a0950c6",
+      "input_pages": 14,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 14页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/2305.05065v3",
+        "evidence_sha256": "a4b3eb4bfc9aa8b7fd21bc925b7b87559c4f01605449b51243c1ee3390acd32a",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-TRANSFORMER",
+      "title": "Attention Is All You Need",
+      "original_url": "https://arxiv.org/abs/1706.03762v7",
+      "revision": "arXiv 1706.03762v7，2023-08-02；NeurIPS 2017论文；源码为下载后未修改文件的本地重新打包",
+      "input_sha256": "2ef84966fab125e826c03b45e8ff30ceef4bdb137e4247f970ed6e100ff838bf",
+      "input_pages": 18,
+      "duplicate_count": 1,
+      "scope": "现有本地中文 PDF 18页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1706.03762v7",
+        "evidence_sha256": "6881a0104a20e5ba7d948095578f24df5e8274340e1c4b50a787ef8f935d0cbb",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-WIDEDEEP",
+      "title": "Wide & Deep · Wide & Deep Learning for Recommender Systems",
+      "original_url": "https://arxiv.org/abs/1606.07792v1",
+      "revision": "1606.07792v1 (2016-06-24)",
+      "input_sha256": "179929456de6dd18e1a55a782cef760e99e1ab30ace0fa1c4345fce1e3e2a3cd",
+      "input_pages": 3,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 3页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+        "evidence_url": "https://arxiv.org/abs/1606.07792v1",
+        "evidence_sha256": "b6e17a18ca5a33772d329da6326c235c5d0f637e1b89c685217a8a39d5da8241",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    },
+    {
+      "source_id": "SRC-YOUTUBE-DNN",
+      "title": "Deep Neural Networks for YouTube Recommendations",
+      "original_url": "https://doi.org/10.1145/2959100.2959190",
+      "revision": "RecSys 2016，191–198页，GitHub镜像出版PDF",
+      "input_sha256": "6aa6d47695e9b588839b94ce072520709d485a1e8987b298116da79d44b3df6b",
+      "input_pages": 12,
+      "duplicate_count": 0,
+      "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
+      "status": "local-only",
+      "reason": "Crossref 出版登记为 CC BY-NC-ND 4.0；ND 不允许分享改编作品，中文翻译需要额外授权。DOI 出版页面本次返回 HTTP 403。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-27",
+        "notes": "Crossref 出版登记为 CC BY-NC-ND 4.0；ND 不允许分享改编作品，中文翻译需要额外授权。DOI 出版页面本次返回 HTTP 403。",
+        "evidence_url": "https://api.crossref.org/works/10.1145/2959100.2959190",
+        "evidence_sha256": "0e83371dff967b354f2e6c517a066e849ae5d0710ff2d559e1a9aa8078aa9047",
+        "authors": [
+          "Paul Covington",
+          "Jay Adams",
+          "Emre Sargin"
+        ],
+        "license_id": "CC-BY-NC-ND-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    }
+  ]
+}

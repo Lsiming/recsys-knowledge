@@ -22,7 +22,7 @@ def load(root):
 def render(entries):
     lines = ['# 正式 Markdown 译文', '',
              '<!-- 由 python3 scripts/translations.py index 生成，请维护目录.json。 -->', '',
-             '仅发布已核实允许译文再分发、并保留署名与许可的正式版本。原文、PDF、LaTeX、编译和核查附件留本地；来源阅读范围与科研证据见各篇笔记。', '',
+             '仅发布已核实允许译文再分发、并保留署名与许可的正式版本。中文 PDF 按逐篇许可发布至 GitHub Releases，见 [PDF 目录与下载](PDF目录.md)；原文、LaTeX、编译和核查附件留本地。来源阅读范围与科研证据见各篇笔记。', '',
              '“待授权”不表示没有译文，而是全文未公开；公开原文可读不等于获得全文翻译发布授权。CC BY-NC-SA 译文须遵守非商业和相同方式共享条件，详见 [许可规则](../LICENSE)。', '',
              '| 论文 | 正式译文 | 原文与许可 | 状态/范围 |', '|---|---|---|---|']
     for e in entries:
@@ -92,7 +92,7 @@ def check(root, entries):
     if papers != ids:
         errors.append('译文目录与已登记论文不一致：' + ', '.join(sorted(papers ^ ids)))
     actual = {p.relative_to(root).as_posix() for p in (root / '译文').rglob('*')
-              if p.is_file() and p.name not in {'目录.md', '目录.json'}}
+              if p.is_file() and p.relative_to(root / '译文').as_posix() not in {'目录.md', '目录.json', 'PDF目录.md', 'PDF目录.json'}}
     if actual != declared:
         errors.append('存在未登记或缺失的译文文件：' + ', '.join(sorted(actual ^ declared)))
     index = root / '译文/目录.md'

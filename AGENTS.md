@@ -36,8 +36,8 @@
 
 ## Git 与 GitHub 协作
 
-- GitHub 保存知识正文、来源记录、已核实逐篇许可的正式 Markdown 译文、规则与工具；PDF、LaTeX、原件与运行产物单独管理。共建见 [CONTRIBUTING](CONTRIBUTING.md)，许可见 [LICENSE](LICENSE)。
-- 允许配置 remote/upstream 与读取远端；用户已授权首次创建并发布 `Lsiming/recsys-knowledge`。普通论文学习默认中文本地提交；后续推送、PR、合并或远端设置变更按具体用户授权执行，已有授权在其范围内持续有效。不强推、不自动发布其他会话未完成内容。
+- GitHub 保存知识正文、来源记录、已核实逐篇许可的正式 Markdown 译文、规则与工具；中文 PDF 按逐篇许可发布到 GitHub Releases，Git 保存版本、翻译范围、哈希与下载入口，克隆后用 `python3 scripts/download_translations.py` 获取；原文 PDF、LaTeX、原件与运行产物单独管理。发布与后续新论文规则见 [中文PDF发布](文档/工具/中文PDF发布.md)。共建见 [CONTRIBUTING](CONTRIBUTING.md)，许可见 [LICENSE](LICENSE)。
+- 允许配置 remote/upstream 与读取远端；用户已授权首次创建并发布 `Lsiming/recsys-knowledge`。用户已持续授权后续新论文按逐篇许可、最终PDF检查与公开下载校验流程发布中文 PDF 及配套目录/入口增量；普通知识正文默认中文本地提交，其他推送、PR、合并或远端设置变更按具体用户授权执行，已有授权在其范围内持续有效。不强推、不自动发布其他会话未完成内容。
 - 完成且通过适用验证的修改默认一次中文本地提交；明确不提交时遵从，纯问答不提交。
 - 只 `git add <本任务明确文件>` 并核查 `git diff --cached`；禁用 `git add .`、`git add -A`、`git commit -a`。已有他人暂存时保留并隔离或协调。
 - 不回退、删除、整理无关改动，不用 reset --hard、checkout --、clean -fd；工作树/分支清理须确认已整合且无未保存内容，不自动强删。

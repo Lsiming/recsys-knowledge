@@ -24,6 +24,9 @@ python3 scripts/wiki.py search "问题关键词"
 2. 需要登记证据时，自行下载该篇原文，用 [工具说明](scripts/README.md#登记来源) 的 `register` 命令创建 `来源/<ID>/来源.json`。下载原件只放 `.local/`；账本保存公开 locator、revision、SHA256 与实际阅读范围。已有论文继续原 ID，新版本追加保留历史。
 3. 在 `来源/<ID>/阅读笔记.md` 写明问题、已有缺口、机制、必要公式、实验条件、代价与局限。就近标明章节、公式/表图编号，能确认页码时提供固定版本 PDF 的 `#page=N` 链接。作者报告、自己的推断和本仓库复现分别表述。
 4. 按标准流程制作和核对译文；译文受阻时继续能做的精读，明确未完成部分。全文 Markdown 公开前检查 [许可与共享规则](LICENSE)，在 [译文目录](译文/目录.md) 登记逐篇许可、版本、署名、修改说明、范围与哈希。未确认授权时只分享原创解读与公开原文入口，全文译文留本地。
+
+   中文 PDF 另按[发布流程](文档/工具/中文PDF发布.md)与[PDF目录](译文/PDF目录.md)逐篇处理：允许者发布 Releases 并登记版本/范围/哈希及公开下载验证，未允许或失败者写明原因。请勿将 PDF 字节提交到 Git。读者执行 `python3 scripts/download_translations.py` 即可批量下载已许可版本。
+
 5. 将可复用机制和方法差异合并到已有问题页。只有确有独立问题和论文依据时才新建页；候选方法不能伪装为已核实结论。
 
 ## 修改问题页与证据
@@ -42,9 +45,11 @@ python3 scripts/wiki.py search "问题关键词"
 python3 scripts/wiki.py plan
 python3 scripts/wiki.py index
 python3 scripts/translations.py index
+python3 scripts/pdf_releases.py index
 python3 scripts/wiki.py index --check
 python3 scripts/wiki.py lint
 python3 scripts/translations.py check
+python3 scripts/pdf_releases.py check
 python3 scripts/check_context.py
 python3 scripts/check_public.py
 python3 -m unittest discover -s tests -p 'test_*.py'

@@ -29,6 +29,8 @@ jobs:
           python scripts/wiki.py index --check
           python scripts/wiki.py lint
           python scripts/translations.py check
+          python scripts/pdf_releases.py check
+          python scripts/download_translations.py --list
       - name: 公开链接与入口
         run: python scripts/check_context.py
       - name: 公开历史与隐私

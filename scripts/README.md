@@ -64,3 +64,7 @@ Git 中仅有来源账本/笔记和知识，不含 `.local/sources/`。本机已
 `python3 scripts/check_public.py` 扫描当前分发文件与 HEAD 的完整历史，检查作者/提交者邮箱是否为 GitHub noreply，以及凭证、用户绝对路径、内网地址、邮箱与附件候选。CI 完整拉取历史再检查；浅克隆需要先补齐历史。启用本机预推送钩子：`git config --local core.hooksPath .githooks`。钩子检查实际待推送的每个本地 ref，而非只查当前分支，防止误推旧私人分支。
 
 检查器只输出问题类别与文件/提交位置，不打印匹配到的凭证或个人信息；无法判断任意业务文字是否来自公司，人工审核仍需确认来源为公开材料。自动检查不能证明此前短暂公开的内容未被访问；远端旧仓库已按用户要求清除并重建，不保存原始历史。
+
+## 中文 PDF 分发
+
+[PDF目录](../译文/PDF目录.md)由 `python3 scripts/pdf_releases.py index` 生成，`check` 离线核对许可声明、当前来源版本和资产元数据。`python3 scripts/download_translations.py` 一键下载已许可中文 PDF，校验类型/大小/SHA256并跳过正确已有文件；`--source` 可逐篇选择，`--verify-only` 只查本地。下载器只依赖标准库；维护者的 `prepare_pdf_release.py` 需要 pypdf/reportlab，用于增加署名页与清理元数据，不会自动上传。发布、版本修订、未许可/失败处理与授权边界见[中文PDF发布](../文档/工具/中文PDF发布.md)。
