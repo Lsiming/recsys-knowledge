@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check and index the per-paper PDF release registry without local attachments."""
+"""Check the PDF inventory and private storage policy without local attachments."""
 from __future__ import annotations
 
 import argparse
@@ -11,19 +11,20 @@ from translations import LICENSES
 
 ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY = 'Lsiming/recsys-knowledge'
+PRIVATE_REPOSITORY = 'Lsiming/recsys-knowledge-attachments'
 MANIFEST = '译文/PDF目录.json'
 INDEX = '译文/PDF目录.md'
 
 
 def load(root=ROOT):
     data = json.loads((root / MANIFEST).read_text(encoding='utf-8'))
-    if data['schema_version'] != 1 or data['repository'] != REPOSITORY:
-        raise ValueError('不支持的 PDF 目录版本或仓库')
+    if (data.get('schema_version'), data.get('repository'), data.get('storage_policy'), data.get('attachment_repository')) != (2, REPOSITORY, 'private-only', PRIVATE_REPOSITORY):
+        raise ValueError('PDF目录必须采用统一私有存储策略')
     return data
 
 
 def asset_url(tag, name):
-    return f'https://github.com/{REPOSITORY}/releases/download/{tag}/{name}'
+    return f'https://github.com/{PRIVATE_REPOSITORY}/releases/download/{tag}/{name}'
 
 
 def valid_id(value):
@@ -32,6 +33,8 @@ def valid_id(value):
 
 def check(data, root=ROOT):
     errors, ids, assets = [], set(), set()
+    if (data.get('schema_version'), data.get('repository'), data.get('storage_policy'), data.get('attachment_repository')) != (2, REPOSITORY, 'private-only', PRIVATE_REPOSITORY):
+        errors.append('PDF目录必须采用统一私有存储策略')
     for e in data['entries']:
         sid = e.get('source_id')
         if not valid_id(sid) or sid in ids:
@@ -49,7 +52,7 @@ def check(data, root=ROOT):
             version = next(v for v in record['versions'] if v['fingerprint'] == record['current'])
             if (e['original_url'], e['revision']) != (version['locator'], version['revision']):
                 errors.append(f'{sid}: 原文版本变化，需重新核实 PDF 与许可')
-        if e.get('status') not in {'published', 'local-only', 'failed'}:
+        if e.get('status') not in {'private', 'local-only', 'failed'}:
             errors.append(f'{sid}: 无效 PDF 状态')
         rights = e.get('rights', {})
         if rights.get('decision') not in {'allowed', 'not-permitted', 'unverified'} or not rights.get('notes'):
@@ -62,29 +65,29 @@ def check(data, root=ROOT):
                 errors.append(f'{sid}: 作品内许可证据未绑定当前来源原件')
         if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', rights.get('checked_on', '')):
             errors.append(f'{sid}: 缺少许可核实日期')
-        release = e.get('release')
-        if e.get('status') != 'published':
+        if 'release' in e:
+            errors.append(f'{sid}: 不允许公开PDF资产')
+        release = e.get('private_copy')
+        if e.get('status') != 'private':
             if release:
                 errors.append(f'{sid}: 未发布项不能提供下载资产')
             continue
-        if rights.get('decision') != 'allowed' or rights.get('license_id') not in LICENSES or rights.get('license_url') != LICENSES.get(rights.get('license_id')):
-            errors.append(f'{sid}: 发布许可不支持或不匹配')
-        for key in ('authors', 'evidence_url', 'evidence_sha256'):
-            if not rights.get(key):
-                errors.append(f'{sid}: 缺少许可证据/署名 {key}')
-        if not re.fullmatch(r'[0-9a-f]{64}', rights.get('evidence_sha256', '')):
-            errors.append(f'{sid}: 许可证据哈希无效')
+        if rights.get('decision') == 'allowed':
+            if rights.get('license_id') not in LICENSES or rights.get('license_url') != LICENSES.get(rights.get('license_id')):
+                errors.append(f'{sid}: 许可不支持或不匹配')
+            if not rights.get('authors') or not rights.get('evidence_url') or not re.fullmatch(r'[0-9a-f]{64}', rights.get('evidence_sha256', '')):
+                errors.append(f'{sid}: 缺少署名或许可证据')
         if not isinstance(release, dict):
-            errors.append(f'{sid}: 缺少 release')
+            errors.append(f'{sid}: 缺少私有副本记录')
             continue
         tag, name = release.get('tag', ''), release.get('asset_name', '')
         version = release.get('translation_version', '')
-        if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]*', tag) or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9.-]*', version):
+        if not re.fullmatch(r'private-zh-pdfs-[0-9]{8}', tag) or not re.fullmatch(r'[0-9]+\.[0-9]+', version):
             errors.append(f'{sid}: release tag/译文版本无效')
-        if name != f'{sid}.zh-CN.{version}.pdf' or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]*\.pdf', name):
+        if name != f'{sid}.zh-CN.private.{version}.pdf' or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]*\.pdf', name):
             errors.append(f'{sid}: PDF 资产名无效')
-        if release.get('url') != asset_url(tag, name):
-            errors.append(f'{sid}: 下载 URL 必须属于指定仓库且与 tag/资产名一致')
+        if release.get('repository') != PRIVATE_REPOSITORY or release.get('visibility') != 'private' or 'url' in release:
+            errors.append(f'{sid}: 必须使用指定私有仓库；公开目录不放需登录的逐篇链接')
         if (tag, name) in assets:
             errors.append(f'{sid}: 重复资产')
         assets.add((tag, name))
@@ -93,40 +96,30 @@ def check(data, root=ROOT):
         for key in ('size_bytes', 'pages'):
             if type(release.get(key)) is not int or release[key] <= 0:
                 errors.append(f'{sid}: {key} 无效')
-        for key in ('translator', 'changes', 'qa'):
-            if not release.get(key):
-                errors.append(f'{sid}: 缺少发布说明 {key}')
         if release.get('verified_download_sha256') != release.get('sha256'):
-            errors.append(f'{sid}: 缺少公开下载校验证据')
+            errors.append(f'{sid}: 缺少登录下载校验证据')
     return errors
 
 
 def render(data):
     entries = data['entries']
-    count = sum(e['status'] == 'published' for e in entries)
-    lines = ['# 中文 PDF 目录与下载', '',
+    count = sum(e['status'] == 'private' for e in entries)
+    lines = ['# 中文 PDF 目录与访问范围', '',
              '<!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->', '',
-             f'截至 {data["updated"]}，逐篇处理 {len(entries)} 篇现有中文 PDF，公开 {count} 篇。PDF 存放于 GitHub Releases，不进入 Git 历史；克隆或拉取仓库不会自动下载 PDF。', '',
-             '在仓库根目录执行（仅 Python 3.9+ 标准库，无需 GitHub 登录）：', '',
-             '```bash', 'python3 scripts/download_translations.py',
-             'python3 scripts/download_translations.py --source SRC-HSTU-PAPER',
-             '```', '',
-             '默认下载到 `.local/translations/<来源ID>/`，校验大小与 SHA256；已有正确文件会跳过。使用 `--verify-only` 检查本地文件，`--list` 列出可下载项，`--dest` 指定目录。下载失败返回非零状态并逐篇报告。', '',
-             '每份公开 PDF 首页附原作者、固定版本、许可、译者、修改与范围说明。CC BY-NC-SA 4.0 项仅限非商业使用并须相同方式共享。未经许可的全文译文不随下载工具分发；原文可下载不代表允许公开译文。许可与代码见 [共享规则](../LICENSE)、[发布流程](../文档/工具/中文PDF发布.md)。', '',
-             '本表按论文与最终 PDF 去重；同内容别名不重复计数，旧构建、原文和拆出的图表不是独立译文。未登记为公开知识来源的论文仅列附件盘点，不代表其精读已合入。', '',
-             '| 论文 / 稳定 ID | 中文 PDF / 版本 | 许可与核实 | 翻译范围及处理结果 |', '|---|---|---|---|']
+             f'截至{data["updated"]}，盘点{len(entries)}篇中文PDF，{count}篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。', '',
+             '原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。', '',
+             '访问方法见[PDF私有维护流程](../文档/工具/中文PDF发布.md)：在私有克隆运行`python3 download.py --kind translation`；原文用`--kind original`，不带类型则获取全部。私有目录是附件版本、哈希和登录下载校验记录的唯一完整账本。', '',
+             '本表只保留中文PDF盘点、许可依据、范围及备份摘要，不承诺公开下载。原文公开入口仍可使用；私有备份不新增公开分发或翻译授权。正式Markdown译文继续按[共享规则](../LICENSE)逐篇核实后公开。', '',
+             '| 论文 / 稳定 ID | 中文PDF存储 / 版本 | 许可与核实 | 翻译范围及处理结果 |', '|---|---|---|---|']
     for e in entries:
-        sid = e['source_id']
+        sid, rights, copy = e['source_id'], e['rights'], e.get('private_copy')
         title = e['title'].replace('|', '、')
-        rights = e['rights']
-        release = e.get('release')
-        link = f'[{title}]({e["original_url"]}) · `{sid}`'
-        pdf = (f'[下载]({release["url"]}) · {release["translation_version"]} · {release["pages"]}页'
-               if release else '未公开' if e['status'] == 'local-only' else '处理失败')
+        pdf = (f'私有，需登录 · {copy["translation_version"]} · {copy["pages"]}页' if copy else
+               '仅本地，未纳入私有库' if e['status'] == 'local-only' else '处理失败')
         license = rights.get('license_id') or rights['decision']
         evidence = f'[{license}]({rights["evidence_url"]})' if rights.get('evidence_url') else license
         result = f'{e["scope"]}；{e["reason"]}'.replace('|', '、').replace('\n', ' ')
-        lines.append(f'| {link} | {pdf} | {evidence} | {result} |')
+        lines.append(f'| [{title}]({e["original_url"]}) · `{sid}` | {pdf} | {evidence} | {result} |')
     return '\n'.join(lines) + '\n'
 
 
@@ -144,7 +137,7 @@ def main(argv=None):
             (ROOT / INDEX).write_text(content, encoding='utf-8')
         elif not (ROOT / INDEX).exists() or (ROOT / INDEX).read_text(encoding='utf-8') != content:
             raise ValueError('PDF 目录待生成：python3 scripts/pdf_releases.py index')
-        print(f'PASS: {len(data["entries"])} 篇 PDF 登记；许可声明/版本/下载入口/目录一致。离线检查不证明真实授权或远端资产可用。')
+        print(f'PASS: {len(data["entries"])} 篇 PDF 登记；私有策略/许可声明/版本/目录一致。离线检查不证明远端资产可用。')
         return 0
     except (OSError, ValueError, KeyError, TypeError, StopIteration) as exc:
         print(f'FAIL: {exc}')

@@ -67,4 +67,4 @@ Git 中仅有来源账本/笔记和知识，不含 `.local/sources/`。本机已
 
 ## 中文 PDF 分发
 
-[PDF目录](../译文/PDF目录.md)由 `python3 scripts/pdf_releases.py index` 生成，`check` 离线核对许可声明、当前来源版本和资产元数据。`python3 scripts/download_translations.py` 一键下载已许可中文 PDF，校验类型/大小/SHA256并跳过正确已有文件；`--source` 可逐篇选择，`--verify-only` 只查本地。下载器只依赖标准库；维护者的 `prepare_pdf_release.py` 需要 pypdf/reportlab，用于增加署名页与清理元数据，不会自动上传。发布、版本修订、未许可/失败处理与授权边界见[中文PDF发布](../文档/工具/中文PDF发布.md)。
+[PDF目录](../译文/PDF目录.md)由 `python3 scripts/pdf_releases.py index` 生成，`check` 离线检查统一私有策略、许可声明、当前来源版本、私有备份摘要与登录下载哈希；拒绝旧公开资产状态。原文/中文PDF完整目录和下载工具位于独立私有附件库，有权账号在其克隆运行 `python3 download.py`，可用 `--kind original` / `--kind translation` 筛选。公开旧入口 `download_translations.py --list` 只列盘点；实际下载须先克隆私有库，再传 `--attachments-root <私有克隆>` 交给私有下载器，不从公开Releases取PDF。旧准备入口只说明迁移位置，不再生成公开发布副本。CI无须gh、原件或私有凭证；具体见[PDF私有维护](../文档/工具/中文PDF发布.md)。

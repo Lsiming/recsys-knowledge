@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-10-27",
   "inventory_note": "扫描现有 SRC-*/translation/ 顶层最终 PDF；48个文件按论文和SHA256去重为44篇，4个同内容别名未重复发布；原文、旧构建和图表不计为独立中文PDF。",
@@ -13,8 +13,8 @@
       "input_pages": 25,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 25页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -22,6 +22,17 @@
         "evidence_url": "https://arxiv.org/abs/2410.05165v3",
         "evidence_sha256": "8f0808f755e70c1a998a8e346b76897a94b3cbf4b14915066aa27248466b7dd0",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-ATSPEED.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "be4a5df8b88ec9f4717a7e832736104fd402f6336adf36ae64a29d32408b3fad",
+        "size_bytes": 4899845,
+        "pages": 25,
+        "verified_download_sha256": "be4a5df8b88ec9f4717a7e832736104fd402f6336adf36ae64a29d32408b3fad"
       }
     },
     {
@@ -33,8 +44,8 @@
       "input_pages": 17,
       "duplicate_count": 1,
       "scope": "现有本地中文 PDF 17页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。 ACL 出版版为 CC BY 4.0，但本地译文采用的 arXiv v2 与出版版不完全一致（多一处 GLUE 注释）；本次未改译文或改绑版本，待对齐后再发布。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -42,6 +53,17 @@
         "evidence_url": "https://arxiv.org/abs/1810.04805v2",
         "evidence_sha256": "2e32e3b94091656b156ae3ef7776c79b59160ffeb71f123fa31088dfe0141c8c",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-BERT.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "a5a5a8e70088147e36ab42866411a5fa809fe9a122e1443f95e424693ec679df",
+        "size_bytes": 1081399,
+        "pages": 17,
+        "verified_download_sha256": "a5a5a8e70088147e36ab42866411a5fa809fe9a122e1443f95e424693ec679df"
       }
     },
     {
@@ -53,8 +75,8 @@
       "input_pages": 16,
       "duplicate_count": 1,
       "scope": "现有本地中文 PDF 16页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -62,6 +84,17 @@
         "evidence_url": "https://arxiv.org/abs/1904.06690v2",
         "evidence_sha256": "eef35a88a8ccb6a8f925d6e7ebcc2997648fae41fde8d93b5ad24ae8fecf5ad4",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-BERT4REC.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "11795ae5844027cc061d04a0f45f566d8a6e2649a890f7469f5adc4ff9bac4e0",
+        "size_bytes": 2310844,
+        "pages": 16,
+        "verified_download_sha256": "11795ae5844027cc061d04a0f45f566d8a6e2649a890f7469f5adc4ff9bac4e0"
       }
     },
     {
@@ -73,8 +106,8 @@
       "input_pages": 12,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -82,6 +115,17 @@
         "evidence_url": "https://arxiv.org/abs/1205.2618v1",
         "evidence_sha256": "5bd66f5134595295d4b62c133d8fcf07c4b5941b71dae952f814c098824fff85",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-BPR.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "57afef28250f316ed766248da436a0fb535e391f89e089b82c91d841bc6ba504",
+        "size_bytes": 488843,
+        "pages": 12,
+        "verified_download_sha256": "57afef28250f316ed766248da436a0fb535e391f89e089b82c91d841bc6ba504"
       }
     },
     {
@@ -93,8 +137,8 @@
       "input_pages": 6,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 6页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -102,6 +146,17 @@
         "evidence_url": "https://arxiv.org/abs/2007.16122v2",
         "evidence_sha256": "5d61f031d6e2eae3ef0a756ca60b6270b05a9e3d7517a768887618d08ad772a5",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-COLD.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "64516e40287daab08f3ec1f009e79fe113d4ab3bd369528ba183f9c1ad229f24",
+        "size_bytes": 1451705,
+        "pages": 6,
+        "verified_download_sha256": "64516e40287daab08f3ec1f009e79fe113d4ab3bd369528ba183f9c1ad229f24"
       }
     },
     {
@@ -113,8 +168,8 @@
       "input_pages": 11,
       "duplicate_count": 0,
       "scope": "摘要、正文§1–9、致谢及正文图表说明；附录§10–11、参考文献与图内英文保留",
-      "status": "published",
-      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "allowed",
         "checked_on": "2026-10-27",
@@ -133,17 +188,15 @@
           "Chi, Ed H."
         ]
       },
-      "release": {
-        "tag": "zh-pdfs-20261027",
-        "asset_name": "SRC-DCNV2.zh-CN.20261027.1.pdf",
-        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-DCNV2.zh-CN.20261027.1.pdf",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-DCNV2.zh-CN.private.20261027.1.pdf",
         "translation_version": "20261027.1",
         "sha256": "a114728dc3e0d380863615143f63ce7553a1d573ffa84b1cb7f50652ca95c72e",
         "size_bytes": 1790096,
         "pages": 12,
-        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
-        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
-        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
         "verified_download_sha256": "a114728dc3e0d380863615143f63ce7553a1d573ffa84b1cb7f50652ca95c72e"
       }
     },
@@ -156,8 +209,8 @@
       "input_pages": 10,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 10页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -165,6 +218,17 @@
         "evidence_url": "https://arxiv.org/abs/2406.14900v3",
         "evidence_sha256": "d1e399093b983acb67764527eeebe2ed0f6bf26624ffe8f791ded4b433700302",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-DECODING.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "f6128550aa44cab19eec4dada183e589ccd78e14a8dddd7f8f6015d66e3d3182",
+        "size_bytes": 585381,
+        "pages": 10,
+        "verified_download_sha256": "f6128550aa44cab19eec4dada183e589ccd78e14a8dddd7f8f6015d66e3d3182"
       }
     },
     {
@@ -176,8 +240,8 @@
       "input_pages": 6,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 6页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -185,6 +249,17 @@
         "evidence_url": "https://arxiv.org/abs/1703.04247v1",
         "evidence_sha256": "08488fedf75e06b4836f20e46c04149437768b2d6f694eca2a1e84416d981247",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-DEEPFM.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "12a80fcbc1adce99dd51ed5e43def3a48869fb489ea9adb056da4bc71fdf4990",
+        "size_bytes": 1129522,
+        "pages": 6,
+        "verified_download_sha256": "12a80fcbc1adce99dd51ed5e43def3a48869fb489ea9adb056da4bc71fdf4990"
       }
     },
     {
@@ -197,7 +272,7 @@
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 13页；本次不公开，翻译覆盖范围未作发布复核",
       "status": "local-only",
-      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
       "rights": {
         "decision": "unverified",
         "checked_on": "2026-10-27",
@@ -218,8 +293,8 @@
       "input_pages": 6,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 6页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -227,6 +302,17 @@
         "evidence_url": "https://arxiv.org/abs/1809.03672v5",
         "evidence_sha256": "7d738fffd408a4a7860793b7489576e4ffcd97624e6422102084359676685319",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-DIEN.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "2da8ae1276e8c3e9f8e18cb1c7a3b58327f7f5a9ea99271f59f5b829269a1db7",
+        "size_bytes": 2327012,
+        "pages": 6,
+        "verified_download_sha256": "2da8ae1276e8c3e9f8e18cb1c7a3b58327f7f5a9ea99271f59f5b829269a1db7"
       }
     },
     {
@@ -238,8 +324,8 @@
       "input_pages": 8,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 8页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -247,6 +333,17 @@
         "evidence_url": "https://arxiv.org/abs/2304.04971v3",
         "evidence_sha256": "52ad47e73ab38d1c66d26ba8014e46529af0c97f4e0d9a2bf78f1d5987538e79",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-DIFFREC.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "d05b60055a06e6088ac09ff7c0fd1b381a01ff9edbd183dc1d2d34fd2c604dd8",
+        "size_bytes": 4020286,
+        "pages": 8,
+        "verified_download_sha256": "d05b60055a06e6088ac09ff7c0fd1b381a01ff9edbd183dc1d2d34fd2c604dd8"
       }
     },
     {
@@ -258,8 +355,8 @@
       "input_pages": 6,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 6页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -267,6 +364,17 @@
         "evidence_url": "https://arxiv.org/abs/1706.06978v4",
         "evidence_sha256": "ce80e185f04da14c2caa1ee70f45c9377592f9ce90785f3f9f2917285132209d",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-DIN.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "d1fa67fe0a5a9a72b461692c7232c9d6e0f9352d080a020333a1a087a118a6dd",
+        "size_bytes": 7844278,
+        "pages": 6,
+        "verified_download_sha256": "d1fa67fe0a5a9a72b461692c7232c9d6e0f9352d080a020333a1a087a118a6dd"
       }
     },
     {
@@ -278,8 +386,8 @@
       "input_pages": 14,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 14页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -287,6 +395,17 @@
         "evidence_url": "https://arxiv.org/abs/1709.05135v2",
         "evidence_sha256": "6de474966229c23527c936e77861e0d3898e6ac1f89f19acef29206a372250c0",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-DPP.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "8c96a338d95d43cb2d7d3f8fc8c828fb699e43b7ace9fe9d71febc5efe524990",
+        "size_bytes": 796921,
+        "pages": 14,
+        "verified_download_sha256": "8c96a338d95d43cb2d7d3f8fc8c828fb699e43b7ace9fe9d71febc5efe524990"
       }
     },
     {
@@ -298,8 +417,8 @@
       "input_pages": 4,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 4页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -307,6 +426,17 @@
         "evidence_url": "https://arxiv.org/abs/1804.07931v2",
         "evidence_sha256": "583dd88e6ac6526fb6de76eb803539e33aa8159bc90165b145b4f52008b7e3cb",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-ESMM.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "72aeafb8f8ec893e0d908346cb848d26a05954ea181084c8214345a270066fa4",
+        "size_bytes": 366406,
+        "pages": 4,
+        "verified_download_sha256": "72aeafb8f8ec893e0d908346cb848d26a05954ea181084c8214345a270066fa4"
       }
     },
     {
@@ -318,8 +448,8 @@
       "input_pages": 9,
       "duplicate_count": 0,
       "scope": "摘要、正文§1–6、描述性脚注和图表标题中文；无附录，图内英文及参考文献保留",
-      "status": "published",
-      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "allowed",
         "checked_on": "2026-10-27",
@@ -342,17 +472,15 @@
         ],
         "original_pdf_sha256": "8945c78bdaa4930179bfea78ca504093faa4279d21e966720274d3ff88688dc6"
       },
-      "release": {
-        "tag": "zh-pdfs-20261027",
-        "asset_name": "SRC-GENRECSYS-REVIEW.zh-CN.20261027.1.pdf",
-        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-GENRECSYS-REVIEW.zh-CN.20261027.1.pdf",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-GENRECSYS-REVIEW.zh-CN.private.20261027.1.pdf",
         "translation_version": "20261027.1",
         "sha256": "3a513d74ee01085d906b444da1ef18762de2cbfb8bf5e1a6f4d437e4c3545ed2",
         "size_bytes": 685379,
         "pages": 10,
-        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
-        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
-        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
         "verified_download_sha256": "3a513d74ee01085d906b444da1ef18762de2cbfb8bf5e1a6f4d437e4c3545ed2"
       }
     },
@@ -366,7 +494,7 @@
       "duplicate_count": 1,
       "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
       "status": "local-only",
-      "reason": "官方 PDF 已获取并核对，未找到允许公开翻译再分发的声明；未把可下载当作译文许可。",
+      "reason": "官方 PDF 已获取并核对，未找到允许公开翻译再分发的声明；未把可下载当作译文许可。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
       "rights": {
         "decision": "unverified",
         "checked_on": "2026-10-27",
@@ -384,8 +512,8 @@
       "input_pages": 5,
       "duplicate_count": 0,
       "scope": "正式正文、摘要、图表说明；参考文献与图内英文保留",
-      "status": "published",
-      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "allowed",
         "checked_on": "2026-10-27",
@@ -404,17 +532,15 @@
           "Shah, Neil"
         ]
       },
-      "release": {
-        "tag": "zh-pdfs-20261027",
-        "asset_name": "SRC-GRID-PAPER.zh-CN.20261027.1.pdf",
-        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-GRID-PAPER.zh-CN.20261027.1.pdf",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-GRID-PAPER.zh-CN.private.20261027.1.pdf",
         "translation_version": "20261027.1",
         "sha256": "06388d4d0f3f797bff42a8d0759a394ebd053ccdc0a512c38bac40b9dd279276",
         "size_bytes": 674002,
         "pages": 6,
-        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
-        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
-        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
         "verified_download_sha256": "06388d4d0f3f797bff42a8d0759a394ebd053ccdc0a512c38bac40b9dd279276"
       }
     },
@@ -428,7 +554,7 @@
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 27页；本次不公开，翻译覆盖范围未作发布复核",
       "status": "local-only",
-      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
       "rights": {
         "decision": "unverified",
         "checked_on": "2026-10-27",
@@ -452,8 +578,8 @@
       "input_pages": 25,
       "duplicate_count": 0,
       "scope": "摘要、正文§1–6、影响声明、致谢及图表说明；附录A–H、参考文献与图内英文保留",
-      "status": "published",
-      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "allowed",
         "checked_on": "2026-10-27",
@@ -477,17 +603,15 @@
           "Shi, Yu"
         ]
       },
-      "release": {
-        "tag": "zh-pdfs-20261027",
-        "asset_name": "SRC-HSTU-PAPER.zh-CN.20261027.1.pdf",
-        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-HSTU-PAPER.zh-CN.20261027.1.pdf",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-HSTU-PAPER.zh-CN.private.20261027.1.pdf",
         "translation_version": "20261027.1",
         "sha256": "370e0148a04621077f2c00b8316959dab89bce68358a2b447cbb21d6204b3bbf",
         "size_bytes": 1805448,
         "pages": 26,
-        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
-        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
-        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
         "verified_download_sha256": "370e0148a04621077f2c00b8316959dab89bce68358a2b447cbb21d6204b3bbf"
       }
     },
@@ -500,8 +624,8 @@
       "input_pages": 8,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 8页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -509,6 +633,17 @@
         "evidence_url": "https://arxiv.org/abs/2210.09890v1",
         "evidence_sha256": "b0223645b48605585c8434e23021e55e0e3912ad09b78178889a57af498aee7c",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-INTTOWER.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "7716a00cb914bbe568e8f7a53fe73ac4868eb5710c60dbc11f6f2dc8b1bc27bc",
+        "size_bytes": 1155322,
+        "pages": 8,
+        "verified_download_sha256": "7716a00cb914bbe568e8f7a53fe73ac4868eb5710c60dbc11f6f2dc8b1bc27bc"
       }
     },
     {
@@ -520,8 +655,8 @@
       "input_pages": 10,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 10页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -529,6 +664,17 @@
         "evidence_url": "https://arxiv.org/abs/2311.09049v4",
         "evidence_sha256": "277f93fab1bd9944dcd20ada664ac6ab60c208a91efd4afcf88ec4b2f5043b68",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-LCREC.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "568492c3701e9377fb2a40be11f0781df5d481ec544ac63b83961c6e5aef2a96",
+        "size_bytes": 3671037,
+        "pages": 10,
+        "verified_download_sha256": "568492c3701e9377fb2a40be11f0781df5d481ec544ac63b83961c6e5aef2a96"
       }
     },
     {
@@ -540,8 +686,8 @@
       "input_pages": 15,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 15页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -549,6 +695,17 @@
         "evidence_url": "https://arxiv.org/abs/2411.18814v2",
         "evidence_sha256": "62d0cad8e5004ae24a83e05d8b09bec2be434a2d9fd5148daa0c359cc60cb96d",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-LIGER.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "5f5a73d64e4557bee6d3f622e5d8def028396d4ee277eecaf71e74f7cd885a62",
+        "size_bytes": 1153193,
+        "pages": 15,
+        "verified_download_sha256": "5f5a73d64e4557bee6d3f622e5d8def028396d4ee277eecaf71e74f7cd885a62"
       }
     },
     {
@@ -560,8 +717,8 @@
       "input_pages": 8,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 8页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -569,6 +726,17 @@
         "evidence_url": "https://arxiv.org/abs/2002.02126v4",
         "evidence_sha256": "6b483c6bff961f74bf3429f89102d1c43c7c766a05773b4e922b636e3ff80064",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-LIGHTGCN.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "f67e4aea6ed34869cb80618be4f943aa4177f32c9c6224c21e90fad23ff5daf5",
+        "size_bytes": 1167832,
+        "pages": 8,
+        "verified_download_sha256": "f67e4aea6ed34869cb80618be4f943aa4177f32c9c6224c21e90fad23ff5daf5"
       }
     },
     {
@@ -580,8 +748,8 @@
       "input_pages": 8,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 8页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -589,6 +757,17 @@
         "evidence_url": "https://arxiv.org/abs/1003.0146v2",
         "evidence_sha256": "98f5694b7b031a2a8bf7aef1cbe2c1b26df184e3c6982c8c9492daeb262569f1",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-LINUCB.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "94e1ba3a0656e438574786c186fcc926845492438d1ecaab8329c3dd644baffa",
+        "size_bytes": 844305,
+        "pages": 8,
+        "verified_download_sha256": "94e1ba3a0656e438574786c186fcc926845492438d1ecaab8329c3dd644baffa"
       }
     },
     {
@@ -600,8 +779,8 @@
       "input_pages": 7,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 7页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -609,6 +788,17 @@
         "evidence_url": "https://arxiv.org/abs/1904.08030v1",
         "evidence_sha256": "593795e84a1aabd1febb544f06b10818acbb5d54c933e4a57ba0eabfa45469fa",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-MIND.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "210acf68e95039ec5817901d88623d67969f710ba0707a92b0548a9b6ff39eb1",
+        "size_bytes": 1182376,
+        "pages": 7,
+        "verified_download_sha256": "210acf68e95039ec5817901d88623d67969f710ba0707a92b0548a9b6ff39eb1"
       }
     },
     {
@@ -621,7 +811,7 @@
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
       "status": "local-only",
-      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
       "rights": {
         "decision": "unverified",
         "checked_on": "2026-10-27",
@@ -647,8 +837,8 @@
       "input_pages": 8,
       "duplicate_count": 0,
       "scope": "正式正文、摘要、图表说明；参考文献与图内英文保留",
-      "status": "published",
-      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "allowed",
         "checked_on": "2026-10-27",
@@ -668,17 +858,15 @@
           "Zhou, Guorui"
         ]
       },
-      "release": {
-        "tag": "zh-pdfs-20261027",
-        "asset_name": "SRC-ONEREC.zh-CN.20261027.1.pdf",
-        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-ONEREC.zh-CN.20261027.1.pdf",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-ONEREC.zh-CN.private.20261027.1.pdf",
         "translation_version": "20261027.1",
         "sha256": "bc2a4930e052a4f013fa84b24bb959f7e77ac68a01e1c0f76a6473fdd628d550",
         "size_bytes": 3830090,
         "pages": 9,
-        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
-        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
-        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
         "verified_download_sha256": "bc2a4930e052a4f013fa84b24bb959f7e77ac68a01e1c0f76a6473fdd628d550"
       }
     },
@@ -691,8 +879,8 @@
       "input_pages": 16,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 16页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -700,6 +888,17 @@
         "evidence_url": "https://arxiv.org/abs/2203.13366v7",
         "evidence_sha256": "622fba55e3a80851e3c4ae111de7bae742b46b4ad880ca6348c05711339a6e26",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-P5.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "f0de98a2411602726e5001a4dcbf42add09a8f38b4147f705c53924b2fe84dc2",
+        "size_bytes": 2296987,
+        "pages": 16,
+        "verified_download_sha256": "f0de98a2411602726e5001a4dcbf42add09a8f38b4147f705c53924b2fe84dc2"
       }
     },
     {
@@ -711,8 +910,8 @@
       "input_pages": 8,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 8页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -720,6 +919,17 @@
         "evidence_url": "https://arxiv.org/abs/2302.01115v3",
         "evidence_sha256": "86a0c5feabcfc668438a0be1e80013352e71157b154be0ce1e863248ed458b0c",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-PEPNET.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "1970d56795b4ba23c18b194e301139633e13c2f14c937af1894b6d4aeba2eeaf",
+        "size_bytes": 969193,
+        "pages": 8,
+        "verified_download_sha256": "1970d56795b4ba23c18b194e301139633e13c2f14c937af1894b6d4aeba2eeaf"
       }
     },
     {
@@ -732,7 +942,7 @@
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 14页；本次不公开，翻译覆盖范围未作发布复核",
       "status": "local-only",
-      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。",
+      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
       "rights": {
         "decision": "unverified",
         "checked_on": "2026-10-27",
@@ -756,8 +966,8 @@
       "input_pages": 20,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 20页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -765,6 +975,17 @@
         "evidence_url": "https://arxiv.org/abs/2602.19851v1",
         "evidence_sha256": "9ce75dbdf8bab9d648a5ae495d68d4cc8ffe87c932e63218eb44402c629a0975",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-POUL.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "7e792ad8e67ee9a5eafd0c0e3d5403f2cd41c3140f6d7365fa8aa4a41ce87e63",
+        "size_bytes": 589367,
+        "pages": 20,
+        "verified_download_sha256": "7e792ad8e67ee9a5eafd0c0e3d5403f2cd41c3140f6d7365fa8aa4a41ce87e63"
       }
     },
     {
@@ -776,8 +997,8 @@
       "input_pages": 9,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 9页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -785,6 +1006,17 @@
         "evidence_url": "https://arxiv.org/abs/2011.01731v3",
         "evidence_sha256": "19e20c7f434c7f0aee941af4c81d34545be905d8f5eabb88f50bc474124ef6ef",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-RECBOLE-PAPER.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "2443980e570f6aae39898136f4e9ddc368ff6c06fb00b6f712220f0de36d9fe5",
+        "size_bytes": 742346,
+        "pages": 9,
+        "verified_download_sha256": "2443980e570f6aae39898136f4e9ddc368ff6c06fb00b6f712220f0de36d9fe5"
       }
     },
     {
@@ -796,8 +1028,8 @@
       "input_pages": 13,
       "duplicate_count": 0,
       "scope": "摘要、正文§1–8与复现§9中文；按出版全文10页重排为13页，公式重排、数值大表保留原图，文献与图内英文保留",
-      "status": "published",
-      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "allowed",
         "checked_on": "2026-10-27",
@@ -812,17 +1044,15 @@
         "license_url": "https://creativecommons.org/licenses/by/4.0/",
         "original_pdf_sha256": "5212f092b6ae91604950849882f8f61ec55995045f65b00b9c61ceb3757422c1"
       },
-      "release": {
-        "tag": "zh-pdfs-20261027",
-        "asset_name": "SRC-SAMPLED-METRICS.zh-CN.20261027.1.pdf",
-        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-SAMPLED-METRICS.zh-CN.20261027.1.pdf",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-SAMPLED-METRICS.zh-CN.private.20261027.1.pdf",
         "translation_version": "20261027.1",
         "sha256": "799467501b4160845784771f4d17f5ea2f1c6e887c05f832aac822fb093cfe1b",
         "size_bytes": 1040947,
         "pages": 14,
-        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
-        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
-        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
         "verified_download_sha256": "799467501b4160845784771f4d17f5ea2f1c6e887c05f832aac822fb093cfe1b"
       }
     },
@@ -835,8 +1065,8 @@
       "input_pages": 7,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 7页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -844,6 +1074,17 @@
         "evidence_url": "https://arxiv.org/abs/1808.09781v1",
         "evidence_sha256": "1878d4bae621b257af989b1ab5ed6f548cd1b71dba6c1ce6ed4431ca8fd16666",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-SASREC.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "ee078440f89646a45bca655bebd059df2279d8b33b586835103a6d5afcb07cec",
+        "size_bytes": 1690555,
+        "pages": 7,
+        "verified_download_sha256": "ee078440f89646a45bca655bebd059df2279d8b33b586835103a6d5afcb07cec"
       }
     },
     {
@@ -855,8 +1096,8 @@
       "input_pages": 17,
       "duplicate_count": 0,
       "scope": "摘要、正式正文和图表说明；附录、参考文献与图内英文保留",
-      "status": "published",
-      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "allowed",
         "checked_on": "2026-10-27",
@@ -876,17 +1117,15 @@
           "Chua, Tat-Seng"
         ]
       },
-      "release": {
-        "tag": "zh-pdfs-20261027",
-        "asset_name": "SRC-SDPO.zh-CN.20261027.1.pdf",
-        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-SDPO.zh-CN.20261027.1.pdf",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-SDPO.zh-CN.private.20261027.1.pdf",
         "translation_version": "20261027.1",
         "sha256": "6f02deaaacfd2ebd0157e5591ba673e37cad3772b834b7e7b014c6917ceb3ae9",
         "size_bytes": 1580757,
         "pages": 18,
-        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
-        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
-        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
         "verified_download_sha256": "6f02deaaacfd2ebd0157e5591ba673e37cad3772b834b7e7b014c6917ceb3ae9"
       }
     },
@@ -899,8 +1138,8 @@
       "input_pages": 16,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 16页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -908,6 +1147,17 @@
         "evidence_url": "https://arxiv.org/abs/1810.02019v3",
         "evidence_sha256": "e80dcdd6294ef9d9f3c730694039c01f5c23c0226ba8e59ed6e429e3ba500016",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-SEQ2SLATE.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "a8aa0a388f4b5695d15f4072f41e36b8ad57f1d48038ae28c8ae54a622191ba1",
+        "size_bytes": 969778,
+        "pages": 16,
+        "verified_download_sha256": "a8aa0a388f4b5695d15f4072f41e36b8ad57f1d48038ae28c8ae54a622191ba1"
       }
     },
     {
@@ -919,8 +1169,8 @@
       "input_pages": 6,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 6页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -928,6 +1178,17 @@
         "evidence_url": "https://arxiv.org/abs/2006.05639v2",
         "evidence_sha256": "55be4e5e42351467404899f9ebbfd9c197d3f6245335f0ddc5762a105370d8ad",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-SIM.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "28600176daeb32ce7f349e12eceefac99789c6a0c7cde204908ebe75cb303d85",
+        "size_bytes": 5145174,
+        "pages": 6,
+        "verified_download_sha256": "28600176daeb32ce7f349e12eceefac99789c6a0c7cde204908ebe75cb303d85"
       }
     },
     {
@@ -939,8 +1200,8 @@
       "input_pages": 28,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 28页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -948,6 +1209,17 @@
         "evidence_url": "https://arxiv.org/abs/1905.12767v2",
         "evidence_sha256": "2ebcbe8c166ebce3bc285963f5557c894a13d0e63c64f3ac84d93f9b78d70656",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-SLATEQ.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "e8b16396bc507f40a98a96a01a4aa881aca15a5b4c1d0fe6c15b2fe0ade0a79d",
+        "size_bytes": 912458,
+        "pages": 28,
+        "verified_download_sha256": "e8b16396bc507f40a98a96a01a4aa881aca15a5b4c1d0fe6c15b2fe0ade0a79d"
       }
     },
     {
@@ -959,8 +1231,8 @@
       "input_pages": 6,
       "duplicate_count": 0,
       "scope": "摘要、正文、图表说明与描述性脚注；无附录，参考文献与图内英文保留",
-      "status": "published",
-      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "allowed",
         "checked_on": "2026-10-27",
@@ -983,17 +1255,15 @@
           "Zhu, Xiaoqiang"
         ]
       },
-      "release": {
-        "tag": "zh-pdfs-20261027",
-        "asset_name": "SRC-STAR.zh-CN.20261027.1.pdf",
-        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-STAR.zh-CN.20261027.1.pdf",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-STAR.zh-CN.private.20261027.1.pdf",
         "translation_version": "20261027.1",
         "sha256": "9e9c643ad20353f153e5d1ea777db45e72bacc75183791dbb02f02d34b0db2b4",
         "size_bytes": 2850621,
         "pages": 7,
-        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
-        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
-        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
         "verified_download_sha256": "9e9c643ad20353f153e5d1ea777db45e72bacc75183791dbb02f02d34b0db2b4"
       }
     },
@@ -1006,8 +1276,8 @@
       "input_pages": 47,
       "duplicate_count": 0,
       "scope": "摘要、正文§1–4及图表说明中文；附录A–E、参考文献与图内英文保留，原译文47页含一张大尺寸结果表",
-      "status": "published",
-      "reason": "按逐篇许可公开，已完成发布副本渲染与匿名下载完整性校验",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "allowed",
         "checked_on": "2026-10-27",
@@ -1029,17 +1299,15 @@
         ],
         "original_pdf_sha256": "ad07e47cedf437a4156419ce5d3076e08a3e59bbfd6dac7cc53df1009cdcbe7f"
       },
-      "release": {
-        "tag": "zh-pdfs-20261027",
-        "asset_name": "SRC-T5.zh-CN.20261027.1.pdf",
-        "url": "https://github.com/Lsiming/recsys-knowledge/releases/download/zh-pdfs-20261027/SRC-T5.zh-CN.20261027.1.pdf",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-T5.zh-CN.private.20261027.1.pdf",
         "translation_version": "20261027.1",
         "sha256": "7ad91d65ef021585a09766eff0b6ca231c7aaacfa6ad7efe5d12008f10bd92b7",
         "size_bytes": 1240635,
         "pages": 48,
-        "translator": "Lsiming / recsys-knowledge contributors（AI 辅助翻译；非原作者审定）",
-        "changes": "将论文正文与说明翻译为中文，保留原公式、图表及文献身份；本发布副本新增署名许可页并重设 PDF 元数据，清理非公开附件/执行动作；具体翻译范围见上项。",
-        "qa": "2026-10-27：新增封面与最终 PDF 共150页已渲染检查；本篇正文页面与已目视复核副本的渲染哈希相同，封面嵌入中文字体并复核缺字/溢出；清理 PDF 元数据、附件与本地动作，核查正文文本和发布字节的路径/凭证候选；无认证实际下载并校验类型、大小、SHA256。本次未重新进行全文技术结论审查或模型复现。",
         "verified_download_sha256": "7ad91d65ef021585a09766eff0b6ca231c7aaacfa6ad7efe5d12008f10bd92b7"
       }
     },
@@ -1052,8 +1320,8 @@
       "input_pages": 14,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 14页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -1061,6 +1329,17 @@
         "evidence_url": "https://arxiv.org/abs/2305.05065v3",
         "evidence_sha256": "a4b3eb4bfc9aa8b7fd21bc925b7b87559c4f01605449b51243c1ee3390acd32a",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-TIGER.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "1b093b40c2559340ca524d8da59075469de6de23f5fd092e81019fedee609d9c",
+        "size_bytes": 2630353,
+        "pages": 14,
+        "verified_download_sha256": "1b093b40c2559340ca524d8da59075469de6de23f5fd092e81019fedee609d9c"
       }
     },
     {
@@ -1072,8 +1351,8 @@
       "input_pages": 18,
       "duplicate_count": 1,
       "scope": "现有本地中文 PDF 18页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -1081,6 +1360,17 @@
         "evidence_url": "https://arxiv.org/abs/1706.03762v7",
         "evidence_sha256": "6881a0104a20e5ba7d948095578f24df5e8274340e1c4b50a787ef8f935d0cbb",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-TRANSFORMER.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "cb0ff29ca2eedd90105071fbf412e5658045e2f47c2780ad3e55a0beec609600",
+        "size_bytes": 2341259,
+        "pages": 18,
+        "verified_download_sha256": "cb0ff29ca2eedd90105071fbf412e5658045e2f47c2780ad3e55a0beec609600"
       }
     },
     {
@@ -1092,8 +1382,8 @@
       "input_pages": 3,
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 3页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "固定版本 arXiv 页面仅列非独占分发许可，未授予公众公开派生译文的权利；另需原权利人授权。",
+      "status": "private",
+      "reason": "按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -1101,6 +1391,17 @@
         "evidence_url": "https://arxiv.org/abs/1606.07792v1",
         "evidence_sha256": "b6e17a18ca5a33772d329da6326c235c5d0f637e1b89c685217a8a39d5da8241",
         "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027",
+        "asset_name": "SRC-WIDEDEEP.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "34b82fdafaa762e317cfd5aeb047572ec647e45618cae6675da50ada48b5e18a",
+        "size_bytes": 562581,
+        "pages": 3,
+        "verified_download_sha256": "34b82fdafaa762e317cfd5aeb047572ec647e45618cae6675da50ada48b5e18a"
       }
     },
     {
@@ -1113,7 +1414,7 @@
       "duplicate_count": 0,
       "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
       "status": "local-only",
-      "reason": "Crossref 出版登记为 CC BY-NC-ND 4.0；ND 不允许分享改编作品，中文翻译需要额外授权。DOI 出版页面本次返回 HTTP 403。",
+      "reason": "Crossref 出版登记为 CC BY-NC-ND 4.0；ND 不允许分享改编作品，中文翻译需要额外授权。DOI 出版页面本次返回 HTTP 403。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -1129,5 +1430,7 @@
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
       }
     }
-  ]
+  ],
+  "storage_policy": "private-only",
+  "attachment_repository": "Lsiming/recsys-knowledge-attachments"
 }

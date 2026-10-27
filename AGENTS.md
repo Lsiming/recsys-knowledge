@@ -36,8 +36,8 @@
 
 ## Git 与 GitHub 协作
 
-- GitHub 保存知识正文、来源记录、已核实逐篇许可的正式 Markdown 译文、规则与工具；中文 PDF 按逐篇许可发布到 GitHub Releases，Git 保存版本、翻译范围、哈希与下载入口，克隆后用 `python3 scripts/download_translations.py` 获取；原文 PDF、LaTeX、原件与运行产物单独管理。发布与后续新论文规则见 [中文PDF发布](文档/工具/中文PDF发布.md)。共建见 [CONTRIBUTING](CONTRIBUTING.md)，许可见 [LICENSE](LICENSE)。
-- 允许配置 remote/upstream 与读取远端；用户已授权首次创建并发布 `Lsiming/recsys-knowledge`。用户已持续授权后续新论文按逐篇许可、最终PDF检查与公开下载校验流程发布中文 PDF 及配套目录/入口增量；普通知识正文默认中文本地提交，其他推送、PR、合并或远端设置变更按具体用户授权执行，已有授权在其范围内持续有效。不强推、不自动发布其他会话未完成内容。
+- 公开 GitHub 保存知识正文、来源记录、已核实逐篇许可的正式 Markdown 译文、规则与工具。原文和中文 PDF 统一存入独立私有 `Lsiming/recsys-knowledge-attachments` 的 Releases，两库 Git 均不存 PDF 字节；私有 Git 维护完整版本/哈希/登录下载目录，公开 PDF 目录只作许可与范围盘点。公开克隆不授予私有访问权限，PR/CI 不需要原件或私有凭证。流程见 [PDF私有维护](文档/工具/中文PDF发布.md)，共建见 [CONTRIBUTING](CONTRIBUTING.md)，许可见 [LICENSE](LICENSE)。
+- 允许配置 remote/upstream 与读取远端；用户已授权首次创建并发布 `Lsiming/recsys-knowledge`。2026-10-27用户改为PDF统一私有维护，替代此前公开PDF发布授权；现有及后续论文的原文/中文PDF按版本、隐私与完整性核查后备份到该私有库，并登录下载校验。原文原字节/原哈希不变，译文副本保留权利声明。持续授权限于私有附件和必要目录/入口更新，不自动邀请账号、改公开可见性、公开发布PDF或上传LaTeX/环境。普通知识正文默认中文本地提交，其他推送、PR、合并或远端设置变更按具体用户授权执行，已有授权在其范围内持续有效。不强推、不自动发布其他会话未完成内容。
 - 完成且通过适用验证的修改默认一次中文本地提交；明确不提交时遵从，纯问答不提交。
 - 只 `git add <本任务明确文件>` 并核查 `git diff --cached`；禁用 `git add .`、`git add -A`、`git commit -a`。已有他人暂存时保留并隔离或协调。
 - 不回退、删除、整理无关改动，不用 reset --hard、checkout --、clean -fd；工作树/分支清理须确认已整合且无未保存内容，不自动强删。
