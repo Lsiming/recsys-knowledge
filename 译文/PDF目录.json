@@ -270,9 +270,9 @@
       "input_sha256": "99bf8b2fedb61bf455b62696f4f38517b3ba2615e17c4c40b39589115e7e65cf",
       "input_pages": 13,
       "duplicate_count": 0,
-      "scope": "现有本地中文 PDF 13页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
+      "scope": "既有中文PDF；翻译范围沿用原成品及阅读笔记，本轮仅验证备份完整性与版面，未新增全文覆盖或质量承诺",
+      "status": "private",
+      "reason": "用户追加要求纳入个人私有备份；已上传并实际登录下载核验。公开许可判断不变，未公开发布PDF。",
       "rights": {
         "decision": "unverified",
         "checked_on": "2026-10-27",
@@ -282,6 +282,17 @@
         "authors": [
           "Olivier Chapelle"
         ]
+      },
+      "private_copy": {
+        "asset_name": "SRC-DFM.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "e578b1410a8a680f479792ab7badb8ee04a574ce2bcb5c9723397b9424cefa86",
+        "size_bytes": 515140,
+        "pages": 13,
+        "verified_download_sha256": "e578b1410a8a680f479792ab7badb8ee04a574ce2bcb5c9723397b9424cefa86",
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027"
       }
     },
     {
@@ -492,15 +503,26 @@
       "input_sha256": "cba95175789b1ae79f76c295bddf4c37cb1ead47b88a8039b7172eb795d5ddc8",
       "input_pages": 12,
       "duplicate_count": 1,
-      "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "官方 PDF 已获取并核对，未找到允许公开翻译再分发的声明；未把可下载当作译文许可。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
+      "scope": "既有中文PDF；翻译范围沿用原成品及阅读笔记，本轮仅验证备份完整性与版面，未新增全文覆盖或质量承诺",
+      "status": "private",
+      "reason": "用户追加要求纳入个人私有备份；已上传并实际登录下载核验。公开许可判断不变，未公开发布PDF。",
       "rights": {
         "decision": "unverified",
         "checked_on": "2026-10-27",
         "notes": "官方 PDF 已获取并核对，未找到允许公开翻译再分发的声明；未把可下载当作译文许可。",
         "evidence_url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
         "evidence_sha256": "eb81a65e0856bd38e855e1f1de6ee12e7c3eb92ae05c8270d345a475beb631d0"
+      },
+      "private_copy": {
+        "asset_name": "SRC-GPT1.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "6a2de0e2fcbe8e2e12069b8b483e8512d930474de4ecc1b768dc4f73d64f886b",
+        "size_bytes": 553007,
+        "pages": 12,
+        "verified_download_sha256": "6a2de0e2fcbe8e2e12069b8b483e8512d930474de4ecc1b768dc4f73d64f886b",
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027"
       }
     },
     {
@@ -552,9 +574,9 @@
       "input_sha256": "259af5e52c113ee4af18bebe9e3187eef532740b8437378a0f8bd615874b1faf",
       "input_pages": 27,
       "duplicate_count": 0,
-      "scope": "现有本地中文 PDF 27页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
+      "scope": "既有中文PDF；翻译范围沿用原成品及阅读笔记，本轮仅验证备份完整性与版面，未新增全文覆盖或质量承诺",
+      "status": "private",
+      "reason": "用户追加要求纳入个人私有备份；已上传并实际登录下载核验。公开许可判断不变，未公开发布PDF。",
       "rights": {
         "decision": "unverified",
         "checked_on": "2026-10-27",
@@ -567,6 +589,17 @@
           "Loren G. Terveen",
           "John T. Riedl"
         ]
+      },
+      "private_copy": {
+        "asset_name": "SRC-HERLOCKER-EVAL.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "28a1649143333492fdbe23a018eea3c41535c038d1d167ae84dace84d5f13f98",
+        "size_bytes": 2459155,
+        "pages": 27,
+        "verified_download_sha256": "28a1649143333492fdbe23a018eea3c41535c038d1d167ae84dace84d5f13f98",
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027"
       }
     },
     {
@@ -809,9 +842,9 @@
       "input_sha256": "31e9affa8da477caaeaba058f5b617b3020ed5b1509b5904ef286fe3ff41da2c",
       "input_pages": 12,
       "duplicate_count": 0,
-      "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
+      "scope": "既有中文PDF；翻译范围沿用原成品及阅读笔记，本轮仅验证备份完整性与版面，未新增全文覆盖或质量承诺",
+      "status": "private",
+      "reason": "用户追加要求纳入个人私有备份；已上传并实际登录下载核验。公开许可判断不变，未公开发布PDF。",
       "rights": {
         "decision": "unverified",
         "checked_on": "2026-10-27",
@@ -826,6 +859,17 @@
           "Lichan Hong",
           "Ed H. Chi"
         ]
+      },
+      "private_copy": {
+        "asset_name": "SRC-MMOE.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "b3f05fa97d7538601dc74862e42aed95688673da9ad460aa063032e602240cfe",
+        "size_bytes": 953524,
+        "pages": 12,
+        "verified_download_sha256": "b3f05fa97d7538601dc74862e42aed95688673da9ad460aa063032e602240cfe",
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027"
       }
     },
     {
@@ -940,9 +984,9 @@
       "input_sha256": "51bc0b3c52435781799ba4cfc7b8a823e4a1048dc24e1efca2b571401ea9f6c7",
       "input_pages": 14,
       "duplicate_count": 0,
-      "scope": "现有本地中文 PDF 14页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "DOI 出版页面本次返回 HTTP 403；已读取 Crossref 登记，仅有 ACM copyright policy 链接，未证明允许分发译文，待授权。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
+      "scope": "既有中文PDF；翻译范围沿用原成品及阅读笔记，本轮仅验证备份完整性与版面，未新增全文覆盖或质量承诺",
+      "status": "private",
+      "reason": "用户追加要求纳入个人私有备份；已上传并实际登录下载核验。公开许可判断不变，未公开发布PDF。",
       "rights": {
         "decision": "unverified",
         "checked_on": "2026-10-27",
@@ -955,6 +999,17 @@
           "Ming Zhao",
           "Xudong Gong"
         ]
+      },
+      "private_copy": {
+        "asset_name": "SRC-PLE.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "92fb53924a423cca0ef3414557eda487cb7bb67a5ca75b6340942dfdb3c9b9c7",
+        "size_bytes": 757121,
+        "pages": 14,
+        "verified_download_sha256": "92fb53924a423cca0ef3414557eda487cb7bb67a5ca75b6340942dfdb3c9b9c7",
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027"
       }
     },
     {
@@ -1412,9 +1467,9 @@
       "input_sha256": "6aa6d47695e9b588839b94ce072520709d485a1e8987b298116da79d44b3df6b",
       "input_pages": 12,
       "duplicate_count": 0,
-      "scope": "现有本地中文 PDF 12页；本次不公开，翻译覆盖范围未作发布复核",
-      "status": "local-only",
-      "reason": "Crossref 出版登记为 CC BY-NC-ND 4.0；ND 不允许分享改编作品，中文翻译需要额外授权。DOI 出版页面本次返回 HTTP 403。 本次中文PDF迁移范围为原29篇及原公开9篇，本项未纳入私有库。",
+      "scope": "既有中文PDF；翻译范围沿用原成品及阅读笔记，本轮仅验证备份完整性与版面，未新增全文覆盖或质量承诺",
+      "status": "private",
+      "reason": "用户追加要求纳入个人私有备份；已上传并实际登录下载核验。公开许可判断不变，未公开发布PDF。",
       "rights": {
         "decision": "not-permitted",
         "checked_on": "2026-10-27",
@@ -1428,6 +1483,17 @@
         ],
         "license_id": "CC-BY-NC-ND-4.0",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      "private_copy": {
+        "asset_name": "SRC-YOUTUBE-DNN.zh-CN.private.20261027.1.pdf",
+        "translation_version": "20261027.1",
+        "sha256": "f18b9fbe5b22993f471cf46655e8584d89cf106f8aa9ce7427810c2469ac78cd",
+        "size_bytes": 1272800,
+        "pages": 12,
+        "verified_download_sha256": "f18b9fbe5b22993f471cf46655e8584d89cf106f8aa9ce7427810c2469ac78cd",
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261027"
       }
     }
   ],

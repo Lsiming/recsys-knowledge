@@ -15,7 +15,7 @@ cd recsys-knowledge-attachments
 python3 download.py
 ```
 
-默认获取全部原文与中文PDF，保存到私有克隆的`.local/pdfs/<来源ID>/`。38篇中文PDF与46份原文分别登记；原文含44篇已登记原件、1份版本未核实的STAR镜像备用副本及1份额外BERT出版版，后两者均不替代当前来源证据。
+默认获取全部原文与中文PDF，保存到私有克隆的`.local/pdfs/<来源ID>/`。44篇中文PDF与46份原文分别登记；原文含44篇已登记原件、1份版本未核实的STAR镜像备用副本及1份额外BERT出版版，后两者均不替代当前来源证据。
 
 ```bash
 python3 download.py --kind translation
