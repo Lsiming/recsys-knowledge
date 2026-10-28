@@ -201,6 +201,17 @@
     "reason": "arXiv 非独占分发许可；全文译文待授权"
   },
   {
+    "source_id": "SRC-DIN",
+    "title": "Deep Interest Network for Click-Through Rate Prediction",
+    "original_url": "https://arxiv.org/abs/1706.06978v4",
+    "revision": "arXiv:1706.06978v4，9页PDF及配套源码",
+    "checked_on": "2026-10-27",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "status": "local-only",
+    "authors": [],
+    "reason": "本次整合已完成的本地译文/PDF记录；正式Markdown未完成逐篇公开许可与发布登记，保持本地保留。PDF统一私有维护，范围见PDF目录。"
+  },
+  {
     "source_id": "SRC-DPP",
     "title": "DPP · Fast Greedy MAP Inference for Determinantal Point Process to Improve Recommendation Diversity",
     "original_url": "https://arxiv.org/abs/1709.05135v2",
@@ -300,6 +311,17 @@
     "changes": "将原文译为中文，保留公式、数值、专名与范围内原文；增加译注与署名许可说明，将本地附件链接改为公开原文或本地路径说明。",
     "file": "译文/SRC-GRID-PAPER/中文译文.md",
     "sha256": "2c732dea0729d7b2fe347161bdb5dc4f9ebcd85734b846c40226a671802b44c0"
+  },
+  {
+    "source_id": "SRC-HERLOCKER-EVAL",
+    "title": "Evaluating Collaborative Filtering Recommender Systems",
+    "original_url": "https://doi.org/10.1145/963770.963772",
+    "revision": "ACM TOIS 2004正式版，22(1):5–53；用户提供PDF，无LaTeX源码",
+    "checked_on": "2026-10-27",
+    "license_url": null,
+    "status": "local-only",
+    "authors": [],
+    "reason": "本次整合已完成的本地译文/PDF记录；正式Markdown未完成逐篇公开许可与发布登记，保持本地保留。PDF统一私有维护，范围见PDF目录。"
   },
   {
     "source_id": "SRC-HSTU-PAPER",
@@ -472,6 +494,17 @@
     "reason": "arXiv 非独占分发许可；全文译文待授权"
   },
   {
+    "source_id": "SRC-MMOE",
+    "title": "Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts",
+    "original_url": "https://doi.org/10.1145/3219819.3220007",
+    "revision": "KDD 2018，1930–1939页，GitHub镜像出版PDF",
+    "checked_on": "2026-10-27",
+    "license_url": null,
+    "status": "local-only",
+    "authors": [],
+    "reason": "本次整合已完成的本地译文/PDF记录；正式Markdown未完成逐篇公开许可与发布登记，保持本地保留。PDF统一私有维护，范围见PDF目录。"
+  },
+  {
     "source_id": "SRC-ONEREC",
     "title": "OneRec: Unifying Retrieve and Rank with Generative Recommender and Preference Alignment",
     "original_url": "https://arxiv.org/abs/2502.18965v1",
@@ -551,6 +584,17 @@
     "reason": "出版商版本：尚未取得允许发布全文译文的明确授权"
   },
   {
+    "source_id": "SRC-POUL",
+    "title": "POUL · Orthogonal Uplift Learning with Permutation-Invariant Representations for Combinatorial Treatments",
+    "original_url": "https://arxiv.org/abs/2602.19851v1",
+    "revision": "2602.19851v1; submitted 2026-02-23; preprint PDF dated 2026-02-24",
+    "checked_on": "2026-10-27",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "status": "local-only",
+    "authors": [],
+    "reason": "本次整合已完成的本地译文/PDF记录；正式Markdown未完成逐篇公开许可与发布登记，保持本地保留。PDF统一私有维护，范围见PDF目录。"
+  },
+  {
     "source_id": "SRC-RECBOLE-PAPER",
     "title": "RecBole: Towards a Unified, Comprehensive and Efficient Framework for Recommendation Algorithms",
     "original_url": "https://arxiv.org/abs/2011.01731v3",
@@ -582,6 +626,17 @@
     "evidence_sha256": "53eb2fee04d0a197a986032e9cfc49dfe632fe5eaef701ac40932320dd71b633",
     "evidence_url": "https://arxiv.org/abs/2011.01731v3",
     "reason": "arXiv 非独占分发许可；全文译文待授权"
+  },
+  {
+    "source_id": "SRC-SAMPLED-METRICS",
+    "title": "On Sampled Metrics for Item Recommendation",
+    "original_url": "https://doi.org/10.1145/3394486.3403226",
+    "revision": "KDD 2020出版全文，1748–1757页，GitHub镜像PDF；未取得LaTeX源码",
+    "checked_on": "2026-10-27",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "status": "local-only",
+    "authors": [],
+    "reason": "本次整合已完成的本地译文/PDF记录；正式Markdown未完成逐篇公开许可与发布登记，保持本地保留。PDF统一私有维护，范围见PDF目录。"
   },
   {
     "source_id": "SRC-SASREC",
@@ -821,5 +876,26 @@
     "evidence_sha256": "b6e17a18ca5a33772d329da6326c235c5d0f637e1b89c685217a8a39d5da8241",
     "evidence_url": "https://arxiv.org/abs/1606.07792v1",
     "reason": "arXiv 非独占分发许可；全文译文待授权"
+  },
+  {
+    "source_id": "SRC-YOUTUBE-DNN",
+    "title": "Deep Neural Networks for YouTube Recommendations",
+    "original_url": "https://doi.org/10.1145/2959100.2959190",
+    "revision": "RecSys 2016，191–198页，GitHub镜像出版PDF",
+    "checked_on": "2026-10-27",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "status": "local-only",
+    "authors": [],
+    "reason": "本次整合已完成的本地译文/PDF记录；正式Markdown未完成逐篇公开许可与发布登记，保持本地保留。PDF统一私有维护，范围见PDF目录。"
+  },
+  {
+    "source_id": "SRC-TAQFORMER",
+    "title": "TaQFormer · A Treatment-as-Query Transformer with Data-Fusion for Multidimensional Treatment Modeling in Coupon Allocation",
+    "original_url": "https://arxiv.org/abs/2610.26199v1",
+    "revision": "2610.26199v1; retrieved 2026-10-28; arXiv source draft.tex",
+    "status": "local-only",
+    "reason": "已完成中文工作译文；固定版本为CC BY-NC-ND 4.0，不支持公开分享改编译文，Markdown仅本地保留，PDF按独立私有规则维护。",
+    "checked_on": "2026-10-28",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
   }
 ]

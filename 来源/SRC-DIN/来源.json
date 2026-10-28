@@ -1,0 +1,40 @@
+{
+  "id": "SRC-DIN",
+  "title": "Deep Interest Network for Click-Through Rate Prediction",
+  "kind": "paper",
+  "state": "active",
+  "current": "7778352c2b948bd0f929f892c3a41a7433c86225ecb45755b2d97ba4fd9acdb2",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1706.06978v4",
+      "revision": "arXiv:1706.06978v4，9页PDF及配套源码",
+      "read_scope": "摘要、正文§1–7、全部图表与正式PDF范围，源码活跃七文件；未运行模型",
+      "artifacts": [
+        {
+          "name": "1706.06978v4.pdf",
+          "sha256": "cffecc508d1181aa3df58e08450c6f3144b52ddbf2e8a32dd29f5626c4ce5027",
+          "snapshot": ".local/sources/SRC-DIN/cffecc508d1181aa3df58e08450c6f3144b52ddbf2e8a32dd29f5626c4ce5027/1706.06978v4.pdf"
+        },
+        {
+          "name": "1706.06978v4-source.tar.gz",
+          "sha256": "a548d571ed7b5432651e5fefcc6082184f513a11f4668f75d241ec87f902961a",
+          "snapshot": ".local/sources/SRC-DIN/a548d571ed7b5432651e5fefcc6082184f513a11f4668f75d241ec87f902961a/1706.06978v4-source.tar.gz"
+        }
+      ],
+      "fingerprint": "7778352c2b948bd0f929f892c3a41a7433c86225ecb45755b2d97ba4fd9acdb2",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "2fd355bbda5b1eb10cdda8f62a1083a1f45cc31801b879107b04169bdfa4499a",
+        "pages": [
+          "target-conditioned-interest-evolution",
+          "two-stage-watch-value",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-10-27",
+        "review_method": "agent-self-review",
+        "review_note": "已核对1706.06978v4及上游源码，局部激活不做Softmax、mini-batch aware正则与Dice区别；比较DIEN的演化监督、MIND可检索接口及YouTube的时长目标。 最终PDF已逐页渲染目视并保留哈希与构建记录；复核plan直接页和相关候选，候选提示不自动要求新增论断。中文仅覆盖笔记所列范围，附录/图内文字/参考文献保留情况明示；未运行模型复现或线上实验。\n2026-10-27 KB-011本地整合：比对双方已提交笔记，保留PAPER-001补齐记录及后续公开/私有访问说明；逐项核对来源身份、版本、指纹和原件哈希未变。plan直接页与关联候选按现有页面及差异检查，保留既有机制、公式、数据协议与限制；本轮只合并已存在内容并修复导航，不重读全文、不重验PDF或运行模型，无独立科研审查。"
+      }
+    }
+  ]
+}

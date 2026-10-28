@@ -1,0 +1,34 @@
+{
+  "id": "SRC-MMOE",
+  "title": "Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts",
+  "kind": "paper",
+  "state": "active",
+  "current": "1eefe3ac2bd9ece246e198a0fa50a985628a77a96d7ee454a0c360d80db06960",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3219819.3220007",
+      "revision": "KDD 2018，1930–1939页，GitHub镜像出版PDF",
+      "read_scope": "全部10页，摘要、正文§1–7、式1–8、图1–6、表1–4；文献仅定位，未运行模型",
+      "artifacts": [
+        {
+          "name": "MMoE.KDD2018.pdf",
+          "sha256": "88345fad241e5d03ba2cf5c7197851d5cd2f6b3c40ceedb3942e7c1b50414dff",
+          "snapshot": ".local/sources/SRC-MMOE/88345fad241e5d03ba2cf5c7197851d5cd2f6b3c40ceedb3942e7c1b50414dff/MMoE.KDD2018.pdf"
+        }
+      ],
+      "fingerprint": "1eefe3ac2bd9ece246e198a0fa50a985628a77a96d7ee454a0c360d80db06960",
+      "retrieved_on": "2026-10-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "46bd58f1b5512794d9f33d107c3ed3f5d2db13c97b12b46c981b9c844966beca",
+        "pages": [
+          "multitask-negative-transfer",
+          "multitask-objectives"
+        ],
+        "reviewed_on": "2026-10-27",
+        "review_method": "agent-self-review",
+        "review_note": "已核对KDD2018正式版密集Softmax专家及独立任务门、近似参数匹配、合成权重余弦与标签相关区别、Census及表3/4各自基线；与PLE比较，数字冲突保留于笔记与审核台。 最终PDF已逐页渲染目视并保留哈希与构建记录；复核plan直接页和相关候选，候选提示不自动要求新增论断。中文仅覆盖笔记所列范围，附录/图内文字/参考文献保留情况明示；未运行模型复现或线上实验。\n2026-10-27 KB-011本地整合：比对双方已提交笔记，保留PAPER-001补齐记录及后续公开/私有访问说明；逐项核对来源身份、版本、指纹和原件哈希未变。plan直接页与关联候选按现有页面及差异检查，保留既有机制、公式、数据协议与限制；本轮只合并已存在内容并修复导航，不重读全文、不重验PDF或运行模型，无独立科研审查。"
+      }
+    }
+  ]
+}

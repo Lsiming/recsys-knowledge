@@ -1,0 +1,24 @@
+{
+  "id": "SRC-TAQFORMER",
+  "title": "TaQFormer · A Treatment-as-Query Transformer with Data-Fusion for Multidimensional Treatment Modeling in Coupon Allocation",
+  "kind": "paper",
+  "state": "active",
+  "current": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2610.26199v1",
+      "revision": "2610.26199v1; retrieved 2026-10-28; arXiv source draft.tex",
+      "read_scope": "已读正式PDF与固定源码：正文§1–结论、图表、公式、实验设置与参考文献；未运行模型，未独立精读被引方法。中文翻译覆盖摘要、正文、图注和表格，附录无独立内容。",
+      "artifacts": [
+        {
+          "name": "TaQFormer.2610.26199.pdf",
+          "sha256": "fc85999afe4648ba25363607ddf56c8f4e873b1168128f22ffd16c1f5fed4249",
+          "snapshot": ".local/sources/SRC-TAQFORMER/fc85999afe4648ba25363607ddf56c8f4e873b1168128f22ffd16c1f5fed4249/TaQFormer.2610.26199.pdf"
+        }
+      ],
+      "fingerprint": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794",
+      "retrieved_on": "2026-10-28",
+      "integration": null
+    }
+  ]
+}

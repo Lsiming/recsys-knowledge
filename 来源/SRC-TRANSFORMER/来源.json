@@ -25,13 +25,13 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "99065137e3ff224dd0d2b5d78bea0f305cbb836c42d1682ad4f7353e9ccad052",
+        "notes_sha256": "85ff604247a5df6a1ecadd1ee0d46f44fdf250ef5c780f4e38630605e2e0ce87",
         "pages": [
           "self-attention-context"
         ],
-        "reviewed_on": "2026-10-26",
+        "reviewed_on": "2026-10-27",
         "review_method": "agent-self-review",
-        "review_note": "固定v7全文15页与正文LaTeX自查；核对Q/K/V、多头总宽、遮罩与Post-LN、公式及表格/实验协议。正文译文18页全部渲染目视，最终摘要/参考文献标题调整后复核相关页；宽表无裁切、无缺字或未定义引用，原始数学/表数/标签保留。附录/文献/图内英文保留；41.0/41.8和句法分析概括冲突在REV-029记录。与既有SASRec比较机制，不跨协议排名，未运行模型，当前Agent自查，无独立审查。"
+        "review_note": "固定v7全文15页与正文LaTeX自查；核对Q/K/V、多头总宽、遮罩与Post-LN、公式及表格/实验协议。正文译文18页全部渲染目视，最终摘要/参考文献标题调整后复核相关页；宽表无裁切、无缺字或未定义引用，原始数学/表数/标签保留。附录/文献/图内英文保留；41.0/41.8和句法分析概括冲突在REV-029记录。与既有SASRec比较机制，不跨协议排名，未运行模型，当前Agent自查，无独立审查。 2026-10-27纠正早期PDF验收遗漏：中文字体映射导致当前渲染中文不可见；已用LuaLaTeX重编，全部页面重新渲染目视、字体ToUnicode与文本提取核查通过。仅改变本地排版与笔记交付说明，plan直接引用页和关联候选的科研结论不受影响。"
       }
     }
   ]
