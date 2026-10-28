@@ -2,6 +2,75 @@
 
 更新日期：2026-10-26。负责人：Codex 当前 goal 会话；当前主目录 main，起始提交 c83e559。
 
+## 2026-10-26 缺项恢复（已完成）
+
+首批38篇现均已有固定原文、中文PDF、精读及问题比较。复用上轮8篇PDF，本轮补齐25篇原缺PDF并完成5篇原文恢复项，共新增30份中文PDF、311页，全部逐页渲染并目视核对。翻译范围仍以每篇笔记为准：正文译中文，部分附录、图内文字与参考文献保留原文；不把“有中文PDF”等同于每个英文字符均已翻译。未运行模型训练、复现或线上实验。
+
+原先失败分为三类：22篇已有译后源码但远端编译ZMQ/30秒超时或模板依赖受阻；BPR、PLE、DFM未取得源码，只交了Markdown；另5篇连正式原文都未下载完整。恢复时先装完整本地TeX Live与Fandol字体，以DeepFM的6页PDF验证，再复用工程修复中文字体、旧模板、公式换行、表宽、参考文献及EPS图。LinUCB另用经过签名核验的MacTeX Ghostscript 10.07.0转换EPS。运行时只放用户缓存，未改系统目录或shell启动文件。
+
+五篇定向重试结果：YouTube DNN与MMoE取得正式会议PDF镜像并核实身份；DIN取得1706.06978v4 PDF与源码；On Sampled Metrics取得Krichene/Rendle双作者KDD2020正式全文（没有以前作替代）；Herlocker在ACM/GroupLens等入口仍403/超时后，由用户提供`~/Downloads/963770.963772.pdf`，核实为ACM TOIS2004、22(1):5–53的49页正式版。现在没有仍需用户补交的PDF。
+
+无源码的BPR、PLE、DFM、YouTube DNN、MMoE、Sampled Metrics与Herlocker采用可编辑重排工程；其余复用已有LaTeX。原件、哈希快照、旧译文和各次诊断保留。恢复清单、编译日志、最终sha256和逐页PNG保存在`.local/papers/PAPER-001/recovery-20261026/`，具体为`inventory.json`、各来源`latest.json`、`render/render.json`、`visual-review.json`及`final-artifacts.json`；这些本地产物不入Git，需单独备份。旧下载清单未重跑覆盖。
+
+本轮从`e084608`恢复，期间并发会话提交Transformer增量至`c4444bd`，营销补贴/POUL至`9203365`；均已保留。当前主目录main；仅暂存本任务明确文件和共享文件中的本任务增量，不推送、不改remote配置。启动前治理目录空白与`.obsidian/`保留。
+
+### 本轮PDF交付与目视核对
+
+下表各项均完成本地编译和逐页目视；原文版本、翻译范围与精读入口在对应阅读笔记。先前8篇沿用上轮已有核查记录，没有在本轮重复生成。
+
+| 论文来源 | 中文PDF | 页数 | 可编辑工程与范围 |
+|---|---|---:|---|
+| [SRC-BPR](../../来源/SRC-BPR/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-BPR/translation/BPR_中文翻译.pdf` | 12 | 主文件（本地）：`.local/papers/SRC-BPR/translation/reflow-sources/main.tex`；范围见笔记 |
+| [SRC-COLD](../../来源/SRC-COLD/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-COLD/translation/COLD_中文翻译.pdf` | 6 | 主文件（本地）：`.local/papers/SRC-COLD/translation/translated-sources/main.tex`；范围见笔记 |
+| [SRC-DCNV2](../../来源/SRC-DCNV2/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-DCNV2/translation/DCNv2_中文翻译.pdf` | 11 | 主文件（本地）：`.local/papers/SRC-DCNV2/translation/translated-sources/main.tex`；范围见笔记 |
+| [SRC-DEEPFM](../../来源/SRC-DEEPFM/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-DEEPFM/translation/DeepFM_中文翻译.pdf` | 6 | 主文件（本地）：`.local/papers/SRC-DEEPFM/translation/translated-sources/paper.tex`；范围见笔记 |
+| [SRC-DFM](../../来源/SRC-DFM/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-DFM/translation/DFM_中文翻译.pdf` | 13 | 主文件（本地）：`.local/papers/SRC-DFM/translation/reflow-sources/main.tex`；范围见笔记 |
+| [SRC-DIEN](../../来源/SRC-DIEN/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-DIEN/translation/DIEN_中文翻译.pdf` | 6 | 主文件（本地）：`.local/papers/SRC-DIEN/translation/translated-sources/DEIN.tex`；范围见笔记 |
+| [SRC-DIFFREC](../../来源/SRC-DIFFREC/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-DIFFREC/translation/DiffRec_中文翻译.pdf` | 8 | 主文件（本地）：`.local/papers/SRC-DIFFREC/translation/translated-sources/0_main.tex`；范围见笔记 |
+| [SRC-DPP](../../来源/SRC-DPP/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-DPP/translation/DPP_中文翻译.pdf` | 14 | 主文件（本地）：`.local/papers/SRC-DPP/translation/translated-sources/manuscript.tex`；范围见笔记 |
+| [SRC-GENRECSYS-REVIEW](../../来源/SRC-GENRECSYS-REVIEW/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-GENRECSYS-REVIEW/translation/GenRecSys_中文翻译.pdf` | 9 | 主文件（本地）：`.local/papers/SRC-GENRECSYS-REVIEW/translation/translated-sources/main.tex`；范围见笔记 |
+| [SRC-GRID-PAPER](../../来源/SRC-GRID-PAPER/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-GRID-PAPER/translation/GRID_中文翻译.pdf` | 5 | 主文件（本地）：`.local/papers/SRC-GRID-PAPER/translation/translated-sources/GRID_zh.tex`；范围见笔记 |
+| [SRC-INTTOWER](../../来源/SRC-INTTOWER/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-INTTOWER/translation/IntTower_中文翻译.pdf` | 8 | 主文件（本地）：`.local/papers/SRC-INTTOWER/translation/translated-sources/sample-authordraft.tex`；范围见笔记 |
+| [SRC-LCREC](../../来源/SRC-LCREC/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-LCREC/translation/LCRec_中文翻译.pdf` | 10 | 主文件（本地）：`.local/papers/SRC-LCREC/translation/translated-sources/main.tex`；范围见笔记 |
+| [SRC-LIGHTGCN](../../来源/SRC-LIGHTGCN/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-LIGHTGCN/translation/LightGCN_中文翻译.pdf` | 8 | 主文件（本地）：`.local/papers/SRC-LIGHTGCN/translation/translated-sources/0_main.tex`；范围见笔记 |
+| [SRC-LINUCB](../../来源/SRC-LINUCB/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-LINUCB/translation/LinUCB_中文翻译.pdf` | 8 | 主文件（本地）：`.local/papers/SRC-LINUCB/translation/translated-sources/paper.tex`；范围见笔记 |
+| [SRC-MIND](../../来源/SRC-MIND/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-MIND/translation/MIND_中文翻译.pdf` | 7 | 主文件（本地）：`.local/papers/SRC-MIND/translation/translated-sources/umi.tex`；范围见笔记 |
+| [SRC-ONEREC](../../来源/SRC-ONEREC/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-ONEREC/translation/OneRec_中文翻译.pdf` | 8 | 主文件（本地）：`.local/papers/SRC-ONEREC/translation/translated-sources/onerec.tex`；范围见笔记 |
+| [SRC-PEPNET](../../来源/SRC-PEPNET/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-PEPNET/translation/PEPNet_中文翻译.pdf` | 8 | 主文件（本地）：`.local/papers/SRC-PEPNET/translation/translated-sources/pepnet_kdd.tex`；范围见笔记 |
+| [SRC-PLE](../../来源/SRC-PLE/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-PLE/translation/PLE_中文翻译.pdf` | 14 | 主文件（本地）：`.local/papers/SRC-PLE/translation/reflow-sources/main.tex`；范围见笔记 |
+| [SRC-SASREC](../../来源/SRC-SASREC/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-SASREC/translation/SASRec_中文翻译.pdf` | 7 | 主文件（本地）：`.local/papers/SRC-SASREC/translation/translated-sources/SASRec.tex`；范围见笔记 |
+| [SRC-SEQ2SLATE](../../来源/SRC-SEQ2SLATE/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-SEQ2SLATE/translation/Seq2Slate_中文翻译.pdf` | 16 | 主文件（本地）：`.local/papers/SRC-SEQ2SLATE/translation/translated-sources/seq2slate.tex`；范围见笔记 |
+| [SRC-SIM](../../来源/SRC-SIM/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-SIM/translation/SIM_中文翻译.pdf` | 6 | 主文件（本地）：`.local/papers/SRC-SIM/translation/translated-sources/sim.tex`；范围见笔记 |
+| [SRC-SLATEQ](../../来源/SRC-SLATEQ/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-SLATEQ/translation/SlateQ_中文翻译.pdf` | 28 | 主文件（本地）：`.local/papers/SRC-SLATEQ/translation/translated-sources/main.tex`；范围见笔记 |
+| [SRC-STAR](../../来源/SRC-STAR/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-STAR/translation/STAR_中文翻译.pdf` | 6 | 主文件（本地）：`.local/papers/SRC-STAR/translation/translated-sources/main.tex`；范围见笔记 |
+| [SRC-TIGER](../../来源/SRC-TIGER/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-TIGER/translation/TIGER_中文翻译.pdf` | 14 | 主文件（本地）：`.local/papers/SRC-TIGER/translation/translated-sources/neurips_main.tex`；范围见笔记 |
+| [SRC-WIDEDEEP](../../来源/SRC-WIDEDEEP/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-WIDEDEEP/translation/WideDeep_中文翻译.pdf` | 3 | 主文件（本地）：`.local/papers/SRC-WIDEDEEP/translation/translated-sources/wide-n-deep-paper-draft.tex`；范围见笔记 |
+| [SRC-YOUTUBE-DNN](../../来源/SRC-YOUTUBE-DNN/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-YOUTUBE-DNN/translation/YouTubeDNN_中文翻译.pdf` | 12 | 主文件（本地）：`.local/papers/SRC-YOUTUBE-DNN/translation/reflow-sources/main.tex`；范围见笔记 |
+| [SRC-MMOE](../../来源/SRC-MMOE/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-MMOE/translation/MMoE_中文翻译.pdf` | 12 | 主文件（本地）：`.local/papers/SRC-MMOE/translation/reflow-sources/main.tex`；范围见笔记 |
+| [SRC-DIN](../../来源/SRC-DIN/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-DIN/translation/DIN_中文翻译.pdf` | 6 | 主文件（本地）：`.local/papers/SRC-DIN/translation/translated-sources/DeepInterestNetwork.tex`；范围见笔记 |
+| [SRC-SAMPLED-METRICS](../../来源/SRC-SAMPLED-METRICS/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-SAMPLED-METRICS/translation/OnSampledMetrics_中文翻译.pdf` | 13 | 主文件（本地）：`.local/papers/SRC-SAMPLED-METRICS/translation/reflow-sources/main.tex`；范围见笔记 |
+| [SRC-HERLOCKER-EVAL](../../来源/SRC-HERLOCKER-EVAL/阅读笔记.md) | 打开PDF（本地）：`.local/papers/SRC-HERLOCKER-EVAL/translation/HerlockerEval_中文翻译.pdf` | 27 | 主文件（本地）：`.local/papers/SRC-HERLOCKER-EVAL/translation/reflow-sources/main.tex`；范围见笔记 |
+
+关键排版修复已在最终版本复查：Wide & Deep/LinUCB中文小标题重叠，SIM表2跨栏，LightGCN式12跨栏，IntTower长行内公式，LinUCB图3–5重叠，SlateQ参考文献与首页日期，Sampled表4裁图/数学γ，Herlocker图3–7刻度裁切及参考文献高度。目视检查没有以编译返回码、文本提取或仅生成PNG替代。
+
+Herlocker最早发现记录可追溯到2026-10-25提交`c82f854`的候选表，依据为“补齐评估经典定向检索；Crossref元数据”；已有DOI原文链接，但当时未保存初次搜索词或结果页，也未读到全文。本轮依据用户PDF完成全文阅读、27页中文重排及[任务与指标问题比较](../../知识库/问题/推荐任务怎样决定评估指标.md)。综述对其他研究的转述未逐篇回查；432近邻变体的指标分组只适用于该MovieLens实验，不写成普适等价定理。
+
+
+### 本轮最终验证与剩余边界
+
+- 30份新PDF共311页完成逐页渲染目视；最终文件、构建结果、渲染清单和审阅记录的页数/sha256一致。原8篇沿用上轮核查，本轮未重复编译和目视。全部原件及改前工程保留。
+- 30来源整合自查收据已更新，自动索引已重建；`wiki.py lint`、`lint --local`均0错误，`index --check`通过。`plan`仅剩其他会话的SRC-POUL，2项warning分别为其未整合状态及contested问题页，未以改状态消除。
+- `check_context.py`唯一失败是既有remote配置与本库仅本地规则不符；未读取URL、未更改配置，也未执行fetch/pull/push。单独调用原检查器的Markdown逻辑，157份文档、2538个本地链接目标及必需入口/占位符检查通过。此单项验证不等于完整命令通过。
+- 论文名Herlocker/On Sampled Metrics与问题词任务与指标/两阶段推荐检索可到问题、论文笔记与模块。检查器不验证外链可用性或科研事实；关键原文定位另行自查，修正了YouTube未编号分类公式与时长目标页码。
+- 既有子Agent `review_scripts`完成只读CR：四个本地恢复脚本语法、原件写入边界、30份产物收据及Herlocker关键事实未发现新增实质问题；CR没有重新执行逐页目视，目视记录来自主Agent实际检查。
+- 全库`git diff --check`仅报启动前已存在的治理目录第40行空白；该文件与`.obsidian/`不属于本任务，保留不暂存。本任务明确文件与暂存差异检查通过；只作中文本地提交。
+
+未覆盖范围：部分附录、图内文字及文献保留英文；没有运行任何模型复现、训练或线上实验，没有逐篇回查综述引用的全部研究。原文疑点继续保留于阅读笔记及审核台，不以PDF交付齐全声称这些疑点已解决。
+
+## 上轮执行历史（以下缺项已由本轮补齐）
+
+以下保留旧范围、逐篇失败/降级原因和核查记录，反映当时状态；当前交付以本节上方表格为准。
+
 ## 范围与完成条件
 
 用户授权处理候选表全部 38 篇，ESMM（P14）复用已完成成果，剩余 37 篇逐篇沿标准流程推进。先沿经典主线，再补模块与生成式专题；表中的“待处理”只是计划，不代表已核实正文。
@@ -14,7 +83,7 @@
 
 用户随后确认当前没有远端 Git，改为只做本地提交，不配置 remote，不推送。不运行模型复现、外部训练或整库外链遍历；每篇只做事实/公式/数值核对、结构检查、双向检索、git diff 检查，完成改动后调用只读子 Agent CR，再修复真实发现。
 
-## 顺序与实际状态
+## 上轮顺序与实际状态
 
 | 顺序 | 候选 | 状态与交付 |
 |---|---|---|
@@ -57,13 +126,13 @@
 | 36 | P35 · 生成模型综述 | 固定v2正文§1–6、图1与表1已读并译，中文Markdown、完整译后工程与精读已保存；输出对象/评估问题及三入口已合并。三次30秒编译超时无中文PDF，独立CR无可操作发现、最小检查通过 |
 | 37 | P36 · RecBole | 固定v3的12页正文§1–6、图1–4与表1–9已精读；中文Markdown、完整译后工程及9页中文PDF可用，已逐页渲染目视；实验可比性问题与评估/效率模块已整合，见[精读](../../来源/SRC-RECBOLE-PAPER/阅读笔记.md)。独立CR无可操作发现，最小检查通过，详见文末 |
 
-## 最终结果
+## 上轮最终结果（补齐前）
 
 本批38篇候选已全部尝试：复用ESMM，新增32篇，合计33篇形成译文、精读与问题沉淀。未取得原文的5篇已按授权跳过：P02 YouTube DNN、P10 DIN、P15 MMoE、P37 Herlocker评估综述、P38 On Sampled Metrics；逐条下载原因见上表，未登记虚假精读。
 
 8篇有已逐页渲染目视的中文PDF：ESMM、P5、HSTU、S-DPO、Decoding Matters、AtSpeed、LIGER、RecBole。其余25篇以中文Markdown交付，无中文PDF；其中BPR、PLE、DFM未取得可用LaTeX，另外22篇保留译后工程。编译服务、模板或依赖受阻的具体原因见逐篇记录，不能称38篇均完整跑通PDF流程。
 
-预下载37条已结束，清单在.local/papers/PAPER-001/downloads/manifest.json；不要重跑旧下载器覆盖记录。原件、译文、工程与QA均在忽略的.local目录，需单独备份。未运行模型训练、论文复现或整库外链遍历。本地提交以git log为准，未配置远端。下一轮从新的论文或具体问题开始，无待续的本批论文。
+预下载37条已结束，清单在.local/papers/PAPER-001/downloads/manifest.json；不要重跑旧下载器覆盖记录。原件、译文、工程与QA均在忽略的.local目录，需单独备份。未运行模型训练、论文复现或整库外链遍历。本地提交以git log为准，未配置远端。这是上轮结束时的安排；用户随后重新授权缺项恢复，当前状态见文首。
 
 ## 执行与核验记录
 

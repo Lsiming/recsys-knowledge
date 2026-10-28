@@ -1,0 +1,29 @@
+{
+  "id": "SRC-POUL",
+  "title": "POUL · Orthogonal Uplift Learning with Permutation-Invariant Representations for Combinatorial Treatments",
+  "kind": "paper",
+  "state": "active",
+  "current": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2602.19851v1",
+      "revision": "2602.19851v1; submitted 2026-02-23; preprint PDF dated 2026-02-24",
+      "read_scope": "已读正式PDF20页：正文§1–5、图1/算法1/表1，参考文献及附录A–E（相关工作、B全部证明与算法2、训练配置、AUUC/MAPE定义、表2–3）；核对实际编译TeX。原始源码压缩包为固定版本arXiv下载字节；未运行模型，未独立精读被引基线，未核官方算法实现。",
+      "artifacts": [
+        {
+          "name": "POUL.2602.19851v1.pdf",
+          "sha256": "bb51e9b04d146b52d604542cba3726c1193f615679e125e39f0712f6cb6a2aa8",
+          "snapshot": ".local/sources/SRC-POUL/bb51e9b04d146b52d604542cba3726c1193f615679e125e39f0712f6cb6a2aa8/POUL.2602.19851v1.pdf"
+        },
+        {
+          "name": "POUL.2602.19851v1.source.tar",
+          "sha256": "94d2b328de8e58b872111f84c7612bbdaa15154b39f23acc7911704469e4ed24",
+          "snapshot": ".local/sources/SRC-POUL/94d2b328de8e58b872111f84c7612bbdaa15154b39f23acc7911704469e4ed24/POUL.2602.19851v1.source.tar"
+        }
+      ],
+      "fingerprint": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6",
+      "retrieved_on": "2026-10-26",
+      "integration": null
+    }
+  ]
+}

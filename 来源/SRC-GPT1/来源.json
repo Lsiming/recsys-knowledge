@@ -20,13 +20,13 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "dc1488cf60602f5f2d6335d91097af6b6c13aa9aae97b647b30bafa7a03defc6",
+        "notes_sha256": "5d33b60ac186c8e2f4b31a6b9dc7634a59a5cb1fe44b129690ef491ee192337b",
         "pages": [
           "pretraining-task-transfer"
         ],
-        "reviewed_on": "2026-10-26",
+        "reviewed_on": "2026-10-27",
         "review_method": "agent-self-review",
-        "review_note": "核对官方PDF正文1–8页、式1–5、表1–5、图1–2与文献身份；中文重排PDF12页全部渲染目视，最终编译无溢出缺字或未定义引用，保留英文文献与原图文字。区分因果预训练、分类头微调与P5条件生成；辅助LM依任务而定，GLUE分差和表5平均口径见REV-030。无作者TeX，官方仓库树核对不等于读实现；未运行模型，当前Agent自查。"
+        "review_note": "核对官方PDF正文1–8页、式1–5、表1–5、图1–2与文献身份；中文重排PDF12页全部渲染目视，最终编译无溢出缺字或未定义引用，保留英文文献与原图文字。区分因果预训练、分类头微调与P5条件生成；辅助LM依任务而定，GLUE分差和表5平均口径见REV-030。无作者TeX，官方仓库树核对不等于读实现；未运行模型，当前Agent自查。 2026-10-27纠正早期PDF验收遗漏：中文字体映射导致当前渲染中文不可见；已用LuaLaTeX重编，全部页面重新渲染目视、字体ToUnicode与文本提取核查通过。仅改变本地排版与笔记交付说明，plan直接引用页和关联候选的科研结论不受影响。"
       }
     }
   ]

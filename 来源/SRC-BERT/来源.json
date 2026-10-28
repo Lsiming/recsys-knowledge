@@ -25,13 +25,13 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "927f4863c8aea2229e7d475c4dcc59973ee86c702785701f426941b6d7efd4d9",
+        "notes_sha256": "563f89d8353eb4a16037acb861de4292b137b8825e7b53b866e9963402038533",
         "pages": [
           "pretraining-task-transfer"
         ],
-        "reviewed_on": "2026-10-26",
+        "reviewed_on": "2026-10-27",
         "review_method": "agent-self-review",
-        "review_note": "核对v2正文与附录A–C、表1–8及GPT/P5比较，17页中文PDF逐页渲染目视；区分MLM条件、NSP、任务头和预算/指标口径；REV-031保留原文疑点，未运行模型或独立审查。"
+        "review_note": "核对v2正文与附录A–C、表1–8及GPT/P5比较，17页中文PDF逐页渲染目视；区分MLM条件、NSP、任务头和预算/指标口径；REV-031保留原文疑点，未运行模型或独立审查。 2026-10-27纠正早期PDF验收遗漏：中文字体映射导致当前渲染中文不可见；已用LuaLaTeX重编，全部页面重新渲染目视、字体ToUnicode与文本提取核查通过。仅改变本地排版与笔记交付说明，plan直接引用页和关联候选的科研结论不受影响。"
       }
     }
   ]

@@ -27,10 +27,26 @@ git config --local core.hooksPath .githooks
 python3 scripts/check_public.py
 ```
 
-`.githooks/pre-push` 在推送前检查完整待发布历史，阻止非 noreply 提交邮箱、凭证、本机用户绝对路径、内网地址及不允许分发的附件；CI 同样检查完整历史。机器检查不替代对非公开业务文字与样本的人工判断，不要在知识正文或交接中写入公司资料。
+`.githooks/pre-push` 拒绝推送或创建`archive/`归档分支，并在推送前检查完整待发布历史，阻止非 noreply 提交邮箱、凭证、本机用户绝对路径、内网地址及不允许分发的附件；CI 同样检查完整历史。机器检查不替代对非公开业务文字与样本的人工判断，不要在知识正文或交接中写入公司资料。
 
-## 其他会话的整合
+## 日常只维护一条可公开的主线
 
 首次发布中发现旧提交身份包含公司邮箱、少量交接含本机用户名路径，仓库随即转私有。用户明确要求远端不保留原始历史，因此删除原远端并重建同名公开仓库，使用脱敏内容与 GitHub noreply 身份生成新的初始提交；远端无原始历史或备份仓库。本地原主目录仍有其他会话的未完成工作，保留原状。
 
-旧本地主线与新公开主线历史独立。后续将旧目录的已完成知识增量按明确文件迁移到新公开主线，核实来源、许可、索引与隐私后提交；不要直接合并或推送旧分支及其祖先，否则会重新上传旧身份和路径。隐私检查钩子会拒绝这种推送。不得为整合而覆盖其他会话未提交内容。
+2026-10-28用户要求消除反复迁移。日常主目录main统一采用脱敏公开历史并跟踪origin/main；旧历史保留在本地`archive/local-main-20261028`，不再作为日常写入入口。本次从远端`4cbefc2`出发，仅迁移本地`e0542fd`中已完成的文件内容，包括`ce726b4`整合成果、TaQFormer和工作流；不合入旧祖先。两处本机路径在公开副本脱敏，历史快照同时登记原哈希与公开副本哈希。详见[KB-012](../会话/KB-012.md)。
+
+后续工作在这个main上本地提交，或从它创建codex分支/worktree；仅在旧分支还有独有且明确要保留的增量时按文件迁移。推送前先确认用户授权，读取远端最新状态并检查待推范围：
+
+```bash
+git status --short --branch
+git fetch origin main
+git log --oneline origin/main..HEAD
+git diff --stat origin/main..HEAD
+python3 scripts/check_context.py
+python3 scripts/wiki.py lint
+python3 scripts/check_public.py
+```
+
+远端为当前HEAD祖先时才正常推送；若远端前进，先在保留未提交工作的前提下整合，不能强推。确认当前HEAD就是预期内容后使用`git push origin HEAD:main`，禁止用`--all`、`--mirror`或自动带标签将归档分支发往远端。工作分支和PR目标按用户要求指定，不自动将其他会话未完成内容合入。
+
+本机钩子使用`git config --local core.hooksPath .githooks`，避免引用另一会话worktree的绝对路径；每个新克隆按同样方式启用。首次主目录对齐先建立归档分支，核对用户未提交文件哈希与本地附件，再切换和复查。目标分支会覆盖未提交文件时暂停该切换，改在隔离worktree完成整合；不得stash/reset/clean或删除用户内容。完整历史检查会拒绝重新引入旧身份和路径。

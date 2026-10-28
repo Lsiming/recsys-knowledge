@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-10-27",
-  "inventory_note": "扫描现有 SRC-*/translation/ 顶层最终 PDF；48个文件按论文和SHA256去重为44篇，4个同内容别名未重复发布；原文、旧构建和图表不计为独立中文PDF。",
+  "updated": "2026-10-28",
+  "inventory_note": "已有44篇私有中文PDF，新增TaQFormer本地7页中文PDF；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -1364,6 +1364,25 @@
         "size_bytes": 1240635,
         "pages": 48,
         "verified_download_sha256": "7ad91d65ef021585a09766eff0b6ca231c7aaacfa6ad7efe5d12008f10bd92b7"
+      }
+    },
+    {
+      "source_id": "SRC-TAQFORMER",
+      "title": "TaQFormer · A Treatment-as-Query Transformer with Data-Fusion for Multidimensional Treatment Modeling in Coupon Allocation",
+      "original_url": "https://arxiv.org/abs/2610.26199v1",
+      "revision": "2610.26199v1; retrieved 2026-10-28; arXiv source draft.tex",
+      "input_sha256": "b4cfa141b3b6c08724f07f14a221cb90f252da18f767507ebef3f8378e28ed4f",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–6、公式、图表标题与表格译为中文；图内英文、作者信息和参考文献保留，无独立附录。7页均已渲染，首版逐页目视，终版复查变更页。",
+      "status": "local-only",
+      "reason": "本轮按用户要求重试并本地交付；尚未上传私有附件库，未进行远端下载核验。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-28",
+        "notes": "本轮仅重试编译，未完成固定版本公开翻译再分发许可核实；不公开发布。",
+        "evidence_url": "https://arxiv.org/abs/2610.26199v1",
+        "original_pdf_sha256": "fc85999afe4648ba25363607ddf56c8f4e873b1168128f22ffd16c1f5fed4249"
       }
     },
     {

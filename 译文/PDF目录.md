@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-10-27，盘点44篇中文PDF，44篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-10-28，盘点45篇中文PDF，44篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -52,6 +52,7 @@
 | [Reinforcement Learning for Slate-based Recommender Systems: A Tractable Decomposition and Practical Methodology](https://arxiv.org/abs/1905.12767v2) · `SRC-SLATEQ` | 私有，需登录 · 20261027.1 · 28页 | [not-permitted](https://arxiv.org/abs/1905.12767v2) | 现有本地中文 PDF 28页；本次不公开，翻译覆盖范围未作发布复核；按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。 |
 | [STAR · One Model to Serve All: Star Topology Adaptive Recommender for Multi-Domain CTR Prediction](https://arxiv.org/abs/2101.11427v5) · `SRC-STAR` | 私有，需登录 · 20261027.1 · 7页 | [CC-BY-4.0](https://arxiv.org/abs/2101.11427v5) | 摘要、正文、图表说明与描述性脚注；无附录，参考文献与图内英文保留；按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。 |
 | [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683v4) · `SRC-T5` | 私有，需登录 · 20261027.1 · 48页 | [CC-BY-4.0](https://arxiv.org/pdf/1910.10683v4) | 摘要、正文§1–4及图表说明中文；附录A–E、参考文献与图内英文保留，原译文47页含一张大尺寸结果表；按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。 |
+| [TaQFormer · A Treatment-as-Query Transformer with Data-Fusion for Multidimensional Treatment Modeling in Coupon Allocation](https://arxiv.org/abs/2610.26199v1) · `SRC-TAQFORMER` | 仅本地，未纳入私有库 | [unverified](https://arxiv.org/abs/2610.26199v1) | 摘要、正文§1–6、公式、图表标题与表格译为中文；图内英文、作者信息和参考文献保留，无独立附录。7页均已渲染，首版逐页目视，终版复查变更页。；本轮按用户要求重试并本地交付；尚未上传私有附件库，未进行远端下载核验。 |
 | [TIGER · Recommender Systems with Generative Retrieval](https://arxiv.org/abs/2305.05065v3) · `SRC-TIGER` | 私有，需登录 · 20261027.1 · 14页 | [not-permitted](https://arxiv.org/abs/2305.05065v3) | 现有本地中文 PDF 14页；本次不公开，翻译覆盖范围未作发布复核；按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。 |
 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762v7) · `SRC-TRANSFORMER` | 私有，需登录 · 20261027.1 · 18页 | [not-permitted](https://arxiv.org/abs/1706.03762v7) | 现有本地中文 PDF 18页；本次不公开，翻译覆盖范围未作发布复核；按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。 |
 | [Wide & Deep · Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792v1) · `SRC-WIDEDEEP` | 私有，需登录 · 20261027.1 · 3页 | [not-permitted](https://arxiv.org/abs/1606.07792v1) | 现有本地中文 PDF 3页；本次不公开，翻译覆盖范围未作发布复核；按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。 |
