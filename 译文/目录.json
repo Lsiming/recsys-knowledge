@@ -894,7 +894,8 @@
     "original_url": "https://arxiv.org/abs/2610.26199v1",
     "revision": "2610.26199v1; retrieved 2026-10-28; arXiv source draft.tex",
     "status": "local-only",
-    "reason": "中文译文已完成但固定版本许可与正式 Markdown 再分发范围尚未核实，保留在本地附件。",
-    "checked_on": "2026-10-28"
+    "reason": "已完成中文工作译文；固定版本为CC BY-NC-ND 4.0，不支持公开分享改编译文，Markdown仅本地保留，PDF按独立私有规则维护。",
+    "checked_on": "2026-10-28",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
   }
 ]

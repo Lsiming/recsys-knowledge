@@ -15,7 +15,7 @@ cd recsys-knowledge-attachments
 python3 download.py
 ```
 
-默认获取全部原文与中文PDF，保存到私有克隆的`.local/pdfs/<来源ID>/`。44篇中文PDF与44份已登记原文分别保存。STAR未核实镜像及BERT额外出版版已按用户要求删除，当前仅保留实际采用的登记原件。
+默认获取全部原文与中文PDF，保存到私有克隆的`.local/pdfs/<来源ID>/`。45篇中文PDF与45份已登记原文分别保存；2026-10-28追加TaQFormer七页译文与九页正式原文，两份均已实际登录下载核验。STAR未核实镜像及BERT额外出版版已按用户要求删除，当前仅保留实际采用的登记原件。
 
 ```bash
 python3 download.py --kind translation

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-10-28",
-  "inventory_note": "已有44篇私有中文PDF，新增TaQFormer本地7页中文PDF；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "45篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -1375,14 +1375,27 @@
       "input_pages": 7,
       "duplicate_count": 0,
       "scope": "摘要、正文§1–6、公式、图表标题与表格译为中文；图内英文、作者信息和参考文献保留，无独立附录。7页均已渲染，首版逐页目视，终版复查变更页。",
-      "status": "local-only",
-      "reason": "本轮按用户要求重试并本地交付；尚未上传私有附件库，未进行远端下载核验。",
+      "status": "private",
+      "reason": "已按持续授权上传私有附件库并实际登录下载核对PDF类型、大小和SHA256；仅所有者访问，不新增公开译文授权。",
       "rights": {
-        "decision": "unverified",
+        "decision": "not-permitted",
         "checked_on": "2026-10-28",
-        "notes": "本轮仅重试编译，未完成固定版本公开翻译再分发许可核实；不公开发布。",
+        "notes": "固定版本许可为CC BY-NC-ND 4.0；不授予公开分享改编译文的权利。本次仅个人私有备份，不新增公开分发授权。",
         "evidence_url": "https://arxiv.org/abs/2610.26199v1",
+        "evidence_sha256": "dd88165295bc971f053ad76e974568ff0cbdde61b7769bbcd6d879fc6620ac18",
+        "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
         "original_pdf_sha256": "fc85999afe4648ba25363607ddf56c8f4e873b1168128f22ffd16c1f5fed4249"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261028",
+        "asset_name": "SRC-TAQFORMER.zh-CN.private.20261028.1.pdf",
+        "translation_version": "20261028.1",
+        "sha256": "b4cfa141b3b6c08724f07f14a221cb90f252da18f767507ebef3f8378e28ed4f",
+        "size_bytes": 1899405,
+        "pages": 7,
+        "verified_download_sha256": "b4cfa141b3b6c08724f07f14a221cb90f252da18f767507ebef3f8378e28ed4f"
       }
     },
     {
