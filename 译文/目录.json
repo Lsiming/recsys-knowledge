@@ -977,5 +977,16 @@
     "status": "local-only",
     "authors": [],
     "reason": "本次整合已完成的本地译文/PDF记录；正式Markdown未完成逐篇公开许可与发布登记，保持本地保留。PDF统一私有维护，范围见PDF目录。"
+  },
+  {
+    "source_id": "SRC-LATENTR3",
+    "title": "Reinforced Latent Reasoning for LLM-based Recommendation",
+    "original_url": "https://arxiv.org/abs/2505.19092v2",
+    "revision": "arXiv:2505.19092v2（2025-10-24）；采用PDF标Under Review，ICLR2026发表信息未独立核实；官方代码c558b4404fefff7321d8f96c25c0a7cbfd47dde7定向静态核对",
+    "status": "local-only",
+    "reason": "已完成LaTeX正文中文译本及17页PDF逐页验收；采用版本arXiv非独占分发许可未授予公众全文翻译再分发权利，未确认公开许可，不发布正式Markdown；原文与中文PDF按独立私有规则备份并首次真实认证下载核验。",
+    "checked_on": "2026-10-30",
+    "evidence_sha256": "38dac74099fe0de7a8b5e19a2622341b0c47ae351630f4758e215dff73c674b8",
+    "evidence_url": "https://arxiv.org/abs/2505.19092v2"
   }
 ]

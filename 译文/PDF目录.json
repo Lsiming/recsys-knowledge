@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "inventory_note": "46篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
@@ -1748,6 +1748,36 @@
         "size_bytes": 2653820,
         "pages": 8,
         "verified_download_sha256": "15c15c08bc7eb848cd4cae777029685f61f782d327f275870af2fb1d21e9355e"
+      }
+    },
+    {
+      "source_id": "SRC-LATENTR3",
+      "title": "Reinforced Latent Reasoning for LLM-based Recommendation",
+      "original_url": "https://arxiv.org/abs/2505.19092v2",
+      "revision": "arXiv:2505.19092v2（2025-10-24）；采用PDF标Under Review，ICLR2026发表信息未独立核实；官方代码c558b4404fefff7321d8f96c25c0a7cbfd47dde7定向静态核对",
+      "input_sha256": "830ec276585c9f9c1eb11127416957300b80dcd3f16ae4d34923db6a1b6ac285",
+      "input_pages": 17,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–6、伦理与可复现性声明、正文图1–4和表1–2标题/说明/表头及描述性脚注已翻译；附录A–K、参考文献、图内英文、人名/机构保留。原式和表格疑点保留并加译注；三处环绕图改为普通浮动图，修复源码重复标签，附录空引用明确标注缺失。",
+      "status": "private",
+      "reason": "17页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-30",
+        "notes": "采用arXiv v2许可页为非独占分发许可，未确认公开全文翻译再分发权利；译本保留作者、原声明及修改范围，仅私有备份。",
+        "evidence_url": "https://arxiv.org/abs/2505.19092v2",
+        "original_pdf_sha256": "38dac74099fe0de7a8b5e19a2622341b0c47ae351630f4758e215dff73c674b8"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261029",
+        "asset_name": "SRC-LATENTR3.zh-CN.private.20261029.1.pdf",
+        "translation_version": "20261029.1",
+        "sha256": "c79aedfd1aca1dc4d7561efdb968b6b87a870a7c59bbbc7800489b064c31e523",
+        "size_bytes": 831915,
+        "pages": 17,
+        "verified_download_sha256": "c79aedfd1aca1dc4d7561efdb968b6b87a870a7c59bbbc7800489b064c31e523"
       }
     }
   ],

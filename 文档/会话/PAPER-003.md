@@ -2,9 +2,9 @@
 
 用户要求按论文工作流依次读相关论文，下载可并行并支持断点；全部解读完成后，从全局重新整理相关知识页。此前综述与微信正文已读，DMT综述中文PDF及私有备份已完成；不能据此认定后续逐篇流程完成。
 
-## 最新进度（2026-10-29）
+## 最新进度（2026-10-30）
 
-ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER和LLaRA已完成正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚待完整精读11篇：LatentR³、OneMall、MDGR、FedCGR、UniGCRec、PENS、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇LatentR³。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
+ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA和LatentR³已完成正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚待完整精读10篇：OneMall、MDGR、FedCGR、UniGCRec、PENS、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇OneMall。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
 
 ## 范围与完成证据
 
@@ -67,3 +67,15 @@ LLaRA采用11页2312.02445v4，无独立附录；正文§1–6、图1–5/表1�
 LatentR³已有本地PDF与source-work，固定候选2505.19092v2；主文件0_main_new.tex依次使用1_intro、2_problem、3_method、4_exp_zy、5_related、6_conclusion、8_other_statements和附录7_appendix，摘要在主文件。此前仅探查主文件，不算完成正文阅读，须先核对PDF身份/哈希、附录范围及发表证据，再建副本翻译。现有成功下载无需重启。
 
 LLaRA收尾检查：check_context通过195篇/2793链接，wiki lint为0错误、保留3个POUL/TaQFormer既有警告；plan仅余POUL/TaQFormer。知识/来源索引、译文/PDF目录与完整历史扫描通过；普通正文仅本地提交，用户治理目录及两个画布未触碰。
+
+## 2026-10-30 LatentR³完成与OneMall续读
+
+采用2505.19092v2，2025-10-24更新；19页PDF与正式正文源码、附录A–K均已精读，原文19页全部逐页目视。新增潜推理问题页，连同训练、生成、服务、评估、输出对象、专题与候选共8页整合；对新增比较回查LLaRA/OneRec既有精读并补整合收据。连续内部状态不是物品码或外部协同输入，答案NLL预热后冻结骨干，以负PPL训练新增注意力层；官方commit c558b4404fefff7321d8f96c25c0a7cbfd47dde7仅定向静态核对，未运行算法/数据处理。
+
+论文策略式/代码的clip与KL、答案Token概率比非高斯密度比、分布式原样本布局和缺失入口按静态范围保留；Instruments多列NDCG>同K HR、平均改善受其限制、长度/显著性/计时混杂已记录REV-035，不自行修原结果。采用版Under Review及ICLR模板不作正式发表证据。
+
+17页正文中文PDF已全部逐页渲染目视；7块显示公式和7张表数值与原源码一致。三处wrapfigure改普通figure，修复脚注重叠、重复标签和原附录空引用；附录A–K、文献与图内英文保留。最终清理前后17页文字/1.3倍像素完全一致，中文字体嵌入及Unicode映射；原图部分Type3缺映射，目视可读，不声称全图文字可提取。最终SHA256 c79aedfd1aca1dc4d7561efdb968b6b87a870a7c59bbbc7800489b064c31e523，831,915字节。未改源码为本地重打包，非上游压缩包原字节。
+
+原文571,265字节、SHA256 38dac74099fe0de7a8b5e19a2622341b0c47ae351630f4758e215dff73c674b8已于29日首次认证下载；中文译文30日首次认证下载，两者完整哈希/大小/页数和远端digest均一致。私有目录53原文/53译文、106份、1467页、202,893,279字节；7项下载器测试、106份目录检查和Latent两份verify-only通过。私有目录中文提交a208d9aabce624f546fb2942533a9e350ff333f7已通过Git database API同SHA快进main并重读，force=false。上传前API核实private、仅所有者/无邀请；匿名译文资产404，仓库页两条检查链路连接超时，未声称本轮匿名仓库404。公开翻译许可未确认，正式Markdown不发布；普通知识正文不推送。
+
+下一篇OneMall已有11页2601.21770v2原文和source-work/sample-sigconf.tex，原文SHA256 c7d2998cdd303042e509225e378ccb79ad73de195a98aa8a2a8203a26fc9c0ce，4,144,021字节；已初读首页和源码导言，不算完成全文精读。须先核对正式PDF范围、源文件和版本许可，再在副本翻译。用户治理目录和两个画布保留，不暂存。

@@ -1,0 +1,50 @@
+{
+  "id": "SRC-LATENTR3",
+  "title": "Reinforced Latent Reasoning for LLM-based Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "7af1fa3cd5428bac9a74942fe9b7c46e0f3ff485c51600d87fd5a163e1f1878d",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2505.19092v2",
+      "revision": "arXiv:2505.19092v2（2025-10-24）；采用PDF标Under Review，ICLR2026发表信息未独立核实；官方代码c558b4404fefff7321d8f96c25c0a7cbfd47dde7定向静态核对",
+      "read_scope": "对照19页固定PDF和实际编译源码阅读摘要、正文§1–6、伦理/复现声明及附录A–K，核对图1–8、表1–7和全部页渲染。官方commit定向静态阅读README、训练/评估脚本、GRPO trainer的奖励/优势/损失、latent model/attention、数据集和前缀约束、data/process与calc；未运行模型、DataLoader或预处理，未验证分布式采样布局/真实耗时。源码为既有未修改解压文件的本地重新打包，非上游包原字节；代码包为16份选取文件的本地打包，非完整仓库，未逐行阅读全部16份文件。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "38dac74099fe0de7a8b5e19a2622341b0c47ae351630f4758e215dff73c674b8",
+          "snapshot": ".local/sources/SRC-LATENTR3/38dac74099fe0de7a8b5e19a2622341b0c47ae351630f4758e215dff73c674b8/paper.pdf"
+        },
+        {
+          "name": "LatentR3.2505.19092v2.source-local-repacked.tar.gz",
+          "sha256": "661c3f0039782f36c86c690ab6eaa6316ca992011e29846e4397cc7d613644ac",
+          "snapshot": ".local/sources/SRC-LATENTR3/661c3f0039782f36c86c690ab6eaa6316ca992011e29846e4397cc7d613644ac/LatentR3.2505.19092v2.source-local-repacked.tar.gz"
+        },
+        {
+          "name": "LatentR3.c558b4404fefff7321d8f96c25c0a7cbfd47dde7.code-selected.tar.gz",
+          "sha256": "39cdf54309f57dd86151e79bd213a2b3ff999b472d69caf7bb1009fad9a2dafc",
+          "snapshot": ".local/sources/SRC-LATENTR3/39cdf54309f57dd86151e79bd213a2b3ff999b472d69caf7bb1009fad9a2dafc/LatentR3.c558b4404fefff7321d8f96c25c0a7cbfd47dde7.code-selected.tar.gz"
+        }
+      ],
+      "fingerprint": "7af1fa3cd5428bac9a74942fe9b7c46e0f3ff485c51600d87fd5a163e1f1878d",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "4aede4db0f9eee9bf1e2a88148f4b2dc763043f47eff4ef1eeb7b746d7aa92f7",
+        "pages": [
+          "evaluation-bias",
+          "generation-decoding",
+          "generative-output-evaluation",
+          "generative-recommendation",
+          "latent-recommendation-reasoning",
+          "paper-candidates",
+          "serving-efficiency",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "核对19页v2、正式正文源码及附录A–K，官方commit仅定向静态核对；解释连续潜状态、答案NLL预热、负PPL扰动和batch优势，区分答案Token概率比与高斯密度比、论文/代码clip和KL差异。保留Instruments指标、分布式批布局与缺失入口疑点；不将长尾/显著性/计时推广为忠实推理、零成本或线上收益。17页正文中文PDF逐页验收，原/译PDF均私有备份且首次真实认证下载核验；未运行算法。plan直接页逐项复核，关联候选按问题职责判断，无新增论断者不机械改写。"
+      }
+    }
+  ]
+}

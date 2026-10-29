@@ -36,13 +36,14 @@
           "generative-output-evaluation",
           "generative-recommendation",
           "language-personalized-tasks",
+          "latent-recommendation-reasoning",
           "paper-candidates",
           "representations-tokenization",
           "training-alignment"
         ],
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "对照11页v4、正文源码及固定官方commit静态核对连续行为投影、位置拼接、答案NLL、课程抽样与冻结范围；区分子串匹配有效率、条件HR和全请求命中，不由代码反推原表分母；原论文与修复后README分列，采样候选数歧义、LastFM课程持平及worker调度未运行范围保留。8页中文PDF逐页验收，公式表格核对，原/译私有备份和首次真实下载已完成；未运行算法，不声称线上收益或全库召回。"
+        "review_note": "对照11页v4、正文源码及固定官方commit静态核对连续行为投影、位置拼接、答案NLL、课程抽样与冻结范围；区分子串匹配有效率、条件HR和全请求命中，不由代码反推原表分母；原论文与修复后README分列，采样候选数歧义、LastFM课程持平及worker调度未运行范围保留。8页中文PDF逐页验收，公式表格核对，原/译私有备份和首次真实下载已完成；未运行算法，不声称线上收益或全库召回。\n2026-10-30新增潜推理问题页比较：回查既有精读中的连续行为投影、标题与向量位置拼接、答案NLL和LoRA/投影器冻结范围，确认其解决外部输入适配而非潜状态奖励学习；其余直接页本轮新增LatentR³内容未改变LLaRA证据。保留前次11页原文/8页中文PDF及固定commit的自查范围；未重做全文翻译或运行算法。"
       }
     }
   ]

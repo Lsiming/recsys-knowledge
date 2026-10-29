@@ -15,7 +15,7 @@ cd recsys-knowledge-attachments
 python3 download.py
 ```
 
-默认获取全部原文与中文PDF，保存到私有克隆的`.local/pdfs/<来源ID>/`。52篇中文PDF与52份已登记原文分别保存；2026-10-29追加DMT综述、Agent4Rec、ColdLLM、DreamRec、TokenRec、LETTER与LLaRA中文PDF及对应原文。新增附件均核对远端digest并实际登录下载校验PDF类型、大小与完整SHA256。STAR未核实镜像及BERT额外出版版已按用户要求删除，当前仅保留实际采用的登记原件。
+默认获取全部原文与中文PDF，保存到私有克隆的`.local/pdfs/<来源ID>/`。53篇中文PDF与53份已登记原文分别保存；2026-10-29追加DMT综述、Agent4Rec、ColdLLM、DreamRec、TokenRec、LETTER与LLaRA中文PDF及对应原文。2026-10-30再追加LatentR³的19页采用原文和17页正文中文PDF。新增附件均核对远端digest并实际登录下载校验PDF类型、大小与完整SHA256。STAR未核实镜像及BERT额外出版版已按用户要求删除，当前仅保留实际采用的登记原件。
 
 ```bash
 python3 download.py --kind translation
