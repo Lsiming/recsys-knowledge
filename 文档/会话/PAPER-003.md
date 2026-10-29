@@ -4,11 +4,11 @@
 
 ## 最新进度（2026-10-30）
 
-ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall、MDGR和FedCGR已完成正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚待完整精读7篇：UniGCRec、PENS、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇UniGCRec（正式全文待获取）；若真实获取受阻先继续PENS。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
+ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall、MDGR、FedCGR、PENS和OneSug已有正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载；OneSug最终整合检查与本地提交见文末本轮记录。尚待完整精读5篇：UniGCRec、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇继续已有原件的OneRec V2，UniGCRec正式全文获取403仍需恢复。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
 
 ## 范围与完成证据
 
-主队列沿用候选P60–P71：ColdLLM、Agent4Rec、LETTER、LLaRA、TokenRec、LatentR³、OneMall、MDGR、FedCGR、UniGCRec、DreamRec、PENS。补充此前已列出的OneSug（P42）、OneRec V2（P44）、OneReason（P45）、PreferDiff及OneRec-Think；OneRec-Think已核对综述题名与标识，和OneReason为不同论文，固定版本原文仍待取得。
+主队列沿用候选P60–P71：ColdLLM、Agent4Rec、LETTER、LLaRA、TokenRec、LatentR³、OneMall、MDGR、FedCGR、UniGCRec、DreamRec、PENS。补充此前已列出的OneSug（P42）、OneRec V2（P44）、OneReason（P45）、PreferDiff及OneRec-Think；OneRec-Think已核对综述题名与标识，和OneReason为不同论文；固定2510.11639v2原文与源码已取得，尚未精读。
 
 每篇完成条件均为：固定版本原件/阅读范围、正文中文PDF与逐页验收、原文及译文私有备份和首次认证下载哈希核验、独立精读、问题合并与整合收据、检索检查。公开译文另核实逐篇许可，不以私有保存代替公开授权。未运行算法实验，作者报告与分析推断分别表述。
 
@@ -126,3 +126,16 @@ PENS采用ACL-IJCNLP 2021正式11页原文，第82–92页，正文§1–7、致
 原文与译文均已私有上传、远端digest核对并首次真实认证下载；两库目录57原文/57译文、114份、1555页、216882044字节，原112条逐项不变。私有114份目录检查、7项下载器测试及PENS两份verify-only通过；上传前核实private/仅所有者/无邀请，本轮匿名仓库和PENS译文资产API均404。私有目录发布与最终公开检查结果接续本节。重点17篇完成11篇、余6篇：UniGCRec、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；不是综述全引用的穷尽差集，全队列之后的跨模块全局复核仍未执行。
 
 PENS私有目录提交3a3beb08d1eb2cf107abd1d538e9efc0b2d1ab79已通过GitDB API按同SHA快进发布main并回查一致，仅三份目录文件，无强推。公开上下文203份活跃Markdown/3006本地链接、知识与来源索引、57项译文/PDF目录检查通过；wiki lint为0错误、3项既有POUL/TaQFormer提示，plan仅余这两来源。当前分发文件及完整23提交/729文件对象的公开检查通过；本任务精确暂存与中文本地提交接续完成，用户治理目录和两个画布保留。后续先读已有下载的OneSug等原件，UniGCRec正式PDF获取403仍需恢复；全队列后的全局复核尚未执行。
+
+
+## 2026-10-30 OneSug全文与前缀查询问题
+
+采用2506.06913v1、2025-06-07正式11页PDF与原始LaTeX，全文§1–5、9编号公式、6表、8图及参考文献已对照；无附录。原文11页全部逐页渲染目视。arXiv固定页CC BY 4.0已核实，原PDF同时含ACM2018未填写模板权利栏，两个事实均保留，不能据此确认AAAI2026发表。未核实作者实现、未下载工业数据或运行模型，未逐篇回查引用。
+
+正文中文PDF8页全部逐页渲染目视，9编号公式原字节保持、6表百分数序列一致、8图保留；图内英文、产品截图、人名机构、参考文献及原权利栏保留。远端与本地首次编译因LibertinusMath字体大小写失败，只在译文类文件副本修正并补cal字体后本地XeLaTeX成功；中文斜体回退正体，末页两处参考文献hbox警告经目视无裁切重叠。清理构建元信息和OpenAction前后逐页文本及1.3倍像素完全一致。原文SHA256为831a9481ee915f45d15d0f133c062d767471b2751a89265c7fcdb20faa790504，译文为e4e74df43dfd6c10d1b46882a963829539110884e8036aa7c61b31a9893932e5；可编辑工程在本地SRC-ONESUG/translation/translated-sources/onesug.tex，未制作正式Markdown全文译本。
+
+新增短前缀到查询建议问题，将RQ-VAE参考桶、查询文本输出、行为等级偏好与SFT、足额16条/语义/业务/时延四类证据合并到8个问题、模块和专题页。保留式7/9截断梯度与文字间隔冲突、奖励差非正/零和九类分组例外、百分点及消融归因边界于REV-040；OneSug仅替代查询建议级联，不扩大为商品搜索；LocalSUG仍为摘要线索。同步候选、README与搜索路由，修正残留“9篇均只读摘要”。当前Agent自查，不声称独立审查。
+
+原文与中文PDF均已私有上传、核对远端digest并首次真实认证下载校验页数/大小/完整SHA256。两库目录58原文/58译文、116份、1574页、222273263字节，私有旧114条与公开PDF旧57条逐项不变。目录检查、7项下载器测试及OneSug两份verify-only通过；上传前确认private/仅所有者/无邀请，本轮匿名仓库API和译文资产API均404。私有目录提交4e3fed251f510741295c2e82bbdb9406facc068b已通过GitDB API按同SHA快进发布main，仅三份目录文件，无强推。公开整合检查、本地提交接续记录；用户治理目录和两个画布保留。重点17篇中12篇已有正文学习产物，剩5篇；这不是综述全部引用的穷尽差集，全部完成后的跨模块全局复核仍待执行。
+
+OneSug最终检查：205份活跃Markdown/3063本地链接、知识与来源索引、58项译文/PDF目录、问题/论文双向检索通过；wiki lint为0错误、3项既有POUL/TaQFormer提示，plan只余这两来源。当前分发文件与完整24提交/747文件对象公开检查通过。全工作树diff --check仅命中用户原有治理目录第40行尾空格，本任务检查范围与暂存检查单独核验，不修改无关文件。已修正新问题的模块related关联，未以清警告替代语义自查；下一篇OneRec V2已有原件，无需重新下载。

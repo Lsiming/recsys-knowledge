@@ -1,0 +1,50 @@
+{
+  "id": "SRC-ONESUG",
+  "title": "OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion",
+  "kind": "paper",
+  "state": "active",
+  "current": "5b6051326177f0341e2360f4f349f891b39c719e870aae43f655aa451bed27f5",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2506.06913v1",
+      "revision": "arXiv:2506.06913v1，2025-06-07；正式PDF 11页，ACM2018模板信息不作发表依据",
+      "read_scope": "已读固定v1全部11页：摘要、正文§1–5、参考文献；9编号公式、6表及8图，无附录。11页原文全部逐页渲染目视，LaTeX对照；未逐篇回查参考文献、未核实作者实现或运行算法。源码原始tar.gz保留，未下载数据。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "831a9481ee915f45d15d0f133c062d767471b2751a89265c7fcdb20faa790504",
+          "snapshot": ".local/sources/SRC-ONESUG/831a9481ee915f45d15d0f133c062d767471b2751a89265c7fcdb20faa790504/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "ceafd9fa5e289507eb6ef3836fa12c8135a19fa0817f7a6b77234f6d83ccab3f",
+          "snapshot": ".local/sources/SRC-ONESUG/ceafd9fa5e289507eb6ef3836fa12c8135a19fa0817f7a6b77234f6d83ccab3f/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "f6e42454ac7363708ceeb4f71e315951c02387c63016bc1265e07259800c4dff",
+          "snapshot": ".local/sources/SRC-ONESUG/f6e42454ac7363708ceeb4f71e315951c02387c63016bc1265e07259800c4dff/abs.html"
+        }
+      ],
+      "fingerprint": "5b6051326177f0341e2360f4f349f891b39c719e870aae43f655aa451bed27f5",
+      "retrieved_on": "2026-10-30",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "94855f065f29c5c4938e30a570b3e6a4d817867011387c6b89c88c7c8329d4a5",
+        "pages": [
+          "evaluation-bias",
+          "generative-preference-alignment",
+          "generative-recommendation",
+          "prefix-query-generation",
+          "representations-tokenization",
+          "search-query-suggestion",
+          "search-systems",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "对照2506.06913v1正式11页及正文LaTeX，自查8页OneSug增量与关联入口：参考桶/文本输出、式6–9分段梯度及奖励差前提、表2–6百分点与足额/语义/线上/服务协议、LocalSUG摘要边界。原11页和译8页全部逐页目视，9公式及6表数值核对，原/译私有首次认证下载完成；保留REV-040疑点，未核实实现、未运行模型、未独立审查；不代表全队列后的全局复核。"
+      }
+    }
+  ]
+}

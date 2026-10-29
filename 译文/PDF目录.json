@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-10-30",
-  "inventory_note": "57篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "58篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -1919,6 +1919,48 @@
         "size_bytes": 1202135,
         "pages": 14,
         "verified_download_sha256": "73d5ca890c79d15853cec854167071212e64584ff43a124b9cfc9572489a8e99"
+      }
+    },
+    {
+      "source_id": "SRC-ONESUG",
+      "title": "OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion",
+      "original_url": "https://arxiv.org/abs/2506.06913v1",
+      "revision": "arXiv:2506.06913v1，2025-06-07；正式PDF 11页，ACM2018模板信息不作发表依据",
+      "input_sha256": "672b5901d9c114695c2327f487892c37eb0e4706e33fde560090612f0116bfb0",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–5、图表标题、表格说明及描述性脚注译为中文；无附录。采用11页arXiv:2506.06913v1及原始LaTeX源码，9编号公式和6表数值保持，8图保留。原图内部英文、产品截图、人名机构与参考文献保留；保留作者、固定arXiv的CC BY 4.0和原PDF的ACM模板权利说明，注明翻译、中文排版和译注修改，不将模板当发表依据。",
+      "status": "private",
+      "reason": "8页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-30",
+        "notes": "固定arXiv v1页明确CC BY 4.0；PDF同时保留未填写的ACM2018模板版权/许可栏，两个事实均记录，不以模板确认AAAI2026发表。译本保留作者、两类权利说明和修改范围；PDF仅私有备份，未制作正式Markdown全文译本。",
+        "evidence_url": "https://arxiv.org/abs/2506.06913v1",
+        "original_pdf_sha256": "831a9481ee915f45d15d0f133c062d767471b2751a89265c7fcdb20faa790504",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "authors": [
+          "Xian Guo",
+          "Ben Chen",
+          "Siyuan Wang",
+          "Ying Yang",
+          "Chenyi Lei",
+          "Yuqing Ding",
+          "Han Li"
+        ],
+        "evidence_sha256": "f6e42454ac7363708ceeb4f71e315951c02387c63016bc1265e07259800c4dff"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261030",
+        "asset_name": "SRC-ONESUG.zh-CN.private.20261030.1.pdf",
+        "translation_version": "20261030.1",
+        "sha256": "e4e74df43dfd6c10d1b46882a963829539110884e8036aa7c61b31a9893932e5",
+        "size_bytes": 2628561,
+        "pages": 8,
+        "verified_download_sha256": "e4e74df43dfd6c10d1b46882a963829539110884e8036aa7c61b31a9893932e5"
       }
     }
   ],
