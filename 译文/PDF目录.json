@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-10-30",
-  "inventory_note": "46篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "56篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -1838,6 +1838,46 @@
         "size_bytes": 1049272,
         "pages": 9,
         "verified_download_sha256": "0478f143783c1c47a661bbe30b2ebf9b5737448923c0ceefb8d5b296b1880460"
+      }
+    },
+    {
+      "source_id": "SRC-FEDCGR",
+      "title": "FedCGR: Federated Cross-Domain Generative Recommendation",
+      "original_url": "https://arxiv.org/abs/2608.10929v1",
+      "revision": "arXiv:2608.10929v1（2026-08-11）",
+      "input_sha256": "99aaf1afe8f160d8cbea27ee2233bb9041847d3faab1a066d8d0b1795066c8d1",
+      "input_pages": 10,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–6、算法1、5个图标题、6表标题/表头、描述性脚注及AI披露已翻译；无附录。保留24个编号公式、表格数值、参考文献、人名机构和原图内部英文。原式与实验数字不静默纠正；对全排序范围、FK宏平均、冷用户归因和通信口径加译注；保留原作者与CC BY 4.0许可说明，Anonymous Review不作为发表证据。",
+      "status": "private",
+      "reason": "10页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-30",
+        "notes": "固定arXiv v1页面已核实CC BY 4.0；保留原作者、版本、许可和修改范围，模板CIKM Anonymous Review不作为正式发表依据。PDF按统一规则仅私有备份，未制作正式Markdown全文译本。",
+        "evidence_url": "https://arxiv.org/abs/2608.10929v1",
+        "original_pdf_sha256": "9379d912da17ae834e7776c1cdd2d230d6c7b6a40ee2291b0b1fcd3ca163e141",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "authors": [
+          "Zhuodong Liu",
+          "Hugen Lv",
+          "Xiangyu Li",
+          "Bohan Guo",
+          "Peiyu Hu"
+        ],
+        "evidence_sha256": "1e492a07f025932bd07f5fa3d962aa137ed7904a0cafe4de0b94105bb5a719fc"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261030",
+        "asset_name": "SRC-FEDCGR.zh-CN.private.20261030.1.pdf",
+        "translation_version": "20261030.1",
+        "sha256": "2f848c79f0de9547af1688d30f7fe0e5368ef90c67ac8c13824f298b27635b3c",
+        "size_bytes": 1358957,
+        "pages": 10,
+        "verified_download_sha256": "2f848c79f0de9547af1688d30f7fe0e5368ef90c67ac8c13824f298b27635b3c"
       }
     }
   ],

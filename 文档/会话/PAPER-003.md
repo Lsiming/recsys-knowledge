@@ -4,7 +4,7 @@
 
 ## 最新进度（2026-10-30）
 
-ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall和MDGR已完成正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚待完整精读8篇：FedCGR、UniGCRec、PENS、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇FedCGR。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
+ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall、MDGR和FedCGR已完成正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚待完整精读7篇：UniGCRec、PENS、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇UniGCRec（正式全文待获取）；若真实获取受阻先继续PENS。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
 
 ## 范围与完成证据
 
@@ -99,3 +99,16 @@ OneMall收尾验证：check_context通过199份/2887链接；wiki lint为0错误
 原文与译文均已私有上传、远端digest核对并首次真实认证下载校验大小/页数/完整SHA256；收据在本地PAPER-003/private/receipts.json。两库目录55原文/55译文、110份、1507页；公开翻译许可未确认，正式Markdown未发布。私有目录发布与最终检查结果接续本节；普通知识正文只本地提交，用户治理目录和两个画布保留。重点队列9篇完成、8篇剩余，全部完成后的跨模块全局复核尚未执行，下一篇FedCGR。
 
 MDGR收尾验证：check_context通过200份/2924链接，wiki lint为0错误、3个既有POUL/TaQFormer警告，plan仅余这两来源；知识/来源索引、55项正式译文与PDF盘点、MDGR/离散码补全双向检索通过。check_public完整21提交/687文件对象通过；私有110份目录、7项下载器测试及MDGR两份verify-only通过，原108条目录逐项不变。认证API再次确认private、仅所有者/无邀请；匿名仓库API和MDGR译文资产API均404。私有目录中文提交9a330173aa2dbacfa164089c47676f17269612f6已通过Git database API同SHA快进main并回查一致，无强推，仅三份目录文件。全部工作树diff仍有用户治理目录既有第40行空白，保留不改；本任务diff需单独验收。
+
+
+## 2026-10-30 FedCGR完成与UniGCRec接续
+
+采用2608.10929v1（2026-08-11），13页PDF及正文源码§1–6、算法1、AI披露均已阅读，无附录；原文13页逐页渲染。来源指纹与原件哈希在SRC-FEDCGR来源卡；源码为未修改解压文件的本地重打包，非上游压缩包原字节。固定arXiv许可CC BY 4.0已核实，CIKM Anonymous Review不作正式录用依据，未核实官方实现或运行模型。
+
+10页正文中文PDF全部逐页目视，24编号公式、6表数值、5图路径与原源码一致，中文字体嵌入且有Unicode映射；清理构建元信息及自动打开动作前后逐页文字和1.3倍渲染像素一致。远程LuaLaTeX缺Songti SC，本地smoke通过后经历ctex/acmart与luatexja caption字体冲突，切本地XeLaTeX+xeCJK成功，未删正文。可编辑工程、最终PDF及QA在本地SRC-FEDCGR目录；未制作正式Markdown全文译本。
+
+新增联邦语义与私有行为问题，将固定Tokenizer/可训练Token向量、本地CF适配、共享私有专家及原型个性化聚合合并到8个模块/问题/专题页。全排序4场景与采样6场景、逐域负迁移、冷用户归因、FK宏平均、通信口径及隐私边界已明确，疑点记录REV-038。当前Agent自查，未委派独立审查；全部17篇之后的跨模块全局复核尚未执行。
+
+13页原文与10页译文均已私有上传、核对远端digest并首次真实认证下载校验页数/大小/完整SHA256，原文保持原字节；两份收据在本地PAPER-003/private/receipts.json。目录56原文/56译文、112份、1530页、215094914字节，旧110条未修改；目录检查、7项私有下载器测试及FedCGR离线verify-only通过。上传前确认private、仅所有者/无待处理邀请，匿名仓库与译文资产API均404。私有目录发布与最终公开检查结果接续本节。重点17篇已完成10篇，剩7篇；下一篇UniGCRec，正式全文仍需取得，无法获取时如实登记并先继续PENS，不把摘要当完整精读。
+
+FedCGR最终检查：私有目录中文提交cb770015e6be9c82e331d35cfa80dc78eac70027已通过GitDB API按同SHA快进至main，并回查远端一致，无强推。公开上下文202份Markdown/2974本地链接、知识/来源索引、译文/PDF目录通过；wiki lint为0错误，保留POUL/TaQFormer既有3项提示，plan无FedCGR待整合。论文名与联邦问题双向检索命中；当前分发文件及完整22提交/708文件对象公开检查通过。未修改用户治理目录和两个画布，普通知识正文只本地提交。

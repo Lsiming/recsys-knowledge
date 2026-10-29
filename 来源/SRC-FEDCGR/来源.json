@@ -1,0 +1,45 @@
+{
+  "id": "SRC-FEDCGR",
+  "title": "FedCGR: Federated Cross-Domain Generative Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "53b122c5cbc5b115bc88b4a07828f59a2eb42a39ff3a8d795d39b67ec443abfd",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2608.10929v1",
+      "revision": "arXiv:2608.10929v1（2026-08-11）",
+      "read_scope": "已读采用PDF全部13页及正文源码§1–6、算法1与AI披露，无附录；13页原文已逐页渲染目视，核对24个编号公式、6表和5图。未逐篇回查参考文献，未运行模型或核实官方实现；源码会议栏Anonymous Review，不据此确认CIKM2026正式录用。源码为下载后未修改解压文件的本地重打包，非上游压缩包原字节。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "9379d912da17ae834e7776c1cdd2d230d6c7b6a40ee2291b0b1fcd3ca163e141",
+          "snapshot": ".local/sources/SRC-FEDCGR/9379d912da17ae834e7776c1cdd2d230d6c7b6a40ee2291b0b1fcd3ca163e141/paper.pdf"
+        },
+        {
+          "name": "FedCGR.2608.10929v1.source-local-repacked.tar.gz",
+          "sha256": "2ce17cbc5c285029cd846a55830cdbc285be778ca8b2e1dc76d4e33ea216f090",
+          "snapshot": ".local/sources/SRC-FEDCGR/2ce17cbc5c285029cd846a55830cdbc285be778ca8b2e1dc76d4e33ea216f090/FedCGR.2608.10929v1.source-local-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "53b122c5cbc5b115bc88b4a07828f59a2eb42a39ff3a8d795d39b67ec443abfd",
+      "retrieved_on": "2026-10-30",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "43555c5ed3cd26780dbcff8ffba63ffb797a190157dbd83a3a0e32a23afb1139",
+        "pages": [
+          "evaluation-bias",
+          "federated-semantic-behavior-transfer",
+          "generative-recommendation",
+          "multidomain-parameter-sharing",
+          "multidomain-transfer",
+          "representations-tokenization",
+          "serving-efficiency",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "当前Agent对照2608.10929v1全部13页及正文源码自查：固定Tokenizer与可训练SID向量、本地频次门/CF残差、共享私有专家、原型个性化聚合及本域合法解码；全排序4场景/采样6场景、逐域下降、非DP、FK宏平均/消融混杂/通信口径疑点保留REV-038。10页中文PDF逐页渲染验收，24编号公式/6表数值/5图保持，原文和译文私有备份且首次真实认证下载哈希核验。未运行算法、未核实官方实现、未独立审查；未将Related Work或UniGCRec二手描述作为已读比较。"
+      }
+    }
+  ]
+}

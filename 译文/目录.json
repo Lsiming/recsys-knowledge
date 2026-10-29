@@ -1020,5 +1020,24 @@
     "evidence_sha256": "be0d6e1c5ce9ba338dc903a14f8e78bcf30f5db0048f63825430ca90371f0836",
     "evidence_url": "https://arxiv.org/abs/2601.19501v2",
     "reason": "9页正文中文PDF和可编辑LaTeX已完成并逐页验收，原文/译文均私有备份并真实认证下载；arXiv非独占分发许可不授公众翻译再分发，未发布正式Markdown译文。"
+  },
+  {
+    "source_id": "SRC-FEDCGR",
+    "title": "FedCGR: Federated Cross-Domain Generative Recommendation",
+    "original_url": "https://arxiv.org/abs/2608.10929v1",
+    "revision": "arXiv:2608.10929v1（2026-08-11）",
+    "status": "local-only",
+    "reason": "完整正文LaTeX中文译本及10页PDF已逐页验收；固定arXiv版本CC BY 4.0已核实，尚未制作正式Markdown全文译文；PDF按独立私有规则维护。",
+    "checked_on": "2026-10-30",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "authors": [
+      "Zhuodong Liu",
+      "Hugen Lv",
+      "Xiangyu Li",
+      "Bohan Guo",
+      "Peiyu Hu"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2608.10929v1",
+    "evidence_sha256": "1e492a07f025932bd07f5fa3d962aa137ed7904a0cafe4de0b94105bb5a719fc"
   }
 ]
