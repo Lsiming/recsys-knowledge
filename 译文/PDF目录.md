@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-10-29，盘点46篇中文PDF，46篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-10-29，盘点49篇中文PDF，49篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -58,3 +58,6 @@
 | [Wide & Deep · Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792v1) · `SRC-WIDEDEEP` | 私有，需登录 · 20261027.1 · 3页 | [not-permitted](https://arxiv.org/abs/1606.07792v1) | 现有本地中文 PDF 3页；本次不公开，翻译覆盖范围未作发布复核；按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。 |
 | [Deep Neural Networks for YouTube Recommendations](https://doi.org/10.1145/2959100.2959190) · `SRC-YOUTUBE-DNN` | 私有，需登录 · 20261027.1 · 12页 | [CC-BY-NC-ND-4.0](https://api.crossref.org/works/10.1145/2959100.2959190) | 既有中文PDF；翻译范围沿用原成品及阅读笔记，本轮仅验证备份完整性与版面，未新增全文覆盖或质量承诺；用户追加要求纳入个人私有备份；已上传并实际登录下载核验。公开许可判断不变，未公开发布PDF。 |
 | [A Survey on Generative Recommendation: Data, Model, and Tasks](https://arxiv.org/abs/2510.27157v2) · `SRC-GENREC-DMT` | 私有，需登录 · 20261029.1 · 25页 | [not-permitted](https://arxiv.org/abs/2510.27157v2) | 摘要、正文§1–8、图表标题、表格说明与分类树译为中文；嵌入原图内英文、专名、机构及参考文献保留。25页均渲染并逐页检查版面总览，放大复查公式和表格，终版变更页复查。；固定版本未授予公开译文分发许可；原文32页与中文25页已私有备份，远端digest与首次登录下载类型/大小/完整SHA256均核验。 |
+| [On Generative Agents in Recommendation](https://arxiv.org/abs/2310.10108v3) · `SRC-AGENT4REC` | 私有，需登录 · 20261029.1 · 8页 | [CC-BY-4.0](https://arxiv.org/pdf/2310.10108v3) | 摘要、正文§1–6、图1–9标题、表1–3表头及致谢；参考文献、原图内部英文和权利声明保留。源码注释附录未纳入。；8页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
+| [Large Language Model Simulator for Cold-Start Recommendation](https://arxiv.org/abs/2402.09176v2) · `SRC-COLDLLM` | 私有，需登录 · 20261029.1 · 7页 | [unverified](https://arxiv.org/abs/2402.09176v2) | 摘要、正文§1–6、图1–5标题、表1–3表头、致谢与伦理考量；参考文献、原图内部英文及原权利声明保留。复杂度、损失范围、表格笔误及数据集链接差异均有明确译注，未改表格数值与原公式。；7页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
+| [Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion](https://arxiv.org/abs/2310.20453v1) · `SRC-DREAMREC` | 私有，需登录 · 20261029.1 · 15页 | [unverified](https://arxiv.org/abs/2310.20453v1) | 摘要、正文§1–7、致谢、正文图表标题与表头、训练和生成算法说明；附录A–C、参考文献、原图内部英文、作者与机构名及NeurIPS出版说明保留。后验分子、噪声/条件下标、损失权重与伪代码差异和表格笔误均保留原文并附译注。译后副本修复Unicode字体、作者换行、浮动图和算法排版，原公式14块及表1单元格与原源码一致。；15页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |

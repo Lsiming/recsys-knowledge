@@ -1,0 +1,79 @@
+{
+  "id": "SRC-DREAMREC",
+  "title": "Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion",
+  "kind": "paper",
+  "state": "active",
+  "current": "103201cb187a23b2ae5a56f64c7f926a64ac332ee84a499e288c05300e9d46d2",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2310.20453v1",
+      "revision": "arXiv:2310.20453v1；NeurIPS 2023",
+      "read_scope": "已读15页源码正文摘要、§1–6、主要算法、表1和图示；附录仅浏览配置，未核对全部表格；未运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "9c1cacdd7b37327cdbb30c9a9aa06e4371d52c973d35e067125680bfb73b976c",
+          "snapshot": ".local/sources/SRC-DREAMREC/9c1cacdd7b37327cdbb30c9a9aa06e4371d52c973d35e067125680bfb73b976c/paper.pdf"
+        },
+        {
+          "name": "DreamRec.2310.20453v1.source.tar.gz",
+          "sha256": "ebf5599cc545132f4eac41ebded086db13129cd9861cb6b6cbc49f826552260c",
+          "snapshot": ".local/sources/SRC-DREAMREC/ebf5599cc545132f4eac41ebded086db13129cd9861cb6b6cbc49f826552260c/DreamRec.2310.20453v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "1a7a0db369b32319f0d10f97edca320020c12ae2c142b1d5f5fa8a3e2535e285",
+      "retrieved_on": "2026-10-29",
+      "integration": null
+    },
+    {
+      "locator": "https://arxiv.org/abs/2310.20453v1",
+      "revision": "arXiv:2310.20453v1；NeurIPS 2023",
+      "read_scope": "已读15页采用PDF对应源码的摘要、正文§1–7、致谢、训练/生成算法、表1与主图；回查附录A全部推导及B数据统计与可视化，附录默认保留英文；未运行官方代码或模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "9c1cacdd7b37327cdbb30c9a9aa06e4371d52c973d35e067125680bfb73b976c",
+          "snapshot": ".local/sources/SRC-DREAMREC/9c1cacdd7b37327cdbb30c9a9aa06e4371d52c973d35e067125680bfb73b976c/paper.pdf"
+        },
+        {
+          "name": "DreamRec.2310.20453v1.source.tar.gz",
+          "sha256": "ebf5599cc545132f4eac41ebded086db13129cd9861cb6b6cbc49f826552260c",
+          "snapshot": ".local/sources/SRC-DREAMREC/ebf5599cc545132f4eac41ebded086db13129cd9861cb6b6cbc49f826552260c/DreamRec.2310.20453v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "5cb3a8effb4f10fe4c41781cae9696c1a10b9d1623f62562f85f02e47bf5547f",
+      "retrieved_on": "2026-10-29",
+      "integration": null
+    },
+    {
+      "locator": "https://arxiv.org/abs/2310.20453v1",
+      "revision": "arXiv:2310.20453v1；NeurIPS 2023",
+      "read_scope": "已读15页采用PDF对应源码的摘要、正文§1–7、致谢、训练/生成算法、表1与主图；回查附录A全部推导、B数据统计及C可视化，附录默认保留英文；未运行官方代码或模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "9c1cacdd7b37327cdbb30c9a9aa06e4371d52c973d35e067125680bfb73b976c",
+          "snapshot": ".local/sources/SRC-DREAMREC/9c1cacdd7b37327cdbb30c9a9aa06e4371d52c973d35e067125680bfb73b976c/paper.pdf"
+        },
+        {
+          "name": "DreamRec.2310.20453v1.source.tar.gz",
+          "sha256": "ebf5599cc545132f4eac41ebded086db13129cd9861cb6b6cbc49f826552260c",
+          "snapshot": ".local/sources/SRC-DREAMREC/ebf5599cc545132f4eac41ebded086db13129cd9861cb6b6cbc49f826552260c/DreamRec.2310.20453v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "103201cb187a23b2ae5a56f64c7f926a64ac332ee84a499e288c05300e9d46d2",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e951647483017b57af4b6d0ef7c87f2a4464648056c94e1f1a72869ec3659bad",
+        "pages": [
+          "generation-decoding",
+          "interaction-vector-denoising"
+        ],
+        "reviewed_on": "2026-10-29",
+        "review_method": "agent-self-review",
+        "review_note": "核对v1正文、14块显示公式、原表1数值、算法1无权重MSE与式14权重、后验/条件/噪声下标及附录A差异；回查B统计与C可视化。比较DiffRec全目录恢复和DreamRec目标生成，区分训练负采样、评估候选及网络加目录检索成本。15页中文PDF逐页验收，清理前后文字/像素一致，原文与译文私有备份及实际认证下载SHA256核验完成；附录英文保留，未运行官方代码或模型。"
+      }
+    }
+  ]
+}

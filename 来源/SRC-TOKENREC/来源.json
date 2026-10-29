@@ -1,0 +1,41 @@
+{
+  "id": "SRC-TOKENREC",
+  "title": "TokenRec: Learning to Tokenize ID for LLM-based Generative Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "3bc643a774af0dce915a6df6bbfd3abf2de0dfbc0004e52d661b4ae075cd60e6",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2406.10450v3",
+      "revision": "arXiv:2406.10450v3；TKDE 2025信息待出版记录确认",
+      "read_scope": "已读源码摘要、§1–5方法与实验主要表格，核对MQ tokenizer、生成检索、泛化实验和消融；附录/官方代码未独立核对，未运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "ad21d63a9d09fdbad00225dcf9f6140ace114b0208b254c28138ab42164bcd83",
+          "snapshot": ".local/sources/SRC-TOKENREC/ad21d63a9d09fdbad00225dcf9f6140ace114b0208b254c28138ab42164bcd83/paper.pdf"
+        },
+        {
+          "name": "TokenRec.2406.10450v3.source.tar.gz",
+          "sha256": "5df4316a3e7228d16c721b409b7ac897e62c709ec7ae70d27731c14846089a16",
+          "snapshot": ".local/sources/SRC-TOKENREC/5df4316a3e7228d16c721b409b7ac897e62c709ec7ae70d27731c14846089a16/TokenRec.2406.10450v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "3bc643a774af0dce915a6df6bbfd3abf2de0dfbc0004e52d661b4ae075cd60e6",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "9713e5eedfbf82d9f3a902da1d6130ff738f226ee01f24a7005b58c29f51ee2d",
+        "pages": [
+          "generation-decoding",
+          "generative-output-evaluation",
+          "paper-candidates",
+          "representations-tokenization"
+        ],
+        "reviewed_on": "2026-10-29",
+        "review_method": "agent-self-review",
+        "review_note": "核对源码正文MQ掩码、多路量化/重建、正负余弦间隔目标及连续输出到目录检索接口；保留unseen-user允许上游GNN更新、训练负例、候选与硬件边界。15页原文已私有备份并真实登录下载哈希核验，正文中文翻译/PDF待完成；LLaRA和CoLLM仅候选比较，未据此认定已独立精读。"
+      }
+    }
+  ]
+}

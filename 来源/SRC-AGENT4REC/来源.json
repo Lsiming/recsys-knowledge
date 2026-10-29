@@ -1,0 +1,42 @@
+{
+  "id": "SRC-AGENT4REC",
+  "title": "On Generative Agents in Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "3381213e8412ee2f86c958c7b62c78c841809d4bb71f4f20eebd3807ee0b71bd",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2310.10108v3",
+      "revision": "arXiv:2310.10108v3，2024-11-08；SIGIR 2024，DOI 10.1145/3626772.3657844；源码下载原字节完整gzip/CRC和tar校验；实际SHA256与服务器ETag不同，未声称匹配ETag。包内PDF与采用PDF仅差arXiv页边标记，未另登记为采用原件。",
+      "read_scope": "已读11页固定PDF的正文§1–6、图1–9、表1–3和限制，核对实际编译LaTeX；源码中注释掉的附录未进入正式PDF，未作为已发表内容。作者报告与协议分析分别表述；未运行官方代码或真人线上实验。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "d837c66b0f98665c7876e2cc260e86603bf42e35442f1b7a7a394f2a9ffbc4c5",
+          "snapshot": ".local/sources/SRC-AGENT4REC/d837c66b0f98665c7876e2cc260e86603bf42e35442f1b7a7a394f2a9ffbc4c5/paper.pdf"
+        },
+        {
+          "name": "Agent4Rec.2310.10108v3.source.tar.gz",
+          "sha256": "52202776b26153573a4d9332d1ac43006f7747fa28ecc84b935a5f1f0e91fe9a",
+          "snapshot": ".local/sources/SRC-AGENT4REC/52202776b26153573a4d9332d1ac43006f7747fa28ecc84b935a5f1f0e91fe9a/Agent4Rec.2310.10108v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "3381213e8412ee2f86c958c7b62c78c841809d4bb71f4f20eebd3807ee0b71bd",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "7630ea2662a604f9461394183a14f9d7752b438e4d06c8a61fa14551963f1cb1",
+        "pages": [
+          "data-labels",
+          "evaluation-bias",
+          "generative-recommendation",
+          "paper-candidates",
+          "synthetic-recommendation-data"
+        ],
+        "reviewed_on": "2026-10-29",
+        "review_method": "agent-self-review",
+        "review_note": "回查v3正式PDF与正文源码，修正喜欢阈值、从众平方差方向、未交互负类及表3真实离线/模拟评价边界；0.9全判负准确率为协议比例分析，非复现。8页正文中文PDF逐页验收，原文/译文私有登录下载已核验；未运行模型，未将模拟DAG视为现实因果。"
+      }
+    }
+  ]
+}

@@ -1559,6 +1559,106 @@
         "pages": 25,
         "verified_download_sha256": "cafb909da8eea888f36653f7d1edb03a113c1b7203f86e1972e3299278f03029"
       }
+    },
+    {
+      "source_id": "SRC-AGENT4REC",
+      "title": "On Generative Agents in Recommendation",
+      "original_url": "https://arxiv.org/abs/2310.10108v3",
+      "revision": "arXiv:2310.10108v3，2024-11-08；SIGIR 2024，DOI 10.1145/3626772.3657844；源码下载原字节完整gzip/CRC和tar校验；实际SHA256与服务器ETag不同，未声称匹配ETag。包内PDF与采用PDF仅差arXiv页边标记，未另登记为采用原件。",
+      "input_sha256": "4b0e735288edf0654cd967f84a52b3f3e8d61251f1813a0d55cddb5f61e53869",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–6、图1–9标题、表1–3表头及致谢；参考文献、原图内部英文和权利声明保留。源码注释附录未纳入。",
+      "status": "private",
+      "reason": "8页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-29",
+        "notes": "采用的11页PDF明确CC BY 4.0；中文副本保留署名、原权利说明及修改范围，私有备份不改变许可。",
+        "evidence_url": "https://arxiv.org/pdf/2310.10108v3",
+        "original_pdf_sha256": "d837c66b0f98665c7876e2cc260e86603bf42e35442f1b7a7a394f2a9ffbc4c5",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "authors": [
+          "An Zhang",
+          "Yuxin Chen",
+          "Leheng Sheng",
+          "Xiang Wang",
+          "Tat-Seng Chua"
+        ],
+        "evidence_sha256": "d837c66b0f98665c7876e2cc260e86603bf42e35442f1b7a7a394f2a9ffbc4c5"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261029",
+        "asset_name": "SRC-AGENT4REC.zh-CN.private.20261029.1.pdf",
+        "translation_version": "20261029.1",
+        "sha256": "3f9441a615adac7d5ee0528ff29c504da6742fdd6bdb9c271159a544e2f6214c",
+        "size_bytes": 2252368,
+        "pages": 8,
+        "verified_download_sha256": "3f9441a615adac7d5ee0528ff29c504da6742fdd6bdb9c271159a544e2f6214c"
+      }
+    },
+    {
+      "source_id": "SRC-COLDLLM",
+      "title": "Large Language Model Simulator for Cold-Start Recommendation",
+      "original_url": "https://arxiv.org/abs/2402.09176v2",
+      "revision": "arXiv:2402.09176v2；WSDM 2025；DOI 10.1145/3701551.3703546",
+      "input_sha256": "84ba93e7fe1597ba7582d00138d3076af6e48c5ca4c8f9b9cc81083a016be5ea",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–6、图1–5标题、表1–3表头、致谢与伦理考量；参考文献、原图内部英文及原权利声明保留。复杂度、损失范围、表格笔误及数据集链接差异均有明确译注，未改表格数值与原公式。",
+      "status": "private",
+      "reason": "7页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-29",
+        "notes": "本次备份采用的登记原文，未据此确认公开译文再分发许可；保留作者和原权利声明。",
+        "evidence_url": "https://arxiv.org/abs/2402.09176v2",
+        "original_pdf_sha256": "11e5024c4bd7bd0a22671c7dd79b240ac395ab04e76913e83e4abe2fa2ffae7d"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261029",
+        "asset_name": "SRC-COLDLLM.zh-CN.private.20261029.1.pdf",
+        "translation_version": "20261029.1",
+        "sha256": "e34d1b6dddb3f92136a86cb937188ebdc5aa5f9ff058c818b20946aa9a958aba",
+        "size_bytes": 1046370,
+        "pages": 7,
+        "verified_download_sha256": "e34d1b6dddb3f92136a86cb937188ebdc5aa5f9ff058c818b20946aa9a958aba"
+      }
+    },
+    {
+      "source_id": "SRC-DREAMREC",
+      "title": "Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion",
+      "original_url": "https://arxiv.org/abs/2310.20453v1",
+      "revision": "arXiv:2310.20453v1；NeurIPS 2023",
+      "input_sha256": "3a810880b9d5e9453b2c0b1071c62045ddb227aa41ffc9af7f74844fe0d71b9e",
+      "input_pages": 15,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–7、致谢、正文图表标题与表头、训练和生成算法说明；附录A–C、参考文献、原图内部英文、作者与机构名及NeurIPS出版说明保留。后验分子、噪声/条件下标、损失权重与伪代码差异和表格笔误均保留原文并附译注。译后副本修复Unicode字体、作者换行、浮动图和算法排版，原公式14块及表1单元格与原源码一致。",
+      "status": "private",
+      "reason": "15页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-29",
+        "notes": "本次备份采用的登记原文，未据此确认公开译文再分发许可；保留作者和原权利声明。",
+        "evidence_url": "https://arxiv.org/abs/2310.20453v1",
+        "original_pdf_sha256": "9c1cacdd7b37327cdbb30c9a9aa06e4371d52c973d35e067125680bfb73b976c"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261029",
+        "asset_name": "SRC-DREAMREC.zh-CN.private.20261029.1.pdf",
+        "translation_version": "20261029.1",
+        "sha256": "9f2c2647aa2983335c87a815e1f3f048ece4ab3d4adf2ae46d0252f85f5f438e",
+        "size_bytes": 1525902,
+        "pages": 15,
+        "verified_download_sha256": "9f2c2647aa2983335c87a815e1f3f048ece4ab3d4adf2ae46d0252f85f5f438e"
+      }
     }
   ],
   "storage_policy": "private-only",

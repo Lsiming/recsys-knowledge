@@ -1,0 +1,39 @@
+{
+  "id": "SRC-COLDLLM",
+  "title": "Large Language Model Simulator for Cold-Start Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "aa458137cee8457c7e484a5cae68fbf2d7b0eac78f5e4f2215e2054b51c25338",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2402.09176v2",
+      "revision": "arXiv:2402.09176v2；WSDM 2025；DOI 10.1145/3701551.3703546",
+      "read_scope": "已读源码正文摘要、§1–5与§6结论，核对框架公式、算法、表格与在线A/B指标；附录/官方实现未独立核对，未运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "11e5024c4bd7bd0a22671c7dd79b240ac395ab04e76913e83e4abe2fa2ffae7d",
+          "snapshot": ".local/sources/SRC-COLDLLM/11e5024c4bd7bd0a22671c7dd79b240ac395ab04e76913e83e4abe2fa2ffae7d/paper.pdf"
+        },
+        {
+          "name": "ColdLLM.2402.09176v2.source.tar.gz",
+          "sha256": "afc2693886ca8d724a6b918e27f2346d55beb6197142e2bcba2990cf2592cf2d",
+          "snapshot": ".local/sources/SRC-COLDLLM/afc2693886ca8d724a6b918e27f2346d55beb6197142e2bcba2990cf2592cf2d/ColdLLM.2402.09176v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "aa458137cee8457c7e484a5cae68fbf2d7b0eac78f5e4f2215e2054b51c25338",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "5a8e23c52c8fde8891ba874a66ae19c20de79f54a62e90e705940616c030415d",
+        "pages": [
+          "data-labels",
+          "synthetic-recommendation-data"
+        ],
+        "reviewed_on": "2026-10-29",
+        "review_method": "agent-self-review",
+        "review_note": "回查v2正文过滤集合、LoRA/采样监督、BPR与耦合损失、冷物品切分及线上成本；修正随机抽取和预设数量的过度推断，明确未观测标签、损失概率映射与MovieLens版本缺口；7页中文PDF逐页验收、原文/译文真实私有下载核验，不声称代码复现。"
+      }
+    }
+  ]
+}
