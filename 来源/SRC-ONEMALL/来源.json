@@ -1,0 +1,46 @@
+{
+  "id": "SRC-ONEMALL",
+  "title": "OneMall: One Architecture, More Scenarios -- End-to-End Generative Recommender Family at Kuaishou E-Commerce",
+  "kind": "paper",
+  "state": "active",
+  "current": "36b073528cbe61b3c5d5b31d94f9d003697a2c34be1a22e44dc08b413bb8bcda",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2601.21770v2",
+      "revision": "arXiv:2601.21770v2（2026-02-02）",
+      "read_scope": "已读正式PDF全部11页及正文源码§1–5，原文11页逐页渲染目视，核对10个编号公式、6张表与6个有标题图及末页商品码示例；文献未逐篇回查，未运行算法或核实正式录用。源码归档为本地重打包，非上游压缩包原字节。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "c7d2998cdd303042e509225e378ccb79ad73de195a98aa8a2a8203a26fc9c0ce",
+          "snapshot": ".local/sources/SRC-ONEMALL/c7d2998cdd303042e509225e378ccb79ad73de195a98aa8a2a8203a26fc9c0ce/paper.pdf"
+        },
+        {
+          "name": "OneMall.2601.21770v2.source-local-repacked.tar.gz",
+          "sha256": "c35c5e8f1e5cac05e987d4eac385b02c5d8c0422e25236b3783abc2e055c07fb",
+          "snapshot": ".local/sources/SRC-ONEMALL/c35c5e8f1e5cac05e987d4eac385b02c5d8c0422e25236b3783abc2e055c07fb/OneMall.2601.21770v2.source-local-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "36b073528cbe61b3c5d5b31d94f9d003697a2c34be1a22e44dc08b413bb8bcda",
+      "retrieved_on": "2026-10-30",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "dcab40b048eba801a666f916bdb730f288965f336b1c51eff699053e391e0159",
+        "pages": [
+          "generative-output-evaluation",
+          "generative-preference-alignment",
+          "generative-recommendation",
+          "multibehavior-compressed-generation",
+          "paper-candidates",
+          "preranking-cascade",
+          "representations-tokenization",
+          "semantic-code-retrieval",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "对照2601.21770v2全部11页及正文源码，核对业务配对、三种编码、QFormer/辅助监督、RL印式与六表；保留层号、16-bit/4096、概率比/损失缺项和指标分母疑点于REV-036。区分当前生成召回与未来统一召排、代理与回放及作者整体线上证据。9页中文PDF逐页验收，原译私有备份及首次认证下载均通过。未运行模型或核实作者实现。"
+      }
+    }
+  ]
+}

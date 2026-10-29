@@ -4,7 +4,7 @@
 
 ## 最新进度（2026-10-30）
 
-ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA和LatentR³已完成正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚待完整精读10篇：OneMall、MDGR、FedCGR、UniGCRec、PENS、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇OneMall。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
+ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³和OneMall已完成正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚待完整精读9篇：MDGR、FedCGR、UniGCRec、PENS、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇MDGR。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
 
 ## 范围与完成证据
 
@@ -79,3 +79,13 @@ LLaRA收尾检查：check_context通过195篇/2793链接，wiki lint为0错误�
 原文571,265字节、SHA256 38dac74099fe0de7a8b5e19a2622341b0c47ae351630f4758e215dff73c674b8已于29日首次认证下载；中文译文30日首次认证下载，两者完整哈希/大小/页数和远端digest均一致。私有目录53原文/53译文、106份、1467页、202,893,279字节；7项下载器测试、106份目录检查和Latent两份verify-only通过。私有目录中文提交a208d9aabce624f546fb2942533a9e350ff333f7已通过Git database API同SHA快进main并重读，force=false。上传前API核实private、仅所有者/无邀请；匿名译文资产404，仓库页两条检查链路连接超时，未声称本轮匿名仓库404。公开翻译许可未确认，正式Markdown不发布；普通知识正文不推送。
 
 下一篇OneMall已有11页2601.21770v2原文和source-work/sample-sigconf.tex，原文SHA256 c7d2998cdd303042e509225e378ccb79ad73de195a98aa8a2a8203a26fc9c0ce，4,144,021字节；已初读首页和源码导言，不算完成全文精读。须先核对正式PDF范围、源文件和版本许可，再在副本翻译。用户治理目录和两个画布保留，不暂存。
+
+## 2026-10-30 OneMall完成与MDGR接续
+
+对照2601.21770v2正式11页及源码§1–5完成技术精读，保留10个编号公式、6表、6图和末页商品码示例。9页正文中文PDF已全部逐页目视，10公式及6表数值保持，元信息清理前后逐页文字及1.3倍渲染像素一致；最终SHA256为aa310592e0bc8b471a9729bd68913b8882ae65045882bca2864a4057462c2c0b，3,094,735字节。原文SHA256为c7d2998cdd303042e509225e378ccb79ad73de195a98aa8a2a8203a26fc9c0ce，4,144,021字节。工程与QA留在`.local/papers/SRC-ONEMALL/`；参考文献页1.12401pt溢出警告已目视无裁切，原图内部英文保留，未运行算法或核实作者实现。
+
+11页原文与9页译文已上传20261030私有Releases，远端digest一致，两份均首次真实认证下载并核验大小/页数/完整SHA256，收据在本地PAPER-003/private/receipts.json。认证API确认private、仅所有者且无邀请；本轮匿名仓库API及译文资产API均404。私有完整目录为54原文/54译文、108份、1487页，旧106条未改；目录检查、7项单元测试及OneMall离线文件核验通过，私有目录提交27c6bf1。已通过GitDB API将同SHA提交精确快进至私有main并回查一致，无强推；仅更新三份目录文件。
+
+知识层新增多行为历史压缩问题，补入业务关系编码、末层FSQ、精排代理奖励、MoE激活参数与三层评估证据。明确统一召排/共享骨干仍属未来、98%辅助准确率读取完整目标SID；式(2)/(7)/(9)/(10)、16-bit与4096、Conflict分母和GPM增幅疑点写入REV-036，不替作者补造实现。重点17篇已完成8篇，剩9篇；全队列后的全局复核尚未执行。下一篇MDGR已有11页2601.19501v2原文与author.tex源码；原文SHA256 be0d6e1c5ce9ba338dc903a14f8e78bcf30f5db0048f63825430ca90371f0836，1,119,574字节，须先核对固定版本正文与许可，再在副本翻译。
+
+OneMall收尾验证：check_context通过199份/2887链接；wiki lint为0错误、3项既有POUL/TaQFormer提示，plan仅余这两来源；索引、54项PDF盘点、正式译文目录检查通过，OneMall及多行为历史双向检索可达。check_public完整20提交/666文件对象通过；本任务diff无空白错误，完整工作树diff仍报告用户治理目录既有第40行空白，保留不改。

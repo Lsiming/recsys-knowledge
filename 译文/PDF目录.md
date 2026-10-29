@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-10-30，盘点53篇中文PDF，53篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-10-30，盘点54篇中文PDF，54篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -65,3 +65,4 @@
 | [Learnable Item Tokenization for Generative Recommendation](https://arxiv.org/abs/2405.07314v3) · `SRC-LETTER` | 私有，需登录 · 20261029.1 · 9页 | [unverified](https://arxiv.org/abs/2405.07314v3) | 摘要、正文§1–6、图表标题/说明/表头与描述性脚注已翻译；§7附录、参考文献、图内英文、人名及机构保留；原公式、表1异常数值和文字矛盾保留并加译注。；9页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [LLaRA: Large Language-Recommendation Assistant](https://arxiv.org/abs/2312.02445v4) · `SRC-LLARA` | 私有，需登录 · 20261029.1 · 8页 | [unverified](https://arxiv.org/abs/2312.02445v4) | 摘要、正文§1–6、图1–5标题/说明/子图标题、表1–3标题/表头、描述性脚注与致谢已翻译；采用版无独立附录；参考文献、图内英文、人名/机构及出版声明保留。原式参数记法、候选数量歧义、未定义文献键及课程实验持平项已加译注，不猜测修正原结果。；8页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [Reinforced Latent Reasoning for LLM-based Recommendation](https://arxiv.org/abs/2505.19092v2) · `SRC-LATENTR3` | 私有，需登录 · 20261029.1 · 17页 | [unverified](https://arxiv.org/abs/2505.19092v2) | 摘要、正文§1–6、伦理与可复现性声明、正文图1–4和表1–2标题/说明/表头及描述性脚注已翻译；附录A–K、参考文献、图内英文、人名/机构保留。原式和表格疑点保留并加译注；三处环绕图改为普通浮动图，修复源码重复标签，附录空引用明确标注缺失。；17页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
+| [OneMall: One Architecture, More Scenarios -- End-to-End Generative Recommender Family at Kuaishou E-Commerce](https://arxiv.org/abs/2601.21770v2) · `SRC-ONEMALL` | 私有，需登录 · 20261030.1 · 9页 | [unverified](https://arxiv.org/abs/2601.21770v2) | 摘要、正文§1–5、6个有标题图的标题、6张表的标题/表头及说明性脚注已翻译；人名/机构、参考文献、图内英文及末页商品码示例保留。原式与数值疑点保留并加译注；适配ACM宏包冲突、中文字体、通讯标记、图宽/间距及行内换行，不改变公式或表格数值；页眉2017为原模板残留，首页明确说明。；9页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |

@@ -988,5 +988,16 @@
     "checked_on": "2026-10-30",
     "evidence_sha256": "38dac74099fe0de7a8b5e19a2622341b0c47ae351630f4758e215dff73c674b8",
     "evidence_url": "https://arxiv.org/abs/2505.19092v2"
+  },
+  {
+    "source_id": "SRC-ONEMALL",
+    "title": "OneMall: One Architecture, More Scenarios -- End-to-End Generative Recommender Family at Kuaishou E-Commerce",
+    "original_url": "https://arxiv.org/abs/2601.21770v2",
+    "revision": "arXiv:2601.21770v2（2026-02-02）",
+    "status": "local-only",
+    "reason": "已完成LaTeX正文中文译本及9页PDF逐页验收；采用版本arXiv非独占分发许可未授予公众全文翻译再分发权利，未确认公开许可，不发布正式Markdown；采用原文与中文PDF均已私有备份并首次真实认证下载核验。",
+    "checked_on": "2026-10-30",
+    "evidence_sha256": "c7d2998cdd303042e509225e378ccb79ad73de195a98aa8a2a8203a26fc9c0ce",
+    "evidence_url": "https://arxiv.org/abs/2601.21770v2"
   }
 ]
