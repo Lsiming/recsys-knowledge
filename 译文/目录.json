@@ -999,5 +999,26 @@
     "checked_on": "2026-10-30",
     "evidence_sha256": "c7d2998cdd303042e509225e378ccb79ad73de195a98aa8a2a8203a26fc9c0ce",
     "evidence_url": "https://arxiv.org/abs/2601.21770v2"
+  },
+  {
+    "source_id": "SRC-MDGR",
+    "title": "Masked Diffusion Generative Recommendation",
+    "original_url": "https://arxiv.org/abs/2601.19501v2",
+    "revision": "arXiv:2601.19501v2（2026-01-29）",
+    "checked_on": "2026-10-30",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "status": "local-only",
+    "authors": [
+      "Lingyu Mu",
+      "Hao Deng",
+      "Haibo Xing",
+      "Jinxin Hu",
+      "Yu Zhang",
+      "Xiaoyi Zeng",
+      "Jing Zhang"
+    ],
+    "evidence_sha256": "be0d6e1c5ce9ba338dc903a14f8e78bcf30f5db0048f63825430ca90371f0836",
+    "evidence_url": "https://arxiv.org/abs/2601.19501v2",
+    "reason": "9页正文中文PDF和可编辑LaTeX已完成并逐页验收，原文/译文均私有备份并真实认证下载；arXiv非独占分发许可不授公众翻译再分发，未发布正式Markdown译文。"
   }
 ]

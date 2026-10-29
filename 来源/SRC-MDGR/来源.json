@@ -1,0 +1,45 @@
+{
+  "id": "SRC-MDGR",
+  "title": "Masked Diffusion Generative Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "bccde6b71829427c224b02a82296ac1a6f41c100dcf682ae0482dbd292004570",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2601.19501v2",
+      "revision": "arXiv:2601.19501v2（2026-01-29）",
+      "read_scope": "已读采用PDF全部11页及正文源码§1–6，无附录；原文11页已逐页渲染目视，核对23个编号公式、4张表和4个有标题图（6个图资源）。未逐篇回查参考文献，未运行算法或核实作者实现及正式发表。源码为下载后未修改文件的本地重打包，非上游压缩包原字节。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "be0d6e1c5ce9ba338dc903a14f8e78bcf30f5db0048f63825430ca90371f0836",
+          "snapshot": ".local/sources/SRC-MDGR/be0d6e1c5ce9ba338dc903a14f8e78bcf30f5db0048f63825430ca90371f0836/paper.pdf"
+        },
+        {
+          "name": "MDGR.2601.19501v2.source-local-repacked.tar.gz",
+          "sha256": "005026a620c17d7b74f5bc86dd9021fd2d60ae278e85efec602603cf7093dcc6",
+          "snapshot": ".local/sources/SRC-MDGR/005026a620c17d7b74f5bc86dd9021fd2d60ae278e85efec602603cf7093dcc6/MDGR.2601.19501v2.source-local-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "bccde6b71829427c224b02a82296ac1a6f41c100dcf682ae0482dbd292004570",
+      "retrieved_on": "2026-10-30",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "28b2f60d104d9401c015ad3920136de572b91f3eeb6186e11906bb1f95137bb5",
+        "pages": [
+          "evaluation-bias",
+          "generation-decoding",
+          "generative-output-evaluation",
+          "generative-recommendation",
+          "interaction-vector-denoising",
+          "representations-tokenization",
+          "serving-efficiency",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "已对照固定v2的11页原文与源码§1–6自查，9页正文中文PDF逐页验收，23公式/4表数值保持；原文及译文均私有备份并首次认证下载哈希核验。课程方向、固定集合与独立核、轮数/组合成本疑点保留REV-037；离线指标、内部QPS与作者线上A/B分列。未运行算法或核实作者实现。"
+      }
+    }
+  ]
+}

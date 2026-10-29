@@ -4,7 +4,7 @@
 
 ## 最新进度（2026-10-30）
 
-ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³和OneMall已完成正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚待完整精读9篇：MDGR、FedCGR、UniGCRec、PENS、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇MDGR。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
+ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall和MDGR已完成正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚待完整精读8篇：FedCGR、UniGCRec、PENS、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇FedCGR。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
 
 ## 范围与完成证据
 
@@ -89,3 +89,13 @@ LLaRA收尾检查：check_context通过195篇/2793链接，wiki lint为0错误�
 知识层新增多行为历史压缩问题，补入业务关系编码、末层FSQ、精排代理奖励、MoE激活参数与三层评估证据。明确统一召排/共享骨干仍属未来、98%辅助准确率读取完整目标SID；式(2)/(7)/(9)/(10)、16-bit与4096、Conflict分母和GPM增幅疑点写入REV-036，不替作者补造实现。重点17篇已完成8篇，剩9篇；全队列后的全局复核尚未执行。下一篇MDGR已有11页2601.19501v2原文与author.tex源码；原文SHA256 be0d6e1c5ce9ba338dc903a14f8e78bcf30f5db0048f63825430ca90371f0836，1,119,574字节，须先核对固定版本正文与许可，再在副本翻译。
 
 OneMall收尾验证：check_context通过199份/2887链接；wiki lint为0错误、3项既有POUL/TaQFormer提示，plan仅余这两来源；索引、54项PDF盘点、正式译文目录检查通过，OneMall及多行为历史双向检索可达。check_public完整20提交/666文件对象通过；本任务diff无空白错误，完整工作树diff仍报告用户治理目录既有第40行空白，保留不改。
+
+## 2026-10-30 MDGR完成与FedCGR接续
+
+采用11页2601.19501v2及正文源码§1–6，已核对23个编号公式、4表及4个有标题图（6资源），无附录。原文11页在前序已逐页目视，最终9页正文中文PDF本轮全部逐页渲染目视；23个公式与4表数字保持，清理前后逐页文字及1.3倍像素一致，中文字体嵌入/Unicode映射已核对。原文SHA256 be0d6e1c5ce9ba338dc903a14f8e78bcf30f5db0048f63825430ca90371f0836、1,119,574字节；中文SHA256 0478f143783c1c47a661bbe30b2ebf9b5737448923c0ceefb8d5b296b1880460、1,049,272字节。可编辑主文件为本地`.local/papers/SRC-MDGR/translation/translated-sources/author.tex`，最终PDF为同级translation中的`MDGR_中文.pdf`，QA留在qa/final-qa.json。远程首次表头错误修复后超时，切既有本地LuaLaTeX/BibTeX成功；第4页1.18166pt vbox与末页两处7.94pt hbox警告目视无可见裁切/重叠，宽表2放大可读，图内英文保留。
+
+来源指纹bccde6b71829427c224b02a82296ac1a6f41c100dcf682ae0482dbd292004570；源码为未修改解压文件本地重打包，非上游压缩包原字节。并行码本、目标掩码课程、置信度预热/组合束搜索及三类证据已写入独立精读与8页知识正文；γ方向、固定集合与独立核、轮数/取整、B^m展开成本和合法映射缺项登记REV-037。已填码没有重掩码修正，QPS+14.24%仅内部配置对比，不当成TIGER加速或延迟下降；未运行算法/核实实现，模板Conference’17不作发表证据。
+
+原文与译文均已私有上传、远端digest核对并首次真实认证下载校验大小/页数/完整SHA256；收据在本地PAPER-003/private/receipts.json。两库目录55原文/55译文、110份、1507页；公开翻译许可未确认，正式Markdown未发布。私有目录发布与最终检查结果接续本节；普通知识正文只本地提交，用户治理目录和两个画布保留。重点队列9篇完成、8篇剩余，全部完成后的跨模块全局复核尚未执行，下一篇FedCGR。
+
+MDGR收尾验证：check_context通过200份/2924链接，wiki lint为0错误、3个既有POUL/TaQFormer警告，plan仅余这两来源；知识/来源索引、55项正式译文与PDF盘点、MDGR/离散码补全双向检索通过。check_public完整21提交/687文件对象通过；私有110份目录、7项下载器测试及MDGR两份verify-only通过，原108条目录逐项不变。认证API再次确认private、仅所有者/无邀请；匿名仓库API和MDGR译文资产API均404。私有目录中文提交9a330173aa2dbacfa164089c47676f17269612f6已通过Git database API同SHA快进main并回查一致，无强推，仅三份目录文件。全部工作树diff仍有用户治理目录既有第40行空白，保留不改；本任务diff需单独验收。
