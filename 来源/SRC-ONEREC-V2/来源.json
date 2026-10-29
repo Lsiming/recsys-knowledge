@@ -30,7 +30,7 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "fc3fae55fa561d000377d8b54c6d499e2530b0ba5cc86791cc800883111209c9",
+        "notes_sha256": "405416d9ec1aa11f62d6c2d1bc21c399056a9d7ec066b3452ac0c18050e3d9ad",
         "pages": [
           "target-decoding-compute",
           "generative-output-evaluation",
