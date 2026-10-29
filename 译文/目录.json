@@ -1,5 +1,15 @@
 [
   {
+    "source_id": "SRC-AGENT4REC",
+    "title": "On Generative Agents in Recommendation",
+    "original_url": "https://arxiv.org/abs/2310.10108v3",
+    "revision": "arXiv:2310.10108v3，2024-11-08；SIGIR 2024，DOI 10.1145/3626772.3657844；源码下载原字节完整gzip/CRC和tar校验；实际SHA256与服务器ETag不同，未声称匹配ETag。包内PDF与采用PDF仅差arXiv页边标记，未另登记为采用原件。",
+    "status": "local-only",
+    "reason": "已完成正文LaTeX中文译本与8页PDF逐页验收；原PDF明确CC BY 4.0，尚未另生成正式Markdown译文，PDF按独立私有规则维护。",
+    "checked_on": "2026-10-29",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
     "source_id": "SRC-ATSPEED",
     "title": "Efficient Inference for Large Language Model-based Generative Recommendation",
     "original_url": "https://arxiv.org/abs/2410.05165v3",
@@ -80,6 +90,15 @@
     "evidence_sha256": "5d61f031d6e2eae3ef0a756ca60b6270b05a9e3d7517a768887618d08ad772a5",
     "evidence_url": "https://arxiv.org/abs/2007.16122v2",
     "reason": "arXiv 非独占分发许可；全文译文待授权"
+  },
+  {
+    "source_id": "SRC-COLDLLM",
+    "title": "Large Language Model Simulator for Cold-Start Recommendation",
+    "original_url": "https://arxiv.org/abs/2402.09176v2",
+    "revision": "arXiv:2402.09176v2；WSDM 2025；DOI 10.1145/3701551.3703546",
+    "status": "local-only",
+    "reason": "已完成正文LaTeX中文译本及7页PDF逐页验收，原文与中文PDF已私有备份并真实登录下载核验；尚未核实公开派生译文许可，未发布正式Markdown译文。",
+    "checked_on": "2026-10-29"
   },
   {
     "source_id": "SRC-DCNV2",
@@ -229,6 +248,15 @@
     "reason": "arXiv 非独占分发许可；全文译文待授权"
   },
   {
+    "source_id": "SRC-DREAMREC",
+    "title": "Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion",
+    "original_url": "https://arxiv.org/abs/2310.20453v1",
+    "revision": "arXiv:2310.20453v1；NeurIPS 2023",
+    "status": "local-only",
+    "reason": "已完成正文LaTeX中文译本及15页PDF逐页验收，原文与中文PDF均已私有备份并真实登录下载核验；尚未核实公开派生译文许可，未发布正式Markdown译文。",
+    "checked_on": "2026-10-29"
+  },
+  {
     "source_id": "SRC-ESMM",
     "title": "ESMM · Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate",
     "original_url": "https://arxiv.org/abs/1804.07931v2",
@@ -248,6 +276,16 @@
     "evidence_sha256": "583dd88e6ac6526fb6de76eb803539e33aa8159bc90165b145b4f52008b7e3cb",
     "evidence_url": "https://arxiv.org/abs/1804.07931v2",
     "reason": "arXiv 非独占分发许可；全文译文待授权"
+  },
+  {
+    "source_id": "SRC-GENREC-DMT",
+    "title": "A Survey on Generative Recommendation: Data, Model, and Tasks",
+    "original_url": "https://arxiv.org/abs/2510.27157v2",
+    "revision": "arXiv:2510.27157v2，2026-05-09；初稿2025-10-31；源码为下载后未修改文件的本地重新打包",
+    "status": "local-only",
+    "reason": "已完成正文中文LaTeX译本与25页PDF；固定版本为arXiv非独占分发许可，未授予公开派生译文权利，全文译本留本地，PDF按独立私有规则维护。",
+    "checked_on": "2026-10-29",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
   },
   {
     "source_id": "SRC-GENRECSYS-REVIEW",
@@ -402,6 +440,28 @@
     "evidence_sha256": "277f93fab1bd9944dcd20ada664ac6ab60c208a91efd4afcf88ec4b2f5043b68",
     "evidence_url": "https://arxiv.org/abs/2311.09049v4",
     "reason": "arXiv 非独占分发许可；全文译文待授权"
+  },
+  {
+    "source_id": "SRC-LETTER",
+    "title": "Learnable Item Tokenization for Generative Recommendation",
+    "original_url": "https://arxiv.org/abs/2405.07314v3",
+    "revision": "arXiv:2405.07314v3；源码CIKM2024/DOI 10.1145/3627673.3679569；官方代码8d0154e28de37dbb6e24871c508ad8ddb1921cda定向静态核对",
+    "checked_on": "2026-10-29",
+    "license_url": null,
+    "status": "local-only",
+    "authors": [
+      "Wenjie Wang",
+      "Honghui Bao",
+      "Xinyu Lin",
+      "Jizhi Zhang",
+      "Yongqi Li",
+      "Fuli Feng",
+      "See-Kiong Ng",
+      "Tat-Seng Chua"
+    ],
+    "evidence_sha256": "f9f1163d426d729b342fbc383b100405282ab0b0f9641944ef2531579560850f",
+    "evidence_url": "https://arxiv.org/pdf/2405.07314v3",
+    "reason": "9页正文中文PDF及可编辑LaTeX工程已完成，逐页目视、原文和译文私有备份与真实登录下载核验完成；采用PDF为ACM版权/许可声明，未核实公开翻译再分发许可，不公开正式Markdown全文译文。"
   },
   {
     "source_id": "SRC-LIGER",
@@ -810,6 +870,16 @@
     "evidence_sha256": "ad07e47cedf437a4156419ce5d3076e08a3e59bbfd6dac7cc53df1009cdcbe7f"
   },
   {
+    "source_id": "SRC-TAQFORMER",
+    "title": "TaQFormer · A Treatment-as-Query Transformer with Data-Fusion for Multidimensional Treatment Modeling in Coupon Allocation",
+    "original_url": "https://arxiv.org/abs/2610.26199v1",
+    "revision": "2610.26199v1; retrieved 2026-10-28; arXiv source draft.tex",
+    "status": "local-only",
+    "reason": "已完成中文工作译文；固定版本为CC BY-NC-ND 4.0，不支持公开分享改编译文，Markdown仅本地保留，PDF按独立私有规则维护。",
+    "checked_on": "2026-10-28",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  {
     "source_id": "SRC-TIGER",
     "title": "TIGER · Recommender Systems with Generative Retrieval",
     "original_url": "https://arxiv.org/abs/2305.05065v3",
@@ -835,6 +905,15 @@
     "evidence_sha256": "a4b3eb4bfc9aa8b7fd21bc925b7b87559c4f01605449b51243c1ee3390acd32a",
     "evidence_url": "https://arxiv.org/abs/2305.05065v3",
     "reason": "arXiv 非独占分发许可；全文译文待授权"
+  },
+  {
+    "source_id": "SRC-TOKENREC",
+    "title": "TokenRec: Learning to Tokenize ID for LLM-based Generative Recommendation",
+    "original_url": "https://arxiv.org/abs/2406.10450v3",
+    "revision": "arXiv:2406.10450v3；TKDE 2025信息待出版记录确认",
+    "status": "local-only",
+    "reason": "已完成正文LaTeX中文译本及11页PDF逐页验收，原文与中文PDF均已私有备份并真实登录下载核验；尚未核实公开派生译文许可，未发布正式Markdown译文。",
+    "checked_on": "2026-10-29"
   },
   {
     "source_id": "SRC-TRANSFORMER",
@@ -887,62 +966,5 @@
     "status": "local-only",
     "authors": [],
     "reason": "本次整合已完成的本地译文/PDF记录；正式Markdown未完成逐篇公开许可与发布登记，保持本地保留。PDF统一私有维护，范围见PDF目录。"
-  },
-  {
-    "source_id": "SRC-TAQFORMER",
-    "title": "TaQFormer · A Treatment-as-Query Transformer with Data-Fusion for Multidimensional Treatment Modeling in Coupon Allocation",
-    "original_url": "https://arxiv.org/abs/2610.26199v1",
-    "revision": "2610.26199v1; retrieved 2026-10-28; arXiv source draft.tex",
-    "status": "local-only",
-    "reason": "已完成中文工作译文；固定版本为CC BY-NC-ND 4.0，不支持公开分享改编译文，Markdown仅本地保留，PDF按独立私有规则维护。",
-    "checked_on": "2026-10-28",
-    "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
-  },
-  {
-    "source_id": "SRC-GENREC-DMT",
-    "title": "A Survey on Generative Recommendation: Data, Model, and Tasks",
-    "original_url": "https://arxiv.org/abs/2510.27157v2",
-    "revision": "arXiv:2510.27157v2，2026-05-09；初稿2025-10-31；源码为下载后未修改文件的本地重新打包",
-    "status": "local-only",
-    "reason": "已完成正文中文LaTeX译本与25页PDF；固定版本为arXiv非独占分发许可，未授予公开派生译文权利，全文译本留本地，PDF按独立私有规则维护。",
-    "checked_on": "2026-10-29",
-    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
-  },
-  {
-    "source_id": "SRC-COLDLLM",
-    "title": "Large Language Model Simulator for Cold-Start Recommendation",
-    "original_url": "https://arxiv.org/abs/2402.09176v2",
-    "revision": "arXiv:2402.09176v2；WSDM 2025；DOI 10.1145/3701551.3703546",
-    "status": "local-only",
-    "reason": "已完成正文LaTeX中文译本及7页PDF逐页验收，原文与中文PDF已私有备份并真实登录下载核验；尚未核实公开派生译文许可，未发布正式Markdown译文。",
-    "checked_on": "2026-10-29"
-  },
-  {
-    "source_id": "SRC-DREAMREC",
-    "title": "Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion",
-    "original_url": "https://arxiv.org/abs/2310.20453v1",
-    "revision": "arXiv:2310.20453v1；NeurIPS 2023",
-    "status": "local-only",
-    "reason": "已完成正文LaTeX中文译本及15页PDF逐页验收，原文与中文PDF均已私有备份并真实登录下载核验；尚未核实公开派生译文许可，未发布正式Markdown译文。",
-    "checked_on": "2026-10-29"
-  },
-  {
-    "source_id": "SRC-TOKENREC",
-    "title": "TokenRec: Learning to Tokenize ID for LLM-based Generative Recommendation",
-    "original_url": "https://arxiv.org/abs/2406.10450v3",
-    "revision": "arXiv:2406.10450v3；TKDE 2025信息待出版记录确认",
-    "status": "local-only",
-    "reason": "已完成正文LaTeX中文译本及11页PDF逐页验收，原文与中文PDF均已私有备份并真实登录下载核验；尚未核实公开派生译文许可，未发布正式Markdown译文。",
-    "checked_on": "2026-10-29"
-  },
-  {
-    "source_id": "SRC-AGENT4REC",
-    "title": "On Generative Agents in Recommendation",
-    "original_url": "https://arxiv.org/abs/2310.10108v3",
-    "revision": "arXiv:2310.10108v3，2024-11-08；SIGIR 2024，DOI 10.1145/3626772.3657844；源码下载原字节完整gzip/CRC和tar校验；实际SHA256与服务器ETag不同，未声称匹配ETag。包内PDF与采用PDF仅差arXiv页边标记，未另登记为采用原件。",
-    "status": "local-only",
-    "reason": "已完成正文LaTeX中文译本与8页PDF逐页验收；原PDF明确CC BY 4.0，尚未另生成正式Markdown译文，PDF按独立私有规则维护。",
-    "checked_on": "2026-10-29",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]

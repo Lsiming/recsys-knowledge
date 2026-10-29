@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-10-29，盘点50篇中文PDF，50篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-10-29，盘点51篇中文PDF，51篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -62,3 +62,4 @@
 | [Large Language Model Simulator for Cold-Start Recommendation](https://arxiv.org/abs/2402.09176v2) · `SRC-COLDLLM` | 私有，需登录 · 20261029.1 · 7页 | [unverified](https://arxiv.org/abs/2402.09176v2) | 摘要、正文§1–6、图1–5标题、表1–3表头、致谢与伦理考量；参考文献、原图内部英文及原权利声明保留。复杂度、损失范围、表格笔误及数据集链接差异均有明确译注，未改表格数值与原公式。；7页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion](https://arxiv.org/abs/2310.20453v1) · `SRC-DREAMREC` | 私有，需登录 · 20261029.1 · 15页 | [unverified](https://arxiv.org/abs/2310.20453v1) | 摘要、正文§1–7、致谢、正文图表标题与表头、训练和生成算法说明；附录A–C、参考文献、原图内部英文、作者与机构名及NeurIPS出版说明保留。后验分子、噪声/条件下标、损失权重与伪代码差异和表格笔误均保留原文并附译注。译后副本修复Unicode字体、作者换行、浮动图和算法排版，原公式14块及表1单元格与原源码一致。；15页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [TokenRec: Learning to Tokenize ID for LLM-based Generative Recommendation](https://arxiv.org/abs/2406.10450v3) · `SRC-TOKENREC` | 私有，需登录 · 20261029.1 · 11页 | [unverified](https://arxiv.org/abs/2406.10450v3) | 摘要、正文§1–5、致谢、正文图表标题/表头/说明和提示示例已翻译；采用版本没有独立附录。人名、机构名、参考文献、作者简介、IEEE出版页眉和原图内部英文保留。原文符号/措辞和数值疑点保留并加译注；18块align公式和6张表67个数值行与原源码一致。译后副本适配LuaLaTeX中文字体、Unicode宏、重复标签和书签，不修改原件。；11页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
+| [Learnable Item Tokenization for Generative Recommendation](https://arxiv.org/abs/2405.07314v3) · `SRC-LETTER` | 私有，需登录 · 20261029.1 · 9页 | [unverified](https://arxiv.org/abs/2405.07314v3) | 摘要、正文§1–6、图表标题/说明/表头与描述性脚注已翻译；§7附录、参考文献、图内英文、人名及机构保留；原公式、表1异常数值和文字矛盾保留并加译注。；9页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |

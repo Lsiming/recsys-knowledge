@@ -1689,6 +1689,36 @@
         "pages": 11,
         "verified_download_sha256": "a9be8d4b0ad9f4e71948ac2b01a5f52eae5c6f3652e113243ca755db4efcfc46"
       }
+    },
+    {
+      "source_id": "SRC-LETTER",
+      "title": "Learnable Item Tokenization for Generative Recommendation",
+      "original_url": "https://arxiv.org/abs/2405.07314v3",
+      "revision": "arXiv:2405.07314v3；源码CIKM2024/DOI 10.1145/3627673.3679569；官方代码8d0154e28de37dbb6e24871c508ad8ddb1921cda定向静态核对",
+      "input_sha256": "77ba721c7bc5baada45049294c267c6f8f7f0d0a877152dd2bf675b28fcddb78",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–6、图表标题/说明/表头与描述性脚注已翻译；§7附录、参考文献、图内英文、人名及机构保留；原公式、表1异常数值和文字矛盾保留并加译注。",
+      "status": "private",
+      "reason": "9页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-29",
+        "notes": "采用PDF标明ACM版权与许可限制；未核实公开翻译再分发许可。正文工作译本保留原署名及权利声明，仅私有备份。",
+        "evidence_url": "https://arxiv.org/abs/2405.07314v3",
+        "original_pdf_sha256": "f9f1163d426d729b342fbc383b100405282ab0b0f9641944ef2531579560850f"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261029",
+        "asset_name": "SRC-LETTER.zh-CN.private.20261029.1.pdf",
+        "translation_version": "20261029.1",
+        "sha256": "896da076ac8801b9a0b48cbc3b79ccbbdf0007d6d86de3a3cdf0f6554d9968ac",
+        "size_bytes": 1676755,
+        "pages": 9,
+        "verified_download_sha256": "896da076ac8801b9a0b48cbc3b79ccbbdf0007d6d86de3a3cdf0f6554d9968ac"
+      }
     }
   ],
   "storage_policy": "private-only",

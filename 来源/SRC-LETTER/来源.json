@@ -1,0 +1,46 @@
+{
+  "id": "SRC-LETTER",
+  "title": "Learnable Item Tokenization for Generative Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "3d90314a4b898ffe999f0064c3add7e6b216cc45d2e284c21f3dd294695a80f4",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2405.07314v3",
+      "revision": "arXiv:2405.07314v3；源码CIKM2024/DOI 10.1145/3627673.3679569；官方代码8d0154e28de37dbb6e24871c508ad8ddb1921cda定向静态核对",
+      "read_scope": "对照10页固定PDF与源码阅读摘要、正文§1–6、图1–8与表1–4，并读§7附录排序证明；逐项核对RQ量化、协同/多样性正则、温度损失、实验与公式疑点。官方commit仅静态阅读冻结的10份文件：README、rqvae.py、vq.py、rq.py、generate_indices.py、TIGER模型/数据/测试/Trie、LC-Rec模型；未运行算法，未核对正式出版PDF差异。源码包为既有未修改文件的本地重新打包，非上游压缩包原字节；代码包也为所读文件的本地打包。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "f9f1163d426d729b342fbc383b100405282ab0b0f9641944ef2531579560850f",
+          "snapshot": ".local/sources/SRC-LETTER/f9f1163d426d729b342fbc383b100405282ab0b0f9641944ef2531579560850f/paper.pdf"
+        },
+        {
+          "name": "LETTER.2405.07314v3.source-local-repacked.tar.gz",
+          "sha256": "a286ec5ee0c0ac33908c6180c601a41bae3563c70a7eddc97b3b4fb991ad2289",
+          "snapshot": ".local/sources/SRC-LETTER/a286ec5ee0c0ac33908c6180c601a41bae3563c70a7eddc97b3b4fb991ad2289/LETTER.2405.07314v3.source-local-repacked.tar.gz"
+        },
+        {
+          "name": "LETTER.8d0154e28de37dbb6e24871c508ad8ddb1921cda.code-selected.tar.gz",
+          "sha256": "7e5d9e3e7cc4d0825d2172c60a1f2e40ed39608de5d576d307ecb03db5ec5c3c",
+          "snapshot": ".local/sources/SRC-LETTER/7e5d9e3e7cc4d0825d2172c60a1f2e40ed39608de5d576d307ecb03db5ec5c3c/LETTER.8d0154e28de37dbb6e24871c508ad8ddb1921cda.code-selected.tar.gz"
+        }
+      ],
+      "fingerprint": "3d90314a4b898ffe999f0064c3add7e6b216cc45d2e284c21f3dd294695a80f4",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e3843b4b7cb75cf506a0a7e8633e9a570a58c519c766fed45ad69bb8a47dffa8",
+        "pages": [
+          "paper-candidates",
+          "representations-tokenization",
+          "semantic-code-retrieval",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-29",
+        "review_method": "agent-self-review",
+        "review_note": "已核对10页v3及正文/附录、固定官方commit的10文件：协同与多样性印式缺log、代码交叉熵、量化逐层均值、温度Token梯度与完整码冲突缓解；核对主表/消融及148/76/150/199，区分唯一寻址、Trie合法性和展示公平。保留OPAUC理论、异常Recall、温度文字与时间可见性/冷物品/服务缺口。9页正文中文PDF逐页目视，14块公式及4表数值一致，原文/译文私有备份和真实登录下载校验完成；未运行算法。"
+      }
+    }
+  ]
+}

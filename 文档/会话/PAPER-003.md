@@ -41,3 +41,13 @@ LETTER已核对10页arXiv:2405.07314v3固定PDF与CIKM2024/DOI，读取引言、
 OneRec-Think元数据已核实当前v2（2025-11-11），固定采用2510.11639v2；原文与源码并行断点下载现均完成、进程已终止成功。PDF为6,072,213字节、SHA256 8fbd181d6084d247637aa2d626b52fecb079fb794308ac37f6a67b6202aa6540；源码gzip/CRC及tar内容检查通过，为5,451,621字节、SHA256 3a82674615a0585ab0e3b5eb114b57f8b85e75fd641eba30a93004acec50ae7e。状态在本地`onerec-think-download-status.json`，尚未精读，不重启下载。全队列完成后的跨模块全局复核仍未执行。
 
 TokenRec私有目录中文提交4c1df86；本轮公开库check_context通过193篇/2730链接，wiki lint为0错误、3个既有警告，plan只余POUL/TaQFormer，索引/译文/PDF盘点及本任务diff检查通过。匿名仓库与TokenRec译文均404，原/译verify-only通过；完整历史公开扫描通过16提交598对象。普通知识正文只本地提交，用户治理目录和两个画布未触碰。
+
+## LETTER完成与LLaRA续读
+
+TokenRec普通正文收尾已本地提交8da9fc2。LETTER采用10页2405.07314v3，正文§1–6、图1–8/表1–4及§7附录已精读；官方commit 8d0154e28de37dbb6e24871c508ad8ddb1921cda仅静态核对冻结的10份文件，未运行算法。源码仍是未修改文件的本地重新打包；新增代码包亦为所读文件的本地打包，来源指纹3d90314a4b898ffe999f0064c3add7e6b216cc45d2e284c21f3dd294695a80f4。
+
+9页中文PDF已逐页渲染目视，14块显示公式与4表数值和原源码一致；清理前后逐页文字与1.3倍像素一致，字体嵌入及中文Unicode映射已核对。译后主文件为本地`.local/papers/SRC-LETTER/translation/translated-sources/0_main.tex`；最终PDF为该translation目录下`Learnable_Item_Tokenization_for_Generative_Recommendation_中文.pdf`，SHA256为896da076ac8801b9a0b48cbc3b79ccbbdf0007d6d86de3a3cdf0f6554d9968ac、1,676,755字节。原文f9f1163d426d729b342fbc383b100405282ab0b0f9641944ef2531579560850f和译文均完成私有上传、远端digest核对与首次真实登录下载。两库目录同步为51原文/51译文、102份、1412页，未获公开全文翻译许可。
+
+已比较Tokenizer内协同注入、码利用与唯一性、Trie及温度化Token目标；两项印式缺log而代码为交叉熵、逐层均值、有限轮次冲突处理、OPAUC推导尺度/排名边界和Token到物品条件均按证据记录。主表异常Recall、温度文字矛盾、簇数/簇大小混用保留，不静默修公式或数值。相关正文在SRC-LETTER及语义码、编码、训练模块；全部队列完成后的全局复核仍未执行。下一篇LLaRA已有原件与源码，先核实当前本地产物、实际编译子文件和正文范围，再继续翻译与精读，不重启已有成功下载。
+
+LETTER收尾检查：check_context通过194篇/2754链接，wiki lint为0错误、3个既有警告；plan只余POUL/TaQFormer，知识/来源索引、译文/PDF目录及完整历史公开扫描通过。私有102份目录检查、LETTER两份verify-only、7项下载器测试与语法检查均通过；API再次确认private/仅所有者/无邀请。github.com直连使git fetch及两次匿名检查超时，尚未取得本轮匿名HTTP状态，不把超时当404；远端main经认证API核实仍为4c1df86。私有目录已中文本地提交，推送尚待网络恢复；Releases原文/译文上传与首次登录下载已在此前成功。
