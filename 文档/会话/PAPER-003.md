@@ -2,6 +2,10 @@
 
 用户要求按论文工作流依次读相关论文，下载可并行并支持断点；全部解读完成后，从全局重新整理相关知识页。此前综述与微信正文已读，DMT综述中文PDF及私有备份已完成；不能据此认定后续逐篇流程完成。
 
+## 最新进度（2026-10-29）
+
+ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER和LLaRA已完成正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚待完整精读11篇：LatentR³、OneMall、MDGR、FedCGR、UniGCRec、PENS、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇LatentR³。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
+
 ## 范围与完成证据
 
 主队列沿用候选P60–P71：ColdLLM、Agent4Rec、LETTER、LLaRA、TokenRec、LatentR³、OneMall、MDGR、FedCGR、UniGCRec、DreamRec、PENS。补充此前已列出的OneSug（P42）、OneRec V2（P44）、OneReason（P45）、PreferDiff及OneRec-Think；OneRec-Think已核对综述题名与标识，和OneReason为不同论文，固定版本原文仍待取得。
@@ -50,4 +54,16 @@ TokenRec普通正文收尾已本地提交8da9fc2。LETTER采用10页2405.07314v3
 
 已比较Tokenizer内协同注入、码利用与唯一性、Trie及温度化Token目标；两项印式缺log而代码为交叉熵、逐层均值、有限轮次冲突处理、OPAUC推导尺度/排名边界和Token到物品条件均按证据记录。主表异常Recall、温度文字矛盾、簇数/簇大小混用保留，不静默修公式或数值。相关正文在SRC-LETTER及语义码、编码、训练模块；全部队列完成后的全局复核仍未执行。下一篇LLaRA已有原件与源码，先核实当前本地产物、实际编译子文件和正文范围，再继续翻译与精读，不重启已有成功下载。
 
-LETTER收尾检查：check_context通过194篇/2754链接，wiki lint为0错误、3个既有警告；plan只余POUL/TaQFormer，知识/来源索引、译文/PDF目录及完整历史公开扫描通过。私有102份目录检查、LETTER两份verify-only、7项下载器测试与语法检查均通过；API再次确认private/仅所有者/无邀请。github.com直连使git fetch及两次匿名检查超时，尚未取得本轮匿名HTTP状态，不把超时当404；远端main经认证API核实仍为4c1df86。私有目录已中文本地提交，推送尚待网络恢复；Releases原文/译文上传与首次登录下载已在此前成功。
+LETTER收尾检查：check_context通过194篇/2754链接，wiki lint为0错误、3个既有警告；plan只余POUL/TaQFormer，知识/来源索引、译文/PDF目录及完整历史公开扫描通过。私有102份目录检查、LETTER两份verify-only、7项下载器测试与语法检查均通过；API再次确认private/仅所有者/无邀请。github.com直连使git fetch及两次匿名检查超时，尚未取得本轮匿名HTTP状态，不把超时当404；远端main经认证API核实仍为4c1df86。私有目录中文提交1100c2433180a9928c3d0f3eb7b780d894e703ae随后已通过GitHub Git database API按相同SHA快进私有main，force=false，并重读验证远端一致；本地origin/main已同步。Releases原文/译文上传与首次登录下载已在此前成功。
+
+## LLaRA完成与LatentR³续读
+
+LLaRA采用11页2312.02445v4，无独立附录；正文§1–6、图1–5/表1–3已对照源码精读，官方commit 9733f732399e95e236f4f2e1d1139c1f0437090e仅静态核对15份文件。64→4096→4096物品投影接到文本后的独立连续位置，历史与候选都使用；课程是easy/hard提示随机抽样，答案NLL训练LoRA与投影器，基座/推荐器冻结。未运行算法或DataLoader，worker计数的真实课程轨迹尚待核验。输出标题子串匹配的有效率、有效子集HR和全请求命中已分别说明；原表和修复后README结果分列，LastFM课程持平及候选数歧义保留。
+
+8页正文中文PDF全部逐页渲染目视，原文11页亦逐页核对；11块显示公式中10块去空白相同，第10式只翻译指示函数说明，三表数字一致。译文最终SHA256为15c15c08bc7eb848cd4cae777029685f61f782d327f275870af2fb1d21e9355e、2,653,820字节。原图继承字体部分缺Unicode映射/未嵌入，已核对可读渲染；不声称所有字体可提取。元信息清理使用garbage=2，清理前后逐页文字/1.3倍像素一致；garbage=4会改变第2页图像，已弃用。源码为未改解压文件本地重打包，非上游压缩包原字节。
+
+采用原文及中文PDF均已私有上传、核对远端digest并首次真实登录下载核验完整SHA256；两库目录为52原文/52译文、104份、1431页、201,490,099字节。私有目录/README/阅读入口中文提交1e4f53d134312844c0edcd5ad4f2c841af0492c3已通过Git database API同SHA快进main并重读确认，force=false，本地origin/main同步。104份目录检查、LLaRA两份verify-only及7项下载器测试通过；本轮匿名仓库/译文访问均404，API确认private/仅所有者/无邀请。公开全文翻译许可未确认，正式Markdown不发布；普通正文不推送。
+
+LatentR³已有本地PDF与source-work，固定候选2505.19092v2；主文件0_main_new.tex依次使用1_intro、2_problem、3_method、4_exp_zy、5_related、6_conclusion、8_other_statements和附录7_appendix，摘要在主文件。此前仅探查主文件，不算完成正文阅读，须先核对PDF身份/哈希、附录范围及发表证据，再建副本翻译。现有成功下载无需重启。
+
+LLaRA收尾检查：check_context通过195篇/2793链接，wiki lint为0错误、保留3个POUL/TaQFormer既有警告；plan仅余POUL/TaQFormer。知识/来源索引、译文/PDF目录与完整历史扫描通过；普通正文仅本地提交，用户治理目录及两个画布未触碰。

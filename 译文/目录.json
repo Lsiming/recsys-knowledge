@@ -530,6 +530,17 @@
     "reason": "arXiv 非独占分发许可；全文译文待授权"
   },
   {
+    "source_id": "SRC-LLARA",
+    "title": "LLaRA: Large Language-Recommendation Assistant",
+    "original_url": "https://arxiv.org/abs/2312.02445v4",
+    "revision": "arXiv:2312.02445v4；源码SIGIR2024/DOI 10.1145/3626772.3657690；官方代码9733f732399e95e236f4f2e1d1139c1f0437090e定向静态核对",
+    "status": "local-only",
+    "reason": "已完成LaTeX正文中文译本及8页PDF逐页验收；采用PDF标明ACM版权与使用限制，未核实公开全文译文许可，不发布正式Markdown；PDF按独立私有规则维护。",
+    "checked_on": "2026-10-29",
+    "evidence_sha256": "45d9ef41ef67b0afaea88cd22796ae0535befcfc02a800bb4dc76b4c918c167e",
+    "evidence_url": "https://arxiv.org/pdf/2312.02445v4"
+  },
+  {
     "source_id": "SRC-MIND",
     "title": "MIND · Multi-Interest Network with Dynamic Routing for Recommendation at Tmall",
     "original_url": "https://arxiv.org/abs/1904.08030v1",

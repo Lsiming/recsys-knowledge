@@ -1,0 +1,49 @@
+{
+  "id": "SRC-LLARA",
+  "title": "LLaRA: Large Language-Recommendation Assistant",
+  "kind": "paper",
+  "state": "active",
+  "current": "1f0dd3b56cfc019452d3ba52d621ef98dbcbca8376efd13e30d8ada233d60de9",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2312.02445v4",
+      "revision": "arXiv:2312.02445v4；源码SIGIR2024/DOI 10.1145/3626772.3657690；官方代码9733f732399e95e236f4f2e1d1139c1f0437090e定向静态核对",
+      "read_scope": "对照11页固定PDF与实际编译源码阅读摘要、正文§1–6、图1–5及表1–3，采用版无独立附录；全部11页原文逐页目视，核对连续行为输入、冻结范围、课程抽样、实验及指标。官方commit静态阅读15份文件：README、projector/model_interface、三数据集及data_interface、main、SASRec实现、六个训练/测试脚本；未运行算法或DataLoader，未核验预处理数据/推荐器checkpoint，未另对照正式出版PDF。源码包为既有未修改文件的本地重新打包，非上游包原字节；代码包为实际选读文件本地打包，非完整仓库。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "45d9ef41ef67b0afaea88cd22796ae0535befcfc02a800bb4dc76b4c918c167e",
+          "snapshot": ".local/sources/SRC-LLARA/45d9ef41ef67b0afaea88cd22796ae0535befcfc02a800bb4dc76b4c918c167e/paper.pdf"
+        },
+        {
+          "name": "LLaRA.2312.02445v4.source-local-repacked.tar.gz",
+          "sha256": "112c0f6534b7a083ebcb9eb77bec142cb612bcbf8d7458f81c1d9f88f4b65246",
+          "snapshot": ".local/sources/SRC-LLARA/112c0f6534b7a083ebcb9eb77bec142cb612bcbf8d7458f81c1d9f88f4b65246/LLaRA.2312.02445v4.source-local-repacked.tar.gz"
+        },
+        {
+          "name": "LLaRA.9733f732399e95e236f4f2e1d1139c1f0437090e.code-selected.tar.gz",
+          "sha256": "73ff7377f1823ac6fca75596e7d75b6395df02948b599e274d745be3d5ae7a93",
+          "snapshot": ".local/sources/SRC-LLARA/73ff7377f1823ac6fca75596e7d75b6395df02948b599e274d745be3d5ae7a93/LLaRA.9733f732399e95e236f4f2e1d1139c1f0437090e.code-selected.tar.gz"
+        }
+      ],
+      "fingerprint": "1f0dd3b56cfc019452d3ba52d621ef98dbcbca8376efd13e30d8ada233d60de9",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "4d5c1c88c985a63d60ff0d5eba2defe6582a16f81952babcf0d1a303d39539e5",
+        "pages": [
+          "evaluation-bias",
+          "generative-output-evaluation",
+          "generative-recommendation",
+          "language-personalized-tasks",
+          "paper-candidates",
+          "representations-tokenization",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-29",
+        "review_method": "agent-self-review",
+        "review_note": "对照11页v4、正文源码及固定官方commit静态核对连续行为投影、位置拼接、答案NLL、课程抽样与冻结范围；区分子串匹配有效率、条件HR和全请求命中，不由代码反推原表分母；原论文与修复后README分列，采样候选数歧义、LastFM课程持平及worker调度未运行范围保留。8页中文PDF逐页验收，公式表格核对，原/译私有备份和首次真实下载已完成；未运行算法，不声称线上收益或全库召回。"
+      }
+    }
+  ]
+}

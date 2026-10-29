@@ -1719,6 +1719,36 @@
         "pages": 9,
         "verified_download_sha256": "896da076ac8801b9a0b48cbc3b79ccbbdf0007d6d86de3a3cdf0f6554d9968ac"
       }
+    },
+    {
+      "source_id": "SRC-LLARA",
+      "title": "LLaRA: Large Language-Recommendation Assistant",
+      "original_url": "https://arxiv.org/abs/2312.02445v4",
+      "revision": "arXiv:2312.02445v4；源码SIGIR2024/DOI 10.1145/3626772.3657690；官方代码9733f732399e95e236f4f2e1d1139c1f0437090e定向静态核对",
+      "input_sha256": "25cac9bb4c07fab5d8bbf9de4c16a193f67fbdde2307e485a0e9f31fc0ea03d1",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–6、图1–5标题/说明/子图标题、表1–3标题/表头、描述性脚注与致谢已翻译；采用版无独立附录；参考文献、图内英文、人名/机构及出版声明保留。原式参数记法、候选数量歧义、未定义文献键及课程实验持平项已加译注，不猜测修正原结果。",
+      "status": "private",
+      "reason": "8页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-29",
+        "notes": "采用PDF标明ACM个人/课堂复制及其他使用许可限制；未核实公开翻译再分发许可。正文译本保留原署名及权利声明，仅私有备份。",
+        "evidence_url": "https://arxiv.org/abs/2312.02445v4",
+        "original_pdf_sha256": "45d9ef41ef67b0afaea88cd22796ae0535befcfc02a800bb4dc76b4c918c167e"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261029",
+        "asset_name": "SRC-LLARA.zh-CN.private.20261029.1.pdf",
+        "translation_version": "20261029.1",
+        "sha256": "15c15c08bc7eb848cd4cae777029685f61f782d327f275870af2fb1d21e9355e",
+        "size_bytes": 2653820,
+        "pages": 8,
+        "verified_download_sha256": "15c15c08bc7eb848cd4cae777029685f61f782d327f275870af2fb1d21e9355e"
+      }
     }
   ],
   "storage_policy": "private-only",
