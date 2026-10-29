@@ -1,0 +1,48 @@
+{
+  "id": "SRC-ONEREC-V2",
+  "title": "OneRec-V2 Technical Report",
+  "kind": "paper",
+  "state": "active",
+  "current": "2e5a81c9c2963b436ba34791bbb16d1848200beb2b7c80f2dedb7eed411a9020",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2508.20900v4",
+      "revision": "arXiv:2508.20900v4，2025-10-28；正式PDF28页，OneRec Team",
+      "read_scope": "已读固定v4正文§1–5、图1–12/表1–9及附录A–D；28页全部逐页渲染目视，并与参与编译的LaTeX核对。比较已有v1和v4的实际正文差异，核对固定v4摘要页的非独占分发许可。参考文献未逐篇核实，未读作者实现或运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "9fc64e3575e07520e0f63770b7862b3c6f497e67790ef3fb3583797d96265730",
+          "snapshot": ".local/sources/SRC-ONEREC-V2/9fc64e3575e07520e0f63770b7862b3c6f497e67790ef3fb3583797d96265730/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "743ed09a0e0f2537ff6a4a449bf09caa66140f8f74e4f0114f0dca96652489a3",
+          "snapshot": ".local/sources/SRC-ONEREC-V2/743ed09a0e0f2537ff6a4a449bf09caa66140f8f74e4f0114f0dca96652489a3/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "2745a0d0ae7d6e16deaf75502b4c1322ef5411718b037dc57e1a604257ac31fe",
+          "snapshot": ".local/sources/SRC-ONEREC-V2/2745a0d0ae7d6e16deaf75502b4c1322ef5411718b037dc57e1a604257ac31fe/abs.html"
+        }
+      ],
+      "fingerprint": "2e5a81c9c2963b436ba34791bbb16d1848200beb2b7c80f2dedb7eed411a9020",
+      "retrieved_on": "2026-10-30",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "fc3fae55fa561d000377d8b54c6d499e2530b0ba5cc86791cc800883111209c9",
+        "pages": [
+          "target-decoding-compute",
+          "generative-output-evaluation",
+          "generative-preference-alignment",
+          "serving-efficiency",
+          "training-alignment",
+          "generative-recommendation"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "固定arXiv:2508.20900v4，核对正文§1–5、图1–12、表1–9和附录A–D；区分目标物品三个SID训练与旧OneRec整列表生成，核对Context Processor、GQA/KV共享、固定数据规模拟合、GBPO分位优势、p_old基线、5%流量内25% degraded traffic及cache-off表9。正文中文译后PDF 24页逐页渲染，文本/像素与编译源一致；未读作者实现、未运行模型、参考文献未逐篇核实。新增目标解码计算问题并更新输出对象、训练对齐、服务效率和专题入口；OneRec-V1版本隔离保留。"
+      }
+    }
+  ]
+}
