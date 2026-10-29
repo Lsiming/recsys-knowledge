@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-10-30",
-  "inventory_note": "60篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "61篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -2026,6 +2026,37 @@
         "size_bytes": 10277793,
         "pages": 37,
         "verified_download_sha256": "780f1b787c4570ea1979697292feacaae66006a0254183445c556653bba81e79"
+      }
+    },
+    {
+      "source_id": "SRC-ONEREC-THINK",
+      "title": "OneRec-Think: In-Text Reasoning for Generative Recommendation",
+      "original_url": "https://arxiv.org/abs/2510.11639v2",
+      "revision": "arXiv:2510.11639v2，2025-11-11；采用17页PDF，Kuaishou Inc.",
+      "input_sha256": "9798da6e31b91f65ad3a57cf5eb72a8455661b1ce2431fe34081e39e2b9cb213",
+      "input_pages": 16,
+      "duplicate_count": 0,
+      "scope": "固定2510.11639v2原文17页；摘要、正文§1–6、局限性/伦理声明及正文图表说明译为中文，参考文献、附录A.1–A.3.4与其中提示案例、原图内部文字保留。保留7正文编号公式、表1–4数值，附录含另4式和表5，沿用双栏排版。",
+      "status": "private",
+      "reason": "16页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-30",
+        "notes": "固定arXiv v2页为非独占分发许可，未确认公开全文译文派生授权；译本保留26位作者署名与原权利、版本及修改范围，正文翻译，附录/参考文献/原图内部文字保留，仅私有学习备份。",
+        "evidence_url": "https://arxiv.org/abs/2510.11639v2",
+        "original_pdf_sha256": "8fbd181d6084d247637aa2d626b52fecb079fb794308ac37f6a67b6202aa6540",
+        "evidence_sha256": "774571fd0429d41c4ca94d0d81ede5c90133fc8f169b169e88dfbe86a67c24ec"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261030",
+        "asset_name": "SRC-ONEREC-THINK.zh-CN.private.20261030.1.pdf",
+        "translation_version": "20261030.1",
+        "sha256": "14d5467050785fd87658a24e55b68f83ee7bb3f6b66d453ef505139b8f390aca",
+        "size_bytes": 6079272,
+        "pages": 16,
+        "verified_download_sha256": "14d5467050785fd87658a24e55b68f83ee7bb3f6b66d453ef505139b8f390aca"
       }
     }
   ],

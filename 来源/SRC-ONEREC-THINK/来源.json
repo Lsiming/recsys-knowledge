@@ -1,0 +1,47 @@
+{
+  "id": "SRC-ONEREC-THINK",
+  "title": "OneRec-Think: In-Text Reasoning for Generative Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "e7781606f129408af89869e4a2c242a5f3be438f0119b3493cded3fa0d18281d",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2510.11639v2",
+      "revision": "arXiv:2510.11639v2，2025-11-11；采用17页PDF，Kuaishou Inc.",
+      "read_scope": "已对照固定v2正式PDF、参与编译的正文§1–6、局限性/伦理声明和附录A.1–A.3.4，核对图1–7、表1–5及11编号公式；17页原文逐页版面全览，附录提示案例与参数已读，许可摘要页已核实。未核实正式发表信息，参考文献未逐篇精读，未读作者实现或运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "8fbd181d6084d247637aa2d626b52fecb079fb794308ac37f6a67b6202aa6540",
+          "snapshot": ".local/sources/SRC-ONEREC-THINK/8fbd181d6084d247637aa2d626b52fecb079fb794308ac37f6a67b6202aa6540/paper.pdf"
+        },
+        {
+          "name": "OneRec-Think.2510.11639v2.source.tar.gz",
+          "sha256": "3a82674615a0585ab0e3b5eb114b57f8b85e75fd641eba30a93004acec50ae7e",
+          "snapshot": ".local/sources/SRC-ONEREC-THINK/3a82674615a0585ab0e3b5eb114b57f8b85e75fd641eba30a93004acec50ae7e/OneRec-Think.2510.11639v2.source.tar.gz"
+        },
+        {
+          "name": "arxiv-abs.html",
+          "sha256": "774571fd0429d41c4ca94d0d81ede5c90133fc8f169b169e88dfbe86a67c24ec",
+          "snapshot": ".local/sources/SRC-ONEREC-THINK/774571fd0429d41c4ca94d0d81ede5c90133fc8f169b169e88dfbe86a67c24ec/arxiv-abs.html"
+        }
+      ],
+      "fingerprint": "e7781606f129408af89869e4a2c242a5f3be438f0119b3493cded3fa0d18281d",
+      "retrieved_on": "2026-10-30",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "104aaae680598e7cd74112626b1d7b4cc73fea52e00a50731dc7a1e5831efed4",
+        "pages": [
+          "generation-decoding",
+          "generative-preference-alignment",
+          "generative-recommendation",
+          "latent-recommendation-reasoning",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "自查固定2510.11639v2正文/附录与17页原文；16页中文PDF全部目视、关键页放大、公式表值及清理前后文字/像素一致检查，原/译私有上传与首次真实认证下载完成。比较文字理由/潜状态、单目标码匹配与Think-Ahead服务边界，REV-043保留表值/忠实性/GRPO协议疑点；未读作者实现或运行模型。"
+      }
+    }
+  ]
+}
