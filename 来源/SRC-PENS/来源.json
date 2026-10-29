@@ -1,0 +1,52 @@
+{
+  "id": "SRC-PENS",
+  "title": "PENS: A Dataset and Generic Framework for Personalized News Headline Generation",
+  "kind": "paper",
+  "state": "active",
+  "current": "f802a47ed0c0b0e78a5c671e0f55e20fb1c0ff028be83c836a1dda58e07e4b83",
+  "versions": [
+    {
+      "locator": "https://aclanthology.org/2021.acl-long.7/",
+      "revision": "ACL-IJCNLP 2021正式出版版，pp82–92；DOI 10.18653/v1/2021.acl-long.7",
+      "read_scope": "已读正式PDF全部11页：摘要、正文§1–7、致谢与参考文献，11编号公式、3表和3图；原文11页已在前序逐页渲染目视。无附录，未取得LaTeX源码；按正式PDF自行翻译重排。固定官方commit bc126b62339186d0d2b68ea2e6238663746587dc，静态阅读README、Generator的model/decoder_pointer/encoder/modules/train/data/config及UserEncoder/model共9文件；只冻结所读文件，本地重新打包，不是完整仓库或上游包原字节。未下载数据、未运行算法、未逐篇回查引用。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "ed5916d0120667d648f03f67e66957a91e6129c2ee915d11f2aa32dcbec65659",
+          "snapshot": ".local/sources/SRC-PENS/ed5916d0120667d648f03f67e66957a91e6129c2ee915d11f2aa32dcbec65659/paper.pdf"
+        },
+        {
+          "name": "publication.html",
+          "sha256": "9ad8e04a61b0c45a3ab1a1ee3dd1f376e461c46284a6c7647c6e1ede6f686228",
+          "snapshot": ".local/sources/SRC-PENS/9ad8e04a61b0c45a3ab1a1ee3dd1f376e461c46284a6c7647c6e1ede6f686228/publication.html"
+        },
+        {
+          "name": "dataset.html",
+          "sha256": "e61cc310600a222cd8534c2e3e02b462f1276e66653ecc87b7663d92c1ae5aa4",
+          "snapshot": ".local/sources/SRC-PENS/e61cc310600a222cd8534c2e3e02b462f1276e66653ecc87b7663d92c1ae5aa4/dataset.html"
+        },
+        {
+          "name": "PENS.bc126b6.code-selected-local-repacked.tar.gz",
+          "sha256": "0527b20f801853a275dda05d4fbc9007da4f3f4b2a58423e302a9d9add54ed79",
+          "snapshot": ".local/sources/SRC-PENS/0527b20f801853a275dda05d4fbc9007da4f3f4b2a58423e302a9d9add54ed79/PENS.bc126b6.code-selected-local-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "f802a47ed0c0b0e78a5c671e0f55e20fb1c0ff028be83c836a1dda58e07e4b83",
+      "retrieved_on": "2026-10-30",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "895bef0b132b24e02ba1f3a2779ef721833db95928b24df54d269772cb1f0835",
+        "pages": [
+          "data-labels",
+          "evaluation-bias",
+          "generative-output-evaluation",
+          "generative-recommendation",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "当前Agent对照ACL2021正式11页原文自查：给定新闻的标题任务、三独立兴趣注入、生成复制和论文三奖励；参考相似/事实/真实收益及大学生测试人群分开，公式概率/新闻计数/排名例外保留REV-039。固定官方commit9文件静态核对，默认actor–critic/GPT-2/非等权奖励与论文实验分开，未运行或下载数据。14页正文重排中文PDF逐页验收，11式/3表/3图对照，原文译文私有备份且首次真实认证下载；无独立审查。"
+      }
+    }
+  ]
+}

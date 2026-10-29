@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-10-30，盘点56篇中文PDF，56篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-10-30，盘点57篇中文PDF，57篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -68,3 +68,4 @@
 | [OneMall: One Architecture, More Scenarios -- End-to-End Generative Recommender Family at Kuaishou E-Commerce](https://arxiv.org/abs/2601.21770v2) · `SRC-ONEMALL` | 私有，需登录 · 20261030.1 · 9页 | [unverified](https://arxiv.org/abs/2601.21770v2) | 摘要、正文§1–5、6个有标题图的标题、6张表的标题/表头及说明性脚注已翻译；人名/机构、参考文献、图内英文及末页商品码示例保留。原式与数值疑点保留并加译注；适配ACM宏包冲突、中文字体、通讯标记、图宽/间距及行内换行，不改变公式或表格数值；页眉2017为原模板残留，首页明确说明。；9页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [Masked Diffusion Generative Recommendation](https://arxiv.org/abs/2601.19501v2) · `SRC-MDGR` | 私有，需登录 · 20261030.1 · 9页 | [unverified](https://arxiv.org/abs/2601.19501v2) | 摘要、正文§1–6、4个有标题图的标题、4张表的标题/表头及描述性脚注已翻译；无附录。保留数学原式、表格数值、人名机构、参考文献及图内英文。原文γ方向、固定大小掩码采样、轮数及成本/无重掩码疑点保留原话并加译注；适配中文字体、图表间距、页眉作者和换行；Conference’17及占位DOI/ISBN为原模板，首页说明不作发表依据。；9页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [FedCGR: Federated Cross-Domain Generative Recommendation](https://arxiv.org/abs/2608.10929v1) · `SRC-FEDCGR` | 私有，需登录 · 20261030.1 · 10页 | [CC-BY-4.0](https://arxiv.org/abs/2608.10929v1) | 摘要、正文§1–6、算法1、5个图标题、6表标题/表头、描述性脚注及AI披露已翻译；无附录。保留24个编号公式、表格数值、参考文献、人名机构和原图内部英文。原式与实验数字不静默纠正；对全排序范围、FK宏平均、冷用户归因和通信口径加译注；保留原作者与CC BY 4.0许可说明，Anonymous Review不作为发表证据。；10页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
+| [PENS: A Dataset and Generic Framework for Personalized News Headline Generation](https://aclanthology.org/2021.acl-long.7/) · `SRC-PENS` | 私有，需登录 · 20261030.1 · 14页 | [CC-BY-4.0](https://aclanthology.org/2021.acl-long.7/) | 摘要、正文§1–7、致谢、3图标题、3表标题/表头和描述性脚注译为中文；无附录。未取得LaTeX原源码，依据ACL正式PDF重排并手工重录11编号公式及3表，原式原数不静默纠正。原图内部英文、新闻语言示例、人名机构与参考文献保留，参考文献保留正式PDF原版面；原作者、ACL版权及CC BY 4.0说明保留，翻译重排与译注为修改。；14页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |

@@ -112,3 +112,17 @@ MDGR收尾验证：check_context通过200份/2924链接，wiki lint为0错误、
 13页原文与10页译文均已私有上传、核对远端digest并首次真实认证下载校验页数/大小/完整SHA256，原文保持原字节；两份收据在本地PAPER-003/private/receipts.json。目录56原文/56译文、112份、1530页、215094914字节，旧110条未修改；目录检查、7项私有下载器测试及FedCGR离线verify-only通过。上传前确认private、仅所有者/无待处理邀请，匿名仓库与译文资产API均404。私有目录发布与最终公开检查结果接续本节。重点17篇已完成10篇，剩7篇；下一篇UniGCRec，正式全文仍需取得，无法获取时如实登记并先继续PENS，不把摘要当完整精读。
 
 FedCGR最终检查：私有目录中文提交cb770015e6be9c82e331d35cfa80dc78eac70027已通过GitDB API按同SHA快进至main，并回查远端一致，无强推。公开上下文202份Markdown/2974本地链接、知识/来源索引、译文/PDF目录通过；wiki lint为0错误，保留POUL/TaQFormer既有3项提示，plan无FedCGR待整合。论文名与联邦问题双向检索命中；当前分发文件及完整22提交/708文件对象公开检查通过。未修改用户治理目录和两个画布，普通知识正文只本地提交。
+
+## 2026-10-30 UniGCRec获取记录与PENS完成
+
+UniGCRec正式DOI 10.1145/3770855.3818132已由Crossref/OpenAlex核对；arXiv题名与Semantic Scholar检索未取得全文，ACM正式PDF请求403。找到anonymous-gitlab/UniGCRec公开摘录，仅README/config/model，无论文PDF，不能代替全文；元数据保留在本地SRC-UNIGCREC/original。KDD2026及许可仅有元数据，未独立以正式PDF核实，不记精读完成，继续其他队列。
+
+PENS采用ACL-IJCNLP 2021正式11页原文，第82–92页，正文§1–7、致谢、参考文献均已读，无附录；未取得LaTeX源码，按正式PDF完整翻译正文并重排，保留参考文献原版面。14页中文PDF全部逐页目视，11编号公式与3表/3图对照；原式tanh与模板门、新闻计数及排名例外保留译注。致谢局部sloppy修复溢出，原中文斜体以正体回退；原图英文与新闻语言样例保留。扫描7处剩余项为公式和参考文献插入命令，均属保留范围，无叙述漏译。清理前后逐页文本及1.3倍像素一致，中文字体嵌入/Unicode映射核对，未执行独立审查。
+
+最终PDF本地`.local/papers/SRC-PENS/translation/PENS_中文.pdf`，14页/1202135字节，SHA256 73d5ca890c79d15853cec854167071212e64584ff43a124b9cfc9572489a8e99；原文11页/584995字节，SHA256 ed5916d0120667d648f03f67e66957a91e6129c2ee915d11f2aa32dcbec65659。工作译文Markdown与可编辑main.tex保存在同级translation内；不随Git分发。来源指纹f802a47ed0c0b0e78a5c671e0f55e20fb1c0ff028be83c836a1dda58e07e4b83，正式出版页CC BY 4.0与数据MSR许可分开，未制作正式公开Markdown全文译文。
+
+官方commit bc126b62339186d0d2b68ea2e6238663746587dc定向静态核对9文件，所读文件本地打包冻结；未运行算法或下载数据，未审计全部仓库。公开实现默认actor–critic/GPT-2/非等权奖励，概率Softmax/Sigmoid与原印式不同，不能视为论文实验复现。输入给定新闻、兴趣注入三独立变体、生成复制、三奖励以及参考相似/事实/用户收益，已合并到输出问题、数据、训练、评估四页与专题，疑点登记REV-039。
+
+原文与译文均已私有上传、远端digest核对并首次真实认证下载；两库目录57原文/57译文、114份、1555页、216882044字节，原112条逐项不变。私有114份目录检查、7项下载器测试及PENS两份verify-only通过；上传前核实private/仅所有者/无邀请，本轮匿名仓库和PENS译文资产API均404。私有目录发布与最终公开检查结果接续本节。重点17篇完成11篇、余6篇：UniGCRec、OneSug、OneRec V2、OneReason、PreferDiff、OneRec-Think；不是综述全引用的穷尽差集，全队列之后的跨模块全局复核仍未执行。
+
+PENS私有目录提交3a3beb08d1eb2cf107abd1d538e9efc0b2d1ab79已通过GitDB API按同SHA快进发布main并回查一致，仅三份目录文件，无强推。公开上下文203份活跃Markdown/3006本地链接、知识与来源索引、57项译文/PDF目录检查通过；wiki lint为0错误、3项既有POUL/TaQFormer提示，plan仅余这两来源。当前分发文件及完整23提交/729文件对象的公开检查通过；本任务精确暂存与中文本地提交接续完成，用户治理目录和两个画布保留。后续先读已有下载的OneSug等原件，UniGCRec正式PDF获取403仍需恢复；全队列后的全局复核尚未执行。

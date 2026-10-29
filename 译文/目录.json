@@ -1039,5 +1039,25 @@
     ],
     "evidence_url": "https://arxiv.org/abs/2608.10929v1",
     "evidence_sha256": "1e492a07f025932bd07f5fa3d962aa137ed7904a0cafe4de0b94105bb5a719fc"
+  },
+  {
+    "source_id": "SRC-PENS",
+    "title": "PENS: A Dataset and Generic Framework for Personalized News Headline Generation",
+    "original_url": "https://aclanthology.org/2021.acl-long.7/",
+    "revision": "ACL-IJCNLP 2021正式出版版，pp82–92；DOI 10.18653/v1/2021.acl-long.7",
+    "status": "local-only",
+    "reason": "已完成正式PDF正文翻译与14页中文重排PDF逐页验收；ACL正式页CC BY 4.0已核实，尚未制作正式Markdown全文译本。原文与译文PDF按独立私有规则维护；数据许可另行核实。",
+    "checked_on": "2026-10-30",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "authors": [
+      "Xiang Ao",
+      "Xiting Wang",
+      "Ling Luo",
+      "Ying Qiao",
+      "Qing He",
+      "Xing Xie"
+    ],
+    "evidence_url": "https://aclanthology.org/2021.acl-long.7/",
+    "evidence_sha256": "9ad8e04a61b0c45a3ab1a1ee3dd1f376e461c46284a6c7647c6e1ede6f686228"
   }
 ]
