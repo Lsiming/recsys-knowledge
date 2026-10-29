@@ -4,7 +4,7 @@
 
 ## 最新进度（2026-10-30）
 
-重点17篇已完成15篇：ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall、MDGR、FedCGR、PENS、OneSug、OneRec-V2、PreferDiff和OneRec-Think，均有正文中文PDF、精读、问题整合及原/译PDF私有备份与首次真实认证下载。尚余2篇：OneReason（2606.06260原文/源码已取得）、UniGCRec（正式全文获取403仍需恢复）。下一篇OneReason，不重复下载成功原件。当前进度不是综述全部参考文献的穷尽差集；全部论文后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧待获取/待翻译不覆盖本节与文末最新状态。
+重点17篇已有16篇学习产物：ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall、MDGR、FedCGR、PENS、OneSug、OneRec-V2、PreferDiff、OneRec-Think和OneReason，均有正文中文PDF、精读、问题整合及原/译PDF私有备份与首次真实认证下载。OneReason本轮完成知识整合，最终检查与本地提交见文末。尚余UniGCRec：正式10页PDF已通过浏览器取得，8位作者、DOI、KDD2026 V.2及首页CC BY 4.0核实；翻译、精读与知识整合待完成，不再是403获取阻塞。下一篇直接读取已保存原件，不重复下载。当前进度不是综述全部参考文献的穷尽差集；全部论文后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧待获取/待翻译不覆盖本节与文末最新状态。
 
 ## 范围与完成证据
 
@@ -166,3 +166,28 @@ PreferDiff原文SHA256 efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697
 17页原文和16页译文均已私有上传、核对远端digest并首次真实认证下载核验PDF类型、页数、大小和完整SHA256。两库目录61原文/61译文、122份、1734页、258411593字节；旧120条私有与60条公开PDF记录逐项不变，仅新增该篇。私有目录检查、下载器7项测试、两份verify-only及语法检查通过；上传前private/仅所有者/无邀请核实，匿名访问和目录发布接续登记。全队列之后的全局梳理尚未执行，目标仍进行中。下一篇OneReason原件已有，先核固定版本与正文范围；持续恢复UniGCRec正式全文。
 
 私有目录提交19d57f2d62709641679afb8621a63fd59cb259bf已按相同SHA快进发布main并回查，本地HEAD/origin/main一致且私有工作树干净；匿名仓库与译文asset API均404。补齐正式Markdown译文目录的local-only条目，不发布未授权全文。公开上下文209份活跃Markdown/3166本地链接、61篇译文/PDF目录、知识/来源索引检查通过；wiki lint为0错误、3项既有POUL/TaQFormer提示，plan仅余这两来源。当前分发及完整28提交/805文件对象的公开检查通过；OneRec-Think原/译附件大小、SHA256及笔记整合哈希再次核对一致。本任务精确暂存后中文本地提交，普通正文不推送；既有治理目录和两个画布保留。
+
+
+## 2026-10-30 OneReason正文翻译与编译接续
+
+采用OneReason Technical Report，OneRec Team，2606.06260v1（2026-06-04）。固定108页原文与上游源码包已取得，原文SHA256为00b5abf3c69c1ba83387134e4fdc67927323dc9ca33085fc95c87d066c979ff0，源码包SHA256为b44b28c7c129f39dcd6489039150d8edb297de1421495ad09bc5a7220ca1edcb；正文§1–11至原文第60页，作者表第66页，附录自67页开始。原文保留Kuaishou权利声明；摘要页非独占分发许可不作为公开全文译文许可。
+
+正文9个实际编译源码文件均已在副本翻译，包含本轮补齐的SFT_Pipeline.tex和RL_Pipeline.tex；原件未改。译后工程在本地SRC-ONEREASON/translation/translated-sources，分段翻译脚本不可重跑覆盖后续排版修复。9文件引用标识、数学环境及表格数值对照通过；正文英文扫描剩余为专名、数学符号、作者姓名和排版参数。检查文件qa/translation-partial-check.json仅是源码核查，不能当PDF验收。
+
+远程skill编译返回HTTP400，首先失败于PDFLaTeX专用命令pdfinfoomitdate；已结束，不是仍在运行。改用既有受管XeLaTeX，en_US.UTF-8，中文与数学最小文档通过。副本已移除8位CJK封装并改xeCJK；XCharter设置的全局.otf默认导致中文字体名查找失败，清空defaultfontfeatures后解决。当前完整构建在tabularx报Extra }, or forgotten $，独立简化表正常、原导言区简单表同错，正在隔离宏包冲突。尚未生成可验收中文PDF，尚未登记OneReason来源/独立笔记、知识整合或私有备份，不记该篇完成。
+
+精读需保留：R1学生输入source-only、教师过滤看来源与目标；R3合成教师可见真实下一交互，去除直接目标实体并不等于目标盲理由。奖励为命中×首级码多样性，非加法；非命中降权作用于actor损失。MOPD越界权重置零，过滤保留累计score比例而非固定样本比例。原文K=16的反向KL“理论限制”和RFT全部K严格优于非思考等强概括须按表保留例外。最终中文PDF须逐页目视并继续私有备份/认证下载，未执行模型实验。
+
+UniGCRec增加精确题名与作者组合检索，Crossref/OpenAlex仍仅给DOI出版元数据，无可核验PDF；MSRA题名路径超时，Bing结果无有效论文全文。具体响应存本地SRC-UNIGCREC/original/retrieval-title-20261030，不把不相关搜索结果当原文。重点17篇仍完成15篇，OneReason进行中、UniGCRec全文待取得；全队列后的全局知识复核仍未执行。
+
+## 2026-10-30 OneReason精读整合与UniGCRec正式原件
+
+OneReason原模板编译的tabularx错误已定位为arydshln冲突，译文副本将虚线改实线，继续使用本地XeLaTeX成功；正文未删减。最终96页中文PDF已全部逐页渲染目视并放大关键公式/大表；9份实际编译正文源码的引用、显示公式、表格数值保持，17附录除CJK封装外保持。清理前后文字及1.3倍渲染像素一致，中文字体嵌入及Unicode映射通过，原图部分英文字体沿用非嵌入状态。最终SHA256为c6ee1cc8e1e192fa5c8cae1295088eb00f7c21a99df5eb552b5af77870ea182e，19,181,349字节；原文原字节不改。范围为摘要、正文§1–11及图表标题/说明，姓名表、参考文献、附录与图内原文保留，详见独立精读和本地final-qa.json。
+
+独立精读已落盘，合并推理、偏好、输出评估三个问题，编码、训练、服务三个模块及专题/候选八页。四粒度预训练、R0–R3、两阶段rollout、命中乘首码多样性、RFT/MOPD与部署接口分别解释；R3目标条件教师、MOPD越界置零/累计score筛选、等Token对照Ad下降、历史依据与理由忠实性及线上整体归因明确区分，疑点保留REV-044。当前来源指纹c9d6a17a1a1b0c6664e6bd7f6ccec5221d6987a73bef1d68c273d29fb6f37c15；备份收据绑定当时旧阅读版本24565369，不改写真实历史。未读作者算法实现或运行模型，当前Agent自查，无独立审查。
+
+108页原文/96页译文已核对远端digest并首次真实认证下载，PDF类型、页数、大小与完整SHA256一致；收据位于本地PAPER-003/private/receipts.json。两库目录62原文/62译文、124份、1938页、299477420字节，私有旧122条与公开旧61条逐项不变。私有目录检查、下载器7项测试、两份verify-only及语法/diff检查通过；认证API确认private、仅所有者/无邀请，匿名仓库和译文asset API均404。私有三份目录提交3c9c2e3a8acca3ed8334a92bb86ea1eb50c28f04已按相同SHA快进main并回查，无强推；普通正文只本地提交。
+
+UniGCRec正式PDF已从ACM浏览器下载，保存至本地SRC-UNIGCREC/original/paper.pdf，10页、2474974字节，SHA256为0c526f83e82ddb2329294fbae41a2159f63cef2b6d18b1503b77ce1f62b1e2d6。首页核实8位作者、KDD ’26 V.2、887–896页、DOI 10.1145/3770855.3818132及CC BY 4.0，官方实现归档指向doi:10.5281/zenodo.20415251。当前只读首页，不记全文精读、翻译、来源整合或私有备份完成；下一步读完整10页并检查有无LaTeX，无源码则按正式PDF正文重排。重点队列尚余该篇，之后全局跨模块复核仍待执行。
+
+OneReason最终检查：210份活跃Markdown/3210个本地链接、知识与来源索引、62篇正式译文状态及PDF盘点通过；当前修改页252个本地锚点定向检查均匹配。wiki lint为0错误、3项既有POUL/TaQFormer提示，plan只余这两个来源。当前分发及完整29提交/824文件对象公开扫描通过；最初扫描命中的任务浏览器快照已原字节迁入本地PAPER-003/browser-session-files-20261030并逐文件校验哈希，未删除或暂存。全工作树diff仅余用户治理目录第40行原有尾空格，本任务19个已跟踪文件范围检查通过；另有两份新增来源文件，精确暂存后检查再中文本地提交。普通正文不推送，未改用户治理目录或两个画布。下一篇UniGCRec及最终全局梳理继续保留为未完成。

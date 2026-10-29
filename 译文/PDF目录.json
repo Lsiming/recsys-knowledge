@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-10-30",
-  "inventory_note": "61篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "62篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -2057,6 +2057,37 @@
         "size_bytes": 6079272,
         "pages": 16,
         "verified_download_sha256": "14d5467050785fd87658a24e55b68f83ee7bb3f6b66d453ef505139b8f390aca"
+      }
+    },
+    {
+      "source_id": "SRC-ONEREASON",
+      "title": "OneReason Technical Report",
+      "original_url": "https://arxiv.org/abs/2606.06260v1",
+      "revision": "arXiv:2606.06260v1，2026-06-04；OneRec Team，采用108页PDF",
+      "input_sha256": "a1495ef9d4708009ed119152d26acf2b6a4278a94e454a8ca1782854044056d9",
+      "input_pages": 96,
+      "duplicate_count": 0,
+      "scope": "固定2606.06260v1原文108页；摘要、正文§1–11及实际编译的9份源码中图表标题/说明译为中文，作者表姓名、参考文献、附录及原图内部文字保留；沿用原单栏工程，移除arydshln冲突后虚线改实线，保留数学公式、表格数值和原作者/权利声明。",
+      "status": "private",
+      "reason": "96页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-30",
+        "notes": "固定arXiv v1为非独占分发许可；保留OneRec Team、完整作者表与Kuaishou权利声明，不据此确认公开全文译文派生许可，仅私有学习备份。",
+        "evidence_url": "https://arxiv.org/abs/2606.06260v1",
+        "original_pdf_sha256": "00b5abf3c69c1ba83387134e4fdc67927323dc9ca33085fc95c87d066c979ff0",
+        "evidence_sha256": "58834b18c5f7b9f201bba283a41d8599a5fe8453d96dc1b165bdd21e4343a1e2"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261029",
+        "asset_name": "SRC-ONEREASON.zh-CN.private.20261029.1.pdf",
+        "translation_version": "20261029.1",
+        "sha256": "c6ee1cc8e1e192fa5c8cae1295088eb00f7c21a99df5eb552b5af77870ea182e",
+        "size_bytes": 19181349,
+        "pages": 96,
+        "verified_download_sha256": "c6ee1cc8e1e192fa5c8cae1295088eb00f7c21a99df5eb552b5af77870ea182e"
       }
     }
   ],

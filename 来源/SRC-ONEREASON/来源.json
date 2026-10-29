@@ -1,0 +1,75 @@
+{
+  "id": "SRC-ONEREASON",
+  "title": "OneReason Technical Report",
+  "kind": "paper",
+  "state": "active",
+  "current": "c9d6a17a1a1b0c6664e6bd7f6ccec5221d6987a73bef1d68c273d29fb6f37c15",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2606.06260v1",
+      "revision": "arXiv:2606.06260v1，2026-06-04；OneRec Team，采用108页PDF",
+      "read_scope": "已阅读并对照正文§1–11与实际编译源码，定向阅读附录中预训练/SFT配比、推荐目标构造、Action–Logic评估、CoT构造提示和部署细节；作者表保留。参考文献未逐篇精读，附录未逐项全文精读；未读作者实现或运行模型。正文中文译稿已完成，PDF验收尚未完成，不记整合完成。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "00b5abf3c69c1ba83387134e4fdc67927323dc9ca33085fc95c87d066c979ff0",
+          "snapshot": ".local/sources/SRC-ONEREASON/00b5abf3c69c1ba83387134e4fdc67927323dc9ca33085fc95c87d066c979ff0/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "b44b28c7c129f39dcd6489039150d8edb297de1421495ad09bc5a7220ca1edcb",
+          "snapshot": ".local/sources/SRC-ONEREASON/b44b28c7c129f39dcd6489039150d8edb297de1421495ad09bc5a7220ca1edcb/source.tar.gz"
+        },
+        {
+          "name": "arxiv-abs.html",
+          "sha256": "58834b18c5f7b9f201bba283a41d8599a5fe8453d96dc1b165bdd21e4343a1e2",
+          "snapshot": ".local/sources/SRC-ONEREASON/58834b18c5f7b9f201bba283a41d8599a5fe8453d96dc1b165bdd21e4343a1e2/arxiv-abs.html"
+        }
+      ],
+      "fingerprint": "24565369b18e4e791e6e8e0dbec23b7f7a7de595333f280b7994cf69d8a18a4a",
+      "retrieved_on": "2026-10-30",
+      "integration": null
+    },
+    {
+      "locator": "https://arxiv.org/abs/2606.06260v1",
+      "revision": "arXiv:2606.06260v1，2026-06-04；OneRec Team，采用108页PDF",
+      "read_scope": "已阅读并对照正文§1–11与9份实际编译正文源码，定向阅读附录中预训练/SFT配比、推荐目标构造、Action–Logic评估、CoT构造提示和部署细节；作者表保留。参考文献未逐篇精读，附录未逐项全文精读；未读作者实现或运行模型。正文中文PDF96页已全部逐页渲染目视，关键公式/表格与源码对照，原文和译文已私有备份并首次真实认证下载核验。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "00b5abf3c69c1ba83387134e4fdc67927323dc9ca33085fc95c87d066c979ff0",
+          "snapshot": ".local/sources/SRC-ONEREASON/00b5abf3c69c1ba83387134e4fdc67927323dc9ca33085fc95c87d066c979ff0/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "b44b28c7c129f39dcd6489039150d8edb297de1421495ad09bc5a7220ca1edcb",
+          "snapshot": ".local/sources/SRC-ONEREASON/b44b28c7c129f39dcd6489039150d8edb297de1421495ad09bc5a7220ca1edcb/source.tar.gz"
+        },
+        {
+          "name": "arxiv-abs.html",
+          "sha256": "58834b18c5f7b9f201bba283a41d8599a5fe8453d96dc1b165bdd21e4343a1e2",
+          "snapshot": ".local/sources/SRC-ONEREASON/58834b18c5f7b9f201bba283a41d8599a5fe8453d96dc1b165bdd21e4343a1e2/arxiv-abs.html"
+        }
+      ],
+      "fingerprint": "c9d6a17a1a1b0c6664e6bd7f6ccec5221d6987a73bef1d68c273d29fb6f37c15",
+      "retrieved_on": "2026-10-30",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "ffce6dc481c8849597542d2b9eed5d14a52be1e658a5e82b524e0ffbc3d402fb",
+        "pages": [
+          "generative-output-evaluation",
+          "generative-preference-alignment",
+          "generative-recommendation",
+          "latent-recommendation-reasoning",
+          "paper-candidates",
+          "representations-tokenization",
+          "serving-efficiency",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "当前Agent对照108页固定v1正文§1–11、9份实际正文源码及定向附录；96页中文PDF逐页目视和公式/表数值核验，原文/译文真实私有下载哈希验证。自查八个直接引用页与相邻数据、评估、生成、跨域/仿真/解码问题的接口范围，保留R3目标条件、奖励乘积、MOPD越界置零/累计score、等Token及线上归因限制于REV-044；关联候选不一律改写，全队列后全局复核未执行。未读作者算法实现、未运行模型、未执行独立审查。"
+      }
+    }
+  ]
+}

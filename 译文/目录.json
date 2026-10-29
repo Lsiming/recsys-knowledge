@@ -1154,5 +1154,20 @@
     "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "evidence_url": "https://arxiv.org/abs/2510.11639v2",
     "evidence_sha256": "774571fd0429d41c4ca94d0d81ede5c90133fc8f169b169e88dfbe86a67c24ec"
+  },
+  {
+    "source_id": "SRC-ONEREASON",
+    "title": "OneReason Technical Report",
+    "original_url": "https://arxiv.org/abs/2606.06260v1",
+    "revision": "arXiv:2606.06260v1，2026-06-04；OneRec Team，采用108页PDF",
+    "status": "local-only",
+    "reason": "96页正文中文PDF已逐页验收，采用原文与译文已私有备份并首次真实认证下载。固定arXiv版本采用非独占分发许可，公开全文翻译许可未确认，未制作正式Markdown全文译本。",
+    "checked_on": "2026-10-30",
+    "authors": [
+      "OneRec Team"
+    ],
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "evidence_url": "https://arxiv.org/abs/2606.06260v1",
+    "evidence_sha256": "58834b18c5f7b9f201bba283a41d8599a5fe8453d96dc1b165bdd21e4343a1e2"
   }
 ]
