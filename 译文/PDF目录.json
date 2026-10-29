@@ -1659,6 +1659,36 @@
         "pages": 15,
         "verified_download_sha256": "9f2c2647aa2983335c87a815e1f3f048ece4ab3d4adf2ae46d0252f85f5f438e"
       }
+    },
+    {
+      "source_id": "SRC-TOKENREC",
+      "title": "TokenRec: Learning to Tokenize ID for LLM-based Generative Recommendation",
+      "original_url": "https://arxiv.org/abs/2406.10450v3",
+      "revision": "arXiv:2406.10450v3；TKDE 2025信息待出版记录确认",
+      "input_sha256": "0b332d5ddc6ff6f773021291d4a3b111d675f1f3cc36b712211240749efd8c39",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–5、致谢、正文图表标题/表头/说明和提示示例已翻译；采用版本没有独立附录。人名、机构名、参考文献、作者简介、IEEE出版页眉和原图内部英文保留。原文符号/措辞和数值疑点保留并加译注；18块align公式和6张表67个数值行与原源码一致。译后副本适配LuaLaTeX中文字体、Unicode宏、重复标签和书签，不修改原件。",
+      "status": "private",
+      "reason": "11页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-29",
+        "notes": "本次备份采用的登记原文，未据此确认公开译文再分发许可；保留作者和原权利声明。",
+        "evidence_url": "https://arxiv.org/abs/2406.10450v3",
+        "original_pdf_sha256": "ad21d63a9d09fdbad00225dcf9f6140ace114b0208b254c28138ab42164bcd83"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261029",
+        "asset_name": "SRC-TOKENREC.zh-CN.private.20261029.1.pdf",
+        "translation_version": "20261029.1",
+        "sha256": "a9be8d4b0ad9f4e71948ac2b01a5f52eae5c6f3652e113243ca755db4efcfc46",
+        "size_bytes": 6371003,
+        "pages": 11,
+        "verified_download_sha256": "a9be8d4b0ad9f4e71948ac2b01a5f52eae5c6f3652e113243ca755db4efcfc46"
+      }
     }
   ],
   "storage_policy": "private-only",

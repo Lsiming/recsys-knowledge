@@ -3,7 +3,7 @@
   "title": "TokenRec: Learning to Tokenize ID for LLM-based Generative Recommendation",
   "kind": "paper",
   "state": "active",
-  "current": "3bc643a774af0dce915a6df6bbfd3abf2de0dfbc0004e52d661b4ae075cd60e6",
+  "current": "e89ee023097e56881954f27f3cabaca20ce1610a7b411734593f46d153cba878",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/2406.10450v3",
@@ -35,6 +35,38 @@
         "reviewed_on": "2026-10-29",
         "review_method": "agent-self-review",
         "review_note": "核对源码正文MQ掩码、多路量化/重建、正负余弦间隔目标及连续输出到目录检索接口；保留unseen-user允许上游GNN更新、训练负例、候选与硬件边界。15页原文已私有备份并真实登录下载哈希核验，正文中文翻译/PDF待完成；LLaRA和CoLLM仅候选比较，未据此认定已独立精读。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/abs/2406.10450v3",
+      "revision": "arXiv:2406.10450v3；TKDE 2025信息待出版记录确认",
+      "read_scope": "已对照15页固定PDF和源码阅读摘要、正文§1–5、图表与致谢；该版本无独立附录。核对18块align公式、6表67个数值行、MQ量化与训练/检索、seen/unseen-user实验及协议边界；未独立核对官方实现和正式出版版差异，未运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "ad21d63a9d09fdbad00225dcf9f6140ace114b0208b254c28138ab42164bcd83",
+          "snapshot": ".local/sources/SRC-TOKENREC/ad21d63a9d09fdbad00225dcf9f6140ace114b0208b254c28138ab42164bcd83/paper.pdf"
+        },
+        {
+          "name": "TokenRec.2406.10450v3.source.tar.gz",
+          "sha256": "5df4316a3e7228d16c721b409b7ac897e62c709ec7ae70d27731c14846089a16",
+          "snapshot": ".local/sources/SRC-TOKENREC/5df4316a3e7228d16c721b409b7ac897e62c709ec7ae70d27731c14846089a16/TokenRec.2406.10450v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "e89ee023097e56881954f27f3cabaca20ce1610a7b411734593f46d153cba878",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "253e7919fd1d6279dbacb6554d19bab6e97961b8e5f1d09285ce86f8ac2eaa73",
+        "pages": [
+          "generation-decoding",
+          "generative-output-evaluation",
+          "paper-candidates",
+          "representations-tokenization"
+        ],
+        "reviewed_on": "2026-10-29",
+        "review_method": "agent-self-review",
+        "review_note": "对照v3固定PDF全文正文与源码回查MQ量化、连续查询/目录接口、式20非BPR分段目标、1比1未交互采样、User ID Only含历史协同信息；纠正无附录及P5耗时范围，保留泛化GNN更新与时间边界未充分披露、基线改造、线上P95和正式出版版/实现未核条件。11页中文PDF逐页目视，18块公式和6表67数值行一致，原文/译文均私有备份并真实认证下载核验。"
       }
     }
   ]
