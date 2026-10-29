@@ -35,13 +35,15 @@
           "generative-output-evaluation",
           "generative-preference-alignment",
           "generative-recommendation",
+          "paper-candidates",
+          "preranking-cascade",
           "serving-efficiency",
           "target-decoding-compute",
           "training-alignment"
         ],
         "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "沿用已完成的2508.20900v4正文/图表/附录自查与24页中文PDF验收，不重写科研结论。本轮补记原/译PDF既有首次真实认证下载收据、两库目录、OneRec Team署名及非独占分发许可；原式/计算估算/反馈基线/流量与生态边界在REV-042集中回查。未读作者实现或运行模型。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增级联对照按各自固定版本区分V2目标三码、Think候选前缀缓存、OneReason完整候选缓存及OneSug查询建议；不同协议不做效果排名。"
       }
     }
   ]

@@ -36,11 +36,12 @@
           "generative-preference-alignment",
           "generative-recommendation",
           "latent-recommendation-reasoning",
+          "preranking-cascade",
           "serving-efficiency"
         ],
         "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "自查固定2510.11639v2正文/附录与17页原文；16页中文PDF全部目视、关键页放大、公式表值及清理前后文字/像素一致检查，原/译私有上传与首次真实认证下载完成。比较文字理由/潜状态、单目标码匹配与Think-Ahead服务边界，REV-043保留表值/忠实性/GRPO协议疑点；未读作者实现或运行模型。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增级联对照按各自固定版本区分V2目标三码、Think候选前缀缓存、OneReason完整候选缓存及OneSug查询建议；不同协议不做效果排名。"
       }
     }
   ]

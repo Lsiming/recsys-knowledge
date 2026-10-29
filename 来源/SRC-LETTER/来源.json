@@ -32,14 +32,15 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "e3843b4b7cb75cf506a0a7e8633e9a570a58c519c766fed45ad69bb8a47dffa8",
         "pages": [
+          "generative-recommendation",
           "paper-candidates",
           "representations-tokenization",
           "semantic-code-retrieval",
           "training-alignment"
         ],
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "已核对10页v3及正文/附录、固定官方commit的10文件：协同与多样性印式缺log、代码交叉熵、量化逐层均值、温度Token梯度与完整码冲突缓解；核对主表/消融及148/76/150/199，区分唯一寻址、Trie合法性和展示公平。保留OPAUC理论、异常Recall、温度文字与时间可见性/冷物品/服务缺口。9页正文中文PDF逐页目视，14块公式及4表数值一致，原文/译文私有备份和真实登录下载校验完成；未运行算法。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。"
       }
     }
   ]

@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-10-30，盘点62篇中文PDF，62篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-10-30，盘点63篇中文PDF，63篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -74,3 +74,4 @@
 | [Preference Diffusion for Recommendation](https://arxiv.org/abs/2410.13117v2) · `SRC-PREFERDIFF` | 私有，需登录 · 20261030.1 · 37页 | [unverified](https://arxiv.org/abs/2410.13117v2) | 摘要、正文§1–5及正文图表标题、表格说明译为中文；固定2410.13117v2原文38页，译后37页，其中参考文献及附录A–F保留英文，原图内部英文不重绘。实际编译不含独立Related Work旧稿。公式和表格数值保留，理论与协议疑点加译注。；37页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [OneRec-Think: In-Text Reasoning for Generative Recommendation](https://arxiv.org/abs/2510.11639v2) · `SRC-ONEREC-THINK` | 私有，需登录 · 20261030.1 · 16页 | [unverified](https://arxiv.org/abs/2510.11639v2) | 固定2510.11639v2原文17页；摘要、正文§1–6、局限性/伦理声明及正文图表说明译为中文，参考文献、附录A.1–A.3.4与其中提示案例、原图内部文字保留。保留7正文编号公式、表1–4数值，附录含另4式和表5，沿用双栏排版。；16页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [OneReason Technical Report](https://arxiv.org/abs/2606.06260v1) · `SRC-ONEREASON` | 私有，需登录 · 20261029.1 · 96页 | [unverified](https://arxiv.org/abs/2606.06260v1) | 固定2606.06260v1原文108页；摘要、正文§1–11及实际编译的9份源码中图表标题/说明译为中文，作者表姓名、参考文献、附录及原图内部文字保留；沿用原单栏工程，移除arydshln冲突后虚线改实线，保留数学公式、表格数值和原作者/权利声明。；96页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
+| [UniGCRec: Unified User-Item Quantization for Generative Cross-Domain Recommendation](https://doi.org/10.1145/3770855.3818132) · `SRC-UNIGCREC` | 私有，需登录 · 20261030.1 · 18页 | [CC-BY-4.0](https://doi.org/10.1145/3770855.3818132) | 摘要、正文§1–5、致谢、三个提示框、6图标题及5表标题/表头译为中文；无附录。未取得LaTeX，依据KDD2026 V.2正式PDF重排并录入13编号公式和5表，表2按目标域分组但全部数值保持；图内英文、人名机构与62条参考文献保留。保留原作者、原版权及CC BY 4.0声明，翻译、重排及明确译注为修改。；18页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |

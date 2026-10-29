@@ -61,12 +61,13 @@
         "pages": [
           "generation-decoding",
           "generative-output-evaluation",
+          "generative-recommendation",
           "paper-candidates",
           "representations-tokenization"
         ],
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "对照v3固定PDF全文正文与源码回查MQ量化、连续查询/目录接口、式20非BPR分段目标、1比1未交互采样、User ID Only含历史协同信息；纠正无附录及P5耗时范围，保留泛化GNN更新与时间边界未充分披露、基线改造、线上P95和正式出版版/实现未核条件。11页中文PDF逐页目视，18块公式和6表67数值行一致，原文/译文均私有备份并真实认证下载核验。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。"
       }
     }
   ]

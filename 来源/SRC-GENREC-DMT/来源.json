@@ -55,7 +55,7 @@
       "retrieved_on": "2026-10-29",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "f0c495ccae632ba5d77c9c8ccba13d8a3c3420626a7ff2f0b89cf3ca6c84c3e8",
+        "notes_sha256": "e5ac8e1ed229982ab01aa0429e44af5c3f99c8a490733bcfe6a9638edb244e6c",
         "pages": [
           "data-labels",
           "evaluation-bias",
@@ -68,9 +68,9 @@
           "synthetic-recommendation-data",
           "training-alignment"
         ],
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "复核正文及关联页，保留已读原论文和候选的证据边界；终版笔记补25页PDF验收与32页原文/25页译文私有备份、首次认证下载哈希记录，未改科学结论。综述印式与转述疑点保留REV-034，未运行实验或独立审查。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 复核数据—模型—任务交叉分类、冷物品纠错、扩散对象及初读/后续17篇范围，笔记更新导航不扩大综述原件阅读范围，未声称综述全部引文已读。"
       }
     }
   ]

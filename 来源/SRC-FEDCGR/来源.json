@@ -25,7 +25,7 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "43555c5ed3cd26780dbcff8ffba63ffb797a190157dbd83a3a0e32a23afb1139",
+        "notes_sha256": "db5dce6400512118b133c2c813638c371573b47b6dc76cc232b09bcadeebf26e",
         "pages": [
           "evaluation-bias",
           "federated-semantic-behavior-transfer",
@@ -38,7 +38,7 @@
         ],
         "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "当前Agent对照2608.10929v1全部13页及正文源码自查：固定Tokenizer与可训练SID向量、本地频次门/CF残差、共享私有专家、原型个性化聚合及本域合法解码；全排序4场景/采样6场景、逐域下降、非DP、FK宏平均/消融混杂/通信口径疑点保留REV-038。10页中文PDF逐页渲染验收，24编号公式/6表数值/5图保持，原文和译文私有备份且首次真实认证下载哈希核验。未运行算法、未核实官方实现、未独立审查；未将Related Work或UniGCRec二手描述作为已读比较。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 笔记只增UniGCRec已读比较：中心多域输入筛选与联邦原始行为隔离、本地CF和参数聚合分开，未改变FedCGR原件/指纹。"
       }
     }
   ]

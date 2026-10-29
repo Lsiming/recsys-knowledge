@@ -4,11 +4,11 @@
 
 ## 最新进度（2026-10-30）
 
-重点17篇已有16篇学习产物：ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall、MDGR、FedCGR、PENS、OneSug、OneRec-V2、PreferDiff、OneRec-Think和OneReason，均有正文中文PDF、精读、问题整合及原/译PDF私有备份与首次真实认证下载。OneReason本轮完成知识整合，最终检查与本地提交见文末。尚余UniGCRec：正式10页PDF已通过浏览器取得，8位作者、DOI、KDD2026 V.2及首页CC BY 4.0核实；翻译、精读与知识整合待完成，不再是403获取阻塞。下一篇直接读取已保存原件，不重复下载。当前进度不是综述全部参考文献的穷尽差集；全部论文后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧待获取/待翻译不覆盖本节与文末最新状态。
+重点17篇已全部完成：ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall、MDGR、FedCGR、PENS、OneSug、OneRec-V2、PreferDiff、OneRec-Think、OneReason和UniGCRec，均有独立精读、相应范围中文PDF（合计316页）、问题整合及原/译PDF私有备份与首次真实认证下载。最后UniGCRec采用KDD2026 V.2正式10页原文，中文重排18页；画像/量化/零重合协议的未决保留，未运行模型。全队列后的专题、模块及关联问题已完成全局自查和知识整理，真实范围与最终检查见文末。当前进度不是综述全部参考文献的穷尽差集，GMC、GenCDR和Align3GR仅列后续候选。以下阶段记录按发生顺序保留，旧待获取/待翻译不覆盖本节与文末最新状态。
 
 ## 范围与完成证据
 
-主队列沿用候选P60–P71：ColdLLM、Agent4Rec、LETTER、LLaRA、TokenRec、LatentR³、OneMall、MDGR、FedCGR、UniGCRec、DreamRec、PENS。补充此前已列出的OneSug（P42）、OneRec V2（P44）、OneReason（P45）、PreferDiff及OneRec-Think；OneRec-Think已核对综述题名与标识，和OneReason为不同论文；固定2510.11639v2原文与源码已取得，尚未精读。
+主队列沿用候选P60–P71：ColdLLM、Agent4Rec、LETTER、LLaRA、TokenRec、LatentR³、OneMall、MDGR、FedCGR、UniGCRec、DreamRec、PENS。补充此前已列出的OneSug（P42）、OneRec V2（P44）、OneReason（P45）、PreferDiff及OneRec-Think；17篇现均已完成。OneRec-Think采用2510.11639v2，OneReason采用2606.06260v1，两者为不同论文。
 
 每篇完成条件均为：固定版本原件/阅读范围、正文中文PDF与逐页验收、原文及译文私有备份和首次认证下载哈希核验、独立精读、问题合并与整合收据、检索检查。公开译文另核实逐篇许可，不以私有保存代替公开授权。未运行算法实验，作者报告与分析推断分别表述。
 
@@ -191,3 +191,23 @@ OneReason原模板编译的tabularx错误已定位为arydshln冲突，译文副�
 UniGCRec正式PDF已从ACM浏览器下载，保存至本地SRC-UNIGCREC/original/paper.pdf，10页、2474974字节，SHA256为0c526f83e82ddb2329294fbae41a2159f63cef2b6d18b1503b77ce1f62b1e2d6。首页核实8位作者、KDD ’26 V.2、887–896页、DOI 10.1145/3770855.3818132及CC BY 4.0，官方实现归档指向doi:10.5281/zenodo.20415251。当前只读首页，不记全文精读、翻译、来源整合或私有备份完成；下一步读完整10页并检查有无LaTeX，无源码则按正式PDF正文重排。重点队列尚余该篇，之后全局跨模块复核仍待执行。
 
 OneReason最终检查：210份活跃Markdown/3210个本地链接、知识与来源索引、62篇正式译文状态及PDF盘点通过；当前修改页252个本地锚点定向检查均匹配。wiki lint为0错误、3项既有POUL/TaQFormer提示，plan只余这两个来源。当前分发及完整29提交/824文件对象公开扫描通过；最初扫描命中的任务浏览器快照已原字节迁入本地PAPER-003/browser-session-files-20261030并逐文件校验哈希，未删除或暂存。全工作树diff仅余用户治理目录第40行原有尾空格，本任务19个已跟踪文件范围检查通过；另有两份新增来源文件，精确暂存后检查再中文本地提交。普通正文不推送，未改用户治理目录或两个画布。下一篇UniGCRec及最终全局梳理继续保留为未完成。
+
+## 2026-10-30 UniGCRec完成与全局知识整理
+
+UniGCRec采用正式10页原件，原文SHA256为0c526f83e82ddb2329294fbae41a2159f63cef2b6d18b1503b77ce1f62b1e2d6，2474974字节；首页核实作者、KDD ’26 V.2、887–896页、DOI及CC BY 4.0。阅读全文并静态读取官方Zenodo v1.0.0全部README/config/model三文件，ZIP哈希86d0282f854a398f1569d985ae3de80fedd0739d22ae2588ad25c15f9e8804d0；归档缺LaTeX、画像/训练/评估脚本和权重，不称复现。来源指纹0674204157438cf902ff55a0e4bdf04c9d8323bd896905ed573dc55b7e3151b5已绑定9个直接引用页并记录自查。
+
+无LaTeX，按正式PDF翻译并重排18页中文正文，保留13编号公式、5表全部数值、6图、原作者署名与CC BY声明；摘要、正文§1–5、致谢、三个提示框和图表标题/说明已译，无附录。图内英文、人名机构和62条引用保留，正式公开Markdown未另制作。最终PDF为本地SRC-UNIGCREC/translation/UniGCRec_中文.pdf，SHA256为21d495db241c3a613e257f73f594c6ed338aef4bbc5c4b0cdce234425ea867aa，7320300字节。18页全部渲染目视，提示框孤标题与参考文献裁切已修复，确认[1]–[62]完整；中文字体嵌入/可提取，清理构建信息前后文字和像素一致。工程与验收在该来源本地translation及qa/final-qa.json，不随Git分发。
+
+原/译PDF均私有备份，远端digest与首次真实认证下载的大小、页数、SHA256一致；收据在本地PAPER-003/private/receipts.json。两库目录为63原文/63译文、126份、1966页、309272694字节；既有124条私有账本和62条公开盘点逐项不变。私有目录生成/检查、下载器7项测试与Uni两份verify-only通过，认证API确认private、仅所有者、无邀请；匿名仓库与译文asset API均404。私有三目录已中文提交801f9b89d508b2650d738147a5344173bce32007，按同SHA快进main并回查，当前本地HEAD与origin/main一致、工作树干净；普通正文不推送。
+
+全局自查实际展开生成式专题，数据/样本、表征编码、生成解码、训练对齐、多场景/冷启动、级联、服务和评估模块，及合成反馈、偏好、潜/显推理、输出评估、扩散、多场景和联邦关联问题。专题整理前原字节及哈希保存于本地PAPER-003/global-review-20261030，重写为研究背景→交叉框架→数据→表示→生成对象→学习信号→级联/服务→评估的技术文章；没有另建重复模块。重点校正：
+
+- 物品码、用户码、连续行为输入、连续检索查询、内部潜状态和外部预测输入分别说明；TokenRec不是物品码输出，UniGCRec用户/物品是两套各自跨域共享码本。
+- DiffRec交互恢复、DreamRec/PreferDiff连续目标、MDGR离散补全按初态、监督和映射比较；少轮数不自动推出全链路更快。LLaRA标题寻址、PENS展示标题和OneSug查询输出分别验收。
+- OneRec V1整会话、V2目标三码、OneMall召回接精排奖励分开；NLL/对比/课程、偏好代理与真人反馈不混称。Think前缀缓存、OneReason完整候选缓存、V2历史KV与M-FALCON候选复用区分计算对象。
+- UniGCRec训练集画像不自动证明逐前缀只看过去，也不足以断言测试泄漏；用户关联、零重合、零历史与冷启动分开。五域效果、三域零重合和LoRA适配成本分别定界；去前缀同时去信息，不证明离散条件必要。保留REV-045真实未决，表3下降复算与原文一致。
+- 综述/微信初读与后续原论文证据分开，更新DMT、LongTalk及FedCGR笔记的过时导航，保留初读范围。专题新增机制摘要和级联对照已对照独立笔记，刷新16个来源的直接引用页收据，未改变原件或扩大原文阅读声明。
+
+重点17篇的笔记哈希/当前整合、原译私有目录及实际下载收据已逐项核对一致，中文共316页，汇总在本地completion-matrix.json。候选表共74条，新列GMC、GenCDR、Align3GR仅按UniGCRec引文作定向候选，未独立精读或登记paper；更广搜推表仍有8篇搜索摘要线索和4篇推荐候选未全文，不属于本轮17篇未完成项。这不是两篇文章全部参考文献的穷尽差集。未运行模型、未检验科研结论的可复现性、未执行独立审查；POUL争议及POUL/TaQFormer既有待整合项保留。
+
+最终验证：check_context通过211份活跃Markdown/3252个本地链接；本轮43文件中的254个Markdown本地锚点逐项目标匹配。wiki lint为0错误、3项既有POUL/TaQFormer提示，plan只余这两个既有来源；知识/来源索引、63篇译文登记与PDF目录检查通过。17篇完成矩阵逐项核对笔记哈希、当前整合和原译私有下载收据；15个既有来源只更新整合收据，身份/版本/原件哈希和阅读范围未改。公开当前分发及完整30提交/845文件对象规则扫描通过，规则扫描不替代人工资料核实。全工作树diff只报用户治理目录第40行原有尾空格，本任务43个明确文件范围diff检查通过；三个用户文件未修改、不暂存。精确暂存、cached检查后与本节一次中文本地提交，不推普通正文；没有运行中的模型实验或待续论文队列。

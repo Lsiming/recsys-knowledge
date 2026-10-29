@@ -68,11 +68,12 @@
         "notes_sha256": "e951647483017b57af4b6d0ef7c87f2a4464648056c94e1f1a72869ec3659bad",
         "pages": [
           "generation-decoding",
+          "generative-recommendation",
           "interaction-vector-denoising"
         ],
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "核对v1正文、14块显示公式、原表1数值、算法1无权重MSE与式14权重、后验/条件/噪声下标及附录A差异；回查B统计与C可视化。比较DiffRec全目录恢复和DreamRec目标生成，区分训练负采样、评估候选及网络加目录检索成本。15页中文PDF逐页验收，清理前后文字/像素一致，原文与译文私有备份及实际认证下载SHA256核验完成；附录英文保留，未运行官方代码或模型。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。"
       }
     }
   ]

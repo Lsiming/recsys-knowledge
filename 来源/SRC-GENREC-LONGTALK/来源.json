@@ -20,15 +20,15 @@
       "retrieved_on": "2026-10-29",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "200067afe24302304e81c37c7315227be1361b989f852e6e30b701ec069af3e6",
+        "notes_sha256": "6f727262743e3f6d958a71b44c83e4e1743f41ff7a26790f9676d43acc996eb7",
         "pages": [
           "generative-recommendation",
           "multidomain-transfer",
           "paper-candidates"
         ],
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "通过浏览器保存并阅读七部分技术正文，与固定v2综述和既有原论文笔记对照；仅吸收研究框架与新增候选线索，纠正零成本/端到端/负迁移等过强概括的适用边界。未逐图核验公式、观看视频或全文核实新增候选论文，未作独立实验验证。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 微信正文初读范围保持，后续七篇原论文入口及机制已由独立笔记补齐；保留图片/视频未覆盖和二手转述非独立证据边界。"
       }
     }
   ]

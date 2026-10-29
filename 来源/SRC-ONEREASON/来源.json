@@ -62,13 +62,14 @@
           "generative-recommendation",
           "latent-recommendation-reasoning",
           "paper-candidates",
+          "preranking-cascade",
           "representations-tokenization",
           "serving-efficiency",
           "training-alignment"
         ],
         "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "当前Agent对照108页固定v1正文§1–11、9份实际正文源码及定向附录；96页中文PDF逐页目视和公式/表数值核验，原文/译文真实私有下载哈希验证。自查八个直接引用页与相邻数据、评估、生成、跨域/仿真/解码问题的接口范围，保留R3目标条件、奖励乘积、MOPD越界置零/累计score、等Token及线上归因限制于REV-044；关联候选不一律改写，全队列后全局复核未执行。未读作者算法实现、未运行模型、未执行独立审查。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增级联对照按各自固定版本区分V2目标三码、Think候选前缀缓存、OneReason完整候选缓存及OneSug查询建议；不同协议不做效果排名。"
       }
     }
   ]

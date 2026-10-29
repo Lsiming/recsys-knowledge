@@ -28,11 +28,12 @@
         "notes_sha256": "5a8e23c52c8fde8891ba874a66ae19c20de79f54a62e90e705940616c030415d",
         "pages": [
           "data-labels",
+          "generative-recommendation",
           "synthetic-recommendation-data"
         ],
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "回查v2正文过滤集合、LoRA/采样监督、BPR与耦合损失、冷物品切分及线上成本；修正随机抽取和预设数量的过度推断，明确未观测标签、损失概率映射与MovieLens版本缺口；7页中文PDF逐页验收、原文/译文真实私有下载核验，不声称代码复现。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。"
       }
     }
   ]

@@ -1,0 +1,46 @@
+{
+  "id": "SRC-UNIGCREC",
+  "title": "UniGCRec: Unified User-Item Quantization for Generative Cross-Domain Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "0674204157438cf902ff55a0e4bdf04c9d8323bd896905ed573dc55b7e3151b5",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3770855.3818132",
+      "revision": "KDD 2026 V.2正式10页版，887–896；DOI 10.1145/3770855.3818132；官方Zenodo实现v1.0.0，53171a8归档",
+      "read_scope": "正式PDF全部10页逐页渲染，对照摘要、正文§1–5、13编号公式、5表6图、致谢与62条引用表；参考文献未逐篇阅读。读取论文资源链接的Zenodo v1.0.0全部README.md/config.py/model.py，核对分开跨域共享码本、256→64投影、语义门下限和无源回退；无画像/训练/评估脚本、权重或LaTeX，不称算法复现。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "0c526f83e82ddb2329294fbae41a2159f63cef2b6d18b1503b77ce1f62b1e2d6",
+          "snapshot": ".local/sources/SRC-UNIGCREC/0c526f83e82ddb2329294fbae41a2159f63cef2b6d18b1503b77ce1f62b1e2d6/paper.pdf"
+        },
+        {
+          "name": "implementation-v1.0.0.zip",
+          "sha256": "86d0282f854a398f1569d985ae3de80fedd0739d22ae2588ad25c15f9e8804d0",
+          "snapshot": ".local/sources/SRC-UNIGCREC/86d0282f854a398f1569d985ae3de80fedd0739d22ae2588ad25c15f9e8804d0/implementation-v1.0.0.zip"
+        }
+      ],
+      "fingerprint": "0674204157438cf902ff55a0e4bdf04c9d8323bd896905ed573dc55b7e3151b5",
+      "retrieved_on": "2026-10-30",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "25b751fffc2263aedad0549f26e817bc34925abf61e113bca32b9eceb06ce5d4",
+        "pages": [
+          "evaluation-bias",
+          "generation-decoding",
+          "generative-recommendation",
+          "multidomain-parameter-sharing",
+          "multidomain-transfer",
+          "paper-candidates",
+          "representations-tokenization",
+          "serving-efficiency",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "正式10页全文及Zenodo v1.0.0三文件静态阅读后，逐项自查当前9个直接引用页：用户/物品独立RQ-VAE各自跨域共享、同一冻结SASRec、源域权重与逐维门、仅目标历史和用户前缀、分阶段LoRA、目标树，以及五域/三域零重合/适配成本的证据边界。保留画像时间、身份、量化目标和实现缺项；18页译文逐页目视与私有原/译认证下载另有收据。未运行模型或独立审查。"
+      }
+    }
+  ]
+}

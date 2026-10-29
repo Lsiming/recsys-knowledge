@@ -35,7 +35,9 @@
           "evaluation-bias",
           "generative-preference-alignment",
           "generative-recommendation",
+          "paper-candidates",
           "prefix-query-generation",
+          "preranking-cascade",
           "representations-tokenization",
           "search-query-suggestion",
           "search-systems",
@@ -43,7 +45,7 @@
         ],
         "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "对照2506.06913v1正式11页及正文LaTeX，自查8页OneSug增量与关联入口：参考桶/文本输出、式6–9分段梯度及奖励差前提、表2–6百分点与足额/语义/线上/服务协议、LocalSUG摘要边界。原11页和译8页全部逐页目视，9公式及6表数值核对，原/译私有首次认证下载完成；保留REV-040疑点，未核实实现、未运行模型、未独立审查；不代表全队列后的全局复核。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增级联对照按各自固定版本区分V2目标三码、Think候选前缀缓存、OneReason完整候选缓存及OneSug查询建议；不同协议不做效果排名。"
       }
     }
   ]

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-10-30",
-  "inventory_note": "62篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "63篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -2088,6 +2088,49 @@
         "size_bytes": 19181349,
         "pages": 96,
         "verified_download_sha256": "c6ee1cc8e1e192fa5c8cae1295088eb00f7c21a99df5eb552b5af77870ea182e"
+      }
+    },
+    {
+      "source_id": "SRC-UNIGCREC",
+      "title": "UniGCRec: Unified User-Item Quantization for Generative Cross-Domain Recommendation",
+      "original_url": "https://doi.org/10.1145/3770855.3818132",
+      "revision": "KDD 2026 V.2正式10页版，887–896；DOI 10.1145/3770855.3818132；官方Zenodo实现v1.0.0，53171a8归档",
+      "input_sha256": "b1f01f64c6042337da94ae6eee3aee7206bf769207e6026561d6ee34cdcec693",
+      "input_pages": 18,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–5、致谢、三个提示框、6图标题及5表标题/表头译为中文；无附录。未取得LaTeX，依据KDD2026 V.2正式PDF重排并录入13编号公式和5表，表2按目标域分组但全部数值保持；图内英文、人名机构与62条参考文献保留。保留原作者、原版权及CC BY 4.0声明，翻译、重排及明确译注为修改。",
+      "status": "private",
+      "reason": "18页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-10-30",
+        "notes": "KDD2026 V.2正式PDF首页明确CC BY 4.0，保留八位作者、原版权和修改说明。无作者LaTeX，按正式PDF重排正文译本，原图内部英文与62条参考文献保留；PDF只作私有备份，未制作正式公开Markdown全文译本。",
+        "evidence_url": "https://doi.org/10.1145/3770855.3818132",
+        "original_pdf_sha256": "0c526f83e82ddb2329294fbae41a2159f63cef2b6d18b1503b77ce1f62b1e2d6",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "authors": [
+          "Chaoyue Ding",
+          "Jiahao Liu",
+          "Dongsheng Li",
+          "Shengkang Gu",
+          "Hansu Gu",
+          "Peng Zhang",
+          "Ning Gu",
+          "Tun Lu"
+        ],
+        "evidence_sha256": "0c526f83e82ddb2329294fbae41a2159f63cef2b6d18b1503b77ce1f62b1e2d6"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261030",
+        "asset_name": "SRC-UNIGCREC.zh-CN.private.20261030.1.pdf",
+        "translation_version": "20261030.1",
+        "sha256": "21d495db241c3a613e257f73f594c6ed338aef4bbc5c4b0cdce234425ea867aa",
+        "size_bytes": 7320300,
+        "pages": 18,
+        "verified_download_sha256": "21d495db241c3a613e257f73f594c6ed338aef4bbc5c4b0cdce234425ea867aa"
       }
     }
   ],

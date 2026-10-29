@@ -1169,5 +1169,27 @@
     "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "evidence_url": "https://arxiv.org/abs/2606.06260v1",
     "evidence_sha256": "58834b18c5f7b9f201bba283a41d8599a5fe8453d96dc1b165bdd21e4343a1e2"
+  },
+  {
+    "source_id": "SRC-UNIGCREC",
+    "title": "UniGCRec: Unified User-Item Quantization for Generative Cross-Domain Recommendation",
+    "original_url": "https://doi.org/10.1145/3770855.3818132",
+    "revision": "KDD 2026 V.2正式10页版，887–896；DOI 10.1145/3770855.3818132；官方Zenodo实现v1.0.0，53171a8归档",
+    "status": "local-only",
+    "reason": "18页正文中文重排PDF已逐页验收，采用的正式10页原文与译文已私有备份并首次真实认证下载校验。正式PDF首页CC BY 4.0已核实，尚未另制作正式公开Markdown全文译本。",
+    "checked_on": "2026-10-30",
+    "authors": [
+      "Chaoyue Ding",
+      "Jiahao Liu",
+      "Dongsheng Li",
+      "Shengkang Gu",
+      "Hansu Gu",
+      "Peng Zhang",
+      "Ning Gu",
+      "Tun Lu"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence_url": "https://doi.org/10.1145/3770855.3818132",
+    "evidence_sha256": "0c526f83e82ddb2329294fbae41a2159f63cef2b6d18b1503b77ce1f62b1e2d6"
   }
 ]
