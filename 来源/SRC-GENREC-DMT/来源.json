@@ -1,0 +1,77 @@
+{
+  "id": "SRC-GENREC-DMT",
+  "title": "A Survey on Generative Recommendation: Data, Model, and Tasks",
+  "kind": "paper",
+  "state": "active",
+  "current": "e55d64f2edd427c7aa802faa0c94bb1b97395d1b11a026430b369d558f53bfe0",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2510.27157v2",
+      "revision": "arXiv:2510.27157v2，2026-05-09；初稿2025-10-31；源码为下载后未修改文件的本地重新打包",
+      "read_scope": "已读32页固定PDF的摘要、正文§1–8、图1–10、表1–7和相应LaTeX；文献用于定位候选，未独立精读所有被引论文；未运行模型或实验。微信解读正文受环境验证页阻塞，未作为已读证据。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "25220362871132175d0abd67e4e890dc1db54f0243bafeb2ab0f180120640767",
+          "snapshot": ".local/sources/SRC-GENREC-DMT/25220362871132175d0abd67e4e890dc1db54f0243bafeb2ab0f180120640767/paper.pdf"
+        },
+        {
+          "name": "source-unmodified-repacked.tar.gz",
+          "sha256": "b60720a00505b49ac224c4371ac2182aef683e79efd96a164e9078dc6df499f7",
+          "snapshot": ".local/sources/SRC-GENREC-DMT/b60720a00505b49ac224c4371ac2182aef683e79efd96a164e9078dc6df499f7/source-unmodified-repacked.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "caaa9226753ac93cf4e6982c3dca248c6e68367701c4f2ac0b7b11b3a072e51c",
+          "snapshot": ".local/sources/SRC-GENREC-DMT/caaa9226753ac93cf4e6982c3dca248c6e68367701c4f2ac0b7b11b3a072e51c/abs.html"
+        }
+      ],
+      "fingerprint": "ea0bd2ba2a98e4cb910276a87976c7869e99eaffa8cd59ec67370efe2330ac9b",
+      "retrieved_on": "2026-10-29",
+      "integration": null
+    },
+    {
+      "locator": "https://arxiv.org/abs/2510.27157v2",
+      "revision": "arXiv:2510.27157v2，2026-05-09；初稿2025-10-31；源码为下载后未修改文件的本地重新打包",
+      "read_scope": "已读32页固定PDF的摘要、正文§1–8、图1–10、表1–7和相应LaTeX；文献用于定位候选，未独立精读所有被引论文；未运行模型或实验。微信解读另登记为SRC-GENREC-LONGTALK，不作独立实验验证。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "25220362871132175d0abd67e4e890dc1db54f0243bafeb2ab0f180120640767",
+          "snapshot": ".local/sources/SRC-GENREC-DMT/25220362871132175d0abd67e4e890dc1db54f0243bafeb2ab0f180120640767/paper.pdf"
+        },
+        {
+          "name": "source-unmodified-repacked.tar.gz",
+          "sha256": "b60720a00505b49ac224c4371ac2182aef683e79efd96a164e9078dc6df499f7",
+          "snapshot": ".local/sources/SRC-GENREC-DMT/b60720a00505b49ac224c4371ac2182aef683e79efd96a164e9078dc6df499f7/source-unmodified-repacked.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "caaa9226753ac93cf4e6982c3dca248c6e68367701c4f2ac0b7b11b3a072e51c",
+          "snapshot": ".local/sources/SRC-GENREC-DMT/caaa9226753ac93cf4e6982c3dca248c6e68367701c4f2ac0b7b11b3a072e51c/abs.html"
+        }
+      ],
+      "fingerprint": "e55d64f2edd427c7aa802faa0c94bb1b97395d1b11a026430b369d558f53bfe0",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "f0c495ccae632ba5d77c9c8ccba13d8a3c3420626a7ff2f0b89cf3ca6c84c3e8",
+        "pages": [
+          "data-labels",
+          "evaluation-bias",
+          "generation-decoding",
+          "generative-output-evaluation",
+          "generative-recommendation",
+          "multidomain-transfer",
+          "paper-candidates",
+          "representations-tokenization",
+          "synthetic-recommendation-data",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-29",
+        "review_method": "agent-self-review",
+        "review_note": "复核正文及关联页，保留已读原论文和候选的证据边界；终版笔记补25页PDF验收与32页原文/25页译文私有备份、首次认证下载哈希记录，未改科学结论。综述印式与转述疑点保留REV-034，未运行实验或独立审查。"
+      }
+    }
+  ]
+}

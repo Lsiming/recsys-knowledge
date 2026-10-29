@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-10-28，盘点45篇中文PDF，45篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-10-29，盘点46篇中文PDF，46篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -57,3 +57,4 @@
 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762v7) · `SRC-TRANSFORMER` | 私有，需登录 · 20261027.1 · 18页 | [not-permitted](https://arxiv.org/abs/1706.03762v7) | 现有本地中文 PDF 18页；本次不公开，翻译覆盖范围未作发布复核；按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。 |
 | [Wide & Deep · Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792v1) · `SRC-WIDEDEEP` | 私有，需登录 · 20261027.1 · 3页 | [not-permitted](https://arxiv.org/abs/1606.07792v1) | 现有本地中文 PDF 3页；本次不公开，翻译覆盖范围未作发布复核；按用户决定统一私有维护；已登录下载并核验大小/SHA256。原许可判断及翻译范围保留，不新增公开分发授权。 |
 | [Deep Neural Networks for YouTube Recommendations](https://doi.org/10.1145/2959100.2959190) · `SRC-YOUTUBE-DNN` | 私有，需登录 · 20261027.1 · 12页 | [CC-BY-NC-ND-4.0](https://api.crossref.org/works/10.1145/2959100.2959190) | 既有中文PDF；翻译范围沿用原成品及阅读笔记，本轮仅验证备份完整性与版面，未新增全文覆盖或质量承诺；用户追加要求纳入个人私有备份；已上传并实际登录下载核验。公开许可判断不变，未公开发布PDF。 |
+| [A Survey on Generative Recommendation: Data, Model, and Tasks](https://arxiv.org/abs/2510.27157v2) · `SRC-GENREC-DMT` | 私有，需登录 · 20261029.1 · 25页 | [not-permitted](https://arxiv.org/abs/2510.27157v2) | 摘要、正文§1–8、图表标题、表格说明与分类树译为中文；嵌入原图内英文、专名、机构及参考文献保留。25页均渲染并逐页检查版面总览，放大复查公式和表格，终版变更页复查。；固定版本未授予公开译文分发许可；原文32页与中文25页已私有备份，远端digest与首次登录下载类型/大小/完整SHA256均核验。 |

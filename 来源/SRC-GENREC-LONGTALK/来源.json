@@ -1,0 +1,35 @@
+{
+  "id": "SRC-GENREC-LONGTALK",
+  "title": "深度解读｜生成式推荐：从判别式匹配到生成式合成的范式革新",
+  "kind": "article",
+  "state": "active",
+  "current": "f2ebaa18da0e3c078c78105d0a583641189f4ba929391760766d6bd45aa51bea",
+  "versions": [
+    {
+      "locator": "https://mp.weixin.qq.com/s/sr--G058-QymxgxJRyCh_Q",
+      "revision": "机器学习与推荐算法，2026-10-29 08:00；正文注明整理自胡宇宣LongTalk；Chrome保存页面提取的正文文本，公式图片不含于文本快照",
+      "read_scope": "已读正文研究背景、框架、数据、LLM/LRM/扩散、评估与研究定位七部分；浏览器HTML提取文本，公式及插图未逐图技术核验；未看原分享视频，新增方法的细节与发表场所仍需原论文确认；不把宣传性保证作为已证实结论。",
+      "artifacts": [
+        {
+          "name": "wechat-article.txt",
+          "sha256": "5551b368c0a8b72c11bf1c37d1e155e4932576e9751e59d911e71a48d263d2fd",
+          "snapshot": ".local/sources/SRC-GENREC-LONGTALK/5551b368c0a8b72c11bf1c37d1e155e4932576e9751e59d911e71a48d263d2fd/wechat-article.txt"
+        }
+      ],
+      "fingerprint": "f2ebaa18da0e3c078c78105d0a583641189f4ba929391760766d6bd45aa51bea",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "200067afe24302304e81c37c7315227be1361b989f852e6e30b701ec069af3e6",
+        "pages": [
+          "generative-recommendation",
+          "multidomain-transfer",
+          "paper-candidates"
+        ],
+        "reviewed_on": "2026-10-29",
+        "review_method": "agent-self-review",
+        "review_note": "通过浏览器保存并阅读七部分技术正文，与固定v2综述和既有原论文笔记对照；仅吸收研究框架与新增候选线索，纠正零成本/端到端/负迁移等过强概括的适用边界。未逐图核验公式、观看视频或全文核实新增候选论文，未作独立实验验证。"
+      }
+    }
+  ]
+}

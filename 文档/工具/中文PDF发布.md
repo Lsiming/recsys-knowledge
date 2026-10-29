@@ -15,7 +15,7 @@ cd recsys-knowledge-attachments
 python3 download.py
 ```
 
-默认获取全部原文与中文PDF，保存到私有克隆的`.local/pdfs/<来源ID>/`。45篇中文PDF与45份已登记原文分别保存；2026-10-28追加TaQFormer七页译文与九页正式原文，两份均已实际登录下载核验。STAR未核实镜像及BERT额外出版版已按用户要求删除，当前仅保留实际采用的登记原件。
+默认获取全部原文与中文PDF，保存到私有克隆的`.local/pdfs/<来源ID>/`。46篇中文PDF与46份已登记原文分别保存；2026-10-29追加生成式推荐DMT综述25页中文译本与32页正式原文，远端digest及两份首次登录下载的PDF类型、大小、完整SHA256均已核验。STAR未核实镜像及BERT额外出版版已按用户要求删除，当前仅保留实际采用的登记原件。
 
 ```bash
 python3 download.py --kind translation

@@ -897,5 +897,15 @@
     "reason": "已完成中文工作译文；固定版本为CC BY-NC-ND 4.0，不支持公开分享改编译文，Markdown仅本地保留，PDF按独立私有规则维护。",
     "checked_on": "2026-10-28",
     "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  {
+    "source_id": "SRC-GENREC-DMT",
+    "title": "A Survey on Generative Recommendation: Data, Model, and Tasks",
+    "original_url": "https://arxiv.org/abs/2510.27157v2",
+    "revision": "arXiv:2510.27157v2，2026-05-09；初稿2025-10-31；源码为下载后未修改文件的本地重新打包",
+    "status": "local-only",
+    "reason": "已完成正文中文LaTeX译本与25页PDF；固定版本为arXiv非独占分发许可，未授予公开派生译文权利，全文译本留本地，PDF按独立私有规则维护。",
+    "checked_on": "2026-10-29",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
   }
 ]

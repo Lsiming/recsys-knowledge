@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-10-28",
-  "inventory_note": "45篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "updated": "2026-10-29",
+  "inventory_note": "46篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -1526,6 +1526,38 @@
         "repository": "Lsiming/recsys-knowledge-attachments",
         "visibility": "private",
         "tag": "private-zh-pdfs-20261027"
+      }
+    },
+    {
+      "source_id": "SRC-GENREC-DMT",
+      "title": "A Survey on Generative Recommendation: Data, Model, and Tasks",
+      "original_url": "https://arxiv.org/abs/2510.27157v2",
+      "revision": "arXiv:2510.27157v2，2026-05-09；初稿2025-10-31；源码为下载后未修改文件的本地重新打包",
+      "input_sha256": "3591bf9c96b65d38c6e62edbb5294bcd7ffa727888efb73170c26d2017681460",
+      "input_pages": 25,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–8、图表标题、表格说明与分类树译为中文；嵌入原图内英文、专名、机构及参考文献保留。25页均渲染并逐页检查版面总览，放大复查公式和表格，终版变更页复查。",
+      "status": "private",
+      "reason": "固定版本未授予公开译文分发许可；原文32页与中文25页已私有备份，远端digest与首次登录下载类型/大小/完整SHA256均核验。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-10-29",
+        "notes": "固定arXiv版本仅列非独占分发许可，未授予公众公开派生译文的权利；个人私有备份不新增公开分发授权。",
+        "evidence_url": "https://arxiv.org/abs/2510.27157v2",
+        "evidence_sha256": "caaa9226753ac93cf4e6982c3dca248c6e68367701c4f2ac0b7b11b3a072e51c",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "original_pdf_sha256": "25220362871132175d0abd67e4e890dc1db54f0243bafeb2ab0f180120640767"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261029",
+        "asset_name": "SRC-GENREC-DMT.zh-CN.private.20261029.1.pdf",
+        "translation_version": "20261029.1",
+        "sha256": "cafb909da8eea888f36653f7d1edb03a113c1b7203f86e1972e3299278f03029",
+        "size_bytes": 2767892,
+        "pages": 25,
+        "verified_download_sha256": "cafb909da8eea888f36653f7d1edb03a113c1b7203f86e1972e3299278f03029"
       }
     }
   ],
