@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-10-30",
-  "inventory_note": "59篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "60篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -1961,6 +1961,71 @@
         "size_bytes": 2628561,
         "pages": 8,
         "verified_download_sha256": "e4e74df43dfd6c10d1b46882a963829539110884e8036aa7c61b31a9893932e5"
+      }
+    },
+    {
+      "source_id": "SRC-ONEREC-V2",
+      "title": "OneRec-V2 Technical Report",
+      "original_url": "https://arxiv.org/abs/2508.20900v4",
+      "revision": "arXiv:2508.20900v4，2025-10-28；正式PDF28页，OneRec Team",
+      "input_sha256": "06ccdc910642bb787bc625351cb280c9c6f797d6451160408ed4152f35476af4",
+      "input_pages": 24,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–5、正文图表标题和表格说明译为中文；附录A–D、参考文献及图内英文保留。固定arXiv:2508.20900v4，正文28页原文对应译后24页；正文数学表达与表格数值保留，版本差异、原权利与译者排版说明写入译文。未读作者实现，未运行模型。",
+      "status": "private",
+      "reason": "24页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-30",
+        "notes": "固定arXiv v4页为非独占分发许可，未确认公开全文译文派生授权；保留OneRec Team署名、原权利与正文修改说明，附录/参考文献和图内英文保留，仅私有备份。",
+        "evidence_url": "https://arxiv.org/abs/2508.20900v4",
+        "original_pdf_sha256": "9fc64e3575e07520e0f63770b7862b3c6f497e67790ef3fb3583797d96265730",
+        "authors": [
+          "OneRec Team"
+        ],
+        "evidence_sha256": "2745a0d0ae7d6e16deaf75502b4c1322ef5411718b037dc57e1a604257ac31fe"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261029",
+        "asset_name": "SRC-ONEREC-V2.zh-CN.private.20261029.1.pdf",
+        "translation_version": "20261029.1",
+        "sha256": "a7540443bd7bcf426dc08ecf4f7e7745909369d295dff8a7587bdfb23dd4bef1",
+        "size_bytes": 1743094,
+        "pages": 24,
+        "verified_download_sha256": "a7540443bd7bcf426dc08ecf4f7e7745909369d295dff8a7587bdfb23dd4bef1"
+      }
+    },
+    {
+      "source_id": "SRC-PREFERDIFF",
+      "title": "Preference Diffusion for Recommendation",
+      "original_url": "https://arxiv.org/abs/2410.13117v2",
+      "revision": "arXiv:2410.13117v2，2025-04-20；ICLR 2025；官方实现固定fdf45b0325f2aa19eee4e92196f5b87d5848a1e3",
+      "input_sha256": "70df62534266390188e0cbef89e1a9de75e7741e8837b1a84b44f245de05e670",
+      "input_pages": 37,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–5及正文图表标题、表格说明译为中文；固定2410.13117v2原文38页，译后37页，其中参考文献及附录A–F保留英文，原图内部英文不重绘。实际编译不含独立Related Work旧稿。公式和表格数值保留，理论与协议疑点加译注。",
+      "status": "private",
+      "reason": "37页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-10-30",
+        "notes": "固定arXiv v2页为非独占分发许可，未确认公开全文译文派生授权；正文工作译本保留作者、ICLR2025声明及修改范围，仅私有备份，附录/参考文献和图内英文保留。",
+        "evidence_url": "https://arxiv.org/abs/2410.13117v2",
+        "original_pdf_sha256": "efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697f85c88d",
+        "evidence_sha256": "8d7a246c7a0151a7d055cebbebab8e3e8947d35ac4932bdb9c73d9e26d7e985d"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261030",
+        "asset_name": "SRC-PREFERDIFF.zh-CN.private.20261030.1.pdf",
+        "translation_version": "20261030.1",
+        "sha256": "780f1b787c4570ea1979697292feacaae66006a0254183445c556653bba81e79",
+        "size_bytes": 10277793,
+        "pages": 37,
+        "verified_download_sha256": "780f1b787c4570ea1979697292feacaae66006a0254183445c556653bba81e79"
       }
     }
   ],

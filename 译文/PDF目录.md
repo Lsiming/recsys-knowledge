@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-10-30，盘点58篇中文PDF，58篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-10-30，盘点60篇中文PDF，60篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -70,3 +70,5 @@
 | [FedCGR: Federated Cross-Domain Generative Recommendation](https://arxiv.org/abs/2608.10929v1) · `SRC-FEDCGR` | 私有，需登录 · 20261030.1 · 10页 | [CC-BY-4.0](https://arxiv.org/abs/2608.10929v1) | 摘要、正文§1–6、算法1、5个图标题、6表标题/表头、描述性脚注及AI披露已翻译；无附录。保留24个编号公式、表格数值、参考文献、人名机构和原图内部英文。原式与实验数字不静默纠正；对全排序范围、FK宏平均、冷用户归因和通信口径加译注；保留原作者与CC BY 4.0许可说明，Anonymous Review不作为发表证据。；10页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [PENS: A Dataset and Generic Framework for Personalized News Headline Generation](https://aclanthology.org/2021.acl-long.7/) · `SRC-PENS` | 私有，需登录 · 20261030.1 · 14页 | [CC-BY-4.0](https://aclanthology.org/2021.acl-long.7/) | 摘要、正文§1–7、致谢、3图标题、3表标题/表头和描述性脚注译为中文；无附录。未取得LaTeX原源码，依据ACL正式PDF重排并手工重录11编号公式及3表，原式原数不静默纠正。原图内部英文、新闻语言示例、人名机构与参考文献保留，参考文献保留正式PDF原版面；原作者、ACL版权及CC BY 4.0说明保留，翻译重排与译注为修改。；14页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion](https://arxiv.org/abs/2506.06913v1) · `SRC-ONESUG` | 私有，需登录 · 20261030.1 · 8页 | [CC-BY-4.0](https://arxiv.org/abs/2506.06913v1) | 摘要、正文§1–5、图表标题、表格说明及描述性脚注译为中文；无附录。采用11页arXiv:2506.06913v1及原始LaTeX源码，9编号公式和6表数值保持，8图保留。原图内部英文、产品截图、人名机构与参考文献保留；保留作者、固定arXiv的CC BY 4.0和原PDF的ACM模板权利说明，注明翻译、中文排版和译注修改，不将模板当发表依据。；8页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
+| [OneRec-V2 Technical Report](https://arxiv.org/abs/2508.20900v4) · `SRC-ONEREC-V2` | 私有，需登录 · 20261029.1 · 24页 | [unverified](https://arxiv.org/abs/2508.20900v4) | 摘要、正文§1–5、正文图表标题和表格说明译为中文；附录A–D、参考文献及图内英文保留。固定arXiv:2508.20900v4，正文28页原文对应译后24页；正文数学表达与表格数值保留，版本差异、原权利与译者排版说明写入译文。未读作者实现，未运行模型。；24页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
+| [Preference Diffusion for Recommendation](https://arxiv.org/abs/2410.13117v2) · `SRC-PREFERDIFF` | 私有，需登录 · 20261030.1 · 37页 | [unverified](https://arxiv.org/abs/2410.13117v2) | 摘要、正文§1–5及正文图表标题、表格说明译为中文；固定2410.13117v2原文38页，译后37页，其中参考文献及附录A–F保留英文，原图内部英文不重绘。实际编译不含独立Related Work旧稿。公式和表格数值保留，理论与协议疑点加译注。；37页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |

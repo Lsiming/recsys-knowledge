@@ -1,0 +1,107 @@
+{
+  "id": "SRC-PREFERDIFF",
+  "title": "Preference Diffusion for Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "21320aa8a82c87de6f7de47030dc23ccd14073e25fd0e3e426e354e07c47f0d3",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2410.13117v2",
+      "revision": "arXiv:2410.13117v2，2025-04-20；ICLR 2025；PreferDiff",
+      "read_scope": "已读固定v2正文、图表、公式和附录范围待本轮精读；参考文献未逐篇核实，未运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697f85c88d",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697f85c88d/paper.pdf"
+        }
+      ],
+      "fingerprint": "b70a0ba37a41faa0eea190fe40945284f023c1f7a768988aeb63b97101b91c98",
+      "retrieved_on": "2026-10-30",
+      "integration": null
+    },
+    {
+      "locator": "https://arxiv.org/abs/2410.13117v2",
+      "revision": "arXiv:2410.13117v2，2025-04-20；ICLR 2025；官方实现固定fdf45b0325f2aa19eee4e92196f5b87d5848a1e3",
+      "read_scope": "已读固定v2正文§1–6、图表与附录A–F，对照38页正式PDF和实际编译源码；参考文献未逐篇核实。官方固定commit静态读取README、diffusion.py、PreferDiff模型/config、default.yaml、数据/评价/训练/main入口；modules.py仅批内采样、白化与extract函数。10份下载后未修改文件本地重打包，并非上游压缩包；未读全库，未运行模型。已完成37页正文工作译本，附录/参考文献/图内英文保留；许可页为arXiv非独占分发，不确认公开全文翻译授权。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697f85c88d",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697f85c88d/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "e921bf3c4010b5dbca66aea7233ff5ea016a860f0693abf98ae9edec1e1763f8",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/e921bf3c4010b5dbca66aea7233ff5ea016a860f0693abf98ae9edec1e1763f8/source.tar.gz"
+        },
+        {
+          "name": "arxiv-abs.html",
+          "sha256": "8d7a246c7a0151a7d055cebbebab8e3e8947d35ac4932bdb9c73d9e26d7e985d",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/8d7a246c7a0151a7d055cebbebab8e3e8947d35ac4932bdb9c73d9e26d7e985d/arxiv-abs.html"
+        },
+        {
+          "name": "official-code-selected.tar.gz",
+          "sha256": "956bfe9c9147d56af865f1597fd205a5b9f47e4eb472b12472919a8abefaf740",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/956bfe9c9147d56af865f1597fd205a5b9f47e4eb472b12472919a8abefaf740/official-code-selected.tar.gz"
+        },
+        {
+          "name": "code-manifest.json",
+          "sha256": "23f099f947076e79b9f6b1dd962d98992367ea86c70bf022a2909a890a124b78",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/23f099f947076e79b9f6b1dd962d98992367ea86c70bf022a2909a890a124b78/code-manifest.json"
+        }
+      ],
+      "fingerprint": "23709eb268b21e7035fcd0765b96518ab5dcd95c1d8d2768b4b1a61aa85a8b05",
+      "retrieved_on": "2026-10-30",
+      "integration": null
+    },
+    {
+      "locator": "https://arxiv.org/abs/2410.13117v2",
+      "revision": "arXiv:2410.13117v2，2025-04-20；ICLR 2025；官方实现固定fdf45b0325f2aa19eee4e92196f5b87d5848a1e3",
+      "read_scope": "已读固定v2正文§1–5、图表与附录A–F，对照38页正式PDF和实际编译源码；参考文献未逐篇核实。官方固定commit静态读取README、diffusion.py、PreferDiff模型/config、default.yaml、数据/评价/训练/main入口；modules.py仅批内采样、白化与extract函数。10份下载后未修改文件本地重打包，并非上游压缩包；未读全库，未运行模型。已完成37页正文工作译本，附录/参考文献/图内英文保留；许可页为arXiv非独占分发，不确认公开全文翻译授权。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697f85c88d",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697f85c88d/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "e921bf3c4010b5dbca66aea7233ff5ea016a860f0693abf98ae9edec1e1763f8",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/e921bf3c4010b5dbca66aea7233ff5ea016a860f0693abf98ae9edec1e1763f8/source.tar.gz"
+        },
+        {
+          "name": "arxiv-abs.html",
+          "sha256": "8d7a246c7a0151a7d055cebbebab8e3e8947d35ac4932bdb9c73d9e26d7e985d",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/8d7a246c7a0151a7d055cebbebab8e3e8947d35ac4932bdb9c73d9e26d7e985d/arxiv-abs.html"
+        },
+        {
+          "name": "official-code-selected.tar.gz",
+          "sha256": "956bfe9c9147d56af865f1597fd205a5b9f47e4eb472b12472919a8abefaf740",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/956bfe9c9147d56af865f1597fd205a5b9f47e4eb472b12472919a8abefaf740/official-code-selected.tar.gz"
+        },
+        {
+          "name": "code-manifest.json",
+          "sha256": "23f099f947076e79b9f6b1dd962d98992367ea86c70bf022a2909a890a124b78",
+          "snapshot": ".local/sources/SRC-PREFERDIFF/23f099f947076e79b9f6b1dd962d98992367ea86c70bf022a2909a890a124b78/code-manifest.json"
+        }
+      ],
+      "fingerprint": "21320aa8a82c87de6f7de47030dc23ccd14073e25fd0e3e426e354e07c47f0d3",
+      "retrieved_on": "2026-10-30",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "d208f23f4ea5e6b459e0fff45de67fd76ae7eaa712e52e987239cb0f04be5b7f",
+        "pages": [
+          "generation-decoding",
+          "generative-preference-alignment",
+          "generative-recommendation",
+          "interaction-vector-denoising",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-10-30",
+        "review_method": "agent-self-review",
+        "review_note": "固定2410.13117v2正文/附录与38页正式PDF，正文37页中文工作本全页版面检查及关键页放大；正文12数学块/4表数值/图路径及附录原字节核对。分清BPR似然差、误差替代、质心与混合目标；数学反例和原文C.3/C.4不等式缺口保留。固定官方commit10文件静态范围明确，核对平方余弦、batch归约、gamma、重复ID、白化与21轮DDIM，未运行模型。主表/跨域协议/计时边界按版本定位；原/译PDF已私有上传并首次真实认证下载校验；当前Agent自查，未独立审查。"
+      }
+    }
+  ]
+}

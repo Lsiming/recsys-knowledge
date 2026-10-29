@@ -1080,5 +1080,39 @@
     ],
     "evidence_url": "https://arxiv.org/abs/2506.06913v1",
     "evidence_sha256": "f6e42454ac7363708ceeb4f71e315951c02387c63016bc1265e07259800c4dff"
+  },
+  {
+    "source_id": "SRC-ONEREC-V2",
+    "title": "OneRec-V2 Technical Report",
+    "original_url": "https://arxiv.org/abs/2508.20900v4",
+    "revision": "arXiv:2508.20900v4，2025-10-28；正式PDF28页，OneRec Team",
+    "status": "local-only",
+    "reason": "正文中文PDF已验收并按独立私有附件规则备份；采用arXiv非独占分发许可，公开全文翻译许可未确认，未制作正式Markdown全文译本。",
+    "checked_on": "2026-10-30",
+    "authors": [
+      "OneRec Team"
+    ],
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "evidence_url": "https://arxiv.org/abs/2508.20900v4",
+    "evidence_sha256": "2745a0d0ae7d6e16deaf75502b4c1322ef5411718b037dc57e1a604257ac31fe"
+  },
+  {
+    "source_id": "SRC-PREFERDIFF",
+    "title": "Preference Diffusion for Recommendation",
+    "original_url": "https://arxiv.org/abs/2410.13117v2",
+    "revision": "arXiv:2410.13117v2，2025-04-20；ICLR 2025；官方实现固定fdf45b0325f2aa19eee4e92196f5b87d5848a1e3",
+    "status": "local-only",
+    "reason": "正文中文PDF已验收并按独立私有附件规则备份；采用arXiv非独占分发许可，公开全文翻译许可未确认，未制作正式Markdown全文译本。",
+    "checked_on": "2026-10-30",
+    "authors": [
+      "Shuo Liu",
+      "An Zhang",
+      "Guoqing Hu",
+      "Hong Qian",
+      "Tat-Seng Chua"
+    ],
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "evidence_url": "https://arxiv.org/abs/2410.13117v2",
+    "evidence_sha256": "8d7a246c7a0151a7d055cebbebab8e3e8947d35ac4932bdb9c73d9e26d7e985d"
   }
 ]

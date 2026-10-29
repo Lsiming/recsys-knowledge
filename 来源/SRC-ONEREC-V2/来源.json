@@ -30,18 +30,18 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "405416d9ec1aa11f62d6c2d1bc21c399056a9d7ec066b3452ac0c18050e3d9ad",
+        "notes_sha256": "c277b6931e1caf8b3aa9f8632a176b026d4d1dca219aac8cea17e6a756bd823f",
         "pages": [
-          "target-decoding-compute",
           "generative-output-evaluation",
           "generative-preference-alignment",
+          "generative-recommendation",
           "serving-efficiency",
-          "training-alignment",
-          "generative-recommendation"
+          "target-decoding-compute",
+          "training-alignment"
         ],
         "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
-        "review_note": "固定arXiv:2508.20900v4，核对正文§1–5、图1–12、表1–9和附录A–D；区分目标物品三个SID训练与旧OneRec整列表生成，核对Context Processor、GQA/KV共享、固定数据规模拟合、GBPO分位优势、p_old基线、5%流量内25% degraded traffic及cache-off表9。正文中文译后PDF 24页逐页渲染，文本/像素与编译源一致；未读作者实现、未运行模型、参考文献未逐篇核实。新增目标解码计算问题并更新输出对象、训练对齐、服务效率和专题入口；OneRec-V1版本隔离保留。"
+        "review_note": "沿用已完成的2508.20900v4正文/图表/附录自查与24页中文PDF验收，不重写科研结论。本轮补记原/译PDF既有首次真实认证下载收据、两库目录、OneRec Team署名及非独占分发许可；原式/计算估算/反馈基线/流量与生态边界在REV-042集中回查。未读作者实现或运行模型。"
       }
     }
   ]

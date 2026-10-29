@@ -4,7 +4,7 @@
 
 ## 最新进度（2026-10-30）
 
-ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall、MDGR、FedCGR、PENS和OneSug已有正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载；OneSug最终整合检查与本地提交见文末本轮记录。尚待完整精读5篇：UniGCRec、OneRec V2、OneReason、PreferDiff、OneRec-Think；下一篇继续已有原件的OneRec V2，UniGCRec正式全文获取403仍需恢复。全队列完成后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧“待获取/待翻译”不覆盖本节与文末的最新状态。
+重点17篇已完成14篇：ColdLLM、Agent4Rec、DreamRec、TokenRec、LETTER、LLaRA、LatentR³、OneMall、MDGR、FedCGR、PENS、OneSug、OneRec-V2和PreferDiff，均有正文中文PDF、精读、问题整合及原/译PDF私有备份与真实认证下载。尚余3篇：OneRec-Think（固定2510.11639v2原文/源码已取得）、OneReason（2606.06260原文/源码已取得）、UniGCRec（正式全文获取403仍需恢复）。下一篇OneRec-Think，不重复下载成功原件。当前进度不是综述全部参考文献的穷尽差集；全部论文后的跨模块全局复核尚未执行。以下阶段记录按发生顺序保留，旧待获取/待翻译不覆盖本节与文末最新状态。
 
 ## 范围与完成证据
 
@@ -139,3 +139,20 @@ PENS私有目录提交3a3beb08d1eb2cf107abd1d538e9efc0b2d1ab79已通过GitDB API
 原文与中文PDF均已私有上传、核对远端digest并首次真实认证下载校验页数/大小/完整SHA256。两库目录58原文/58译文、116份、1574页、222273263字节，私有旧114条与公开PDF旧57条逐项不变。目录检查、7项下载器测试及OneSug两份verify-only通过；上传前确认private/仅所有者/无邀请，本轮匿名仓库API和译文资产API均404。私有目录提交4e3fed251f510741295c2e82bbdb9406facc068b已通过GitDB API按同SHA快进发布main，仅三份目录文件，无强推。公开整合检查、本地提交接续记录；用户治理目录和两个画布保留。重点17篇中12篇已有正文学习产物，剩5篇；这不是综述全部引用的穷尽差集，全部完成后的跨模块全局复核仍待执行。
 
 OneSug最终检查：205份活跃Markdown/3063本地链接、知识与来源索引、58项译文/PDF目录、问题/论文双向检索通过；wiki lint为0错误、3项既有POUL/TaQFormer提示，plan只余这两来源。当前分发文件与完整24提交/747文件对象公开检查通过。全工作树diff --check仅命中用户原有治理目录第40行尾空格，本任务检查范围与暂存检查单独核验，不修改无关文件。已修正新问题的模块related关联，未以清警告替代语义自查；下一篇OneRec V2已有原件，无需重新下载。
+
+
+## 2026-10-30 OneRec-V2目录补齐与PreferDiff精读
+
+OneRec-V2已在16d1e78/9bb902b完成固定2508.20900v4精读、24页正文中文PDF和目标解码/GBPO问题整合；原文28页/译文24页实际私有下载收据与私有目录提交8b0065a已存在。本轮补齐公开译文/PDF盘点和笔记访问说明，私有两条补上OneRec Team署名及固定非独占分发许可证据，不重复上传或声称本轮重新翻译。原文计算摊销、反馈基线、5%组内25% degraded traffic与cache-off生态边界集中记录REV-042，未读实现或运行模型。
+
+PreferDiff采用2410.13117v2、2025-04-20、ICLR2025正式38页PDF与原始源码，正文§1–5及附录A–F已读，参考文献未逐篇回查。37页中文工作本翻译摘要、正文、图表标题和说明，附录、参考文献及图内英文保留；正文12个编号数学块（underbrace说明译为中文）、4张表数字序列、图路径核对，附录源码原字节保持。最终37页经7张接触页逐页版面检查，3/4/6/7/8页放大；清理前后文字及1.3倍像素一致。编译沿用此前成功的remote-final成品，不重复编译；终稿清理OpenAction和PTEX构建字段，保留原成品。正文中文字体已嵌入且有ToUnicode，原图/英文附录字体状态按QA保留，不声称全部字体嵌入。
+
+PreferDiff原文SHA256 efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697f85c88d；中文37页SHA256 780f1b787c4570ea1979697292feacaae66006a0254183445c556653bba81e79。实际编译主文件为translation/translated-sources/iclr2025_conference.tex，不含独立Related Work旧稿。主文件body扫描SUSPECT_COUNT=0，补人工范围、实际子文件与公式/表格/图核查；全范围与QA保存在本地SRC-PREFERDIFF。采用arXiv非独占分发许可，未确认公开全文翻译授权，仅私有PDF备份，不制作正式公开Markdown全文译本。
+
+固定官方实现fdf45b0325f2aa19eee4e92196f5b87d5848a1e3的10份文件下载后未修改、本地重打包登记，modules.py仅相关函数静态阅读。原raw下载SSL超时已终止，后用GitHub contents API按固定commit取得缺失文件，未重复下载已有文件。实际平方余弦、batch误差先平均、gamma尺度、重复ID批内负例、白化形式、额外未用第三路前向和默认21轮DDIM与论文定义分列；未运行模型或下载训练数据。C.3上界的一般不等式给出数学反例，C.4质心凸性条件、零样本训练/验证域冲突、最低提升5.66%和计时单位混用保留REV-041，不用离线表证明理论或线上P99。
+
+新增PreferDiff独立精读，合并连续扩散问题、偏好对齐问题、生成/训练模块及专题5页，同步候选与双向索引；默认不新建平行问题页。原文/译文已核对远端digest并首次真实认证下载验证PDF、大小、完整SHA256及页数，收据为PAPER-003/private/receipts.json。私有现60原文/60译文、120份、1701页、246260108字节；旧116条逐项不变，OneRec-V2两条仅补署名/许可证据，PreferDiff新增两条。公开旧58条逐项保留，新增OneRec-V2/PreferDiff两条，不公开逐篇私有下载链接。
+
+私有120份目录检查、下载器7项测试、4份附件离线verify-only与语法检查通过；上传前确认private、仅所有者且无待处理邀请，本轮匿名仓库与PreferDiff译文资产API均404。私有三份目录文件提交3bfbb1540d2bad63b9b1736fdb919af2c4d77be6已通过GitDB API按同SHA快进main并回查，不强推。公开正文仅本地中文提交；用户治理目录和两个画布保留。当前Agent自查，未委派独立审查。后续先OneRec-Think，再OneReason，持续恢复UniGCRec正式全文；全部论文后再做全局知识梳理，目标仍进行中。
+
+本轮最终验证：208份活跃Markdown/3138本地链接、知识与来源索引、60项译文/PDF盘点及PreferDiff双向检索通过；wiki lint为0错误、3项既有POUL/TaQFormer提示，plan只余这两来源。当前分发文件及完整27提交/784文件对象的公开检查通过，未推送公开正文。全工作树diff --check仅命中用户治理目录第40行原有尾空格，本任务21个明确文件范围检查通过；暂存检查在提交前执行。
