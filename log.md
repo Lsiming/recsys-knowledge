@@ -439,3 +439,13 @@ ColdLLM 7页、Agent4Rec 8页、DreamRec 15页正文中文PDF均逐页渲染目�
 ## 2026-11-02：算法论文精读技能选型
 
 检索 GitHub 并核查候选技能指令，新增[技能选型](文档/工具/算法论文精读技能选型.md)及支持文档入口，记录九个仓库热度、固定 commit、实际阅读范围与适配限制。优先比较 PaperForge、DeepPaperNote 和 paper-analyzer，补充公式推导、源码对应和实验审视思路；仅静态分析，未安装、运行技能或进行论文输出对测，未改写现行论文流程。
+
+## [2026-11-02] audit | 从GitHub技术问题反查Transformer知识覆盖
+
+检索GitHub并固定三份问答/教程与Annotated Transformer的commit、原文件哈希和定向阅读范围。建立[问题驱动学习路线](知识库/阅读/Transformer问题驱动学习路线.md)与[32项覆盖审计](维护/Transformer知识覆盖审计.md)：基线12项完整、14项部分、6项缺失；补齐后23项完整、6项部分、3项缺失。该统计限本次选定问题，不是全领域覆盖率或真实面试题频。
+
+向既有[自注意力问题页](知识库/问题/序列怎样用自注意力建立上下文.md)补入批量/交叉注意力形状、Softmax梯度与平移不变、mask广播与全遮罩、LN统计轴与残差边界、置换等变、正弦偏移及参数/存储推算；向[Transformer精读](来源/SRC-TRANSFORMER/阅读笔记.md)补入点积比较、嵌入共享、标签平滑和教学实现差异。题库参考答案的错误按固定文件记录，未采纳未经原文核验的现代方法效果。现代位置、FlashAttention、RMSNorm/SwiGLU、通用KV/GQA和运行验证缺口列于REV-046。
+
+验证为当前Agent证据与公式自查、结构/链接/索引检查及Git差异检查；未进行独立审查、模型实验或性能测试，未改原文/中文PDF。既存POUL、TaQFormer未整合提示不在本轮范围。
+
+实际检查：check_context、wiki lint、index --check通过；lint保留3条已有警告（组合策略页contested、POUL/TaQFormer待整合）。全工作树diff检查仅报用户原有治理目录第40行尾随空格，本轮文件单独检查通过；原改动及两份canvas均保留。

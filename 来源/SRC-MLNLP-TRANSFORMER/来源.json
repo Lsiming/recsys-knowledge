@@ -1,0 +1,33 @@
+{
+  "id": "SRC-MLNLP-TRANSFORMER",
+  "title": "ML-NLP：Transformer章节",
+  "kind": "tutorial",
+  "state": "active",
+  "current": "f79f30e659d0550e6501c10897ed9bc022b0d6f43f199f976d7deb77b1faaa41",
+  "versions": [
+    {
+      "locator": "https://github.com/NLP-LOVE/ML-NLP",
+      "revision": "16733eb5e2958fd6f36d6a4fb60934dd6a550c3b",
+      "read_scope": "读取NLP/16.7 Transformer/README.md文字，重点结构、QKV、多头、归一化、FFN、mask与RNN比较；未读取外链图片、视频或运行代码。",
+      "artifacts": [
+        {
+          "name": "ml-nlp.md",
+          "sha256": "3812c5eb167047205f02051e8c7888b274eb29294d50b11b4c6f350d1f71904e",
+          "snapshot": ".local/sources/SRC-MLNLP-TRANSFORMER/3812c5eb167047205f02051e8c7888b274eb29294d50b11b4c6f350d1f71904e/ml-nlp.md"
+        }
+      ],
+      "fingerprint": "f79f30e659d0550e6501c10897ed9bc022b0d6f43f199f976d7deb77b1faaa41",
+      "retrieved_on": "2026-11-02",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "afd33a92c0b96182095260d558069f4a76fc868440ab093c4cd1aec92d878891",
+        "pages": [
+          "transformer-question-path"
+        ],
+        "reviewed_on": "2026-11-02",
+        "review_method": "agent-self-review",
+        "review_note": "定向章节文字自查，区分多头输出投影与FFN、布尔与加性mask、seq2seq范式与RNN；未读外链图像/视频或运行实现。"
+      }
+    }
+  ]
+}

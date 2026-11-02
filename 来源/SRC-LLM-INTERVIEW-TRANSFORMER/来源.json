@@ -1,0 +1,48 @@
+{
+  "id": "SRC-LLM-INTERVIEW-TRANSFORMER",
+  "title": "LLM面试笔记：Transformer架构、位置与推理",
+  "kind": "tutorial",
+  "state": "active",
+  "current": "1187df8efd6eec8ef65ce5c8f965d4928a911e948d2618c0d418e869e12972b6",
+  "versions": [
+    {
+      "locator": "https://github.com/wdndev/llm_interview_note",
+      "revision": "581d54dd9a72e1d0a4eb28ae50859db83901b783",
+      "read_scope": "定向读取Transformer架构细节§3–5及§8、attention§4–5和§6.2、位置编码§2–4、推理优化技术§1.1–1.5；其他部分仅检索标题；未读取插图内容、未核原论文实验或运行代码。",
+      "artifacts": [
+        {
+          "name": "architecture.md",
+          "sha256": "4a930b37e2f5758b57d295b2c6187f6e894030e0ecc6ffabc6ebe127de3892c0",
+          "snapshot": ".local/sources/SRC-LLM-INTERVIEW-TRANSFORMER/4a930b37e2f5758b57d295b2c6187f6e894030e0ecc6ffabc6ebe127de3892c0/architecture.md"
+        },
+        {
+          "name": "position.md",
+          "sha256": "d12f93c1d4d0c565bf469b98c3103855b3cad1b06f286632c546a7ad8cb854e8",
+          "snapshot": ".local/sources/SRC-LLM-INTERVIEW-TRANSFORMER/d12f93c1d4d0c565bf469b98c3103855b3cad1b06f286632c546a7ad8cb854e8/position.md"
+        },
+        {
+          "name": "attention.md",
+          "sha256": "61ad8af91afd888c7aa16bd8b3da9040ef77b177c220762440d61d97128e31fc",
+          "snapshot": ".local/sources/SRC-LLM-INTERVIEW-TRANSFORMER/61ad8af91afd888c7aa16bd8b3da9040ef77b177c220762440d61d97128e31fc/attention.md"
+        },
+        {
+          "name": "inference-tech.md",
+          "sha256": "fa6480788940804b9ac8c6f3e575278f9185998f8e9d494d9321c498322788d6",
+          "snapshot": ".local/sources/SRC-LLM-INTERVIEW-TRANSFORMER/fa6480788940804b9ac8c6f3e575278f9185998f8e9d494d9321c498322788d6/inference-tech.md"
+        }
+      ],
+      "fingerprint": "1187df8efd6eec8ef65ce5c8f965d4928a911e948d2618c0d418e869e12972b6",
+      "retrieved_on": "2026-11-02",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "8fc43931aa549bdb2462c0abff924ae2f633f8186979b7a788db86cd5101b19b",
+        "pages": [
+          "transformer-question-path"
+        ],
+        "reviewed_on": "2026-11-02",
+        "review_method": "agent-self-review",
+        "review_note": "按来源卡范围读取架构、位置、attention与推理章节，记录问题和过强概括；现代方法效果未经原文核验，不当作已精读论文或完整知识。"
+      }
+    }
+  ]
+}

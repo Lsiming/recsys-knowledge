@@ -1,0 +1,34 @@
+{
+  "id": "SRC-ANNOTATED-TRANSFORMER",
+  "title": "The Annotated Transformer：教学实现",
+  "kind": "code",
+  "state": "active",
+  "current": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28",
+  "versions": [
+    {
+      "locator": "https://github.com/harvardnlp/annotated-transformer",
+      "revision": "debc9fd747bb2123160a98046ad1c2d4da44a567",
+      "read_scope": "静态核对the_annotated_transformer.py的LayerNorm、SublayerConnection、attention、MultiHeadedAttention、Embeddings、make_model、Batch、LabelSmoothing、greedy_decode及相邻说明；未通读训练/可视化部分，未运行代码，不视为原作者官方实现。",
+      "artifacts": [
+        {
+          "name": "annotated.py",
+          "sha256": "9562df56fc29a172dd9284e0d2ba68443b25e8733981fedf854d1f36cbc2e74b",
+          "snapshot": ".local/sources/SRC-ANNOTATED-TRANSFORMER/9562df56fc29a172dd9284e0d2ba68443b25e8733981fedf854d1f36cbc2e74b/annotated.py"
+        }
+      ],
+      "fingerprint": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28",
+      "retrieved_on": "2026-11-02",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e0ee78772bb4d350b1054c5b395c4ecd8b93bc3b1ed5d2570d50c1efbbfde326",
+        "pages": [
+          "self-attention-context",
+          "transformer-question-path"
+        ],
+        "reviewed_on": "2026-11-02",
+        "review_method": "agent-self-review",
+        "review_note": "静态核对指定函数，验证分头与mask路径，保留Pre-LN、epsilon、未绑定嵌入与无KV缓存的教学差异。直接引用和关联入口已复核，未运行代码或独立审查。"
+      }
+    }
+  ]
+}
