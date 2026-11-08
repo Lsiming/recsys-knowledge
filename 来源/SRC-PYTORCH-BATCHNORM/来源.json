@@ -20,13 +20,13 @@
       "retrieved_on": "2026-11-08",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "6e17225e7eed6a674559ad6ca1dec01a13b4d48c767a96b1a7fa1fd56fdc33cf",
+        "notes_sha256": "6ca0d53a19efaebb20265a879daf5dbd5bcc8fbad410d57be9398e79ffbbf49d",
         "pages": [
           "self-attention-context"
         ],
         "reviewed_on": "2026-11-08",
         "review_method": "agent-self-review",
-        "review_note": "固定PyTorch v2.9.0接口文档与forward静态自查，核实统计归约轴、训练/运行方差估计、momentum及eval选择；公式核对padding、有效元素数和因果边界，未运行框架或内核。"
+        "review_note": "固定PyTorch接口静态核对；区分M-1校正所需IID假设与有限步EMA，手工推导初始化项及批间方差，未运行模型。仅更新BN结论，保留另一会话未完成知识增量。"
       }
     }
   ]
