@@ -22,12 +22,14 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "e0ee78772bb4d350b1054c5b395c4ecd8b93bc3b1ed5d2570d50c1efbbfde326",
         "pages": [
+          "attention-mask-padding",
           "self-attention-context",
-          "transformer-question-path"
+          "transformer-question-path",
+          "transformer-training-translation"
         ],
-        "reviewed_on": "2026-11-02",
+        "reviewed_on": "2026-11-08",
         "review_method": "agent-self-review",
-        "review_note": "静态核对指定函数，验证分头与mask路径，保留Pre-LN、epsilon、未绑定嵌入与无KV缓存的教学差异。直接引用和关联入口已复核，未运行代码或独立审查。"
+        "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
       }
     }
   ]

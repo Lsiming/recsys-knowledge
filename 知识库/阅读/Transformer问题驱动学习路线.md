@@ -3,15 +3,29 @@ id: "transformer-question-path"
 title: "Transformer问题驱动学习路线"
 type: "map"
 status: "reviewed"
-updated: "2026-11-02"
+updated: "2026-11-08"
 summary: "用GitHub技术问题反查注意力、训练、推理和推荐迁移的学习入口，区分经典构件与现代扩展"
 aliases: ["Transformer面试", "Transformer常考题", "Transformer八股", "Transformer知识覆盖", "技术问题梳理", "RoPE", "ALiBi", "FlashAttention", "KV Cache", "GQA", "RMSNorm", "SwiGLU"]
 sources: {"SRC-TRANSFORMER-INTERVIEW": "d4e96b7bc7f5b8b1d308be92016b2e6fb93fa24e40be0d045e9cf883ffeb3392", "SRC-MLNLP-TRANSFORMER": "f79f30e659d0550e6501c10897ed9bc022b0d6f43f199f976d7deb77b1faaa41", "SRC-LLM-INTERVIEW-TRANSFORMER": "1187df8efd6eec8ef65ce5c8f965d4928a911e948d2618c0d418e869e12972b6", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28"}
-related: ["self-attention-context", "pretraining-task-transfer", "classic-reading-path", "learning-resources", "target-decoding-compute"]
+related: ["self-attention-context", "pretraining-task-transfer", "classic-reading-path", "learning-resources", "target-decoding-compute", "transformer-position", "layernorm-residual", "attention-mask-padding", "transformer-training-translation", "embedding-weight-tying", "attention-compute-memory"]
 ---
 # Transformer问题驱动学习路线
 
 理解Transformer要能沿着一条完整链路解释：输入如何投影、一个位置如何选择可见信息、信息怎样变成输出、训练与生成为何不同、计算和存储花在哪里。GitHub题目可以用来检验这条链是否连贯，但参考答案可能混用原论文、教学改写和现代变体。
+
+## 从历史疑问直接找到推导与例子
+
+| 学习疑问 | 知识正文 |
+|---|---|
+| 点积方差、Score/Probability、QKV形状、分头换轴 | [注意力张量与数学](../问题/序列怎样用自注意力建立上下文.md#投影分头与张量形状) |
+| pos/i、高低频、成对sin/cos、相对偏移、RoPE | [位置编码](../概念/Transformer位置编码.md) |
+| make_std_mask、广播、PAD Query、NaN、Loss Mask | [遮罩与填充](../概念/Attention遮罩与填充.md) |
+| 目标右移、Teacher Forcing、Loss、梯度回到Encoder、推理 | [训练与机器翻译](../概念/Transformer训练与机器翻译.md) |
+| 两种词表、联合BPE、SentencePiece、hE转置、Weight Tying、Xavier | [词表嵌入与权重共享](../概念/词表嵌入与权重共享.md) |
+| LN统计轴、gamma/beta、反传、推理、Pre/Post-LN恒等路径 | [LayerNorm与残差梯度](../概念/LayerNorm与残差梯度.md) |
+| 平方矩阵、FP16字节数、KV缓存、FlashAttention在线Softmax | [计算与存储](../概念/Attention计算与存储.md) |
+
+这些正文保留公式、最小例子和来源定位，不要求先阅读论文全文。102题的逐项对应、历史答案纠正及核验范围集中在[沉淀核验](../../维护/Transformer历史问答沉淀核验.md)，问题状态不混入技术正文。
 
 ## 从结构走到可计算的注意力
 
@@ -29,7 +43,7 @@ related: ["self-attention-context", "pretraining-task-transfer", "classic-readin
 
 [下一物品预测](../问题/从历史顺序预测下一物品.md)比较SASRec与BERT4Rec的信息可见范围、恢复目标和候选打分；[目标解码计算](../问题/生成推荐怎样把计算集中到目标解码.md)与[历史复用](../问题/目标感知排序怎样复用历史计算.md)把缓存和候选隔离放回推荐场景。先说清输出是物品分数、SID还是文本，再比较架构。
 
-现代题目还会问RoPE/ALiBi、MQA/GQA、FlashAttention、RMSNorm/SwiGLU及长上下文。这些并非2017论文必须包含的内容；当前库内仅部分服务场景已有解释，完整机制与实现仍需定向学习。具体缺口与完成边界见[32项覆盖审计](../../维护/Transformer知识覆盖审计.md)。
+现代题目还会问RoPE/ALiBi、MQA/GQA、FlashAttention、RMSNorm/SwiGLU及长上下文。这些并非2017论文必须包含的内容。2026-11-08已补RoPE与固定代码缓存、FlashAttention在线归一化及RMSNorm定义；ALiBi、SwiGLU、长上下文扩展和全面的服务/显存协议仍有缺口。早期范围见[32项覆盖审计](../../维护/Transformer知识覆盖审计.md)，本轮增量及实际边界见[历史问答核验](../../维护/Transformer历史问答沉淀核验.md)。
 
 ## GitHub题目从哪里来
 

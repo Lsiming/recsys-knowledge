@@ -1,0 +1,34 @@
+{
+  "id": "SRC-ROFORMER",
+  "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+  "kind": "paper",
+  "state": "active",
+  "current": "d6c0d9c59c5151fab8c5a0febd7f9901b4391991480e4a49a7bc4957f80036c4",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2104.09864v5",
+      "revision": "arXiv 2104.09864v5，2023-11-08",
+      "read_scope": "核对固定v5的全文网页，重点阅读§3.1–3.4和RoPE公式(11)–(16)，用于位置旋转、相对位移与正交矩阵推导；未翻译或复现实验。",
+      "artifacts": [
+        {
+          "name": "rope.html",
+          "sha256": "db7f300b9abd24e0d225bcfcd53d3fd64c0255acb60e8dac28014361005c1f07",
+          "snapshot": ".local/sources/SRC-ROFORMER/db7f300b9abd24e0d225bcfcd53d3fd64c0255acb60e8dac28014361005c1f07/rope.html"
+        }
+      ],
+      "fingerprint": "d6c0d9c59c5151fab8c5a0febd7f9901b4391991480e4a49a7bc4957f80036c4",
+      "retrieved_on": "2026-11-08",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "b6ff479ec9b397225e2c370a2e81cc9a0f9332a722d80520885160e8dfce582e",
+        "pages": [
+          "self-attention-context",
+          "transformer-position"
+        ],
+        "reviewed_on": "2026-11-08",
+        "review_method": "agent-self-review",
+        "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    }
+  ]
+}

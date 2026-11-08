@@ -459,3 +459,9 @@ ColdLLM 7页、Agent4Rec 8页、DreamRec 15页正文中文PDF均逐页渲染目�
 按用户要求将729e921快进合入main，并同步[主线协作规则](文档/规范/上下文与多会话协作.md)：后续会话直接在日常主目录main提交，保留具体推送授权边界。主目录未完成的Transformer增量与原有文件保持未提交，切换和检查见[KB-013](文档/会话/KB-013.md)。
 
 2026-11-08追问补充：区分批内样本方差的Bessel校正与运行EMA的统计目标，给出有限步初始化偏差、训练分布变化和合并方差的批间项；不保证最终运行统计无偏。公式推导见[BN笔记](来源/SRC-PYTORCH-BATCHNORM/阅读笔记.md#无偏样本方差不等于最终运行统计无偏)。
+
+## 2026-11-08：Transformer历史102题核验与沉淀
+
+按用户102题及历史重建笔记定位讲解缺口，定向核对Transformer v7、RoFormer v5、Layer Normalization、Pre-LN分析、BPE、SentencePiece、Weight Tying、RMSNorm、FlashAttention及固定Llama代码。扩充自注意力问题页，新增位置编码、mask/PAD、训练与机器翻译、词表/Embedding、LayerNorm和计算存储六页；形成[逐题映射与历史表述纠正](维护/Transformer历史问答沉淀核验.md)，同步学习路线与索引。保留主线BN/EMA知识，新增来源收据说明实际阅读范围；本批相关plan项目已完成。
+
+check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页三条既有警告。核对104个逐题文件/章节链接、9份快照哈希，枚举方差并数值检查正弦平移、RoPE、LN输入梯度和分块Softmax。未全文翻译、运行模型或独立审查。全树diff检查仅命中治理目录原有尾随空格；该文件与两个canvas不提交。用户明确授权最终同步main和远端，实际发布状态见[KB-013](文档/会话/KB-013.md)。

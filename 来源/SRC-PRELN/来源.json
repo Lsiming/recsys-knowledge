@@ -1,0 +1,34 @@
+{
+  "id": "SRC-PRELN",
+  "title": "On Layer Normalization in the Transformer Architecture",
+  "kind": "paper",
+  "state": "active",
+  "current": "d44f072ece3dcb69ba2cd12843e41390c0c3020650a7019175c0947d075cc3b3",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2002.04745v2",
+      "revision": "arXiv 2002.04745v2；ICML 2020",
+      "read_scope": "定向阅读§1、§3.1–3.4及§4任务设置，核对Pre/Post-LN结构、final LN、Xavier方差和初始化理论的简化假设；不将初始化结论推广为训练全程保证，未复现实验，未全文翻译。",
+      "artifacts": [
+        {
+          "name": "preln.html",
+          "sha256": "71f711bee0271eaaa3daf94210c2fdaad20d22f3c1241d4b30a7b3b64ef5fb14",
+          "snapshot": ".local/sources/SRC-PRELN/71f711bee0271eaaa3daf94210c2fdaad20d22f3c1241d4b30a7b3b64ef5fb14/preln.html"
+        }
+      ],
+      "fingerprint": "d44f072ece3dcb69ba2cd12843e41390c0c3020650a7019175c0947d075cc3b3",
+      "retrieved_on": "2026-11-08",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "58233aeb118c0bf6d9466f17a2f51fecace46ede09035e653515c089cd8f975b",
+        "pages": [
+          "embedding-weight-tying",
+          "layernorm-residual"
+        ],
+        "reviewed_on": "2026-11-08",
+        "review_method": "agent-self-review",
+        "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    }
+  ]
+}

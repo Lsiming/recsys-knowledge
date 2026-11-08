@@ -1,0 +1,33 @@
+{
+  "id": "SRC-BPE",
+  "title": "Neural Machine Translation of Rare Words with Subword Units",
+  "kind": "paper",
+  "state": "active",
+  "current": "d4b209107ce1086ea8de948e6e8ccf0365cfd068a213f6b9821c7b8bf173ff9b",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1508.07909v5",
+      "revision": "arXiv 1508.07909v5；ACL 2016",
+      "read_scope": "定向核对§3.2的字符子词BPE合并算法及独立/联合BPE训练，未复现实验，未全文翻译。",
+      "artifacts": [
+        {
+          "name": "bpe-full.html",
+          "sha256": "ade41481af3f744041402cd431d786fe591c54d3205ccb595da723599e7aba96",
+          "snapshot": ".local/sources/SRC-BPE/ade41481af3f744041402cd431d786fe591c54d3205ccb595da723599e7aba96/bpe-full.html"
+        }
+      ],
+      "fingerprint": "d4b209107ce1086ea8de948e6e8ccf0365cfd068a213f6b9821c7b8bf173ff9b",
+      "retrieved_on": "2026-11-08",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "b7dd5cdd7e871a15cf4cb038bfa6e069e90321b785102faeb6fac470dbb34044",
+        "pages": [
+          "embedding-weight-tying"
+        ],
+        "reviewed_on": "2026-11-08",
+        "review_method": "agent-self-review",
+        "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    }
+  ]
+}

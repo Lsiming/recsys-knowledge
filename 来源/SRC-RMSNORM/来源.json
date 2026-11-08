@@ -1,0 +1,33 @@
+{
+  "id": "SRC-RMSNORM",
+  "title": "Root Mean Square Layer Normalization",
+  "kind": "paper",
+  "state": "active",
+  "current": "3a1391ca35d1d0b8071ea812709837449ce0b0404d72bfb751654f45b91c61f0",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1910.07467v1",
+      "revision": "arXiv 1910.07467v1；NeurIPS 2019",
+      "read_scope": "定向核对§3–4的LayerNorm与RMSNorm公式及去均值差异，不采用未读实验速度数字，未复现实验或全文翻译。",
+      "artifacts": [
+        {
+          "name": "rms.html",
+          "sha256": "123eee1103c34b7aa54e84daea4493e83502e55ca77e6ce507e51d3934525b0e",
+          "snapshot": ".local/sources/SRC-RMSNORM/123eee1103c34b7aa54e84daea4493e83502e55ca77e6ce507e51d3934525b0e/rms.html"
+        }
+      ],
+      "fingerprint": "3a1391ca35d1d0b8071ea812709837449ce0b0404d72bfb751654f45b91c61f0",
+      "retrieved_on": "2026-11-08",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "c5da5ea82cf18a99f4ebdef51389ebbdf61dad93f9b37fd329d49d01e2be1370",
+        "pages": [
+          "layernorm-residual"
+        ],
+        "reviewed_on": "2026-11-08",
+        "review_method": "agent-self-review",
+        "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    }
+  ]
+}
