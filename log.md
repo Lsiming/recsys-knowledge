@@ -471,3 +471,7 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 ## 2026-11-08：恢复远端知识检查并补齐译文目录登记
 
 将CI runner从滚动ubuntu-latest固定到ubuntu-24.04，避免Ubuntu 26.04缺少Python 3.9安装包；关闭矩阵fail-fast以独立保留各版本结果。8篇Transformer基础论文仅做过定向原文核对，补入local-only译文目录并明确未制作全文译文、未核实公开全文许可。本地完整检查及41项测试通过；修复提交16fa557同步远端main后，Python 3.9/3.13两个任务全部成功，见[KB-014](文档/会话/KB-014.md)。
+
+## 2026-11-08：固化GitHub API发布路径
+
+按用户要求将已验证的Git Database API推送设为后续获授权发布的默认方式；新增仓库内[发布工具](scripts/push_github_api.py)与离线协议验收，统一[操作流程](文档/工具/GitHub共建.md#通过github-api推送)、规则、路由和续接记忆。保留原提交SHA，显式检查完整公开历史，使用force=false快进并核验ref与CI；不扩大内容或远端操作授权。实际验证见[KB-015](文档/会话/KB-015.md)。

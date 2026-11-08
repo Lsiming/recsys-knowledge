@@ -2,6 +2,8 @@
 
 更新日期：2026-11-08；当前 Codex 会话兼整合者。
 
+[KB-015](文档/会话/KB-015.md)承接用户指定的后续推送方式：获授权后直接使用仓库内GitHub API工具，规避已知Git HTTPS超时；唯一操作说明见[API推送流程](文档/工具/GitHub共建.md#通过github-api推送)，规则、路由与稳定记忆同步。
+
 [KB-014](文档/会话/KB-014.md)记录Transformer知识同步触发的GitHub Actions失败：`ubuntu-latest`滚动到Ubuntu 26.04后，setup-python找不到Python 3.9安装包，矩阵默认fail-fast使3.13被取消。已将runner固定为ubuntu-24.04并设fail-fast=false，同时补齐8篇仅定向核对原文的local-only译文目录登记；完整本地检查及41项测试通过，修复提交16fa557已同步远端main，run 42475601399的Python 3.9/3.13矩阵均成功，详情见交接。
 
 [KB-013](文档/会话/KB-013.md)承接主线整合与Transformer历史102题沉淀：BN补充、协作规则和EMA澄清已先后合入日常主目录main；用户随后明确要求将已核验的Transformer增量一并发布。本次知识内容提交e5dbcce已在两端核验：Git HTTPS不可达时改经GitHub API按原SHA上传对象，再以非强制快进同步远端main；收尾记录和措辞精化随后同线提交。后续默认在主目录main提交；原有治理目录修改与两个canvas保留且不纳入发布。

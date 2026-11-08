@@ -25,6 +25,10 @@ PR 自动检查运行于全新克隆，不要求 `.local/`。正式译文在 `�
 
 共建步骤见 [CONTRIBUTING](../CONTRIBUTING.md)。公开附件链接不能指向 `.local/`；只有本机可用的路径写成行内代码。
 
+## GitHub API推送
+
+获授权后的默认发布工具为[push_github_api.py](push_github_api.py)，用GitHub Git Database API逐项上传并核验本地原SHA，最后以force=false快进目标分支。默认只预览，审查范围后加`--publish`执行；必须传API实时读取的`--base`完整SHA和与origin一致的`--repo`。需要已登录的gh和Git；此工具不属于离线知识检查依赖。完整命令、支持范围和超时恢复只维护在[API推送流程](../文档/工具/GitHub共建.md#通过github-api推送)。
+
 ## 登记来源
 
 先把原件下载到临时位置或使用已有文件；固定来源与版本，再执行。下列命令是形式示例，不是已读论文：

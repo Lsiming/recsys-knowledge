@@ -9,3 +9,5 @@
 - 译文：许可已确认的正式 Markdown 在 `译文/<来源ID>/中文译文.md`；PDF、工作版/未授权 Markdown 和译后工程在 `.local/papers/<来源ID>/translation/`。均为派生材料，不充当独立外部证据；公开元数据见 `译文/目录.json`。
 - PDF附件：原文和中文PDF在独立私有附件库Releases维护，私有Git的附件目录按来源ID/类型/哈希分版本；原文保持原字节，公开源卡的快照哈希不改。普通克隆/CI不需要私有权限。
 - 并发：没有程序锁；遵守任务范围与串行写入约定。允许 GitHub remote；不自动推送，不保存外部凭证。公共 CI 不联网获取论文，不要求原件。
+
+- GitHub发布：优先`push_github_api.py`，由`gh api --hostname github.com`使用现有认证；Python 3.9+标准库与Git，不新增全局设置或保存token。仓库/分支/实时远端基线通过`--repo`、`--branch`、`--base`显式传入；默认只预览，已有授权时加`--publish`。当前工具面向已跟踪origin同名分支的普通单父提交，API通道独立于Git HTTPS，公共CI不调用发布工具。恢复与验收见[流程](../文档/工具/GitHub共建.md#通过github-api推送)。
