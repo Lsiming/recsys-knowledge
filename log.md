@@ -467,3 +467,7 @@ ColdLLM 7页、Agent4Rec 8页、DreamRec 15页正文中文PDF均逐页渲染目�
 check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页三条既有警告。核对104个逐题文件/章节链接、9份快照哈希，枚举方差并数值检查正弦平移、RoPE、LN输入梯度和分块Softmax。未全文翻译、运行模型或独立审查。全树diff检查仅命中治理目录原有尾随空格；该文件与两个canvas不提交。用户明确授权最终同步main和远端，实际发布状态见[KB-013](文档/会话/KB-013.md)。
 
 发布核验：HTTPS Git不可达时经GitHub API按本地原SHA上传对象，以force=false快进远端main；知识内容提交e5dbcce已在两端一致核验。收尾时明确加权实内积矩阵须对称正定，并将独立性条件不足时的方差/协方差表述改为逐项核算；保留原论文假设范围。
+
+## 2026-11-08：恢复远端知识检查并补齐译文目录登记
+
+将CI runner从滚动ubuntu-latest固定到ubuntu-24.04，避免Ubuntu 26.04缺少Python 3.9安装包；关闭矩阵fail-fast以独立保留各版本结果。8篇Transformer基础论文仅做过定向原文核对，补入local-only译文目录并明确未制作全文译文、未核实公开全文许可。本地完整检查及41项测试通过；修复提交16fa557同步远端main后，Python 3.9/3.13两个任务全部成功，见[KB-014](文档/会话/KB-014.md)。
