@@ -465,3 +465,5 @@ ColdLLM 7页、Agent4Rec 8页、DreamRec 15页正文中文PDF均逐页渲染目�
 按用户102题及历史重建笔记定位讲解缺口，定向核对Transformer v7、RoFormer v5、Layer Normalization、Pre-LN分析、BPE、SentencePiece、Weight Tying、RMSNorm、FlashAttention及固定Llama代码。扩充自注意力问题页，新增位置编码、mask/PAD、训练与机器翻译、词表/Embedding、LayerNorm和计算存储六页；形成[逐题映射与历史表述纠正](维护/Transformer历史问答沉淀核验.md)，同步学习路线与索引。保留主线BN/EMA知识，新增来源收据说明实际阅读范围；本批相关plan项目已完成。
 
 check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页三条既有警告。核对104个逐题文件/章节链接、9份快照哈希，枚举方差并数值检查正弦平移、RoPE、LN输入梯度和分块Softmax。未全文翻译、运行模型或独立审查。全树diff检查仅命中治理目录原有尾随空格；该文件与两个canvas不提交。用户明确授权最终同步main和远端，实际发布状态见[KB-013](文档/会话/KB-013.md)。
+
+发布核验：HTTPS Git不可达时经GitHub API按本地原SHA上传对象，以force=false快进远端main；知识内容提交e5dbcce已在两端一致核验。收尾时明确加权实内积矩阵须对称正定，并将独立性条件不足时的方差/协方差表述改为逐项核算；保留原论文假设范围。
