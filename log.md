@@ -449,3 +449,7 @@ ColdLLM 7页、Agent4Rec 8页、DreamRec 15页正文中文PDF均逐页渲染目�
 验证为当前Agent证据与公式自查、结构/链接/索引检查及Git差异检查；未进行独立审查、模型实验或性能测试，未改原文/中文PDF。既存POUL、TaQFormer未整合提示不在本轮范围。
 
 实际检查：check_context、wiki lint、index --check通过；lint保留3条已有警告（组合策略页contested、POUL/TaQFormer待整合）。全工作树diff检查仅报用户原有治理目录第40行尾随空格，本轮文件单独检查通过；原改动及两份canvas均保留。
+
+## 2026-11-08：补齐序列BN的训练与运行统计
+
+核对固定PyTorch v2.9.0的BatchNorm1d文档和forward，向[自注意力问题页](知识库/问题/序列怎样用自注意力建立上下文.md)补入归约轴、本批方差与运行方差估计差异、动量更新、评估模式及padding/未来位置影响；新增[源码阅读笔记](来源/SRC-PYTORCH-BATCHNORM/阅读笔记.md)并绑定版本。数值例子为公式演算，未运行PyTorch或模型实验；不是2017论文的BN消融。
