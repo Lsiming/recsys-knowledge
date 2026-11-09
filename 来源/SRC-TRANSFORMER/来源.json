@@ -27,11 +27,17 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "8822eb24f67fe7ad2307cb9d3abe115bc251e332557937f13bb7a629362487f5",
         "pages": [
-          "self-attention-context"
+          "attention-compute-memory",
+          "attention-mask-padding",
+          "embedding-weight-tying",
+          "layernorm-residual",
+          "self-attention-context",
+          "transformer-position",
+          "transformer-training-translation"
         ],
-        "reviewed_on": "2026-11-02",
+        "reviewed_on": "2026-11-08",
         "review_method": "agent-self-review",
-        "review_note": "2026-11-02按GitHub技术问题增补经典机制：固定v7正文源码§3–5与既有精读复核，张量/Softmax/LN/位置/参数推导标明分析；教学代码只作另列静态证据。复核直接引用及迁移/序列关联页，未改原文/译文或复现实验；无独立审查。"
+        "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
       }
     }
   ]

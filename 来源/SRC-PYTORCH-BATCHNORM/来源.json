@@ -1,0 +1,33 @@
+{
+  "id": "SRC-PYTORCH-BATCHNORM",
+  "title": "PyTorch BatchNorm1d 源码与接口文档",
+  "kind": "code",
+  "state": "active",
+  "current": "3cf58ac213bbe8b5f8be8f6ba1b2370a3268753f5ed1ef072eb6a633c6d0df65",
+  "versions": [
+    {
+      "locator": "https://github.com/pytorch/pytorch/blob/0fabc3ba44823f257e70ce397d989c8de5e362c1/torch/nn/modules/batchnorm.py",
+      "revision": "0fabc3ba44823f257e70ce397d989c8de5e362c1",
+      "read_scope": "静态核对BatchNorm1d输入形状说明、训练/评估统计选择、running mean/variance更新系数、forward偏估计方差与running方差无偏估计、momentum及track_running_stats文档。",
+      "artifacts": [
+        {
+          "name": "batchnorm.py",
+          "sha256": "e4009313f2d296eb7117c011fef7c7103d9b503dff84bc5058fffa7290106a8d",
+          "snapshot": ".local/sources/SRC-PYTORCH-BATCHNORM/e4009313f2d296eb7117c011fef7c7103d9b503dff84bc5058fffa7290106a8d/batchnorm.py"
+        }
+      ],
+      "fingerprint": "3cf58ac213bbe8b5f8be8f6ba1b2370a3268753f5ed1ef072eb6a633c6d0df65",
+      "retrieved_on": "2026-11-08",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "6ca0d53a19efaebb20265a879daf5dbd5bcc8fbad410d57be9398e79ffbbf49d",
+        "pages": [
+          "self-attention-context"
+        ],
+        "reviewed_on": "2026-11-08",
+        "review_method": "agent-self-review",
+        "review_note": "固定PyTorch接口静态核对；区分M-1校正所需IID假设与有限步EMA，手工推导初始化项及批间方差，未运行模型。仅更新BN结论，保留另一会话未完成知识增量。"
+      }
+    }
+  ]
+}

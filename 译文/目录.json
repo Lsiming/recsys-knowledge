@@ -1191,5 +1191,85 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "evidence_url": "https://doi.org/10.1145/3770855.3818132",
     "evidence_sha256": "0c526f83e82ddb2329294fbae41a2159f63cef2b6d18b1503b77ce1f62b1e2d6"
+  },
+  {
+    "source_id": "SRC-BPE",
+    "title": "Neural Machine Translation of Rare Words with Subword Units",
+    "original_url": "https://arxiv.org/abs/1508.07909v5",
+    "revision": "arXiv 1508.07909v5；ACL 2016",
+    "status": "local-only",
+    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
+    "checked_on": "2026-11-08",
+    "license_url": null
+  },
+  {
+    "source_id": "SRC-FLASHATTENTION",
+    "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+    "original_url": "https://arxiv.org/abs/2205.14135v2",
+    "revision": "arXiv 2205.14135v2，2022-06-23",
+    "status": "local-only",
+    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
+    "checked_on": "2026-11-08",
+    "license_url": null
+  },
+  {
+    "source_id": "SRC-LAYERNORM",
+    "title": "Layer Normalization",
+    "original_url": "https://arxiv.org/abs/1607.06450v1",
+    "revision": "arXiv 1607.06450v1，2016-07-21",
+    "status": "local-only",
+    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
+    "checked_on": "2026-11-08",
+    "license_url": null
+  },
+  {
+    "source_id": "SRC-PRELN",
+    "title": "On Layer Normalization in the Transformer Architecture",
+    "original_url": "https://arxiv.org/abs/2002.04745v2",
+    "revision": "arXiv 2002.04745v2；ICML 2020",
+    "status": "local-only",
+    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
+    "checked_on": "2026-11-08",
+    "license_url": null
+  },
+  {
+    "source_id": "SRC-RMSNORM",
+    "title": "Root Mean Square Layer Normalization",
+    "original_url": "https://arxiv.org/abs/1910.07467v1",
+    "revision": "arXiv 1910.07467v1；NeurIPS 2019",
+    "status": "local-only",
+    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
+    "checked_on": "2026-11-08",
+    "license_url": null
+  },
+  {
+    "source_id": "SRC-ROFORMER",
+    "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+    "original_url": "https://arxiv.org/abs/2104.09864v5",
+    "revision": "arXiv 2104.09864v5，2023-11-08",
+    "status": "local-only",
+    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
+    "checked_on": "2026-11-08",
+    "license_url": null
+  },
+  {
+    "source_id": "SRC-SENTENCEPIECE",
+    "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+    "original_url": "https://aclanthology.org/D18-2012/",
+    "revision": "EMNLP 2018，DOI 10.18653/v1/D18-2012；arXiv 1808.06226v1",
+    "status": "local-only",
+    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
+    "checked_on": "2026-11-08",
+    "license_url": null
+  },
+  {
+    "source_id": "SRC-WEIGHT-TYING",
+    "title": "Using the Output Embedding to Improve Language Models",
+    "original_url": "https://arxiv.org/abs/1608.05859v3",
+    "revision": "arXiv 1608.05859v3；EACL 2017",
+    "status": "local-only",
+    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
+    "checked_on": "2026-11-08",
+    "license_url": null
   }
 ]

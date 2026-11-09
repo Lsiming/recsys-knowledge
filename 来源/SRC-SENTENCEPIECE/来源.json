@@ -1,0 +1,33 @@
+{
+  "id": "SRC-SENTENCEPIECE",
+  "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+  "kind": "paper",
+  "state": "active",
+  "current": "40b7e29c229fb533d452631b5960b1ff7007ca494fefa98066233fd61fb356d1",
+  "versions": [
+    {
+      "locator": "https://aclanthology.org/D18-2012/",
+      "revision": "EMNLP 2018，DOI 10.18653/v1/D18-2012；arXiv 1808.06226v1",
+      "read_scope": "阅读摘要、§1–2与方法定义，核实SentencePiece是可直接从原始句子训练的子词tokenizer/detokenizer，不等同于单一分词算法；未复现实验。",
+      "artifacts": [
+        {
+          "name": "sp-full.html",
+          "sha256": "ab18edb5e620788f896d79f58d3a1a9e0ae5c4691d94d328f47ce81f166fdfc7",
+          "snapshot": ".local/sources/SRC-SENTENCEPIECE/ab18edb5e620788f896d79f58d3a1a9e0ae5c4691d94d328f47ce81f166fdfc7/sp-full.html"
+        }
+      ],
+      "fingerprint": "40b7e29c229fb533d452631b5960b1ff7007ca494fefa98066233fd61fb356d1",
+      "retrieved_on": "2026-11-08",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "102b55570a7f53f768df9266061b744e99365ad280602361406e1b08e255aa43",
+        "pages": [
+          "embedding-weight-tying"
+        ],
+        "reviewed_on": "2026-11-08",
+        "review_method": "agent-self-review",
+        "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    }
+  ]
+}

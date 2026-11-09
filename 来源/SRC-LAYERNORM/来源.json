@@ -1,0 +1,34 @@
+{
+  "id": "SRC-LAYERNORM",
+  "title": "Layer Normalization",
+  "kind": "paper",
+  "state": "active",
+  "current": "c94757daf3ae1e3a6cd0b58db86620bd653012b2d55ebdecf5ed5415df086739",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1607.06450v1",
+      "revision": "arXiv 1607.06450v1，2016-07-21",
+      "read_scope": "核对论文摘要、§1–3及测试阶段说明，支持每个training case独立归一化、gain/bias和训练/测试计算一致；Transformer中的特征轴按原Transformer结构公式解释，未复现实验。",
+      "artifacts": [
+        {
+          "name": "ln.html",
+          "sha256": "0c8078c546b53e781f6ce513255ec3ebfeec57a466d0d53373e9eb4abdd6a391",
+          "snapshot": ".local/sources/SRC-LAYERNORM/0c8078c546b53e781f6ce513255ec3ebfeec57a466d0d53373e9eb4abdd6a391/ln.html"
+        }
+      ],
+      "fingerprint": "c94757daf3ae1e3a6cd0b58db86620bd653012b2d55ebdecf5ed5415df086739",
+      "retrieved_on": "2026-11-08",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "3bbfcd8358e481e881c8c64e101b23a836dfeabab739c973b006783a55f2ba47",
+        "pages": [
+          "layernorm-residual",
+          "self-attention-context"
+        ],
+        "reviewed_on": "2026-11-08",
+        "review_method": "agent-self-review",
+        "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "SRC-LLAMA-CACHE-CODE",
+  "title": "Llama 2官方实现：RoPE与逐层KV缓存",
+  "kind": "code",
+  "state": "active",
+  "current": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc",
+  "versions": [
+    {
+      "locator": "https://github.com/meta-llama/llama",
+      "revision": "689c7f261b9c5514636ecc3c5fefefcbb3e6eed7，llama/model.py",
+      "read_scope": "静态读取precompute_freqs_cis、apply_rotary_emb、Attention.forward、Transformer.forward，核实投影后旋转Q/K、旋转K入缓存、V不旋转和start_pos偏移；未运行torch/fairscale模型。",
+      "artifacts": [
+        {
+          "name": "llama.py",
+          "sha256": "60a493c16ca57b1926bf640415dcee6974f1b0b753ff56af0d4ccc7f7b1c784a",
+          "snapshot": ".local/sources/SRC-LLAMA-CACHE-CODE/60a493c16ca57b1926bf640415dcee6974f1b0b753ff56af0d4ccc7f7b1c784a/llama.py"
+        }
+      ],
+      "fingerprint": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc",
+      "retrieved_on": "2026-11-08",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e89901a161261f875b45f0b8de7bdff3eb6edd9b271ca34af73092565cb22d7d",
+        "pages": [
+          "attention-compute-memory",
+          "layernorm-residual",
+          "transformer-position",
+          "transformer-training-translation"
+        ],
+        "reviewed_on": "2026-11-08",
+        "review_method": "agent-self-review",
+        "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    }
+  ]
+}

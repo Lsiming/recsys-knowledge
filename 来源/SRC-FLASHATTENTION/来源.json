@@ -1,0 +1,33 @@
+{
+  "id": "SRC-FLASHATTENTION",
+  "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+  "kind": "paper",
+  "state": "active",
+  "current": "d82bb31c05732b818284a36e271c544cecf564128f219a7357d0f8bf7ca9bcfa",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2205.14135v2",
+      "revision": "arXiv 2205.14135v2，2022-06-23",
+      "read_scope": "定向阅读§2–3.2和附录B.1的稳定Softmax分块归一化，核实精确Attention、不物化完整矩阵与IO/算术成本区别；未复现实验或全文翻译。",
+      "artifacts": [
+        {
+          "name": "flash.html",
+          "sha256": "702e33952c037462551e0f8f7ae15292f024ec194e449d4f7f40c8b95a646a85",
+          "snapshot": ".local/sources/SRC-FLASHATTENTION/702e33952c037462551e0f8f7ae15292f024ec194e449d4f7f40c8b95a646a85/flash.html"
+        }
+      ],
+      "fingerprint": "d82bb31c05732b818284a36e271c544cecf564128f219a7357d0f8bf7ca9bcfa",
+      "retrieved_on": "2026-11-08",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e5ea7ed5c6ccab94911e755d670785e5fcacc9d00921d70cb0a343a549e91c56",
+        "pages": [
+          "attention-compute-memory"
+        ],
+        "reviewed_on": "2026-11-08",
+        "review_method": "agent-self-review",
+        "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    }
+  ]
+}
