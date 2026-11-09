@@ -484,3 +484,7 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 使用arXiv固定HTML与Crossref出版记录交叉核对，Meta官方FairNotification固定commit静态核对README和目录；其余核心策略官方实现本轮未找到。DeepPvisit/TOCHI仅核元数据及摘要，字节SIGIR2026条目仅核身份、作者页面和STEPS引文，不推断独立机制。网页及JSON保存在本地忽略目录`.local/research/push-20261109/`；这是检索和定向阅读，未全文翻译、生成PDF、运行代码/模型或进行独立审查，未登记虚假paper来源。无远端推送。
 
 当前Agent自查后，check_context、wiki lint、index --check及本轮文件diff检查通过，Push词检索命中专题、候选和模块入口；保留已有争议页、POUL/TaQFormer共3条warning。全工作树diff检查仅命中用户原有治理目录第40行尾随空格，该文件及两份canvas保持原样、不纳入提交。
+
+根据业务补充“月初一次性为用户选择本月优惠信息触达日”，新增独立[优惠信息Push触达场景页](知识库/总览/优惠信息Push触达场景.md)，承接预规划日期分配建议：区分需求/响应预测与发送日相对不触达或现行策略的增量效应，加入月初特征可用性、日期随机对照、券成本与日预算约束。优先读TIM的全时间网格预测接口（改为月内日期仍需验证）、STEPS §2.1预规划基线，随后补DeepPvisit；P87列高优先级正文核实候选，CIKM2022作动态发送/等待对照。该问题拆解为基于业务背景的决策与实验建议，不冒充论文实证结论。
+
+场景页接入README、营销补贴总图、Push论文路线与自动知识地图。业务现状只记录用户明确描述；单用户最多一次作为优化接口的条件示例，不写成已确认频次。优惠信息与实际发券/优惠资格分开定义，日期处理、增量目标及模型迁移建议不冒充论文实证。check_context、wiki lint、index --check和本轮差异检查通过；保留3条原有warning，未运行业务实验、训练或远端发布。

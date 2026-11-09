@@ -7,13 +7,15 @@ updated: "2026-11-09"
 summary: "从日内时槽分配、发送或等待到自触发调度，筛选大厂Push时机与长期收益论文"
 aliases: ["Push", "触达时机", "通知推荐", "send time optimization", "notification", "STEPS", "TIM", "DeepPvisit", "FairNotification"]
 sources: {}
-related: ["paper-candidates", "exploration-longterm", "evaluation-bias", "multitask-objectives", "user-sequence", "serving-efficiency"]
+related: ["paper-candidates", "exploration-longterm", "evaluation-bias", "multitask-objectives", "user-sequence", "serving-efficiency", "push-offer-contact"]
 ---
 # Push触达与时机：2022—2026年工业论文路线
 
 Push的关键约束是用户没有主动打开推荐流：系统要决定是否打扰、何时打扰，以及发送多少。内容点击率高不代表此刻发送有增量收益，用户本来就可能回访；连续通知还会影响后续响应、权限关闭和计算成本。因此，时机论文应先按决策对象区分，再比较模型与实验。
 
 截至2026-11-09，本轮筛出13篇互联网公司参与的相关论文，正式题名、公司、年份、出版入口和阅读范围集中在[候选表P75—P87](候选论文.md#push触达与时机)。最贴近发送时机的是快手TIM和字节STEPS；LinkedIn的CIKM2022、KDD2022与2025年Decision Transformer工作则提供“发送或等待”的长期决策路线。推荐顺序按问题贴合度与证据可读性选择，不表示跨平台效果排名。
+
+若关注的是月初一次性为用户选本月优惠发送日，先进入[优惠信息Push触达场景页](../总览/优惠信息Push触达场景.md)：其中区分用款需求峰值、发送响应和相对不触达的增量收益，并给出按该决策粒度调整后的阅读顺序。
 
 ## 日内时槽、发送或等待、自触发调度
 
