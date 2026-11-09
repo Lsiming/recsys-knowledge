@@ -475,3 +475,12 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 ## 2026-11-08：固化GitHub API发布路径
 
 按用户要求将已验证的Git Database API推送设为后续获授权发布的默认方式；新增仓库内[发布工具](scripts/push_github_api.py)与离线协议验收，统一[操作流程](文档/工具/GitHub共建.md#通过github-api推送)、规则、路由和续接记忆。保留原提交SHA，显式检查完整公开历史，使用force=false快进并核验ref与CI；不扩大内容或远端操作授权。实际验证见[KB-015](文档/会话/KB-015.md)。
+
+
+## 2026-11-09：检索Push触达与发送时机工业论文
+
+按2022—2026年、大厂参与和发送时机相关度筛选13篇，补入[统一候选表P75—P87](知识库/阅读/候选论文.md#push触达与时机)，新增[专题阅读路线](知识库/阅读/Push触达与时机论文路线.md)并从长期策略模块接入。区分TIM给定配额的日内时槽分配、LinkedIn发送/等待策略与STEPS自触发调度，另列生存模型、拍卖容量分配、打扰偏好及内容/文案推荐；关键线上数字附固定v1、章节、平台与对照范围，不作跨平台排名。纠正TIM为ICMR2024、PushGen为WSDM2026、DeepPvisit为WWW2023 Companion，2019状态转移生存模型不因2022上传arXiv计为新论文。
+
+使用arXiv固定HTML与Crossref出版记录交叉核对，Meta官方FairNotification固定commit静态核对README和目录；其余核心策略官方实现本轮未找到。DeepPvisit/TOCHI仅核元数据及摘要，字节SIGIR2026条目仅核身份、作者页面和STEPS引文，不推断独立机制。网页及JSON保存在本地忽略目录`.local/research/push-20261109/`；这是检索和定向阅读，未全文翻译、生成PDF、运行代码/模型或进行独立审查，未登记虚假paper来源。无远端推送。
+
+当前Agent自查后，check_context、wiki lint、index --check及本轮文件diff检查通过，Push词检索命中专题、候选和模块入口；保留已有争议页、POUL/TaQFormer共3条warning。全工作树diff检查仅命中用户原有治理目录第40行尾随空格，该文件及两份canvas保持原样、不纳入提交。
