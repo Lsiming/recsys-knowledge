@@ -6,8 +6,8 @@ status: "reviewed"
 updated: "2026-11-09"
 summary: "从日内时槽分配、发送或等待到自触发调度，筛选大厂Push时机与长期收益论文"
 aliases: ["Push", "触达时机", "通知推荐", "send time optimization", "notification", "STEPS", "TIM", "DeepPvisit", "FairNotification"]
-sources: {}
-related: ["paper-candidates", "exploration-longterm", "evaluation-bias", "multitask-objectives", "user-sequence", "serving-efficiency", "push-offer-contact"]
+sources: {"SRC-TIM": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f"}
+related: ["paper-candidates", "exploration-longterm", "evaluation-bias", "multitask-objectives", "user-sequence", "serving-efficiency", "push-offer-contact", "notification-quota-timing"]
 ---
 # Push触达与时机：2022—2026年工业论文路线
 
@@ -29,9 +29,11 @@ Push的关键约束是用户没有主动打开推荐流：系统要决定是否�
 
 ### TIM：先学一天中哪些时段更适合触达
 
-TIM把长期通知接收、点击、观看等交互组织成“天×时槽”，用Temporal Attention Unit、旋转位置编码与日期/时间信息建模周期和跨日变化。输出是全天各槽响应概率，而不是只预测当前时刻。给定日配额后，再把额度分配到各槽并控制累计发送节奏。这适合“配额规则相对稳定，但统一时刻发送太粗”的业务起点。依据为[固定v1全文](https://arxiv.org/html/2406.07067v1)§2—3；它主要预测响应，不直接估计发送相对不发送的因果增量。
+TIM把长期通知接收、点击、观看等交互组织成“天×时槽”，用Temporal Attention Unit先跨天聚合相同时槽，再用旋转位置编码融合时槽；日期类型嵌入区分工作日与休息日。输出是全天各槽响应概率，而不是只预测当前时刻。给定日配额后，再把额度分配到各槽并控制累计发送节奏。这适合“配额规则相对稳定，但统一时刻发送太粗”的业务起点。依据为[固定v1全文](https://arxiv.org/html/2406.07067v1)§2—3；它主要预测响应，不直接估计发送相对不发送的因果增量。
 
 作者在§3.4 Table 3报告：相同配额分配算法下，以均匀发送为对照，CTR相对提升1.217%、DAU提升0.100%。观看时长提升0.066%的p值为0.11；权限关闭变化也未显著，不能据此证明打扰下降或两策略等效。正式出版是[ICMR2024](https://doi.org/10.1145/3652583.3657614)，不能误记为KDD/SIGIR。
+
+已完成[TIM全文精读](../../来源/SRC-TIM/阅读笔记.md)，机制、KKT条件和累计pacing边界统一见[问题页](../问题/给定配额怎样安排通知发送时机.md)。它的比例分配依赖特定正则系数，配额由外部给定，原概率式还需补足负值边界；不能等同于月初整数选日或因果增量模型。
 
 ### LinkedIn：把等待当作可以学习的动作
 
@@ -67,4 +69,4 @@ STEPS把固定轮询改为自触发闭环：基于Decision Transformer的规划�
 
 Meta官方[facebookresearch/FairNotification](https://github.com/facebookresearch/FairNotification/tree/5f37544360a20df9fc3a462a196bc71427d240d3)的README明确关联Fair Notification论文，包含模拟、指标分析、派生数据notebook及Julia的Eisenberg–Gale求解文件；README提供[Instagram通知数据入口](https://socialmediaarchive.org/record/55?&ln=en)。代码许可为CC-BY-NC-4.0，复用时需核对非商业限制。本轮只静态核对固定commit的README与目录，未下载数据、运行notebook或验证可复现性。TIM、STEPS及LinkedIn核心策略论文，本轮未找到能够确认对应的官方实现；这不表示它们一定没有开源。
 
-检索截至2026-11-09。arXiv固定v1的摘要、方法和实验相关段落用于定向比较，会议身份用Crossref出版元数据交叉核对；DeepPvisit与TOCHI仅核元数据/摘要，P87仅核出版记录、作者页面与STEPS引文。不是13篇全文精读，未制作全文翻译、中文PDF或运行模型实验。网页与元数据响应保存在本地忽略目录`.local/research/push-20261109/`，不随Git分发。
+检索截至2026-11-09。arXiv固定v1的摘要、方法和实验相关段落用于定向比较，会议身份用Crossref出版元数据交叉核对；DeepPvisit与TOCHI仅核元数据/摘要，P87仅核出版记录、作者页面与STEPS引文。其中TIM已补齐全文精读、正文翻译和4页中文PDF，见其阅读笔记；其余不称全文精读。未运行模型实验。网页与元数据响应保存在本地忽略目录`.local/research/push-20261109/`，不随Git分发。

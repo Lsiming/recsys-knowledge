@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-10-30",
-  "inventory_note": "63篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "updated": "2026-11-09",
+  "inventory_note": "64篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -2131,6 +2131,48 @@
         "size_bytes": 7320300,
         "pages": 18,
         "verified_download_sha256": "21d495db241c3a613e257f73f594c6ed338aef4bbc5c4b0cdce234425ea867aa"
+      }
+    },
+    {
+      "source_id": "SRC-TIM",
+      "title": "TIM: Temporal Interaction Model in Notification System",
+      "original_url": "https://arxiv.org/abs/2406.07067v1",
+      "revision": "arXiv:2406.07067v1，2024-06-11；ICMR2024，DOI 10.1145/3652583.3657614，5页",
+      "input_sha256": "e8d5cb6007a118ea3168901c661f6b8231fc35e54ca1551597809f1cbbcb6a28",
+      "input_pages": 4,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–4、2幅编号图的图注/描述、3表标题与表头、通讯作者脚注译为中文；无附录。原公式(1)–(10)与全部表内数值保留；图内英文、人名机构、出版/权利信息及24条参考文献保留。当前模型翻译，基于原LaTeX以acmart双栏编译，明确AI辅助翻译与统计解释译注。",
+      "status": "private",
+      "reason": "4页正文中文PDF逐页验收；采用原文与译文已私有备份，核对远端digest并真实登录下载验证PDF类型、大小与完整SHA256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-09",
+        "notes": "固定arXiv v1采用nonexclusive-distrib/1.0，PDF首页为ACM licensed及个人/课堂复制条款；未确认公开全文译文许可。保留7位作者及原权利声明，原/译PDF只作私有备份，未公开正式Markdown全文译文。",
+        "evidence_url": "https://arxiv.org/abs/2406.07067v1",
+        "evidence_sha256": "92f549227ee816db5b230ef9f06e30ba65c3d1046b0f3334ad733050e3ebc12a",
+        "original_pdf_sha256": "bb41bdc7294e291e2ce6104ccc5e2cf84ffd006b9b86eccf7b07151c81c0f593",
+        "license_id": "arXiv-nonexclusive-distrib-1.0 / ACM licensed",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "authors": [
+          "Huxiao Ji",
+          "Haitao Yang",
+          "Linchuan Li",
+          "Shunyu Zhang",
+          "Cunyi Zhang",
+          "Xuanping Li",
+          "Wenwu Ou"
+        ]
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261109",
+        "asset_name": "SRC-TIM.zh-CN.private.20261109.1.pdf",
+        "translation_version": "20261109.1",
+        "sha256": "e8d5cb6007a118ea3168901c661f6b8231fc35e54ca1551597809f1cbbcb6a28",
+        "size_bytes": 388394,
+        "pages": 4,
+        "verified_download_sha256": "e8d5cb6007a118ea3168901c661f6b8231fc35e54ca1551597809f1cbbcb6a28"
       }
     }
   ],

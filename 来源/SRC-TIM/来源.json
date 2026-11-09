@@ -1,0 +1,47 @@
+{
+  "id": "SRC-TIM",
+  "title": "TIM: Temporal Interaction Model in Notification System",
+  "kind": "paper",
+  "state": "active",
+  "current": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2406.07067v1",
+      "revision": "arXiv:2406.07067v1，2024-06-11；ICMR2024，DOI 10.1145/3652583.3657614，5页",
+      "read_scope": "通读固定v1全部5页及全部LaTeX正文：摘要、正文§1–4、10个编号公式、2幅编号图与3表，原文逐页渲染目视；核对7位作者、ICMR2024出版信息和arXiv许可。参考文献表已检查，未逐篇阅读引文；未取得或执行官方模型代码，未训练或复现线上实验。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "bb41bdc7294e291e2ce6104ccc5e2cf84ffd006b9b86eccf7b07151c81c0f593",
+          "snapshot": ".local/sources/SRC-TIM/bb41bdc7294e291e2ce6104ccc5e2cf84ffd006b9b86eccf7b07151c81c0f593/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "707f1ba52fbb22da3b12ab6ef9ef7027b9e8c763ae4f50a5f251141e77b30474",
+          "snapshot": ".local/sources/SRC-TIM/707f1ba52fbb22da3b12ab6ef9ef7027b9e8c763ae4f50a5f251141e77b30474/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "92f549227ee816db5b230ef9f06e30ba65c3d1046b0f3334ad733050e3ebc12a",
+          "snapshot": ".local/sources/SRC-TIM/92f549227ee816db5b230ef9f06e30ba65c3d1046b0f3334ad733050e3ebc12a/abs.html"
+        }
+      ],
+      "fingerprint": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f",
+      "retrieved_on": "2026-11-09",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "75eb91d68eef2a41848cafa860c0929bdd01017cf3ee4a4c987e0dc4d803a0cf",
+        "pages": [
+          "exploration-longterm",
+          "notification-quota-timing",
+          "paper-candidates",
+          "push-offer-contact",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-09",
+        "review_method": "agent-self-review",
+        "review_note": "当前Agent通读固定v1全部5页及完整正文源码，自查5个直接引用知识页与来源笔记的分时响应目标、两级TAU、特定lambda下KKT比例解、累计pacing缺下界及3表/线上显著性边界。月初优惠选日为业务迁移分析，区分整数日期、月初特征可用性、需求和因果增量、容量及金额成本。4页中文PDF已逐页目视，原/译私有备份真实登录下载核验，两库目录已同步；未运行模型或独立审查。"
+      }
+    }
+  ]
+}
