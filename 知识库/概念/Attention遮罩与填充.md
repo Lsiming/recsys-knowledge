@@ -3,11 +3,11 @@ id: "attention-mask-padding"
 title: "Attention遮罩如何组合并处理填充位置"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-08"
+updated: "2026-11-14"
 summary: "以make_std_mask、广播、PAD Query和全遮罩Softmax说明可见性与监督边界"
 aliases: ["make_std_mask", "Key Padding Mask", "Causal Mask", "Padding Mask", "PAD Query", "Loss Mask", "NaN", "遮罩广播", "mask并行"]
-sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28"}
-related: ["self-attention-context", "transformer-training-translation"]
+sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28", "SRC-GPT1-CODE": "7cd5d15bf083af358d280a6b681bf3d17c1069301589081bd501543e662147f9"}
+related: ["self-attention-context", "transformer-training-translation", "sequence-representation-pooling"]
 ---
 # Attention遮罩如何组合并处理填充位置
 
@@ -64,6 +64,16 @@ $$L=-\frac1{N_{valid}}\sum_{b,t}\mathbf1[y_{bt}\ne PAD]\log p_{bt}(y_{bt}),\quad
 一行全为$-\infty$时，形式上的$\sum_j\exp(-\infty)=0$，无法得到概率分布；稳定Softmax先减行最大值又遇到$-\infty-(-\infty)$，朴素实现会NaN。具体融合算子可以约定全遮罩行输出0，不能因此说所有Softmax都天然安全。
 
 若**把整行替换为相同有限常数**$-C$，稳定Softmax得到均匀分布，而非全0。如果只是给所有原logit都加$-C$，精确算术下Softmax完全不变；有限精度下也可能因分数被舍入为相同值而变均匀。两种操作都没有表达“没有任何可读Key”。有效Query至少应有一个允许Key；无效Query可采用有明确全遮罩语义的实现，或在Softmax前构造安全替代行、计算后屏蔽输出，避免NaN进入反传。只在出现NaN后乘0并不能消除NaN。
+
+## 左填充和右填充怎样选择
+
+右填充把有效Token放在前部，便于训练时保持原位置与标签对齐；左填充让每条有效前缀的最后Token位于数组末列，便于某些批量生成实现统一读取末列logits。选择取决于数据构造、位置编号和读出逻辑，没有一个方向适用于所有模型与接口。
+
+因果模型的右填充有效Query不会读取右侧PAD；即使如此，Loss仍要排除无效标签，句级Pooling仍要排除无效状态。左填充则可能让有效Query读取左侧PAD，通常要配Key padding mask，并使position IDs按训练约定对齐；最左PAD Query若无任何合法Key，还需处理全遮罩行。
+
+若批量生成直接读`logits[:,-1]`，右填充短序列读到的是PAD Query的结果，不能称其为最后真实Token预测。可改用正确末有效索引，或选用支持左填充且正确处理位置与mask的实现。[末位置与Pooling](Token表示怎样汇聚成序列表示.md#右填充时怎样取末位置和做均值)给出索引公式。
+
+GPT官方ROCStories脚本采用右填充，`M`只作Loss mask；它利用有效前缀在PAD之前的因果条件，不是已经实现了通用Key padding mask。[固定代码](../../来源/SRC-GPT1-CODE/阅读笔记.md#错位标签与损失平均)。
 
 ## 因果依赖为何不阻止训练并行
 

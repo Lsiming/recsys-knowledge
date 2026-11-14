@@ -3,10 +3,10 @@ id: "transformer-position"
 title: "Transformer的位置编码：正弦、学习表与RoPE"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-08"
+updated: "2026-11-14"
 summary: "解释频率与成对维度、偏移的线性变换、RoPE相对点积及旋转Key缓存"
 aliases: ["正弦位置编码", "Sinusoidal PE", "pos和i", "高低频", "偶数维奇数维", "旋转矩阵", "RoPE", "KV Cache", "旋转Key"]
-sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ROFORMER": "d6c0d9c59c5151fab8c5a0febd7f9901b4391991480e4a49a7bc4957f80036c4", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc"}
+sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ROFORMER": "d6c0d9c59c5151fab8c5a0febd7f9901b4391991480e4a49a7bc4957f80036c4", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-GPT1": "346378979c197abef55857af94342a537f9401868d4cac993cf0d3aab8260bee"}
 related: ["self-attention-context", "transformer-training-translation"]
 ---
 # Transformer的位置编码：正弦、学习表与RoPE
@@ -40,6 +40,12 @@ $$u_{p+k}=\underbrace{\begin{bmatrix}\cos(k\omega)&\sin(k\omega)\\-\sin(k\omega)
 $$u_p^\top u_{p+k}=\cos(k\omega),\qquad PE(p)^\top PE(q)=\sum_i\cos((p-q)\omega_i).$$
 
 但实际Attention中$Q=(X+P)W_Q,K=(X+P)W_K$还包含内容、交叉项和学习投影，不能据此说实际分数只依赖位置差。这些等式是对§3.5的数学展开；作者以固定偏移可线性表达为设计假设，并未证明网络一定学会相对位置算法。表3(E)仅显示该机器翻译开发协议中学习式PE与正弦PE表现接近，也未证明长度外推必然可靠。[§3.5；表3，PDF第9页](https://arxiv.org/pdf/1706.03762v7#page=9)
+
+## 学习位置表为什么不能直接保证长度外推
+
+学习式绝对位置表为$P\in\mathbb R^{L_{\max}\times d}$，位置$i$直接取$P_i$。通常仅将位置表用于输入查表时，训练只覆盖前$L_{train}$个位置，其余行便没有经位置查表收到这些样本的梯度；若同一张表还被其他路径使用，须另计那些梯度。超出表长则不能直接查表。扩表、插值、重新训练或改变位置方案都是额外设计，不能由“参数可学习”自动完成。
+
+GPT初代在512 Token上下文训练，并使用学习式位置表；原文没有给出与正弦位置的隔离对照，也没证明长序列外推能力。[GPT §4.1，第5页](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf#page=5)。即使每个位置都有定义，序列长度变化仍可能改变注意力分布，因而正弦或RoPE“可以算更大索引”也不等于效果必然保持。位置公式的可计算范围与训练后模型的可靠范围应分别讨论。
 
 ## 从加性位置向量到RoPE
 

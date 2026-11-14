@@ -27,11 +27,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "563f89d8353eb4a16037acb861de4292b137b8825e7b53b866e9963402038533",
         "pages": [
-          "pretraining-task-transfer"
+          "pretraining-task-transfer",
+          "sequence-representation-pooling"
         ],
-        "reviewed_on": "2026-10-27",
+        "reviewed_on": "2026-11-14",
         "review_method": "agent-self-review",
-        "review_note": "核对v2正文与附录A–C、表1–8及GPT/P5比较，17页中文PDF逐页渲染目视；区分MLM条件、NSP、任务头和预算/指标口径；REV-031保留原文疑点，未运行模型或独立审查。 2026-10-27纠正早期PDF验收遗漏：中文字体映射导致当前渲染中文不可见；已用LuaLaTeX重编，全部页面重新渲染目视、字体ToUnicode与文本提取核查通过。仅改变本地排版与笔记交付说明，plan直接引用页和关联候选的科研结论不受影响。"
+        "review_note": "复核既有固定v2笔记的§3/§3.1及脚注6，与GPT读出位置和NSP监督比较；新增序列池化页不把未微调CLS当通用句向量。检查两个直接引用页，保留已有MLM/T5/P5任务边界；本轮未重跑BERT。"
       }
     }
   ]

@@ -3,11 +3,11 @@ id: "transformer-question-path"
 title: "Transformer问题驱动学习路线"
 type: "map"
 status: "reviewed"
-updated: "2026-11-08"
+updated: "2026-11-14"
 summary: "用GitHub技术问题反查注意力、训练、推理和推荐迁移的学习入口，区分经典构件与现代扩展"
 aliases: ["Transformer面试", "Transformer常考题", "Transformer八股", "Transformer知识覆盖", "技术问题梳理", "RoPE", "ALiBi", "FlashAttention", "KV Cache", "GQA", "RMSNorm", "SwiGLU"]
 sources: {"SRC-TRANSFORMER-INTERVIEW": "d4e96b7bc7f5b8b1d308be92016b2e6fb93fa24e40be0d045e9cf883ffeb3392", "SRC-MLNLP-TRANSFORMER": "f79f30e659d0550e6501c10897ed9bc022b0d6f43f199f976d7deb77b1faaa41", "SRC-LLM-INTERVIEW-TRANSFORMER": "1187df8efd6eec8ef65ce5c8f965d4928a911e948d2618c0d418e869e12972b6", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28"}
-related: ["self-attention-context", "pretraining-task-transfer", "classic-reading-path", "learning-resources", "target-decoding-compute", "transformer-position", "layernorm-residual", "attention-mask-padding", "transformer-training-translation", "embedding-weight-tying", "attention-compute-memory"]
+related: ["self-attention-context", "pretraining-task-transfer", "classic-reading-path", "learning-resources", "target-decoding-compute", "transformer-position", "layernorm-residual", "attention-mask-padding", "transformer-training-translation", "embedding-weight-tying", "attention-compute-memory", "language-model-loss-gradient", "sequence-representation-pooling"]
 ---
 # Transformer问题驱动学习路线
 
@@ -24,6 +24,8 @@ related: ["self-attention-context", "pretraining-task-transfer", "classic-readin
 | 两种词表、联合BPE、SentencePiece、hE转置、Weight Tying、Xavier | [词表嵌入与权重共享](../概念/词表嵌入与权重共享.md) |
 | LN统计轴、gamma/beta、反传、推理、Pre/Post-LN恒等路径 | [LayerNorm与残差梯度](../概念/LayerNorm与残差梯度.md) |
 | 平方矩阵、FP16字节数、KV缓存、FlashAttention在线Softmax | [计算与存储](../概念/Attention计算与存储.md) |
+
+[GPT初代学习思考](../../来源/SRC-GPT1/学习思考.md)把论文追问串成“架构 → 逐位置预测 → 损失反传 → 任务迁移 → 序列读出”。其中[交叉熵与梯度](../概念/语言模型的词表预测与交叉熵.md)给出p−q、共享Embedding和QKV反传，[序列表示](../概念/Token表示怎样汇聚成序列表示.md)比较Extract、CLS、Last、Mean与Attention Pooling。
 
 这些正文保留公式、最小例子和来源定位，不要求先阅读论文全文。102题的逐项对应、历史答案纠正及核验范围集中在[沉淀核验](../../维护/Transformer历史问答沉淀核验.md)，问题状态不混入技术正文。
 

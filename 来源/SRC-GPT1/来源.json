@@ -20,13 +20,16 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "5d33b60ac186c8e2f4b31a6b9dc7634a59a5cb1fe44b129690ef491ee192337b",
+        "notes_sha256": "facae2bf8b51266e8a3c22f304df96b7476d5caaee72b9d779e6d052a7b1df33",
         "pages": [
-          "pretraining-task-transfer"
+          "language-model-loss-gradient",
+          "pretraining-task-transfer",
+          "sequence-representation-pooling",
+          "transformer-position"
         ],
-        "reviewed_on": "2026-10-27",
+        "reviewed_on": "2026-11-14",
         "review_method": "agent-self-review",
-        "review_note": "核对官方PDF正文1–8页、式1–5、表1–5、图1–2与文献身份；中文重排PDF12页全部渲染目视，最终编译无溢出缺字或未定义引用，保留英文文献与原图文字。区分因果预训练、分类头微调与P5条件生成；辅助LM依任务而定，GLUE分差和表5平均口径见REV-030。无作者TeX，官方仓库树核对不等于读实现；未运行模型，当前Agent自查。 2026-10-27纠正早期PDF验收遗漏：中文字体映射导致当前渲染中文不可见；已用LuaLaTeX重编，全部页面重新渲染目视、字体ToUnicode与文本提取核查通过。仅改变本地排版与笔记交付说明，plan直接引用页和关联候选的科研结论不受影响。"
+        "review_note": "全局自查2018官方PDF§3至5、式1至5、图1至2、表5；复核全部直接引用页、思考页逐题导航和参数/损失/读出边界。补知识入口，保持原论文版本/译文/PDF不变；数学核验仅教学公式，未运行模型。"
       }
     }
   ]

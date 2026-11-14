@@ -63,6 +63,22 @@ class EvidenceLifecycle(unittest.TestCase):
         self.assertEqual(wiki.lint(self.root, local=True)[0], [])
         self.assertEqual(wiki.search(self.root, "证据范围", 3)[0]["title"], "Evidence page")
 
+    def test_source_index_links_only_existing_thoughts_and_keeps_receipts(self):
+        self.integrate()
+        index_path = self.root / "来源/来源目录.md"
+        link = "[学习思考](SRC-TEST/学习思考.md)"
+        self.assertNotIn(link, index_path.read_text())
+        thoughts = self.note.with_name("学习思考.md")
+        thoughts.write_text("# Learning questions and exact answer links")
+        self.run_cli("index")
+        self.assertIn(link, index_path.read_text())
+        self.assertEqual(wiki.pending(self.root), [])
+        thoughts.write_text(thoughts.read_text() + chr(10) + "A later question")
+        self.assertEqual(wiki.pending(self.root), [])
+        thoughts.unlink()
+        self.run_cli("index")
+        self.assertNotIn(link, index_path.read_text())
+
     def test_source_revision_preserves_history_and_invalidates_old_claims(self):
         self.integrate()
         old = wiki.records(self.root)["SRC-TEST"]["current"]
