@@ -20,7 +20,7 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "facae2bf8b51266e8a3c22f304df96b7476d5caaee72b9d779e6d052a7b1df33",
+        "notes_sha256": "e033db80748321c437e413205fd9be5c4e700c94312693196312568e8d55b9bd",
         "pages": [
           "language-model-loss-gradient",
           "pretraining-task-transfer",
@@ -29,7 +29,7 @@
         ],
         "reviewed_on": "2026-11-14",
         "review_method": "agent-self-review",
-        "review_note": "全局自查2018官方PDF§3至5、式1至5、图1至2、表5；复核全部直接引用页、思考页逐题导航和参数/损失/读出边界。补知识入口，保持原论文版本/译文/PDF不变；数学核验仅教学公式，未运行模型。"
+        "review_note": "仅修正中文PDF导航与版本说明；真实登录下载恢复字体修正版，页数/大小/SHA256与私有登记一致，12页渲染目视及中文提取自查。复核四个直接引用页的笔记入口，论文正文、证据版本和科研结论未改。"
       }
     }
   ]
