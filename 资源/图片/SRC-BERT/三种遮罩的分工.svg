@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-label="BERT输入替换、注意力可见性和损失位置的分工">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#42566e"/></marker></defs>
+<style>text{font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#172b45;font-size:20px}.small{font-size:17px}.title{font-size:26px;font-weight:700}.label{font-size:21px;font-weight:600}.arrow{fill:none;stroke:#42566e;stroke-width:2.5;marker-end:url(#arrow)}</style>
+<rect width="1120" height="640" fill="#fff"/>
+<text x="560" y="42" class="title" text-anchor="middle">同一条样本，三种“Mask”不是同一件事</text>
+<text x="32" y="130" class="label" text-anchor="start">位置</text>
+<rect x="189" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="221" y="129" class="small" text-anchor="middle">0</text>
+<rect x="258" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="290" y="129" class="small" text-anchor="middle">1</text>
+<rect x="327" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="359" y="129" class="small" text-anchor="middle">2</text>
+<rect x="396" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="428" y="129" class="small" text-anchor="middle">3</text>
+<rect x="465" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="497" y="129" class="small" text-anchor="middle">4</text>
+<rect x="534" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="566" y="129" class="small" text-anchor="middle">5</text>
+<rect x="603" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="635" y="129" class="small" text-anchor="middle">6</text>
+<rect x="672" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="704" y="129" class="small" text-anchor="middle">7</text>
+<rect x="741" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="773" y="129" class="small" text-anchor="middle">8</text>
+<rect x="810" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="842" y="129" class="small" text-anchor="middle">9</text>
+<rect x="879" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="911" y="129" class="small" text-anchor="middle">10</text>
+<rect x="948" y="100" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="980" y="129" class="small" text-anchor="middle">11</text>
+<text x="32" y="188" class="label" text-anchor="start">原Token</text>
+<rect x="189" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="221" y="187" class="small" text-anchor="middle">CLS</text>
+<rect x="258" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="290" y="187" class="small" text-anchor="middle">我</text>
+<rect x="327" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="359" y="187" class="small" text-anchor="middle">买</text>
+<rect x="396" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="428" y="187" class="small" text-anchor="middle">了</text>
+<rect x="465" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="497" y="187" class="small" text-anchor="middle">相机</text>
+<rect x="534" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="566" y="187" class="small" text-anchor="middle">SEP</text>
+<rect x="603" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="635" y="187" class="small" text-anchor="middle">它</text>
+<rect x="672" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="704" y="187" class="small" text-anchor="middle">可以</text>
+<rect x="741" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="773" y="187" class="small" text-anchor="middle">拍</text>
+<rect x="810" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="842" y="187" class="small" text-anchor="middle">照</text>
+<rect x="879" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="911" y="187" class="small" text-anchor="middle">SEP</text>
+<rect x="948" y="158" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="980" y="187" class="small" text-anchor="middle">PAD</text>
+<text x="32" y="246" class="label" text-anchor="start">损坏输入</text>
+<rect x="189" y="216" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="221" y="245" class="small" text-anchor="middle">CLS</text>
+<rect x="258" y="216" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="290" y="245" class="small" text-anchor="middle">我</text>
+<rect x="327" y="216" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="359" y="245" class="small" text-anchor="middle">买</text>
+<rect x="396" y="216" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="428" y="245" class="small" text-anchor="middle">了</text>
+<rect x="465" y="216" width="64" height="46" rx="9" fill="#fff0d7" stroke="#9bacbf"/>
+<text x="497" y="245" class="small" text-anchor="middle">MASK</text>
+<rect x="534" y="216" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="566" y="245" class="small" text-anchor="middle">SEP</text>
+<rect x="603" y="216" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="635" y="245" class="small" text-anchor="middle">它</text>
+<rect x="672" y="216" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="704" y="245" class="small" text-anchor="middle">可以</text>
+<rect x="741" y="216" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="773" y="245" class="small" text-anchor="middle">拍</text>
+<rect x="810" y="216" width="64" height="46" rx="9" fill="#fff0d7" stroke="#9bacbf"/>
+<text x="842" y="245" class="small" text-anchor="middle">灯</text>
+<rect x="879" y="216" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="911" y="245" class="small" text-anchor="middle">SEP</text>
+<rect x="948" y="216" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="980" y="245" class="small" text-anchor="middle">PAD</text>
+<text x="32" y="354" class="label" text-anchor="start">可作Key</text>
+<rect x="189" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="221" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="258" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="290" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="327" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="359" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="396" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="428" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="465" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="497" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="534" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="566" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="603" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="635" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="672" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="704" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="741" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="773" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="810" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="842" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="879" y="324" width="64" height="46" rx="9" fill="#e2f2ea" stroke="#9bacbf"/>
+<text x="911" y="353" class="small" text-anchor="middle">可读</text>
+<rect x="948" y="324" width="64" height="46" rx="9" fill="#f8dddd" stroke="#9bacbf"/>
+<text x="980" y="353" class="small" text-anchor="middle">禁止</text>
+<text x="32" y="462" class="label" text-anchor="start">MLM计loss</text>
+<rect x="189" y="432" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="221" y="461" class="small" text-anchor="middle">—</text>
+<rect x="258" y="432" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="290" y="461" class="small" text-anchor="middle">—</text>
+<rect x="327" y="432" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="359" y="461" class="small" text-anchor="middle">—</text>
+<rect x="396" y="432" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="428" y="461" class="small" text-anchor="middle">—</text>
+<rect x="465" y="432" width="64" height="46" rx="9" fill="#dcecf9" stroke="#9bacbf"/>
+<text x="497" y="461" class="small" text-anchor="middle">相机</text>
+<rect x="534" y="432" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="566" y="461" class="small" text-anchor="middle">—</text>
+<rect x="603" y="432" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="635" y="461" class="small" text-anchor="middle">—</text>
+<rect x="672" y="432" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="704" y="461" class="small" text-anchor="middle">—</text>
+<rect x="741" y="432" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="773" y="461" class="small" text-anchor="middle">—</text>
+<rect x="810" y="432" width="64" height="46" rx="9" fill="#dcecf9" stroke="#9bacbf"/>
+<text x="842" y="461" class="small" text-anchor="middle">照</text>
+<rect x="879" y="432" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="911" y="461" class="small" text-anchor="middle">—</text>
+<rect x="948" y="432" width="64" height="46" rx="9" fill="#f1f4f8" stroke="#9bacbf"/>
+<text x="980" y="461" class="small" text-anchor="middle">—</text>
+<text x="560" y="292" class="" text-anchor="middle">① 输入替换改符号：MASK仍是有效位置；随机词仍可能是错的</text>
+<text x="560" y="401" class="" text-anchor="middle">② 对任意有效Query：可读0–10全部Key；不加因果三角限制</text>
+<text x="560" y="510" class="" text-anchor="middle">③ Loss只取4与9，标签是原Token；不计loss ≠ 不参与上下文</text>
+<rect x="45" y="539" width="1030" height="52" rx="9" fill="#f1eef9" stroke="#9f8dbe"/>
+<text x="560" y="572" class="" text-anchor="middle">原样分支：若4仍输入“相机”，它仍属于M、仍恢复“相机”</text>
+<text x="560" y="620" class="small" text-anchor="middle">原创教学示意，依据BERT v2 §3.1及通用填充规则；两目标手动指定，非15%采样实测。</text>
+</svg>

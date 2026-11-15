@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "images": [
+    {
+      "path": "资源/图片/SRC-BERT/三种遮罩的分工.svg",
+      "sha256": "496e61103e0c9e04564f7fd3cac80d2f46e1ab1cc9d123989dd9954a6f95edb5",
+      "kind": "原创机制示意",
+      "source_id": "SRC-BERT",
+      "source_version": "arXiv 1810.04805v2",
+      "basis": "§3–4，图1–2；Mask图的padding部分是通用批处理解释",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主布局与中文教学例子；不是原图复制或真实模型输出；省略Block和输出头内部",
+      "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-BERT/预训练与任务迁移.svg",
+      "sha256": "792a23ef58d48dce8fd8df3289abbcf4641c6253a3f453998c9366100ab45c08",
+      "kind": "原创机制示意",
+      "source_id": "SRC-BERT",
+      "source_version": "arXiv 1810.04805v2",
+      "basis": "§3–4，图1–2；Mask图的padding部分是通用批处理解释",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主布局与中文教学例子；不是原图复制或真实模型输出；省略Block和输出头内部",
+      "created_on": "2026-11-15"
+    }
+  ]
+}

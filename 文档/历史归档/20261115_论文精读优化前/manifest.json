@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-15",
+  "baseline": "06c968cebb714e9e9bce4dedc349d9885b20c5e5",
+  "reason": "论文精读写作与理解验收优化前保存原字节；仅供比对，不代表当前工作流与授权",
+  "files": [
+    {
+      "source": "维护/工作流.md",
+      "snapshot": "维护/工作流.md",
+      "sha256": "357c569bf72dd4c9348ee5a8c47a42924af1158bfa397d898421bf4dc095e2ce"
+    },
+    {
+      "source": "文档/模板/论文笔记模板.md",
+      "snapshot": "文档/模板/论文笔记模板.md",
+      "sha256": "aff9891ce65cc395d13988b298457c2fb256fd4859d7abb5cadeffc84321e006"
+    },
+    {
+      "source": "来源/SRC-BERT/阅读笔记.md",
+      "snapshot": "来源/SRC-BERT/阅读笔记.md",
+      "sha256": "563f89d8353eb4a16037acb861de4292b137b8825e7b53b866e9963402038533"
+    }
+  ]
+}

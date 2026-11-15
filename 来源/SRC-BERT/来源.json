@@ -25,14 +25,15 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "563f89d8353eb4a16037acb861de4292b137b8825e7b53b866e9963402038533",
+        "notes_sha256": "21c8839105c0b7c8ae75b0fa4f091244b6aceb7c6f00265f69ccee1a51cf264e",
         "pages": [
+          "attention-mask-padding",
           "pretraining-task-transfer",
           "sequence-representation-pooling"
         ],
-        "reviewed_on": "2026-11-14",
+        "reviewed_on": "2026-11-15",
         "review_method": "agent-self-review",
-        "review_note": "复核既有固定v2笔记的§3/§3.1及脚注6，与GPT读出位置和NSP监督比较；新增序列池化页不把未微调CLS当通用句向量。检查两个直接引用页，保留已有MLM/T5/P5任务边界；本轮未重跑BERT。"
+        "review_note": "固定v2原件哈希、§3/3.1/4和附录A及表格自查；逐样本核对三Mask、同位标签、状态/读出轴、均值loss和教学梯度，补清logits与one-hot定义。复核三个直接页及共用SVG，旧实验尾段保留；源版本不变，当前Agent自查，未运行模型或重跑译文/附件发布。"
       }
     }
   ]

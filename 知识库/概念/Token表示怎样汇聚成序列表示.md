@@ -3,7 +3,7 @@ id: "sequence-representation-pooling"
 title: "Token表示怎样汇聚成序列表示"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-14"
+updated: "2026-11-15"
 summary: "比较因果末状态、专用提取Token、均值和注意力池化的信息范围、梯度路径及填充处理"
 aliases: ["EXTRACT", "_classify_", "句子表示", "句向量", "Last Token Pooling", "Mean Pooling", "Attention Pooling", "CLS"]
 sources: {"SRC-GPT1": "346378979c197abef55857af94342a537f9401868d4cac993cf0d3aab8260bee", "SRC-GPT1-CODE": "7cd5d15bf083af358d280a6b681bf3d17c1069301589081bd501543e662147f9", "SRC-BERT": "c6a7d8a52b8f422d4e8e9db2dab86dee349c31f2d91170511513e3bc41fd5331"}
@@ -47,6 +47,8 @@ $$h_i'=LN(h_i+Attention_i(H)),\qquad h_i''=LN(h_i'+FFN(h_i')).$$
 | 表示用途 | 任务分类或候选评分 | 依任务使用序列或Token级状态 |
 
 若在因果GPT开头直接放一个CLS，它读不到后文，不能只照搬BERT的位置。BERT原文也提醒未经微调的CLS不是现成有意义的句向量：任务分类可用不等于直接余弦检索好用。[BERT §3–3.1与脚注6，第3–4页](https://arxiv.org/pdf/1810.04805v2#page=4)；[BERT序列表示笔记](../../来源/SRC-BERT/阅读笔记.md#nsp与边界标记一起训练文本对表示)。
+
+BERT的词恢复与CLS关系分类分别从不同位置进入损失，但共享骨干；CLS读出不是把每词表示先求平均。可沿[同一条BERT样本](../../来源/SRC-BERT/阅读笔记.md#nsp与边界标记一起训练文本对表示)核对读出、目标与反传的区别。
 
 ## Last与Mean究竟改变了什么
 
