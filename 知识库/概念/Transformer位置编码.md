@@ -3,10 +3,10 @@ id: "transformer-position"
 title: "Transformer的位置编码：正弦、学习表与RoPE"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-14"
+updated: "2026-11-15"
 summary: "解释频率与成对维度、偏移的线性变换、RoPE相对点积及旋转Key缓存"
 aliases: ["正弦位置编码", "Sinusoidal PE", "pos和i", "高低频", "偶数维奇数维", "旋转矩阵", "RoPE", "KV Cache", "旋转Key"]
-sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ROFORMER": "d6c0d9c59c5151fab8c5a0febd7f9901b4391991480e4a49a7bc4957f80036c4", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-GPT1": "346378979c197abef55857af94342a537f9401868d4cac993cf0d3aab8260bee"}
+sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ROFORMER": "d6c0d9c59c5151fab8c5a0febd7f9901b4391991480e4a49a7bc4957f80036c4", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-GPT1": "346378979c197abef55857af94342a537f9401868d4cac993cf0d3aab8260bee", "SRC-SASREC": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b", "SRC-SASREC-CODE": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff"}
 related: ["self-attention-context", "transformer-training-translation"]
 ---
 # Transformer的位置编码：正弦、学习表与RoPE
@@ -46,6 +46,18 @@ $$u_p^\top u_{p+k}=\cos(k\omega),\qquad PE(p)^\top PE(q)=\sum_i\cos((p-q)\omega_
 学习式绝对位置表为$P\in\mathbb R^{L_{\max}\times d}$，位置$i$直接取$P_i$。通常仅将位置表用于输入查表时，训练只覆盖前$L_{train}$个位置，其余行便没有经位置查表收到这些样本的梯度；若同一张表还被其他路径使用，须另计那些梯度。超出表长则不能直接查表。扩表、插值、重新训练或改变位置方案都是额外设计，不能由“参数可学习”自动完成。
 
 GPT初代在512 Token上下文训练，并使用学习式位置表；原文没有给出与正弦位置的隔离对照，也没证明长序列外推能力。[GPT §4.1，第5页](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf#page=5)。即使每个位置都有定义，序列长度变化仍可能改变注意力分布，因而正弦或RoPE“可以算更大索引”也不等于效果必然保持。位置公式的可计算范围与训练后模型的可靠范围应分别讨论。
+
+SASRec主要设置同样采用学习式绝对窗口位置表，但从零训练的是物品ID模型。作者称固定位置编码在其设置更差；这不等于学习表普遍优于正弦，也不同于表IV中直接去掉位置表示的消融。具体输入、共享范围和左填充槽位见[SASRec位置说明](../../来源/SRC-SASREC/阅读笔记.md#位置是共享槽位不是用户专属编号)，原始比较见[§III-A，第3页](https://arxiv.org/pdf/1808.09781v1#page=3)。
+
+## 共享位置表怎样广播和累积梯度
+
+学习位置表$P\in\mathbb R^{n\times d}$通常没有用户或batch参数轴。令批量输入$H^0_{bt}=M_{s_{bt}}+P_t$，广播只是让每个样本引用相同的$P_t$，不是复制出独立可训练变量。用$G^0_{bt}=\partial\mathcal L/\partial H^0_{bt}$表示已经包含目标遮罩、归约和整网反传的输入梯度，则位置查表路径给出
+
+$$\frac{\partial\mathcal L}{\partial P_t}=\sum_b G^0_{bt}.$$
+
+例如两个样本同一槽位贡献$(1,2)$和$(-0.5,3)$，这一路相加为$(0.5,5)$，不是分别更新用户专属位置。若Loss已平均，不再额外除一次batch；PAD清零位置的该输入路径梯度为零。正则项或其他共享用途仍须另加。物品表则按物品ID累加，不按窗口槽位：同一物品在不同位置、不同样本出现时也汇到同一行。这个结果来自共享查表与加法的链式法则。
+
+位置ID是数据构造的决定，不能从“绝对位置”推出永远不变。SASRec的定长左填充中，窗口长5时历史ABCD为[PAD,A,B,C,D]，追加E变为[A,B,C,D,E]；A由零基槽位1移到0，仍共享同一张P表，但查用的行从$P_1$改为$P_0$。推理时参数没有更新，向量也可因换行而变化。原论文的填充与学习表见[SASRec §III-A，第3页](https://arxiv.org/pdf/1808.09781v1#page=3)，固定脚本的range/tile见[位置表实现](../../来源/SRC-SASREC-CODE/阅读笔记.md#共享物品表与窗口位置表)；它对[KV缓存有效性](Attention计算与存储.md#因果缓存成立需要固定哪些条件)有直接影响。
 
 ## 从加性位置向量到RoPE
 
