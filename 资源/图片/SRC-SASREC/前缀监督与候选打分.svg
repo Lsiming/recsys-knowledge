@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="550" viewBox="0 0 960 550" role="img"><title>SASRec：前缀输入、因果边界、采样监督与末行候选打分</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#52718b"/></marker></defs><rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="30" y="40" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" text-anchor="start" fill="#16324f">SASRec：同一历史的四个前缀监督</text>
+<text x="30" y="72" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#53687c">教学历史 A B C D E；固定窗口5，输入排除末项E</text>
+<text x="35" y="116" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" text-anchor="start" fill="#16324f">输入行</text>
+<text x="180" y="116" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" text-anchor="start" fill="#16324f">本行可读行为</text>
+<text x="525" y="116" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" text-anchor="start" fill="#16324f">正标签</text>
+<text x="705" y="116" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" text-anchor="start" fill="#16324f">负标签</text>
+<rect x="24" y="136" width="910" height="46" rx="9" fill="#f0f1f3" stroke="#b9cbd9"/>
+<text x="45" y="166" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">PAD</text>
+<text x="180" y="166" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">无</text>
+<text x="540" y="166" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">忽略</text>
+<text x="720" y="166" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">无</text>
+<rect x="24" y="194" width="910" height="46" rx="9" fill="#ffffff" stroke="#b9cbd9"/>
+<text x="45" y="224" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">A</text>
+<text x="180" y="224" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">A</text>
+<text x="540" y="224" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">B</text>
+<text x="720" y="224" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">J₂</text>
+<line x1="410" y1="217" x2="503" y2="217" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="24" y="252" width="910" height="46" rx="9" fill="#ffffff" stroke="#b9cbd9"/>
+<text x="45" y="282" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">B</text>
+<text x="180" y="282" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">A B</text>
+<text x="540" y="282" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">C</text>
+<text x="720" y="282" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">J₃</text>
+<line x1="410" y1="275" x2="503" y2="275" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="24" y="310" width="910" height="46" rx="9" fill="#ffffff" stroke="#b9cbd9"/>
+<text x="45" y="340" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">C</text>
+<text x="180" y="340" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">A B C</text>
+<text x="540" y="340" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">D</text>
+<text x="720" y="340" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">J₄</text>
+<line x1="410" y1="333" x2="503" y2="333" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="24" y="368" width="910" height="46" rx="9" fill="#eaf2ff" stroke="#b9cbd9"/>
+<text x="45" y="398" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">D</text>
+<text x="180" y="398" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">A B C D</text>
+<text x="540" y="398" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">E</text>
+<text x="720" y="398" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#16324f">J₅</text>
+<line x1="410" y1="391" x2="503" y2="391" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="30" y="465" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" text-anchor="start" fill="#16324f">末行状态 h₅：r(E) = h₅·M_E，r(J₅) = h₅·M_J₅</text>
+<text x="30" y="500" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#16324f">训练：每有效行一对采样BCE；推荐：最后有效状态给候选逐一打分。</text>
+<text x="30" y="531" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#53687c">候选只在末端打分进入；不为每个候选重算整段历史注意力。</text>
+</svg>

@@ -24,6 +24,42 @@
       "credit": "recsys-knowledge contributors",
       "modification": "自主布局与中文教学例子；不是原图复制或真实模型输出；省略Block和输出头内部",
       "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-TRANSFORMER/翻译样本的信息流.svg",
+      "sha256": "dc8986c75dcfcdee26b168979ece7271d433701f753e5f99855f07f2a33279d8",
+      "kind": "原创机制示意",
+      "source_id": "SRC-TRANSFORMER",
+      "source_version": "arXiv 1706.03762v7",
+      "basis": "§3.1–3.4，图1–2；右移与词表监督的自造句对解释",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主中文布局与教学ID，不复制原图，不表示真实输出；省略内部算子，边界在图注解释",
+      "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-SASREC/前缀监督与候选打分.svg",
+      "sha256": "332c720b079daae9be2b96e35eea4672febb5e41f56d742ba8831e11ea48b579",
+      "kind": "原创机制示意",
+      "source_id": "SRC-SASREC",
+      "source_version": "arXiv 1808.09781v1",
+      "basis": "§III-A–E，式1–7；自造五行为窗口、采样监督与候选接口",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主中文布局与教学ID，不复制原图，不表示真实输出；省略内部算子，边界在图注解释",
+      "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-BERT4REC/双向恢复与末尾预测.svg",
+      "sha256": "ce98f20b09c42f1ef692bb1da9c23063807f040d3b6a87e11809998111cc092c",
+      "kind": "原创机制示意",
+      "source_id": "SRC-BERT4REC",
+      "source_version": "arXiv 1904.06690v2",
+      "basis": "§3.4–3.6，式7–8；自造五行为损坏与末尾预测例子",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主中文布局与教学ID，不复制原图，不表示真实输出；省略内部算子，边界在图注解释",
+      "created_on": "2026-11-15"
     }
   ]
 }

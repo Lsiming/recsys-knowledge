@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="590" viewBox="0 0 960 590" role="img"><title>BERT4Rec：同一损坏输入的双向恢复与末尾MASK推荐</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#52718b"/></marker></defs><rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="30" y="40" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" text-anchor="start" fill="#16324f">BERT4Rec：训练恢复中间，使用预测末尾</text>
+<text x="30" y="76" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#16324f">训练：同一份损坏输入，同时恢复第2与第4行；教学历史 A B C D E</text>
+<rect x="40" y="102" width="155" height="52" rx="9" fill="#fff" stroke="#b9cbd9"/>
+<text x="117" y="135" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="middle" fill="#16324f">A</text>
+<rect x="220" y="102" width="155" height="52" rx="9" fill="#e5efff" stroke="#b9cbd9"/>
+<text x="297" y="135" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#16324f">MASK</text>
+<rect x="400" y="102" width="155" height="52" rx="9" fill="#fff" stroke="#b9cbd9"/>
+<text x="477" y="135" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="middle" fill="#16324f">C</text>
+<rect x="580" y="102" width="155" height="52" rx="9" fill="#e5efff" stroke="#b9cbd9"/>
+<text x="657" y="135" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#16324f">MASK</text>
+<rect x="760" y="102" width="155" height="52" rx="9" fill="#fff" stroke="#b9cbd9"/>
+<text x="837" y="135" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="middle" fill="#16324f">E</text>
+<rect x="40" y="184" width="875" height="76" rx="9" fill="#edf7ef" stroke="#b9cbd9"/>
+<text x="478" y="215" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#16324f">双向骨干：所有有效位置可读同一损坏上下文</text>
+<text x="478" y="244" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="#16324f">可读到C和E；目标B、D不在各自原位置输入中</text>
+<line x1="117" y1="154" x2="117" y2="184" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="297" y1="154" x2="297" y2="184" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="477" y1="154" x2="477" y2="184" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="657" y1="154" x2="657" y2="184" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="837" y1="154" x2="837" y2="184" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="297" y1="260" x2="297" y2="287" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="195" y="292" width="204" height="47" rx="9" fill="#e5efff" stroke="#b9cbd9"/>
+<text x="297" y="322" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#16324f">同行状态 → B</text>
+<line x1="657" y1="260" x2="657" y2="287" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="555" y="292" width="204" height="47" rx="9" fill="#e5efff" stroke="#b9cbd9"/>
+<text x="657" y="322" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#16324f">同行状态 → D</text>
+<text x="30" y="372" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#16324f">只选两行计Loss，其他输入仍可经上下文路径收到梯度。</text>
+<line x1="30" y1="390" x2="930" y2="390" stroke="#52718b" stroke-width="2"/>
+<text x="30" y="424" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#16324f">使用：当前只有真实历史 A B C；末尾加MASK预测D</text>
+<rect x="40" y="448" width="130" height="48" rx="9" fill="#fff" stroke="#b9cbd9"/>
+<text x="105" y="479" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="middle" fill="#16324f">A</text>
+<rect x="195" y="448" width="130" height="48" rx="9" fill="#fff" stroke="#b9cbd9"/>
+<text x="260" y="479" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="middle" fill="#16324f">B</text>
+<rect x="350" y="448" width="130" height="48" rx="9" fill="#fff" stroke="#b9cbd9"/>
+<text x="415" y="479" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="middle" fill="#16324f">C</text>
+<rect x="505" y="448" width="130" height="48" rx="9" fill="#e5efff" stroke="#b9cbd9"/>
+<text x="570" y="479" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="middle" fill="#16324f">MASK</text>
+<line x1="650" y1="472" x2="710" y2="472" stroke="#52718b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="724" y="448" width="190" height="48" rx="9" fill="#fff7eb" stroke="#b9cbd9"/>
+<text x="819" y="479" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#16324f">末行 → 预测D</text>
+<text x="30" y="540" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#16324f">同一骨干和物品输出头；没有真实未来D，也不加载语言BERT权重。</text>
+<text x="30" y="572" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#53687c">图为原创机制示意，省略多头、FFN与归一化，不表示真实注意力权重。</text>
+</svg>
