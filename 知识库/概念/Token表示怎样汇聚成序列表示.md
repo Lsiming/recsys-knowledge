@@ -92,6 +92,10 @@ $$\frac{\partial\mathcal L}{\partial s_i}=\alpha_i g^\top(h_i-z),\quad\frac{\par
 
 例如`[Start,A,B,Extract,PAD,PAD]`的末有效索引为3，最后文本索引为2。官方代码直接按`_classify_`的ID定位，避免把末数组列当末有效Token；使用argmax前还须保证目标标记确实存在且符合预期次数。[固定代码定位](../../来源/SRC-GPT1-CODE/阅读笔记.md#分类token怎样定位)。
 
+![GPT右填充中的LM目标与分类位置分别选择](../../资源/图片/SRC-GPT1/错位监督与分类读出.svg)
+
+图中最后数组列是PAD，末有效项是第4行Extract，最后真实文本则是第3行“猫”。分类选第4行，与下一Token损失选择前四行不冲突；若改用文本Mean，另选第1–3行并除以3。这三种选择不能共用一个未加说明的“有效mask”。完整[任务例子](../../来源/SRC-GPT1/阅读笔记.md#三种遮罩和读出位置不能混用)给出对应监督；图未规定所有实现都需额外Key mask。
+
 均值时使用$\sum_im_ih_i/\sum_im_i$，不能除以填充后的统一长度。池化mask可以进一步排除Start、分隔符和Extract；它表示“哪些状态参与读出”，不必等于Attention Key mask或LM Loss mask。PAD状态即使非零也可以安全排除，但已产生NaN时乘0不能修复，需先保证前向数值合法。[填充状态与监督](Attention遮罩与填充.md#pad输出和pad监督分别处理)。
 
 ## 从GPT疑问返回论文

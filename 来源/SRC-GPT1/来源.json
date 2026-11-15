@@ -20,16 +20,16 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "e033db80748321c437e413205fd9be5c4e700c94312693196312568e8d55b9bd",
+        "notes_sha256": "13c0a7599d6564e2aa20a044516e0aed01b0354689b3aedfb16acf66fe9dcec7",
         "pages": [
           "language-model-loss-gradient",
           "pretraining-task-transfer",
           "sequence-representation-pooling",
           "transformer-position"
         ],
-        "reviewed_on": "2026-11-14",
+        "reviewed_on": "2026-11-15",
         "review_method": "agent-self-review",
-        "review_note": "仅修正中文PDF导航与版本说明；真实登录下载恢复字体修正版，页数/大小/SHA256与私有登记一致，12页渲染目视及中文提取自查。复核四个直接引用页的笔记入口，论文正文、证据版本和科研结论未改。"
+        "review_note": "沿用2026-11-14的中文PDF入口与下载校验记录。2026-11-15按新精读规范结合33组既有疑问及5延伸点，用同句教学样本接通预训练、任务微调和使用；回查固定PDF §3–5、式1–5、图1–2、表2–5及已登记官方代码的错位目标、归约、共享表与分类定位。技术证据及读者路径两轮当前Agent自查，修正嵌入/词表、错位方向和行列称谓；13项有限差分、数值、问题原文保留及链接/图片核对通过。四直接引用页的LM梯度、迁移、读出和学习位置表相关段已复核。未重译、未运行模型、未做独立审查。"
       }
     }
   ]
