@@ -74,11 +74,32 @@ Mean给所选顶层行相同的直接权重，但每个位置回到参数的Jaco
 
 ## Attention Pooling怎样学习读出权重
 
-一种独立于骨干注意力的读出定义是
+Attention Pooling先给各位置打分，再把分数归一化为权重，用这些权重汇总状态。一种独立于骨干注意力的读出定义是
 
-$$s_i=v^\top\tanh(Wh_i+b),\qquad\alpha_i=\frac{m_ie^{s_i}}{\sum_jm_je^{s_j}},\qquad z=\sum_i\alpha_ih_i.$$
+$$u_i=\tanh(Wh_i+b),\qquad s_i=v^\top u_i,$$
+$$\alpha_i=\frac{m_ie^{s_i}}{\sum_jm_je^{s_j}},\qquad z=\sum_i\alpha_ih_i.$$
 
-它按学习到的分数选择各位置权重；Mean则是所选位置固定$1/n$。实现应在Softmax前屏蔽无效位置。该式用于比较读出机制，不是GPT初代新增了这层Attention Pooling。
+这里$h_i\in\mathbb R^d$是骨干输出的第i个位置状态；$W\in\mathbb R^{r\times d}$、$b\in\mathbb R^r$把它变成r维打分特征$u_i$；$v\in\mathbb R^r$是可学习的打分向量，通过内积把这些特征压成标量$s_i$。例如构造$u_i=(0.2,0.8)$、$v=(1,2)$，则$s_i=1\times0.2+2\times0.8=1.8$；1.8还是分数，要和其他有效位置一起归一化后才成为权重。小写$v$不是Transformer的Value矩阵V：这里被加权汇总的是原状态$h_i$，不是打分特征$u_i$或参数$v$。
+
+### 打分部分就是一个输出标量的两层MLP
+
+按两个可学习线性层计数，打分网络的维度是
+
+$$h_i\;(d)\xrightarrow{W,b}\;(r)\xrightarrow{\tanh}u_i\;(r)\xrightarrow{v^\top}s_i\;(1).$$
+
+第一层为带偏置的仿射变换加tanh，第二层权重就是形状为$1\times r$的$v^\top$，上式没有第二层偏置。可以简写为$s_i=\operatorname{MLP}(h_i)$；只是把内部参数收进函数名，计算没有改变。同一个MLP独立处理各位置，所有位置、所有样本共享$W,b,v$，不同输入状态仍可得到不同分数。跨位置的权重竞争发生在随后的Softmax，信息汇总发生在加权求和；完整Attention Pooling还包括这两步，不能只等同于MLP。
+
+$W,b,v$通常随下游任务损失一起反向传播学习；骨干是否更新取决于是否冻结。例如令$\delta_i=\partial\mathcal L/\partial s_i$，单条样本对打分向量的梯度为$\partial\mathcal L/\partial v=\sum_i\delta_i u_i$，batch内各样本贡献继续相加，损失若已平均则不再重复平均。
+
+### 能否直接把中间特征压成一个标量
+
+可以。如果仍保留两步但令$r=1$，$u_i$和$v$都成为标量；如果进一步直接定义$s_i=\tanh(w^\top h_i+b)$，则省掉第二层，成为$d\to1$的打分器。后者只形成一个非线性特征，原来的$d\to r\to1$则能先形成多个特征再组合；这是结构限制的区别，不代表更宽一定效果更好。直接使用线性分数$s_i=w^\top h_i+b$也是另一种可定义的简化。
+
+“把整个打分器记成一个标量输出函数”与“把内部隐藏宽度设成1”是两件事。若没有中间tanh，$v^\top(Wh_i+b)=(v^\top W)h_i+v^\top b$，确实可合并成一个仿射层；保留tanh时，一般不能把$v$吸收到$W$中，写成等价的单个线性或仿射层。
+
+上述MLP按学习分数分配读出权重；Mean则是所选位置固定$1/n$。$m_i$选择参与池化的位置，每条样本至少有一个有效位置；实现应在Softmax前屏蔽无效位置。该式是用于比较读出机制的数学定义及其展开，不是GPT初代新增了这层Attention Pooling。
+
+### 权重怎样参与反向传播
 
 当$\alpha$依赖$h$，梯度除了直接值路径$\alpha_ig$，还经过权重路径；对于上式每个$s_i$只依赖$h_i$的情形，
 
