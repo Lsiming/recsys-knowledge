@@ -20,7 +20,7 @@
       "retrieved_on": "2026-11-16",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "4f9a4d7f9ead6308dc255b079e53db32636f94a7272dbf280fb441b5fa4213ed",
+        "notes_sha256": "9ba856f655aad058a421f68174b15f019922a330a197162e21311584c6bd6a3e",
         "pages": [
           "causal-uplift",
           "history-conditioned-pricing",
@@ -28,7 +28,7 @@
         ],
         "reviewed_on": "2026-11-16",
         "review_method": "agent-self-review",
-        "review_note": "当前Agent技术证据和读者路径两轮自查：补ACM正式版第2页作者图1，保留原图符号并说明其n/f与教学公式的记号区别；与原有自绘算例图共用统一图库，笔记和定价问题页解析到同一物理文件。复核三直接引用页，预测/因果与5.94%历史分组边界不变；候选关联页无新增技术结论，不扩展更新。原件和来源指纹不变，未独立审查或运行模型。"
+        "review_note": "当前Agent完成本轮技术证据与读者路径自查：按本篇正式版§2.2和图1展开DIPN到DIPricingNet的结构沿用，说明固定累计二元编码与可学习非负因子、逐元素嵌套与只数1个数的区别；复核三直接引用页，原有数值、图片引用、预测/因果边界不变，候选关联页无新结论需合并。未独立精读DIPN或运行模型，原件及来源指纹不变。"
       }
     }
   ]
