@@ -20,7 +20,7 @@
       "retrieved_on": "2026-11-16",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "20c2c57374ee8cbef8265b4ade140edc129ad3602f844f13b42830c0f9a6b0d4",
+        "notes_sha256": "130e579342607b279535b1e12d96439abdfffa6f1604f98f8f41e1e0de5ac892",
         "pages": [
           "causal-uplift",
           "history-conditioned-pricing",
@@ -28,7 +28,7 @@
         ],
         "reviewed_on": "2026-11-16",
         "review_method": "agent-self-review",
-        "review_note": "当前Agent定向核对DIPN引用论文arXiv:2108.12100v1源码§4.1–4.2及架构图注，区分原版二分类的logit增量累计后sigmoid与本篇需求乘累计因子，并给出以首档实际预测为参考的等价加法；说明有限增量、斜率和弹性区别。完成技术证据及读者路径两轮自查，概率算例核对通过。复核三直接页，TG数据/因果边界与图片不变，候选页无新增结论需合并；未全文精读DIPN或运行模型。"
+        "review_note": "按用户要求移除阅读笔记及问题正文中的弹性术语辨析，统一按相邻增量讲解；保留原版DIPN的logit增量与本篇销量增量、参考销量和基础量的区别。当前Agent完成改动语义及阅读路径自查，复核三个直接引用页，公式、数值、来源指纹与因果边界不变；未运行模型或独立审查。"
       }
     }
   ]
