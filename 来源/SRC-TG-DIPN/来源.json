@@ -20,7 +20,7 @@
       "retrieved_on": "2026-11-16",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "130e579342607b279535b1e12d96439abdfffa6f1604f98f8f41e1e0de5ac892",
+        "notes_sha256": "fbb206c4ac9599343a276dc46bc0961e78ee8fefcbb4fca8811eeb35a92228f3",
         "pages": [
           "causal-uplift",
           "history-conditioned-pricing",
@@ -28,7 +28,7 @@
         ],
         "reviewed_on": "2026-11-16",
         "review_method": "agent-self-review",
-        "review_note": "按用户要求移除阅读笔记及问题正文中的弹性术语辨析，统一按相邻增量讲解；保留原版DIPN的logit增量与本篇销量增量、参考销量和基础量的区别。当前Agent完成改动语义及阅读路径自查，复核三个直接引用页，公式、数值、来源指纹与因果边界不变；未运行模型或独立审查。"
+        "review_note": "按用户要求移除阅读笔记及问题正文中的弹性术语辨析，统一按相邻增量讲解；保留原版DIPN的logit增量与本篇销量增量、参考销量和基础量的区别。当前Agent完成改动语义及阅读路径自查，复核三个直接引用页，公式、数值、来源指纹与因果边界不变；未运行模型或独立审查。\n2026-11-16本轮：对照附录A参数组合式与MMoE正式版§4式(5)–(8)，解释组合系数的参数门控类比及单层线性等价、多层非线性边界；非归一化系数不等同Softmax门或内部注意力，MMoE的任务维度与TG的历史条件化区分。三直接引用页及关联候选复核，无需新增其他页结论。20组线性分配律及ReLU反例数值核验通过，当前Agent技术与阅读路径自查，未运行模型或独立审查。"
       }
     }
   ]
