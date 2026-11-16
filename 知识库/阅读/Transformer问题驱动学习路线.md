@@ -15,15 +15,15 @@ related: ["self-attention-context", "pretraining-task-transfer", "classic-readin
 
 ## 从历史疑问直接找到推导与例子
 
-| 学习疑问 | 知识正文 |
-|---|---|
-| 点积方差、Score/Probability、QKV形状、分头换轴 | [注意力张量与数学](../问题/序列怎样用自注意力建立上下文.md#投影分头与张量形状) |
-| pos/i、高低频、成对sin/cos、相对偏移、RoPE | [位置编码](../概念/Transformer位置编码.md) |
-| make_std_mask、广播、PAD Query、NaN、Loss Mask | [遮罩与填充](../概念/Attention遮罩与填充.md) |
-| 目标右移、Teacher Forcing、Loss、梯度回到Encoder、推理 | [训练与机器翻译](../概念/Transformer训练与机器翻译.md) |
-| 两种词表、联合BPE、SentencePiece、hE转置、Weight Tying、Xavier | [词表嵌入与权重共享](../概念/词表嵌入与权重共享.md) |
-| LN统计轴、gamma/beta、反传、推理、Pre/Post-LN恒等路径 | [LayerNorm与残差梯度](../概念/LayerNorm与残差梯度.md) |
-| 平方矩阵、FP16字节数、KV缓存、FlashAttention在线Softmax | [计算与存储](../概念/Attention计算与存储.md) |
+| 学习疑问                                              | 知识正文                                          |
+| ------------------------------------------------- | --------------------------------------------- |
+| 点积方差、Score/Probability、QKV形状、分头换轴                 | [注意力张量与数学](../问题/序列怎样用自注意力建立上下文.md#投影分头与张量形状) |
+| pos/i、高低频、成对sin/cos、相对偏移、RoPE                     | [位置编码](../概念/Transformer位置编码.md)              |
+| make_std_mask、广播、PAD Query、NaN、Loss Mask          | [遮罩与填充](../概念/Attention遮罩与填充.md)              |
+| 目标右移、Teacher Forcing、Loss、梯度回到Encoder、推理          | [训练与机器翻译](../概念/Transformer训练与机器翻译.md)        |
+| 两种词表、联合BPE、SentencePiece、hE转置、Weight Tying、Xavier | [词表嵌入与权重共享](../概念/词表嵌入与权重共享.md)               |
+| LN统计轴、gamma/beta、反传、推理、Pre/Post-LN恒等路径            | [LayerNorm与残差梯度](../概念/LayerNorm与残差梯度.md)     |
+| 平方矩阵、FP16字节数、KV缓存、FlashAttention在线Softmax         | [计算与存储](../概念/Attention计算与存储.md)              |
 
 [GPT初代学习思考](../../来源/SRC-GPT1/学习思考.md)把论文追问串成“架构 → 逐位置预测 → 损失反传 → 任务迁移 → 序列读出”。其中[交叉熵与梯度](../概念/语言模型的词表预测与交叉熵.md)给出p−q、共享Embedding和QKV反传，[序列表示](../概念/Token表示怎样汇聚成序列表示.md)比较Extract、CLS、Last、Mean与Attention Pooling。
 
