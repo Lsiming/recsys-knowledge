@@ -20,7 +20,7 @@
       "retrieved_on": "2026-11-16",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "bb09f466c84e691ff3ce133bb09f3b7c049bdb48e14a1d2a208ffc42e5631d52",
+        "notes_sha256": "4f9a4d7f9ead6308dc255b079e53db32636f94a7272dbf280fb441b5fa4213ed",
         "pages": [
           "causal-uplift",
           "history-conditioned-pricing",
@@ -28,7 +28,7 @@
         ],
         "reviewed_on": "2026-11-16",
         "review_method": "agent-self-review",
-        "review_note": "当前Agent完成技术证据与读者路径两轮自查：核对ACM正式5页、图1、表1–3和式1–13；区分30天历史生成权重、累计非负因子和利润枚举。构造算例、DWMAPE/分差/利润组比值复算及局部梯度有限差分通过；附录链式法则、无折扣锚定、训练标签/切分和历史分组回测边界已保留。已比较本库TaQFormer与POUL；原文和中文PDF已真实认证下载核验，笔记补记实际收据。未取得作者源码/运行模型或独立审查。"
+        "review_note": "当前Agent技术证据和读者路径两轮自查：补ACM正式版第2页作者图1，保留原图符号并说明其n/f与教学公式的记号区别；与原有自绘算例图共用统一图库，笔记和定价问题页解析到同一物理文件。复核三直接引用页，预测/因果与5.94%历史分组边界不变；候选关联页无新增技术结论，不扩展更新。原件和来源指纹不变，未独立审查或运行模型。"
       }
     }
   ]

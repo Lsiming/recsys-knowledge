@@ -96,6 +96,18 @@
       "credit": "recsys-knowledge contributors",
       "modification": "自主布局与中文教学例子；非原图复制或实际模型输出，省略各层和训练；系数归一化只是例子选值",
       "created_on": "2026-11-16"
+    },
+    {
+      "path": "资源/图片/SRC-TG-DIPN/原文图1-模型架构.png",
+      "sha256": "9b5d70b517064af168209233c03c610795672dbcfe8564ace9438111cb0a5830",
+      "kind": "第三方原图",
+      "source_id": "SRC-TG-DIPN",
+      "source_version": "ACM Version of Record，WWW Companion 2025，1514–1518，2025-05-23上线",
+      "basis": "正式PDF第2页，图1：DIPricingNet与TG-DIPricingNets模型架构",
+      "source_sha256": "24418cb5adb9de0ab6d90c7dc0c53d9e05ce84e25badcf009d8c29b8f7f7f8d1",
+      "credit": "Longxiang Zhang、Linlin Yu、Bin Chen、Zhuojun Wang、Chengfu Huo",
+      "modification": "从采用版PDF按2.5倍渲染裁剪；原页面612×792pt，左上坐标裁框(54,82,558,273)pt；保留全部架构子图、标签与箭头，图注在正文另列，未改图内内容",
+      "created_on": "2026-11-16"
     }
   ]
 }
