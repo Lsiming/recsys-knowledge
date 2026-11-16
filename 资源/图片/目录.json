@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "images": [
+    {
+      "path": "资源/图片/SRC-BERT/三种遮罩的分工.svg",
+      "sha256": "496e61103e0c9e04564f7fd3cac80d2f46e1ab1cc9d123989dd9954a6f95edb5",
+      "kind": "原创机制示意",
+      "source_id": "SRC-BERT",
+      "source_version": "arXiv 1810.04805v2",
+      "basis": "§3–4，图1–2；Mask图的padding部分是通用批处理解释",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主布局与中文教学例子；不是原图复制或真实模型输出；省略Block和输出头内部",
+      "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-BERT/预训练与任务迁移.svg",
+      "sha256": "792a23ef58d48dce8fd8df3289abbcf4641c6253a3f453998c9366100ab45c08",
+      "kind": "原创机制示意",
+      "source_id": "SRC-BERT",
+      "source_version": "arXiv 1810.04805v2",
+      "basis": "§3–4，图1–2；Mask图的padding部分是通用批处理解释",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主布局与中文教学例子；不是原图复制或真实模型输出；省略Block和输出头内部",
+      "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-TRANSFORMER/翻译样本的信息流.svg",
+      "sha256": "dc8986c75dcfcdee26b168979ece7271d433701f753e5f99855f07f2a33279d8",
+      "kind": "原创机制示意",
+      "source_id": "SRC-TRANSFORMER",
+      "source_version": "arXiv 1706.03762v7",
+      "basis": "§3.1–3.4，图1–2；右移与词表监督的自造句对解释",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主中文布局与教学ID，不复制原图，不表示真实输出；省略内部算子，边界在图注解释",
+      "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-SASREC/前缀监督与候选打分.svg",
+      "sha256": "332c720b079daae9be2b96e35eea4672febb5e41f56d742ba8831e11ea48b579",
+      "kind": "原创机制示意",
+      "source_id": "SRC-SASREC",
+      "source_version": "arXiv 1808.09781v1",
+      "basis": "§III-A–E，式1–7；自造五行为窗口、采样监督与候选接口",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主中文布局与教学ID，不复制原图，不表示真实输出；省略内部算子，边界在图注解释",
+      "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-BERT4REC/双向恢复与末尾预测.svg",
+      "sha256": "ce98f20b09c42f1ef692bb1da9c23063807f040d3b6a87e11809998111cc092c",
+      "kind": "原创机制示意",
+      "source_id": "SRC-BERT4REC",
+      "source_version": "arXiv 1904.06690v2",
+      "basis": "§3.4–3.6，式7–8；自造五行为损坏与末尾预测例子",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主中文布局与教学ID，不复制原图，不表示真实输出；省略内部算子，边界在图注解释",
+      "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-GPT1/预训练到任务微调.svg",
+      "sha256": "7dc192afab556c7012118897944754d6a1bc93f55c64a565ff1c004ae1b2026c",
+      "kind": "原创机制示意",
+      "source_id": "SRC-GPT1",
+      "source_version": "OpenAI官方2018 PDF，12页",
+      "basis": "官方2018 PDF §3.1–3.3、式1–5、图1；自主教学文本与参数迁移解释",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主中文布局与构造样本，不复制原图或声称真实模型输出；省略内部算子",
+      "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-GPT1/错位监督与分类读出.svg",
+      "sha256": "3f362f7347de8fa4951ff4fdb6848f2150781225f795265b5357fdeb518b9785",
+      "kind": "原创机制示意",
+      "source_id": "SRC-GPT1",
+      "source_version": "OpenAI官方2018 PDF，12页",
+      "basis": "官方2018 PDF §3、图1及固定官方代码a69b5c43的model/transform_roc；右填充与错位Loss教学说明",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主中文布局与构造样本，不复制原图或声称真实模型输出；省略内部算子",
+      "created_on": "2026-11-15"
+    }
+  ]
+}

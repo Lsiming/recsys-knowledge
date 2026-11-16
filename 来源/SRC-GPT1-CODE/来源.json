@@ -1,0 +1,45 @@
+{
+  "id": "SRC-GPT1-CODE",
+  "title": "GPT初代官方微调实现与参数形状",
+  "kind": "code",
+  "state": "active",
+  "current": "7cd5d15bf083af358d280a6b681bf3d17c1069301589081bd501543e662147f9",
+  "versions": [
+    {
+      "locator": "https://github.com/openai/finetune-transformer-lm/tree/a69b5c43b0452462890bca8ff92fb75dee9290cf",
+      "revision": "a69b5c43b0452462890bca8ff92fb75dee9290cf",
+      "read_scope": "静态读取train.py的GELU、LayerNorm、注意力、Post-LN block、共享we、目标右移/损失掩码、分类位置提取、ROCStories输入构造、默认配置与参数载入；核对encoder_bpe_40000.json行数及params_shapes.json参数形状。未下载模型权重、未运行原训练或复现论文。",
+      "artifacts": [
+        {
+          "name": "train.py",
+          "sha256": "3559bfbd8b661cb6acad1b12e119f5542705703634b1cfa70badaac371f1ae24",
+          "snapshot": ".local/sources/SRC-GPT1-CODE/3559bfbd8b661cb6acad1b12e119f5542705703634b1cfa70badaac371f1ae24/train.py"
+        },
+        {
+          "name": "encoder_bpe_40000.json",
+          "sha256": "fdf49b19e7de236852091da09b84a7a3cd5e7b0e79916376cf45f6b8127b8078",
+          "snapshot": ".local/sources/SRC-GPT1-CODE/fdf49b19e7de236852091da09b84a7a3cd5e7b0e79916376cf45f6b8127b8078/encoder_bpe_40000.json"
+        },
+        {
+          "name": "params_shapes.json",
+          "sha256": "3bff3faa381e06d81c60f44520eb82c673d14a8ae61d821c63167f59acc6a768",
+          "snapshot": ".local/sources/SRC-GPT1-CODE/3bff3faa381e06d81c60f44520eb82c673d14a8ae61d821c63167f59acc6a768/params_shapes.json"
+        }
+      ],
+      "fingerprint": "7cd5d15bf083af358d280a6b681bf3d17c1069301589081bd501543e662147f9",
+      "retrieved_on": "2026-11-14",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "2a07444e26e790a0882df3304928fb38540d719b6527acefc6e4ba802d7aa18c",
+        "pages": [
+          "attention-mask-padding",
+          "language-model-loss-gradient",
+          "sequence-representation-pooling"
+        ],
+        "reviewed_on": "2026-11-14",
+        "review_method": "agent-self-review",
+        "review_note": "静态核对固定commit的train.py、词表和发布形状：合并we全表LM投影、Post-LN、右填充与错位Loss、分类Token定位、迁移参数载入。复查全部引用页，区分论文与ROCStories脚本；未运行训练或下载权重。"
+      }
+    }
+  ]
+}

@@ -3,15 +3,27 @@ id: "attention-mask-padding"
 title: "Attention遮罩如何组合并处理填充位置"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-08"
+updated: "2026-11-15"
 summary: "以make_std_mask、广播、PAD Query和全遮罩Softmax说明可见性与监督边界"
 aliases: ["make_std_mask", "Key Padding Mask", "Causal Mask", "Padding Mask", "PAD Query", "Loss Mask", "NaN", "遮罩广播", "mask并行"]
-sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28"}
-related: ["self-attention-context", "transformer-training-translation"]
+sources: {"SRC-BERT": "c6a7d8a52b8f422d4e8e9db2dab86dee349c31f2d91170511513e3bc41fd5331", "SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28", "SRC-GPT1-CODE": "7cd5d15bf083af358d280a6b681bf3d17c1069301589081bd501543e662147f9"}
+related: ["self-attention-context", "transformer-training-translation", "sequence-representation-pooling"]
 ---
 # Attention遮罩如何组合并处理填充位置
 
 Attention Mask决定Query允许读取哪些Key；Loss Mask决定哪些目标位置参与监督。前者修改信息通路，后者修改训练目标，不能互相替代。因果mask也不规定计算器必须按Token写循环：已知输入时，可以把所有允许/禁止连接一次性放进矩阵。
+
+## BERT恢复目标中的三种Mask
+
+掩码语言建模里的“Mask”还可能指输入内容的损坏。要问清操作对象：换成MASK符号改变输入Token；Attention Mask改变Query能读取的Key；Loss Mask选择哪些目标计损失。三者不是先后替代的同一步。
+
+![同一BERT样本的输入损坏、Key可见性与目标位置](../../资源/图片/SRC-BERT/三种遮罩的分工.svg)
+
+从上到下读图：位置4被替为MASK、9被替为随机词，但二者仍是可读Key；PAD Key不可读；监督只取4和9的原Token。“不直接计loss”不等于不参与上下文或梯度。图与[BERT贯穿实例](../../来源/SRC-BERT/阅读笔记.md#从一条文本对构造输入和两种标签)引用同一实体，内容依据[BERT §3.1，固定v2第4页](https://arxiv.org/pdf/1810.04805v2#page=4)，其中padding部分是批处理解释，非作者实验。
+
+若损坏输入为$\tilde x$、原文为$x$、选中集合为$M$，位置$i\in M$用同位置状态预测$x_i$，不做GPT式右移。BERT选中位置还含10%原样分支，所以“目标被选中”与“输入一定变成MASK”不等价；恢复标签仍在原位置。这些定义决定Loss Mask，不能从输入中是否出现MASK反推出完整监督集合。
+
+下文再展开Attention可见性与填充的通用计算。
 
 ## 从布尔条件到Attention logits
 
@@ -64,6 +76,16 @@ $$L=-\frac1{N_{valid}}\sum_{b,t}\mathbf1[y_{bt}\ne PAD]\log p_{bt}(y_{bt}),\quad
 一行全为$-\infty$时，形式上的$\sum_j\exp(-\infty)=0$，无法得到概率分布；稳定Softmax先减行最大值又遇到$-\infty-(-\infty)$，朴素实现会NaN。具体融合算子可以约定全遮罩行输出0，不能因此说所有Softmax都天然安全。
 
 若**把整行替换为相同有限常数**$-C$，稳定Softmax得到均匀分布，而非全0。如果只是给所有原logit都加$-C$，精确算术下Softmax完全不变；有限精度下也可能因分数被舍入为相同值而变均匀。两种操作都没有表达“没有任何可读Key”。有效Query至少应有一个允许Key；无效Query可采用有明确全遮罩语义的实现，或在Softmax前构造安全替代行、计算后屏蔽输出，避免NaN进入反传。只在出现NaN后乘0并不能消除NaN。
+
+## 左填充和右填充怎样选择
+
+右填充把有效Token放在前部，便于训练时保持原位置与标签对齐；左填充让每条有效前缀的最后Token位于数组末列，便于某些批量生成实现统一读取末列logits。选择取决于数据构造、位置编号和读出逻辑，没有一个方向适用于所有模型与接口。
+
+因果模型的右填充有效Query不会读取右侧PAD；即使如此，Loss仍要排除无效标签，句级Pooling仍要排除无效状态。左填充则可能让有效Query读取左侧PAD，通常要配Key padding mask，并使position IDs按训练约定对齐；最左PAD Query若无任何合法Key，还需处理全遮罩行。
+
+若批量生成直接读`logits[:,-1]`，右填充短序列读到的是PAD Query的结果，不能称其为最后真实Token预测。可改用正确末有效索引，或选用支持左填充且正确处理位置与mask的实现。[末位置与Pooling](Token表示怎样汇聚成序列表示.md#右填充时怎样取末位置和做均值)给出索引公式。
+
+GPT官方ROCStories脚本采用右填充，`M`只作Loss mask；它利用有效前缀在PAD之前的因果条件，不是已经实现了通用Key padding mask。[固定代码](../../来源/SRC-GPT1-CODE/阅读笔记.md#错位标签与损失平均)。
 
 ## 因果依赖为何不阻止训练并行
 

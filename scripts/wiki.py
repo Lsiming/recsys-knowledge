@@ -289,7 +289,8 @@ def generated(root):
               "进入单份资料的解读，再沿相关知识链接查看概念、问题与方法比较。实际阅读范围见各篇笔记。", ""]
     for sid, record in registry.items():
         state = "（已撤回，结论需复核）" if record["state"] != "active" else ""
-        source.append(f"- [{table_text(record['title'])}]({sid}/阅读笔记.md) · [来源与版本]({sid}/来源.json){state}")
+        thoughts = f" · [学习思考]({sid}/学习思考.md)" if (root / "来源" / sid / "学习思考.md").is_file() else ""
+        source.append(f"- [{table_text(record['title'])}]({sid}/阅读笔记.md) · [来源与版本]({sid}/来源.json){thoughts}{state}")
         backrefs = [f"[{table_text(meta['title'])}](../{path.relative_to(root).as_posix()})"
                     for path, meta, _ in all_pages.values() if sid in meta["sources"]]
         if backrefs:

@@ -1,0 +1,61 @@
+{
+  "id": "SRC-SASREC-CODE",
+  "title": "SASRec官方TensorFlow实现",
+  "kind": "code",
+  "state": "active",
+  "current": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff",
+  "versions": [
+    {
+      "locator": "https://github.com/kang205/SASRec/tree/e3738967fddab206d6eeb4fda433e7a7034dd8b1",
+      "revision": "e3738967fddab206d6eeb4fda433e7a7034dd8b1",
+      "read_scope": "静态读取README.md、model.py、modules.py、sampler.py、util.py和LICENSE；核对共享物品与窗口位置表、输入缩放、Q与KV的不同归一化路径、残差、FFN、Dropout、Padding、正负采样/归约、101候选预测和评估采样。未安装旧TensorFlow、未运行原模型、未下载数据或训练权重；KV Cache为条件化推导，源码未实现。",
+      "artifacts": [
+        {
+          "name": "README.md",
+          "sha256": "eddb14865f10b75e91ab892178aabc9d8b47cfac07a2a1ffb9546e6a55eb30d1",
+          "snapshot": ".local/sources/SRC-SASREC-CODE/eddb14865f10b75e91ab892178aabc9d8b47cfac07a2a1ffb9546e6a55eb30d1/README.md"
+        },
+        {
+          "name": "model.py",
+          "sha256": "b727398d922301394605c8a4a96c91e3ce800d122540d017302fbdfd84b0319e",
+          "snapshot": ".local/sources/SRC-SASREC-CODE/b727398d922301394605c8a4a96c91e3ce800d122540d017302fbdfd84b0319e/model.py"
+        },
+        {
+          "name": "modules.py",
+          "sha256": "5aee8569d3e045de1a2e550a696438b713db9eed8430ec153696edb9739ec82c",
+          "snapshot": ".local/sources/SRC-SASREC-CODE/5aee8569d3e045de1a2e550a696438b713db9eed8430ec153696edb9739ec82c/modules.py"
+        },
+        {
+          "name": "sampler.py",
+          "sha256": "88b58571f8e9612d698e9aa89d44d4f9fb0f23ff18325df83af57a73f8fe254d",
+          "snapshot": ".local/sources/SRC-SASREC-CODE/88b58571f8e9612d698e9aa89d44d4f9fb0f23ff18325df83af57a73f8fe254d/sampler.py"
+        },
+        {
+          "name": "util.py",
+          "sha256": "60d6ad4e4e15986539895b2c9f97b83d0e88afdfdcb20e2bf08302bf13c8be51",
+          "snapshot": ".local/sources/SRC-SASREC-CODE/60d6ad4e4e15986539895b2c9f97b83d0e88afdfdcb20e2bf08302bf13c8be51/util.py"
+        },
+        {
+          "name": "LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "snapshot": ".local/sources/SRC-SASREC-CODE/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4/LICENSE"
+        }
+      ],
+      "fingerprint": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff",
+      "retrieved_on": "2026-11-15",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "b4230fcc21b687d089811d20eefde85eaf1c554f52ea566e668c8b905c976b46",
+        "pages": [
+          "attention-compute-memory",
+          "next-item-sequence",
+          "self-attention-context",
+          "transformer-position"
+        ],
+        "reviewed_on": "2026-11-15",
+        "review_method": "agent-self-review",
+        "review_note": "\n2026-11-15当前Agent静态阅读固定e3738967的README/model/modules/sampler/util/LICENSE，核实输入物品sqrt(d)缩放、共享表、位置range/tile、Q与KV不同LN来源、已LN残差、概率Dropout、d到d到d的逐位FFN、PAD清零、final LN、101候选后切片、拒绝整个train集的负采样和有效目标平均。明确evaluate未去重/未排除测试真值的代码事实不等于已复现论文协议；作者脚本无KV缓存。复核4直接绑定页并回链思考页；6份代码原字节与登记SHA256一致。完成当前Agent技术证据与读者路径自查、链接与教学数值检查；未安装旧环境、训练或执行作者评估，教学缓存验证不冒充本模型实测。"
+      }
+    }
+  ]
+}

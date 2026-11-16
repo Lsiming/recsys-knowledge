@@ -3,11 +3,11 @@ id: "transformer-training-translation"
 title: "Transformer机器翻译如何训练并逐步生成"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-08"
+updated: "2026-11-14"
 summary: "串起右移监督、因果并行、Token损失、交叉注意力反传与增量解码"
 aliases: ["Teacher Forcing", "目标序列右移", "Decoder训练", "交叉注意力梯度", "Loss", "训练并行推理串行", "Encoder单独Loss"]
 sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc"}
-related: ["self-attention-context", "pretraining-task-transfer", "attention-mask-padding", "embedding-weight-tying"]
+related: ["self-attention-context", "pretraining-task-transfer", "attention-mask-padding", "embedding-weight-tying", "language-model-loss-gradient"]
 ---
 # Transformer机器翻译如何训练并逐步生成
 
@@ -59,3 +59,5 @@ $$\frac{\partial L}{\partial V}=A^\top G,\qquad \left.\frac{\partial L}{\partial
 推理先对固定源句运行一次Encoder，从BOS开始逐步选Token，直到EOS或长度上限。未来Token尚未知，所以目标侧仍自回归；greedy或beam决定如何选/扩展候选，不改变这个依赖。未用缓存的教学实现每步重算整个已生成前缀；用缓存的实现只处理新增位置，在各层复用历史K/V。[Annotated Transformer的greedy_decode边界](../../来源/SRC-ANNOTATED-TRANSFORMER/阅读笔记.md#论文文字和实际代码的差异)
 
 训练时交叉注意力Query覆盖全部目标位置；增量推理时通常只算新位置（或beam批）的Query，编码器memory固定，每层的交叉Key/Value投影也可缓存。不同层通常有不同投影，不能把它理解成全Decoder共一份投影后的K/V。因果自注意力的历史状态在后续Token加入后不变，这是历史缓存成立的条件；双向注意力的旧状态可能改变，不能直接照搬。[位置偏移与旋转Key的固定实现](../../来源/SRC-LLAMA-CACHE-CODE/阅读笔记.md)。一般推理不计算监督loss或参数更新；评估时如提供真实目标，也可以另外计算loss，这并不等于已知了生成结果。
+
+从只有目标前缀的语言模型入手，可读[Token预测、交叉熵与梯度](语言模型的词表预测与交叉熵.md#一个序列怎样提供多个预测目标)，再回到这里理解新增的源序列条件。

@@ -25,13 +25,15 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "563f89d8353eb4a16037acb861de4292b137b8825e7b53b866e9963402038533",
+        "notes_sha256": "21c8839105c0b7c8ae75b0fa4f091244b6aceb7c6f00265f69ccee1a51cf264e",
         "pages": [
-          "pretraining-task-transfer"
+          "attention-mask-padding",
+          "pretraining-task-transfer",
+          "sequence-representation-pooling"
         ],
-        "reviewed_on": "2026-10-27",
+        "reviewed_on": "2026-11-15",
         "review_method": "agent-self-review",
-        "review_note": "核对v2正文与附录A–C、表1–8及GPT/P5比较，17页中文PDF逐页渲染目视；区分MLM条件、NSP、任务头和预算/指标口径；REV-031保留原文疑点，未运行模型或独立审查。 2026-10-27纠正早期PDF验收遗漏：中文字体映射导致当前渲染中文不可见；已用LuaLaTeX重编，全部页面重新渲染目视、字体ToUnicode与文本提取核查通过。仅改变本地排版与笔记交付说明，plan直接引用页和关联候选的科研结论不受影响。"
+        "review_note": "固定v2原件哈希、§3/3.1/4和附录A及表格自查；逐样本核对三Mask、同位标签、状态/读出轴、均值loss和教学梯度，补清logits与one-hot定义。复核三个直接页及共用SVG，旧实验尾段保留；源版本不变，当前Agent自查，未运行模型或重跑译文/附件发布。"
       }
     }
   ]

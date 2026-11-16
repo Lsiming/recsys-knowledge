@@ -1,0 +1,38 @@
+{
+  "id": "SRC-PYTORCH-CROSSENTROPY",
+  "title": "PyTorch CrossEntropyLoss接口与实现入口",
+  "kind": "code",
+  "state": "active",
+  "current": "f9de6c0d274ca1dbf55143d516d64d7e5c3f943c20b2cd429a5ba6b9ea15174f",
+  "versions": [
+    {
+      "locator": "https://github.com/pytorch/pytorch/blob/0fabc3ba44823f257e70ce397d989c8de5e362c1/torch/nn/modules/loss.py",
+      "revision": "0fabc3ba44823f257e70ce397d989c8de5e362c1",
+      "read_scope": "静态核对loss.py的CrossEntropyLoss文档及forward、functional.py的cross_entropy入口与log_softmax说明；核对logits输入、类别索引/概率标签、ignore_index、reduction、label_smoothing。未读底层C++/CUDA内核，未运行PyTorch。",
+      "artifacts": [
+        {
+          "name": "loss.py",
+          "sha256": "c084497103565798e801e87eb058c0fe06428f00de1e1c3719d26bece07a6aae",
+          "snapshot": ".local/sources/SRC-PYTORCH-CROSSENTROPY/c084497103565798e801e87eb058c0fe06428f00de1e1c3719d26bece07a6aae/loss.py"
+        },
+        {
+          "name": "functional.py",
+          "sha256": "5e96bb0880a4c6f4c0ae34c00a894e152412e68f6ffd073d2b442907eedeb5fa",
+          "snapshot": ".local/sources/SRC-PYTORCH-CROSSENTROPY/5e96bb0880a4c6f4c0ae34c00a894e152412e68f6ffd073d2b442907eedeb5fa/functional.py"
+        }
+      ],
+      "fingerprint": "f9de6c0d274ca1dbf55143d516d64d7e5c3f943c20b2cd429a5ba6b9ea15174f",
+      "retrieved_on": "2026-11-14",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "811b691c22bb5519ff5693f536c22f6d6216f4c2b3de4455dda84a6d5b6dc7cb",
+        "pages": [
+          "language-model-loss-gradient"
+        ],
+        "reviewed_on": "2026-11-14",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定commit的CrossEntropyLoss文档、forward与functional入口，复查引用页的logits/类别轴/ignore_index/归约解释及数学推导。NumPy有限差分核验教学梯度；未运行PyTorch或读取底层内核。"
+      }
+    }
+  ]
+}

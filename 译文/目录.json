@@ -1271,5 +1271,15 @@
     "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
     "checked_on": "2026-11-08",
     "license_url": null
+  },
+  {
+    "source_id": "SRC-TIM",
+    "title": "TIM: Temporal Interaction Model in Notification System",
+    "original_url": "https://arxiv.org/abs/2406.07067v1",
+    "revision": "arXiv:2406.07067v1，2024-06-11；ICMR2024，DOI 10.1145/3652583.3657614，5页",
+    "status": "local-only",
+    "reason": "已完成原LaTeX正文中文翻译、4页PDF及逐页验收；未确认公开全文译文许可，未制作正式公开Markdown全文译文。原文与中文PDF已按独立私有规则备份并真实登录下载校验。",
+    "checked_on": "2026-11-09",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
   }
 ]
