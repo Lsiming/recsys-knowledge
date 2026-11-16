@@ -3,11 +3,11 @@ id: "causal-uplift"
 title: "因果推断与 Uplift 预估"
 type: "map"
 status: "reviewed"
-updated: "2026-10-28"
+updated: "2026-11-16"
 summary: "从干预与对照定义进入条件增量估计，连接策略表示、正交学习、排序与幅度验证"
 aliases: ["因果推断/uplift预估", "uplift预估", "Uplift Modeling", "CATE", "增益模型", "异质性干预效应", "营销因果模型"]
-sources: {"SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794"}
-related: ["marketing-subsidy", "combinatorial-policy-uplift", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives"]
+sources: {"SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f"}
+related: ["marketing-subsidy", "combinatorial-policy-uplift", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives"]
 module: "因果推断与 Uplift 预估"
 ---
 # 因果推断与 Uplift 预估
@@ -15,6 +15,8 @@ module: "因果推断与 Uplift 预估"
 Uplift 预估关心同类用户接受不同干预时，结果的期望差异。优惠券、营销触达、补贴档位、车型升级都可以是干预；响应概率、转化率或消费额预测则主要描述某个已观测条件下的结果。预测“会买”与预测“因为这项干预而多买”所需的数据和假设不同。
 
 本模块是[营销补贴方向](../总览/营销补贴总图.md)的效应预估入口，也可用于推荐干预等场景。当前已精读 [POUL](../../来源/SRC-POUL/阅读笔记.md) 与 [TaQFormer](../../来源/SRC-TAQFORMER/阅读笔记.md)：前者聚焦组合策略的原子表示与正交化学习，后者聚焦坐标级处理查询、OBS--RCT 适配和在线全动作服务；它们都不是整个因果推断领域的综述。
+
+[商品历史与单调定价问题](../问题/商品历史如何生成单调需求曲线并支持定价.md)补充价格响应建模这一相邻入口：TG-DIPricingNets用历史生成需求网络权重、以累计非负因子约束价格方向，再按毛利枚举价格。它在本模块作为响应预测与因果效应的边界案例；观测销量预测、形状约束和历史利润分组均不自动建立因果识别。
 
 ## 先定义比较，再选择模型
 
@@ -37,6 +39,7 @@ $t_0$ 可以是不发券，也可以是当前策略；换了对照就换了问�
 | 如何减少基准预测误差对效应学习的影响？ | 对结果和干预表示残差化；交叉拟合与已知随机化概率；不把局部正交性扩大为任意学习误差保证 | [正交化机制及证明边界](../../来源/SRC-POUL/阅读笔记.md#三项理论分别保证了什么) |
 | 联合折扣怎样同时建模和服务？ | 坐标级处理 Token 查询请求记忆，OBS 预训练后用 RCT LoRA 和门适配；通过处理并行复用请求编码 | [TaQFormer 精读](../../来源/SRC-TAQFORMER/阅读笔记.md) |
 | 能排序是否就能决定给多少补贴？ | AUUC看排序，分组效应误差看幅度；还要检查支持覆盖、近零分母与区间 | [实验与指标](../../来源/SRC-POUL/阅读笔记.md#实验支持部分排序优势幅度校准仍然不足) |
+| 商品量价异质性怎样建模，单调性是否等于因果性？ | 历史条件化参数、非负增量遮罩、预测后选价；仍需干预支持和识别条件 | [TG-DIPricingNets与补贴模型比较](../问题/商品历史如何生成单调需求曲线并支持定价.md) |
 
 T-Learner、Causal Forest、DESCN和DRCFR目前只作为POUL论文内部基线理解，不据此声称已独立精读。后续补基础或多值/连续干预资料时，围绕相同目标量、数据生成与支持条件比较，不另建一份同义的“增益模型”百科。
 

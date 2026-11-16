@@ -84,6 +84,18 @@
       "credit": "recsys-knowledge contributors",
       "modification": "自主中文布局与构造样本，不复制原图或声称真实模型输出；省略内部算子",
       "created_on": "2026-11-15"
+    },
+    {
+      "path": "资源/图片/SRC-TG-DIPN/历史生成权重与候选定价.svg",
+      "sha256": "947f025cc9f5196d2422016d68cbe944d736240f47b3f348f594c3dfc22fe3e8",
+      "kind": "原创机制示意",
+      "source_id": "SRC-TG-DIPN",
+      "source_version": "ACM Version of Record，WWW Companion 2025，1514–1518，2025-05-23上线",
+      "basis": "§2.1–2.3、图1与附录A式(2)–(4)；用自造系数、销量与利润说明计算分工",
+      "license": "CC-BY-4.0",
+      "credit": "recsys-knowledge contributors",
+      "modification": "自主布局与中文教学例子；非原图复制或实际模型输出，省略各层和训练；系数归一化只是例子选值",
+      "created_on": "2026-11-16"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-11-09",
-  "inventory_note": "64篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "updated": "2026-11-16",
+  "inventory_note": "65篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -2173,6 +2173,45 @@
         "size_bytes": 388394,
         "pages": 4,
         "verified_download_sha256": "e8d5cb6007a118ea3168901c661f6b8231fc35e54ca1551597809f1cbbcb6a28"
+      }
+    },
+    {
+      "source_id": "SRC-TG-DIPN",
+      "title": "Pricing Items Based on Their Own History: Transformer-Generated Deep Isotonic Pricing Networks",
+      "original_url": "https://doi.org/10.1145/3701716.3715542",
+      "revision": "ACM Version of Record，WWW Companion 2025，1514–1518，2025-05-23上线",
+      "input_sha256": "4ff570cf9662cf44c7ec46f94efce829a75b13f04af4b06c0e349e0a2bf75e04",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文§1–5、图1图注、表1–2标题/表头与说明译为中文，公式及表内数值保留；前5页中文重排，末2页保留原文第4–5页的17条文献、附录A–C、表3及结论英文末段。全部13个编号公式保留，图内英文不翻。未取得作者LaTeX，当前模型从正式PDF翻译，译注区别原文，另存工作版Markdown和可编辑重排工程。",
+      "status": "private",
+      "reason": "原文5页与中文7页逐页验收；原文和译文已核对远端digest并真实认证下载，类型、大小、页数及完整SHA256一致。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-16",
+        "notes": "ACM正式版首页为Copyright held by the owner/author(s)、Publication rights licensed to ACM及个人/课堂复制条款；未核实公开全文译文许可。保留五位作者及原权利声明，原文/中文PDF仅作私有学习备份，未公开正式Markdown全文译文。",
+        "evidence_url": "https://doi.org/10.1145/3701716.3715542",
+        "evidence_sha256": "24418cb5adb9de0ab6d90c7dc0c53d9e05ce84e25badcf009d8c29b8f7f7f8d1",
+        "original_pdf_sha256": "24418cb5adb9de0ab6d90c7dc0c53d9e05ce84e25badcf009d8c29b8f7f7f8d1",
+        "license_id": "ACM licensed / personal-classroom permission",
+        "authors": [
+          "Longxiang Zhang",
+          "Linlin Yu",
+          "Bin Chen",
+          "Zhuojun Wang",
+          "Chengfu Huo"
+        ]
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261116",
+        "asset_name": "SRC-TG-DIPN.zh-CN.private.20261116.1.pdf",
+        "translation_version": "20261116.1",
+        "sha256": "4ff570cf9662cf44c7ec46f94efce829a75b13f04af4b06c0e349e0a2bf75e04",
+        "size_bytes": 1630971,
+        "pages": 7,
+        "verified_download_sha256": "4ff570cf9662cf44c7ec46f94efce829a75b13f04af4b06c0e349e0a2bf75e04"
       }
     }
   ],

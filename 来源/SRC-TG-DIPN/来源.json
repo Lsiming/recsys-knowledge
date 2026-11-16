@@ -1,0 +1,35 @@
+{
+  "id": "SRC-TG-DIPN",
+  "title": "Pricing Items Based on Their Own History: Transformer-Generated Deep Isotonic Pricing Networks",
+  "kind": "paper",
+  "state": "active",
+  "current": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3701716.3715542",
+      "revision": "ACM Version of Record，WWW Companion 2025，1514–1518，2025-05-23上线",
+      "read_scope": "采用正式5页PDF；已读正文§1–5、图1、表1–3、附录A–C与全部13个编号公式；无已核实arXiv或LaTeX源码，未运行模型。翻译摘要与正文、图表标题；附录和参考文献保留英文。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "24418cb5adb9de0ab6d90c7dc0c53d9e05ce84e25badcf009d8c29b8f7f7f8d1",
+          "snapshot": ".local/sources/SRC-TG-DIPN/24418cb5adb9de0ab6d90c7dc0c53d9e05ce84e25badcf009d8c29b8f7f7f8d1/paper.pdf"
+        }
+      ],
+      "fingerprint": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f",
+      "retrieved_on": "2026-11-16",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "bb09f466c84e691ff3ce133bb09f3b7c049bdb48e14a1d2a208ffc42e5631d52",
+        "pages": [
+          "causal-uplift",
+          "history-conditioned-pricing",
+          "marketing-subsidy"
+        ],
+        "reviewed_on": "2026-11-16",
+        "review_method": "agent-self-review",
+        "review_note": "当前Agent完成技术证据与读者路径两轮自查：核对ACM正式5页、图1、表1–3和式1–13；区分30天历史生成权重、累计非负因子和利润枚举。构造算例、DWMAPE/分差/利润组比值复算及局部梯度有限差分通过；附录链式法则、无折扣锚定、训练标签/切分和历史分组回测边界已保留。已比较本库TaQFormer与POUL；原文和中文PDF已真实认证下载核验，笔记补记实际收据。未取得作者源码/运行模型或独立审查。"
+      }
+    }
+  ]
+}
