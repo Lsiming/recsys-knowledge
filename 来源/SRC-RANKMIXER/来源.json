@@ -1,0 +1,44 @@
+{
+  "id": "SRC-RANKMIXER",
+  "title": "RankMixer: Scaling Up Ranking Models in Industrial Recommenders",
+  "kind": "paper",
+  "state": "active",
+  "current": "9b7f38bacf45534a779d40f8ed8bbf390a889dcdc6e49e456f5b62039ffd7687",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2507.15551v3",
+      "revision": "2507.15551v3",
+      "read_scope": "已逐节阅读固定v3正文§1–5、12个编号公式、图1–4与表1–6，核对9页PDF的正文与参考文献边界；正文源码仅采用实际编译内容，注释旧稿不作证据；未读算法实现、未运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "4ce87d626d0a9945f64dd5a91106eed7602a22ff69ad35e98372cd8b3ee4e37d",
+          "snapshot": ".local/sources/SRC-RANKMIXER/4ce87d626d0a9945f64dd5a91106eed7602a22ff69ad35e98372cd8b3ee4e37d/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "e8ee47d014e555f0472ac5082bd9e838ac5be6b991371a2d44706b084511ffca",
+          "snapshot": ".local/sources/SRC-RANKMIXER/e8ee47d014e555f0472ac5082bd9e838ac5be6b991371a2d44706b084511ffca/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "7b4d57d896d59e03d0e38439f2a9a12972e833f80755a5c6efe1f19ea36233d6",
+          "snapshot": ".local/sources/SRC-RANKMIXER/7b4d57d896d59e03d0e38439f2a9a12972e833f80755a5c6efe1f19ea36233d6/abs.html"
+        }
+      ],
+      "fingerprint": "9b7f38bacf45534a779d40f8ed8bbf390a889dcdc6e49e456f5b62039ffd7687",
+      "retrieved_on": "2026-11-18",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "496c5bba3caf0b347511cf345f2f384ce773351983cdf0aab8bdb77cf28cf0b6",
+        "pages": [
+          "ranking-interaction",
+          "sparse-feature-interactions"
+        ],
+        "reviewed_on": "2026-11-18",
+        "review_method": "agent-self-review",
+        "review_note": "固定v3正文与原图/公式/表数逐项回查；技术证据和读者路径两轮当前Agent自查，教学数值脚本核验，保留DTSI细节缺口、表6倍率与资源/协议条件。marked+Chromium整篇预览两图显示通过，数学按原式另核。9页原文和7页中文PDF全部逐页目视，清理副本逐页像素一致，原译均首次真实认证下载完整SHA256通过；直接引用的模块/问题页已比对机制、接口和成本边界。未运行模型、未独立审查。"
+      }
+    }
+  ]
+}

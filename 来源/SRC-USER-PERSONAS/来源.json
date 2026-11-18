@@ -1,0 +1,44 @@
+{
+  "id": "SRC-USER-PERSONAS",
+  "title": "LLM-Based User Personas for Recommendations at Scale",
+  "kind": "paper",
+  "state": "active",
+  "current": "3ebee9c840ce6c518ae3105c3cd152fe2c277832b17d6e2943b405e15e1f1a65",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2606.12198v2",
+      "revision": "2606.12198v2，2026-07-15；首发2026-06-10",
+      "read_scope": "已读固定v2正文§1–6及附录A/B提示，原文9页全部逐页目视；核对源码、图1–4和表1–2。参考文献未逐篇精读，未读作者算法实现，未运行模型。原稿Woodstock 2018为模板占位，不作发表证据。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "80930ed2c910aa6c62eb16794d7ce6e7e10a011002677206d99dec96b0108344",
+          "snapshot": ".local/sources/SRC-USER-PERSONAS/80930ed2c910aa6c62eb16794d7ce6e7e10a011002677206d99dec96b0108344/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "f7a190e1b21ff1541a9b2f255fbaccb2b45c9b735fa77224d2d151251a4db154",
+          "snapshot": ".local/sources/SRC-USER-PERSONAS/f7a190e1b21ff1541a9b2f255fbaccb2b45c9b735fa77224d2d151251a4db154/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "862bcf6e2861387610c5795079dc1591557c64ed13cc602b589eb6b899a6efa4",
+          "snapshot": ".local/sources/SRC-USER-PERSONAS/862bcf6e2861387610c5795079dc1591557c64ed13cc602b589eb6b899a6efa4/abs.html"
+        }
+      ],
+      "fingerprint": "3ebee9c840ce6c518ae3105c3cd152fe2c277832b17d6e2943b405e15e1f1a65",
+      "retrieved_on": "2026-11-18",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "1f6bf0ef48ffa93aa7653a3f54d83645788bbaec50ad352d57b5a9492f8eafe6",
+        "pages": [
+          "target-conditioned-interest-evolution",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-11-18",
+        "review_method": "agent-self-review",
+        "review_note": "固定v2正文与附录提示已读，原9页和中7页逐页目视；技术证据自查区分聚类/教师学生/文本约束检索、指标条件集合和线上相对增量，读者路径沿咖啡样本走完历史至曝光。三张作者原图直接展示且整篇分段目视，预览器数学另按源码核对。原译首次真实认证下载、字体/动作及译后像素检查通过；未运行模型或独立审查。"
+      }
+    }
+  ]
+}

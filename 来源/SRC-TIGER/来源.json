@@ -25,7 +25,7 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "a8784cea260dca72f9a5da3618a8995e60b197a0010f9da67150e3826d9f9d37",
+        "notes_sha256": "6ae65af9d7cac8cb8e6c77347fda871bc6a997d7392e0669ac29d52510406f01",
         "pages": [
           "generation-decoding",
           "generative-recommendation",
@@ -36,9 +36,9 @@
           "semantic-code-retrieval",
           "slate-prefix-dependence"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-18",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。"
+        "review_note": "固定v3回查；内容量化/消歧、监督梯度、冷启动与搜索边界和所有直接引用页复核；整篇4段原图预览、技术证据及读者路径两轮当前Agent自查。沿用14页旧译文验收/下载哈希，本轮未逐页重验；未运行模型或独立审查。"
       }
     }
   ]

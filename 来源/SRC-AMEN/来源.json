@@ -1,0 +1,44 @@
+{
+  "id": "SRC-AMEN",
+  "title": "Next Interest Flow: A Generative Pre-training Paradigm for Recommender Systems by Modeling All-domain Movelines",
+  "kind": "paper",
+  "state": "active",
+  "current": "30bf24b1468046d50c3e3879557915b1eb1189100cd9ee1425ab271e7ad77137",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2510.11317v2",
+      "revision": "2510.11317v2",
+      "read_scope": "已读固定v2正文§1–4、两个命题与证明、9个编号公式、图1–3与表1–2，6页含参考文献；核对原文实际内容与源码，不将注释模板当作发表证据。未核算法实现、未运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "3f363c642b17f7730988fc980d76cb3150504aa27926622bafc9c1c97a3bc2c9",
+          "snapshot": ".local/sources/SRC-AMEN/3f363c642b17f7730988fc980d76cb3150504aa27926622bafc9c1c97a3bc2c9/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "55f2549d67ea84f5a3f255551e1be4b59712404b15624dfaa7e0b41a3c1d7f96",
+          "snapshot": ".local/sources/SRC-AMEN/55f2549d67ea84f5a3f255551e1be4b59712404b15624dfaa7e0b41a3c1d7f96/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "b4e9a02d461d6439b207ab288a1d6d8f9612f6df0aaa370ec7bf96355c580799",
+          "snapshot": ".local/sources/SRC-AMEN/b4e9a02d461d6439b207ab288a1d6d8f9612f6df0aaa370ec7bf96355c580799/abs.html"
+        }
+      ],
+      "fingerprint": "30bf24b1468046d50c3e3879557915b1eb1189100cd9ee1425ab271e7ad77137",
+      "retrieved_on": "2026-11-18",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "28fa2c9af58aa4e86626e4d6cd98870acedb921d0a30cd7417ba29a50a024527",
+        "pages": [
+          "target-conditioned-interest-evolution",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-11-18",
+        "review_method": "agent-self-review",
+        "review_note": "固定v2全文6页，原9公式/2表核对；InfoNCE/样条/TSP/冻结和线上归因及所有绑定页复核；整篇5段作者原图、技术与读者路径两轮自查。新5页中文PDF逐页目视、像素/字体/动作及原译真实认证下载核验通过；未运行模型或独立审查。"
+      }
+    }
+  ]
+}

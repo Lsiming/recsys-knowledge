@@ -1290,5 +1290,53 @@
     "status": "local-only",
     "checked_on": "2026-11-16",
     "reason": "未确认ACM正式版允许公开全文译文再分发；正文中文Markdown与可编辑重排工程保留本地，7页中文PDF已私有备份并实际登录下载校验。附录、参考文献和图内英文保留。"
+  },
+  {
+    "source_id": "SRC-AMEN",
+    "title": "Next Interest Flow: A Generative Pre-training Paradigm for Recommender Systems by Modeling All-domain Movelines",
+    "original_url": "https://arxiv.org/abs/2510.11317v2",
+    "revision": "2510.11317v2",
+    "checked_on": "2026-11-18",
+    "status": "local-only",
+    "reason": "固定版本CC BY-NC-ND 4.0不授予公开改编译文分发权；已完成5页正文中文PDF逐页验收及原/译私有备份真实认证下载。",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "evidence_url": "https://arxiv.org/abs/2510.11317v2",
+    "evidence_sha256": "b4e9a02d461d6439b207ab288a1d6d8f9612f6df0aaa370ec7bf96355c580799"
+  },
+  {
+    "source_id": "SRC-RANKMIXER",
+    "title": "RankMixer: Scaling Up Ranking Models in Industrial Recommenders",
+    "original_url": "https://arxiv.org/abs/2507.15551v3",
+    "revision": "2507.15551v3",
+    "checked_on": "2026-11-18",
+    "status": "local-only",
+    "reason": "未核实公开派生全文译文分发许可，未发布正式Markdown译文；已完成7页正文中文PDF逐页验收及原/译私有备份真实认证下载。",
+    "license_url": null,
+    "evidence_url": "https://arxiv.org/abs/2507.15551v3",
+    "evidence_sha256": "7b4d57d896d59e03d0e38439f2a9a12972e833f80755a5c6efe1f19ea36233d6"
+  },
+  {
+    "source_id": "SRC-RECGPT-V3",
+    "title": "RecGPT-V3 Technical Report",
+    "original_url": "https://arxiv.org/abs/2607.15591v2",
+    "revision": "2607.15591v2，2026-07-24；首发2026-07-17",
+    "checked_on": "2026-11-18",
+    "status": "local-only",
+    "reason": "未核实公开派生全文译文分发许可，未发布正式Markdown译文；已完成27页正文中文PDF逐页验收及原/译私有备份真实认证下载。",
+    "license_url": null,
+    "evidence_url": "https://arxiv.org/abs/2607.15591v2",
+    "evidence_sha256": "90e539c748e747fab0c487eda6c2b57b033e4a01e5064123aa7b672d848dc929"
+  },
+  {
+    "source_id": "SRC-USER-PERSONAS",
+    "title": "LLM-Based User Personas for Recommendations at Scale",
+    "original_url": "https://arxiv.org/abs/2606.12198v2",
+    "revision": "2606.12198v2，2026-07-15；首发2026-06-10",
+    "checked_on": "2026-11-18",
+    "status": "local-only",
+    "reason": "固定版本CC BY 4.0，尚未另制作正式Markdown全文译文；已完成7页正文中文PDF逐页验收及原/译私有备份真实认证下载。",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence_url": "https://arxiv.org/abs/2606.12198v2",
+    "evidence_sha256": "862bcf6e2861387610c5795079dc1591557c64ed13cc602b589eb6b899a6efa4"
   }
 ]

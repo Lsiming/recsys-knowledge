@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-16，盘点65篇中文PDF，65篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-18，盘点69篇中文PDF，69篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -77,3 +77,7 @@
 | [UniGCRec: Unified User-Item Quantization for Generative Cross-Domain Recommendation](https://doi.org/10.1145/3770855.3818132) · `SRC-UNIGCREC` | 私有，需登录 · 20261030.1 · 18页 | [CC-BY-4.0](https://doi.org/10.1145/3770855.3818132) | 摘要、正文§1–5、致谢、三个提示框、6图标题及5表标题/表头译为中文；无附录。未取得LaTeX，依据KDD2026 V.2正式PDF重排并录入13编号公式和5表，表2按目标域分组但全部数值保持；图内英文、人名机构与62条参考文献保留。保留原作者、原版权及CC BY 4.0声明，翻译、重排及明确译注为修改。；18页正文中文PDF逐页验收；采用原文与译文均已私有备份，核对远端digest并真实登录下载验证大小与完整SHA256。 |
 | [TIM: Temporal Interaction Model in Notification System](https://arxiv.org/abs/2406.07067v1) · `SRC-TIM` | 私有，需登录 · 20261109.1 · 4页 | [arXiv-nonexclusive-distrib-1.0 / ACM licensed](https://arxiv.org/abs/2406.07067v1) | 摘要、正文§1–4、2幅编号图的图注/描述、3表标题与表头、通讯作者脚注译为中文；无附录。原公式(1)–(10)与全部表内数值保留；图内英文、人名机构、出版/权利信息及24条参考文献保留。当前模型翻译，基于原LaTeX以acmart双栏编译，明确AI辅助翻译与统计解释译注。；4页正文中文PDF逐页验收；采用原文与译文已私有备份，核对远端digest并真实登录下载验证PDF类型、大小与完整SHA256。 |
 | [Pricing Items Based on Their Own History: Transformer-Generated Deep Isotonic Pricing Networks](https://doi.org/10.1145/3701716.3715542) · `SRC-TG-DIPN` | 私有，需登录 · 20261116.1 · 7页 | [ACM licensed / personal-classroom permission](https://doi.org/10.1145/3701716.3715542) | 摘要、正文§1–5、图1图注、表1–2标题/表头与说明译为中文，公式及表内数值保留；前5页中文重排，末2页保留原文第4–5页的17条文献、附录A–C、表3及结论英文末段。全部13个编号公式保留，图内英文不翻。未取得作者LaTeX，当前模型从正式PDF翻译，译注区别原文，另存工作版Markdown和可编辑重排工程。；原文5页与中文7页逐页验收；原文和译文已核对远端digest并真实认证下载，类型、大小、页数及完整SHA256一致。 |
+| [RankMixer: Scaling Up Ranking Models in Industrial Recommenders](https://arxiv.org/abs/2507.15551v3) · `SRC-RANKMIXER` | 私有，需登录 · 20261118.1 · 7页 | [arXiv nonexclusive-distrib/1.0](https://arxiv.org/abs/2507.15551v3) | 固定2507.15551v3摘要、正文§1–5、图1–4图注与表1–6标题/描述译为中文；12个编号公式原块和六表数字保留，原图内英文、作者/机构及参考文献保留。当前模型翻译LaTeX副本，注释旧稿不作为正文或证据。正文中文PDF7页，全部逐页渲染目视。；原文9页与译文7页全部逐页目视；两份均核对远端digest并实际认证下载，类型、大小、页数和完整SHA256一致。译文私有副本与编译版逐页像素一致。 |
+| [Next Interest Flow: A Generative Pre-training Paradigm for Recommender Systems by Modeling All-domain Movelines](https://arxiv.org/abs/2510.11317v2) · `SRC-AMEN` | 私有，需登录 · 20261118.1 · 5页 | [CC-BY-NC-ND-4.0](https://arxiv.org/abs/2510.11317v2) | 固定2510.11317v2摘要、正文§1–4及图表描述译为中文；9个编号公式原块、两表数字与作者原图保留，作者机构和参考文献保留英文。正文中文PDF5页已全部逐页目视。；原文6页、中文5页全部逐页目视；9公式和2表数字一致；译后清理副本与编译版5页1.3倍渲染像素一致。原/译均已核远端digest并首次真实认证下载，类型、大小、页数、完整SHA256一致。 |
+| [LLM-Based User Personas for Recommendations at Scale](https://arxiv.org/abs/2606.12198v2) · `SRC-USER-PERSONAS` | 私有，需登录 · 20261118.1 · 7页 | [CC-BY-4.0](https://arxiv.org/abs/2606.12198v2) | 固定2606.12198v2摘要、正文§1–6及图表说明译为中文；原图内文字、参考文献、作者机构和附录A/B保留英文。正文中文PDF7页已全部逐页目视。；原文9页、中文7页全部逐页目视；69个有效cite/ref/label、五图路径与两表数字一致；英文附录原字节保留；清理副本与编译版7页1.4倍渲染像素一致。原/译均已核远端digest并首次真实认证下载，类型、大小、页数、完整SHA256一致。 |
+| [RecGPT-V3 Technical Report](https://arxiv.org/abs/2607.15591v2) · `SRC-RECGPT-V3` | 私有，需登录 · 20261118.1 · 27页 | [arXiv-nonexclusive-distrib](https://arxiv.org/abs/2607.15591v2) | 固定2607.15591v2摘要、正文§1–6及图表说明中文翻译；作者机构、原图内文字、参考文献及附录A–C保留英文。中文PDF27页全部逐页目视；译后普通浮动环境避免重叠，未删正文。；原文32页、中文27页全部逐页目视；19正文与4附录编号公式原块、13表数字和167项cite/ref/label计数一致（英文月份本地化后比较）；图路径一致、附录原字节保留；清理前后27页1.4倍渲染像素一致。原/译均核对远端digest并首次真实登录下载校验类型、页数、大小与完整SHA256。 |

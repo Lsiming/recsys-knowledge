@@ -1,0 +1,49 @@
+{
+  "id": "SRC-RECGPT-V3",
+  "title": "RecGPT-V3 Technical Report",
+  "kind": "paper",
+  "state": "active",
+  "current": "9213a9f43513748b92b314d5865d15f990fab9462667e43836f40df03b439790",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2607.15591v2",
+      "revision": "2607.15591v2，2026-07-24；首发2026-07-17",
+      "read_scope": "已读固定v2摘要、正文§1–6（PDF第1–24页）与附录A–C（第27–32页），32页原文逐页目视；核对实际LaTeX源码、图2–9与13张表。参考文献未逐篇精读，未读作者算法实现，未运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "346cbcea955f084b85cc5ab02e987f3bac5b3217b5cc0f92e771fb524ed630ac",
+          "snapshot": ".local/sources/SRC-RECGPT-V3/346cbcea955f084b85cc5ab02e987f3bac5b3217b5cc0f92e771fb524ed630ac/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "c295b9987127ab996c87228eb96a050d9a6e736a7d3b1b7235d8bdafb6dae220",
+          "snapshot": ".local/sources/SRC-RECGPT-V3/c295b9987127ab996c87228eb96a050d9a6e736a7d3b1b7235d8bdafb6dae220/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "90e539c748e747fab0c487eda6c2b57b033e4a01e5064123aa7b672d848dc929",
+          "snapshot": ".local/sources/SRC-RECGPT-V3/90e539c748e747fab0c487eda6c2b57b033e4a01e5064123aa7b672d848dc929/abs.html"
+        }
+      ],
+      "fingerprint": "9213a9f43513748b92b314d5865d15f990fab9462667e43836f40df03b439790",
+      "retrieved_on": "2026-11-18",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "c87e451627240904e8c97177f538a40a69608c7d5094dbec4ae98d4920a79fd8",
+        "pages": [
+          "generative-preference-alignment",
+          "hybrid-generative-dense-retrieval",
+          "latent-recommendation-reasoning",
+          "retrieval",
+          "serving-efficiency",
+          "target-conditioned-interest-evolution",
+          "user-sequence"
+        ],
+        "reviewed_on": "2026-11-18",
+        "review_method": "agent-self-review",
+        "review_note": "固定v2正文及附录、32页原文已读；记忆/两级码/潜重建/监督梯度/RLRF/Target-Attention/成本与数值矛盾均核对；全部绑定页复核。整篇7段5张原图、技术证据与读者路径两轮自查；新27页中文PDF逐页目视、结构/像素/字体/动作及原译真实认证下载通过；未运行模型或独立审查。"
+      }
+    }
+  ]
+}

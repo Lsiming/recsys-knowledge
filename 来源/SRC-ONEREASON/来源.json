@@ -55,7 +55,7 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "ffce6dc481c8849597542d2b9eed5d14a52be1e658a5e82b524e0ffbc3d402fb",
+        "notes_sha256": "a18a8a4d2ac73d2548ca37e37f263b0240860453a494a4a1742f703bc77fef97",
         "pages": [
           "generative-output-evaluation",
           "generative-preference-alignment",
@@ -67,9 +67,9 @@
           "serving-efficiency",
           "training-alignment"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-18",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增级联对照按各自固定版本区分V2目标三码、Think候选前缀缓存、OneReason完整候选缓存及OneSug查询建议；不同协议不做效果排名。"
+        "review_note": "固定v1正文及定向附录回查；四粒度预训练、R0–R3、GRPO/RFT/MOPD和部署接口及全部直接引用页复核；整篇6段原图预览、两轮当前Agent自查。96页旧译文沿用既有验收/下载哈希；未运行模型或独立审查。"
       }
     }
   ]
