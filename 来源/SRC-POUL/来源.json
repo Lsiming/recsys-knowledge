@@ -23,7 +23,20 @@
       ],
       "fingerprint": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6",
       "retrieved_on": "2026-10-26",
-      "integration": null
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "fc440403d91d5995e40038d20b1e41f256041c1f161e422da717f5cf7ad75362",
+        "pages": [
+          "causal-uplift",
+          "combinatorial-policy-uplift",
+          "history-conditioned-pricing",
+          "marketing-subsidy",
+          "orthogonal-score-cate-error"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "对照 v1 假设 3.5、定义、算法 1 的已知分配中心和 B.5.2 的恒等式，构造严格正余项尺度的零梯度反例并用有理数核算。五个引用页采用局部正交性、显式交叉项分解与原表实验边界。非作者勘误或模型复现；新版全文重读仍在第 12 批。"
+      }
     }
   ]
 }
