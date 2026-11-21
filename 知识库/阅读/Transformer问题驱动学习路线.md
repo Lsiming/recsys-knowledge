@@ -54,7 +54,7 @@ related: ["self-attention-context", "pretraining-task-transfer", "classic-readin
 | 位置如何进入 Q、K 的点积？ | [加性位置向量与 RoPE](../概念/Transformer位置编码.md#从加性位置向量到rope) | [RoFormer 的二维旋转与相对位移](../../来源/SRC-ROFORMER/阅读笔记.md) |
 | 精确注意力如何减少显存读写，反向时重新算什么？ | [分块前向与反向重算](../概念/Attention计算与存储.md#flashattention为什么不必保存完整概率矩阵) | [FlashAttention 的在线 Softmax、HBM 访问与算量](../../来源/SRC-FLASHATTENTION/阅读笔记.md) |
 
-ALiBi、SwiGLU、GQA 的质量对比及长上下文扩展仍缺独立论文核验。此前的 [32 项覆盖审计](../../维护/Transformer知识覆盖审计.md)和 [102 题逐项核验](../../维护/Transformer历史问答沉淀核验.md)保留各自日期的范围。
+长度外推、门控 FFN 和 KV 头共享各有不同的比较基线。三篇原文及待核问题见[后续补读 P127–P129](候选论文.md#transformer-followup)。此前的 [32 项覆盖审计](../../维护/Transformer知识覆盖审计.md)和 [102 题逐项核验](../../维护/Transformer历史问答沉淀核验.md)保留各自日期的范围。
 
 ## GitHub题目从哪里来
 
