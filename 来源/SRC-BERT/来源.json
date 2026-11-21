@@ -25,15 +25,15 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "21c8839105c0b7c8ae75b0fa4f091244b6aceb7c6f00265f69ccee1a51cf264e",
+        "notes_sha256": "85a9304a572b44d0ea97c28388e398d434f99ed0ca358c627faf99fad8be6201",
         "pages": [
           "attention-mask-padding",
           "pretraining-task-transfer",
           "sequence-representation-pooling"
         ],
-        "reviewed_on": "2026-11-15",
+        "reviewed_on": "2026-11-21",
         "review_method": "agent-self-review",
-        "review_note": "固定v2原件哈希、§3/3.1/4和附录A及表格自查；逐样本核对三Mask、同位标签、状态/读出轴、均值loss和教学梯度，补清logits与one-hot定义。复核三个直接页及共用SVG，旧实验尾段保留；源版本不变，当前Agent自查，未运行模型或重跑译文/附件发布。"
+        "review_note": "固定v2原件哈希、§3/3.1/4和附录A及表格自查；逐样本核对三Mask、同位标签、状态/读出轴、均值loss和教学梯度，补清logits与one-hot定义。复核三个直接页及共用SVG，旧实验尾段保留；源版本不变，当前Agent自查，未运行模型或重跑译文/附件发布。\n2026-11-21 PAPER-007：核对采用版作者图1–4及主笔记所有图文引用，沿已有输入、监督和使用实例复核关键信息与两轮自查。原/译私有附件真实登录下载复验完整哈希与页数，沿用既有版本。"
       }
     }
   ]
