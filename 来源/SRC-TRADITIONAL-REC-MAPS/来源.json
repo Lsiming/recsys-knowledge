@@ -1,0 +1,80 @@
+{
+  "id": "SRC-TRADITIONAL-REC-MAPS",
+  "title": "推荐算法实战思维导图（第2–9章）",
+  "kind": "tutorial",
+  "state": "active",
+  "current": "bf6519558f665cbfee4ec123cdfc95211e575e7815e7cf4b5df2c25b45312390",
+  "versions": [
+    {
+      "locator": "用户提供的八份 PDF（按附件名定位）",
+      "revision": "第2–9章，附件原字节快照",
+      "read_scope": "第2–9章全部72页文字节点及关键图示抽查",
+      "artifacts": [
+        {
+          "name": "推荐算法实战思维导图-2特征.pdf",
+          "sha256": "a165c23046bb0858a66a0d657786c5fc2f478ad9f2d71c15bc6f537746d6c400",
+          "snapshot": ".local/sources/SRC-TRADITIONAL-REC-MAPS/a165c23046bb0858a66a0d657786c5fc2f478ad9f2d71c15bc6f537746d6c400/推荐算法实战思维导图-2特征.pdf"
+        },
+        {
+          "name": "推荐算法实战思维导图-3embedding.pdf",
+          "sha256": "352534199dc71c0bd74ff2e55ac06b29871fdae928c9a4b0263f19e86f4193ee",
+          "snapshot": ".local/sources/SRC-TRADITIONAL-REC-MAPS/352534199dc71c0bd74ff2e55ac06b29871fdae928c9a4b0263f19e86f4193ee/推荐算法实战思维导图-3embedding.pdf"
+        },
+        {
+          "name": "推荐算法实战思维导图-4精排.pdf",
+          "sha256": "bd24a4f2315e3318a21dbf0f4aed86f5ef4ad0becd39bf80e68992af6d8353f7",
+          "snapshot": ".local/sources/SRC-TRADITIONAL-REC-MAPS/bd24a4f2315e3318a21dbf0f4aed86f5ef4ad0becd39bf80e68992af6d8353f7/推荐算法实战思维导图-4精排.pdf"
+        },
+        {
+          "name": "推荐算法实战思维导图-5召回.pdf",
+          "sha256": "af13a4292a613a392ffb8deefbc3c99595a0ebc266cef7f098c0f07187e809ee",
+          "snapshot": ".local/sources/SRC-TRADITIONAL-REC-MAPS/af13a4292a613a392ffb8deefbc3c99595a0ebc266cef7f098c0f07187e809ee/推荐算法实战思维导图-5召回.pdf"
+        },
+        {
+          "name": "推荐算法实战思维导图-6粗排与重排.pdf",
+          "sha256": "a7f43a608f5c6c805bcc10db6a6c207baaf31cc337dee70ea81102d2dabb1ca8",
+          "snapshot": ".local/sources/SRC-TRADITIONAL-REC-MAPS/a7f43a608f5c6c805bcc10db6a6c207baaf31cc337dee70ea81102d2dabb1ca8/推荐算法实战思维导图-6粗排与重排.pdf"
+        },
+        {
+          "name": "推荐算法实战思维导图-7多任务与多场景.pdf",
+          "sha256": "a64c7abd81f99927b6f09ecf1856e8d63bf04deee0de06975db8291fbf0641c1",
+          "snapshot": ".local/sources/SRC-TRADITIONAL-REC-MAPS/a64c7abd81f99927b6f09ecf1856e8d63bf04deee0de06975db8291fbf0641c1/推荐算法实战思维导图-7多任务与多场景.pdf"
+        },
+        {
+          "name": "推荐算法实战思维导图-8冷启动.pdf",
+          "sha256": "0f110849fbaa43ca43554188d6069ff407a502e1aae61339d0f7fcd0edd08a79",
+          "snapshot": ".local/sources/SRC-TRADITIONAL-REC-MAPS/0f110849fbaa43ca43554188d6069ff407a502e1aae61339d0f7fcd0edd08a79/推荐算法实战思维导图-8冷启动.pdf"
+        },
+        {
+          "name": "推荐算法实战思维导图-9评估与调试.pdf",
+          "sha256": "56d4542b5da19ee83fbd4a80db2bfd41cbdda6e22c23a52f0dd8c4e754c63b58",
+          "snapshot": ".local/sources/SRC-TRADITIONAL-REC-MAPS/56d4542b5da19ee83fbd4a80db2bfd41cbdda6e22c23a52f0dd8c4e754c63b58/推荐算法实战思维导图-9评估与调试.pdf"
+        }
+      ],
+      "fingerprint": "bf6519558f665cbfee4ec123cdfc95211e575e7815e7cf4b5df2c25b45312390",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "72b0ef458c5c5fcf80f793cfec271e0f54a8ff791d9262e88e3880926494e939",
+        "pages": [
+          "data-labels",
+          "evaluation-bias",
+          "exploration-longterm",
+          "multidomain-transfer",
+          "multitask-objectives",
+          "paper-candidates",
+          "preranking-budget-retention",
+          "ranking-interaction",
+          "representations-tokenization",
+          "reranking-slate",
+          "retrieval",
+          "serving-efficiency",
+          "task-aligned-evaluation"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "对读全部72页文字、页面渲染和Vision OCR，关键公式与结构回原页；复核13个绑定页面及关联的已有精读与候选入口，核实39个新候选书目身份，保留待核简称。按教程与工程解释整合，论文仍待读。"
+      }
+    }
+  ]
+}
