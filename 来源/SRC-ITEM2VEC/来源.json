@@ -1,0 +1,33 @@
+{
+  "id": "SRC-ITEM2VEC",
+  "title": "Item2Vec: Neural Item Embedding for Collaborative Filtering",
+  "kind": "paper",
+  "state": "active",
+  "current": "335a0687f76fc0d652ba126776f6ad1c74ad171c44949992c2ffa508243975a2",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1603.04259v2",
+      "revision": "arXiv 1603.04259v2",
+      "read_scope": "正文 §1–5、图 1–2、表 1–4。",
+      "artifacts": [
+        {
+          "name": "SRC-ITEM2VEC.pdf",
+          "sha256": "76373aa767544aa02d8d1a18847ede8343c373a3b9f85dbe54771f364f085f48",
+          "snapshot": ".local/sources/SRC-ITEM2VEC/76373aa767544aa02d8d1a18847ede8343c373a3b9f85dbe54771f364f085f48/SRC-ITEM2VEC.pdf"
+        }
+      ],
+      "fingerprint": "335a0687f76fc0d652ba126776f6ad1c74ad171c44949992c2ffa508243975a2",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "6778d37506f76f007bc3198c914b83323036c6eedf0138ac1b847f8268d5c4ec",
+        "pages": [
+          "item-neighborhood-from-interactions"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "核对购物篮配对、中心和上下文的梯度、流派分类对照与固定 PDF 重排范围。两轮当前 Agent 自查。"
+      }
+    }
+  ]
+}

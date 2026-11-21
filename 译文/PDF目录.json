@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-11-21",
-  "inventory_note": "77篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "86篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -2727,6 +2727,354 @@
         "size_bytes": 264706,
         "pages": 7,
         "verified_download_sha256": "57bdb8e65d70783215346aea7b961875b51a71f9c55baf749475890a3e25c48e"
+      }
+    },
+    {
+      "source_id": "SRC-AIRBNB-EMBEDDINGS",
+      "title": "Real-time Personalization using Embeddings for Search Ranking at Airbnb",
+      "original_url": "https://doi.org/10.1145/3219819.3219885",
+      "revision": "KDD 2018, pp.311–320",
+      "input_sha256": "988e77c96d201cefdf4f7214755b5d127578b1139434b5b27f557191ab58cc68",
+      "input_pages": 16,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、致谢、12 个编号公式及 7 图 8 表对照正式版重排，图内原字与参考文献保留英文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Mihajlo Grbovic",
+          "Haibin Cheng"
+        ],
+        "original_pdf_sha256": "58a17c9b8caf4bda6c9ab3f3e69b140d9cf3a081855ddebb3510e7144e167a8b",
+        "evidence_url": "https://doi.org/10.1145/3219819.3219885",
+        "evidence_sha256": "58a17c9b8caf4bda6c9ab3f3e69b140d9cf3a081855ddebb3510e7144e167a8b",
+        "license_id": "ACM / personal-classroom permission",
+        "notes": "采用会议版的署名与版权说明。个人或课堂复制条款不授予公开译文许可。"
+      },
+      "reason": "最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121-batch-03-04",
+        "translation_version": "20261121.1",
+        "asset_name": "SRC-AIRBNB-EMBEDDINGS.zh-CN.private.20261121.1.pdf",
+        "sha256": "988e77c96d201cefdf4f7214755b5d127578b1139434b5b27f557191ab58cc68",
+        "size_bytes": 2017642,
+        "pages": 16,
+        "verified_download_sha256": "988e77c96d201cefdf4f7214755b5d127578b1139434b5b27f557191ab58cc68"
+      }
+    },
+    {
+      "source_id": "SRC-EGES",
+      "title": "Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba",
+      "original_url": "https://arxiv.org/abs/1803.02349v2",
+      "revision": "arXiv 1803.02349v2",
+      "input_sha256": "6212185f1536bdf84c1f6baf07e59a6eb3c53067880765f35583140c1c3abd63",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、图表说明及伪代码注释译为中文，参考文献及原图内文字保留英文。基于作者 LaTeX 编译。",
+      "status": "private",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Jizhe Wang",
+          "Pipei Huang",
+          "Huan Zhao",
+          "Zhibo Zhang",
+          "Binqiang Zhao",
+          "Dik Lun Lee"
+        ],
+        "original_pdf_sha256": "fd0e3680c2099da7849d3979b3a0de63f84dbedfe97ed4c3dc71436c781f7257",
+        "evidence_url": "https://arxiv.org/abs/1803.02349v2",
+        "evidence_sha256": "09bd95fdf80ee9ae199473041a2d7a7396821df32c686370ae39ca3030930e15",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 arXiv 版本列非独占分发许可。公开全文译文所需的派生作品授权未由该许可授予。"
+      },
+      "reason": "最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121-batch-03-04",
+        "translation_version": "20261121.1",
+        "asset_name": "SRC-EGES.zh-CN.private.20261121.1.pdf",
+        "sha256": "6212185f1536bdf84c1f6baf07e59a6eb3c53067880765f35583140c1c3abd63",
+        "size_bytes": 2612329,
+        "pages": 6,
+        "verified_download_sha256": "6212185f1536bdf84c1f6baf07e59a6eb3c53067880765f35583140c1c3abd63"
+      }
+    },
+    {
+      "source_id": "SRC-FAISS",
+      "title": "Billion-scale similarity search with GPUs",
+      "original_url": "https://arxiv.org/abs/1702.08734v1",
+      "revision": "arXiv 1702.08734v1",
+      "input_sha256": "b7871799bf31cc92d5042c06c006ce741349f72e3d298009ba2d936bfa6478ea",
+      "input_pages": 22,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、算法注释、图表说明与脚注译为中文。参考文献、附录及图内英文保留。作者 LaTeX 改为单栏中文排版。",
+      "status": "private",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Jeff Johnson",
+          "Matthijs Douze",
+          "Hervé Jégou"
+        ],
+        "original_pdf_sha256": "89b2371b261846059d416bdf1423b15a6e3cc7d1b2d5dc2729ee5f6c3399049a",
+        "evidence_url": "https://arxiv.org/abs/1702.08734v1",
+        "evidence_sha256": "b03b9958b2ef5ed7859bf3b2d6731dd7d080484160ddb4a0ccea9c6c16dc51f9",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 arXiv 版本列非独占分发许可。公开全文译文所需的派生作品授权未由该许可授予。"
+      },
+      "reason": "最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121-batch-03-04",
+        "translation_version": "20261121.1",
+        "asset_name": "SRC-FAISS.zh-CN.private.20261121.1.pdf",
+        "sha256": "b7871799bf31cc92d5042c06c006ce741349f72e3d298009ba2d936bfa6478ea",
+        "size_bytes": 1293389,
+        "pages": 22,
+        "verified_download_sha256": "b7871799bf31cc92d5042c06c006ce741349f72e3d298009ba2d936bfa6478ea"
+      }
+    },
+    {
+      "source_id": "SRC-ITEM2VEC",
+      "title": "Item2Vec: Neural Item Embedding for Collaborative Filtering",
+      "original_url": "https://arxiv.org/abs/1603.04259v2",
+      "revision": "arXiv 1603.04259v2",
+      "input_sha256": "eb5dcef008c0dfac299a05e9e2068bf813a5aaa7a64b587b0af096e6ab0db1a4",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、图表说明译为中文，参考文献和图内原字保留。作者源码端点返回 PDF，译文依据固定 PDF 重排。",
+      "status": "private",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Oren Barkan",
+          "Noam Koenigstein"
+        ],
+        "original_pdf_sha256": "76373aa767544aa02d8d1a18847ede8343c373a3b9f85dbe54771f364f085f48",
+        "evidence_url": "https://arxiv.org/abs/1603.04259v2",
+        "evidence_sha256": "5a777977483207ba64f7e399f1393e32b3aca6e2801e3192f4b63db8c01dbe67",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 arXiv 版本列非独占分发许可。公开全文译文所需的派生作品授权未由该许可授予。"
+      },
+      "reason": "最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121-batch-03-04",
+        "translation_version": "20261121.1",
+        "asset_name": "SRC-ITEM2VEC.zh-CN.private.20261121.1.pdf",
+        "sha256": "eb5dcef008c0dfac299a05e9e2068bf813a5aaa7a64b587b0af096e6ab0db1a4",
+        "size_bytes": 1665681,
+        "pages": 8,
+        "verified_download_sha256": "eb5dcef008c0dfac299a05e9e2068bf813a5aaa7a64b587b0af096e6ab0db1a4"
+      }
+    },
+    {
+      "source_id": "SRC-ITEMCF",
+      "title": "Item-Based Collaborative Filtering Recommendation Algorithms",
+      "original_url": "https://doi.org/10.1145/371920.372071",
+      "revision": "WWW 2001, pp.285–295",
+      "input_sha256": "d4bb10d6fbb4dfa701aea1a968b7685e7f04ea752b1a71173e29d25c204904a5",
+      "input_pages": 10,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、图注及致谢正文译为中文。用正式 PDF 和会议 HTML 对照重排，参考文献、作者图内标签和原版资助声明保留英文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Badrul Sarwar",
+          "George Karypis",
+          "Joseph Konstan",
+          "John Riedl"
+        ],
+        "original_pdf_sha256": "7962b08a72b28ae732a674e1245e010b8d5883b1c08bff9aea4d185961e27fd5",
+        "evidence_url": "https://doi.org/10.1145/371920.372071",
+        "evidence_sha256": "7962b08a72b28ae732a674e1245e010b8d5883b1c08bff9aea4d185961e27fd5",
+        "license_id": "ACM / personal-classroom permission",
+        "notes": "采用会议版的署名与版权说明。个人或课堂复制条款不授予公开译文许可。"
+      },
+      "reason": "最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121-batch-03-04",
+        "translation_version": "20261121.1",
+        "asset_name": "SRC-ITEMCF.zh-CN.private.20261121.1.pdf",
+        "sha256": "d4bb10d6fbb4dfa701aea1a968b7685e7f04ea752b1a71173e29d25c204904a5",
+        "size_bytes": 1575306,
+        "pages": 10,
+        "verified_download_sha256": "d4bb10d6fbb4dfa701aea1a968b7685e7f04ea752b1a71173e29d25c204904a5"
+      }
+    },
+    {
+      "source_id": "SRC-MIXED-NEGATIVE-SAMPLING",
+      "title": "Mixed Negative Sampling for Learning Two-tower Neural Networks in Recommendations",
+      "original_url": "https://doi.org/10.1145/3366424.3386195",
+      "revision": "Companion of The Web Conference 2020, pp.441–447",
+      "input_sha256": "da94a6449c7551801783b1c987fd73f7684bf60a04081af0c59751e660851743",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、图表说明译为中文，图内英文与参考文献保留。依据会议 PDF 重排。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Ji Yang",
+          "Xinyang Yi",
+          "Derek Zhiyuan Cheng",
+          "Lichan Hong",
+          "Yang Li",
+          "Simon Xiaoming Wang",
+          "Taibai Xu",
+          "Ed H. Chi"
+        ],
+        "original_pdf_sha256": "2a351d6ad5acd86b7b42b3d4164e83b4f4c65e62ce8b31dc09bad8a2b928da17",
+        "evidence_url": "https://doi.org/10.1145/3366424.3386195",
+        "evidence_sha256": "2a351d6ad5acd86b7b42b3d4164e83b4f4c65e62ce8b31dc09bad8a2b928da17",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "notes": "正式版首页列 CC BY 4.0，允许符合署名、许可链接和修改说明要求的改编。本次交付为私有 PDF。"
+      },
+      "reason": "最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121-batch-03-04",
+        "translation_version": "20261121.1",
+        "asset_name": "SRC-MIXED-NEGATIVE-SAMPLING.zh-CN.private.20261121.1.pdf",
+        "sha256": "da94a6449c7551801783b1c987fd73f7684bf60a04081af0c59751e660851743",
+        "size_bytes": 930354,
+        "pages": 8,
+        "verified_download_sha256": "da94a6449c7551801783b1c987fd73f7684bf60a04081af0c59751e660851743"
+      }
+    },
+    {
+      "source_id": "SRC-NCE",
+      "title": "Noise-contrastive Estimation: A New Estimation Principle for Unnormalized Statistical Models",
+      "original_url": "https://proceedings.mlr.press/v9/gutmann10a.html",
+      "revision": "AISTATS 2010, PMLR 9, pp.297–304",
+      "input_sha256": "4b96b3cc906fd786f3300c88f02305969aa012941de37e03cba8ad208b461175",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–4、图注与脚注译为中文，原作者图内文字及参考文献保留英文。依据正式 PDF 重排。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Michael U. Gutmann",
+          "Aapo Hyvärinen"
+        ],
+        "original_pdf_sha256": "9f05eba5ed29ee20575bed070aaff0a1431efce5097d660c8cba2f69450dbf75",
+        "evidence_url": "https://proceedings.mlr.press/v9/gutmann10a.html",
+        "evidence_sha256": "9f05eba5ed29ee20575bed070aaff0a1431efce5097d660c8cba2f69450dbf75",
+        "license_id": "PMLR / AISTATS 2010",
+        "notes": "采用 PMLR 会议版，保留原作者署名与出版信息。公开全文译文许可未确认。"
+      },
+      "reason": "最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121-batch-03-04",
+        "translation_version": "20261121.1",
+        "asset_name": "SRC-NCE.zh-CN.private.20261121.1.pdf",
+        "sha256": "4b96b3cc906fd786f3300c88f02305969aa012941de37e03cba8ad208b461175",
+        "size_bytes": 841319,
+        "pages": 8,
+        "verified_download_sha256": "4b96b3cc906fd786f3300c88f02305969aa012941de37e03cba8ad208b461175"
+      }
+    },
+    {
+      "source_id": "SRC-SAMPLING-BIAS-CORRECTION",
+      "title": "Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations",
+      "original_url": "https://doi.org/10.1145/3298689.3346996",
+      "revision": "RecSys 2019, pp.266–274",
+      "input_sha256": "18472f85ffb07d2f90a402f11a5af34ea307341a96966d82bd64530bd3b3e3a6",
+      "input_pages": 10,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、图表说明及算法描述译为中文，图内英文与参考文献保留。依据会议 PDF 重排。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Xinyang Yi",
+          "Ji Yang",
+          "Lichan Hong",
+          "Derek Zhiyuan Cheng",
+          "Lukasz Heldt",
+          "Aditee Kumthekar",
+          "Zhe Zhao",
+          "Li Wei",
+          "Ed Chi"
+        ],
+        "original_pdf_sha256": "68a0f02d291954154d5c44f22b34c7d2a19f7502267987b26499a8afc5256892",
+        "evidence_url": "https://doi.org/10.1145/3298689.3346996",
+        "evidence_sha256": "68a0f02d291954154d5c44f22b34c7d2a19f7502267987b26499a8afc5256892",
+        "license_id": "ACM / personal-classroom permission",
+        "notes": "采用会议版的署名与版权说明。个人或课堂复制条款不授予公开译文许可。"
+      },
+      "reason": "最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121-batch-03-04",
+        "translation_version": "20261121.1",
+        "asset_name": "SRC-SAMPLING-BIAS-CORRECTION.zh-CN.private.20261121.1.pdf",
+        "sha256": "18472f85ffb07d2f90a402f11a5af34ea307341a96966d82bd64530bd3b3e3a6",
+        "size_bytes": 1563277,
+        "pages": 10,
+        "verified_download_sha256": "18472f85ffb07d2f90a402f11a5af34ea307341a96966d82bd64530bd3b3e3a6"
+      }
+    },
+    {
+      "source_id": "SRC-WORD2VEC-NEG",
+      "title": "Distributed Representations of Words and Phrases and their Compositionality",
+      "original_url": "https://arxiv.org/abs/1310.4546v1",
+      "revision": "arXiv 1310.4546v1; NeurIPS 2013",
+      "input_sha256": "c3a2c5ac61a07cc96fdcff84370a6b28fc21d07d4fa5425ca5dcad5e3c33ce23",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、图表说明及脚注译为中文，参考文献和图内原字保留。基于作者 LaTeX 编译。",
+      "status": "private",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Tomas Mikolov",
+          "Ilya Sutskever",
+          "Kai Chen",
+          "Greg Corrado",
+          "Jeffrey Dean"
+        ],
+        "original_pdf_sha256": "b21848e7b9b6ba1191f8283892a72b5529205bfdeca462403bd69ab6c6f8c6d1",
+        "evidence_url": "https://arxiv.org/abs/1310.4546v1",
+        "evidence_sha256": "d88158f243a6605ffce4d6b22a682ed053c20257a0b4fc8433869f1b647c49a4",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 arXiv 版本列非独占分发许可。公开全文译文所需的派生作品授权未由该许可授予。"
+      },
+      "reason": "最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121-batch-03-04",
+        "translation_version": "20261121.1",
+        "asset_name": "SRC-WORD2VEC-NEG.zh-CN.private.20261121.1.pdf",
+        "sha256": "c3a2c5ac61a07cc96fdcff84370a6b28fc21d07d4fa5425ca5dcad5e3c33ce23",
+        "size_bytes": 285758,
+        "pages": 8,
+        "verified_download_sha256": "c3a2c5ac61a07cc96fdcff84370a6b28fc21d07d4fa5425ca5dcad5e3c33ce23"
       }
     }
   ],

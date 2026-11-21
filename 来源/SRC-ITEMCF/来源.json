@@ -1,0 +1,33 @@
+{
+  "id": "SRC-ITEMCF",
+  "title": "Item-Based Collaborative Filtering Recommendation Algorithms",
+  "kind": "paper",
+  "state": "active",
+  "current": "1ccdb2ce3d58041dac3e51b0fa1fab23c0044d15d6282dcc4ff39c35d6199fae",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/371920.372071",
+      "revision": "WWW 2001, pp.285–295",
+      "read_scope": "正文 §1–6、图 1–8，辅以 WWW10 的 HTML 正文校对。",
+      "artifacts": [
+        {
+          "name": "SRC-ITEMCF.pdf",
+          "sha256": "7962b08a72b28ae732a674e1245e010b8d5883b1c08bff9aea4d185961e27fd5",
+          "snapshot": ".local/sources/SRC-ITEMCF/7962b08a72b28ae732a674e1245e010b8d5883b1c08bff9aea4d185961e27fd5/SRC-ITEMCF.pdf"
+        }
+      ],
+      "fingerprint": "1ccdb2ce3d58041dac3e51b0fa1fab23c0044d15d6282dcc4ff39c35d6199fae",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "801eeeb9985152321c6b756535cc5796624656882bd91922d6cddd268ec60c40",
+        "pages": [
+          "item-neighborhood-from-interactions"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "核对共同评分与调整余弦、相似度绝对值分母、MovieLens MAE和批处理测时。 已复核图注与读者路径，未运行模型。"
+      }
+    }
+  ]
+}

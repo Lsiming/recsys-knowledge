@@ -1,0 +1,33 @@
+{
+  "id": "SRC-AIRBNB-EMBEDDINGS",
+  "title": "Real-time Personalization using Embeddings for Search Ranking at Airbnb",
+  "kind": "paper",
+  "state": "active",
+  "current": "ad6415dbd11a140aec7e6ddf32e54d734cc3cb1b94dbc54de1f6502dac28e53b",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3219819.3219885",
+      "revision": "KDD 2018, pp.311–320",
+      "read_scope": "正文、方法与实验；同版 ACM PDF 来自固定 Git 镜像。",
+      "artifacts": [
+        {
+          "name": "SRC-AIRBNB-EMBEDDINGS.pdf",
+          "sha256": "58a17c9b8caf4bda6c9ab3f3e69b140d9cf3a081855ddebb3510e7144e167a8b",
+          "snapshot": ".local/sources/SRC-AIRBNB-EMBEDDINGS/58a17c9b8caf4bda6c9ab3f3e69b140d9cf3a081855ddebb3510e7144e167a8b/SRC-AIRBNB-EMBEDDINGS.pdf"
+        }
+      ],
+      "fingerprint": "ad6415dbd11a140aec7e6ddf32e54d734cc3cb1b94dbc54de1f6502dac28e53b",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "140e87450d29c9f22bfd674dff6c2e0cca4b32df4c18000305baa23d310c2b4d",
+        "pages": [
+          "item-neighborhood-from-interactions"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "核对点击窗口、预订全局项及同市场负例，复查类型与拒订、搜索和轮播指标。 已复核图注与读者路径，未运行模型。"
+      }
+    }
+  ]
+}

@@ -82,7 +82,7 @@ def check(data, root=ROOT):
             continue
         tag, name = release.get('tag', ''), release.get('asset_name', '')
         version = release.get('translation_version', '')
-        if not re.fullmatch(r'private-zh-pdfs-[0-9]{8}', tag) or not re.fullmatch(r'[0-9]+\.[0-9]+', version):
+        if not re.fullmatch(r'private-zh-pdfs-[0-9]{8}(?:-batch-[0-9]{2}-[0-9]{2})?', tag) or not re.fullmatch(r'[0-9]+\.[0-9]+', version):
             errors.append(f'{sid}: release tag/译文版本无效')
         if name != f'{sid}.zh-CN.private.{version}.pdf' or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]*\.pdf', name):
             errors.append(f'{sid}: PDF 资产名无效')

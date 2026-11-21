@@ -1,0 +1,33 @@
+{
+  "id": "SRC-SAMPLING-BIAS-CORRECTION",
+  "title": "Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations",
+  "kind": "paper",
+  "state": "active",
+  "current": "3c30e1d087a8a5468103153df9c44ce1a78684cb2a347e47c14f5ff14b8048cb",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3298689.3346996",
+      "revision": "RecSys 2019, pp.266–274",
+      "read_scope": "正文 §1–7、算法、频率估计证明及实验；采用 Google Research PDF。",
+      "artifacts": [
+        {
+          "name": "SRC-SAMPLING-BIAS-CORRECTION.pdf",
+          "sha256": "68a0f02d291954154d5c44f22b34c7d2a19f7502267987b26499a8afc5256892",
+          "snapshot": ".local/sources/SRC-SAMPLING-BIAS-CORRECTION/68a0f02d291954154d5c44f22b34c7d2a19f7502267987b26499a8afc5256892/SRC-SAMPLING-BIAS-CORRECTION.pdf"
+        }
+      ],
+      "fingerprint": "3c30e1d087a8a5468103153df9c44ce1a78684cb2a347e47c14f5ff14b8048cb",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "dda648e47b9a9f9244545040caca7992e964299a71421e8099b92271e54de9d0",
+        "pages": [
+          "sampled-two-tower-training"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "核对批损失与参数更新编号、LogQ、EMA偏差式以及离线与线上指标设置。 已复核图注与读者路径，未运行模型。"
+      }
+    }
+  ]
+}

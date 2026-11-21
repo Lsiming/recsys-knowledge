@@ -1,0 +1,33 @@
+{
+  "id": "SRC-NCE",
+  "title": "Noise-contrastive Estimation: A New Estimation Principle for Unnormalized Statistical Models",
+  "kind": "paper",
+  "state": "active",
+  "current": "23c922f5da8b22ae45b67bb51ecdcee71ac79c2a2b9232a625fd1e12987c4aed",
+  "versions": [
+    {
+      "locator": "https://proceedings.mlr.press/v9/gutmann10a.html",
+      "revision": "AISTATS 2010, PMLR 9, pp.297–304",
+      "read_scope": "正文 §1–4、定理及两组实验。",
+      "artifacts": [
+        {
+          "name": "SRC-NCE.pdf",
+          "sha256": "9f05eba5ed29ee20575bed070aaff0a1431efce5097d660c8cba2f69450dbf75",
+          "snapshot": ".local/sources/SRC-NCE/9f05eba5ed29ee20575bed070aaff0a1431efce5097d660c8cba2f69450dbf75/SRC-NCE.pdf"
+        }
+      ],
+      "fingerprint": "23c922f5da8b22ae45b67bb51ecdcee71ac79c2a2b9232a625fd1e12987c4aed",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "ac49d70f35b6fc3d8bb1476eeab4f5d61e4d39441f34b832f98c5979a68bedbb",
+        "pages": [
+          "sampled-two-tower-training"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "核对数据与噪声后验、密度恢复、噪声支撑及式(22)缺log。 已复核图注与读者路径，未运行模型。"
+      }
+    }
+  ]
+}

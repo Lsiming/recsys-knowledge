@@ -664,3 +664,7 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 ## [2026-11-21] ingest | PAPER-007 · 第 02 批 Transformer 基础八篇
 
 完成 BPE、SentencePiece、Weight Tying、LayerNorm、Pre-LN、RMSNorm、RoFormer 和 FlashAttention 的首次全文精读与正文中文 PDF，补 20 张作者原图并回写词表、归一化、位置和注意力计算知识。两轮当前 Agent 自查、逐页译文和图文验收、16 份新附件实际登录下载/哈希核验、两库目录及临时产物处理见[交接](文档/会话/PAPER-007.md)。未复跑作者实验。
+
+## 2026-11-21 · 第 03–04 批召回论文精读
+
+完成 9 篇首次精读和 3 篇重读，主笔记补 39 张作者原图。沉淀物品邻域、双塔负样本与向量索引三个问题。验收 96 页新中文 PDF，认证下载核对 18 份新附件与 6 份既有附件，私有目录随批次同步。范围、原文疑点与验证见 [PAPER-008](文档/会话/PAPER-008.md)。

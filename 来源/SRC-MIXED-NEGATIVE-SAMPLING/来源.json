@@ -1,0 +1,33 @@
+{
+  "id": "SRC-MIXED-NEGATIVE-SAMPLING",
+  "title": "Mixed Negative Sampling for Learning Two-tower Neural Networks in Recommendations",
+  "kind": "paper",
+  "state": "active",
+  "current": "11ee796c3dd3ccd97df706c3eda6818957c4643659bb811a04a266a265e0afb3",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3366424.3386195",
+      "revision": "Companion of The Web Conference 2020, pp.441–447",
+      "read_scope": "正文 §1–6、模型及三张实验表；采用 Google Research PDF。",
+      "artifacts": [
+        {
+          "name": "SRC-MIXED-NEGATIVE-SAMPLING.pdf",
+          "sha256": "2a351d6ad5acd86b7b42b3d4164e83b4f4c65e62ce8b31dc09bad8a2b928da17",
+          "snapshot": ".local/sources/SRC-MIXED-NEGATIVE-SAMPLING/2a351d6ad5acd86b7b42b3d4164e83b4f4c65e62ce8b31dc09bad8a2b928da17/SRC-MIXED-NEGATIVE-SAMPLING.pdf"
+        }
+      ],
+      "fingerprint": "11ee796c3dd3ccd97df706c3eda6818957c4643659bb811a04a266a265e0afb3",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "241a41a635c6cc3c26e157b5889948071d862fdb7f7a4492a89db1b2382708cd",
+        "pages": [
+          "sampled-two-tower-training"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "核对目录列的当前物品塔前向、式(5)负列校正以及Google Play离线与线上设置。 已复核图注与读者路径，未运行模型。"
+      }
+    }
+  ]
+}

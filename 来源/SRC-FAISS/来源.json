@@ -1,0 +1,38 @@
+{
+  "id": "SRC-FAISS",
+  "title": "Billion-scale similarity search with GPUs",
+  "kind": "paper",
+  "state": "active",
+  "current": "33784621cedd563e0820bf371b8aa15a583d8616af72c1dd5a4d1038a2c5f38a",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1702.08734v1",
+      "revision": "arXiv 1702.08734v1",
+      "read_scope": "正文 §1–7、插图、算法与复杂度附录；核对作者 LaTeX。",
+      "artifacts": [
+        {
+          "name": "SRC-FAISS.pdf",
+          "sha256": "89b2371b261846059d416bdf1423b15a6e3cc7d1b2d5dc2729ee5f6c3399049a",
+          "snapshot": ".local/sources/SRC-FAISS/89b2371b261846059d416bdf1423b15a6e3cc7d1b2d5dc2729ee5f6c3399049a/SRC-FAISS.pdf"
+        },
+        {
+          "name": "SRC-FAISS.source.tar.gz",
+          "sha256": "cfc806f81046b127b8f9d0dcd8eb8fafef5efa4156378354cd2f95375ba64cbc",
+          "snapshot": ".local/sources/SRC-FAISS/cfc806f81046b127b8f9d0dcd8eb8fafef5efa4156378354cd2f95375ba64cbc/SRC-FAISS.source.tar.gz"
+        }
+      ],
+      "fingerprint": "33784621cedd563e0820bf371b8aa15a583d8616af72c1dd5a4d1038a2c5f38a",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "9ae571f8c5caa58bbb10684d464e7d93e6eb6ef29947285c8e71e3977e4b6899",
+        "pages": [
+          "ann-candidate-coverage"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "核对显式L2、倒排漏扫、量化错序和WarpSelect，并复核8.5倍对应SIFT1B。 已复核图注与读者路径，未运行模型。"
+      }
+    }
+  ]
+}

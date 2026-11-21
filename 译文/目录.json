@@ -1403,5 +1403,109 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "evidence_url": "https://arxiv.org/abs/2606.12198v2",
     "evidence_sha256": "862bcf6e2861387610c5795079dc1591557c64ed13cc602b589eb6b899a6efa4"
+  },
+  {
+    "source_id": "SRC-AIRBNB-EMBEDDINGS",
+    "title": "Real-time Personalization using Embeddings for Search Ranking at Airbnb",
+    "original_url": "https://doi.org/10.1145/3219819.3219885",
+    "revision": "KDD 2018, pp.311–320",
+    "status": "local-only",
+    "checked_on": "2026-11-21",
+    "reason": "正文中文 PDF 16 页已逐页验收、私有备份及认证下载核对。正式 Markdown 译文未发布。采用会议版的署名与版权说明。个人或课堂复制条款不授予公开译文许可。",
+    "evidence_url": "https://doi.org/10.1145/3219819.3219885",
+    "evidence_sha256": "58a17c9b8caf4bda6c9ab3f3e69b140d9cf3a081855ddebb3510e7144e167a8b"
+  },
+  {
+    "source_id": "SRC-EGES",
+    "title": "Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba",
+    "original_url": "https://arxiv.org/abs/1803.02349v2",
+    "revision": "arXiv 1803.02349v2",
+    "status": "local-only",
+    "checked_on": "2026-11-21",
+    "reason": "正文中文 PDF 6 页已逐页验收、私有备份及认证下载核对。正式 Markdown 译文未发布。固定 arXiv 版本列非独占分发许可。公开全文译文所需的派生作品授权未由该许可授予。",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "evidence_url": "https://arxiv.org/abs/1803.02349v2",
+    "evidence_sha256": "09bd95fdf80ee9ae199473041a2d7a7396821df32c686370ae39ca3030930e15"
+  },
+  {
+    "source_id": "SRC-FAISS",
+    "title": "Billion-scale similarity search with GPUs",
+    "original_url": "https://arxiv.org/abs/1702.08734v1",
+    "revision": "arXiv 1702.08734v1",
+    "status": "local-only",
+    "checked_on": "2026-11-21",
+    "reason": "正文中文 PDF 22 页已逐页验收、私有备份及认证下载核对。正式 Markdown 译文未发布。固定 arXiv 版本列非独占分发许可。公开全文译文所需的派生作品授权未由该许可授予。",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "evidence_url": "https://arxiv.org/abs/1702.08734v1",
+    "evidence_sha256": "b03b9958b2ef5ed7859bf3b2d6731dd7d080484160ddb4a0ccea9c6c16dc51f9"
+  },
+  {
+    "source_id": "SRC-ITEM2VEC",
+    "title": "Item2Vec: Neural Item Embedding for Collaborative Filtering",
+    "original_url": "https://arxiv.org/abs/1603.04259v2",
+    "revision": "arXiv 1603.04259v2",
+    "status": "local-only",
+    "checked_on": "2026-11-21",
+    "reason": "正文中文 PDF 8 页已逐页验收、私有备份及认证下载核对。正式 Markdown 译文未发布。固定 arXiv 版本列非独占分发许可。公开全文译文所需的派生作品授权未由该许可授予。",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "evidence_url": "https://arxiv.org/abs/1603.04259v2",
+    "evidence_sha256": "5a777977483207ba64f7e399f1393e32b3aca6e2801e3192f4b63db8c01dbe67"
+  },
+  {
+    "source_id": "SRC-ITEMCF",
+    "title": "Item-Based Collaborative Filtering Recommendation Algorithms",
+    "original_url": "https://doi.org/10.1145/371920.372071",
+    "revision": "WWW 2001, pp.285–295",
+    "status": "local-only",
+    "checked_on": "2026-11-21",
+    "reason": "正文中文 PDF 10 页已逐页验收、私有备份及认证下载核对。正式 Markdown 译文未发布。采用会议版的署名与版权说明。个人或课堂复制条款不授予公开译文许可。",
+    "evidence_url": "https://doi.org/10.1145/371920.372071",
+    "evidence_sha256": "7962b08a72b28ae732a674e1245e010b8d5883b1c08bff9aea4d185961e27fd5"
+  },
+  {
+    "source_id": "SRC-MIXED-NEGATIVE-SAMPLING",
+    "title": "Mixed Negative Sampling for Learning Two-tower Neural Networks in Recommendations",
+    "original_url": "https://doi.org/10.1145/3366424.3386195",
+    "revision": "Companion of The Web Conference 2020, pp.441–447",
+    "status": "local-only",
+    "checked_on": "2026-11-21",
+    "reason": "正文中文 PDF 8 页已逐页验收、私有备份及认证下载核对。固定版为 CC BY 4.0。交付为 PDF，正式 Markdown 译文尚未发布。",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence_url": "https://doi.org/10.1145/3366424.3386195",
+    "evidence_sha256": "2a351d6ad5acd86b7b42b3d4164e83b4f4c65e62ce8b31dc09bad8a2b928da17"
+  },
+  {
+    "source_id": "SRC-NCE",
+    "title": "Noise-contrastive Estimation: A New Estimation Principle for Unnormalized Statistical Models",
+    "original_url": "https://proceedings.mlr.press/v9/gutmann10a.html",
+    "revision": "AISTATS 2010, PMLR 9, pp.297–304",
+    "status": "local-only",
+    "checked_on": "2026-11-21",
+    "reason": "正文中文 PDF 8 页已逐页验收、私有备份及认证下载核对。正式 Markdown 译文未发布。采用 PMLR 会议版，保留原作者署名与出版信息。公开全文译文许可未确认。",
+    "evidence_url": "https://proceedings.mlr.press/v9/gutmann10a.html",
+    "evidence_sha256": "9f05eba5ed29ee20575bed070aaff0a1431efce5097d660c8cba2f69450dbf75"
+  },
+  {
+    "source_id": "SRC-SAMPLING-BIAS-CORRECTION",
+    "title": "Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations",
+    "original_url": "https://doi.org/10.1145/3298689.3346996",
+    "revision": "RecSys 2019, pp.266–274",
+    "status": "local-only",
+    "checked_on": "2026-11-21",
+    "reason": "正文中文 PDF 10 页已逐页验收、私有备份及认证下载核对。正式 Markdown 译文未发布。采用会议版的署名与版权说明。个人或课堂复制条款不授予公开译文许可。",
+    "evidence_url": "https://doi.org/10.1145/3298689.3346996",
+    "evidence_sha256": "68a0f02d291954154d5c44f22b34c7d2a19f7502267987b26499a8afc5256892"
+  },
+  {
+    "source_id": "SRC-WORD2VEC-NEG",
+    "title": "Distributed Representations of Words and Phrases and their Compositionality",
+    "original_url": "https://arxiv.org/abs/1310.4546v1",
+    "revision": "arXiv 1310.4546v1; NeurIPS 2013",
+    "status": "local-only",
+    "checked_on": "2026-11-21",
+    "reason": "正文中文 PDF 8 页已逐页验收、私有备份及认证下载核对。正式 Markdown 译文未发布。固定 arXiv 版本列非独占分发许可。公开全文译文所需的派生作品授权未由该许可授予。",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "evidence_url": "https://arxiv.org/abs/1310.4546v1",
+    "evidence_sha256": "d88158f243a6605ffce4d6b22a682ed053c20257a0b4fc8433869f1b647c49a4"
   }
 ]

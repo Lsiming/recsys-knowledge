@@ -1,0 +1,39 @@
+{
+  "id": "SRC-WORD2VEC-NEG",
+  "title": "Distributed Representations of Words and Phrases and their Compositionality",
+  "kind": "paper",
+  "state": "active",
+  "current": "7a8b417c3e5b9d9f2b20031dd8d9b3eba2b263a343a8ba675b9f826873e291d3",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1310.4546v1",
+      "revision": "arXiv 1310.4546v1; NeurIPS 2013",
+      "read_scope": "正文 §1–7、图 1–2、表 1–6；核对 LaTeX。",
+      "artifacts": [
+        {
+          "name": "SRC-WORD2VEC-NEG.pdf",
+          "sha256": "b21848e7b9b6ba1191f8283892a72b5529205bfdeca462403bd69ab6c6f8c6d1",
+          "snapshot": ".local/sources/SRC-WORD2VEC-NEG/b21848e7b9b6ba1191f8283892a72b5529205bfdeca462403bd69ab6c6f8c6d1/SRC-WORD2VEC-NEG.pdf"
+        },
+        {
+          "name": "SRC-WORD2VEC-NEG.source.tar.gz",
+          "sha256": "768eb68255f13721cc0ff0187d96e21b41173fec18534cf68a811ccc5e1ca8d6",
+          "snapshot": ".local/sources/SRC-WORD2VEC-NEG/768eb68255f13721cc0ff0187d96e21b41173fec18534cf68a811ccc5e1ca8d6/SRC-WORD2VEC-NEG.source.tar.gz"
+        }
+      ],
+      "fingerprint": "7a8b417c3e5b9d9f2b20031dd8d9b3eba2b263a343a8ba675b9f826873e291d3",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "df7da1f2fd845f9733414f801213c7fef94f77a09a209ceef61cadaa2929fc2f",
+        "pages": [
+          "item-neighborhood-from-interactions",
+          "sampled-two-tower-training"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "复算正负梯度与频率幂次，核对分层Softmax、NEG及短语合并。 已复核图注与读者路径，未运行模型。"
+      }
+    }
+  ]
+}

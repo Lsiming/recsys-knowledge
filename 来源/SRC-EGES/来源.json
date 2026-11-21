@@ -1,0 +1,38 @@
+{
+  "id": "SRC-EGES",
+  "title": "Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba",
+  "kind": "paper",
+  "state": "active",
+  "current": "a7b6f07bc3e4c92b6aa01589fcb209a52fc890f96ed6bfc70f1dcd2d532c8677",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1803.02349v2",
+      "revision": "arXiv 1803.02349v2",
+      "read_scope": "正文 §1–5、图表、算法及关键公式；核对作者 LaTeX。",
+      "artifacts": [
+        {
+          "name": "SRC-EGES.pdf",
+          "sha256": "fd0e3680c2099da7849d3979b3a0de63f84dbedfe97ed4c3dc71436c781f7257",
+          "snapshot": ".local/sources/SRC-EGES/fd0e3680c2099da7849d3979b3a0de63f84dbedfe97ed4c3dc71436c781f7257/SRC-EGES.pdf"
+        },
+        {
+          "name": "SRC-EGES.source.tar.gz",
+          "sha256": "e9481214571f57b1caad589b33039caf810a87dd2184a62a11dbde813a590403",
+          "snapshot": ".local/sources/SRC-EGES/e9481214571f57b1caad589b33039caf810a87dd2184a62a11dbde813a590403/SRC-EGES.source.tar.gz"
+        }
+      ],
+      "fingerprint": "a7b6f07bc3e4c92b6aa01589fcb209a52fc890f96ed6bfc70f1dcd2d532c8677",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "5ffa3f361eeb314d7c32ef3a512524ecd4644b93ae8ee7268da35d27b63c18a4",
+        "pages": [
+          "item-neighborhood-from-interactions"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "核对出边归一化、带权聚合梯度、冷启动等权平均、离线与线上证据范围，以及BGE印刷式方向。 已复核图注与读者路径，未运行模型。"
+      }
+    }
+  ]
+}
