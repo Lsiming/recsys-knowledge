@@ -3,8 +3,8 @@ id: "transformer-question-path"
 title: "Transformer问题驱动学习路线"
 type: "map"
 status: "reviewed"
-updated: "2026-11-14"
-summary: "用GitHub技术问题反查注意力、训练、推理和推荐迁移的学习入口，区分经典构件与现代扩展"
+updated: "2026-11-21"
+summary: "从注意力与序列监督进入分词、共享权重、归一化、RoPE 和 FlashAttention 的论文与推导"
 aliases: ["Transformer面试", "Transformer常考题", "Transformer八股", "Transformer知识覆盖", "技术问题梳理", "RoPE", "ALiBi", "FlashAttention", "KV Cache", "GQA", "RMSNorm", "SwiGLU"]
 sources: {"SRC-TRANSFORMER-INTERVIEW": "d4e96b7bc7f5b8b1d308be92016b2e6fb93fa24e40be0d045e9cf883ffeb3392", "SRC-MLNLP-TRANSFORMER": "f79f30e659d0550e6501c10897ed9bc022b0d6f43f199f976d7deb77b1faaa41", "SRC-LLM-INTERVIEW-TRANSFORMER": "1187df8efd6eec8ef65ce5c8f965d4928a911e948d2618c0d418e869e12972b6", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28"}
 related: ["self-attention-context", "pretraining-task-transfer", "classic-reading-path", "learning-resources", "target-decoding-compute", "transformer-position", "layernorm-residual", "attention-mask-padding", "transformer-training-translation", "embedding-weight-tying", "attention-compute-memory", "language-model-loss-gradient", "sequence-representation-pooling"]
@@ -45,7 +45,16 @@ related: ["self-attention-context", "pretraining-task-transfer", "classic-readin
 
 [下一物品预测](../问题/从历史顺序预测下一物品.md)比较SASRec与BERT4Rec的信息可见范围、恢复目标和候选打分；[目标解码计算](../问题/生成推荐怎样把计算集中到目标解码.md)与[历史复用](../问题/目标感知排序怎样复用历史计算.md)把缓存和候选隔离放回推荐场景。先说清输出是物品分数、SID还是文本，再比较架构。
 
-现代题目还会问RoPE/ALiBi、MQA/GQA、FlashAttention、RMSNorm/SwiGLU及长上下文。这些并非2017论文必须包含的内容。2026-11-08已补RoPE与固定代码缓存、FlashAttention在线归一化及RMSNorm定义；ALiBi、SwiGLU、长上下文扩展和全面的服务/显存协议仍有缺口。早期范围见[32项覆盖审计](../../维护/Transformer知识覆盖审计.md)，本轮增量及实际边界见[历史问答核验](../../维护/Transformer历史问答沉淀核验.md)。
+## 从四个问题回到八篇构件论文
+
+| 阅读时要区分什么 | 知识正文 | 对照精读 |
+|---|---|---|
+| 切分规则、词元 ID 和词表参数分别怎样共享？ | [词表嵌入与权重共享](../概念/词表嵌入与权重共享.md) | [BPE 的有序合并](../../来源/SRC-BPE/阅读笔记.md)、[SentencePiece 的规范化与采样](../../来源/SRC-SENTENCEPIECE/阅读笔记.md)、[Weight Tying 的两条梯度路径](../../来源/SRC-WEIGHT-TYING/阅读笔记.md) |
+| 改变统计量与移动残差支路上的归一化，各自改变哪一步？ | [归一化与残差梯度](../概念/LayerNorm与残差梯度.md) | [LayerNorm 的统计轴](../../来源/SRC-LAYERNORM/阅读笔记.md)、[Pre-LN 的恒等路径与预热实验](../../来源/SRC-PRELN/阅读笔记.md)、[RMSNorm 的均方根](../../来源/SRC-RMSNORM/阅读笔记.md) |
+| 位置如何进入 Q、K 的点积？ | [加性位置向量与 RoPE](../概念/Transformer位置编码.md#从加性位置向量到rope) | [RoFormer 的二维旋转与相对位移](../../来源/SRC-ROFORMER/阅读笔记.md) |
+| 精确注意力如何减少显存读写，反向时重新算什么？ | [分块前向与反向重算](../概念/Attention计算与存储.md#flashattention为什么不必保存完整概率矩阵) | [FlashAttention 的在线 Softmax、HBM 访问与算量](../../来源/SRC-FLASHATTENTION/阅读笔记.md) |
+
+ALiBi、SwiGLU、GQA 的质量对比及长上下文扩展仍缺独立论文核验。此前的 [32 项覆盖审计](../../维护/Transformer知识覆盖审计.md)和 [102 题逐项核验](../../维护/Transformer历史问答沉淀核验.md)保留各自日期的范围。
 
 ## GitHub题目从哪里来
 

@@ -57,7 +57,7 @@
       "retrieved_on": "2026-10-29",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "253e7919fd1d6279dbacb6554d19bab6e97961b8e5f1d09285ce86f8ac2eaa73",
+        "notes_sha256": "e13d650e31daa308abcf0c4a99c8133223d05007c7a77ec31f6fba8e8c90d859",
         "pages": [
           "generation-decoding",
           "generative-output-evaluation",
@@ -65,9 +65,9 @@
           "paper-candidates",
           "representations-tokenization"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-21",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。 2026-11-21 复核并补入从精读正文返回比较章节的链接。 笔记页首自引已对齐同一 v3 原件的全文阅读记录。"
       }
     }
   ]

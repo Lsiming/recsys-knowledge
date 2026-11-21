@@ -377,6 +377,9 @@ def search(root, query, limit):
     tokens = query.casefold().split()
     matches = []
     registry = records(root)
+    full_query = " ".join(tokens)
+    exact_sources = {sid for sid, record in registry.items()
+                     if full_query in (sid.casefold(), " ".join(record["title"].casefold().split()))}
     for path, meta, body in pages(root).values():
         solutions = meta.get("solutions", [])
         solution_terms = [s[key] for s in solutions for key in ("name", "idea")]
@@ -389,12 +392,18 @@ def search(root, query, limit):
             if any(token in alias.casefold() for alias in meta["aliases"]):
                 terms.extend(alias.casefold() for alias in meta["aliases"])
         score = sum(8 * (term in heading) + min(body.casefold().count(term), 5) for term in set(terms))
-        if score:
+        bound = exact_sources.intersection(meta["sources"])
+        if score or bound:
             snippet = next((line for line in body.splitlines() if any(t in line.casefold() for t in tokens)), meta["summary"])
-            matches.append({"path": path.relative_to(root).as_posix(), "title": meta["title"],
-                            "status": meta["status"], "score": score, "snippet": snippet[:200],
-                            **({"papers": paper_ids} if paper_ids else {})})
-    return sorted(matches, key=lambda item: (-item["score"], item["path"]))[:limit]
+            hit = {"path": path.relative_to(root).as_posix(), "title": meta["title"],
+                   "status": meta["status"], "score": score, "snippet": snippet[:200],
+                   **({"papers": paper_ids} if paper_ids else {})}
+            # An exact citation can lead to a concept even if its body uses only an acronym.
+            rank = (not bound, not bound.intersection(paper_ids),
+                    not (bound and meta["type"] == "concept"), -score, hit["path"])
+            matches.append((rank, hit))
+    matches.sort(key=lambda match: match[0])
+    return [hit for _, hit in matches[:limit]]
 
 
 def main(argv=None):

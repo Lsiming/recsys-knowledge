@@ -25,14 +25,14 @@
       "retrieved_on": "2026-11-21",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "df7da1f2fd845f9733414f801213c7fef94f77a09a209ceef61cadaa2929fc2f",
+        "notes_sha256": "e94163d73e99a479e051658680c71ddd368e55d267172e1ffbd94afb664e63b4",
         "pages": [
           "item-neighborhood-from-interactions",
           "sampled-two-tower-training"
         ],
         "reviewed_on": "2026-11-21",
         "review_method": "agent-self-review",
-        "review_note": "复算正负梯度与频率幂次，核对分层Softmax、NEG及短语合并。 已复核图注与读者路径，未运行模型。"
+        "review_note": "复算正负梯度与频率幂次，核对分层Softmax、NEG及短语合并。 已复核图注与读者路径，未运行模型。 2026-11-21 复核并补入从精读正文返回比较章节的链接。"
       }
     }
   ]

@@ -25,15 +25,15 @@
       "retrieved_on": "2026-10-29",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "5a8e23c52c8fde8891ba874a66ae19c20de79f54a62e90e705940616c030415d",
+        "notes_sha256": "5789860c20ab74e23bd964a369cff460f543c5e42688cbd6f7bc7e220f0d23b8",
         "pages": [
           "data-labels",
           "generative-recommendation",
           "synthetic-recommendation-data"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-21",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。"
+        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。 2026-11-21 复核并补入从精读正文返回比较章节的链接。"
       }
     }
   ]

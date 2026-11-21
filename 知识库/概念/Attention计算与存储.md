@@ -4,7 +4,7 @@ title: "Attention的平方矩阵、KV缓存与FlashAttention"
 type: "concept"
 status: "reviewed"
 updated: "2026-11-21"
-summary: "区分分数元素数、算量、逐层缓存与FlashAttention的IO节省"
+summary: "比较显式分数矩阵、逐层 KV 缓存与 FlashAttention 的分块前向、反向重算和显存读写"
 aliases: ["Attention Score存储", "平方复杂度", "KV Cache", "FlashAttention", "online softmax", "FP16显存", "prefill", "decode"]
 sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-FLASHATTENTION": "12fc356b011202b581abd7a8aff9c9e237f7636fab0e7216cd452054c2e77616", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-SASREC": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b", "SRC-SASREC-CODE": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff"}
 related: ["self-attention-context", "transformer-position"]

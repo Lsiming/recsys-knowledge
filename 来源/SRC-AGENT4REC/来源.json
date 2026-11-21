@@ -25,7 +25,7 @@
       "retrieved_on": "2026-10-29",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "7630ea2662a604f9461394183a14f9d7752b438e4d06c8a61fa14551963f1cb1",
+        "notes_sha256": "c4714c9ede260073b87f39308a160d2074d4dd754d89b489ffa0200aef0a97c6",
         "pages": [
           "data-labels",
           "evaluation-bias",
@@ -33,9 +33,9 @@
           "paper-candidates",
           "synthetic-recommendation-data"
         ],
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-11-21",
         "review_method": "agent-self-review",
-        "review_note": "回查v3正式PDF与正文源码，修正喜欢阈值、从众平方差方向、未交互负类及表3真实离线/模拟评价边界；0.9全判负准确率为协议比例分析，非复现。8页正文中文PDF逐页验收，原文/译文私有登录下载已核验；未运行模型，未将模拟DAG视为现实因果。"
+        "review_note": "回查v3正式PDF与正文源码，修正喜欢阈值、从众平方差方向、未交互负类及表3真实离线/模拟评价边界；0.9全判负准确率为协议比例分析，非复现。8页正文中文PDF逐页验收，原文/译文私有登录下载已核验；未运行模型，未将模拟DAG视为现实因果。 2026-11-21 复核并补入从精读正文返回比较章节的链接。"
       }
     }
   ]

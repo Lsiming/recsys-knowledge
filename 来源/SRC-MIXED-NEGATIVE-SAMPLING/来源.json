@@ -20,13 +20,13 @@
       "retrieved_on": "2026-11-21",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "241a41a635c6cc3c26e157b5889948071d862fdb7f7a4492a89db1b2382708cd",
+        "notes_sha256": "4c196ec953b318081ad8a0e346c25033d9b32dd62ddb4c0033a5133f179f740d",
         "pages": [
           "sampled-two-tower-training"
         ],
         "reviewed_on": "2026-11-21",
         "review_method": "agent-self-review",
-        "review_note": "核对目录列的当前物品塔前向、式(5)负列校正以及Google Play离线与线上设置。 已复核图注与读者路径，未运行模型。"
+        "review_note": "核对目录列的当前物品塔前向、式(5)负列校正以及Google Play离线与线上设置。 已复核图注与读者路径，未运行模型。 2026-11-21 复核并补入从精读正文返回比较章节的链接。"
       }
     }
   ]

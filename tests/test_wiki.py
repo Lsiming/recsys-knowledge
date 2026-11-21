@@ -63,6 +63,13 @@ class EvidenceLifecycle(unittest.TestCase):
         self.assertEqual(wiki.lint(self.root, local=True)[0], [])
         self.assertEqual(wiki.search(self.root, "证据范围", 3)[0]["title"], "Evidence page")
 
+    def test_exact_source_title_or_id_finds_bound_concept_before_keyword_hits(self):
+        guide = self.make_module_guide()
+        with guide.open("a") as stream:
+            stream.write("Test source SRC-TEST " * 8)
+        for query in ["test   SOURCE", "Src-Test"]:
+            self.assertEqual(wiki.search(self.root, query, 1)[0]["title"], "Evidence page")
+
     def test_source_index_links_only_existing_thoughts_and_keeps_receipts(self):
         self.integrate()
         index_path = self.root / "来源/来源目录.md"

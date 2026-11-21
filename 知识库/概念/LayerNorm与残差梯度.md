@@ -4,7 +4,7 @@ title: "LayerNorm如何归一化、训练并传递残差梯度"
 type: "concept"
 status: "reviewed"
 updated: "2026-11-21"
-summary: "以逐Token公式、反向传播和训练推理对照解释LN与Pre/Post-LN"
+summary: "对照 LayerNorm 与 RMSNorm 的统计量、Pre-LN 与 Post-LN 的梯度路径及预热实验"
 aliases: ["Layer Normalization", "LayerNorm", "LN", "gamma", "beta", "均值方差", "Pre-LN", "Post-LN", "Identity Mapping", "恒等映射", "RMSNorm", "BatchNorm"]
 sources: {"SRC-LAYERNORM": "b0690d2b3d655c4c244548e67acd2d1ef31f319fb0d220c7e693ecdce3700cc9", "SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-PRELN": "9854ed1964988d98fa36882b0eae06348dec7a3f57bc2880f3ffe1ea6809dde9", "SRC-RMSNORM": "10922aba2f16d7d9d95b44cdb5df70a48b7e156fb2dea6fae7fb42b93356f729", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc"}
 related: ["self-attention-context"]
