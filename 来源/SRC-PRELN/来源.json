@@ -3,7 +3,7 @@
   "title": "On Layer Normalization in the Transformer Architecture",
   "kind": "paper",
   "state": "active",
-  "current": "d44f072ece3dcb69ba2cd12843e41390c0c3020650a7019175c0947d075cc3b3",
+  "current": "9854ed1964988d98fa36882b0eae06348dec7a3f57bc2880f3ffe1ea6809dde9",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/2002.04745v2",
@@ -28,6 +28,36 @@
         "reviewed_on": "2026-11-08",
         "review_method": "agent-self-review",
         "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/pdf/2002.04745v2",
+      "revision": "arXiv 2002.04745v2；ICML 2020",
+      "read_scope": "摘要、正文 §1–5、图1–5与表1，附录 A–F 定向核对含初始化假设、集中界、末层梯度证明及补充优化实验。未复跑。",
+      "artifacts": [
+        {
+          "name": "PRELN.2002.04745v2.pdf",
+          "sha256": "e1fa0519ed8e09a676d56c983e99ead5effd7ef840ae86a186729287469bf883",
+          "snapshot": ".local/sources/SRC-PRELN/e1fa0519ed8e09a676d56c983e99ead5effd7ef840ae86a186729287469bf883/PRELN.2002.04745v2.pdf"
+        },
+        {
+          "name": "PRELN.2002.04745v2.source.tar.gz",
+          "sha256": "c085d9d527c783fdca69fcad87ba811ad86eb99b8b748d308985701b2ffcacba",
+          "snapshot": ".local/sources/SRC-PRELN/c085d9d527c783fdca69fcad87ba811ad86eb99b8b748d308985701b2ffcacba/PRELN.2002.04745v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "9854ed1964988d98fa36882b0eae06348dec7a3f57bc2880f3ffe1ea6809dde9",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "67b2f1fdb9de73c1b63026d0c9e46c7db86d7c7064161e86c53fb50dedb9f08e",
+        "pages": [
+          "embedding-weight-tying",
+          "layernorm-residual"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "逐篇固定原文正文与相关图表公式核查，按贯穿例完成技术证据及读者路径两轮自查。图文渲染和正文中文 PDF 目视验收，已实际登录下载原文及译文并核对完整 SHA-256。未复跑作者实验。"
       }
     }
   ]

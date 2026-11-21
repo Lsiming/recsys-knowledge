@@ -3,10 +3,10 @@ id: "transformer-position"
 title: "Transformer的位置编码：正弦、学习表与RoPE"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-15"
+updated: "2026-11-21"
 summary: "解释频率与成对维度、偏移的线性变换、RoPE相对点积及旋转Key缓存"
 aliases: ["正弦位置编码", "Sinusoidal PE", "pos和i", "高低频", "偶数维奇数维", "旋转矩阵", "RoPE", "KV Cache", "旋转Key"]
-sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ROFORMER": "d6c0d9c59c5151fab8c5a0febd7f9901b4391991480e4a49a7bc4957f80036c4", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-GPT1": "346378979c197abef55857af94342a537f9401868d4cac993cf0d3aab8260bee", "SRC-SASREC": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b", "SRC-SASREC-CODE": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff"}
+sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ROFORMER": "a83a7bdb16a8b48f55940315b3808f519552a41623ecfbe5e19cb219fc11fdb8", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-GPT1": "346378979c197abef55857af94342a537f9401868d4cac993cf0d3aab8260bee", "SRC-SASREC": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b", "SRC-SASREC-CODE": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff"}
 related: ["self-attention-context", "transformer-training-translation"]
 ---
 # Transformer的位置编码：正弦、学习表与RoPE
@@ -84,6 +84,12 @@ $$R(m)^\top R(n)=R(n-m),\qquad (q'_m)^\top k'_n=q_m^\top R(n-m)k_n.$$
 | RoPE | 每层投影后旋转Q/K | 原始频率预设，无传统位置表 | 旋转可算更长位置，效果需验证 |
 
 “相对位置编码”是方法族：例如T5使用相对距离桶给Attention logits加可学习偏置，与RoPE旋转内容向量不同，不能一概而论。具体方法见[T5精读](../../来源/SRC-T5/阅读笔记.md)。
+
+### 频率衰减、线性注意力和长度外推
+
+对每组复数坐标，把内容乘积记为 $h_i$，以 $\Delta=m-n$ 记位置差。RoPE 的分数是 $\Re\sum_i h_i e^{\mathrm{i}\Delta\theta_i}$。令 $S_j(\Delta)=\sum_{i<j} e^{\mathrm{i}\Delta\theta_i}$，$h_{d/2}=0$。Abel 变换把复数和改写为 $-\sum_i S_{i+1}(h_{i+1}-h_i)$。不同角频率的部分和在较大位移处会更多相消，作者图 2 展示了 $\sum_j |S_j|$ 相关量的下降趋势和局部振荡。具体分数还取决于 $h_i$，注意力权重又取决于整行 Softmax 的其他分数。这个结论不意味着每对词的权重随距离均单调下降。
+
+采用可因式分解的线性注意力时，可以对查询与键的特征映射分别应用旋转，再先聚合旋转键的外积和值。原论文公式（19）的分母沿用未旋转的非负特征，以避免旋转后符号相消。分子权重因而可以为负，其和也不保证等于分母。中文 CAIL2019-SCM 长度 512 与 1024 的结果说明给同一模型更多文本可能有益，表 5 没有同长 1024 的 WoBERT，而且 RoFormer 训练覆盖过 1536。检验长度外推时，还要固定训练覆盖、比较方法与有效输入长度。[RoFormer §3.3–3.4、§4.5](../../来源/SRC-ROFORMER/阅读笔记.md)
 
 ## 为什么缓存已经旋转的Key
 

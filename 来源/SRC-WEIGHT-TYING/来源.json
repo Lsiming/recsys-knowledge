@@ -3,7 +3,7 @@
   "title": "Using the Output Embedding to Improve Language Models",
   "kind": "paper",
   "state": "active",
-  "current": "c08f75621378d72ce17e878ac67b6f1b23ec430b2e54ac99ac1ef3b55fd2950c",
+  "current": "efa5250b6dfcf81687da0818e451ff0e88d067af533267079e16f9133ae87f37",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/1608.05859v3",
@@ -27,6 +27,35 @@
         "reviewed_on": "2026-11-08",
         "review_method": "agent-self-review",
         "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/pdf/1608.05859v3",
+      "revision": "arXiv 1608.05859v3；EACL 2017",
+      "read_scope": "全文 §1–4.3 与表1–8；核对更新式、投影正则、词相似性、语言模型与翻译对照。采用版无作者插图。未复跑。",
+      "artifacts": [
+        {
+          "name": "WEIGHT-TYING.1608.05859v3.pdf",
+          "sha256": "8e7e90ff0e4a7e88bd867868bde9c7c1eec0a52f1160805992af6c31acd09310",
+          "snapshot": ".local/sources/SRC-WEIGHT-TYING/8e7e90ff0e4a7e88bd867868bde9c7c1eec0a52f1160805992af6c31acd09310/WEIGHT-TYING.1608.05859v3.pdf"
+        },
+        {
+          "name": "WEIGHT-TYING.1608.05859v3.source.tar.gz",
+          "sha256": "ba3fe8d2d045dedaef8a2b4c1ae44b42122abc2c8c1ac054bbe63a6be631779e",
+          "snapshot": ".local/sources/SRC-WEIGHT-TYING/ba3fe8d2d045dedaef8a2b4c1ae44b42122abc2c8c1ac054bbe63a6be631779e/WEIGHT-TYING.1608.05859v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "efa5250b6dfcf81687da0818e451ff0e88d067af533267079e16f9133ae87f37",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "1b7725a8eecf42080e15a1452567065af0eba04d5404494bbb20d70f5dc8c7d8",
+        "pages": [
+          "embedding-weight-tying"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "逐篇固定原文正文与相关图表公式核查，按贯穿例完成技术证据及读者路径两轮自查。图文渲染和正文中文 PDF 目视验收，已实际登录下载原文及译文并核对完整 SHA-256。未复跑作者实验。"
       }
     }
   ]

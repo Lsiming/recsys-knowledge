@@ -3,7 +3,7 @@
   "title": "Neural Machine Translation of Rare Words with Subword Units",
   "kind": "paper",
   "state": "active",
-  "current": "d4b209107ce1086ea8de948e6e8ccf0365cfd068a213f6b9821c7b8bf173ff9b",
+  "current": "32a85fb56d83c18c178cc98c78665b6ee7e699788a82099ac3badabe6f0150dc",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/1508.07909v5",
@@ -27,6 +27,35 @@
         "reviewed_on": "2026-11-08",
         "review_method": "agent-self-review",
         "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/pdf/1508.07909v5",
+      "revision": "arXiv 1508.07909v5；ACL 2016",
+      "read_scope": "全文 §1–6、致谢、算法1、图1–3与表1–5；核对合并训练、推理、音译和 WMT 切片。参考文献用于查证，未复跑。",
+      "artifacts": [
+        {
+          "name": "BPE.1508.07909v5.pdf",
+          "sha256": "f4e5a6bbbe0d87459997fffe892f8be485e33903cc71f923c2884639fbf96401",
+          "snapshot": ".local/sources/SRC-BPE/f4e5a6bbbe0d87459997fffe892f8be485e33903cc71f923c2884639fbf96401/BPE.1508.07909v5.pdf"
+        },
+        {
+          "name": "BPE.1508.07909v5.source.tar.gz",
+          "sha256": "56b6cc1a135c64a8d1529c704008ea1f13b5027c96429dd29eb24e162f130522",
+          "snapshot": ".local/sources/SRC-BPE/56b6cc1a135c64a8d1529c704008ea1f13b5027c96429dd29eb24e162f130522/BPE.1508.07909v5.source.tar.gz"
+        }
+      ],
+      "fingerprint": "32a85fb56d83c18c178cc98c78665b6ee7e699788a82099ac3badabe6f0150dc",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "6c4eba4cb51877f5913c1a5bf8baf2e7a183a6c54c4a4d14b6a51b1126190429",
+        "pages": [
+          "embedding-weight-tying"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "逐篇固定原文正文与相关图表公式核查，按贯穿例完成技术证据及读者路径两轮自查。图文渲染和正文中文 PDF 目视验收，已实际登录下载原文及译文并核对完整 SHA-256。未复跑作者实验。"
       }
     }
   ]

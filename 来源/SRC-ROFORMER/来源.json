@@ -3,7 +3,7 @@
   "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
   "kind": "paper",
   "state": "active",
-  "current": "d6c0d9c59c5151fab8c5a0febd7f9901b4391991480e4a49a7bc4957f80036c4",
+  "current": "a83a7bdb16a8b48f55940315b3808f519552a41623ecfbe5e19cb219fc11fdb8",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/2104.09864v5",
@@ -28,6 +28,36 @@
         "reviewed_on": "2026-11-08",
         "review_method": "agent-self-review",
         "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/pdf/2104.09864v5",
+      "revision": "arXiv 2104.09864v5，2023-11-08",
+      "read_scope": "摘要、正文 §1–5、图1–3和表1–5；核对分组旋转、式(16)排印、Abel 变换、线性注意力分母及实验口径。未复跑。",
+      "artifacts": [
+        {
+          "name": "ROFORMER.2104.09864v5.pdf",
+          "sha256": "e9a481fbe1c8a20b7b1fa566b13102a1896c7829fa9a8b4c80528452a5ddaf79",
+          "snapshot": ".local/sources/SRC-ROFORMER/e9a481fbe1c8a20b7b1fa566b13102a1896c7829fa9a8b4c80528452a5ddaf79/ROFORMER.2104.09864v5.pdf"
+        },
+        {
+          "name": "ROFORMER.2104.09864v5.source.tar.gz",
+          "sha256": "fbd1cf894009bd947fc12bb7bb930cc345bfa64afad48f08b7f46b2a99b0fc16",
+          "snapshot": ".local/sources/SRC-ROFORMER/fbd1cf894009bd947fc12bb7bb930cc345bfa64afad48f08b7f46b2a99b0fc16/ROFORMER.2104.09864v5.source.tar.gz"
+        }
+      ],
+      "fingerprint": "a83a7bdb16a8b48f55940315b3808f519552a41623ecfbe5e19cb219fc11fdb8",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a1223ca5064d6f8c8ee61b65f1f8c41aa25075b465615aa12864d8dd6111df63",
+        "pages": [
+          "self-attention-context",
+          "transformer-position"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "逐篇固定原文正文与相关图表公式核查，按贯穿例完成技术证据及读者路径两轮自查。图文渲染和正文中文 PDF 目视验收，已实际登录下载原文及译文并核对完整 SHA-256。未复跑作者实验。"
       }
     }
   ]

@@ -3,10 +3,10 @@ id: "layernorm-residual"
 title: "LayerNorm如何归一化、训练并传递残差梯度"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-08"
+updated: "2026-11-21"
 summary: "以逐Token公式、反向传播和训练推理对照解释LN与Pre/Post-LN"
 aliases: ["Layer Normalization", "LayerNorm", "LN", "gamma", "beta", "均值方差", "Pre-LN", "Post-LN", "Identity Mapping", "恒等映射", "RMSNorm", "BatchNorm"]
-sources: {"SRC-LAYERNORM": "c94757daf3ae1e3a6cd0b58db86620bd653012b2d55ebdecf5ed5415df086739", "SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-PRELN": "d44f072ece3dcb69ba2cd12843e41390c0c3020650a7019175c0947d075cc3b3", "SRC-RMSNORM": "3a1391ca35d1d0b8071ea812709837449ce0b0404d72bfb751654f45b91c61f0", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc"}
+sources: {"SRC-LAYERNORM": "b0690d2b3d655c4c244548e67acd2d1ef31f319fb0d220c7e693ecdce3700cc9", "SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-PRELN": "9854ed1964988d98fa36882b0eae06348dec7a3f57bc2880f3ffe1ea6809dde9", "SRC-RMSNORM": "10922aba2f16d7d9d95b44cdb5df70a48b7e156fb2dea6fae7fb42b93356f729", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc"}
 related: ["self-attention-context"]
 ---
 # LayerNorm如何归一化、训练并传递残差梯度
@@ -55,6 +55,10 @@ $$\frac{\partial L}{\partial x_r}=\frac1s\left[a_r-\overline a-\hat x_r\,\overli
 
 BN通常按某个特征/通道汇总多个样本的统计。对$[B,S,D]$若按特征在$B,S$轴归约，训练统计会混入其他样本和位置，需要处理PAD，因果任务还须防止跨未来位置聚合。标准跟踪运行统计的BN在训练前向用当前批次统计、同时更新running statistics，在推理用运行统计；关闭跟踪的接口可以不同。不能把“BN总是只沿batch一轴”或“任何BN推理都固定运行统计”当作所有接口的定义。
 
+### 平移改变的是预激活还是原始输入
+
+取 $a=[2,4,6,8]$。每维同加 3 时，$\mu$ 从 5 变为 8，中心化向量仍是 $[-3,-1,1,3]$。无 $\epsilon$ 时同乘正数 $c$，标准差也变为原来的 $c$ 倍，标准化向量保持一致。$\epsilon>0$ 时该缩放不变性只近似成立。若 $a=Wx$ 而每一行权重都加同一个向量 $u^\top$，每个激活多出同一个 $u^\top x$，所以也能被中心化消去。给原始输入 $x$ 加 $u$ 会在激活层产生 $Wu$，通常各维不同。这个区分解释了 LayerNorm 对加权输入共同平移和对任意原始输入平移的不同响应。原文的比较涉及特定重参数化和归一化位置。[LayerNorm §5、表 1](../../来源/SRC-LAYERNORM/阅读笔记.md#什么变化能被统计量消掉)
+
 ## Pre-LN的恒等梯度项从哪里来
 
 忽略Dropout，把一个Attention或FFN子层记作$f$，采用列向量Jacobian：
@@ -73,6 +77,8 @@ $$J= (I+A_{L-1})\cdots(I+A_0).$$
 
 Xiong等人的初始化分析给出更专门的支持：在其单头、简化权重形状、Q/K零初始化等假设下，分析Post-LN输出附近较大梯度及Pre-LN的尺度差异，并在指定翻译/BERT设置讨论移除warmup。该理论和实验不能推广成所有Pre-LN训练全程都不需要warmup、或任务质量一定优于Post-LN；本轮未复现这些实验。[§3.3–3.4、§4，原文与阅读边界](../../来源/SRC-PRELN/阅读笔记.md)。
 
+这里有两条互补的梯度解释。局部 Jacobian 的恒等项来自残差结构，先于任何初始化假设。末层 FFN 的高概率尺度界则还用到 Pre-LN 残差流的平方范数期望随深度 $L$ 增长，以及 final LN 把反向梯度按中心化范数缩放。论文在集中条件下给出末层 $W^{2,L}$ 的 Pre-LN 上界 $O(d\sqrt{\ln d/L})$，Post-LN 对应为 $O(d\sqrt{\ln d})$。这个结果限定在其分析假设和初始化处。原图左侧跨层、右侧跨深度分别检验两个方向。[Pre-LN §3.3–3.4、图 3](../../来源/SRC-PRELN/阅读笔记.md#从输出头沿残差支路倒走)
+
 ## RMSNorm省去了哪一步
 
 常见不带bias的实现采用
@@ -80,3 +86,5 @@ Xiong等人的初始化分析给出更专门的支持：在其单头、简化权
 $$\operatorname{RMSNorm}(x)_r=\gamma_r\frac{x_r}{\sqrt{D^{-1}\sum_jx_j^2+\epsilon}}.$$
 
 它不减均值，分母是均方根而非去均值后的标准差；输入均值非零时，两者不同，不能把RMSNorm说成省掉$\beta$的LN。原RMSNorm论文§4还给出带网络bias的一般式，所以“RMSNorm数学上绝不允许bias”也不对。上述常见无bias形式可直接核对Llama 2代码中的`RMSNorm`，不据此承诺任意硬件上的固定加速比例。[原文§4](https://arxiv.org/html/1910.07467v1#S4)；[固定实现](../../来源/SRC-LLAMA-CACHE-CODE/阅读笔记.md)。
+
+对同一个 $[2,4,6,8]$，取 $\gamma=1$ 并忽略 $\epsilon$，RMSNorm 得 $[2,4,6,8]/\sqrt{30}$，所以保留了正的特征均值。令 $r$ 为带稳定项的分母、$z=x/r$、$a=g\odot\gamma$，其中 $g$ 为输出梯度。对 RMSNorm 链式求导得 $dL/dx=(a-z\,\mathrm{mean}(az))/r$。LN 另有从去均值产生的 $-\mathrm{mean}(a)$ 项。RMSNorm 去掉一次去中心化及相关归约，是否降低 GPU 总时间取决于归约、融合内核与其他操作的占比。论文 pRMSNorm 还用部分坐标估计 $r$，需要核对选中的坐标是否足以代表整层。RMSNorm 与 LN 决定**统计量和输出**，Pre-LN 与 Post-LN 决定**算子放在残差的哪个位置**，因此可以在 Pre-LN 结构里用 RMSNorm。[RMSNorm §4–6 及受控翻译实验](../../来源/SRC-RMSNORM/阅读笔记.md)

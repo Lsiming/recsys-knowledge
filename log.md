@@ -660,3 +660,7 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 ## [2026-11-21] review | 整理全局 llm-wiki 工作方式
 
 在[维护说明](维护/全局LLM-Wiki工作方式.md)串联全局 skill 的查询、知识沉淀、证据复核、客户端触发与 Git 同步。逐份核对四个已登记规范文件，并用临时样本和模拟 Git 验证两个同步脚本的分支。同步 README 与上下文路由，标明全局 lint 策略和本仓库可执行检查的范围。全局 skill 保持只读。
+
+## [2026-11-21] ingest | PAPER-007 · 第 02 批 Transformer 基础八篇
+
+完成 BPE、SentencePiece、Weight Tying、LayerNorm、Pre-LN、RMSNorm、RoFormer 和 FlashAttention 的首次全文精读与正文中文 PDF，补 20 张作者原图并回写词表、归一化、位置和注意力计算知识。两轮当前 Agent 自查、逐页译文和图文验收、16 份新附件实际登录下载/哈希核验、两库目录及临时产物处理见[交接](文档/会话/PAPER-007.md)。未复跑作者实验。

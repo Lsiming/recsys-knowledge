@@ -3,7 +3,7 @@
   "title": "Root Mean Square Layer Normalization",
   "kind": "paper",
   "state": "active",
-  "current": "3a1391ca35d1d0b8071ea812709837449ce0b0404d72bfb751654f45b91c61f0",
+  "current": "10922aba2f16d7d9d95b44cdb5df70a48b7e156fb2dea6fae7fb42b93356f729",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/1910.07467v1",
@@ -27,6 +27,35 @@
         "reviewed_on": "2026-11-08",
         "review_method": "agent-self-review",
         "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/pdf/1910.07467v1",
+      "revision": "arXiv 1910.07467v1；NeurIPS 2019",
+      "read_scope": "摘要、正文 §1–7、图1–6和正文表格；附录定向核对实验配置、pRMSNorm 选样及补充对照。未复跑。",
+      "artifacts": [
+        {
+          "name": "RMSNORM.1910.07467v1.pdf",
+          "sha256": "a38ab771022fc10525d2b6b23de40307b2ca7b2bf463f5219da6a0ba1c41225f",
+          "snapshot": ".local/sources/SRC-RMSNORM/a38ab771022fc10525d2b6b23de40307b2ca7b2bf463f5219da6a0ba1c41225f/RMSNORM.1910.07467v1.pdf"
+        },
+        {
+          "name": "RMSNORM.1910.07467v1.source.tar.gz",
+          "sha256": "c61d33a48a5d4637962c133569d1853786458699c9bf2edeb4d1eb2bdda86cc8",
+          "snapshot": ".local/sources/SRC-RMSNORM/c61d33a48a5d4637962c133569d1853786458699c9bf2edeb4d1eb2bdda86cc8/RMSNORM.1910.07467v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "10922aba2f16d7d9d95b44cdb5df70a48b7e156fb2dea6fae7fb42b93356f729",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "5d82994506a447766379ea2150ee8fa97b74c97c75b5d01c3357db41996fbdc2",
+        "pages": [
+          "layernorm-residual"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "逐篇固定原文正文与相关图表公式核查，按贯穿例完成技术证据及读者路径两轮自查。图文渲染和正文中文 PDF 目视验收，已实际登录下载原文及译文并核对完整 SHA-256。未复跑作者实验。"
       }
     }
   ]

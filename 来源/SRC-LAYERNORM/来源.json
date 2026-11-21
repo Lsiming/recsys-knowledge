@@ -3,7 +3,7 @@
   "title": "Layer Normalization",
   "kind": "paper",
   "state": "active",
-  "current": "c94757daf3ae1e3a6cd0b58db86620bd653012b2d55ebdecf5ed5415df086739",
+  "current": "b0690d2b3d655c4c244548e67acd2d1ef31f319fb0d220c7e693ecdce3700cc9",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/1607.06450v1",
@@ -28,6 +28,36 @@
         "reviewed_on": "2026-11-08",
         "review_method": "agent-self-review",
         "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/pdf/1607.06450v1",
+      "revision": "arXiv 1607.06450v1，2016-07-21",
+      "read_scope": "摘要、正文 §1–7、表1–3、图1–6及附录曲率推导；核对层内统计、RNN、重缩放与重中心化条件、六组实验和失配。未复跑。",
+      "artifacts": [
+        {
+          "name": "LAYERNORM.1607.06450v1.pdf",
+          "sha256": "c464f839fb8d59f7fde92f9b4caa67c2d1f2f196b88f93fb60502249df0aaef7",
+          "snapshot": ".local/sources/SRC-LAYERNORM/c464f839fb8d59f7fde92f9b4caa67c2d1f2f196b88f93fb60502249df0aaef7/LAYERNORM.1607.06450v1.pdf"
+        },
+        {
+          "name": "LAYERNORM.1607.06450v1.source.tar.gz",
+          "sha256": "92caacef47fb7bb66ac9ff17ac8fa8c8143b2094716f0376e50018135a223ecc",
+          "snapshot": ".local/sources/SRC-LAYERNORM/92caacef47fb7bb66ac9ff17ac8fa8c8143b2094716f0376e50018135a223ecc/LAYERNORM.1607.06450v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "b0690d2b3d655c4c244548e67acd2d1ef31f319fb0d220c7e693ecdce3700cc9",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "21e10d68e6d66564c446a2e6c059cd0d734bbdf70a43448d17239f7f28927af1",
+        "pages": [
+          "layernorm-residual",
+          "self-attention-context"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "逐篇固定原文正文与相关图表公式核查，按贯穿例完成技术证据及读者路径两轮自查。图文渲染和正文中文 PDF 目视验收，已实际登录下载原文及译文并核对完整 SHA-256。未复跑作者实验。"
       }
     }
   ]

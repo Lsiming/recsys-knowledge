@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-18，盘点69篇中文PDF，69篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-21，盘点77篇中文PDF，77篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -81,3 +81,11 @@
 | [Next Interest Flow: A Generative Pre-training Paradigm for Recommender Systems by Modeling All-domain Movelines](https://arxiv.org/abs/2510.11317v2) · `SRC-AMEN` | 私有，需登录 · 20261118.1 · 5页 | [CC-BY-NC-ND-4.0](https://arxiv.org/abs/2510.11317v2) | 固定2510.11317v2摘要、正文§1–4及图表描述译为中文；9个编号公式原块、两表数字与作者原图保留，作者机构和参考文献保留英文。正文中文PDF5页已全部逐页目视。；原文6页、中文5页全部逐页目视；9公式和2表数字一致；译后清理副本与编译版5页1.3倍渲染像素一致。原/译均已核远端digest并首次真实认证下载，类型、大小、页数、完整SHA256一致。 |
 | [LLM-Based User Personas for Recommendations at Scale](https://arxiv.org/abs/2606.12198v2) · `SRC-USER-PERSONAS` | 私有，需登录 · 20261118.1 · 7页 | [CC-BY-4.0](https://arxiv.org/abs/2606.12198v2) | 固定2606.12198v2摘要、正文§1–6及图表说明译为中文；原图内文字、参考文献、作者机构和附录A/B保留英文。正文中文PDF7页已全部逐页目视。；原文9页、中文7页全部逐页目视；69个有效cite/ref/label、五图路径与两表数字一致；英文附录原字节保留；清理副本与编译版7页1.4倍渲染像素一致。原/译均已核远端digest并首次真实认证下载，类型、大小、页数、完整SHA256一致。 |
 | [RecGPT-V3 Technical Report](https://arxiv.org/abs/2607.15591v2) · `SRC-RECGPT-V3` | 私有，需登录 · 20261118.1 · 27页 | [arXiv-nonexclusive-distrib](https://arxiv.org/abs/2607.15591v2) | 固定2607.15591v2摘要、正文§1–6及图表说明中文翻译；作者机构、原图内文字、参考文献及附录A–C保留英文。中文PDF27页全部逐页目视；译后普通浮动环境避免重叠，未删正文。；原文32页、中文27页全部逐页目视；19正文与4附录编号公式原块、13表数字和167项cite/ref/label计数一致（英文月份本地化后比较）；图路径一致、附录原字节保留；清理前后27页1.4倍渲染像素一致。原/译均核对远端digest并首次真实登录下载校验类型、页数、大小与完整SHA256。 |
+| [Neural Machine Translation of Rare Words with Subword Units](https://arxiv.org/pdf/1508.07909v5) · `SRC-BPE` | 私有，需登录 · 20261121.1 · 10页 | [CC-BY-4.0](https://arxiv.org/abs/1508.07909v5) | 摘要、正文 §1–6、算法1、图表说明及致谢译为中文；作者图、表值和参考文献保留。；最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。 |
+| [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135v2) · `SRC-FLASHATTENTION` | 私有，需登录 · 20261121.1 · 32页 | [not-permitted](https://arxiv.org/abs/2205.14135v2) | 摘要、正文 §1–5、算法0–1、图表说明及致谢译为中文；参考文献、附录A–E和原图内文字保留英文。；最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。 |
+| [Layer Normalization](https://arxiv.org/pdf/1607.06450v1) · `SRC-LAYERNORM` | 私有，需登录 · 20261121.1 · 13页 | [not-permitted](https://arxiv.org/abs/1607.06450v1) | 摘要、正文 §1–7、图表说明及致谢译为中文；参考文献、附录和作者图内文字保留英文。；最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。 |
+| [On Layer Normalization in the Transformer Architecture](https://arxiv.org/pdf/2002.04745v2) · `SRC-PRELN` | 私有，需登录 · 20261121.1 · 22页 | [not-permitted](https://arxiv.org/abs/2002.04745v2) | 摘要、正文 §1–5 和图表说明译为中文；参考文献、作者图内文字和附录保留英文，附录改为单栏以保留长公式。；最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。 |
+| [Root Mean Square Layer Normalization](https://arxiv.org/pdf/1910.07467v1) · `SRC-RMSNORM` | 私有，需登录 · 20261121.1 · 15页 | [not-permitted](https://arxiv.org/abs/1910.07467v1) | 摘要、正文 §1–7、图表说明及致谢译为中文；参考文献、附录和作者图内文字保留英文。；最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。 |
+| [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/pdf/2104.09864v5) · `SRC-ROFORMER` | 私有，需登录 · 20261121.1 · 13页 | [CC-BY-NC-ND-4.0](https://arxiv.org/abs/2104.09864v5) | 摘要、正文 §1–5 和图表说明译为中文；参考文献和作者图内文字保留原版。；最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。 |
+| [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing](https://aclanthology.org/D18-2012.pdf) · `SRC-SENTENCEPIECE` | 私有，需登录 · 20261121.1 · 6页 | [unverified](https://aclanthology.org/D18-2012.pdf) | 摘要、正文 §1–5、图表说明及致谢译为中文；作者图、表值和参考文献保留。；最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。 |
+| [Using the Output Embedding to Improve Language Models](https://arxiv.org/pdf/1608.05859v3) · `SRC-WEIGHT-TYING` | 私有，需登录 · 20261121.1 · 7页 | [not-permitted](https://arxiv.org/abs/1608.05859v3) | 摘要、正文 §1–4.3、8张表的说明及致谢译为中文；表值、公式和参考文献保留。采用版无插图。；最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。 |

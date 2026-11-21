@@ -3,7 +3,7 @@
   "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
   "kind": "paper",
   "state": "active",
-  "current": "d82bb31c05732b818284a36e271c544cecf564128f219a7357d0f8bf7ca9bcfa",
+  "current": "12fc356b011202b581abd7a8aff9c9e237f7636fab0e7216cd452054c2e77616",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/2205.14135v2",
@@ -27,6 +27,35 @@
         "reviewed_on": "2026-11-08",
         "review_method": "agent-self-review",
         "review_note": "历史102题定向核验：按各阅读笔记所列固定版本、章节和代码符号对照知识页，区分论文原结论、数学展开与静态实现；保留外推、梯度、PAD、初始化及缓存等适用条件。仅核验声明的章节范围，未全文翻译、运行模型或独立审查。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/pdf/2205.14135v2",
+      "revision": "arXiv 2205.14135v2，2022-06-23；NeurIPS 2022",
+      "read_scope": "摘要、正文 §1–5、算法0–1、图1–3、表1–6及附录 B–E 的反向、证明、实现和关键实验条件。未复跑。",
+      "artifacts": [
+        {
+          "name": "FLASHATTENTION.2205.14135v2.pdf",
+          "sha256": "ca7f9fda10b90fc05dd291a3accc85e9c1a4a860b99b31928dab03ed3fcb14e4",
+          "snapshot": ".local/sources/SRC-FLASHATTENTION/ca7f9fda10b90fc05dd291a3accc85e9c1a4a860b99b31928dab03ed3fcb14e4/FLASHATTENTION.2205.14135v2.pdf"
+        },
+        {
+          "name": "FLASHATTENTION.2205.14135v2.source.tar.gz",
+          "sha256": "2c66572466c11c0c4287afb2fc6eb35ebfe20fa99092cd18fc86eecd2f49a87f",
+          "snapshot": ".local/sources/SRC-FLASHATTENTION/2c66572466c11c0c4287afb2fc6eb35ebfe20fa99092cd18fc86eecd2f49a87f/FLASHATTENTION.2205.14135v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "12fc356b011202b581abd7a8aff9c9e237f7636fab0e7216cd452054c2e77616",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "5bce5d24b64557710ce9083440e7ef6b875d7e38e0f2e84684dd8a75c97fc3a2",
+        "pages": [
+          "attention-compute-memory"
+        ],
+        "reviewed_on": "2026-11-21",
+        "review_method": "agent-self-review",
+        "review_note": "逐篇固定原文正文与相关图表公式核查，按贯穿例完成技术证据及读者路径两轮自查。图文渲染和正文中文 PDF 目视验收，已实际登录下载原文及译文并核对完整 SHA-256。未复跑作者实验。"
       }
     }
   ]

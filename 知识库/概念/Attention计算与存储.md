@@ -3,10 +3,10 @@ id: "attention-compute-memory"
 title: "Attention的平方矩阵、KV缓存与FlashAttention"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-15"
+updated: "2026-11-21"
 summary: "区分分数元素数、算量、逐层缓存与FlashAttention的IO节省"
 aliases: ["Attention Score存储", "平方复杂度", "KV Cache", "FlashAttention", "online softmax", "FP16显存", "prefill", "decode"]
-sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-FLASHATTENTION": "d82bb31c05732b818284a36e271c544cecf564128f219a7357d0f8bf7ca9bcfa", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-SASREC": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b", "SRC-SASREC-CODE": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff"}
+sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-FLASHATTENTION": "12fc356b011202b581abd7a8aff9c9e237f7636fab0e7216cd452054c2e77616", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-SASREC": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b", "SRC-SASREC-CODE": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff"}
 related: ["self-attention-context", "transformer-position"]
 ---
 # Attention的平方矩阵、KV缓存与FlashAttention
@@ -50,7 +50,7 @@ SASRec与GPT共有因果前缀的这一性质，但SASRec通常等待真实新�
 
 ## FlashAttention为什么不必保存完整概率矩阵
 
-FlashAttention在数学上仍计算$softmax(QK^\top/\sqrt{d_k}+M)V$。它把Q/K/V分块搬入片上存储，计算块分数后立即归约，并保存每行的小量统计，减少完整Score/Probability在高带宽显存HBM中的写入和读取。所谓exact指未换成低秩、稀疏等近似Attention；浮点归约次序变化不保证逐位完全相同。[FlashAttention v2 §2–3.1](https://arxiv.org/html/2205.14135v2#S3.SS1)
+FlashAttention在数学上仍计算$softmax(QK^\top/\sqrt{d_k}+M)V$。它把Q/K/V分块搬入片上存储，计算块分数后立即归约，并保存每行的小量统计，减少完整Score/Probability在高带宽显存HBM中的写入和读取。所谓exact指未换成低秩、稀疏等近似Attention；浮点归约次序变化不保证逐位完全相同。[FlashAttention 初版论文 arXiv v2 §2–3.1](https://arxiv.org/html/2205.14135v2#S3.SS1)
 
 以一行Query为例，对已处理块记录最大值$m$、归一化分母$\ell=\sum_j e^{s_j-m}$和未归一化输出$u=\sum_j e^{s_j-m}v_j$。新块的统计为$(m_b,\ell_b,u_b)$，合并为
 
@@ -59,4 +59,10 @@ $$\ell'=e^{m-m'}\ell+e^{m_b-m'}\ell_b,\qquad u'=e^{m-m'}u+e^{m_b-m'}u_b.$$
 
 处理完所有Key块后取$o=u/\ell$。两个块的贡献先换到共同最大值再相加，所以等价于整行Softmax，而非“每块单独Softmax后再平均”。这个合并式是原文在线归一化的逐行展开；全mask行仍需安全语义。[§3.1；附录B.1](https://arxiv.org/html/2205.14135v2#A2.SS1)
 
-原文定理1仍给出$O(n^2d_k)$ FLOPs；节省的是中间物化和IO，反传还可重算概率块而不保存整矩阵，不能宣传成dense Attention算术变为$O(n)$。本轮未运行kernel、显存或吞吐测试，未据论文硬件数字估计本机速度。KV Cache减少生成重复状态计算，FlashAttention减少一次Attention的IO，两者可以同时使用，不能互相替代。
+## 反向只重算当前块，整行修正量来自前向输出
+
+无 dropout 时，$P_{ij}=\exp(S_{ij}-m_i)/\ell_i$，可用前向保存的每行统计量从当前分数块重建。给定上游 $dO$，有 $dP=dO V^\top$，Softmax 的行修正量 $D_i=\sum_j P_{ij}dP_{ij}$ 可化为 $dO_i\cdot O_i$。每块计算 $dS_{ij}=P_{ij}(dP_{ij}-D_i)$ 后累加对 $Q,K,V$ 的梯度。训练中若有 dropout，原算法在反向恢复前向的同一伪随机掩码。这样把概率块的生命周期缩短到片上计算。推理只走前向。KV Cache 保存历史投影，FlashAttention 管理一次注意力计算的访存，两者可以同时使用。[FlashAttention 附录 B.2–B.4](../../来源/SRC-FLASHATTENTION/阅读笔记.md#反向如何重算概率)
+
+## IO 复杂度与算术复杂度分别由什么决定
+
+论文定理 1 的 $O(N^2d)$ FLOPs 来自计算所有查询与键的配对，额外全局存储为 $O(N)$，另有 $O(Nd)$ 输入与输出。定理 2 在两级存储模型下按 SRAM 可容纳元素数 $M$ 计。键值每块放 $O(M/d)$ 行，一共 $O(Nd/M)$ 块。每块扫描 $O(Nd)$ 个查询、输出和统计量，因此有 $\Theta(N^2d^2/M)$ 次 HBM 访问。固定 $M,d$ 时仍为二次，但 $M\gg d^2$ 时搬运量明显更小。命题 3 的下界约束整个 SRAM 容量区间上的同时改进，证明在 $M=\Theta(Nd)$ 处使用输入规模下界。块稀疏版跳过预先设为不可见的块，IO 主项乘非零块占比 $s$，并保留输入输出 $\Theta(Nd)$ 项。全量注意力的速度、显存与启用更长上下文后的任务结果应分开读图和评估。[FlashAttention §3.2–4.3](../../来源/SRC-FLASHATTENTION/阅读笔记.md#算力hbm-和训练收益怎样区分)

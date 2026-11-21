@@ -1195,82 +1195,147 @@
   {
     "source_id": "SRC-BPE",
     "title": "Neural Machine Translation of Rare Words with Subword Units",
-    "original_url": "https://arxiv.org/abs/1508.07909v5",
+    "original_url": "https://arxiv.org/pdf/1508.07909v5",
     "revision": "arXiv 1508.07909v5；ACL 2016",
+    "checked_on": "2026-11-21",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "status": "local-only",
-    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
-    "checked_on": "2026-11-08",
-    "license_url": null
+    "authors": [
+      "Rico Sennrich",
+      "Barry Haddow",
+      "Alexandra Birch"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1508.07909v5",
+    "evidence_sha256": "493c7cb1677023e69f1c0d5ebe2e56d365e033819b0f62e7539d102c96c0165a",
+    "reason": "采用版为 CC BY 4.0，正文中文 PDF 已私有备份，尚未另制正式 Markdown 译文。"
   },
   {
     "source_id": "SRC-FLASHATTENTION",
     "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
-    "original_url": "https://arxiv.org/abs/2205.14135v2",
-    "revision": "arXiv 2205.14135v2，2022-06-23",
+    "original_url": "https://arxiv.org/pdf/2205.14135v2",
+    "revision": "arXiv 2205.14135v2，2022-06-23；NeurIPS 2022",
+    "checked_on": "2026-11-21",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "status": "local-only",
-    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
-    "checked_on": "2026-11-08",
-    "license_url": null
+    "authors": [
+      "Tri Dao",
+      "Daniel Y. Fu",
+      "Stefano Ermon",
+      "Atri Rudra",
+      "Christopher Ré"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2205.14135v2",
+    "evidence_sha256": "91b77dc2648cacb6df651c2e3223d53edcd9c8bb97a96e96d0b497f561071560",
+    "reason": "正文中文 PDF 已私有备份。固定 arXiv 版本列非独占分发许可，范围为 arXiv 获得分发原作的许可；公开全文译文另需授权。"
   },
   {
     "source_id": "SRC-LAYERNORM",
     "title": "Layer Normalization",
-    "original_url": "https://arxiv.org/abs/1607.06450v1",
+    "original_url": "https://arxiv.org/pdf/1607.06450v1",
     "revision": "arXiv 1607.06450v1，2016-07-21",
+    "checked_on": "2026-11-21",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "status": "local-only",
-    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
-    "checked_on": "2026-11-08",
-    "license_url": null
+    "authors": [
+      "Jimmy Lei Ba",
+      "Jamie Ryan Kiros",
+      "Geoffrey E. Hinton"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1607.06450v1",
+    "evidence_sha256": "aa5e36d81db32c5e843bde654ad5b6ae49ddab681efd19e9e701d4ed22618f2f",
+    "reason": "正文中文 PDF 已私有备份。固定 arXiv 版本列非独占分发许可，范围为 arXiv 获得分发原作的许可；公开全文译文另需授权。"
   },
   {
     "source_id": "SRC-PRELN",
     "title": "On Layer Normalization in the Transformer Architecture",
-    "original_url": "https://arxiv.org/abs/2002.04745v2",
+    "original_url": "https://arxiv.org/pdf/2002.04745v2",
     "revision": "arXiv 2002.04745v2；ICML 2020",
+    "checked_on": "2026-11-21",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "status": "local-only",
-    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
-    "checked_on": "2026-11-08",
-    "license_url": null
+    "authors": [
+      "Ruibin Xiong",
+      "Yunchang Yang",
+      "Di He",
+      "Kai Zheng",
+      "Shuxin Zheng",
+      "Chen Xing",
+      "Huishuai Zhang",
+      "Yanyan Lan",
+      "Liwei Wang",
+      "Tie-Yan Liu"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2002.04745v2",
+    "evidence_sha256": "70cf838e7c8d512444f48d1f2bfadfa6de8a765a4600cb5613db6c5d2617a8dd",
+    "reason": "正文中文 PDF 已私有备份。固定 arXiv 版本列非独占分发许可，范围为 arXiv 获得分发原作的许可；公开全文译文另需授权。"
   },
   {
     "source_id": "SRC-RMSNORM",
     "title": "Root Mean Square Layer Normalization",
-    "original_url": "https://arxiv.org/abs/1910.07467v1",
+    "original_url": "https://arxiv.org/pdf/1910.07467v1",
     "revision": "arXiv 1910.07467v1；NeurIPS 2019",
+    "checked_on": "2026-11-21",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "status": "local-only",
-    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
-    "checked_on": "2026-11-08",
-    "license_url": null
+    "authors": [
+      "Biao Zhang",
+      "Rico Sennrich"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1910.07467v1",
+    "evidence_sha256": "14323fdc3b996636a68f86525e29245468215f2243849e14dd2df86ce78d158e",
+    "reason": "正文中文 PDF 已私有备份。固定 arXiv 版本列非独占分发许可，范围为 arXiv 获得分发原作的许可；公开全文译文另需授权。"
   },
   {
     "source_id": "SRC-ROFORMER",
     "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
-    "original_url": "https://arxiv.org/abs/2104.09864v5",
+    "original_url": "https://arxiv.org/pdf/2104.09864v5",
     "revision": "arXiv 2104.09864v5，2023-11-08",
+    "checked_on": "2026-11-21",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
     "status": "local-only",
-    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
-    "checked_on": "2026-11-08",
-    "license_url": null
+    "authors": [
+      "Jianlin Su",
+      "Yu Lu",
+      "Shengfeng Pan",
+      "Ahmed Murtadha",
+      "Bo Wen",
+      "Yunfeng Liu"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2104.09864v5",
+    "evidence_sha256": "e4998c438df47e180a1cff8fb853ddc5440ced31f7558f3788e0406ba14e4c52",
+    "reason": "正文中文 PDF 已私有备份。固定 arXiv v5 列 CC BY-NC-ND 4.0，其 ND 条款不授权向公众分发派生译文。TeX 包中的上游模板许可单列，不用作论文本身许可。"
   },
   {
     "source_id": "SRC-SENTENCEPIECE",
     "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
-    "original_url": "https://aclanthology.org/D18-2012/",
-    "revision": "EMNLP 2018，DOI 10.18653/v1/D18-2012；arXiv 1808.06226v1",
+    "original_url": "https://aclanthology.org/D18-2012.pdf",
+    "revision": "EMNLP 2018 系统演示正式版，D18-2012；相应作者 TeX 来自 arXiv 1808.06226v1",
+    "checked_on": "2026-11-21",
+    "license_url": null,
     "status": "local-only",
-    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
-    "checked_on": "2026-11-08",
-    "license_url": null
+    "authors": [
+      "Taku Kudo",
+      "John Richardson"
+    ],
+    "evidence_url": "https://aclanthology.org/D18-2012.pdf",
+    "evidence_sha256": "cf056aa0380bfe6b483e46b21585cf9e90fb40485ace1d8793f0f1ebad7c9924",
+    "reason": "正文中文 PDF 已私有备份。EMNLP 正式 PDF 首页列 ©2018 Association for Computational Linguistics。论文中的 Apache 2.0 指 SentencePiece 软件。采用版公开全文翻译许可未核实。"
   },
   {
     "source_id": "SRC-WEIGHT-TYING",
     "title": "Using the Output Embedding to Improve Language Models",
-    "original_url": "https://arxiv.org/abs/1608.05859v3",
+    "original_url": "https://arxiv.org/pdf/1608.05859v3",
     "revision": "arXiv 1608.05859v3；EACL 2017",
+    "checked_on": "2026-11-21",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "status": "local-only",
-    "reason": "仅完成Transformer历史问题所需的定向原文核对与知识整理；未制作全文译文，未核实全文译文公开分发许可。",
-    "checked_on": "2026-11-08",
-    "license_url": null
+    "authors": [
+      "Ofir Press",
+      "Lior Wolf"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1608.05859v3",
+    "evidence_sha256": "2f9ad35eff9a19ac1d34152b9b0f39642342d0bdd5f3932c662940d033787679",
+    "reason": "正文中文 PDF 已私有备份。固定 arXiv 版本列非独占分发许可，范围为 arXiv 获得分发原作的许可；公开全文译文另需授权。"
   },
   {
     "source_id": "SRC-TIM",

@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-11-18",
-  "inventory_note": "69篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "updated": "2026-11-21",
+  "inventory_note": "77篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -2421,6 +2421,312 @@
         "size_bytes": 2773439,
         "pages": 27,
         "verified_download_sha256": "6efd8ab09925ddd6724bb3f852e5846a47a488aaa56dbf5eff164f45ca248e39"
+      }
+    },
+    {
+      "source_id": "SRC-BPE",
+      "title": "Neural Machine Translation of Rare Words with Subword Units",
+      "original_url": "https://arxiv.org/pdf/1508.07909v5",
+      "revision": "arXiv 1508.07909v5；ACL 2016",
+      "input_sha256": "425e98b024311d888741604ad032225baf3f73eb02078b265643fa18a1e70012",
+      "input_pages": 10,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、算法1、图表说明及致谢译为中文；作者图、表值和参考文献保留。",
+      "status": "private",
+      "reason": "最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Rico Sennrich",
+          "Barry Haddow",
+          "Alexandra Birch"
+        ],
+        "original_pdf_sha256": "f4e5a6bbbe0d87459997fffe892f8be485e33903cc71f923c2884639fbf96401",
+        "evidence_url": "https://arxiv.org/abs/1508.07909v5",
+        "evidence_sha256": "493c7cb1677023e69f1c0d5ebe2e56d365e033819b0f62e7539d102c96c0165a",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "notes": "固定 arXiv v5 提交页标 CC BY 4.0；私有译本保留原作者和权利人署名，许可链接同时登记于本目录及来源笔记。"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121",
+        "asset_name": "SRC-BPE.zh-CN.private.20261121.1.pdf",
+        "translation_version": "20261121.1",
+        "sha256": "425e98b024311d888741604ad032225baf3f73eb02078b265643fa18a1e70012",
+        "size_bytes": 439977,
+        "pages": 10,
+        "verified_download_sha256": "425e98b024311d888741604ad032225baf3f73eb02078b265643fa18a1e70012"
+      }
+    },
+    {
+      "source_id": "SRC-FLASHATTENTION",
+      "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+      "original_url": "https://arxiv.org/pdf/2205.14135v2",
+      "revision": "arXiv 2205.14135v2，2022-06-23；NeurIPS 2022",
+      "input_sha256": "9f3485d00e553c22bdc5276becbf1526caaa46cb914d2e73c7837c2d3a576326",
+      "input_pages": 32,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、算法0–1、图表说明及致谢译为中文；参考文献、附录A–E和原图内文字保留英文。",
+      "status": "private",
+      "reason": "最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Tri Dao",
+          "Daniel Y. Fu",
+          "Stefano Ermon",
+          "Atri Rudra",
+          "Christopher Ré"
+        ],
+        "original_pdf_sha256": "ca7f9fda10b90fc05dd291a3accc85e9c1a4a860b99b31928dab03ed3fcb14e4",
+        "evidence_url": "https://arxiv.org/abs/2205.14135v2",
+        "evidence_sha256": "91b77dc2648cacb6df651c2e3223d53edcd9c8bb97a96e96d0b497f561071560",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 arXiv 版本列非独占分发许可，范围为 arXiv 获得分发原作的许可；公开全文译文另需授权。"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121",
+        "asset_name": "SRC-FLASHATTENTION.zh-CN.private.20261121.1.pdf",
+        "translation_version": "20261121.1",
+        "sha256": "9f3485d00e553c22bdc5276becbf1526caaa46cb914d2e73c7837c2d3a576326",
+        "size_bytes": 1203631,
+        "pages": 32,
+        "verified_download_sha256": "9f3485d00e553c22bdc5276becbf1526caaa46cb914d2e73c7837c2d3a576326"
+      }
+    },
+    {
+      "source_id": "SRC-LAYERNORM",
+      "title": "Layer Normalization",
+      "original_url": "https://arxiv.org/pdf/1607.06450v1",
+      "revision": "arXiv 1607.06450v1，2016-07-21",
+      "input_sha256": "14bbcde52b9b6c2944e92bc888d754663d870410d50336a38c97ce866e84e069",
+      "input_pages": 13,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、图表说明及致谢译为中文；参考文献、附录和作者图内文字保留英文。",
+      "status": "private",
+      "reason": "最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Jimmy Lei Ba",
+          "Jamie Ryan Kiros",
+          "Geoffrey E. Hinton"
+        ],
+        "original_pdf_sha256": "c464f839fb8d59f7fde92f9b4caa67c2d1f2f196b88f93fb60502249df0aaef7",
+        "evidence_url": "https://arxiv.org/abs/1607.06450v1",
+        "evidence_sha256": "aa5e36d81db32c5e843bde654ad5b6ae49ddab681efd19e9e701d4ed22618f2f",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 arXiv 版本列非独占分发许可，范围为 arXiv 获得分发原作的许可；公开全文译文另需授权。"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121",
+        "asset_name": "SRC-LAYERNORM.zh-CN.private.20261121.1.pdf",
+        "translation_version": "20261121.1",
+        "sha256": "14bbcde52b9b6c2944e92bc888d754663d870410d50336a38c97ce866e84e069",
+        "size_bytes": 464689,
+        "pages": 13,
+        "verified_download_sha256": "14bbcde52b9b6c2944e92bc888d754663d870410d50336a38c97ce866e84e069"
+      }
+    },
+    {
+      "source_id": "SRC-PRELN",
+      "title": "On Layer Normalization in the Transformer Architecture",
+      "original_url": "https://arxiv.org/pdf/2002.04745v2",
+      "revision": "arXiv 2002.04745v2；ICML 2020",
+      "input_sha256": "9f2e561470d53e0ad801f3d34a84afdd20cf2db27d92c94b56cc3d97698905f0",
+      "input_pages": 22,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5 和图表说明译为中文；参考文献、作者图内文字和附录保留英文，附录改为单栏以保留长公式。",
+      "status": "private",
+      "reason": "最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Ruibin Xiong",
+          "Yunchang Yang",
+          "Di He",
+          "Kai Zheng",
+          "Shuxin Zheng",
+          "Chen Xing",
+          "Huishuai Zhang",
+          "Yanyan Lan",
+          "Liwei Wang",
+          "Tie-Yan Liu"
+        ],
+        "original_pdf_sha256": "e1fa0519ed8e09a676d56c983e99ead5effd7ef840ae86a186729287469bf883",
+        "evidence_url": "https://arxiv.org/abs/2002.04745v2",
+        "evidence_sha256": "70cf838e7c8d512444f48d1f2bfadfa6de8a765a4600cb5613db6c5d2617a8dd",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 arXiv 版本列非独占分发许可，范围为 arXiv 获得分发原作的许可；公开全文译文另需授权。"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121",
+        "asset_name": "SRC-PRELN.zh-CN.private.20261121.1.pdf",
+        "translation_version": "20261121.1",
+        "sha256": "9f2e561470d53e0ad801f3d34a84afdd20cf2db27d92c94b56cc3d97698905f0",
+        "size_bytes": 505328,
+        "pages": 22,
+        "verified_download_sha256": "9f2e561470d53e0ad801f3d34a84afdd20cf2db27d92c94b56cc3d97698905f0"
+      }
+    },
+    {
+      "source_id": "SRC-RMSNORM",
+      "title": "Root Mean Square Layer Normalization",
+      "original_url": "https://arxiv.org/pdf/1910.07467v1",
+      "revision": "arXiv 1910.07467v1；NeurIPS 2019",
+      "input_sha256": "5228c8c5f8570fc760ab67a5bf82c679d1cc47bed50942f4f9a654282d12b07a",
+      "input_pages": 15,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、图表说明及致谢译为中文；参考文献、附录和作者图内文字保留英文。",
+      "status": "private",
+      "reason": "最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Biao Zhang",
+          "Rico Sennrich"
+        ],
+        "original_pdf_sha256": "a38ab771022fc10525d2b6b23de40307b2ca7b2bf463f5219da6a0ba1c41225f",
+        "evidence_url": "https://arxiv.org/abs/1910.07467v1",
+        "evidence_sha256": "14323fdc3b996636a68f86525e29245468215f2243849e14dd2df86ce78d158e",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 arXiv 版本列非独占分发许可，范围为 arXiv 获得分发原作的许可；公开全文译文另需授权。"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121",
+        "asset_name": "SRC-RMSNORM.zh-CN.private.20261121.1.pdf",
+        "translation_version": "20261121.1",
+        "sha256": "5228c8c5f8570fc760ab67a5bf82c679d1cc47bed50942f4f9a654282d12b07a",
+        "size_bytes": 502549,
+        "pages": 15,
+        "verified_download_sha256": "5228c8c5f8570fc760ab67a5bf82c679d1cc47bed50942f4f9a654282d12b07a"
+      }
+    },
+    {
+      "source_id": "SRC-ROFORMER",
+      "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+      "original_url": "https://arxiv.org/pdf/2104.09864v5",
+      "revision": "arXiv 2104.09864v5，2023-11-08",
+      "input_sha256": "bb9a159b562ef9162b853bb5b3fef65251b9a851709c8d096744eb47233c04aa",
+      "input_pages": 13,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5 和图表说明译为中文；参考文献和作者图内文字保留原版。",
+      "status": "private",
+      "reason": "最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Jianlin Su",
+          "Yu Lu",
+          "Shengfeng Pan",
+          "Ahmed Murtadha",
+          "Bo Wen",
+          "Yunfeng Liu"
+        ],
+        "original_pdf_sha256": "e9a481fbe1c8a20b7b1fa566b13102a1896c7829fa9a8b4c80528452a5ddaf79",
+        "evidence_url": "https://arxiv.org/abs/2104.09864v5",
+        "evidence_sha256": "e4998c438df47e180a1cff8fb853ddc5440ced31f7558f3788e0406ba14e4c52",
+        "license_id": "CC-BY-NC-ND-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "notes": "固定 arXiv v5 列 CC BY-NC-ND 4.0，其 ND 条款不授权向公众分发派生译文。TeX 包中的上游模板许可单列，不用作论文本身许可。"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121",
+        "asset_name": "SRC-ROFORMER.zh-CN.private.20261121.1.pdf",
+        "translation_version": "20261121.1",
+        "sha256": "bb9a159b562ef9162b853bb5b3fef65251b9a851709c8d096744eb47233c04aa",
+        "size_bytes": 475159,
+        "pages": 13,
+        "verified_download_sha256": "bb9a159b562ef9162b853bb5b3fef65251b9a851709c8d096744eb47233c04aa"
+      }
+    },
+    {
+      "source_id": "SRC-SENTENCEPIECE",
+      "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+      "original_url": "https://aclanthology.org/D18-2012.pdf",
+      "revision": "EMNLP 2018 系统演示正式版，D18-2012；相应作者 TeX 来自 arXiv 1808.06226v1",
+      "input_sha256": "5ef6f49277f4357c623ae0b0dd43ab5340004aedf7a94f8c41700a98706bfc77",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、图表说明及致谢译为中文；作者图、表值和参考文献保留。",
+      "status": "private",
+      "reason": "最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Taku Kudo",
+          "John Richardson"
+        ],
+        "original_pdf_sha256": "cf056aa0380bfe6b483e46b21585cf9e90fb40485ace1d8793f0f1ebad7c9924",
+        "evidence_url": "https://aclanthology.org/D18-2012.pdf",
+        "evidence_sha256": "cf056aa0380bfe6b483e46b21585cf9e90fb40485ace1d8793f0f1ebad7c9924",
+        "notes": "EMNLP 正式 PDF 首页列 ©2018 Association for Computational Linguistics。论文中的 Apache 2.0 指 SentencePiece 软件。采用版公开全文翻译许可未核实。"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121",
+        "asset_name": "SRC-SENTENCEPIECE.zh-CN.private.20261121.1.pdf",
+        "translation_version": "20261121.1",
+        "sha256": "5ef6f49277f4357c623ae0b0dd43ab5340004aedf7a94f8c41700a98706bfc77",
+        "size_bytes": 264242,
+        "pages": 6,
+        "verified_download_sha256": "5ef6f49277f4357c623ae0b0dd43ab5340004aedf7a94f8c41700a98706bfc77"
+      }
+    },
+    {
+      "source_id": "SRC-WEIGHT-TYING",
+      "title": "Using the Output Embedding to Improve Language Models",
+      "original_url": "https://arxiv.org/pdf/1608.05859v3",
+      "revision": "arXiv 1608.05859v3；EACL 2017",
+      "input_sha256": "57bdb8e65d70783215346aea7b961875b51a71f9c55baf749475890a3e25c48e",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–4.3、8张表的说明及致谢译为中文；表值、公式和参考文献保留。采用版无插图。",
+      "status": "private",
+      "reason": "最终译文逐页目视。采用版原文和中文PDF已核对远端digest并真实登录下载，PDF类型、大小、页数及完整SHA256一致。",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-21",
+        "authors": [
+          "Ofir Press",
+          "Lior Wolf"
+        ],
+        "original_pdf_sha256": "8e7e90ff0e4a7e88bd867868bde9c7c1eec0a52f1160805992af6c31acd09310",
+        "evidence_url": "https://arxiv.org/abs/1608.05859v3",
+        "evidence_sha256": "2f9ad35eff9a19ac1d34152b9b0f39642342d0bdd5f3932c662940d033787679",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 arXiv 版本列非独占分发许可，范围为 arXiv 获得分发原作的许可；公开全文译文另需授权。"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261121",
+        "asset_name": "SRC-WEIGHT-TYING.zh-CN.private.20261121.1.pdf",
+        "translation_version": "20261121.1",
+        "sha256": "57bdb8e65d70783215346aea7b961875b51a71f9c55baf749475890a3e25c48e",
+        "size_bytes": 264706,
+        "pages": 7,
+        "verified_download_sha256": "57bdb8e65d70783215346aea7b961875b51a71f9c55baf749475890a3e25c48e"
       }
     }
   ],
