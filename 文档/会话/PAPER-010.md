@@ -4,7 +4,7 @@
 
 | 批次 | 已回写的问题 | 待完成 |
 |---|---|---|
-| 07 显式交叉、字段注意力与粗排表达 | [稀疏特征交互](../../知识库/问题/稀疏特征的低高阶交互学习.md)、[粗排预算](../../知识库/问题/粗排如何在计算预算内保留精排候选.md) | CAN 翻译与附件 |
+| 07 显式交叉、字段注意力与粗排表达 | [稀疏特征交互](../../知识库/问题/稀疏特征的低高阶交互学习.md)、[粗排预算](../../知识库/问题/粗排如何在计算预算内保留精排候选.md) | 本批三份新译文均已验收和备份，既有附件复核见文末 |
 | 08 候选感知兴趣与级联预算 | [长历史压缩](../../知识库/问题/长历史怎样在候选条件下压缩计算.md)、[粗排预算](../../知识库/问题/粗排如何在计算预算内保留精排候选.md) | TWIN 翻译与附件，Que2Search 全文 |
 | 09 转化漏斗、多任务共享与损失权重 | [点击后转化](../../知识库/问题/点击后转化率估计.md)、[多任务共享](../../知识库/问题/多任务共享如何避免负迁移.md) | ESCM²、MGDA 翻译与附件 |
 | 10 多场景共享与新品适配 | [多场景共享](../../知识库/问题/多场景怎样共享模型又保留差异.md)、[新品初始化与反馈适配](../../知识库/问题/新品怎样用属性初始化并从少量反馈适配.md) | MAML、Meta-Embedding 翻译与附件，M3REC 全文 |
@@ -20,3 +20,5 @@ Que2Search 与 M3REC 的题名、作者和 DOI 已与 Crossref 核对。出版�
 DCN v1 的 7 页采用版原文和 6 页中文正文译本均完成私有备份及首次认证下载核验。译文逐页目视，核对公式、四表、三图和引文，支持中文提取。 本地正式件位于 `.local/papers/SRC-DCN/translation/Deep & Cross Network for Ad Click Predictions.pdf`，译文 SHA-256 为 `ded6ba243ec0033228025161b41f275fbba804642e5b0c49db3e83d533033a43`。远程 LuaLaTeX 编译失败后改用本地 XeLaTeX 与系统中文字体，图由采用版 PDF 矢量裁取，保持双栏。附录、参考文献与图内文字保留原文。
 
 AutoInt v2 的 10 页采用版原文和 8 页中文正文与致谢译本均完成私有备份和首次认证下载核验。译文逐页目视，核对 10 个编号公式、五张表、七张图和引文。 本地正式件位于 `.local/papers/SRC-AUTOINT/translation/AutoInt Automatic Feature Interaction Learning via Self-Attentive Neural Networks.pdf`，译文 SHA-256 为 `73b871e9f69de9ca68415bcfbc5be435593842b30b609699c81800a8b9e8f966`。远程 LuaLaTeX 超时后改用本地 XeLaTeX，保留作者双栏模板、原图和 ACM 声明。正式采用版无附录，LaTeX 中未引入的 appendix.tex 未纳入译本。
+
+CAN v3 的 9 页采用版原文和 7 页中文正文译本均完成私有备份和首次认证下载核验。译文逐页目视，核对 13 个编号公式、六张表、五张图和引文。 本地正式件位于 `.local/papers/SRC-CAN/translation/CAN Feature Co-Action for Click-Through Rate Prediction.pdf`，译文 SHA-256 为 `c2a70ca46d4d02aece86ae6a16d9bf0f7faaf2d12b66b9e74d7e76644581d777`。本地 XeLaTeX 用兼容版 acmart 解决旧模板冲突，保留双栏、WSDM 声明和原图，移除译本中一处继承的图片构建路径。固定公开代码复核了候选侧供参和逐行为池化，未运行模型。

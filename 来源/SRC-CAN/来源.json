@@ -25,13 +25,13 @@
       "retrieved_on": "2026-11-22",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "f00838c5bfc923c2407c04e293505698b457bd7de1047ecb83a45a1d4a6799c2",
+        "notes_sha256": "40601142e41937bce4ebe4412b80bce657e0ddd7a820104faad2be7bec8cbebb",
         "pages": [
           "sparse-feature-interactions"
         ],
         "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
-        "review_note": "本轮知识正文与读者路径自查。核对微网络参数及输入两侧的构造，保留图 3 与 §4.2 的指派冲突。中文 PDF 和私有附件另有待办。"
+        "review_note": "复核论文诱导侧与馈入侧、聚合顺序和多阶读出。固定官方公开序列代码覆盖候选供参和行为掩码聚合，工业实现范围保留。原译均核对并认证下载。"
       }
     }
   ]

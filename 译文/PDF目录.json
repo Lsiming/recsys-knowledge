@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-11-22",
-  "inventory_note": "95篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "96篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -3444,6 +3444,55 @@
         "size_bytes": 831123,
         "pages": 8,
         "verified_download_sha256": "73b871e9f69de9ca68415bcfbc5be435593842b30b609699c81800a8b9e8f966"
+      }
+    },
+    {
+      "source_id": "SRC-CAN",
+      "title": "CAN: Feature Co-Action for Click-Through Rate Prediction",
+      "original_url": "https://arxiv.org/abs/2011.05625v3",
+      "revision": "arXiv 2011.05625v3",
+      "input_sha256": "c2a70ca46d4d02aece86ae6a16d9bf0f7faaf2d12b66b9e74d7e76644581d777",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、公式、图表说明和描述性脚注。参考文献、图内文字及 WSDM 权利声明保留。",
+      "status": "private",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-22",
+        "authors": [
+          "Weijie Bian",
+          "Kailun Wu",
+          "Lejian Ren",
+          "Qi Pi",
+          "Yujing Zhang",
+          "Can Xiao",
+          "Xiang-Rong Sheng",
+          "Yong-Nan Zhu",
+          "Zhangming Chan",
+          "Na Mou",
+          "Xinchen Luo",
+          "Shiming Xiang",
+          "Guorui Zhou",
+          "Xiaoqiang Zhu",
+          "Hongbo Deng"
+        ],
+        "original_pdf_sha256": "f623c7a2a953f4f703e33edaa88056876e353fe83663e4b358f39a325eacfd1d",
+        "evidence_url": "https://arxiv.org/abs/2011.05625v3",
+        "evidence_sha256": "d6707e5185d37bb8dc02fe1d377f6154d28a5c608e15355696f25e7ff096ed06",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 v3 的 arXiv 页面列非独占分发许可，未授予公众发布全文译文的权利。采用版首页的 ACM 个人或课堂阅读说明及完整引文保留。"
+      },
+      "reason": "7 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261122-batch-07-10",
+        "translation_version": "20261122.1",
+        "asset_name": "SRC-CAN.zh-CN.private.20261122.1.pdf",
+        "sha256": "c2a70ca46d4d02aece86ae6a16d9bf0f7faaf2d12b66b9e74d7e76644581d777",
+        "size_bytes": 672507,
+        "pages": 7,
+        "verified_download_sha256": "c2a70ca46d4d02aece86ae6a16d9bf0f7faaf2d12b66b9e74d7e76644581d777"
       }
     }
   ],
