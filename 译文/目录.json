@@ -1755,5 +1755,43 @@
       "Yang Song",
       "Kun Gai"
     ]
+  },
+  {
+    "source_id": "SRC-QUE2SEARCH",
+    "title": "Que2Search: Fast and Accurate Query and Document Understanding for Search at Facebook",
+    "original_url": "https://doi.org/10.1145/3447548.3467127",
+    "revision": "ACM KDD 2021 正式版，3376–3384",
+    "checked_on": "2026-11-23",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "13 页中文正文 PDF 已验收并认证备份。正文 Markdown 本地保留，公开再分发许可未确认。",
+    "authors": [
+      "Yiqun Liu",
+      "Kaushik Rangadurai",
+      "Yunzhong He",
+      "Siddarth Malreddy",
+      "Xunlong Gui",
+      "Xiaoyi Liu",
+      "Fedor Borisyuk"
+    ],
+    "evidence_url": "https://doi.org/10.1145/3447548.3467127",
+    "evidence_sha256": "28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88"
+  },
+  {
+    "source_id": "SRC-M3REC",
+    "title": "M3REC: A Meta-based Multi-scenario Multi-task Recommendation Framework",
+    "original_url": "https://doi.org/10.1145/3604915.3608828",
+    "revision": "ACM RecSys 2023 正式版，771–776",
+    "checked_on": "2026-11-23",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "9 页中文正文 PDF 已验收并认证备份。正文 Markdown 本地保留，公开再分发许可未确认。",
+    "authors": [
+      "Zerong Lan",
+      "Yingyi Zhang",
+      "Xianneng Li"
+    ],
+    "evidence_url": "https://doi.org/10.1145/3604915.3608828",
+    "evidence_sha256": "2c5bff2f06c9a9509b75c0f3d6b764a61840d15e1ea306abbe56da8444df07ce"
   }
 ]

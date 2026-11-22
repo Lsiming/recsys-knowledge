@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-11-23",
-  "inventory_note": "101篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "103篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -3692,6 +3692,84 @@
         "size_bytes": 1099573,
         "pages": 14,
         "verified_download_sha256": "71c910bfe05d6f2cff185705bdca18ceb96f9c5e2fdeeba39ce0eeaa0ce2b935"
+      }
+    },
+    {
+      "source_id": "SRC-QUE2SEARCH",
+      "title": "Que2Search: Fast and Accurate Query and Document Understanding for Search at Facebook",
+      "original_url": "https://doi.org/10.1145/3447548.3467127",
+      "revision": "ACM KDD 2021 正式版，3376–3384",
+      "input_sha256": "ded8b7586a939265b396b1c212b9e5b475e4909b2a0b8065b227c5132661fec2",
+      "input_pages": 13,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–8、五幅图与五张表的说明、描述性脚注及致谢。图内文字、参考文献与 ACM 版权声明保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-23",
+        "authors": [
+          "Yiqun Liu",
+          "Kaushik Rangadurai",
+          "Yunzhong He",
+          "Siddarth Malreddy",
+          "Xunlong Gui",
+          "Xiaoyi Liu",
+          "Fedor Borisyuk"
+        ],
+        "original_pdf_sha256": "28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88",
+        "evidence_url": "https://doi.org/10.1145/3447548.3467127",
+        "evidence_sha256": "28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88",
+        "license_url": null,
+        "notes": "正式 PDF 首页允许符合条件的个人或课堂复制，订明其他再出版与分发需要额外许可。原译件保留原声明；公开全文翻译许可未确认。"
+      },
+      "reason": "13 页逐页目视，原文与译文均核对远端摘要并认证下载。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261122-batch-07-10",
+        "translation_version": "20261123.1",
+        "asset_name": "SRC-QUE2SEARCH.zh-CN.private.20261123.1.pdf",
+        "sha256": "ded8b7586a939265b396b1c212b9e5b475e4909b2a0b8065b227c5132661fec2",
+        "size_bytes": 5633745,
+        "pages": 13,
+        "verified_download_sha256": "ded8b7586a939265b396b1c212b9e5b475e4909b2a0b8065b227c5132661fec2"
+      }
+    },
+    {
+      "source_id": "SRC-M3REC",
+      "title": "M3REC: A Meta-based Multi-scenario Multi-task Recommendation Framework",
+      "original_url": "https://doi.org/10.1145/3604915.3608828",
+      "revision": "ACM RecSys 2023 正式版，771–776",
+      "input_sha256": "570605a4a7f45e39185f119af69de42f691edcc2f90bcda2ef8ebcdf8e4db851",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–4、算法 1、两幅图与四张表的说明、脚注及致谢。图内文字、参考文献与 ACM 权利声明保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-23",
+        "authors": [
+          "Zerong Lan",
+          "Yingyi Zhang",
+          "Xianneng Li"
+        ],
+        "original_pdf_sha256": "2c5bff2f06c9a9509b75c0f3d6b764a61840d15e1ea306abbe56da8444df07ce",
+        "evidence_url": "https://doi.org/10.1145/3604915.3608828",
+        "evidence_sha256": "2c5bff2f06c9a9509b75c0f3d6b764a61840d15e1ea306abbe56da8444df07ce",
+        "license_url": null,
+        "notes": "正式 PDF 首页允许符合条件的个人或课堂复制，订明其他再出版与分发需要额外许可。原译件保留原声明；公开全文翻译许可未确认。"
+      },
+      "reason": "9 页逐页目视，原文与译文均核对远端摘要并认证下载。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261122-batch-07-10",
+        "translation_version": "20261123.1",
+        "asset_name": "SRC-M3REC.zh-CN.private.20261123.1.pdf",
+        "sha256": "570605a4a7f45e39185f119af69de42f691edcc2f90bcda2ef8ebcdf8e4db851",
+        "size_bytes": 1039371,
+        "pages": 9,
+        "verified_download_sha256": "570605a4a7f45e39185f119af69de42f691edcc2f90bcda2ef8ebcdf8e4db851"
       }
     }
   ],

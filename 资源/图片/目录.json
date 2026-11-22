@@ -2776,6 +2776,78 @@
       "credit": "Feiyang Pan 等",
       "modification": "PyMuPDF 2.2 倍渲染，左上原点坐标裁框 (54, 79, 559, 221) pt，图注另列，图内内容沿用原图",
       "created_on": "2026-11-22"
+    },
+    {
+      "path": "资源/图片/SRC-M3REC/原文图1-多场景与多任务的组合.png",
+      "sha256": "c7921d428fac041762e23ff3033042fe1d254a336fcfc292935997a06733cbcb",
+      "kind": "第三方原图",
+      "source_id": "SRC-M3REC",
+      "source_version": "ACM RecSys 2023 正式版，771–776",
+      "basis": "正式 PDF 第 1 页，图 1（多场景与多任务的组合）",
+      "source_sha256": "2c5bff2f06c9a9509b75c0f3d6b764a61840d15e1ea306abbe56da8444df07ce",
+      "credit": "Zerong Lan、Yingyi Zhang、Xianneng Li",
+      "modification": "PyMuPDF 3 倍渲染，左上原点坐标裁框 (333, 624, 543, 668) pt，图注另列，保留图内原有内容",
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-M3REC/原文图2-M3REC的三条建模路径.png",
+      "sha256": "1186c713af452fbe2281dadf7c8e51767dcfae50a14f6067ab4aefa4fd6f91c6",
+      "kind": "第三方原图",
+      "source_id": "SRC-M3REC",
+      "source_version": "ACM RecSys 2023 正式版，771–776",
+      "basis": "正式 PDF 第 3 页，图 2（M3REC的三条建模路径）",
+      "source_sha256": "2c5bff2f06c9a9509b75c0f3d6b764a61840d15e1ea306abbe56da8444df07ce",
+      "credit": "Zerong Lan、Yingyi Zhang、Xianneng Li",
+      "modification": "PyMuPDF 3 倍渲染，左上原点坐标裁框 (123, 82, 488, 267) pt，图注另列，保留图内原有内容",
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-QUE2SEARCH/原文图2-查询与商品双塔.png",
+      "sha256": "4f66b549272bf2b485ee0f990354953d0210e4a20169084ce5afbf4c77a052c9",
+      "kind": "第三方原图",
+      "source_id": "SRC-QUE2SEARCH",
+      "source_version": "ACM KDD 2021 正式版，3376–3384",
+      "basis": "正式 PDF 第 3 页，图 2（查询与商品双塔）",
+      "source_sha256": "28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88",
+      "credit": "Yiqun Liu 等",
+      "modification": "PyMuPDF 3 倍渲染，左上原点坐标裁框 (101, 74, 512, 309) pt，图注另列，保留图内原有内容",
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-QUE2SEARCH/原文图3-两阶段训练的AUC变化.png",
+      "sha256": "182805a57b1268a5b296482b227b747db0c5eec5309592f7b48714987a878c23",
+      "kind": "第三方原图",
+      "source_id": "SRC-QUE2SEARCH",
+      "source_version": "ACM KDD 2021 正式版，3376–3384",
+      "basis": "正式 PDF 第 4 页，图 3（两阶段训练的AUC变化）",
+      "source_sha256": "28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88",
+      "credit": "Yiqun Liu 等",
+      "modification": "PyMuPDF 3 倍渲染，左上原点坐标裁框 (313, 80, 557, 244) pt，图注另列，保留图内原有内容",
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-QUE2SEARCH/原文图4-同批随机负例构造.png",
+      "sha256": "384f61d0f4f02ac01c2c427c2944bbdab5f7243520de491c618e282c8bf3729b",
+      "kind": "第三方原图",
+      "source_id": "SRC-QUE2SEARCH",
+      "source_version": "ACM KDD 2021 正式版，3376–3384",
+      "basis": "正式 PDF 第 5 页，图 4（同批随机负例构造）",
+      "source_sha256": "28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88",
+      "credit": "Yiqun Liu 等",
+      "modification": "PyMuPDF 3 倍渲染，左上原点坐标裁框 (63, 92, 287, 193) pt，图注另列，保留图内原有内容",
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-QUE2SEARCH/原文图5-在线查询与商品索引链路.png",
+      "sha256": "47f6205a934af9ac9df8494b3b4896fb85de314f6c683aa357017c4ce8059689",
+      "kind": "第三方原图",
+      "source_id": "SRC-QUE2SEARCH",
+      "source_version": "ACM KDD 2021 正式版，3376–3384",
+      "basis": "正式 PDF 第 6 页，图 5（在线查询与商品索引链路）",
+      "source_sha256": "28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88",
+      "credit": "Yiqun Liu 等",
+      "modification": "PyMuPDF 3 倍渲染，左上原点坐标裁框 (310, 79, 565, 251) pt，图注另列，保留图内原有内容",
+      "created_on": "2026-11-23"
     }
   ]
 }

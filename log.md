@@ -707,3 +707,5 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 - 2026-11-22 · [MAML v3](来源/SRC-MAML/阅读笔记.md)完成中文 PDF、逐页验收与原译件私有备份及认证下载，核对分类交叉熵方向。
 
 - 2026-11-23 · [MGDA v2](来源/SRC-MGDA/阅读笔记.md)完成译本验收及原译件私有备份，回填 MGDA-UB 参数空间共同下降的证明边界。通过 ACM eReader 正式下载 Que2Search 与 M3REC 采用版原文。
+
+- 2026-11-23 · [第 07–10 批](文档/会话/PAPER-010.md)全部 22 篇完成。交付 Que2Search、M3REC 的技术精读、6 张作者原图、中文 PDF 与认证备份，回写多场景与新品适配、粗排预算及双塔负采样。

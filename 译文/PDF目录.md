@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-23，盘点101篇中文PDF，101篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-23，盘点103篇中文PDF，103篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -113,3 +113,5 @@
 | [ESCM²: Entire Space Counterfactual Multi-Task Model for Post-Click Conversion Rate Estimation](https://arxiv.org/abs/2204.05125v2) · `SRC-ESCM2` | 私有，需登录 · 20261122.1 · 9页 | [unverified](https://arxiv.org/abs/2204.05125v2) | 摘要、正文 §1–7、致谢与实现附录、公式、图表说明和描述性脚注。参考文献、图内文字及 SIGIR 权利声明保留。；9 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
 | [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/abs/1703.03400v3) · `SRC-MAML` | 私有，需登录 · 20261122.1 · 11页 | [unverified](https://arxiv.org/abs/1703.03400v3) | 摘要、正文 §1–6、致谢、附录 A–C、算法注释、图表说明及描述性脚注。参考文献、图内文字与作者权利声明保留。；11 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
 | [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650v2) · `SRC-MGDA` | 私有，需登录 · 20261122.1 · 14页 | [unverified](https://arxiv.org/abs/1810.04650v2) | 摘要、正文 §1–5、算法注释、正文图表说明及描述性脚注。附录 A–C、参考文献、图内文字、作者署名和 NeurIPS 出版信息保留原文。；14 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
+| [Que2Search: Fast and Accurate Query and Document Understanding for Search at Facebook](https://doi.org/10.1145/3447548.3467127) · `SRC-QUE2SEARCH` | 私有，需登录 · 20261123.1 · 13页 | [unverified](https://doi.org/10.1145/3447548.3467127) | 摘要、正文 §1–8、五幅图与五张表的说明、描述性脚注及致谢。图内文字、参考文献与 ACM 版权声明保留原文。；13 页逐页目视，原文与译文均核对远端摘要并认证下载。 |
+| [M3REC: A Meta-based Multi-scenario Multi-task Recommendation Framework](https://doi.org/10.1145/3604915.3608828) · `SRC-M3REC` | 私有，需登录 · 20261123.1 · 9页 | [unverified](https://doi.org/10.1145/3604915.3608828) | 摘要、正文 §1–4、算法 1、两幅图与四张表的说明、脚注及致谢。图内文字、参考文献与 ACM 权利声明保留原文。；9 页逐页目视，原文与译文均核对远端摘要并认证下载。 |

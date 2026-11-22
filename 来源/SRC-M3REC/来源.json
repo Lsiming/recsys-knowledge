@@ -1,0 +1,34 @@
+{
+  "id": "SRC-M3REC",
+  "title": "M3REC: A Meta-based Multi-scenario Multi-task Recommendation Framework",
+  "kind": "paper",
+  "state": "active",
+  "current": "e168ccfc96be9cd424288347ff0e431ac9a15ebdd53e58487cc6338ca676ee64",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3604915.3608828",
+      "revision": "ACM RecSys 2023 正式版，771–776",
+      "read_scope": "正文 §1–4、图 1–2、表 1–4、式 (1)–(15) 和算法 1。核验正式 PDF、作者和 DOI。未运行模型。",
+      "artifacts": [
+        {
+          "name": "3604915.3608828.pdf",
+          "sha256": "2c5bff2f06c9a9509b75c0f3d6b764a61840d15e1ea306abbe56da8444df07ce",
+          "snapshot": ".local/sources/SRC-M3REC/2c5bff2f06c9a9509b75c0f3d6b764a61840d15e1ea306abbe56da8444df07ce/3604915.3608828.pdf"
+        }
+      ],
+      "fingerprint": "e168ccfc96be9cd424288347ff0e431ac9a15ebdd53e58487cc6338ca676ee64",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "41564d0900524a30a14e6b1ae008d107cc847cb173708584293958351def4b4c",
+        "pages": [
+          "cold-item-initialization-adaptation",
+          "multidomain-parameter-sharing"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "对照 ACM RecSys 2023 正式全文 §2–3、算法 1、表 1–4，复查多场景共享、新品适配、跨域迁移与多任务模块入口。更新 UPT、MIEG 及其与 STAR、PEPNet、Meta-Embedding 的比较，区分已知类目离线评估和新品/新场景验证。TAG 共用任务项随行 Softmax 消去及表 2 增幅冲突留审核台。"
+      }
+    }
+  ]
+}

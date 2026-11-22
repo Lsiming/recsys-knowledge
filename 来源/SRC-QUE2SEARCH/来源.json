@@ -1,0 +1,49 @@
+{
+  "id": "SRC-QUE2SEARCH",
+  "title": "Que2Search: Fast and Accurate Query and Document Understanding for Search at Facebook",
+  "kind": "paper",
+  "state": "active",
+  "current": "2cb22cb4e2b550baac0d128ca108698418e31224089deb59b24e4263eafb6a0d",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3447548.3467127",
+      "revision": "ACM KDD 2021 正式版，3376–3384",
+      "read_scope": "已从 ACM eReader 下载的正式 PDF 九页，核验题名、作者、DOI 与页码。正文精读进行中。",
+      "artifacts": [
+        {
+          "name": "3447548.3467127.pdf",
+          "sha256": "28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88",
+          "snapshot": ".local/sources/SRC-QUE2SEARCH/28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88/3447548.3467127.pdf"
+        }
+      ],
+      "fingerprint": "901360857dd86bc9276c2c09c2e23c8891a58367f4cf486d435009c44fb92ce7",
+      "retrieved_on": "2026-11-23",
+      "integration": null
+    },
+    {
+      "locator": "https://doi.org/10.1145/3447548.3467127",
+      "revision": "ACM KDD 2021 正式版，3376–3384",
+      "read_scope": "已从 ACM eReader 下载正式 PDF，核对正文 §1–8、式 (1)–(6)、图 1–5 和表 1–5。未运行模型。",
+      "artifacts": [
+        {
+          "name": "3447548.3467127.pdf",
+          "sha256": "28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88",
+          "snapshot": ".local/sources/SRC-QUE2SEARCH/28cf9571f7c3a6f5b807573bd8bf11a39f65dc73e25c2f2cc29d455cf775cb88/3447548.3467127.pdf"
+        }
+      ],
+      "fingerprint": "2cb22cb4e2b550baac0d128ca108698418e31224089deb59b24e4263eafb6a0d",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "d9aefea2185038358db863f708e2e192e223dae625740d5c4d93422706bb32cb",
+        "pages": [
+          "preranking-budget-retention",
+          "sampled-two-tower-training"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "对照 ACM KDD 2021 正式全文 §3–6、图 2–5、表 3–5，复查塔内融合、批内难例、粗排、ANN、召回和候选路线。补独立两塔与 COLD、IntTower、PinSage、LogQ 的比较，区分样本分差、召回、人工相关性和线上会话。式 (4)、(6) 印式与表 3 增幅留审核台。"
+      }
+    }
+  ]
+}
