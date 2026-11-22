@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-11-22",
-  "inventory_note": "93篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "94篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -3365,6 +3365,44 @@
         "size_bytes": 5072880,
         "pages": 11,
         "verified_download_sha256": "be6e97a1c24c1fa38be93169023eff7b21b21c1ba321087bf4fed94fa0572b3d"
+      }
+    },
+    {
+      "source_id": "SRC-DCN",
+      "title": "Deep & Cross Network for Ad Click Predictions",
+      "original_url": "https://arxiv.org/abs/1708.05123v1",
+      "revision": "arXiv 1708.05123v1",
+      "input_sha256": "ded6ba243ec0033228025161b41f275fbba804642e5b0c49db3e83d533033a43",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、公式、图表说明和描述性脚注。参考文献、附录和图内原文保留。",
+      "status": "private",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-22",
+        "authors": [
+          "Ruoxi Wang",
+          "Bin Fu",
+          "Gang Fu",
+          "Mingliang Wang"
+        ],
+        "original_pdf_sha256": "371f960b98fe7efe66615bf1f1570bf71b7d8e1a468a78863420b1791a846105",
+        "evidence_url": "https://arxiv.org/abs/1708.05123v1",
+        "evidence_sha256": "ac5c2fcdec132e8289b81496e889a7d19a10e1e21aeca1522c626b2910b5b8e0",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 v1 的 arXiv 页面列非独占分发许可，未授予公众发布全文译文的权利。"
+      },
+      "reason": "6 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261122-batch-07-10",
+        "translation_version": "20261122.1",
+        "asset_name": "SRC-DCN.zh-CN.private.20261122.1.pdf",
+        "sha256": "ded6ba243ec0033228025161b41f275fbba804642e5b0c49db3e83d533033a43",
+        "size_bytes": 471587,
+        "pages": 6,
+        "verified_download_sha256": "ded6ba243ec0033228025161b41f275fbba804642e5b0c49db3e83d533033a43"
       }
     }
   ],

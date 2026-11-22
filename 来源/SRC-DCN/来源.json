@@ -25,13 +25,13 @@
       "retrieved_on": "2026-11-22",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "a31811706e8758491c32b74cda73d03e589a28c28d86bcf7c3de90ab270d53a2",
+        "notes_sha256": "89378ce622734a6723986e53abcc526bbed6431ea117460c72dad5f5e99aa8aa",
         "pages": [
           "sparse-feature-interactions"
         ],
         "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
-        "review_note": "本轮知识正文与读者路径自查。复核向量交叉阶数、参数效率及与 DCNv2 的参数约束差别。中文 PDF 和私有附件另有待办。"
+        "review_note": "已核对固定原文的向量交叉阶数、参数约束与场景。此轮复核正文中文 PDF 范围、双栏图表、译注及原译认证下载，只更新阅读材料入口。"
       }
     }
   ]
