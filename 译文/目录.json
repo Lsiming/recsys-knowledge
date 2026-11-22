@@ -1588,5 +1588,85 @@
     "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "evidence_url": "https://arxiv.org/abs/1806.01973v1",
     "evidence_sha256": "eaed91b511b89f9ad03805eb826fa06d7b289108666ddc3fc037f247c5e46fd1"
+  },
+  {
+    "source_id": "SRC-AUTOINT",
+    "title": "AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks",
+    "original_url": "https://arxiv.org/abs/1810.11921v2",
+    "revision": "arXiv 1810.11921v2",
+    "checked_on": "2026-11-22",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
+  },
+  {
+    "source_id": "SRC-CAN",
+    "title": "CAN: Feature Co-Action for Click-Through Rate Prediction",
+    "original_url": "https://arxiv.org/abs/2011.05625v3",
+    "revision": "arXiv 2011.05625v3",
+    "checked_on": "2026-11-22",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
+  },
+  {
+    "source_id": "SRC-DCN",
+    "title": "Deep & Cross Network for Ad Click Predictions",
+    "original_url": "https://arxiv.org/abs/1708.05123v1",
+    "revision": "arXiv 1708.05123v1",
+    "checked_on": "2026-11-22",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
+  },
+  {
+    "source_id": "SRC-ESCM2",
+    "title": "ESCM²: Entire Space Counterfactual Multi-Task Model for Post-Click Conversion Rate Estimation",
+    "original_url": "https://arxiv.org/abs/2204.05125v2",
+    "revision": "arXiv 2204.05125v2",
+    "checked_on": "2026-11-22",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
+  },
+  {
+    "source_id": "SRC-MAML",
+    "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+    "original_url": "https://arxiv.org/abs/1703.03400v3",
+    "revision": "arXiv 1703.03400v3",
+    "checked_on": "2026-11-22",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
+  },
+  {
+    "source_id": "SRC-META-EMBEDDING",
+    "title": "Warm Up Cold-start Advertisements: Improving CTR Predictions via Learning to Learn ID Embeddings",
+    "original_url": "https://arxiv.org/abs/1904.11547v1",
+    "revision": "arXiv 1904.11547v1",
+    "checked_on": "2026-11-22",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
+  },
+  {
+    "source_id": "SRC-MGDA",
+    "title": "Multi-Task Learning as Multi-Objective Optimization",
+    "original_url": "https://arxiv.org/abs/1810.04650v2",
+    "revision": "arXiv 1810.04650v2",
+    "checked_on": "2026-11-22",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
+  },
+  {
+    "source_id": "SRC-TWIN",
+    "title": "TWIN: TWo-stage Interest Network for Lifelong User Behavior Modeling in CTR Prediction at Kuaishou",
+    "original_url": "https://arxiv.org/abs/2302.02352v2",
+    "revision": "arXiv 2302.02352v2",
+    "checked_on": "2026-11-22",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
   }
 ]

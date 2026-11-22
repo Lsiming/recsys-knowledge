@@ -27,11 +27,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "5ffa3f361eeb314d7c32ef3a512524ecd4644b93ae8ee7268da35d27b63c18a4",
         "pages": [
+          "cold-item-initialization-adaptation",
           "item-neighborhood-from-interactions"
         ],
-        "reviewed_on": "2026-11-21",
+        "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
-        "review_note": "核对出边归一化、带权聚合梯度、冷启动等权平均、离线与线上证据范围，以及BGE印刷式方向。 已复核图注与读者路径，未运行模型。"
+        "review_note": "本轮知识正文与读者路径自查。复核原文冷物品等权属性初始化与图表征检索，在新品问题补入零历史基线。"
       }
     }
   ]

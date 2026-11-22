@@ -1,0 +1,38 @@
+{
+  "id": "SRC-DCN",
+  "title": "Deep & Cross Network for Ad Click Predictions",
+  "kind": "paper",
+  "state": "active",
+  "current": "9900fabe3c4fb8741109d3f4287cecce23064b420a4c462fa96f27558a2e79f1",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1708.05123v1",
+      "revision": "arXiv 1708.05123v1",
+      "read_scope": "固定版本 7 页。技术核对范围为正文 §1–5、附录 A、图 1–3、表 1–4；参考文献用于定位。未运行模型。",
+      "artifacts": [
+        {
+          "name": "1708.05123v1.pdf",
+          "sha256": "371f960b98fe7efe66615bf1f1570bf71b7d8e1a468a78863420b1791a846105",
+          "snapshot": ".local/sources/SRC-DCN/371f960b98fe7efe66615bf1f1570bf71b7d8e1a468a78863420b1791a846105/1708.05123v1.pdf"
+        },
+        {
+          "name": "1708.05123v1.source.tar.gz",
+          "sha256": "23aef393213e8a52971c57bebcbff5e2fb9711acc18496a097f9446d081bfdc1",
+          "snapshot": ".local/sources/SRC-DCN/23aef393213e8a52971c57bebcbff5e2fb9711acc18496a097f9446d081bfdc1/1708.05123v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "9900fabe3c4fb8741109d3f4287cecce23064b420a4c462fa96f27558a2e79f1",
+      "retrieved_on": "2026-11-22",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a31811706e8758491c32b74cda73d03e589a28c28d86bcf7c3de90ab270d53a2",
+        "pages": [
+          "sparse-feature-interactions"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "本轮知识正文与读者路径自查。复核向量交叉阶数、参数效率及与 DCNv2 的参数约束差别。中文 PDF 和私有附件另有待办。"
+      }
+    }
+  ]
+}

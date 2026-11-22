@@ -1,0 +1,38 @@
+{
+  "id": "SRC-AUTOINT",
+  "title": "AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks",
+  "kind": "paper",
+  "state": "active",
+  "current": "680aa0ddbfdeb5038b2d58bc6a81e1a2055ecd4c4ab469eeefd29c863dfbaab1",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1810.11921v2",
+      "revision": "arXiv 1810.11921v2",
+      "read_scope": "固定版本 10 页。技术核对范围为正文 §1–6、附录 A、式 1–10、图 1–8、表 1–5；参考文献用于定位。未运行模型。",
+      "artifacts": [
+        {
+          "name": "1810.11921v2.pdf",
+          "sha256": "46e7992b8cbbc598dad791b1d8ffeb9aea2a3331375a26002158521172652685",
+          "snapshot": ".local/sources/SRC-AUTOINT/46e7992b8cbbc598dad791b1d8ffeb9aea2a3331375a26002158521172652685/1810.11921v2.pdf"
+        },
+        {
+          "name": "1810.11921v2.source.tar.gz",
+          "sha256": "01897b476cfd1a33be61367841792208b2a14de37315f8d1e1d3b08c3799c8dd",
+          "snapshot": ".local/sources/SRC-AUTOINT/01897b476cfd1a33be61367841792208b2a14de37315f8d1e1d3b08c3799c8dd/1810.11921v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "680aa0ddbfdeb5038b2d58bc6a81e1a2055ecd4c4ab469eeefd29c863dfbaab1",
+      "retrieved_on": "2026-11-22",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "38684f3669f854d145a1a95348e77d58540637d6d4b648036b47774a57d088a9",
+        "pages": [
+          "sparse-feature-interactions"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "本轮知识正文与读者路径自查。核对字段注意力、残差与点击监督及其与矩阵交叉的对比。中文 PDF 和私有附件另有待办。"
+      }
+    }
+  ]
+}

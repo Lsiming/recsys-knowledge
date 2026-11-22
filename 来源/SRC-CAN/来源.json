@@ -1,0 +1,38 @@
+{
+  "id": "SRC-CAN",
+  "title": "CAN: Feature Co-Action for Click-Through Rate Prediction",
+  "kind": "paper",
+  "state": "active",
+  "current": "445239b8d06589b8806018dee95d3efc0a2d3d73258699fa2175e4079069c998",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2011.05625v3",
+      "revision": "arXiv 2011.05625v3",
+      "read_scope": "固定版本 9 页。技术核对范围为正文 §1–7、图 1–5、表 1–6；参考文献用于定位。未运行模型。",
+      "artifacts": [
+        {
+          "name": "2011.05625v3.pdf",
+          "sha256": "f623c7a2a953f4f703e33edaa88056876e353fe83663e4b358f39a325eacfd1d",
+          "snapshot": ".local/sources/SRC-CAN/f623c7a2a953f4f703e33edaa88056876e353fe83663e4b358f39a325eacfd1d/2011.05625v3.pdf"
+        },
+        {
+          "name": "2011.05625v3.source.tar.gz",
+          "sha256": "b5d0b13a7ad31c38c962309310f48e0a46bc6ca77eba5db63f47cc9f973b7f1e",
+          "snapshot": ".local/sources/SRC-CAN/b5d0b13a7ad31c38c962309310f48e0a46bc6ca77eba5db63f47cc9f973b7f1e/2011.05625v3.source.tar.gz"
+        }
+      ],
+      "fingerprint": "445239b8d06589b8806018dee95d3efc0a2d3d73258699fa2175e4079069c998",
+      "retrieved_on": "2026-11-22",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "f00838c5bfc923c2407c04e293505698b457bd7de1047ecb83a45a1d4a6799c2",
+        "pages": [
+          "sparse-feature-interactions"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "本轮知识正文与读者路径自查。核对微网络参数及输入两侧的构造，保留图 3 与 §4.2 的指派冲突。中文 PDF 和私有附件另有待办。"
+      }
+    }
+  ]
+}

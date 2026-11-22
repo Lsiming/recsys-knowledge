@@ -1,0 +1,38 @@
+{
+  "id": "SRC-ESCM2",
+  "title": "ESCM²: Entire Space Counterfactual Multi-Task Model for Post-Click Conversion Rate Estimation",
+  "kind": "paper",
+  "state": "active",
+  "current": "01fc5e552a9d8dd289af0c84a525e11d7d91869954c86e952d28c25b16a34b54",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2204.05125v2",
+      "revision": "arXiv 2204.05125v2",
+      "read_scope": "固定版本 10 页。技术核对范围为正文 §1–7，重点 §2–5、定理 1–3 和图 3–4；参考文献用于定位。未运行模型。",
+      "artifacts": [
+        {
+          "name": "2204.05125v2.pdf",
+          "sha256": "f280142ae6628c89b0226e090089eee0afcd7159d6b604ee31efa846f44260f1",
+          "snapshot": ".local/sources/SRC-ESCM2/f280142ae6628c89b0226e090089eee0afcd7159d6b604ee31efa846f44260f1/2204.05125v2.pdf"
+        },
+        {
+          "name": "2204.05125v2.source.tar.gz",
+          "sha256": "728eef72d92aed5b96075d7695124a3e9b1dd97da4d5b81914302e461409ba22",
+          "snapshot": ".local/sources/SRC-ESCM2/728eef72d92aed5b96075d7695124a3e9b1dd97da4d5b81914302e461409ba22/2204.05125v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "01fc5e552a9d8dd289af0c84a525e11d7d91869954c86e952d28c25b16a34b54",
+      "retrieved_on": "2026-11-22",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "9084b27e275e1f4bc5aecbf7fff540419c6aefc6a49cf8acdb03b77925659b4d",
+        "pages": [
+          "post-click-cvr-estimation"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "本轮知识正文与读者路径自查。复核 IPS/DR、倾向分母停梯度及定理 1 的预测独立假设，保留反例。中文 PDF 和私有附件另有待办。"
+      }
+    }
+  ]
+}

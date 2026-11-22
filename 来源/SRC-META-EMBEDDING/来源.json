@@ -1,0 +1,38 @@
+{
+  "id": "SRC-META-EMBEDDING",
+  "title": "Warm Up Cold-start Advertisements: Improving CTR Predictions via Learning to Learn ID Embeddings",
+  "kind": "paper",
+  "state": "active",
+  "current": "b3de15c9002a13a938b583a2ef02cf6c0652185a00fb914bc69149814f236ae5",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1904.11547v1",
+      "revision": "arXiv 1904.11547v1",
+      "read_scope": "固定版本 10 页。技术核对范围为正文 §1–6、图 1–8、表 1–2 与算法 1；参考文献用于定位。未运行模型。",
+      "artifacts": [
+        {
+          "name": "1904.11547v1.pdf",
+          "sha256": "0491344d301f48558243201b73d2c2252d610b3e0325e471d96c07dc8d1c0039",
+          "snapshot": ".local/sources/SRC-META-EMBEDDING/0491344d301f48558243201b73d2c2252d610b3e0325e471d96c07dc8d1c0039/1904.11547v1.pdf"
+        },
+        {
+          "name": "1904.11547v1.source.tar.gz",
+          "sha256": "c91c48d11a6016f877574627b939dd426632e8de800d3f3633cc035982557e84",
+          "snapshot": ".local/sources/SRC-META-EMBEDDING/c91c48d11a6016f877574627b939dd426632e8de800d3f3633cc035982557e84/1904.11547v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "b3de15c9002a13a938b583a2ef02cf6c0652185a00fb914bc69149814f236ae5",
+      "retrieved_on": "2026-11-22",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "7acb179b9a1adf28dad77fbdeb226c9718af4e8a86eecf961de61445f1431cad",
+        "pages": [
+          "cold-item-initialization-adaptation"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "本轮知识正文与读者路径自查。复核属性生成、两阶段损失、冻结基座和向量更新范围。中文 PDF 和私有附件另有待办。"
+      }
+    }
+  ]
+}

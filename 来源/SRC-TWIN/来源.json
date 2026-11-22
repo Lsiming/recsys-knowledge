@@ -1,0 +1,38 @@
+{
+  "id": "SRC-TWIN",
+  "title": "TWIN: TWo-stage Interest Network for Lifelong User Behavior Modeling in CTR Prediction at Kuaishou",
+  "kind": "paper",
+  "state": "active",
+  "current": "301b917e28ab195c4a0598f32692555dcb53aae7575ebdcdbecec4fb1a33c7a9",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2302.02352v2",
+      "revision": "arXiv 2302.02352v2",
+      "read_scope": "固定版本 10 页。技术核对范围为正文 §1–5、式 1–8、图 1–6、表 1–5；参考文献用于定位。未运行模型。",
+      "artifacts": [
+        {
+          "name": "2302.02352v2.pdf",
+          "sha256": "b5bacdff8ba45246eb11be8b745ea75dc297d42633355b6d5cb7b3e3bfcbe1e7",
+          "snapshot": ".local/sources/SRC-TWIN/b5bacdff8ba45246eb11be8b745ea75dc297d42633355b6d5cb7b3e3bfcbe1e7/2302.02352v2.pdf"
+        },
+        {
+          "name": "2302.02352v2.source.tar.gz",
+          "sha256": "428b05d653a76e2158d49c79d48cfe2851c9cd538a186d951fc4da41a9c6cfce",
+          "snapshot": ".local/sources/SRC-TWIN/428b05d653a76e2158d49c79d48cfe2851c9cd538a186d951fc4da41a9c6cfce/2302.02352v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "301b917e28ab195c4a0598f32692555dcb53aae7575ebdcdbecec4fb1a33c7a9",
+      "retrieved_on": "2026-11-22",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e7b354de1338c6af89b11f044b8dbbfff1b4991133dc0dede79a6d5854eeeed2",
+        "pages": [
+          "candidate-conditioned-history-search"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "本轮知识正文与读者路径自查。复核键预计算、候选交叉偏置和前 100 命中口径，保留原文日志数量分歧。中文 PDF 和私有附件另有待办。"
+      }
+    }
+  ]
+}
