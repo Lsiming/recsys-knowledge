@@ -1703,8 +1703,23 @@
     "original_url": "https://arxiv.org/abs/2302.02352v2",
     "revision": "arXiv 2302.02352v2",
     "checked_on": "2026-11-22",
-    "license_url": null,
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "status": "local-only",
-    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
+    "reason": "8 页中文正文 PDF 已逐页验收、私有备份并认证下载。固定 arXiv 版本列非独占分发许可，未授予公众全文译文分发权。",
+    "evidence_url": "https://arxiv.org/abs/2302.02352v2",
+    "evidence_sha256": "1895bfa2f173a943e58bd371b4b2bde55483f968a230fd8053c5985797f69b04",
+    "authors": [
+      "Jianxin Chang",
+      "Chenbin Zhang",
+      "Zhiyi Fu",
+      "Xiaoxue Zang",
+      "Lin Guan",
+      "Jing Lu",
+      "Yiqun Hui",
+      "Dewei Leng",
+      "Yanan Niu",
+      "Yang Song",
+      "Kun Gai"
+    ]
   }
 ]

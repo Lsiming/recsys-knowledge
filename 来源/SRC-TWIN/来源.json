@@ -25,13 +25,13 @@
       "retrieved_on": "2026-11-22",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "e7b354de1338c6af89b11f044b8dbbfff1b4991133dc0dede79a6d5854eeeed2",
+        "notes_sha256": "0800bfe05e2ba585caa2f41d151b267502b766d80f38134effc9085bfab1681e",
         "pages": [
           "candidate-conditioned-history-search"
         ],
         "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
-        "review_note": "本轮知识正文与读者路径自查。复核键预计算、候选交叉偏置和前 100 命中口径，保留原文日志数量分歧。中文 PDF 和私有附件另有待办。"
+        "review_note": "依固定 v2 原文 §4.5 和图 4 纠正 SIM Hard 与 TWIN 使用各自 ESU Oracle 的分母。核对 §3.3–3.4、§4.7、式 (2) 和图 3/6，将原式与图文分歧记入审核台。复核候选、路线、用户序列与在线服务入口，已验收中文正文与原译附件；未运行模型。"
       }
     }
   ]

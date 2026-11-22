@@ -697,3 +697,5 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 - 2026-11-22 · [AutoInt v2](来源/SRC-AUTOINT/阅读笔记.md)完成正文中文 PDF 与逐页验收，采用原文及译文均私有备份并认证下载核对 SHA-256。
 
 - 2026-11-22 · [CAN v3](来源/SRC-CAN/阅读笔记.md)完成正文中文 PDF 与逐页验收，采用原文及译文均私有备份并认证下载核对 SHA-256。
+
+- 2026-11-22 · [TWIN v2](来源/SRC-TWIN/阅读笔记.md)完成正文中文 PDF 与逐页验收，采用原文及译文均私有备份并认证下载核对 SHA-256。
