@@ -25,13 +25,13 @@
       "retrieved_on": "2026-11-22",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "ebf54a6d1bce984cd42054952de4d55ddb2ac5de49a5ddd56bb7891a1c362806",
+        "notes_sha256": "5ba7f700d1e1c4cbbde72a768f885cf5ac55f1163252f681a398afd7bb480233",
         "pages": [
           "cold-item-initialization-adaptation"
         ],
         "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
-        "review_note": "本轮知识正文与读者路径自查。复核支持/查询切分、双层目标与元梯度，限定为新品少样本的机制类比。中文 PDF 和私有附件另有待办。"
+        "review_note": "源 v3 公式、任务内外更新及分类代码自查。共享元初值和 Meta-Embedding 的仅 ID 适配已对齐，式 (3) 印刷符号在笔记、译注和审核台登记。中文 PDF 与附件通过验收。"
       }
     }
   ]

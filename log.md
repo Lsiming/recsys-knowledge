@@ -703,3 +703,5 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 - 2026-11-22 · [Meta-Embedding v1](来源/SRC-META-EMBEDDING/阅读笔记.md)完成正文中文 PDF 与逐页验收，采用原文及译文均私有备份并认证下载核对 SHA-256。
 
 - 2026-11-22 · [ESCM² v2](来源/SRC-ESCM2/阅读笔记.md)完成正文中文 PDF 与逐页验收，采用原文及译文均私有备份并认证下载核对 SHA-256。
+
+- 2026-11-22 · [MAML v3](来源/SRC-MAML/阅读笔记.md)完成中文 PDF、逐页验收与原译件私有备份及认证下载，核对分类交叉熵方向。

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-11-22",
-  "inventory_note": "99篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "100篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -3619,6 +3619,43 @@
         "size_bytes": 3696928,
         "pages": 9,
         "verified_download_sha256": "1860322e91ccbbaf77486fdd77da1753a1c781ba91b05b69668fe6311ed20793"
+      }
+    },
+    {
+      "source_id": "SRC-MAML",
+      "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+      "original_url": "https://arxiv.org/abs/1703.03400v3",
+      "revision": "arXiv 1703.03400v3",
+      "input_sha256": "2be14525da2441cd5a2b49462de64e5b7cb74a5dcbf3747dc51e570290e45df9",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、致谢、附录 A–C、算法注释、图表说明及描述性脚注。参考文献、图内文字与作者权利声明保留。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-22",
+        "authors": [
+          "Chelsea Finn",
+          "Pieter Abbeel",
+          "Sergey Levine"
+        ],
+        "original_pdf_sha256": "36e2130943089066456dc94b4af177f224a64506710a11dd35dd68b47a3acf5a",
+        "evidence_url": "https://arxiv.org/abs/1703.03400v3",
+        "evidence_sha256": "4791dcc34ec5fc46746bbc96e4e489f54de6d58b0daaac89aadb96aa2d0a0530",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 v3 显示 arXiv 非独占分发许可；PDF 保留作者权利声明。会议身份经 ICML 2017 PMLR 70:1126–1135 核对，公开完整译文许可未确认。"
+      },
+      "reason": "11 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261122-batch-07-10",
+        "translation_version": "20261122.1",
+        "asset_name": "SRC-MAML.zh-CN.private.20261122.1.pdf",
+        "sha256": "2be14525da2441cd5a2b49462de64e5b7cb74a5dcbf3747dc51e570290e45df9",
+        "size_bytes": 3790944,
+        "pages": 11,
+        "verified_download_sha256": "2be14525da2441cd5a2b49462de64e5b7cb74a5dcbf3747dc51e570290e45df9"
       }
     }
   ],
