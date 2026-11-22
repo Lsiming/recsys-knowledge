@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-11-22",
-  "inventory_note": "98篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "99篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -3577,6 +3577,48 @@
         "size_bytes": 758788,
         "pages": 9,
         "verified_download_sha256": "2c36f360a9b25433c7c7c082dedd3ce9e3c05a077773d6fa48a6f2d7b6289cc1"
+      }
+    },
+    {
+      "source_id": "SRC-ESCM2",
+      "title": "ESCM²: Entire Space Counterfactual Multi-Task Model for Post-Click Conversion Rate Estimation",
+      "original_url": "https://arxiv.org/abs/2204.05125v2",
+      "revision": "arXiv 2204.05125v2",
+      "input_sha256": "1860322e91ccbbaf77486fdd77da1753a1c781ba91b05b69668fe6311ed20793",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、致谢与实现附录、公式、图表说明和描述性脚注。参考文献、图内文字及 SIGIR 权利声明保留。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-22",
+        "authors": [
+          "Hao Wang",
+          "Tai-Wei Chang",
+          "Tianqiao Liu",
+          "Jianmin Huang",
+          "Zhichao Chen",
+          "Chao Yu",
+          "Ruopeng Li",
+          "Wei Chu"
+        ],
+        "original_pdf_sha256": "f280142ae6628c89b0226e090089eee0afcd7159d6b604ee31efa846f44260f1",
+        "evidence_url": "https://arxiv.org/abs/2204.05125v2",
+        "evidence_sha256": "7d13bee3e34db9a6fd173572dce23cf4dde9ff5ae05b624b631e67cff62975c2",
+        "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "notes": "固定 v2 页面显示 CC BY-NC-SA 4.0，采用版 PDF 首页同时载有 ACM 授权出版与转发限制。两项声明均登记，公开完整译文的适用范围待核。"
+      },
+      "reason": "9 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261122-batch-07-10",
+        "translation_version": "20261122.1",
+        "asset_name": "SRC-ESCM2.zh-CN.private.20261122.1.pdf",
+        "sha256": "1860322e91ccbbaf77486fdd77da1753a1c781ba91b05b69668fe6311ed20793",
+        "size_bytes": 3696928,
+        "pages": 9,
+        "verified_download_sha256": "1860322e91ccbbaf77486fdd77da1753a1c781ba91b05b69668fe6311ed20793"
       }
     }
   ],

@@ -1663,9 +1663,21 @@
     "original_url": "https://arxiv.org/abs/2204.05125v2",
     "revision": "arXiv 2204.05125v2",
     "checked_on": "2026-11-22",
-    "license_url": null,
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "status": "local-only",
-    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
+    "reason": "9 页中文正文 PDF 已逐页验收、私有备份并认证下载。固定 v2 的 arXiv 页面显示 CC BY-NC-SA 4.0，与原 PDF 的 ACM 权利声明并列保存。公开完整译文的适用范围待核。",
+    "evidence_url": "https://arxiv.org/abs/2204.05125v2",
+    "evidence_sha256": "7d13bee3e34db9a6fd173572dce23cf4dde9ff5ae05b624b631e67cff62975c2",
+    "authors": [
+      "Hao Wang",
+      "Tai-Wei Chang",
+      "Tianqiao Liu",
+      "Jianmin Huang",
+      "Zhichao Chen",
+      "Chao Yu",
+      "Ruopeng Li",
+      "Wei Chu"
+    ]
   },
   {
     "source_id": "SRC-MAML",
