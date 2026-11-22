@@ -25,13 +25,13 @@
       "retrieved_on": "2026-11-21",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "1adc10bd2397ac487322921513fe0414f14c226959365a13566c634f4e8eccc9",
+        "notes_sha256": "7749035199da34d50a576f38bc1bbcacceeb767059a7ee093d0526d12c83be7d",
         "pages": [
           "contrastive-views-for-recommendation"
         ],
         "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
-        "review_note": "核对 v1 相关性、插替与换相算法、表 2–4，保留已登记口径冲突。核对直接引用与关联候选，完成技术证据和读者路径自查。"
+        "review_note": "第 05–06 批全库反查后，对照 v1 式 (3)、式 (14)、§5.1.2 与表 2–4，核正逐项 sigmoid、全物品评估与同文重跑基线的口径。原文内部表 3–4 疑点仍留审核台。"
       }
     }
   ]

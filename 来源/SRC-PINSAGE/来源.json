@@ -25,13 +25,14 @@
       "retrieved_on": "2026-11-21",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "ba54356939330b045a47f2454e23f22a4978a9379720af0fe35c99544b97270d",
+        "notes_sha256": "80df31b30a0d39ae09fd35f6a833957067de8c020dea26cfa36c104a8db6f725",
         "pages": [
-          "collaborative-graph-representation"
+          "collaborative-graph-representation",
+          "sampled-two-tower-training"
         ],
         "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
-        "review_note": "核对 v1 采样归一化、难负例、CPU/GPU 子图和离线逐层推理。核对直接引用与关联候选，完成技术证据和读者路径自查。"
+        "review_note": "第 05–06 批全库反查后，对照 v1 §3.3 式 (1)、批共享 500 随机项及每轮困难例，补齐图传播和召回负采样两条路径，区分排序分差与频率校正。"
       }
     }
   ]

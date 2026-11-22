@@ -25,13 +25,13 @@
       "retrieved_on": "2026-11-21",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "0983be54047aea648292f9b52ff8a098354b6dcf7e38e91af13977e958d2616b",
+        "notes_sha256": "81c103b00158caf41ffa3e0554c22e6f66f3733f2cc67e2f76df661d82d65b29",
         "pages": [
           "contrastive-views-for-recommendation"
         ],
         "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
-        "review_note": "核对固定 v2 的增强定义、因果编码、联合目标、表 2–3 与图 4。核对直接引用与关联候选，完成技术证据和读者路径自查。"
+        "review_note": "第 05–06 批全库反查后，对照 v2 式 (15)、§4.1.2 与表 2，区分训练的一正一负 softmax 与未交互项全库评估。回填序列模块入口与问题比较。"
       }
     }
   ]

@@ -54,6 +54,31 @@ class EvidenceLifecycle(unittest.TestCase):
                      "--review-note", "Checked original evidence, scope and citation")
         self.run_cli("index")
 
+    def test_review_scope_traverses_mentions_notes_and_both_directions(self):
+        def page(pid, body, related=()):
+            meta = dict(id=pid, title=pid, type="map", status="reviewed", updated="2026-11-22",
+                        summary="guide", aliases=[], sources={}, related=related)
+            path = self.root / "知识库" / f"{pid}.md"
+            path.write_text("---\n" + "\n".join(k + ": " + json.dumps(v) for k, v in meta.items())
+                            + "\n---\n" + body, encoding="utf-8")
+
+        page("mention", "同一机制名为 SampleFM。", ["outgoing"])
+        page("outgoing", "Outgoing")
+        page("incoming", "Incoming", ["evidence"])
+        page("linked", "No name or method present")
+        page("false-match", "SampleFMv2 is a separate method name")
+        self.note.write_text("[回查](../../知识库/linked.md)", encoding="utf-8")
+        self.run_cli("register", "--id", "SRC-OTHER", "--title", "Other source", "--kind", "reference",
+                     "--locator", "https://example.org/other", "--revision", "v1",
+                     "--read-scope", "full text", "--file", str(self.source))
+        other = self.root / "来源/SRC-OTHER/阅读笔记.md"
+        other.write_text("与 SRC-TEST 对照。", encoding="utf-8")
+        result = wiki.review_scope(self.root, ["SRC-TEST"], ["SampleFM"])
+        self.assertEqual(result["direct"], ["知识库/概念/证据测试.md"])
+        self.assertEqual(result["mentions"], ["知识库/linked.md", "知识库/mention.md"])
+        self.assertEqual(result["related"], ["知识库/incoming.md", "知识库/outgoing.md"])
+        self.assertEqual(result["other_notes"], ["来源/SRC-OTHER/阅读笔记.md"])
+
     def test_full_cycle_skip_unchanged_source_and_retrieve_alias(self):
         self.assertTrue(wiki.pending(self.root))
         self.integrate()

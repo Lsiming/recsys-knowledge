@@ -406,6 +406,61 @@ def search(root, query, limit):
     return [hit for _, hit in matches[:limit]]
 
 
+def review_scope(root, source_ids, terms):
+    registry = records(root)
+    all_pages = pages(root)
+    selected = set(source_ids)
+    missing = selected - registry.keys()
+    if missing:
+        raise ValueError("未知来源：" + "、".join(sorted(missing)))
+
+    def note(sid):
+        return root / "来源" / sid / "阅读笔记.md"
+
+    terms = {term.strip() for term in terms if term.strip()} | selected
+    arxiv_ids = set()
+    for sid in selected:
+        terms.add(registry[sid]["title"])
+        for version in registry[sid]["versions"]:
+            locator = version["locator"]
+            terms.add(locator)
+            arxiv = re.search(r"arxiv\.org/(?:abs|pdf)/([^?#]+)", locator)
+            doi = re.search(r"doi\.org/([^?#]+)", locator)
+            if arxiv:
+                arxiv_ids.add(re.sub(r"v\d+$", "", arxiv[1].removesuffix(".pdf")))
+            if doi:
+                terms.add(doi[1])
+    alternatives = [re.escape(term) for term in sorted(terms)]
+    alternatives += [re.escape(identifier) + r"(?:v\d+)?" for identifier in sorted(arxiv_ids)]
+    pattern = re.compile(r"(?<![A-Za-z0-9])(?:" + "|".join(alternatives) + r")(?![A-Za-z0-9])", re.IGNORECASE)
+
+    note_text = "\n".join(note(sid).read_text(encoding="utf-8") for sid in sorted(selected))
+    direct = {pid for pid, (_, meta, _) in all_pages.items() if selected.intersection(meta["sources"])}
+    mentions = {pid for pid, (path, meta, body) in all_pages.items()
+                if pattern.search("\n".join([meta["title"], *meta["aliases"], meta["summary"], body,
+                                               *(s["name"] for s in meta.get("solutions", []))]))
+                or path.relative_to(root).as_posix() in note_text}
+    seeds = direct | mentions
+    modules = {all_pages[pid][1].get("module") for pid in seeds} - {None}
+    links = {pid: set(meta["related"]) | {s["method"] for s in meta.get("solutions", []) if s.get("method")}
+             for pid, (_, meta, _) in all_pages.items()}
+    neighbors = set().union(*(links[pid] for pid in seeds))
+    neighbors.update(pid for pid, targets in links.items() if targets & seeds)
+    neighbors.update(pid for pid, (_, meta, _) in all_pages.items()
+                     if meta["type"] == "map" and meta.get("module") in modules)
+
+    def paths(ids):
+        return sorted(all_pages[pid][0].relative_to(root).as_posix() for pid in ids if pid in all_pages)
+
+    other_notes = []
+    for sid in sorted(registry.keys() - selected):
+        path = note(sid)
+        if path.is_file() and pattern.search(path.read_text(encoding="utf-8")):
+            other_notes.append(path.relative_to(root).as_posix())
+    return {"sources": sorted(selected), "direct": paths(direct), "mentions": paths(mentions - direct),
+            "related": paths(neighbors - seeds), "other_notes": other_notes}
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT, help="验收或迁移时指定独立仓库根")
@@ -416,6 +471,9 @@ def main(argv=None):
     reg.add_argument("--file", action="append", required=True)
     reg.add_argument("--date")
     subs.add_parser("plan", help="列出增量摄入及受影响页面候选")
+    review = subs.add_parser("review-scope", help="从来源反查全库的正文提及、关联及其他笔记")
+    review.add_argument("sources", nargs="+")
+    review.add_argument("--term", action="append", default=[], help="补充模型别名或关键术语，可重复")
     complete = subs.add_parser("integrate", help="记录当前 Agent 已完成的阅读/整合自查")
     complete.add_argument("id")
     complete.add_argument("--pages", nargs="+", required=True)
@@ -436,6 +494,8 @@ def main(argv=None):
             integrate(root, args)
         elif args.command == "plan":
             print(json.dumps(pending(root), ensure_ascii=False, indent=2))
+        elif args.command == "review-scope":
+            print(json.dumps(review_scope(root, args.sources, args.term), ensure_ascii=False, indent=2))
         elif args.command == "search":
             print(json.dumps(search(root, args.query, args.limit), ensure_ascii=False, indent=2))
         elif args.command == "index":

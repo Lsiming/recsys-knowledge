@@ -41,7 +41,7 @@ python3 scripts/wiki.py register --id SRC-DEMO --title "资料题目" --kind pap
 
 `--file` 可多次提供；快照按哈希写入 `.local/sources/`，JSON 版本追加进 `来源/<ID>/来源.json`。重复登记相同身份/字节/阅读范围不增加版本；更新原件用相同 ID 和新 revision。read_scope 应在真实阅读后登记或以新阅读范围重新登记，不因下载成功写“全文已读”。CLI 不联网、不提取 PDF，不自动生成笔记。
 
-写好 阅读笔记.md、合并所有直接引用页、核对证据后，用页面路径记录自查；参数随实际来源和页面替换：
+写好阅读笔记和相关问题页后，运行 `python3 scripts/wiki.py review-scope SRC-... --term 方法别名`。可以输入多个来源 ID，重复 `--term` 补版本别称、机制或问题关键词。输出包含直接来源绑定、全库正文与别名提及、笔记回链、双向关联邻页、对应模块导读和其他论文笔记。按[全库反查流程](../维护/工作流.md#6-全库反查检索验证与交付)查证覆盖和冲突，检索结果仅用于定位。完成语义自查后，按实际来源和页面记录收据：
 
 ```bash
 python3 scripts/wiki.py integrate SRC-DEMO --pages 知识库/概念/示例.md \
@@ -71,4 +71,4 @@ Git 中仅有来源账本/笔记和知识，不含 `.local/sources/`。本机已
 
 ## 中文 PDF 分发
 
-[PDF目录](../译文/PDF目录.md)由 `python3 scripts/pdf_releases.py index` 生成，`check` 离线检查统一私有策略、许可声明、当前来源版本、私有备份摘要与登录下载哈希；拒绝旧公开资产状态。原文/中文PDF完整目录和下载工具位于独立私有附件库，有权账号在其克隆运行 `python3 download.py`，可用 `--kind original` / `--kind translation` 筛选。公开旧入口 `download_translations.py --list` 只列盘点；实际下载须先克隆私有库，再传 `--attachments-root <私有克隆>` 交给私有下载器，不从公开Releases取PDF。旧准备入口只说明迁移位置，不再生成公开发布副本。CI无须gh、原件或私有凭证；具体见[PDF私有维护](../文档/工具/中文PDF发布.md)。
+[PDF目录](../译文/PDF目录.md)由 `python3 scripts/pdf_releases.py index` 生成，`check` 离线检查统一私有策略、许可声明、当前来源版本、私有备份摘要与登录下载哈希；拒绝旧公开资产状态。原文/中文PDF完整目录和下载工具位于独立私有附件库，有权账号在其克隆运行 `python3 download.py`，可用 `--kind original` 或 `--kind translation` 筛选。私有下载器用稳定文件名保留一份本地正式件，`--verify-remote` 和 `--verify-candidate` 只下载到自动清理的临时目录。`--check-releases` 对照实际远端资产与单正式版账本。公开旧入口 `download_translations.py --list` 只列盘点；实际下载须先克隆私有库，再传 `--attachments-root <私有克隆>` 交给私有下载器，不从公开Releases取PDF。旧准备入口只说明迁移位置，不再生成公开发布副本。CI无须gh、原件或私有凭证；具体见[PDF私有维护](../文档/工具/中文PDF发布.md)。
