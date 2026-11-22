@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-11-22",
-  "inventory_note": "100篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "updated": "2026-11-23",
+  "inventory_note": "101篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -3656,6 +3656,42 @@
         "size_bytes": 3790944,
         "pages": 11,
         "verified_download_sha256": "2be14525da2441cd5a2b49462de64e5b7cb74a5dcbf3747dc51e570290e45df9"
+      }
+    },
+    {
+      "source_id": "SRC-MGDA",
+      "title": "Multi-Task Learning as Multi-Objective Optimization",
+      "original_url": "https://arxiv.org/abs/1810.04650v2",
+      "revision": "arXiv 1810.04650v2",
+      "input_sha256": "71c910bfe05d6f2cff185705bdca18ceb96f9c5e2fdeeba39ce0eeaa0ce2b935",
+      "input_pages": 14,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、算法注释、正文图表说明及描述性脚注。附录 A–C、参考文献、图内文字、作者署名和 NeurIPS 出版信息保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-23",
+        "authors": [
+          "Ozan Sener",
+          "Vladlen Koltun"
+        ],
+        "original_pdf_sha256": "f667a8e903dc07efeadfd0204051ffbeffc93aee10c78f1a7da410e43eb11e1d",
+        "evidence_url": "https://arxiv.org/abs/1810.04650v2",
+        "evidence_sha256": "9055f3fae976f042950df1bc94c4949be31ea6bad462b452c4609150bb00a242",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 v2 显示 arXiv 非独占分发许可，PDF 保留作者署名及 NeurIPS 2018 出版信息。公开完整译文许可未确认。"
+      },
+      "reason": "14 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261122-batch-07-10",
+        "translation_version": "20261122.1",
+        "asset_name": "SRC-MGDA.zh-CN.private.20261122.1.pdf",
+        "sha256": "71c910bfe05d6f2cff185705bdca18ceb96f9c5e2fdeeba39ce0eeaa0ce2b935",
+        "size_bytes": 1099573,
+        "pages": 14,
+        "verified_download_sha256": "71c910bfe05d6f2cff185705bdca18ceb96f9c5e2fdeeba39ce0eeaa0ce2b935"
       }
     }
   ],

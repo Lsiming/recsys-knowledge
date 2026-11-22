@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-22，盘点100篇中文PDF，100篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-23，盘点101篇中文PDF，101篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -112,3 +112,4 @@
 | [Warm Up Cold-start Advertisements: Improving CTR Predictions via Learning to Learn ID Embeddings](https://arxiv.org/abs/1904.11547v1) · `SRC-META-EMBEDDING` | 私有，需登录 · 20261122.1 · 9页 | [not-permitted](https://arxiv.org/abs/1904.11547v1) | 摘要、正文 §1–6 与致谢、公式、图表说明和描述性脚注。参考文献、图内文字及 SIGIR 权利声明保留。；9 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
 | [ESCM²: Entire Space Counterfactual Multi-Task Model for Post-Click Conversion Rate Estimation](https://arxiv.org/abs/2204.05125v2) · `SRC-ESCM2` | 私有，需登录 · 20261122.1 · 9页 | [unverified](https://arxiv.org/abs/2204.05125v2) | 摘要、正文 §1–7、致谢与实现附录、公式、图表说明和描述性脚注。参考文献、图内文字及 SIGIR 权利声明保留。；9 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
 | [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/abs/1703.03400v3) · `SRC-MAML` | 私有，需登录 · 20261122.1 · 11页 | [unverified](https://arxiv.org/abs/1703.03400v3) | 摘要、正文 §1–6、致谢、附录 A–C、算法注释、图表说明及描述性脚注。参考文献、图内文字与作者权利声明保留。；11 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
+| [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650v2) · `SRC-MGDA` | 私有，需登录 · 20261122.1 · 14页 | [unverified](https://arxiv.org/abs/1810.04650v2) | 摘要、正文 §1–5、算法注释、正文图表说明及描述性脚注。附录 A–C、参考文献、图内文字、作者署名和 NeurIPS 出版信息保留原文。；14 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |

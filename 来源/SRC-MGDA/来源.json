@@ -3,7 +3,7 @@
   "title": "Multi-Task Learning as Multi-Objective Optimization",
   "kind": "paper",
   "state": "active",
-  "current": "320355417c6ba10c46caf0254fbc3b06f25e41295aa6577bae85e38e038414be",
+  "current": "014ac44c5cec06004ddbd5192fb8cf37dc4a47dd57e170800a50f917ae14c834",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/1810.04650v2",
@@ -27,6 +27,35 @@
         "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
         "review_note": "本轮知识正文与读者路径自查。复核共享梯度凸组合、方向条件、驻点和上界雅可比假设。中文 PDF 和私有附件另有待办。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/abs/1810.04650v2",
+      "revision": "arXiv 1810.04650v2",
+      "read_scope": "固定版本 15 页。核对正文 §1–5、补充证明与实验实现说明，重点 §3、附录 A 和算法 1–2。按同版作者 LaTeX 工程确认图表与公式，未运行模型。",
+      "artifacts": [
+        {
+          "name": "1810.04650v2.pdf",
+          "sha256": "f667a8e903dc07efeadfd0204051ffbeffc93aee10c78f1a7da410e43eb11e1d",
+          "snapshot": ".local/sources/SRC-MGDA/f667a8e903dc07efeadfd0204051ffbeffc93aee10c78f1a7da410e43eb11e1d/1810.04650v2.pdf"
+        },
+        {
+          "name": "1810.04650v2.source.tar.gz",
+          "sha256": "f000f88e0565c87dcafca9379e08f415b0a64586111f85ccf6be1bd7f30d40f3",
+          "snapshot": ".local/sources/SRC-MGDA/f000f88e0565c87dcafca9379e08f415b0a64586111f85ccf6be1bd7f30d40f3/1810.04650v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "014ac44c5cec06004ddbd5192fb8cf37dc4a47dd57e170800a50f917ae14c834",
+      "retrieved_on": "2026-11-22",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "01ca8367e7778ad587a48631cc71d6834b90cc06ab2903fa0a8b05cba63714b3",
+        "pages": [
+          "multitask-negative-transfer"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "复核固定 v2 §3、附录 A 以及表 2、表 4，新增满秩度量反例并同步问题页。源码与 PDF 同版，译文与私有认证下载通过。"
       }
     }
   ]
