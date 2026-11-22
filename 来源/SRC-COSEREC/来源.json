@@ -1,0 +1,38 @@
+{
+  "id": "SRC-COSEREC",
+  "title": "Contrastive Self-supervised Sequential Recommendation with Robust Augmentation",
+  "kind": "paper",
+  "state": "active",
+  "current": "63ec5b72a5ce11ba71dc679471d94798501c2105eb9da393e69f60a62e5c8182",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2108.06479v1",
+      "revision": "arXiv 2108.06479v1",
+      "read_scope": "正文 §1–6、训练算法、主表、噪声与长度消融，核对作者 LaTeX。 作者源码下载解包后本地重打包。",
+      "artifacts": [
+        {
+          "name": "SRC-COSEREC.pdf",
+          "sha256": "8e05419e43e740ce5c33dae4347b30652ce912b71309d681b31e6ca99469b6fa",
+          "snapshot": ".local/sources/SRC-COSEREC/8e05419e43e740ce5c33dae4347b30652ce912b71309d681b31e6ca99469b6fa/SRC-COSEREC.pdf"
+        },
+        {
+          "name": "SRC-COSEREC.source.repacked.tar.gz",
+          "sha256": "0d561f3fe4e5fd84a798fc5f5377e0a785cccf8ab45fc51a988f293add32b434",
+          "snapshot": ".local/sources/SRC-COSEREC/0d561f3fe4e5fd84a798fc5f5377e0a785cccf8ab45fc51a988f293add32b434/SRC-COSEREC.source.repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "63ec5b72a5ce11ba71dc679471d94798501c2105eb9da393e69f60a62e5c8182",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "1adc10bd2397ac487322921513fe0414f14c226959365a13566c634f4e8eccc9",
+        "pages": [
+          "contrastive-views-for-recommendation"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v1 相关性、插替与换相算法、表 2–4，保留已登记口径冲突。核对直接引用与关联候选，完成技术证据和读者路径自查。"
+      }
+    }
+  ]
+}

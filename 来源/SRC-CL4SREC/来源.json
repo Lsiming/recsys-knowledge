@@ -1,0 +1,38 @@
+{
+  "id": "SRC-CL4SREC",
+  "title": "Contrastive Learning for Sequential Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "8e162fce2cf585b8dc4fd1668f7fe19ee9b65ed08c70d0746dca26c0c9339c5c",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2010.14395v2",
+      "revision": "arXiv 2010.14395v2",
+      "read_scope": "正文 §1–5、训练、增强消融与实验，核对作者 LaTeX。 作者源码下载解包后本地重打包。",
+      "artifacts": [
+        {
+          "name": "SRC-CL4SREC.pdf",
+          "sha256": "fe967a47f47cf6f1d45e7a6388cee9424f45c91b17317244cd5474b055778264",
+          "snapshot": ".local/sources/SRC-CL4SREC/fe967a47f47cf6f1d45e7a6388cee9424f45c91b17317244cd5474b055778264/SRC-CL4SREC.pdf"
+        },
+        {
+          "name": "SRC-CL4SREC.source.repacked.tar.gz",
+          "sha256": "a78192cfaf9c500cfa625cccd180561eff4a5ccef44c88c53275c60262339dc8",
+          "snapshot": ".local/sources/SRC-CL4SREC/a78192cfaf9c500cfa625cccd180561eff4a5ccef44c88c53275c60262339dc8/SRC-CL4SREC.source.repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "8e162fce2cf585b8dc4fd1668f7fe19ee9b65ed08c70d0746dca26c0c9339c5c",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "0983be54047aea648292f9b52ff8a098354b6dcf7e38e91af13977e958d2616b",
+        "pages": [
+          "contrastive-views-for-recommendation"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定 v2 的增强定义、因果编码、联合目标、表 2–3 与图 4。核对直接引用与关联候选，完成技术证据和读者路径自查。"
+      }
+    }
+  ]
+}

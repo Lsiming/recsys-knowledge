@@ -1,0 +1,38 @@
+{
+  "id": "SRC-ITEM-SSL",
+  "title": "Self-supervised Learning for Large-scale Item Recommendations",
+  "kind": "paper",
+  "state": "active",
+  "current": "e5926697b652003debf3afa86f617c0b2f3e19d5a68f7448838b1b0236472e44",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2007.12865v3",
+      "revision": "arXiv 2007.12865v3",
+      "read_scope": "正文 §1–6、图表及长尾切片，核对作者 LaTeX。 作者源码下载解包后本地重打包。",
+      "artifacts": [
+        {
+          "name": "SRC-ITEM-SSL.pdf",
+          "sha256": "20d7fe4df303b5a7b2950b680385ed98c22e3b7620660f812ce15735dd1664cd",
+          "snapshot": ".local/sources/SRC-ITEM-SSL/20d7fe4df303b5a7b2950b680385ed98c22e3b7620660f812ce15735dd1664cd/SRC-ITEM-SSL.pdf"
+        },
+        {
+          "name": "SRC-ITEM-SSL.source.repacked.tar.gz",
+          "sha256": "4b8df2fb37659d7671489454353bfe16ab093e6508fca1b19cbb195ecb286997",
+          "snapshot": ".local/sources/SRC-ITEM-SSL/4b8df2fb37659d7671489454353bfe16ab093e6508fca1b19cbb195ecb286997/SRC-ITEM-SSL.source.repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "e5926697b652003debf3afa86f617c0b2f3e19d5a68f7448838b1b0236472e44",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a72119b0b718cacdccf6545a2db7dd2a78adf57c051f1f1063aab31faf1f4c31",
+        "pages": [
+          "contrastive-views-for-recommendation"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v3 属性遮蔽、跨样本视图训练与服务入口，保留表 7 口径疑点。核对直接引用与关联候选，完成技术证据和读者路径自查。"
+      }
+    }
+  ]
+}

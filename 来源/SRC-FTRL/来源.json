@@ -1,0 +1,34 @@
+{
+  "id": "SRC-FTRL",
+  "title": "Ad Click Prediction: a View from the Trenches",
+  "kind": "paper",
+  "state": "active",
+  "current": "c35d57025f475ec9b783deb09afb7988f6428f0e521351eb774f74cb74f937ee",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/2487575.2488200",
+      "revision": "KDD 2013, pp.1222–1230",
+      "read_scope": "正文 §1–10、在线优化、内存、置信度和校准，采用 KDD 资料镜像且核对 Git blob。",
+      "artifacts": [
+        {
+          "name": "SRC-FTRL.pdf",
+          "sha256": "3601ddd7f0caf2b99b9ec57cc16f0961eaa34f8323b3775fd47bfe132aed78ee",
+          "snapshot": ".local/sources/SRC-FTRL/3601ddd7f0caf2b99b9ec57cc16f0961eaa34f8323b3775fd47bfe132aed78ee/SRC-FTRL.pdf"
+        }
+      ],
+      "fingerprint": "c35d57025f475ec9b783deb09afb7988f6428f0e521351eb774f74cb74f937ee",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e257c72c080f91d95fc5cac71ff9bf2a305aad9338e34fc263bceb4162104e71",
+        "pages": [
+          "online-ctr-sparse-weights",
+          "ranking-interaction"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "核对 KDD 版算法 1 的读出与写回、两处印式疑点与表 1 对照，补验本地 Markdown 的原文章节与页码。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "SRC-PINSAGE",
+  "title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+  "kind": "paper",
+  "state": "active",
+  "current": "f68bb995baa3169f0bed0c1e68f4d88c0fdad5622be650af34cb13107c41005b",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/1806.01973v1",
+      "revision": "arXiv 1806.01973v1; KDD 2018",
+      "read_scope": "正文 §1–5、图表、训练及 MapReduce 推理，核对作者源码及 Stanford 作者站对应会议版。 作者源码下载解包后本地重打包。",
+      "artifacts": [
+        {
+          "name": "SRC-PINSAGE.pdf",
+          "sha256": "d76dcfc6bb85d42a92b9c8ee40fe2675f50505264ddd81f42f17765f14c92338",
+          "snapshot": ".local/sources/SRC-PINSAGE/d76dcfc6bb85d42a92b9c8ee40fe2675f50505264ddd81f42f17765f14c92338/SRC-PINSAGE.pdf"
+        },
+        {
+          "name": "SRC-PINSAGE.source.repacked.tar.gz",
+          "sha256": "8b0e44582f45fe7a86a89881c0ef4081b309afa673b772d8b7ac82b1825a7041",
+          "snapshot": ".local/sources/SRC-PINSAGE/8b0e44582f45fe7a86a89881c0ef4081b309afa673b772d8b7ac82b1825a7041/SRC-PINSAGE.source.repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "f68bb995baa3169f0bed0c1e68f4d88c0fdad5622be650af34cb13107c41005b",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "ba54356939330b045a47f2454e23f22a4978a9379720af0fe35c99544b97270d",
+        "pages": [
+          "collaborative-graph-representation"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v1 采样归一化、难负例、CPU/GPU 子图和离线逐层推理。核对直接引用与关联候选，完成技术证据和读者路径自查。"
+      }
+    }
+  ]
+}

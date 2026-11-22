@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-21，盘点86篇中文PDF，86篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-22，盘点93篇中文PDF，93篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -98,3 +98,10 @@
 | [Noise-contrastive Estimation: A New Estimation Principle for Unnormalized Statistical Models](https://proceedings.mlr.press/v9/gutmann10a.html) · `SRC-NCE` | 私有，需登录 · 20261121.1 · 8页 | [PMLR / AISTATS 2010](https://proceedings.mlr.press/v9/gutmann10a.html) | 摘要、正文 §1–4、图注与脚注译为中文，原作者图内文字及参考文献保留英文。依据正式 PDF 重排。；最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。 |
 | [Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations](https://doi.org/10.1145/3298689.3346996) · `SRC-SAMPLING-BIAS-CORRECTION` | 私有，需登录 · 20261121.1 · 10页 | [ACM / personal-classroom permission](https://doi.org/10.1145/3298689.3346996) | 摘要、正文 §1–7、图表说明及算法描述译为中文，图内英文与参考文献保留。依据会议 PDF 重排。；最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。 |
 | [Distributed Representations of Words and Phrases and their Compositionality](https://arxiv.org/abs/1310.4546v1) · `SRC-WORD2VEC-NEG` | 私有，需登录 · 20261121.1 · 8页 | [not-permitted](https://arxiv.org/abs/1310.4546v1) | 摘要、正文 §1–7、图表说明及脚注译为中文，参考文献和图内原字保留。基于作者 LaTeX 编译。；最终译文逐页目视。采用版原文与中文 PDF 已核对远端 digest，并真实认证下载校验 PDF 类型、页数、大小和完整 SHA-256。 |
+| [Contrastive Learning for Sequential Recommendation](https://arxiv.org/abs/2010.14395v2) · `SRC-CL4SREC` | 私有，需登录 · 20261122.1 · 14页 | [not-permitted](https://arxiv.org/abs/2010.14395v2) | 摘要、正文 §1–5、式 (1)–(15)、脚注和图表说明。依据采用版 PDF 和作者 LaTeX 重排，图内文字、原表部分英文和文献保留。；逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、页数、大小和完整 SHA-256。 |
+| [Contrastive Self-supervised Sequential Recommendation with Robust Augmentation](https://arxiv.org/abs/2108.06479v1) · `SRC-COSEREC` | 私有，需登录 · 20261122.1 · 15页 | [CC-BY-4.0](https://arxiv.org/abs/2108.06479v1) | 摘要、正文 §1–6、式 (1)–(15)、算法及图表说明。依据采用版 PDF 和作者 LaTeX 重排，图内文字、原表部分英文和文献保留。；逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、页数、大小和完整 SHA-256。 |
+| [Field-aware Factorization Machines for CTR Prediction](https://doi.org/10.1145/2959100.2959134) · `SRC-FFM` | 私有，需登录 · 20261122.1 · 9页 | [ACM / personal-classroom permission](https://doi.org/10.1145/2959100.2959134) | 摘要、正文 §1–5、公式、算法与图表说明。依据 RecSys 会议 PDF 重排，图内及原表部分英文和文献保留。；逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、页数、大小和完整 SHA-256。 |
+| [Factorization Machines](https://doi.org/10.1109/ICDM.2010.127) · `SRC-FM` | 私有，需登录 · 20261122.1 · 9页 | [IEEE ICDM 2010](https://doi.org/10.1109/ICDM.2010.127) | 摘要、正文 §I–VI、公式、图注及脚注。依据 ICDM 会议 PDF 重排，图内英文和文献保留。；逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、页数、大小和完整 SHA-256。 |
+| [Ad Click Prediction: a View from the Trenches](https://doi.org/10.1145/2487575.2488200) · `SRC-FTRL` | 私有，需登录 · 20261122.1 · 10页 | [ACM / personal-classroom permission](https://doi.org/10.1145/2487575.2488200) | 摘要、正文 §1–10、算法 1、公式及图表说明。依据 KDD 会议 PDF 重排，图内英文与参考文献保留。；逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、页数、大小和完整 SHA-256。 |
+| [Self-supervised Learning for Large-scale Item Recommendations](https://arxiv.org/abs/2007.12865v3) · `SRC-ITEM-SSL` | 私有，需登录 · 20261122.1 · 15页 | [not-permitted](https://arxiv.org/abs/2007.12865v3) | 摘要、正文 §1–6、公式及图表说明。依据采用版 PDF 和作者 LaTeX 重排，图内文字、原表部分英文和文献保留。；逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、页数、大小和完整 SHA-256。 |
+| [Graph Convolutional Neural Networks for Web-Scale Recommender Systems](https://arxiv.org/abs/1806.01973v1) · `SRC-PINSAGE` | 私有，需登录 · 20261122.1 · 11页 | [not-permitted](https://arxiv.org/abs/1806.01973v1) | 摘要、正文 §1–5、算法说明、公式、图表和致谢。依据采用版 PDF 和作者 LaTeX 重排，图内英文和文献保留。；逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、页数、大小和完整 SHA-256。 |

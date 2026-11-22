@@ -1507,5 +1507,86 @@
     "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "evidence_url": "https://arxiv.org/abs/1310.4546v1",
     "evidence_sha256": "d88158f243a6605ffce4d6b22a682ed053c20257a0b4fc8433869f1b647c49a4"
+  },
+  {
+    "source_id": "SRC-CL4SREC",
+    "title": "Contrastive Learning for Sequential Recommendation",
+    "original_url": "https://arxiv.org/abs/2010.14395v2",
+    "revision": "arXiv 2010.14395v2",
+    "status": "local-only",
+    "checked_on": "2026-11-22",
+    "reason": "中文 PDF 14 页已逐页验收、私有备份并认证下载。固定 arXiv 版本列非独占分发许可，未授予公众翻译再分发权。",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "evidence_url": "https://arxiv.org/abs/2010.14395v2",
+    "evidence_sha256": "b667fe48b737470c6627bf7cef6166158479d288295774caf97298d6bdd6291c"
+  },
+  {
+    "source_id": "SRC-COSEREC",
+    "title": "Contrastive Self-supervised Sequential Recommendation with Robust Augmentation",
+    "original_url": "https://arxiv.org/abs/2108.06479v1",
+    "revision": "arXiv 2108.06479v1",
+    "status": "local-only",
+    "checked_on": "2026-11-22",
+    "reason": "中文 PDF 15 页已逐页验收、私有备份并认证下载。固定版本为 CC BY 4.0，本批交付私有 PDF 与可编辑工程，正式 Markdown 译文未发布。",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence_url": "https://arxiv.org/abs/2108.06479v1",
+    "evidence_sha256": "ed9875622662f1ff3e53293b18293f36357c4c831b84f9598151dd5d78fa3985"
+  },
+  {
+    "source_id": "SRC-FFM",
+    "title": "Field-aware Factorization Machines for CTR Prediction",
+    "original_url": "https://doi.org/10.1145/2959100.2959134",
+    "revision": "RecSys 2016, pp.43–50",
+    "status": "local-only",
+    "checked_on": "2026-11-22",
+    "reason": "中文 PDF 9 页已逐页验收、私有备份并认证下载。采用版正文的公开翻译再分发许可未确认。",
+    "evidence_url": "https://doi.org/10.1145/2959100.2959134",
+    "evidence_sha256": "1b61d21c51ebedd3113456fcd3a069ba0a40b7ab9be707f9d2f96f6fc00c7a98"
+  },
+  {
+    "source_id": "SRC-FM",
+    "title": "Factorization Machines",
+    "original_url": "https://doi.org/10.1109/ICDM.2010.127",
+    "revision": "ICDM 2010, pp.995–1000",
+    "status": "local-only",
+    "checked_on": "2026-11-22",
+    "reason": "中文 PDF 9 页已逐页验收、私有备份并认证下载。采用版正文的公开翻译再分发许可未确认。",
+    "evidence_url": "https://doi.org/10.1109/ICDM.2010.127",
+    "evidence_sha256": "82c8b38b84aceb8300ae2140e2aebd459b86cd631c7d58c378d45b983bdaad1a"
+  },
+  {
+    "source_id": "SRC-FTRL",
+    "title": "Ad Click Prediction: a View from the Trenches",
+    "original_url": "https://doi.org/10.1145/2487575.2488200",
+    "revision": "KDD 2013, pp.1222–1230",
+    "status": "local-only",
+    "checked_on": "2026-11-22",
+    "reason": "中文 PDF 10 页已逐页验收、私有备份并认证下载。采用版正文的公开翻译再分发许可未确认。",
+    "evidence_url": "https://doi.org/10.1145/2487575.2488200",
+    "evidence_sha256": "3601ddd7f0caf2b99b9ec57cc16f0961eaa34f8323b3775fd47bfe132aed78ee"
+  },
+  {
+    "source_id": "SRC-ITEM-SSL",
+    "title": "Self-supervised Learning for Large-scale Item Recommendations",
+    "original_url": "https://arxiv.org/abs/2007.12865v3",
+    "revision": "arXiv 2007.12865v3",
+    "status": "local-only",
+    "checked_on": "2026-11-22",
+    "reason": "中文 PDF 15 页已逐页验收、私有备份并认证下载。固定 arXiv 版本列非独占分发许可，未授予公众翻译再分发权。",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "evidence_url": "https://arxiv.org/abs/2007.12865v3",
+    "evidence_sha256": "f35a529a1d23dcf3d815f0438f98fd80b9fd177d25abf01aa26b77b14fcac495"
+  },
+  {
+    "source_id": "SRC-PINSAGE",
+    "title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+    "original_url": "https://arxiv.org/abs/1806.01973v1",
+    "revision": "arXiv 1806.01973v1; KDD 2018",
+    "status": "local-only",
+    "checked_on": "2026-11-22",
+    "reason": "中文 PDF 11 页已逐页验收、私有备份并认证下载。固定 arXiv 版本列非独占分发许可，未授予公众翻译再分发权。",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "evidence_url": "https://arxiv.org/abs/1806.01973v1",
+    "evidence_sha256": "eaed91b511b89f9ad03805eb826fa06d7b289108666ddc3fc037f247c5e46fd1"
   }
 ]

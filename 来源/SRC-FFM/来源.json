@@ -1,0 +1,34 @@
+{
+  "id": "SRC-FFM",
+  "title": "Field-aware Factorization Machines for CTR Prediction",
+  "kind": "paper",
+  "state": "active",
+  "current": "280dda45f3f4b1cfec33a6b1f5ff989450ab4478d469abad6ce53264ebc3548b",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/2959100.2959134",
+      "revision": "RecSys 2016, pp.43–50",
+      "read_scope": "正文 §1–5、算法 1、表 1–4 及实验图，采用作者站会议 PDF。",
+      "artifacts": [
+        {
+          "name": "SRC-FFM.pdf",
+          "sha256": "1b61d21c51ebedd3113456fcd3a069ba0a40b7ab9be707f9d2f96f6fc00c7a98",
+          "snapshot": ".local/sources/SRC-FFM/1b61d21c51ebedd3113456fcd3a069ba0a40b7ab9be707f9d2f96f6fc00c7a98/SRC-FFM.pdf"
+        }
+      ],
+      "fingerprint": "280dda45f3f4b1cfec33a6b1f5ff989450ab4478d469abad6ce53264ebc3548b",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "2394a5be91e82af6ebcca595df569be39816a91588528ed418a7a5f228b9888c",
+        "pages": [
+          "online-ctr-sparse-weights",
+          "sparse-feature-interactions"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "核对会议版字段索引、二阶分数、多对梯度与实验边界，补验本地 Markdown 的原文章节与页码。"
+      }
+    }
+  ]
+}

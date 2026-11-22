@@ -1,0 +1,34 @@
+{
+  "id": "SRC-FM",
+  "title": "Factorization Machines",
+  "kind": "paper",
+  "state": "active",
+  "current": "22d8e46839f282fb7f569475856f22d2380b22da19e2630ed4e32855e1456fe3",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1109/ICDM.2010.127",
+      "revision": "ICDM 2010, pp.995–1000",
+      "read_scope": "正文 §I–VI，公式、图 1–3，核对高校课程镜像。",
+      "artifacts": [
+        {
+          "name": "SRC-FM.pdf",
+          "sha256": "82c8b38b84aceb8300ae2140e2aebd459b86cd631c7d58c378d45b983bdaad1a",
+          "snapshot": ".local/sources/SRC-FM/82c8b38b84aceb8300ae2140e2aebd459b86cd631c7d58c378d45b983bdaad1a/SRC-FM.pdf"
+        }
+      ],
+      "fingerprint": "22d8e46839f282fb7f569475856f22d2380b22da19e2630ed4e32855e1456fe3",
+      "retrieved_on": "2026-11-21",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "71677b8972e34e583ccaa7dca4e1f0254391ddaf34582e0ee0d8b23b04e927ab",
+        "pages": [
+          "online-ctr-sparse-weights",
+          "sparse-feature-interactions"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "核对 ICDM 版二阶因子、线性时间等价和曝光算例，补验本地 Markdown 的原文章节与页码。"
+      }
+    }
+  ]
+}

@@ -1572,6 +1572,706 @@
       ],
       "render_dpi": 144,
       "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-FM/评分记录与稀疏输入.png",
+      "sha256": "79d863a4a28ea7c782cfb9d8bb4319c214ff2e10554a365c24c837d05a617bba",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-FM",
+      "source_version": "ICDM 2010, pp.995–1000",
+      "basis": "图 1，固定 PDF 第 2 页",
+      "credit": "Rendle",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "82c8b38b84aceb8300ae2140e2aebd459b86cd631c7d58c378d45b983bdaad1a",
+      "pdf_page": 2,
+      "crop_points": [
+        49.572,
+        53.064,
+        297.432,
+        170.28
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-FM/Netflix评分误差对照.png",
+      "sha256": "cedede87e8d3795e6734cd6d345936d0b958021dd69201d3a01a9383c8834e90",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-FM",
+      "source_version": "ICDM 2010, pp.995–1000",
+      "basis": "图 2，固定 PDF 第 4 页",
+      "credit": "Rendle",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "82c8b38b84aceb8300ae2140e2aebd459b86cd631c7d58c378d45b983bdaad1a",
+      "pdf_page": 4,
+      "crop_points": [
+        361.692,
+        57.023999999999994,
+        505.512,
+        177.40800000000002
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-FM/标签推荐的参数量与F1.png",
+      "sha256": "aee03522c49ccef59aadec64f6b7b715c43194fa945c695fbf81b413cb7b46e4",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-FM",
+      "source_version": "ICDM 2010, pp.995–1000",
+      "basis": "图 3，固定 PDF 第 6 页",
+      "credit": "Rendle",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "82c8b38b84aceb8300ae2140e2aebd459b86cd631c7d58c378d45b983bdaad1a",
+      "pdf_page": 6,
+      "crop_points": [
+        99.756,
+        58.608,
+        236.844,
+        175.824
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-FFM/因子维度正则与学习率.png",
+      "sha256": "994bd884e4cc4bdb0babc97a4ab4c0c224c50974a881c601f2e3ac38f24a407c",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-FFM",
+      "source_version": "RecSys 2016, pp.43–50",
+      "basis": "图 1，固定 PDF 第 5 页",
+      "credit": "Juan 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "1b61d21c51ebedd3113456fcd3a069ba0a40b7ab9be707f9d2f96f6fc00c7a98",
+      "pdf_page": 5,
+      "crop_points": [
+        315.79200000000003,
+        48.312,
+        570.384,
+        403.128
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-FTRL/广告CTR系统总图.png",
+      "sha256": "eb68b142cd2db606559bd0372532ebb49623e0a6e6634e604d010e4b83d0885d",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-FTRL",
+      "source_version": "KDD 2013, pp.1222–1230",
+      "basis": "图 1，固定 PDF 第 2 页",
+      "credit": "McMahan 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "3601ddd7f0caf2b99b9ec57cc16f0961eaa34f8323b3775fd47bfe132aed78ee",
+      "pdf_page": 2,
+      "crop_points": [
+        61.812000000000005,
+        51.480000000000004,
+        280.296,
+        140.184
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-FTRL/逐坐标FTRL更新.png",
+      "sha256": "ed19ae947062e2203d0b13e0288b37ae51d978c0e571306e134ec9223f637399",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-FTRL",
+      "source_version": "KDD 2013, pp.1222–1230",
+      "basis": "算法 1，固定 PDF 第 2 页",
+      "credit": "McMahan 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "3601ddd7f0caf2b99b9ec57cc16f0961eaa34f8323b3775fd47bfe132aed78ee",
+      "pdf_page": 2,
+      "crop_points": [
+        313.344,
+        50.688,
+        559.368,
+        263.736
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-FTRL/不同广告切片的模型指标.png",
+      "sha256": "17c4c91859c8f97aa3a7239a82117fc48d27a3a4b6fb7432badba02aa778a822",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-FTRL",
+      "source_version": "KDD 2013, pp.1222–1230",
+      "basis": "图 2，固定 PDF 第 6 页",
+      "credit": "McMahan 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "3601ddd7f0caf2b99b9ec57cc16f0961eaa34f8323b3775fd47bfe132aed78ee",
+      "pdf_page": 6,
+      "crop_points": [
+        63.035999999999994,
+        54.648,
+        541.008,
+        216.216
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-FTRL/不确定度与预测误差.png",
+      "sha256": "2d0eec2241b7e6ecabbb73a5af6d42f0d1067fc1226869c48627a806c74339ba",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-FTRL",
+      "source_version": "KDD 2013, pp.1222–1230",
+      "basis": "图 3，固定 PDF 第 7 页",
+      "credit": "McMahan 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "3601ddd7f0caf2b99b9ec57cc16f0961eaa34f8323b3775fd47bfe132aed78ee",
+      "pdf_page": 7,
+      "crop_points": [
+        59.976,
+        50.688,
+        285.192,
+        201.168
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-ITEM-SSL/双塔主检索任务.png",
+      "sha256": "05748b4eb0113c3d47a6216c5d03c08c8f58e9a7a8b1047fad25d21856401ba5",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-ITEM-SSL",
+      "source_version": "arXiv 2007.12865v3",
+      "basis": "图 1，固定 PDF 第 3 页",
+      "credit": "Yao 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "20d7fe4df303b5a7b2950b680385ed98c22e3b7620660f812ce15735dd1664cd",
+      "pdf_page": 3,
+      "crop_points": [
+        52.02,
+        79.992,
+        292.536,
+        180.576
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-ITEM-SSL/同物品的双视图对比.png",
+      "sha256": "a4b959305af3eee6066ca2297a9251c4852f6b503c9a05bf6a81ef5cfcc8e6c6",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-ITEM-SSL",
+      "source_version": "arXiv 2007.12865v3",
+      "basis": "图 2，固定 PDF 第 3 页",
+      "credit": "Yao 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "20d7fe4df303b5a7b2950b680385ed98c22e3b7620660f812ce15735dd1664cd",
+      "pdf_page": 3,
+      "crop_points": [
+        320.076,
+        83.952,
+        559.98,
+        179.784
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-ITEM-SSL/字段遮蔽与嵌入共享.png",
+      "sha256": "10ea6d9d01b00639659a126cc55aea4f69f9cfab74ef9cff9c0689d2d415e752",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-ITEM-SSL",
+      "source_version": "arXiv 2007.12865v3",
+      "basis": "图 3，固定 PDF 第 5 页",
+      "credit": "Yao 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "20d7fe4df303b5a7b2950b680385ed98c22e3b7620660f812ce15735dd1664cd",
+      "pdf_page": 5,
+      "crop_points": [
+        77.112,
+        80.78399999999999,
+        529.992,
+        189.28799999999998
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-ITEM-SSL/字段丢弃与整塔共享.png",
+      "sha256": "bc6defd1fe33d80fb9e044ade4b196a60b8040f80b853c064e96c7f04fa6e44e",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-ITEM-SSL",
+      "source_version": "arXiv 2007.12865v3",
+      "basis": "图 4，固定 PDF 第 6 页",
+      "credit": "Yao 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "20d7fe4df303b5a7b2950b680385ed98c22e3b7620660f812ce15735dd1664cd",
+      "pdf_page": 6,
+      "crop_points": [
+        78.336,
+        79.2,
+        530.604,
+        189.28799999999998
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-ITEM-SSL/全部应用与新鲜应用的线上参与.png",
+      "sha256": "38dd8130c6dccd7f66c076dd9e85a32dd7ef1a24f0402c8ab9f792d85ee84347",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-ITEM-SSL",
+      "source_version": "arXiv 2007.12865v3",
+      "basis": "图 9，固定 PDF 第 10 页",
+      "credit": "Yao 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "20d7fe4df303b5a7b2950b680385ed98c22e3b7620660f812ce15735dd1664cd",
+      "pdf_page": 10,
+      "crop_points": [
+        313.956,
+        74.448,
+        564.264,
+        201.168
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-CL4SREC/原序列预测与双视图对比.png",
+      "sha256": "4684d96b55dc534216a51ce975509ba8122dc8eed81191ed5a18a793344740d6",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-CL4SREC",
+      "source_version": "arXiv 2010.14395v2",
+      "basis": "图 1，固定 PDF 第 3 页",
+      "credit": "Xie 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "fe967a47f47cf6f1d45e7a6388cee9424f45c91b17317244cd5474b055778264",
+      "pdf_page": 3,
+      "crop_points": [
+        74.05199999999999,
+        79.2,
+        538.5600000000001,
+        255.024
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-CL4SREC/裁剪遮蔽与区间重排.png",
+      "sha256": "8f13e8e9d83d7734b0c51a7e1329e9f66c8e39cf7783031f1e687a70d3364d32",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-CL4SREC",
+      "source_version": "arXiv 2010.14395v2",
+      "basis": "图 2，固定 PDF 第 4 页",
+      "credit": "Xie 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "fe967a47f47cf6f1d45e7a6388cee9424f45c91b17317244cd5474b055778264",
+      "pdf_page": 4,
+      "crop_points": [
+        64.25999999999999,
+        77.616,
+        566.1,
+        171.864
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-CL4SREC/因果序列编码器.png",
+      "sha256": "1ab9323353cdbcbf200afa4aa9b2df46d056dd9768a0ac0ae83f544683715c62",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-CL4SREC",
+      "source_version": "arXiv 2010.14395v2",
+      "basis": "图 3，固定 PDF 第 5 页",
+      "credit": "Xie 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "fe967a47f47cf6f1d45e7a6388cee9424f45c91b17317244cd5474b055778264",
+      "pdf_page": 5,
+      "crop_points": [
+        53.244,
+        82.368,
+        294.372,
+        244.728
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-CL4SREC/增强比例与离线效果.png",
+      "sha256": "4e72c780ba6f05c28c9c68c1ec1b7e38ae4ee9405b73b54641037f0ddc3fe25d",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-CL4SREC",
+      "source_version": "arXiv 2010.14395v2",
+      "basis": "图 4，固定 PDF 第 8 页",
+      "credit": "Xie 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "fe967a47f47cf6f1d45e7a6388cee9424f45c91b17317244cd5474b055778264",
+      "pdf_page": 8,
+      "crop_points": [
+        315.18,
+        434.016,
+        560.592,
+        640.7280000000001
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-COSEREC/预测分支与全位置对比读出.png",
+      "sha256": "69c8cb7fcc2b11f1d9b1d5af2f9224deb035ca415b611cadcdcd4b1cf0581f9b",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-COSEREC",
+      "source_version": "arXiv 2108.06479v1",
+      "basis": "图 1，固定 PDF 第 4 页",
+      "credit": "Liu 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "8e05419e43e740ce5c33dae4347b30652ce912b71309d681b31e6ca99469b6fa",
+      "pdf_page": 4,
+      "crop_points": [
+        102.20400000000001,
+        78.408,
+        511.632,
+        243.144
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-COSEREC/随机与近邻增强操作.png",
+      "sha256": "a82a4a26ad3f322d1ad24c65094a100081b13ff3e19729aa808cbdcdd6be62c3",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-COSEREC",
+      "source_version": "arXiv 2108.06479v1",
+      "basis": "图 2，固定 PDF 第 4 页",
+      "credit": "Liu 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "8e05419e43e740ce5c33dae4347b30652ce912b71309d681b31e6ca99469b6fa",
+      "pdf_page": 4,
+      "crop_points": [
+        48.348,
+        304.92,
+        290.7,
+        386.496
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-COSEREC/按历史长度选择增强.png",
+      "sha256": "c3abe3be89fb44e6e15998b8e8c0e79ebc093ab004f9a14c7c144778b1c4863e",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-COSEREC",
+      "source_version": "arXiv 2108.06479v1",
+      "basis": "算法 1，固定 PDF 第 5 页",
+      "credit": "Liu 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "8e05419e43e740ce5c33dae4347b30652ce912b71309d681b31e6ca99469b6fa",
+      "pdf_page": 5,
+      "crop_points": [
+        314.568,
+        81.576,
+        558.756,
+        425.30400000000003
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-COSEREC/输入噪声与NDCG.png",
+      "sha256": "1bd0d76c9b30da8f13fd1f1f41fa5667f7d9f7a78b27beb11fff9d88b0b8f35a",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-COSEREC",
+      "source_version": "arXiv 2108.06479v1",
+      "basis": "图 7，固定 PDF 第 8 页",
+      "credit": "Liu 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "8e05419e43e740ce5c33dae4347b30652ce912b71309d681b31e6ca99469b6fa",
+      "pdf_page": 8,
+      "crop_points": [
+        308.448,
+        302.544,
+        567.3240000000001,
+        403.92
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-LIGHTGCN/NGCF简化的训练与验证走势.png",
+      "sha256": "6dd0cc5847431c44095f7a00f7a124690a4ad5b0c98cdc70dd59b0ef4f6f7756",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-LIGHTGCN",
+      "source_version": "2002.02126v4 (2020-07-07; SIGIR 2020; DOI 10.1145/3397271.3401063)",
+      "basis": "图 1，固定 PDF 第 3 页",
+      "credit": "He 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "e48e4c27e4dc9ffd50f531b69682da0a500ae9a8190c629aeff223b40b555306",
+      "pdf_page": 3,
+      "crop_points": [
+        67.32000000000001,
+        84.744,
+        553.86,
+        201.96
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-LIGHTGCN/LightGCN传播与层加权.png",
+      "sha256": "9431c2b6d582ba3db793bec02222804fbcffc9d026946d4bcf9196b5afaac12d",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-LIGHTGCN",
+      "source_version": "2002.02126v4 (2020-07-07; SIGIR 2020; DOI 10.1145/3397271.3401063)",
+      "basis": "图 2，固定 PDF 第 4 页",
+      "credit": "He 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "e48e4c27e4dc9ffd50f531b69682da0a500ae9a8190c629aeff223b40b555306",
+      "pdf_page": 4,
+      "crop_points": [
+        50.796,
+        80.78399999999999,
+        294.372,
+        256.608
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-LIGHTGCN/逐层比较与末层读出.png",
+      "sha256": "2ff294705d6e23a051cdf2d12501853c7269518dde14367b81cf6d64205364c3",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-LIGHTGCN",
+      "source_version": "2002.02126v4 (2020-07-07; SIGIR 2020; DOI 10.1145/3397271.3401063)",
+      "basis": "图 4，固定 PDF 第 8 页",
+      "credit": "He 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "e48e4c27e4dc9ffd50f531b69682da0a500ae9a8190c629aeff223b40b555306",
+      "pdf_page": 8,
+      "crop_points": [
+        61.812000000000005,
+        87.12,
+        556.308,
+        191.664
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-WIDEDEEP/宽模型深模型与联合结构.png",
+      "sha256": "2736e70eaad4232f1869f1995001bdb632b84917c5dbe6f9f43b80c4275e395e",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-WIDEDEEP",
+      "source_version": "1606.07792v1 (2016-06-24)",
+      "basis": "图 1，固定 PDF 第 2 页",
+      "credit": "Cheng 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "0f04fd0659345008ddcb4b0742b6d0e5475bb0c2cf2a2b222f1b06d109c6c4c8",
+      "pdf_page": 2,
+      "crop_points": [
+        49.572,
+        40.391999999999996,
+        562.428,
+        150.48
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-WIDEDEEP/Google Play推荐数据流.png",
+      "sha256": "7258e614b45566d5264c6aa4eff20adb6ddc719f40aac94e3b71719e5e025f93",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-WIDEDEEP",
+      "source_version": "1606.07792v1 (2016-06-24)",
+      "basis": "图 3，固定 PDF 第 3 页",
+      "credit": "Cheng 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "0f04fd0659345008ddcb4b0742b6d0e5475bb0c2cf2a2b222f1b06d109c6c4c8",
+      "pdf_page": 3,
+      "crop_points": [
+        52.632,
+        42.768,
+        291.312,
+        141.768
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-WIDEDEEP/宽深两支进入同一Logistic损失.png",
+      "sha256": "d91781527a3d88c1e56c87fee521e930016cb6ffac05f3d1d45b796916fe7744",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-WIDEDEEP",
+      "source_version": "1606.07792v1 (2016-06-24)",
+      "basis": "图 4，固定 PDF 第 3 页",
+      "credit": "Cheng 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "0f04fd0659345008ddcb4b0742b6d0e5475bb0c2cf2a2b222f1b06d109c6c4c8",
+      "pdf_page": 3,
+      "crop_points": [
+        313.956,
+        42.768,
+        559.98,
+        160.776
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-DEEPFM/FM与MLP共享嵌入.png",
+      "sha256": "64ff57c9e429945f3825923e3cdea34d36e1e7d7ec00e225a3962475492347d7",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-DEEPFM",
+      "source_version": "1703.04247v1; IJCAI 2017",
+      "basis": "图 1，固定 PDF 第 1 页",
+      "credit": "Guo 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "31548d474c2c6100bbc11da68cabf0e242a3657d7277c81e61ccc1efd78e6dad",
+      "pdf_page": 1,
+      "crop_points": [
+        320.688,
+        213.048,
+        552.024,
+        330.264
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-DEEPFM/一阶项与二阶内积.png",
+      "sha256": "0f312e3f36ddfc3c43850af122259965e533ee98578c522cc59dfe85071ea753",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-DEEPFM",
+      "source_version": "1703.04247v1; IJCAI 2017",
+      "basis": "图 2，固定 PDF 第 2 页",
+      "credit": "Guo 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "31548d474c2c6100bbc11da68cabf0e242a3657d7277c81e61ccc1efd78e6dad",
+      "pdf_page": 2,
+      "crop_points": [
+        327.42,
+        420.552,
+        544.6800000000001,
+        535.392
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-DEEPFM/字段维度与固定嵌入宽度.png",
+      "sha256": "9ffa0acfc63f8b94903a1d03d7a8a25265ad2818268fa4def268e31a67fbc271",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-DEEPFM",
+      "source_version": "1703.04247v1; IJCAI 2017",
+      "basis": "图 4，固定 PDF 第 3 页",
+      "credit": "Guo 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "31548d474c2c6100bbc11da68cabf0e242a3657d7277c81e61ccc1efd78e6dad",
+      "pdf_page": 3,
+      "crop_points": [
+        332.928,
+        51.480000000000004,
+        540.396,
+        117.216
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-PINSAGE/局部卷积与批内子图.png",
+      "sha256": "3f404ee41c2b18cf5a8718245d3f01f31bca16af2587424e8232781b03767bb7",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-PINSAGE",
+      "source_version": "arXiv 1806.01973v1; KDD 2018",
+      "basis": "图 1，固定 PDF 第 2 页",
+      "credit": "Ying 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "d76dcfc6bb85d42a92b9c8ee40fe2675f50505264ddd81f42f17765f14c92338",
+      "pdf_page": 2,
+      "crop_points": [
+        107.1,
+        83.16,
+        511.02,
+        313.632
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-PINSAGE/相近负例与随机负例.png",
+      "sha256": "38ac3b26fa18633ce85da9d85c024926773b58cc3ea263f7ce0e52c28030e7f1",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-PINSAGE",
+      "source_version": "arXiv 1806.01973v1; KDD 2018",
+      "basis": "图 2，固定 PDF 第 6 页",
+      "credit": "Ying 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "d76dcfc6bb85d42a92b9c8ee40fe2675f50505264ddd81f42f17765f14c92338",
+      "pdf_page": 6,
+      "crop_points": [
+        57.528,
+        83.16,
+        289.476,
+        163.944
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-PINSAGE/MapReduce逐层推理.png",
+      "sha256": "82a271877e8dd875ae228e4875065f45a1f34babcc26d158b0cc64e03e1d33d1",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-PINSAGE",
+      "source_version": "arXiv 1806.01973v1; KDD 2018",
+      "basis": "图 3，固定 PDF 第 7 页",
+      "credit": "Ying 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "d76dcfc6bb85d42a92b9c8ee40fe2675f50505264ddd81f42f17765f14c92338",
+      "pdf_page": 7,
+      "crop_points": [
+        64.872,
+        83.952,
+        553.86,
+        198.792
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-PINSAGE/随机物品对的余弦分布.png",
+      "sha256": "c25509d21ff2b795a60398c7f2d82b130f1d4002fde626b13ae5b11692e6b596",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-PINSAGE",
+      "source_version": "arXiv 1806.01973v1; KDD 2018",
+      "basis": "图 4，固定 PDF 第 8 页",
+      "credit": "Ying 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "d76dcfc6bb85d42a92b9c8ee40fe2675f50505264ddd81f42f17765f14c92338",
+      "pdf_page": 8,
+      "crop_points": [
+        331.704,
+        81.576,
+        540.396,
+        221.76000000000002
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
+    },
+    {
+      "path": "资源/图片/SRC-FFM/线程数与单轮加速.png",
+      "sha256": "5e83d30be48290791b2992ef22989629f20f3258660079663881ea8fff449d82",
+      "kind": "第三方作者原图",
+      "source_id": "SRC-FFM",
+      "source_version": "RecSys 2016, pp.43–50",
+      "basis": "图 3，固定 PDF 第 6 页",
+      "credit": "Juan 等",
+      "modification": "从固定版本 PDF 裁图，保留原有标签及图例。",
+      "original_pdf_sha256": "1b61d21c51ebedd3113456fcd3a069ba0a40b7ab9be707f9d2f96f6fc00c7a98",
+      "pdf_page": 6,
+      "crop_points": [
+        58.752,
+        220.17600000000002,
+        269.28000000000003,
+        346.104
+      ],
+      "render_dpi": 144,
+      "created_on": "2026-11-21"
     }
   ]
 }
