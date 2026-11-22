@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-11-22",
-  "inventory_note": "97篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "98篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -3538,6 +3538,45 @@
         "size_bytes": 846852,
         "pages": 8,
         "verified_download_sha256": "242939aecad5fe8522f2df2193de3ab3901192b402e2c0eb3539859298609e07"
+      }
+    },
+    {
+      "source_id": "SRC-META-EMBEDDING",
+      "title": "Warm Up Cold-start Advertisements: Improving CTR Predictions via Learning to Learn ID Embeddings",
+      "original_url": "https://arxiv.org/abs/1904.11547v1",
+      "revision": "arXiv 1904.11547v1",
+      "input_sha256": "2c36f360a9b25433c7c7c082dedd3ce9e3c05a077773d6fa48a6f2d7b6289cc1",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6 与致谢、公式、图表说明和描述性脚注。参考文献、图内文字及 SIGIR 权利声明保留。",
+      "status": "private",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-22",
+        "authors": [
+          "Feiyang Pan",
+          "Shuokai Li",
+          "Xiang Ao",
+          "Pingzhong Tang",
+          "Qing He"
+        ],
+        "original_pdf_sha256": "0491344d301f48558243201b73d2c2252d610b3e0325e471d96c07dc8d1c0039",
+        "evidence_url": "https://arxiv.org/abs/1904.11547v1",
+        "evidence_sha256": "ce8d565cb6b46a60f628f4eea3e300e04dad5413500fbc643ef08bfd8176eeb1",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 v1 的 arXiv 页面列非独占分发许可，未授予公众发布全文译文的权利。固定采用版的 SIGIR 模板栏保留，注记 DOI 和 ISBN 占位。SIGIR 2019 正式 DOI 为 10.1145/3331184.3331268。"
+      },
+      "reason": "9 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261122-batch-07-10",
+        "translation_version": "20261122.1",
+        "asset_name": "SRC-META-EMBEDDING.zh-CN.private.20261122.1.pdf",
+        "sha256": "2c36f360a9b25433c7c7c082dedd3ce9e3c05a077773d6fa48a6f2d7b6289cc1",
+        "size_bytes": 758788,
+        "pages": 9,
+        "verified_download_sha256": "2c36f360a9b25433c7c7c082dedd3ce9e3c05a077773d6fa48a6f2d7b6289cc1"
       }
     }
   ],

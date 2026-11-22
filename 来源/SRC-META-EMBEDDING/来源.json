@@ -25,13 +25,13 @@
       "retrieved_on": "2026-11-22",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "7acb179b9a1adf28dad77fbdeb226c9718af4e8a86eecf961de61445f1431cad",
+        "notes_sha256": "f24de975855919fccb1e0af8af65f94f0bc4e9c4eee52c50eb94afadaabc4241",
         "pages": [
           "cold-item-initialization-adaptation"
         ],
         "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
-        "review_note": "本轮知识正文与读者路径自查。复核属性生成、两阶段损失、冻结基座和向量更新范围。中文 PDF 和私有附件另有待办。"
+        "review_note": "固定 1904.11547v1 对照 §1、§3–5、式 (1)–(17)、算法 1、两表八图与 MAML 算法 1。回填共享初始化和图 7 的分模型例外，核对来源目录、模块、路线及 MAML 回链；中文 PDF 与原译附件均已验收，未运行模型。"
       }
     }
   ]

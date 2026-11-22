@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-22，盘点97篇中文PDF，97篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-22，盘点98篇中文PDF，98篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -109,3 +109,4 @@
 | [AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks](https://arxiv.org/abs/1810.11921v2) · `SRC-AUTOINT` | 私有，需登录 · 20261122.1 · 8页 | [not-permitted](https://arxiv.org/abs/1810.11921v2) | 摘要、正文 §1–6、致谢 §7、公式、图表说明和描述性脚注。参考文献、图内文字及 ACM 权利声明保留。；8 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
 | [CAN: Feature Co-Action for Click-Through Rate Prediction](https://arxiv.org/abs/2011.05625v3) · `SRC-CAN` | 私有，需登录 · 20261122.1 · 7页 | [not-permitted](https://arxiv.org/abs/2011.05625v3) | 摘要、正文 §1–7、公式、图表说明和描述性脚注。参考文献、图内文字及 WSDM 权利声明保留。；7 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
 | [TWIN: TWo-stage Interest Network for Lifelong User Behavior Modeling in CTR Prediction at Kuaishou](https://arxiv.org/abs/2302.02352v2) · `SRC-TWIN` | 私有，需登录 · 20261122.1 · 8页 | [not-permitted](https://arxiv.org/abs/2302.02352v2) | 摘要、正文 §1–5、公式、图表说明和描述性脚注。参考文献、图内文字及 KDD 权利声明保留。；8 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
+| [Warm Up Cold-start Advertisements: Improving CTR Predictions via Learning to Learn ID Embeddings](https://arxiv.org/abs/1904.11547v1) · `SRC-META-EMBEDDING` | 私有，需登录 · 20261122.1 · 9页 | [not-permitted](https://arxiv.org/abs/1904.11547v1) | 摘要、正文 §1–6 与致谢、公式、图表说明和描述性脚注。参考文献、图内文字及 SIGIR 权利声明保留。；9 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
