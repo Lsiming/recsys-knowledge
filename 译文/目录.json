@@ -1595,9 +1595,20 @@
     "original_url": "https://arxiv.org/abs/1810.11921v2",
     "revision": "arXiv 1810.11921v2",
     "checked_on": "2026-11-22",
-    "license_url": null,
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "status": "local-only",
-    "reason": "采用版已核对，正文中文 PDF 待译，全文译文发布许可待核。"
+    "reason": "8 页中文正文 PDF 已逐页验收、私有备份并认证下载。固定 arXiv 版本列非独占分发许可，未授予公众全文译文分发权。",
+    "evidence_url": "https://arxiv.org/abs/1810.11921v2",
+    "evidence_sha256": "60b8242bdc25177dc59194cb42757b030f3a3a3234ce770884bb480c149c2f0f",
+    "authors": [
+      "Weiping Song",
+      "Chence Shi",
+      "Zhiping Xiao",
+      "Zhijian Duan",
+      "Yewen Xu",
+      "Ming Zhang",
+      "Jian Tang"
+    ]
   },
   {
     "source_id": "SRC-CAN",

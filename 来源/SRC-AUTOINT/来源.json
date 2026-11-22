@@ -3,7 +3,7 @@
   "title": "AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks",
   "kind": "paper",
   "state": "active",
-  "current": "680aa0ddbfdeb5038b2d58bc6a81e1a2055ecd4c4ab469eeefd29c863dfbaab1",
+  "current": "c0c5ffd16d841654209250a0b96ea8a0a4ed5c09e8a808e12781e885581b349c",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/1810.11921v2",
@@ -32,6 +32,35 @@
         "reviewed_on": "2026-11-22",
         "review_method": "agent-self-review",
         "review_note": "本轮知识正文与读者路径自查。核对字段注意力、残差与点击监督及其与矩阵交叉的对比。中文 PDF 和私有附件另有待办。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/abs/1810.11921v2",
+      "revision": "arXiv 1810.11921v2",
+      "read_scope": "固定版本 10 页。核对正文 §1–6、单列致谢 §7、式 1–10、图 1–7、表 1–5。采用 PDF 无附录。源码中未被主文件引入的 appendix.tex 为未排入资料。未运行模型。",
+      "artifacts": [
+        {
+          "name": "1810.11921v2.pdf",
+          "sha256": "46e7992b8cbbc598dad791b1d8ffeb9aea2a3331375a26002158521172652685",
+          "snapshot": ".local/sources/SRC-AUTOINT/46e7992b8cbbc598dad791b1d8ffeb9aea2a3331375a26002158521172652685/1810.11921v2.pdf"
+        },
+        {
+          "name": "1810.11921v2.source.tar.gz",
+          "sha256": "01897b476cfd1a33be61367841792208b2a14de37315f8d1e1d3b08c3799c8dd",
+          "snapshot": ".local/sources/SRC-AUTOINT/01897b476cfd1a33be61367841792208b2a14de37315f8d1e1d3b08c3799c8dd/1810.11921v2.source.tar.gz"
+        }
+      ],
+      "fingerprint": "c0c5ffd16d841654209250a0b96ea8a0a4ed5c09e8a808e12781e885581b349c",
+      "retrieved_on": "2026-11-22",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "51afa0b4e52f8988f43a6a92b7fa315064593fefc328737bbcc69d267d31a636",
+        "pages": [
+          "sparse-feature-interactions"
+        ],
+        "reviewed_on": "2026-11-22",
+        "review_method": "agent-self-review",
+        "review_note": "核对采用版正文、致谢与活跃源码，纠正附录范围，复核每头投影参数和局部基线差异。正文中文 PDF 和采用原文均已核对并认证下载。"
       }
     }
   ]
