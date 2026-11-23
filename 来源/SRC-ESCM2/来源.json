@@ -27,11 +27,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "b0cece539722745a0a7dcb73f4985713d91d5725715b2b7de5a8e60a26052420",
         "pages": [
+          "multitask-objectives",
           "post-click-cvr-estimation"
         ],
-        "reviewed_on": "2026-11-22",
+        "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "固定 v2 全文与附录复核，保留定理 1 独立假设、定理 2 倾向分数定义及表 3/5 原数和译注。以图 5 的预测量匹配口径替代真实因果证据表述。核查 DFM、ESMM、多任务入口与首批对照，译文逐页验收并认证下载。"
+        "review_note": "复核多任务模块对反事实正则的导航，以及曝光、点击和转化分解的目标边界。"
       }
     }
   ]

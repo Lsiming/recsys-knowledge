@@ -25,13 +25,13 @@
       "retrieved_on": "2026-11-21",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "9ae571f8c5caa58bbb10684d464e7d93e6eb6ef29947285c8e71e3977e4b6899",
+        "notes_sha256": "9e2d1b8812bf536aa74b89dce23185560ef75453236fee60a629ba1d84398d71",
         "pages": [
           "ann-candidate-coverage"
         ],
-        "reviewed_on": "2026-11-21",
+        "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "核对显式L2、倒排漏扫、量化错序和WarpSelect，并复核8.5倍对应SIFT1B。 已复核图注与读者路径，未运行模型。"
+        "review_note": "据 v1 §6.4–6.5 和图 5 并列核实第一近邻命中与十近邻交集的不同分子，在精读和问题页标明 SIFT1B 的口径。"
       }
     }
   ]

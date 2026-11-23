@@ -22,11 +22,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "336df57b5819391ea783c29dc83ce06b17a4245319f4a8825a61601f40ec824e",
         "pages": [
-          "contextual-bandit-log-evaluation"
+          "contextual-bandit-log-evaluation",
+          "exploration-longterm"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "核对 NeurIPS 2011 §1–6、算法 1–3、式 (1)–(2)、图 1–5 和表 1–2；验算 Beta 后验概率与方差缩放，区分三个证据协议。8 页正文译稿均渲染目视，原译件私有认证下载。 已对直接引用和关联候选做技术证据与读者路径自查，未运行模型或独立审查。"
+        "review_note": "复核探索模块的后验采样入口，区分固定臂和带上下文的决策状态。"
       }
     }
   ]

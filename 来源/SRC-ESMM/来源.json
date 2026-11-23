@@ -27,15 +27,16 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "8cfeb4d899590a5cf0f4aef86cd44b0a81882b3ab6c0690a0c89f0cd6725eef1",
         "pages": [
+          "data-labels",
           "delayed-conversion-censoring",
           "implicit-pairwise-ranking",
           "multitask-negative-transfer",
           "multitask-objectives",
           "post-click-cvr-estimation"
         ],
-        "reviewed_on": "2026-11-22",
+        "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "本轮知识正文与读者路径自查。复核事件分解、样本空间、共享嵌入和延迟标签，与 ESCM² 对照。"
+        "review_note": "据 v2 §2.1 复核全曝光上联合事件可观测、未点击样本缺少点击条件转化监督的对照。"
       }
     }
   ]

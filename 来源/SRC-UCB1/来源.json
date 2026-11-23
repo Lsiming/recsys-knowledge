@@ -22,11 +22,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "99aa0a3c00836474ec0ecb91b234fd4a3c9e762262ee74db0166b0b4ca404e53",
         "pages": [
-          "contextual-bandit-log-evaluation"
+          "contextual-bandit-log-evaluation",
+          "exploration-longterm"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "采用作者站固定期刊版，核对正文 §1–5、4 项定理、附录 A–B、式 (1)–(18)、图 1–12 和实验表。精读定理 1 的均值偏离和计数证明，保留其他证明的原文疑点。14 页中文译稿逐页渲染目视，原译件均登录下载校验。完成技术证据与读者路径自查。未运行模型或独立审查。"
+        "review_note": "复核探索模块的 UCB1 入口，保留固定臂和有界奖励条件，并连接与 LinUCB 的方法比较。"
       }
     }
   ]

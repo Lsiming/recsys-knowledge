@@ -35,14 +35,14 @@
       "retrieved_on": "2026-11-23",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "d9aefea2185038358db863f708e2e192e223dae625740d5c4d93422706bb32cb",
+        "notes_sha256": "3fd04936516efce6b4ca3b99c94ed9b45d1cbd7cc98a75e983dcfcfcec2cb868",
         "pages": [
           "preranking-budget-retention",
           "sampled-two-tower-training"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "对照 ACM KDD 2021 正式全文 §3–6、图 2–5、表 3–5，复查塔内融合、批内难例、粗排、ANN、召回和候选路线。补独立两塔与 COLD、IntTower、PinSage、LogQ 的比较，区分样本分差、召回、人工相关性和线上会话。式 (4)、(6) 印式与表 3 增幅留审核台。"
+        "review_note": "复核 KDD 2021 §3.1–3.3、§6.5–6.6 和表 5，区分同通道内聚合、塔内跨通道融合与塔间余弦，核查难负例、候选阈值和首级替换的比较。"
       }
     }
   ]

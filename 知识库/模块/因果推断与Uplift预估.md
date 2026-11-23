@@ -3,11 +3,11 @@ id: "causal-uplift"
 title: "因果推断与 Uplift 预估"
 type: "map"
 status: "reviewed"
-updated: "2026-11-16"
+updated: "2026-11-23"
 summary: "从干预与对照定义进入条件增量估计，连接策略表示、正交学习、排序与幅度验证"
 aliases: ["因果推断/uplift预估", "uplift预估", "Uplift Modeling", "CATE", "增益模型", "异质性干预效应", "营销因果模型"]
 sources: {"SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f"}
-related: ["marketing-subsidy", "combinatorial-policy-uplift", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives"]
+related: ["marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives"]
 module: "因果推断与 Uplift 预估"
 ---
 # 因果推断与 Uplift 预估
@@ -36,9 +36,9 @@ $t_0$ 可以是不发券，也可以是当前策略；换了对照就换了问�
 |---|---|---|
 | 一项干预是单动作，还是整套依场景执行的策略？ | 明确策略规范、动作概率、场景权重；区分完整策略分配与策略内部随机动作 | [组合策略问题](../问题/组合营销策略如何共享结构并估计因果增量.md) |
 | 策略频繁重组，怎样借用组件信息？ | 类别ID与联合原子嵌入的区别；置换不变聚合只忽略存储顺序，仍须保留场景—动作关系 | POUL，含纯相加原子编码的退化分析 |
-| 如何减少基准预测误差对效应学习的影响？ | 对结果和干预表示残差化；交叉拟合与已知随机化概率；不把局部正交性扩大为任意学习误差保证 | [正交化机制及证明边界](../../来源/SRC-POUL/阅读笔记.md#三项理论分别保证了什么) |
+| 如何减少基准预测误差对效应学习的影响？ | 对结果和干预表示残差化；交叉拟合与已知随机化概率；不把局部正交性扩大为任意学习误差保证 | [POUL 的正交化推导](../../来源/SRC-POUL/阅读笔记.md#三项理论分别保证了什么)、[逐点误差余项的反例](../问题/正交得分怎样约束逐点效应误差.md) |
 | 联合折扣怎样同时建模和服务？ | 坐标级处理 Token 查询请求记忆，OBS 预训练后用 RCT LoRA 和门适配；通过处理并行复用请求编码 | [TaQFormer 精读](../../来源/SRC-TAQFORMER/阅读笔记.md) |
-| 能排序是否就能决定给多少补贴？ | AUUC看排序，分组效应误差看幅度；还要检查支持覆盖、近零分母与区间 | [实验与指标](../../来源/SRC-POUL/阅读笔记.md#实验支持部分排序优势幅度校准仍然不足) |
+| 能排序是否就能决定给多少补贴？ | AUUC看排序，分组效应误差看幅度；还需各动作的价值、成本与约束 | [POUL 的分箱实验](../../来源/SRC-POUL/阅读笔记.md#实验支持部分排序优势幅度校准仍然不足)、[TaQFormer 的预算分配算例](../问题/组合营销策略如何共享结构并估计因果增量.md#同样的增量为什么会选出不同的券) |
 | 商品量价异质性怎样建模，单调性是否等于因果性？ | 历史条件化参数、非负增量遮罩、预测后选价；仍需干预支持和识别条件 | [TG-DIPricingNets与补贴模型比较](../问题/商品历史如何生成单调需求曲线并支持定价.md) |
 
 T-Learner、Causal Forest、DESCN和DRCFR目前只作为POUL论文内部基线理解，不据此声称已独立精读。后续补基础或多值/连续干预资料时，围绕相同目标量、数据生成与支持条件比较，不另建一份同义的“增益模型”百科。

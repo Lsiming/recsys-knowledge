@@ -23,11 +23,12 @@
         "notes_sha256": "efdd1260b8e7d098f33fa90578b69aab82b6453e201a52fad6032ff9f6be405f",
         "pages": [
           "evaluation-bias",
+          "marketing-subsidy",
           "overlapping-online-experiments"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "回查 KDD 2010 §3–6 的域、层、默认优先级、分流类型、触发和交互。核对图 2、3、5 及样本量计算。10 页译文逐页目视，原译件认证下载验哈希。 完成技术事实与读者路径的当前 Agent 自查。"
+        "review_note": "据 §5.2.2 复核处理与对照共同触发日志，将营销总图的领取后筛选问题连接到线上分流与触发条件。"
       }
     }
   ]

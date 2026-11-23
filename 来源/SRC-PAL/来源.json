@@ -20,14 +20,16 @@
       "retrieved_on": "2026-11-23",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "cdeaa6df0a9c418527a938764a72ddae94a3662ec01c69389101a2ea7c6e2629",
+        "notes_sha256": "b3d661b8c8a4682d5353287e1b59d30c3192b93eca53f97d3ae58ca17b987384",
         "pages": [
+          "data-labels",
           "evaluation-bias",
+          "impression-ctr-calibration",
           "position-bias-click-learning"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "核对固定五页正文、式 (1)–(7)、作者图及逐周分流。按点击乘积复算样本和 BCE 导数，保留原梯度式与译注，修订位置特征说法。7 页译文逐页目视，原译件认证下载验哈希。 完成技术事实与读者路径的当前 Agent 自查。"
+        "review_note": "据 RecSys 2019 §2.2–2.3 核实训练拟合点击乘积与服务读取条件分支，复核位置问题、数据导读、概率校准三处的观察分母。"
       }
     }
   ]

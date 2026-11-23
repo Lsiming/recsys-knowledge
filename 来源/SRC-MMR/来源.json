@@ -22,11 +22,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "a1072f4d299faf55b58540fdfaf2793073243421f8899a6a481d315acef130f2",
         "pages": [
-          "list-relevance-diversity"
+          "list-relevance-diversity",
+          "reranking-slate"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "核对 SIGIR 1998 两页、印式括号和表 1，用三候选算例走通贪心过程并复算分数。原式及原表直接展示，两轮自查。全库反查覆盖重排模块、候选与批次、DPP 对照和相关问题。"
+        "review_note": "复核重排模块对 MMR 相关性与已选集冗余权衡的入口与范围。"
       }
     }
   ]

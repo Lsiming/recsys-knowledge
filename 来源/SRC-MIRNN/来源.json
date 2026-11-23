@@ -42,11 +42,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "50b61517a33b83e2d4cc4e581420a71f1f686544a239f1779867d50b18d7128a",
         "pages": [
+          "reranking-slate",
           "slate-prefix-dependence"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "核对 IJCAI 正式版 §1–5、算法 1、图 1–6、表 1–2 与作者 v1 源码对照。复算概率乘价格、束分支和扩展代价，区分已购条件日志与在线搜序，核对图表与阅读路径。"
+        "review_note": "核对重排模块到前缀决策问题的入口，区分 miRNN 按已选前缀打分与一次性上下文打分。"
       }
     }
   ]

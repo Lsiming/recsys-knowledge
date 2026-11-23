@@ -51,11 +51,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "01ca8367e7778ad587a48631cc71d6834b90cc06ab2903fa0a8b05cba63714b3",
         "pages": [
-          "multitask-negative-transfer"
+          "multitask-negative-transfer",
+          "multitask-objectives"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "复核固定 v2 §3、附录 A 以及表 2、表 4，新增满秩度量反例并同步问题页。源码与 PDF 同版，译文与私有认证下载通过。"
+        "review_note": "复核多任务模块从任务损失冲突到 MGDA 梯度组合的路径与条件，保持训练目标与线上效用的区分。"
       }
     }
   ]

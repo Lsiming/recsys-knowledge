@@ -28,11 +28,12 @@
         "notes_sha256": "0d9c165dd2fd540741d6b896ec8c19607aa8bef36bf819acf8a484cce6bb11aa",
         "pages": [
           "list-relevance-diversity",
+          "reranking-slate",
           "slate-prefix-dependence"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "固定 v1 §1–6 和图 1–10、四表，核对折扣只乘相关性、距离分母、目标分布代理的梯度与查询上下文一次打分。复算同候选算例，核对离线模拟与各线上对照。图文与读者路径自查完成。"
+        "review_note": "重排模块关联 Airbnb 列表相关性与距离权衡的精读和问题页，区分集合多样性与顺序依赖。"
       }
     }
   ]

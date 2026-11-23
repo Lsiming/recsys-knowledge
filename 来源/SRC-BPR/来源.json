@@ -20,7 +20,7 @@
       "retrieved_on": "2026-10-25",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "4513731823b2445bfa7ff416f1e979f549ba3f3a5cfb0b3f3962872e43b52133",
+        "notes_sha256": "853b3834cf1b0659152fe9da5c5241e7e0330343461eb398da67a2f0a7fcfa6f",
         "pages": [
           "collaborative-graph-representation",
           "generative-preference-alignment",
@@ -28,9 +28,9 @@
           "item-neighborhood-from-interactions",
           "next-item-sequence"
         ],
-        "reviewed_on": "2026-11-21",
+        "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "核对相对监督、LearnBPR梯度符号及随机留一AUC。逐页复核引用中的序列与成对监督、LightGCN、生成式偏好和物品邻域边界。 已复核图注与读者路径，未运行模型。"
+        "review_note": "据 §4.3 和 LightGCN §3 的打分、传播与 BPR 目标，补回 BPR-kNN 物品邻域与 BPR-MF 图传播比较入口。"
       }
     }
   ]

@@ -20,14 +20,14 @@
       "retrieved_on": "2026-11-23",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "41564d0900524a30a14e6b1ae008d107cc847cb173708584293958351def4b4c",
+        "notes_sha256": "2852cbb2893335d75805d73b50c70a61aa5668a219d53a4b58c6fb799a603d7f",
         "pages": [
           "cold-item-initialization-adaptation",
           "multidomain-parameter-sharing"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "对照 ACM RecSys 2023 正式全文 §2–3、算法 1、表 1–4，复查多场景共享、新品适配、跨域迁移与多任务模块入口。更新 UPT、MIEG 及其与 STAR、PEPNet、Meta-Embedding 的比较，区分已知类目离线评估和新品/新场景验证。TAG 共用任务项随行 Softmax 消去及表 2 增幅冲突留审核台。"
+        "review_note": "复核 RecSys 2023 §2–3 的物品初值内层更新与用户迁移，核对表 1–4 的五场景、Taobao 缺商品属性及表中差值，检查新品、多场景两处直接引用和相邻页面。"
       }
     }
   ]

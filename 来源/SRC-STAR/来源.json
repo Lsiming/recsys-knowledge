@@ -25,15 +25,16 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "74ac1eddaf8ee554a26a9d9b58ebe0ed099d7965db61d3048b73c4aa50ac173b",
+        "notes_sha256": "ab6daa9e21c362a9755a7f8245ab25a471ac6e25bd9f0f8a3ccbc682eed5a5e6",
         "pages": [
+          "impression-ctr-calibration",
           "multidomain-parameter-sharing",
           "multidomain-transfer",
           "multitask-negative-transfer"
         ],
-        "reviewed_on": "2026-11-22",
+        "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "本轮知识正文与读者路径自查。复核域归一化、星型权重与部署合成，检查多域任务与线上基准。"
+        "review_note": "据 v5 图 7 核实 PCOC 的域级分子与分母，复算分桶偏差互相抵消的教学例并检查精读、校准和多场景问题的路径。"
       }
     }
   ]

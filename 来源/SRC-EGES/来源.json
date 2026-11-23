@@ -25,14 +25,14 @@
       "retrieved_on": "2026-11-21",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "5ffa3f361eeb314d7c32ef3a512524ecd4644b93ae8ee7268da35d27b63c18a4",
+        "notes_sha256": "73f8963acf07bd49c07fe366256402e03cce6bf080e584df417c40f3c436c581",
         "pages": [
           "cold-item-initialization-adaptation",
           "item-neighborhood-from-interactions"
         ],
-        "reviewed_on": "2026-11-22",
+        "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "本轮知识正文与读者路径自查。复核原文冷物品等权属性初始化与图表征检索，在新品问题补入零历史基线。"
+        "review_note": "据 v2 §3.3.2 复核零行为新品的属性均值查询，并补回冷启动与少反馈适配问题。"
       }
     }
   ]

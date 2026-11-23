@@ -20,14 +20,15 @@
       "retrieved_on": "2026-11-21",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "e257c72c080f91d95fc5cac71ff9bf2a305aad9338e34fc263bceb4162104e71",
+        "notes_sha256": "895c71be6316fe9ed4b9f8c04a81ee7f66bc8fa8f2782c2081d26b1f671a37e5",
         "pages": [
+          "impression-ctr-calibration",
           "online-ctr-sparse-weights",
           "ranking-interaction"
         ],
-        "reviewed_on": "2026-11-22",
+        "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "核对 KDD 版算法 1 的读出与写回、两处印式疑点与表 1 对照，补验本地 Markdown 的原文章节与页码。"
+        "review_note": "据 KDD 2013 §7 核对切片校准、幂函数与保序的加权拟合，验算分档点击数并接回训练、校准两个问题。"
       }
     }
   ]

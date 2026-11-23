@@ -27,11 +27,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "74b25e3e432a78c76a3f8533bcd59475c09154449b6cf439131e8bb70c57f139",
         "pages": [
+          "reranking-slate",
           "slate-prefix-dependence"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "核对 v3 的式 (4)–(10)、图 1–3、表 2–6。明确原名次先相加再投影、列表 Softmax 与预训练 Sigmoid 的语义、匹配线上增幅与离线指标，复算三候选梯度并检查图文阅读路径。"
+        "review_note": "复核重排模块对初排列表上下文、一次性打分及前缀决策比较的入口。"
       }
     }
   ]

@@ -30,12 +30,13 @@
           "item-decoding-bias",
           "list-relevance-diversity",
           "multi-interest-retrieval",
+          "reranking-slate",
           "slate-longterm-decomposition",
           "slate-prefix-dependence"
         ],
         "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "重读固定 v2 正文及附录，复核投影残差、窗口定义、真实 A/B 与指标口径。以相同候选阐释 MMR 和 DPP 计算，补图 1–4。逐项复查集合与窗口范围、生成边界和长期目标差异。"
+        "review_note": "复核重排模块与集合多样性问题的入口，定位贪心 DPP 与 MMR 的比较。"
       }
     }
   ]

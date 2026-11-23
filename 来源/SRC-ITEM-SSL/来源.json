@@ -27,11 +27,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "a72119b0b718cacdccf6545a2db7dd2a78adf57c051f1f1063aab31faf1f4c31",
         "pages": [
-          "contrastive-views-for-recommendation"
+          "contrastive-views-for-recommendation",
+          "multidomain-transfer"
         ],
-        "reviewed_on": "2026-11-22",
+        "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "核对 v3 属性遮蔽、跨样本视图训练与服务入口，保留表 7 口径疑点。核对直接引用与关联候选，完成技术证据和读者路径自查。"
+        "review_note": "复核多场景模块对属性遮蔽和物品自监督的入口，区分新品初值、少量反馈适配与表征训练。"
       }
     }
   ]

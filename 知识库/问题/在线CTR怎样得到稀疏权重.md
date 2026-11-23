@@ -3,11 +3,11 @@ id: "online-ctr-sparse-weights"
 title: "在线CTR怎样得到稀疏权重"
 type: "problem"
 status: "reviewed"
-updated: "2026-11-22"
+updated: "2026-11-23"
 summary: "由逐曝光梯度、坐标步长与 L1 阈值读出稀疏权重，连接训练内存和服务校准"
 aliases: ["FTRL", "FTRL-Proximal", "稀疏在线学习", "在线CTR", "L1 近端更新", "渐进验证"]
 sources: {"SRC-FTRL": "c35d57025f475ec9b783deb09afb7988f6428f0e521351eb774f74cb74f937ee", "SRC-WIDEDEEP": "6c59a4020320ff1eb4e55fe37148b4952cbf03e178c73479f225224b0fd1114e", "SRC-FM": "22d8e46839f282fb7f569475856f22d2380b22da19e2630ed4e32855e1456fe3", "SRC-FFM": "280dda45f3f4b1cfec33a6b1f5ff989450ab4478d469abad6ce53264ebc3548b"}
-related: ["serving-efficiency", "ranking-interaction", "sparse-feature-interactions"]
+related: ["serving-efficiency", "ranking-interaction", "sparse-feature-interactions", "impression-ctr-calibration"]
 module: "在线服务、更新与计算效率"
 solutions: [{"name": "FTRL-Proximal", "idea": "保存累计平方梯度和修正线性项，用逐坐标软阈值求下一次预测权重", "papers": ["SRC-FTRL"]}, {"name": "宽深模型的稀疏宽路", "idea": "人工交叉进入带 L1 的 FTRL 宽路，与 AdaGrad 深路共同拟合安装标签", "papers": ["SRC-WIDEDEEP"]}]
 ---
@@ -31,4 +31,4 @@ McMahan 等作者算法 1，KDD 2013 第 2 页。依次核对阈值、预测、�
 
 对 ESPN、Nike、Male 的一次点击，线性 FTRL 更新当前特征。若手工额外加入 ESPN×Nike，它也获得自己的坐标和状态。下条曝光换成 Adidas，该交叉坐标没有梯度。FM 让变化通过 ESPN 向量共享给任何组合，FFM 让变化通过 ESPN 的广告主视角传给其他广告主。Wide & Deep 原论文的宽路采用带 L1 的 FTRL，深路用 AdaGrad，两个 logit 共同对安装标签拟合。类似的共享梯度也可以用其他优化器实现，表达由特征编码与模型结构决定。[低高阶交叉比较](稀疏特征的低高阶交互学习.md) · [Google Play 的联合更新](../../来源/SRC-WIDEDEEP/阅读笔记.md#应用安装标签训练输入与更新路径)
 
-在线学习中，以当前参数先打新曝光，再更新能评估随流量变化的预测表现。模型对照应覆盖同一时间和人群，并分别检查非零权重、Logloss、AucLoss 及概率校准。FTRL 文中用 AucLoss $1-\mathrm{AUC}$、非零系数和逐坐标步长报告模型比较。分组校准映射用来使预测概率与观察点击频率吻合。训练下采样按查询抽取无点击请求，使用逆纳入率恢复损失贡献，其权重和校准层各自处理不同环节。[FTRL §3–7](../../来源/SRC-FTRL/阅读笔记.md#在线验证与概率校准如何接进生产系统)
+在线学习中，以当前参数先打新曝光，再更新能评估随流量变化的预测表现。模型对照应覆盖同一时间和人群，并分别检查非零权重、Logloss、AucLoss 及概率校准。FTRL 文中用 AucLoss $1-\mathrm{AUC}$、非零系数和逐坐标步长报告模型比较。如何在概率分桶上拟合单调映射，见[排序分数怎样校准为曝光点击概率](排序分数怎样校准为曝光点击概率.md)。训练下采样按查询抽取无点击请求，使用逆纳入率恢复损失贡献，其权重和校准层各自处理不同环节。[FTRL §3–7](../../来源/SRC-FTRL/阅读笔记.md#在线验证与概率校准如何接进生产系统)
