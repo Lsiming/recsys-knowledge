@@ -2848,6 +2848,462 @@
       "credit": "Yiqun Liu 等",
       "modification": "PyMuPDF 3 倍渲染，左上原点坐标裁框 (310, 79, 565, 251) pt，图注另列，保留图内原有内容",
       "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-MMR/边际相关性印刷公式.png",
+      "sha256": "82e53bb2be5ab9a7d11ef2662c37ebb70319896f702b8617dd3b0f882466dd25",
+      "kind": "第三方原图",
+      "source_id": "SRC-MMR",
+      "source_version": "SIGIR 1998 正式版，DOI 10.1145/290941.291025",
+      "basis": "§2 MMR 定义，第 335 页",
+      "credit": "Jaime Carbonell 与 Jade Goldstein",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，保留原标签",
+      "original_pdf_sha256": "3e641b22c2584ba04299c290a0e686c6dc1d925548f90f8298ee2ba2318a83bf",
+      "pdf_page": 1,
+      "crop_pt": [
+        290,
+        315,
+        550,
+        350
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-MMR/句子准确率.png",
+      "sha256": "b78fe37c1d79b88dbf068ed130f82112b79e59b2f995209319424cdfcf3e32a4",
+      "kind": "第三方原图",
+      "source_id": "SRC-MMR",
+      "source_version": "SIGIR 1998 正式版，DOI 10.1145/290941.291025",
+      "basis": "表 1，第 336 页",
+      "credit": "Jaime Carbonell 与 Jade Goldstein",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，保留原标签",
+      "original_pdf_sha256": "3e641b22c2584ba04299c290a0e686c6dc1d925548f90f8298ee2ba2318a83bf",
+      "pdf_page": 2,
+      "crop_pt": [
+        295,
+        23,
+        548,
+        154
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-DPP/贪心加速与目标比值.png",
+      "sha256": "38e4bca28a3aa30aef2928295227b81ec0179779b87cd71f01856a4cddf06b21",
+      "kind": "第三方原图",
+      "source_id": "SRC-DPP",
+      "source_version": "arXiv 1709.05135v2",
+      "basis": "图 1，PDF 第 6 页",
+      "credit": "Laming Chen、Guoxin Zhang、Hanning Zhou",
+      "modification": "固定 PDF 裁图，PyMuPDF 2.5 倍缩放，原标签保留",
+      "original_pdf_sha256": "708e956695308213d79798a8bcaac8a63c1199d3fcbc557e11e82e8139d24cb6",
+      "pdf_page": 6,
+      "crop_pt": [
+        102,
+        66,
+        511,
+        174
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-DPP/短列表相关性与多样性.png",
+      "sha256": "1b605398a180e3cd08086e73ad5e238bf5ee3ab91836ba8daf8895d7c902934e",
+      "kind": "第三方原图",
+      "source_id": "SRC-DPP",
+      "source_version": "arXiv 1709.05135v2",
+      "basis": "图 2–3，PDF 第 7 页",
+      "credit": "Laming Chen、Guoxin Zhang、Hanning Zhou",
+      "modification": "固定 PDF 裁图，PyMuPDF 2.5 倍缩放，原标签保留",
+      "original_pdf_sha256": "708e956695308213d79798a8bcaac8a63c1199d3fcbc557e11e82e8139d24cb6",
+      "pdf_page": 7,
+      "crop_pt": [
+        104,
+        68,
+        508,
+        285
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-DPP/窗口内的局部多样性.png",
+      "sha256": "1f89abe30d225503810609cbbd80fdd0affaa3f2975c6d6977c24023de2bfddb",
+      "kind": "第三方原图",
+      "source_id": "SRC-DPP",
+      "source_version": "arXiv 1709.05135v2",
+      "basis": "图 4，PDF 第 8 页",
+      "credit": "Laming Chen、Guoxin Zhang、Hanning Zhou",
+      "modification": "固定 PDF 裁图，PyMuPDF 2.5 倍缩放，原标签保留",
+      "original_pdf_sha256": "708e956695308213d79798a8bcaac8a63c1199d3fcbc557e11e82e8139d24cb6",
+      "pdf_page": 8,
+      "crop_pt": [
+        105,
+        150,
+        507,
+        264
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SEQ2SLATE/候选指针架构.png",
+      "sha256": "9aff51093be09158f4b1eebb1cad07111439edca4af0e82c448da453e1c2fcb8",
+      "kind": "第三方原图",
+      "source_id": "SRC-SEQ2SLATE",
+      "source_version": "arXiv 1810.02019v3",
+      "basis": "图 1，PDF 第 3 页",
+      "credit": "Irwan Bello 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 2.5 倍缩放，原标签保留",
+      "original_pdf_sha256": "cf1b6dc533a498cf374f859f196d2905cede70de6801266a68fadc08c8728dd8",
+      "pdf_page": 3,
+      "crop_pt": [
+        153,
+        121,
+        461,
+        292
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SEQ2SLATE/逐步指针概率.png",
+      "sha256": "9ca7bca306c085aa0cf79fc247810695712b1bf5ebe0afa15f6d64883f4cd549",
+      "kind": "第三方原图",
+      "source_id": "SRC-SEQ2SLATE",
+      "source_version": "arXiv 1810.02019v3",
+      "basis": "图 2，PDF 第 11 页",
+      "credit": "Irwan Bello 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 2.5 倍缩放，原标签保留",
+      "original_pdf_sha256": "cf1b6dc533a498cf374f859f196d2905cede70de6801266a68fadc08c8728dd8",
+      "pdf_page": 11,
+      "crop_pt": [
+        131,
+        121,
+        481,
+        314
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SEQ2SLATE/逐展示位置点击率差值.png",
+      "sha256": "ffb1ec18ee2c318726bfa445c9536f3099a5ce45e2c7d7abb9e8008d07874229",
+      "kind": "第三方原图",
+      "source_id": "SRC-SEQ2SLATE",
+      "source_version": "arXiv 1810.02019v3",
+      "basis": "图 3，PDF 第 14 页",
+      "credit": "Irwan Bello 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 2.5 倍缩放，原标签保留",
+      "original_pdf_sha256": "cf1b6dc533a498cf374f859f196d2905cede70de6801266a68fadc08c8728dd8",
+      "pdf_page": 14,
+      "crop_pt": [
+        131,
+        130,
+        481,
+        312
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-AIRBNB-MLR/头部房源的价格与距离分布.png",
+      "sha256": "036a118dff6bf5b199e91a5cb172bb7fb594ffc481ac896a5f657277148c6d5c",
+      "kind": "第三方原图",
+      "source_id": "SRC-AIRBNB-MLR",
+      "source_version": "arXiv 2004.02621v1",
+      "basis": "图 1，PDF 第 2 页",
+      "credit": "Mustafa Abdool 等",
+      "modification": "固定 PDF 按图像外框裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "2a6adfded29cec5f5ce5d111454595ca74a41799982e2cb6f0bc50d9bd0bf58e",
+      "pdf_page": 2,
+      "crop_pt": [
+        58.72100067138672,
+        82.68962097167969,
+        289.1253967285156,
+        219.47900390625
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-AIRBNB-MLR/两阶段搜索架构.png",
+      "sha256": "01104bb3ce7c337e1a6d5003bf3d9db866065f2bf8c844f185b3958625c29fd8",
+      "kind": "第三方原图",
+      "source_id": "SRC-AIRBNB-MLR",
+      "source_version": "arXiv 2004.02621v1",
+      "basis": "图 2，PDF 第 2 页",
+      "credit": "Mustafa Abdool 等",
+      "modification": "固定 PDF 按图像外框裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "2a6adfded29cec5f5ce5d111454595ca74a41799982e2cb6f0bc50d9bd0bf58e",
+      "pdf_page": 2,
+      "crop_pt": [
+        53.79800033569336,
+        249.52847290039062,
+        298.5902404785156,
+        350.33099365234375
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-AIRBNB-MLR/基于点击率的位置折扣.png",
+      "sha256": "2d657a3fa20d593131cc0f26a7c3f41599df1a9b243a59e9e60973736982d686",
+      "kind": "第三方原图",
+      "source_id": "SRC-AIRBNB-MLR",
+      "source_version": "arXiv 2004.02621v1",
+      "basis": "图 3，PDF 第 3 页",
+      "credit": "Mustafa Abdool 等",
+      "modification": "固定 PDF 按图像外框裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "2a6adfded29cec5f5ce5d111454595ca74a41799982e2cb6f0bc50d9bd0bf58e",
+      "pdf_page": 3,
+      "crop_pt": [
+        58.72200012207031,
+        82.69131469726562,
+        289.118896484375,
+        219.489013671875
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-AIRBNB-MLR/查询上下文嵌入.png",
+      "sha256": "4be9b16f146d6fc5b2b592f91b73f80176ceaad147d45ee483b66449c4e30bb0",
+      "kind": "第三方原图",
+      "source_id": "SRC-AIRBNB-MLR",
+      "source_version": "arXiv 2004.02621v1",
+      "basis": "图 7，PDF 第 6 页",
+      "credit": "Mustafa Abdool 等",
+      "modification": "固定 PDF 按图像外框裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "2a6adfded29cec5f5ce5d111454595ca74a41799982e2cb6f0bc50d9bd0bf58e",
+      "pdf_page": 6,
+      "crop_pt": [
+        322.8819885253906,
+        82.69053649902344,
+        553.273193359375,
+        219.48797607421875
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-AIRBNB-MLR/房源与查询上下文打分.png",
+      "sha256": "d592e9ae10802dece56d676d0afd73dc4100246d239714e6e0696869e3d78170",
+      "kind": "第三方原图",
+      "source_id": "SRC-AIRBNB-MLR",
+      "source_version": "arXiv 2004.02621v1",
+      "basis": "图 8，PDF 第 7 页",
+      "credit": "Mustafa Abdool 等",
+      "modification": "固定 PDF 按图像外框裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "2a6adfded29cec5f5ce5d111454595ca74a41799982e2cb6f0bc50d9bd0bf58e",
+      "pdf_page": 7,
+      "crop_pt": [
+        58.7239990234375,
+        82.68701171875,
+        289.1207580566406,
+        219.48602294921875
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-AIRBNB-MLR/奥兰多位置重排示例.png",
+      "sha256": "03ea93b9db6a69e714b9209826a9969d79e96b845635ef4ff2decaf89a6f37c2",
+      "kind": "第三方原图",
+      "source_id": "SRC-AIRBNB-MLR",
+      "source_version": "arXiv 2004.02621v1",
+      "basis": "图 9，PDF 第 7 页",
+      "credit": "Mustafa Abdool 等",
+      "modification": "固定 PDF 按图像外框裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "2a6adfded29cec5f5ce5d111454595ca74a41799982e2cb6f0bc50d9bd0bf58e",
+      "pdf_page": 7,
+      "crop_pt": [
+        317.9549865722656,
+        82.69046020507812,
+        562.7393798828125,
+        154.68701171875
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-AIRBNB-MLR/相对价格与名次变化.png",
+      "sha256": "b1e02c13e77d04345819fb595e5e8f374f792addc6c494846ed1e3abb5f7c708",
+      "kind": "第三方原图",
+      "source_id": "SRC-AIRBNB-MLR",
+      "source_version": "arXiv 2004.02621v1",
+      "basis": "图 10，PDF 第 8 页",
+      "credit": "Mustafa Abdool 等",
+      "modification": "固定 PDF 按图像外框裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "2a6adfded29cec5f5ce5d111454595ca74a41799982e2cb6f0bc50d9bd0bf58e",
+      "pdf_page": 8,
+      "crop_pt": [
+        58.72700119018555,
+        82.69058227539062,
+        289.1138610839844,
+        219.48602294921875
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-MIRNN/前缀状态与购买概率.png",
+      "sha256": "b2151f10c09b6c5ff6f6b3dfb36cfd1eba595879a70a8df9d0df4181d76d7105",
+      "kind": "第三方原图",
+      "source_id": "SRC-MIRNN",
+      "source_version": "IJCAI 2018 正式版",
+      "basis": "图 1，PDF 第 4 页",
+      "credit": "Tao Zhuang、Wenwu Ou、Zhirong Wang",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "6c8fc5eea253a6a66beb883fc425915d3dd47d479b2dc9c699f9bce8123d8a8d",
+      "pdf_page": 4,
+      "crop_pt": [
+        52,
+        68,
+        305,
+        266
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-MIRNN/按位置的平均注意力.png",
+      "sha256": "7230ef60af9a75053c02687baf2724ae635348ef9caba599af1b4b3b4efa6f22",
+      "kind": "第三方原图",
+      "source_id": "SRC-MIRNN",
+      "source_version": "IJCAI 2018 正式版",
+      "basis": "图 2，PDF 第 5 页",
+      "credit": "Tao Zhuang、Wenwu Ou、Zhirong Wang",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "6c8fc5eea253a6a66beb883fc425915d3dd47d479b2dc9c699f9bce8123d8a8d",
+      "pdf_page": 5,
+      "crop_pt": [
+        355,
+        64,
+        527,
+        247
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-MIRNN/重排长度与GMV.png",
+      "sha256": "02ffd44949c37930ec31ff4f41061d7fb2452b7348e1666e74d30c60834d1a4c",
+      "kind": "第三方原图",
+      "source_id": "SRC-MIRNN",
+      "source_version": "IJCAI 2018 正式版",
+      "basis": "图 3，PDF 第 5 页",
+      "credit": "Tao Zhuang、Wenwu Ou、Zhirong Wang",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "6c8fc5eea253a6a66beb883fc425915d3dd47d479b2dc9c699f9bce8123d8a8d",
+      "pdf_page": 5,
+      "crop_pt": [
+        350,
+        451,
+        522,
+        590
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-MIRNN/重排长度与搜索时延.png",
+      "sha256": "06d7b9d107ddf2f6af17bb12bebc57534754d52819efa0a7b71c7e0ef54e8173",
+      "kind": "第三方原图",
+      "source_id": "SRC-MIRNN",
+      "source_version": "IJCAI 2018 正式版",
+      "basis": "图 4，PDF 第 6 页",
+      "credit": "Tao Zhuang、Wenwu Ou、Zhirong Wang",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "6c8fc5eea253a6a66beb883fc425915d3dd47d479b2dc9c699f9bce8123d8a8d",
+      "pdf_page": 6,
+      "crop_pt": [
+        77,
+        62,
+        254,
+        190
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-MIRNN/束宽与GMV.png",
+      "sha256": "f8ff99be058002cdedda5684ace936553115ea1729d504110f1b172993a2f395",
+      "kind": "第三方原图",
+      "source_id": "SRC-MIRNN",
+      "source_version": "IJCAI 2018 正式版",
+      "basis": "图 5，PDF 第 6 页",
+      "credit": "Tao Zhuang、Wenwu Ou、Zhirong Wang",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "6c8fc5eea253a6a66beb883fc425915d3dd47d479b2dc9c699f9bce8123d8a8d",
+      "pdf_page": 6,
+      "crop_pt": [
+        82,
+        520,
+        254,
+        653
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-MIRNN/束宽与搜索时延.png",
+      "sha256": "ecba92c50555e78133e111bb274dcc165b6ea578868e20df3a518407277ed9e2",
+      "kind": "第三方原图",
+      "source_id": "SRC-MIRNN",
+      "source_version": "IJCAI 2018 正式版",
+      "basis": "图 6，PDF 第 6 页",
+      "credit": "Tao Zhuang、Wenwu Ou、Zhirong Wang",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "6c8fc5eea253a6a66beb883fc425915d3dd47d479b2dc9c699f9bce8123d8a8d",
+      "pdf_page": 6,
+      "crop_pt": [
+        350,
+        62,
+        516,
+        190
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PRM/候选编码与用户个性化架构.png",
+      "sha256": "a632d97d556cafd01306caaa21df996da14dfc0cb5836503f7e5bbc13f2a22aa",
+      "kind": "第三方原图",
+      "source_id": "SRC-PRM",
+      "source_version": "arXiv 1904.06813v3",
+      "basis": "图 1，PDF 第 4 页",
+      "credit": "Changhua Pei 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "c978ac3e51b3d7bcb2641a18ecb1c8d9f3ca70c1968ac195f4c05c4c712f90d8",
+      "pdf_page": 4,
+      "crop_pt": [
+        52,
+        82,
+        560,
+        254
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PRM/类目与价格注意力.png",
+      "sha256": "612e331e775490c0799715f127ba82bcb99753f9a8250ba9c43e4cddd92be6fe",
+      "kind": "第三方原图",
+      "source_id": "SRC-PRM",
+      "source_version": "arXiv 1904.06813v3",
+      "basis": "图 2，PDF 第 8 页",
+      "credit": "Changhua Pei 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "c978ac3e51b3d7bcb2641a18ecb1c8d9f3ca70c1968ac195f4c05c4c712f90d8",
+      "pdf_page": 8,
+      "crop_pt": [
+        51,
+        288,
+        298,
+        426
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PRM/有无初始位置嵌入的注意力.png",
+      "sha256": "1feeec28285a0e9e242fe08c00dd592e63725e41c67ffad85f3f202224c3bd3c",
+      "kind": "第三方原图",
+      "source_id": "SRC-PRM",
+      "source_version": "arXiv 1904.06813v3",
+      "basis": "图 3，PDF 第 8 页",
+      "credit": "Changhua Pei 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "c978ac3e51b3d7bcb2641a18ecb1c8d9f3ca70c1968ac195f4c05c4c712f90d8",
+      "pdf_page": 8,
+      "crop_pt": [
+        315,
+        167,
+        560,
+        314
+      ],
+      "created_on": "2026-11-23"
     }
   ]
 }

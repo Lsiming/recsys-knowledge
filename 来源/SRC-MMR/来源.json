@@ -1,0 +1,33 @@
+{
+  "id": "SRC-MMR",
+  "title": "The Use of MMR, Diversity-Based Reranking for Reordering Documents and Producing Summaries",
+  "kind": "paper",
+  "state": "active",
+  "current": "3c29b63428075f66aaedcffd6a4b30ed4ed774e37f3d7504e11ca6cb6cec2328",
+  "versions": [
+    {
+      "locator": "https://www.cs.cmu.edu/~jgc/publication/The_Use_MMR_Diversity_Based_LTMIR_1998.pdf",
+      "revision": "SIGIR 1998 正式版，第 335–336 页，DOI 10.1145/290941.291025，第一作者 CMU 站点副本",
+      "read_scope": "两页，摘要、正文 §1–5、最大边际相关性印式和表 1；参考文献用于定位。",
+      "artifacts": [
+        {
+          "name": "MMR.SIGIR1998.pdf",
+          "sha256": "3e641b22c2584ba04299c290a0e686c6dc1d925548f90f8298ee2ba2318a83bf",
+          "snapshot": ".local/sources/SRC-MMR/3e641b22c2584ba04299c290a0e686c6dc1d925548f90f8298ee2ba2318a83bf/MMR.SIGIR1998.pdf"
+        }
+      ],
+      "fingerprint": "3c29b63428075f66aaedcffd6a4b30ed4ed774e37f3d7504e11ca6cb6cec2328",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a1072f4d299faf55b58540fdfaf2793073243421f8899a6a481d315acef130f2",
+        "pages": [
+          "list-relevance-diversity"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "核对 SIGIR 1998 两页、印式括号和表 1，用三候选算例走通贪心过程并复算分数。原式及原表直接展示，两轮自查。全库反查覆盖重排模块、候选与批次、DPP 对照和相关问题。"
+      }
+    }
+  ]
+}

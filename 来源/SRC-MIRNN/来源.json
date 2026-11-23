@@ -1,0 +1,53 @@
+{
+  "id": "SRC-MIRNN",
+  "title": "Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search",
+  "kind": "paper",
+  "state": "active",
+  "current": "9f4eebbbf5c67591a6f5b8b2915d5ff5fb5cf797ef5e3e79b660e88086c391c4",
+  "versions": [
+    {
+      "locator": "https://www.ijcai.org/proceedings/2018/0518.pdf",
+      "revision": "IJCAI 2018 正式版，第 3725–3731 页，DOI 10.24963/ijcai.2018/518",
+      "read_scope": "固定正式 PDF 7 页，摘要、正文 §1–5、图 1–6、表 1–2、算法 1 及致谢；参考文献用于定位。",
+      "artifacts": [
+        {
+          "name": "miRNN.IJCAI2018.pdf",
+          "sha256": "6c8fc5eea253a6a66beb883fc425915d3dd47d479b2dc9c699f9bce8123d8a8d",
+          "snapshot": ".local/sources/SRC-MIRNN/6c8fc5eea253a6a66beb883fc425915d3dd47d479b2dc9c699f9bce8123d8a8d/miRNN.IJCAI2018.pdf"
+        }
+      ],
+      "fingerprint": "8fb6d561e5ad5fcdf05fb4d7d076a5a4950fe88986917a742c30de17b50f2aae",
+      "retrieved_on": "2026-11-23",
+      "integration": null
+    },
+    {
+      "locator": "https://www.ijcai.org/proceedings/2018/0518.pdf",
+      "revision": "IJCAI 2018 正式版，第 3725–3731 页，DOI 10.24963/ijcai.2018/518；附作者 arXiv 1805.08524v1 源码",
+      "read_scope": "采用 IJCAI 正式 PDF 7 页，核对摘要、正文 §1–5、图 1–6、表 1–2、算法 1 及致谢。作者 arXiv v1 源码作对照，正式版 PDF 决定译文范围。",
+      "artifacts": [
+        {
+          "name": "miRNN.IJCAI2018.pdf",
+          "sha256": "6c8fc5eea253a6a66beb883fc425915d3dd47d479b2dc9c699f9bce8123d8a8d",
+          "snapshot": ".local/sources/SRC-MIRNN/6c8fc5eea253a6a66beb883fc425915d3dd47d479b2dc9c699f9bce8123d8a8d/miRNN.IJCAI2018.pdf"
+        },
+        {
+          "name": "miRNN.1805.08524v1.source.tar.gz",
+          "sha256": "93c7f94506ccae81d3da3f14e2c1a2735835c2a2311cf459426c1ecda3952556",
+          "snapshot": ".local/sources/SRC-MIRNN/93c7f94506ccae81d3da3f14e2c1a2735835c2a2311cf459426c1ecda3952556/miRNN.1805.08524v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "9f4eebbbf5c67591a6f5b8b2915d5ff5fb5cf797ef5e3e79b660e88086c391c4",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "50b61517a33b83e2d4cc4e581420a71f1f686544a239f1779867d50b18d7128a",
+        "pages": [
+          "slate-prefix-dependence"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "核对 IJCAI 正式版 §1–5、算法 1、图 1–6、表 1–2 与作者 v1 源码对照。复算概率乘价格、束分支和扩展代价，区分已购条件日志与在线搜序，核对图表与阅读路径。"
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-23，盘点103篇中文PDF，103篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-23，盘点107篇中文PDF，107篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -115,3 +115,7 @@
 | [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650v2) · `SRC-MGDA` | 私有，需登录 · 20261122.1 · 14页 | [unverified](https://arxiv.org/abs/1810.04650v2) | 摘要、正文 §1–5、算法注释、正文图表说明及描述性脚注。附录 A–C、参考文献、图内文字、作者署名和 NeurIPS 出版信息保留原文。；14 页逐页渲染目视。原文及译文均核对远端 SHA-256 摘要并登录下载核验。 |
 | [Que2Search: Fast and Accurate Query and Document Understanding for Search at Facebook](https://doi.org/10.1145/3447548.3467127) · `SRC-QUE2SEARCH` | 私有，需登录 · 20261123.1 · 13页 | [unverified](https://doi.org/10.1145/3447548.3467127) | 摘要、正文 §1–8、五幅图与五张表的说明、描述性脚注及致谢。图内文字、参考文献与 ACM 版权声明保留原文。；13 页逐页目视，原文与译文均核对远端摘要并认证下载。 |
 | [M3REC: A Meta-based Multi-scenario Multi-task Recommendation Framework](https://doi.org/10.1145/3604915.3608828) · `SRC-M3REC` | 私有，需登录 · 20261123.1 · 9页 | [unverified](https://doi.org/10.1145/3604915.3608828) | 摘要、正文 §1–4、算法 1、两幅图与四张表的说明、脚注及致谢。图内文字、参考文献与 ACM 权利声明保留原文。；9 页逐页目视，原文与译文均核对远端摘要并认证下载。 |
+| [The Use of MMR, Diversity-Based Reranking for Reordering Documents and Producing Summaries](https://www.cs.cmu.edu/~jgc/publication/The_Use_MMR_Diversity_Based_LTMIR_1998.pdf) · `SRC-MMR` | 私有，需登录 · 20261123.1 · 4页 | [unverified](https://www.cs.cmu.edu/~jgc/publication/The_Use_MMR_Diversity_Based_LTMIR_1998.pdf) | 摘要、正文 §1–5、MMR 定义式、表 1。参考文献与 ACM 权利声明保留原文。；4 页逐页渲染目视，原文与译文均核对远端摘要并实际认证下载。 |
+| [Managing Diversity in Airbnb Search](https://arxiv.org/abs/2004.02621v1) · `SRC-AIRBNB-MLR` | 私有，需登录 · 20261123.1 · 6页 | [not-permitted](https://arxiv.org/abs/2004.02621v1) | 摘要、正文 §1–6、图表说明和代码注释。图内文字、代码语句和参考文献保留原文。；6 页逐页渲染目视，原文与译文均核对远端摘要并实际认证下载。 |
+| [Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search](https://www.ijcai.org/proceedings/2018/0518.pdf) · `SRC-MIRNN` | 私有，需登录 · 20261123.1 · 10页 | [unverified](https://www.ijcai.org/proceedings/2018/518) | 摘要、正文 §1–5、算法 1、13 个编号公式、6 幅图及 2 张表的说明、描述脚注和致谢。参考文献和图内文字保留原文。；10 页逐页渲染目视，原文与译文均核对远端摘要并实际认证下载。 |
+| [Personalized Re-ranking for Recommendation](https://arxiv.org/abs/1904.06813v3) · `SRC-PRM` | 私有，需登录 · 20261123.1 · 7页 | [not-permitted](https://arxiv.org/abs/1904.06813v3) | 摘要、正文 §1–6、图表说明及描述性脚注。保留图内标签、文献和 ACM 权利声明。；7 页逐页渲染目视，原文与译文均核对远端摘要并实际认证下载。 |

@@ -1793,5 +1793,84 @@
     ],
     "evidence_url": "https://doi.org/10.1145/3604915.3608828",
     "evidence_sha256": "2c5bff2f06c9a9509b75c0f3d6b764a61840d15e1ea306abbe56da8444df07ce"
+  },
+  {
+    "source_id": "SRC-MMR",
+    "title": "The Use of MMR, Diversity-Based Reranking for Reordering Documents and Producing Summaries",
+    "original_url": "https://www.cs.cmu.edu/~jgc/publication/The_Use_MMR_Diversity_Based_LTMIR_1998.pdf",
+    "revision": "SIGIR 1998 正式版，第 335–336 页，DOI 10.1145/290941.291025，第一作者 CMU 站点副本",
+    "checked_on": "2026-11-23",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "4 页中文正文 PDF 已逐页验收并私有备份，公开全文译文再分发许可未确认。",
+    "authors": [
+      "Jaime Carbonell",
+      "Jade Goldstein"
+    ],
+    "evidence_url": "https://www.cs.cmu.edu/~jgc/publication/The_Use_MMR_Diversity_Based_LTMIR_1998.pdf",
+    "evidence_sha256": "3e641b22c2584ba04299c290a0e686c6dc1d925548f90f8298ee2ba2318a83bf"
+  },
+  {
+    "source_id": "SRC-AIRBNB-MLR",
+    "title": "Managing Diversity in Airbnb Search",
+    "original_url": "https://arxiv.org/abs/2004.02621v1",
+    "revision": "arXiv 2004.02621v1，2020-03-31；KDD 正式 DOI 10.1145/3394486.3403345，采用预印本",
+    "checked_on": "2026-11-23",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "status": "local-only",
+    "reason": "6 页中文正文 PDF 已逐页验收并私有备份，公开全文译文再分发许可未确认。",
+    "authors": [
+      "Mustafa Abdool",
+      "Malay Haldar",
+      "Prashant Ramanathan",
+      "Tyler Sax",
+      "Lanbo Zhang",
+      "Aamir Mansawala",
+      "Shulin Yang",
+      "Tomas Legrand"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2004.02621v1",
+    "evidence_sha256": "b000a7b80ba78765778d8523b9de5c09997876bb3ba5e264f60f34eb44cccf6c"
+  },
+  {
+    "source_id": "SRC-MIRNN",
+    "title": "Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search",
+    "original_url": "https://www.ijcai.org/proceedings/2018/0518.pdf",
+    "revision": "IJCAI 2018 正式版，第 3725–3731 页，DOI 10.24963/ijcai.2018/518；附作者 arXiv 1805.08524v1 源码",
+    "checked_on": "2026-11-23",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "10 页中文正文 PDF 已逐页验收并私有备份，公开全文译文再分发许可未确认。",
+    "authors": [
+      "Tao Zhuang",
+      "Wenwu Ou",
+      "Zhirong Wang"
+    ],
+    "evidence_url": "https://www.ijcai.org/proceedings/2018/518",
+    "evidence_sha256": "edef6ed48ce6d2f8cac0a27d8572d7273dcb80d1db6b69e187cc379d4f23656b"
+  },
+  {
+    "source_id": "SRC-PRM",
+    "title": "Personalized Re-ranking for Recommendation",
+    "original_url": "https://arxiv.org/abs/1904.06813v3",
+    "revision": "arXiv 1904.06813v3，2019-07-23；RecSys 2019 DOI 10.1145/3298689.3347000",
+    "checked_on": "2026-11-23",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "status": "local-only",
+    "reason": "7 页中文正文 PDF 已逐页验收并私有备份，公开全文译文再分发许可未确认。",
+    "authors": [
+      "Changhua Pei",
+      "Yi Zhang",
+      "Yongfeng Zhang",
+      "Fei Sun",
+      "Xiao Lin",
+      "Hanxiao Sun",
+      "Jian Wu",
+      "Peng Jiang",
+      "Junfeng Ge",
+      "Wenwu Ou"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1904.06813v3",
+    "evidence_sha256": "33bf188297215c7823dbfc83dcd5786aa90f21c0c25670474861886ebac09922"
   }
 ]

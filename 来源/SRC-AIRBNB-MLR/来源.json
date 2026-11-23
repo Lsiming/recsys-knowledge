@@ -1,0 +1,39 @@
+{
+  "id": "SRC-AIRBNB-MLR",
+  "title": "Managing Diversity in Airbnb Search",
+  "kind": "paper",
+  "state": "active",
+  "current": "b65eeb165fe867efda12cca2f1b0ded0f7ffe8019f2105b6a59ddfe0d9c5935d",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2004.02621v1",
+      "revision": "arXiv 2004.02621v1，2020-03-31；KDD 正式 DOI 10.1145/3394486.3403345，采用预印本",
+      "read_scope": "9 页固定 PDF，摘要、正文 §1–6、10 幅图与 4 张表，参考文献用于定位。",
+      "artifacts": [
+        {
+          "name": "Airbnb.2004.02621v1.pdf",
+          "sha256": "2a6adfded29cec5f5ce5d111454595ca74a41799982e2cb6f0bc50d9bd0bf58e",
+          "snapshot": ".local/sources/SRC-AIRBNB-MLR/2a6adfded29cec5f5ce5d111454595ca74a41799982e2cb6f0bc50d9bd0bf58e/Airbnb.2004.02621v1.pdf"
+        },
+        {
+          "name": "Airbnb.2004.02621v1.source.tar.gz",
+          "sha256": "be7113ae06c4e9aa7909a2928dd333ca7ff4a32b0545933bcdd9e336cc224aa1",
+          "snapshot": ".local/sources/SRC-AIRBNB-MLR/be7113ae06c4e9aa7909a2928dd333ca7ff4a32b0545933bcdd9e336cc224aa1/Airbnb.2004.02621v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "b65eeb165fe867efda12cca2f1b0ded0f7ffe8019f2105b6a59ddfe0d9c5935d",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "0d9c165dd2fd540741d6b896ec8c19607aa8bef36bf819acf8a484cce6bb11aa",
+        "pages": [
+          "list-relevance-diversity",
+          "slate-prefix-dependence"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "固定 v1 §1–6 和图 1–10、四表，核对折扣只乘相关性、距离分母、目标分布代理的梯度与查询上下文一次打分。复算同候选算例，核对离线模拟与各线上对照。图文与读者路径自查完成。"
+      }
+    }
+  ]
+}

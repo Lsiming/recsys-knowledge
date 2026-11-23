@@ -709,3 +709,7 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 - 2026-11-23 · [MGDA v2](来源/SRC-MGDA/阅读笔记.md)完成译本验收及原译件私有备份，回填 MGDA-UB 参数空间共同下降的证明边界。通过 ACM eReader 正式下载 Que2Search 与 M3REC 采用版原文。
 
 - 2026-11-23 · [第 07–10 批](文档/会话/PAPER-010.md)全部 22 篇完成。交付 Que2Search、M3REC 的技术精读、6 张作者原图、中文 PDF 与认证备份，回写多场景与新品适配、粗排预算及双塔负采样。
+
+## [2026-11-23] ingest | PAPER-011 · 比较重排目标、一次打分与候选前缀
+
+完成 MMR、Airbnb MLR、miRNN、PRM 四篇的原文精读及 27 页正文译本，重读 DPP 与 Seq2Slate。统一候选算例和 24 份作者图表贯穿两张问题页，复核 MMR 括号、Airbnb 位置折扣、miRNN 束宽与时延、PRM 个性化和 Seq2Slate 逐步监督。8 份新增与 4 份既有原译附件完成私有认证下载核验。见[第 11 批交接](文档/会话/PAPER-011.md)。
