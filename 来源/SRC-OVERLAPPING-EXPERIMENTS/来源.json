@@ -1,0 +1,34 @@
+{
+  "id": "SRC-OVERLAPPING-EXPERIMENTS",
+  "title": "Overlapping Experiment Infrastructure: More, Better, Faster Experimentation",
+  "kind": "paper",
+  "state": "active",
+  "current": "f52143a1e3931118cd6ca9ea3a64ac7e367eb32d4db4dc5531d615a2f66571c9",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/1835804.1835810",
+      "revision": "KDD 2010, 17–26；固定 GitHub 第三方镜像，ACM 权利栏与出版信息吻合",
+      "read_scope": "采用 10 页会议全文；阅读摘要、正文 §1–7、致谢，定位 §8；核对图 1–5。",
+      "artifacts": [
+        {
+          "name": "TangAgarwalOBrienMeyer.KDD2010.pdf",
+          "sha256": "3990bbb36f320e5480f051cc4271b60f10f3f427c1e79c676d5305e7f2f89216",
+          "snapshot": ".local/sources/SRC-OVERLAPPING-EXPERIMENTS/3990bbb36f320e5480f051cc4271b60f10f3f427c1e79c676d5305e7f2f89216/TangAgarwalOBrienMeyer.KDD2010.pdf"
+        }
+      ],
+      "fingerprint": "f52143a1e3931118cd6ca9ea3a64ac7e367eb32d4db4dc5531d615a2f66571c9",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "efdd1260b8e7d098f33fa90578b69aab82b6453e201a52fad6032ff9f6be405f",
+        "pages": [
+          "evaluation-bias",
+          "overlapping-online-experiments"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "回查 KDD 2010 §3–6 的域、层、默认优先级、分流类型、触发和交互。核对图 2、3、5 及样本量计算。10 页译文逐页目视，原译件认证下载验哈希。 完成技术事实与读者路径的当前 Agent 自查。"
+      }
+    }
+  ]
+}

@@ -1905,5 +1905,42 @@
     ],
     "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf",
     "evidence_sha256": "3dd07ef86920cc0b8e1e3fdcce22cde94d629fd9fcc22b8455486258ec1b6145"
+  },
+  {
+    "source_id": "SRC-PAL",
+    "title": "PAL: A Position-bias Aware Learning Framework for CTR Prediction in Live Recommender Systems",
+    "original_url": "https://doi.org/10.1145/3298689.3347033",
+    "revision": "ACM RecSys 2019，452–456；固定第三方镜像中的作者上传 ResearchGate 封装版，六页含平台封页",
+    "checked_on": "2026-11-23",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "7 页中文 PDF 已逐页验收并私有备份，公开 Markdown 全文译文再分发许可未确认。",
+    "authors": [
+      "Huifeng Guo",
+      "Jinkai Yu",
+      "Qing Liu",
+      "Ruiming Tang",
+      "Yuzhou Zhang"
+    ],
+    "evidence_url": "https://raw.githubusercontent.com/wzhe06/Reco-papers/2c617a1659c38f60848c051b377f3faef5df831f/Cold%20Start%20and%20Debias/%5BPAL%5D%20A%20Position-Bias%20Aware%20Learning%20Framework%20for%20CTR%20Prediction%20in%20Live%20Recommender%20Systems.pdf",
+    "evidence_sha256": "e8296dc9b45cf6a7b0e7b40e653d2fc31887c898ea6b8c5b7bf056dc6b2b8608"
+  },
+  {
+    "source_id": "SRC-OVERLAPPING-EXPERIMENTS",
+    "title": "Overlapping Experiment Infrastructure: More, Better, Faster Experimentation",
+    "original_url": "https://doi.org/10.1145/1835804.1835810",
+    "revision": "KDD 2010, 17–26；固定 GitHub 第三方镜像，ACM 权利栏与出版信息吻合",
+    "checked_on": "2026-11-23",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "10 页中文 PDF 已逐页验收并私有备份，公开 Markdown 全文译文再分发许可未确认。",
+    "authors": [
+      "Diane Tang",
+      "Ashish Agarwal",
+      "Deirdre O’Brien",
+      "Mike Meyer"
+    ],
+    "evidence_url": "https://raw.githubusercontent.com/oldratlee/translations/f867b77e271481fb2a3447e9341c845c4f059a2a/overlapping-experiment-infrastructure-more-better-faster-experimentation/overlapping-experiment-infrastructure-more-better-faster-experimentation-36500.pdf",
+    "evidence_sha256": "3990bbb36f320e5480f051cc4271b60f10f3f427c1e79c676d5305e7f2f89216"
   }
 ]

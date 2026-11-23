@@ -3494,6 +3494,253 @@
         337
       ],
       "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-HERLOCKER-EVAL/相关与不相关的分数分布.png",
+      "sha256": "ef7c160983b2eaa8f5f6404e67e2a5fbf4ef3139771cbae3a8fd909972441313",
+      "kind": "第三方原图",
+      "source_id": "SRC-HERLOCKER-EVAL",
+      "source_version": "ACM TOIS 2004 正式版",
+      "basis": "图 1，PDF 第 22 页",
+      "credit": "Jonathan L. Herlocker、Joseph A. Konstan、Loren G. Terveen、John T. Riedl",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "f897a498b04f953177d7097637dc455fa34285125c654e1e734d1197b1d9e568",
+      "pdf_page": 22,
+      "crop_pt": [
+        154,
+        116,
+        454,
+        265
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-HERLOCKER-EVAL/评价指标之间的散点矩阵.png",
+      "sha256": "3b41f4c6832c4212922f1925b58fc559fc5360e7d4b842935aea11a3c6cceb82",
+      "kind": "第三方原图",
+      "source_id": "SRC-HERLOCKER-EVAL",
+      "source_version": "ACM TOIS 2004 正式版",
+      "basis": "图 3，PDF 第 31 页",
+      "credit": "Jonathan L. Herlocker、Joseph A. Konstan、Loren G. Terveen、John T. Riedl",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "f897a498b04f953177d7097637dc455fa34285125c654e1e734d1197b1d9e568",
+      "pdf_page": 31,
+      "crop_pt": [
+        126,
+        112,
+        492,
+        369
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-RECBOLE-PAPER/统一推荐框架.png",
+      "sha256": "d6c87c58a38d76ff5cbc93f3bf4db4d312ce01a812e293e8408f06c5683f0bda",
+      "kind": "第三方原图",
+      "source_id": "SRC-RECBOLE-PAPER",
+      "source_version": "arXiv 2011.01731v3",
+      "basis": "图 1，PDF 第 2 页",
+      "credit": "Wayne Xin Zhao、Shanlei Mu 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "b0662cb0329e021482452754c29b9fcce1c462086def9731776de08df8e0f5e5",
+      "pdf_page": 2,
+      "crop_pt": [
+        54,
+        82,
+        296,
+        186
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-RECBOLE-PAPER/批量评估的排序与索引收集.png",
+      "sha256": "c3e877001d221466d59df11a7949716f0c44a754f7e360cf1a49cdfdbacd5632",
+      "kind": "第三方原图",
+      "source_id": "SRC-RECBOLE-PAPER",
+      "source_version": "arXiv 2011.01731v3",
+      "basis": "图 2，PDF 第 7 页",
+      "credit": "Wayne Xin Zhao、Shanlei Mu 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "b0662cb0329e021482452754c29b9fcce1c462086def9731776de08df8e0f5e5",
+      "pdf_page": 7,
+      "crop_pt": [
+        53,
+        81,
+        560,
+        260
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-RECBOLE-PAPER/评估模块的数据流.png",
+      "sha256": "b98367f540ada30b677bb7acdafbd0e5b51e367f012c22d807da4beaa1a4b643",
+      "kind": "第三方原图",
+      "source_id": "SRC-RECBOLE-PAPER",
+      "source_version": "arXiv 2011.01731v3",
+      "basis": "图 3，PDF 第 7 页",
+      "credit": "Wayne Xin Zhao、Shanlei Mu 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "b0662cb0329e021482452754c29b9fcce1c462086def9731776de08df8e0f5e5",
+      "pdf_page": 7,
+      "crop_pt": [
+        54,
+        302,
+        295,
+        420
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SAMPLED-METRICS/采样数与模型次序变化.png",
+      "sha256": "8c1fa93a4c3783733a63db9229f11e58e4875c5c470a61639e22d2449033d4ff",
+      "kind": "第三方原图",
+      "source_id": "SRC-SAMPLED-METRICS",
+      "source_version": "ACM KDD 2020 正式版",
+      "basis": "图 2，PDF 第 4 页",
+      "credit": "Walid Krichene、Steffen Rendle",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "5212f092b6ae91604950849882f8f61ec55995045f65b00b9c61ceb3757422c1",
+      "pdf_page": 4,
+      "crop_pt": [
+        53,
+        84,
+        559,
+        185
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SAMPLED-METRICS/不同采样量下的期望奖励曲线.png",
+      "sha256": "74a89f1700f90e3754702f22e283ce68e277b9675b279876e88ab546e565ce68",
+      "kind": "第三方原图",
+      "source_id": "SRC-SAMPLED-METRICS",
+      "source_version": "ACM KDD 2020 正式版",
+      "basis": "图 3，PDF 第 5 页",
+      "credit": "Walid Krichene、Steffen Rendle",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "5212f092b6ae91604950849882f8f61ec55995045f65b00b9c61ceb3757422c1",
+      "pdf_page": 5,
+      "crop_pt": [
+        53,
+        84,
+        559,
+        185
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SAMPLED-METRICS/MovieLens上校正前后的Recall.png",
+      "sha256": "1ce37353542d9589d6adf558636f5189d5773a4443ec6af614cd2f699f3cf835",
+      "kind": "第三方原图",
+      "source_id": "SRC-SAMPLED-METRICS",
+      "source_version": "ACM KDD 2020 正式版",
+      "basis": "图 6，PDF 第 8 页",
+      "credit": "Walid Krichene、Steffen Rendle",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "5212f092b6ae91604950849882f8f61ec55995045f65b00b9c61ceb3757422c1",
+      "pdf_page": 8,
+      "crop_pt": [
+        94,
+        286,
+        518,
+        415
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-OVERLAPPING-EXPERIMENTS/域和层的嵌套组合.png",
+      "sha256": "dec92612dc63d2837f633098079983b5d28f6b6f867c2d4e29bdc0a154bd72d6",
+      "kind": "第三方原图",
+      "source_id": "SRC-OVERLAPPING-EXPERIMENTS",
+      "source_version": "ACM KDD 2010 正式排版镜像",
+      "basis": "图 2，PDF 第 4 页",
+      "credit": "Diane Tang、Ashish Agarwal、Deirdre O’Brien、Mike Meyer",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "3990bbb36f320e5480f051cc4271b60f10f3f427c1e79c676d5305e7f2f89216",
+      "pdf_page": 4,
+      "crop_pt": [
+        52,
+        52,
+        568,
+        175
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-OVERLAPPING-EXPERIMENTS/请求分流与覆盖配置.png",
+      "sha256": "83519fc28d71b2aba4c0d9fa9a2a0f3d9772faa3b89a9b90b70027207568b8f1",
+      "kind": "第三方原图",
+      "source_id": "SRC-OVERLAPPING-EXPERIMENTS",
+      "source_version": "ACM KDD 2010 正式排版镜像",
+      "basis": "图 3，PDF 第 6 页",
+      "credit": "Diane Tang、Ashish Agarwal、Deirdre O’Brien、Mike Meyer",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "3990bbb36f320e5480f051cc4271b60f10f3f427c1e79c676d5305e7f2f89216",
+      "pdf_page": 6,
+      "crop_pt": [
+        53,
+        53,
+        522,
+        371
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-OVERLAPPING-EXPERIMENTS/实验数量参与者与上线趋势.png",
+      "sha256": "da514e9074fac4fa930f18500b2e59f2c72b2a736d4761b4d747be4abd9c6357",
+      "kind": "第三方原图",
+      "source_id": "SRC-OVERLAPPING-EXPERIMENTS",
+      "source_version": "ACM KDD 2010 正式排版镜像",
+      "basis": "图 5，PDF 第 9 页",
+      "credit": "Diane Tang、Ashish Agarwal、Deirdre O’Brien、Mike Meyer",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "3990bbb36f320e5480f051cc4271b60f10f3f427c1e79c676d5305e7f2f89216",
+      "pdf_page": 9,
+      "crop_pt": [
+        69,
+        51,
+        545,
+        182
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PAL/位置分支与排序分支.png",
+      "sha256": "a09aaeaa74503d448086b92e2980c216c0e1ee80b289490ed7315f4a62147fdc",
+      "kind": "第三方原图",
+      "source_id": "SRC-PAL",
+      "source_version": "ACM RecSys 2019 正式排版 ResearchGate 封装镜像",
+      "basis": "图 3，PDF 第 4 页（出版页 454）",
+      "credit": "Huifeng Guo、Jinkai Yu、Qing Liu、Ruiming Tang、Yuzhou Zhang",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "e8296dc9b45cf6a7b0e7b40e653d2fc31887c898ea6b8c5b7bf056dc6b2b8608",
+      "pdf_page": 4,
+      "crop_pt": [
+        63,
+        84,
+        549,
+        183
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PAL/三周在线下载率对照.png",
+      "sha256": "fdc42d4487d996f05d69c9dda44b7df4f248b5d6887b4e88f0d252112bfc2983",
+      "kind": "第三方原图",
+      "source_id": "SRC-PAL",
+      "source_version": "ACM RecSys 2019 正式排版 ResearchGate 封装镜像",
+      "basis": "图 4，PDF 第 5 页（出版页 455）",
+      "credit": "Huifeng Guo、Jinkai Yu、Qing Liu、Ruiming Tang、Yuzhou Zhang",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "e8296dc9b45cf6a7b0e7b40e653d2fc31887c898ea6b8c5b7bf056dc6b2b8608",
+      "pdf_page": 5,
+      "crop_pt": [
+        60,
+        84,
+        550,
+        159
+      ],
+      "created_on": "2026-11-23"
     }
   ]
 }

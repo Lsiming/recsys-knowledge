@@ -1,0 +1,34 @@
+{
+  "id": "SRC-PAL",
+  "title": "PAL: A Position-bias Aware Learning Framework for CTR Prediction in Live Recommender Systems",
+  "kind": "paper",
+  "state": "active",
+  "current": "43719e2373c832a7393f2e8104208ce437cb8a1a4e11d810225f81eb0ddc6e7d",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3298689.3347033",
+      "revision": "ACM RecSys 2019，452–456；固定第三方镜像中的作者上传 ResearchGate 封装版，六页含平台封页",
+      "read_scope": "论文五页全文，摘要、§1–4、式(1)–(7)、图1–6及脚注；参考文献仅定位。",
+      "artifacts": [
+        {
+          "name": "GuoEtAl.PAL.RecSys2019.pdf",
+          "sha256": "e8296dc9b45cf6a7b0e7b40e653d2fc31887c898ea6b8c5b7bf056dc6b2b8608",
+          "snapshot": ".local/sources/SRC-PAL/e8296dc9b45cf6a7b0e7b40e653d2fc31887c898ea6b8c5b7bf056dc6b2b8608/GuoEtAl.PAL.RecSys2019.pdf"
+        }
+      ],
+      "fingerprint": "43719e2373c832a7393f2e8104208ce437cb8a1a4e11d810225f81eb0ddc6e7d",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "cdeaa6df0a9c418527a938764a72ddae94a3662ec01c69389101a2ea7c6e2629",
+        "pages": [
+          "evaluation-bias",
+          "position-bias-click-learning"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定五页正文、式 (1)–(7)、作者图及逐周分流。按点击乘积复算样本和 BCE 导数，保留原梯度式与译注，修订位置特征说法。7 页译文逐页目视，原译件认证下载验哈希。 完成技术事实与读者路径的当前 Agent 自查。"
+      }
+    }
+  ]
+}
