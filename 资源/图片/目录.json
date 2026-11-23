@@ -3741,6 +3741,428 @@
         159
       ],
       "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-FEATURE-HASHING/全局词与个性词共用哈希空间.png",
+      "sha256": "7bdca5150e7e691751fc6a74346b35fd1754071aee236eca0dc1c9c5a8873d94",
+      "kind": "第三方原图",
+      "source_id": "SRC-FEATURE-HASHING",
+      "source_version": "arXiv:0902.2206v4（2009-05-21）",
+      "basis": "图 1，PDF 第 5 页",
+      "credit": "Kilian Weinberger、Anirban Dasgupta、John Langford、Alex Smola、Josh Attenberg",
+      "modification": "作者源码原图 PDF 由 Poppler 以 142 DPI 转为 PNG，保留原标签",
+      "original_pdf_sha256": "5687cabdbb07f32af94bdce70c5606301b9a340aa5d621ae11267c5a9c086851",
+      "pdf_page": 5,
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-FEATURE-HASHING/哈希桶数与相对漏判率.png",
+      "sha256": "8d001edd9e35f877d84263693c75bb6aab571315f010f49c506e1206b794b66f",
+      "kind": "第三方原图",
+      "source_id": "SRC-FEATURE-HASHING",
+      "source_version": "arXiv:0902.2206v4（2009-05-21）",
+      "basis": "图 2，PDF 第 5 页",
+      "credit": "Kilian Weinberger、Anirban Dasgupta、John Langford、Alex Smola、Josh Attenberg",
+      "modification": "作者源码原图 PDF 由 Poppler 以 142 DPI 转为 PNG，保留原标签",
+      "original_pdf_sha256": "5687cabdbb07f32af94bdce70c5606301b9a340aa5d621ae11267c5a9c086851",
+      "pdf_page": 5,
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-FEATURE-HASHING/不同标注量用户的相对漏判率.png",
+      "sha256": "2f940f10b591645220c3a5d96a38aca5c637d55ef9d8de919800b03a04025fbb",
+      "kind": "第三方原图",
+      "source_id": "SRC-FEATURE-HASHING",
+      "source_version": "arXiv:0902.2206v4（2009-05-21）",
+      "basis": "图 3，PDF 第 6 页",
+      "credit": "Kilian Weinberger、Anirban Dasgupta、John Langford、Alex Smola、Josh Attenberg",
+      "modification": "作者源码原图 PDF 由 Poppler 以 142 DPI 转为 PNG，保留原标签",
+      "original_pdf_sha256": "5687cabdbb07f32af94bdce70c5606301b9a340aa5d621ae11267c5a9c086851",
+      "pdf_page": 6,
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SSP/时钟与参数可见范围.png",
+      "sha256": "f13940609be5011d115394c66b22bff017727e0a750a8253b909425415b63f35",
+      "kind": "第三方原图",
+      "source_id": "SRC-SSP",
+      "source_version": "NeurIPS 2013 会议 PDF",
+      "basis": "图 1，PDF 第 3 页",
+      "credit": "Qirong Ho、James Cipar、Henggang Cui、Jin Kyu Kim、Seunghak Lee、Phillip B. Gibbons、Garth A. Gibson、Gregory R. Ganger、Eric P. Xing",
+      "modification": "Poppler 180 DPI 图框裁取（x=710, y=580, w=544, h=286 像素），保留原标签",
+      "original_pdf_sha256": "be3db3e27876f2697bf8b91863cf4dee248718b9b6700435bce6b5b4220c81ae",
+      "pdf_page": 3,
+      "crop_pt": [
+        284.0,
+        232.0,
+        501.6,
+        346.40000000000003
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SSP/线程缓存与服务端分片.png",
+      "sha256": "ae3d1ef55d9012abd0346b129c64ad09d196efb23cca74a221e051c28a186542",
+      "kind": "第三方原图",
+      "source_id": "SRC-SSP",
+      "source_version": "NeurIPS 2013 会议 PDF",
+      "basis": "图 2，PDF 第 4 页",
+      "credit": "Qirong Ho、James Cipar、Henggang Cui、Jin Kyu Kim、Seunghak Lee、Phillip B. Gibbons、Garth A. Gibson、Gregory R. Ganger、Eric P. Xing",
+      "modification": "Poppler 180 DPI 图框裁取（x=884, y=392, w=354, h=300 像素），保留原标签",
+      "original_pdf_sha256": "be3db3e27876f2697bf8b91863cf4dee248718b9b6700435bce6b5b4220c81ae",
+      "pdf_page": 4,
+      "crop_pt": [
+        353.6,
+        156.8,
+        495.20000000000005,
+        276.8
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SSP/迭代质量与收敛用时.png",
+      "sha256": "0d1e53ef7fa3871be6da0acd55cf4301fb0e0a906224cc2eb0a43636b3d57cdf",
+      "kind": "第三方原图",
+      "source_id": "SRC-SSP",
+      "source_version": "NeurIPS 2013 会议 PDF",
+      "basis": "图 3，PDF 第 8 页",
+      "credit": "Qirong Ho、James Cipar、Henggang Cui、Jin Kyu Kim、Seunghak Lee、Phillip B. Gibbons、Garth A. Gibson、Gregory R. Ganger、Eric P. Xing",
+      "modification": "Poppler 180 DPI 图框裁取（x=298, y=198, w=938, h=980 像素），保留原标签",
+      "original_pdf_sha256": "be3db3e27876f2697bf8b91863cf4dee248718b9b6700435bce6b5b4220c81ae",
+      "pdf_page": 8,
+      "crop_pt": [
+        119.2,
+        79.2,
+        494.40000000000003,
+        471.20000000000005
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-XDL/AMS与后端工作者.png",
+      "sha256": "40fdd43d7d7c97ef30e3c190857e195d16ccfae9113fd7c31284d10d82b1a1fc",
+      "kind": "第三方原图",
+      "source_id": "SRC-XDL",
+      "source_version": "DLP-KDD 2019 主办方归档的 ACM 排版 PDF",
+      "basis": "图 2，PDF 第 4 页",
+      "credit": "Biye Jiang、Chao Deng、Huimin Yi、Zelin Hu、Guorui Zhou、Yang Zheng、Sui Huang、Xinyang Guo、Dongyue Wang、Yue Song、Liqin Zhao、Zhi Wang、Peng Sun、Yu Zhang、Di Zhang、Jinhui Li、Jian Xu、Xiaoqiang Zhu、Kun Gai",
+      "modification": "Poppler 180 DPI 图框裁取（x=166, y=976, w=1178, h=654 像素），保留原标签",
+      "original_pdf_sha256": "201f239095d494435dd3ab5fe633dd32518c9c0ba074d2d56258a4f59464cc40",
+      "pdf_page": 4,
+      "crop_pt": [
+        66.4,
+        390.4,
+        537.6,
+        652.0
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-XDL/前缀树压缩和指标张量.png",
+      "sha256": "6f269ac44aac031b61d961e35a1391760f43914932c4a0ecb8f11b4f506ee4e8",
+      "kind": "第三方原图",
+      "source_id": "SRC-XDL",
+      "source_version": "DLP-KDD 2019 主办方归档的 ACM 排版 PDF",
+      "basis": "图 4，PDF 第 6 页",
+      "credit": "Biye Jiang、Chao Deng、Huimin Yi、Zelin Hu、Guorui Zhou、Yang Zheng、Sui Huang、Xinyang Guo、Dongyue Wang、Yue Song、Liqin Zhao、Zhi Wang、Peng Sun、Yu Zhang、Di Zhang、Jinhui Li、Jian Xu、Xiaoqiang Zhu、Kun Gai",
+      "modification": "Poppler 180 DPI 图框裁取（x=142, y=689, w=591, h=283 像素），保留原标签",
+      "original_pdf_sha256": "201f239095d494435dd3ab5fe633dd32518c9c0ba074d2d56258a4f59464cc40",
+      "pdf_page": 6,
+      "crop_pt": [
+        56.8,
+        275.6,
+        293.2,
+        388.8
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-XDL/三阶段流水线.png",
+      "sha256": "a5a9ee88b4ab8688acca46702068c4d78fb8ed25fd9663a3af80349b326539ee",
+      "kind": "第三方原图",
+      "source_id": "SRC-XDL",
+      "source_version": "DLP-KDD 2019 主办方归档的 ACM 排版 PDF",
+      "basis": "图 5，PDF 第 6 页",
+      "credit": "Biye Jiang、Chao Deng、Huimin Yi、Zelin Hu、Guorui Zhou、Yang Zheng、Sui Huang、Xinyang Guo、Dongyue Wang、Yue Song、Liqin Zhao、Zhi Wang、Peng Sun、Yu Zhang、Di Zhang、Jinhui Li、Jian Xu、Xiaoqiang Zhu、Kun Gai",
+      "modification": "Poppler 180 DPI 图框裁取（x=807, y=291, w=586, h=374 像素），保留原标签",
+      "original_pdf_sha256": "201f239095d494435dd3ab5fe633dd32518c9c0ba074d2d56258a4f59464cc40",
+      "pdf_page": 6,
+      "crop_pt": [
+        322.8,
+        116.4,
+        557.2,
+        266.0
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-XDL/压缩比与批吞吐.png",
+      "sha256": "ac416fef04be97a83dc7148f6a34d6e6ae8e64d225131684344c34483ed614b4",
+      "kind": "第三方原图",
+      "source_id": "SRC-XDL",
+      "source_version": "DLP-KDD 2019 主办方归档的 ACM 排版 PDF",
+      "basis": "图 6，PDF 第 8 页",
+      "credit": "Biye Jiang、Chao Deng、Huimin Yi、Zelin Hu、Guorui Zhou、Yang Zheng、Sui Huang、Xinyang Guo、Dongyue Wang、Yue Song、Liqin Zhao、Zhi Wang、Peng Sun、Yu Zhang、Di Zhang、Jinhui Li、Jian Xu、Xiaoqiang Zhu、Kun Gai",
+      "modification": "Poppler 180 DPI 图框裁取（x=143, y=1305, w=570, h=390 像素），保留原标签",
+      "original_pdf_sha256": "201f239095d494435dd3ab5fe633dd32518c9c0ba074d2d56258a4f59464cc40",
+      "pdf_page": 8,
+      "crop_pt": [
+        57.2,
+        522.0,
+        285.2,
+        678.0
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-XDL/工作者数与批吞吐.png",
+      "sha256": "b7ef0ebf704175e2cbf8e49f7dc8fa778deab234dba4a523be4ec237e066d300",
+      "kind": "第三方原图",
+      "source_id": "SRC-XDL",
+      "source_version": "DLP-KDD 2019 主办方归档的 ACM 排版 PDF",
+      "basis": "图 8，PDF 第 8 页",
+      "credit": "Biye Jiang、Chao Deng、Huimin Yi、Zelin Hu、Guorui Zhou、Yang Zheng、Sui Huang、Xinyang Guo、Dongyue Wang、Yue Song、Liqin Zhao、Zhi Wang、Peng Sun、Yu Zhang、Di Zhang、Jinhui Li、Jian Xu、Xiaoqiang Zhu、Kun Gai",
+      "modification": "Poppler 180 DPI 图框裁取（x=788, y=1246, w=607, h=402 像素），保留原标签",
+      "original_pdf_sha256": "201f239095d494435dd3ab5fe633dd32518c9c0ba074d2d56258a4f59464cc40",
+      "pdf_page": 8,
+      "crop_pt": [
+        315.2,
+        498.4,
+        558.0,
+        659.2
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PARAMETER-SERVER/工作集计算与聚合.png",
+      "sha256": "697a6ffc27dd842298b5e283ac8462e5e89bbec61c2eea58e14672d271222989",
+      "kind": "第三方原图",
+      "source_id": "SRC-PARAMETER-SERVER",
+      "source_version": "USENIX OSDI 2014 正式文件",
+      "basis": "图 2，PDF 第 5 页",
+      "credit": "Mu Li、David G. Andersen、Jun Woo Park、Alexander J. Smola、Amr Ahmed、Vanja Josifovski、James Long、Eugene J. Shekita、Bor-Yiing Su",
+      "modification": "Poppler 180 DPI 图框裁取（x=842, y=245, w=438, h=493 像素），保留原标签",
+      "original_pdf_sha256": "6f4098477e38e72f8dc2f46e2c233758c89ba33e6e3a19a9c7fff7de1998b1d2",
+      "pdf_page": 5,
+      "crop_pt": [
+        336.8,
+        98.0,
+        512.0,
+        295.2
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PARAMETER-SERVER/参数服务器与工作者组.png",
+      "sha256": "81bedbfa32d66dcffbd0f94dbad5d86dd5ba922a42dd35e3b807a2be62a5a181",
+      "kind": "第三方原图",
+      "source_id": "SRC-PARAMETER-SERVER",
+      "source_version": "USENIX OSDI 2014 正式文件",
+      "basis": "图 4，PDF 第 7 页",
+      "credit": "Mu Li、David G. Andersen、Jun Woo Park、Alexander J. Smola、Amr Ahmed、Vanja Josifovski、James Long、Eugene J. Shekita、Bor-Yiing Su",
+      "modification": "Poppler 180 DPI 图框裁取（x=171, y=236, w=588, h=487 像素），保留原标签",
+      "original_pdf_sha256": "6f4098477e38e72f8dc2f46e2c233758c89ba33e6e3a19a9c7fff7de1998b1d2",
+      "pdf_page": 7,
+      "crop_pt": [
+        68.4,
+        94.4,
+        303.6,
+        289.2
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PARAMETER-SERVER/一致性任务依赖.png",
+      "sha256": "eb89cb7a8f125a838064c7ff8691800505bf2645a7b80fc986e28cdbce98ce9d",
+      "kind": "第三方原图",
+      "source_id": "SRC-PARAMETER-SERVER",
+      "source_version": "USENIX OSDI 2014 正式文件",
+      "basis": "图 6，PDF 第 9 页",
+      "credit": "Mu Li、David G. Andersen、Jun Woo Park、Alexander J. Smola、Amr Ahmed、Vanja Josifovski、James Long、Eugene J. Shekita、Bor-Yiing Su",
+      "modification": "Poppler 180 DPI 图框裁取（x=184, y=260, w=578, h=104 像素），保留原标签",
+      "original_pdf_sha256": "6f4098477e38e72f8dc2f46e2c233758c89ba33e6e3a19a9c7fff7de1998b1d2",
+      "pdf_page": 9,
+      "crop_pt": [
+        73.6,
+        104.0,
+        304.8,
+        145.6
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PARAMETER-SERVER/哈希环的主副范围.png",
+      "sha256": "6f276b60d01a9d8a8f7e372ec8d319793a67a04d048711541dbd6418ffd75c2c",
+      "kind": "第三方原图",
+      "source_id": "SRC-PARAMETER-SERVER",
+      "source_version": "USENIX OSDI 2014 正式文件",
+      "basis": "图 7，PDF 第 11 页",
+      "credit": "Mu Li、David G. Andersen、Jun Woo Park、Alexander J. Smola、Amr Ahmed、Vanja Josifovski、James Long、Eugene J. Shekita、Bor-Yiing Su",
+      "modification": "Poppler 180 DPI 图框裁取（x=177, y=245, w=315, h=257 像素），保留原标签",
+      "original_pdf_sha256": "6f4098477e38e72f8dc2f46e2c233758c89ba33e6e3a19a9c7fff7de1998b1d2",
+      "pdf_page": 11,
+      "crop_pt": [
+        70.8,
+        98.0,
+        196.8,
+        200.8
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PARAMETER-SERVER/梯度聚合后复制.png",
+      "sha256": "8927652b7b069dd6d8f991eec17a486b8576d21a06ec18326242c18296c00f0e",
+      "kind": "第三方原图",
+      "source_id": "SRC-PARAMETER-SERVER",
+      "source_version": "USENIX OSDI 2014 正式文件",
+      "basis": "图 8，PDF 第 11 页",
+      "credit": "Mu Li、David G. Andersen、Jun Woo Park、Alexander J. Smola、Amr Ahmed、Vanja Josifovski、James Long、Eugene J. Shekita、Bor-Yiing Su",
+      "modification": "Poppler 180 DPI 图框裁取（x=505, y=272, w=857, h=202 像素），保留原标签",
+      "original_pdf_sha256": "6f4098477e38e72f8dc2f46e2c233758c89ba33e6e3a19a9c7fff7de1998b1d2",
+      "pdf_page": 11,
+      "crop_pt": [
+        202.0,
+        108.8,
+        544.8,
+        189.6
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PARAMETER-SERVER/键缓存和过滤流量.png",
+      "sha256": "357c09e340700abb6d8d0653cca99531dd08b5fe397dbb48a2d164af873c32cd",
+      "kind": "第三方原图",
+      "source_id": "SRC-PARAMETER-SERVER",
+      "source_version": "USENIX OSDI 2014 正式文件",
+      "basis": "图 11，PDF 第 14 页",
+      "credit": "Mu Li、David G. Andersen、Jun Woo Park、Alexander J. Smola、Amr Ahmed、Vanja Josifovski、James Long、Eugene J. Shekita、Bor-Yiing Su",
+      "modification": "Poppler 180 DPI 图框裁取（x=168, y=236, w=1172, h=428 像素），保留原标签",
+      "original_pdf_sha256": "6f4098477e38e72f8dc2f46e2c233758c89ba33e6e3a19a9c7fff7de1998b1d2",
+      "pdf_page": 14,
+      "crop_pt": [
+        67.2,
+        94.4,
+        536.0,
+        265.6
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PARAMETER-SERVER/一致性延迟与收敛时间.png",
+      "sha256": "e4d366bd80b4a2fad59861ce3eb2a12b6fb5b8486ec2fbf38d082eb9fe9f59ca",
+      "kind": "第三方原图",
+      "source_id": "SRC-PARAMETER-SERVER",
+      "source_version": "USENIX OSDI 2014 正式文件",
+      "basis": "图 13，PDF 第 14 页",
+      "credit": "Mu Li、David G. Andersen、Jun Woo Park、Alexander J. Smola、Amr Ahmed、Vanja Josifovski、James Long、Eugene J. Shekita、Bor-Yiing Su",
+      "modification": "Poppler 180 DPI 图框裁取（x=802, y=716, w=542, h=444 像素），保留原标签",
+      "original_pdf_sha256": "6f4098477e38e72f8dc2f46e2c233758c89ba33e6e3a19a9c7fff7de1998b1d2",
+      "pdf_page": 14,
+      "crop_pt": [
+        320.8,
+        286.4,
+        537.6,
+        464.0
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-PERSIA/混合训练时间线.png",
+      "sha256": "81e53a4987a71f5b76c109f79dda8cc822cfd83677ffa6b6384c78e8662ca883",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERSIA",
+      "source_version": "arXiv:2111.05897v2",
+      "basis": "图 3，原 PDF 第 4 页",
+      "license": "CC0-1.0（采用版 arXiv 页面）",
+      "credit": "Lian 等，Persia",
+      "modification": "作者源码图栅格化，保留内容和标注",
+      "created_on": "2026-11-23",
+      "pdf_page": 4,
+      "original_pdf_sha256": "c9219b71687023584de59de1a87cde1960c2f14e4c3c9d0da5d8eb0a68de8599"
+    },
+    {
+      "path": "资源/图片/SRC-PERSIA/CPU与GPU工作流.png",
+      "sha256": "690d9b3fa1a29fd3a7667e6fc80454ea74a9b9042c719c95a1a65d3e2b0de9f3",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERSIA",
+      "source_version": "arXiv:2111.05897v2",
+      "basis": "图 4，原 PDF 第 6 页",
+      "license": "CC0-1.0（采用版 arXiv 页面）",
+      "credit": "Lian 等，Persia",
+      "modification": "作者源码图栅格化，保留内容和标注",
+      "created_on": "2026-11-23",
+      "pdf_page": 6,
+      "original_pdf_sha256": "c9219b71687023584de59de1a87cde1960c2f14e4c3c9d0da5d8eb0a68de8599"
+    },
+    {
+      "path": "资源/图片/SRC-PERSIA/嵌入PS内存布局.png",
+      "sha256": "8e007f8eb15bd5e6489c01fd0908b72be626cd4a44fd130f7f4d6437ac801f08",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERSIA",
+      "source_version": "arXiv:2111.05897v2",
+      "basis": "图 5，原 PDF 第 7 页",
+      "license": "CC0-1.0（采用版 arXiv 页面）",
+      "credit": "Lian 等，Persia",
+      "modification": "作者源码图栅格化，保留内容和标注",
+      "created_on": "2026-11-23",
+      "pdf_page": 7,
+      "original_pdf_sha256": "c9219b71687023584de59de1a87cde1960c2f14e4c3c9d0da5d8eb0a68de8599"
+    },
+    {
+      "path": "资源/图片/SRC-PERSIA/到达目标AUC用时.png",
+      "sha256": "d9267b2ed30841ba5f6475baf48bd6d250287c09f5dc34981cc2de5996d542bb",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERSIA",
+      "source_version": "arXiv:2111.05897v2",
+      "basis": "图 6，原 PDF 第 10 页",
+      "license": "CC0-1.0（采用版 arXiv 页面）",
+      "credit": "Lian 等，Persia",
+      "modification": "作者源码图栅格化，按原序重排为两行，保留颜色、数据和标注",
+      "created_on": "2026-11-23",
+      "pdf_page": 10,
+      "original_pdf_sha256": "c9219b71687023584de59de1a87cde1960c2f14e4c3c9d0da5d8eb0a68de8599"
+    },
+    {
+      "path": "资源/图片/SRC-PERSIA/四个基准的收敛.png",
+      "sha256": "c8baa70c9ac31a7636fddc332ebcc095ef132a77f25f6fd5e61e034afc449044",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERSIA",
+      "source_version": "arXiv:2111.05897v2",
+      "basis": "图 7，原 PDF 第 11 页",
+      "license": "CC0-1.0（采用版 arXiv 页面）",
+      "credit": "Lian 等，Persia",
+      "modification": "作者源码图栅格化，按原序重排为两行，保留颜色、数据和标注",
+      "created_on": "2026-11-23",
+      "pdf_page": 11,
+      "original_pdf_sha256": "c9219b71687023584de59de1a87cde1960c2f14e4c3c9d0da5d8eb0a68de8599"
+    },
+    {
+      "path": "资源/图片/SRC-PERSIA/GPU扩展与吞吐.png",
+      "sha256": "fbe74e7c103f54ff1325de73bd823e0f871b5cf145e140a22e252b2ee29e200d",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERSIA",
+      "source_version": "arXiv:2111.05897v2",
+      "basis": "图 8，原 PDF 第 11 页",
+      "license": "CC0-1.0（采用版 arXiv 页面）",
+      "credit": "Lian 等，Persia",
+      "modification": "作者源码图栅格化，按原序重排为两行，保留颜色、数据和标注",
+      "created_on": "2026-11-23",
+      "pdf_page": 11,
+      "original_pdf_sha256": "c9219b71687023584de59de1a87cde1960c2f14e4c3c9d0da5d8eb0a68de8599"
+    },
+    {
+      "path": "资源/图片/SRC-PERSIA/合成容量测试.png",
+      "sha256": "6bd378d02d687141833388da5472da05b46050846158f3025d7d7e4d7e84d1cd",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERSIA",
+      "source_version": "arXiv:2111.05897v2",
+      "basis": "图 9，原 PDF 第 11 页",
+      "license": "CC0-1.0（采用版 arXiv 页面）",
+      "credit": "Lian 等，Persia",
+      "modification": "作者源码图栅格化，保留内容和标注",
+      "created_on": "2026-11-23",
+      "pdf_page": 11,
+      "original_pdf_sha256": "c9219b71687023584de59de1a87cde1960c2f14e4c3c9d0da5d8eb0a68de8599"
     }
   ]
 }

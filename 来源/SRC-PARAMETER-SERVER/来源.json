@@ -1,0 +1,34 @@
+{
+  "id": "SRC-PARAMETER-SERVER",
+  "title": "Scaling Distributed Machine Learning with the Parameter Server",
+  "kind": "paper",
+  "state": "active",
+  "current": "c6795baa3b60227f5922f1d7b9631b687aa219ae7ef2c8f9b8ce4c56b0cb647a",
+  "versions": [
+    {
+      "locator": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-li_mu.pdf",
+      "revision": "USENIX OSDI 2014 正式 17 页文件，含出版封页",
+      "read_scope": "摘要、正文第 1–6 节、算法 1–4、图 1–14、表 1–5 和参考文献定位。",
+      "artifacts": [
+        {
+          "name": "osdi14-paper-li_mu.pdf",
+          "sha256": "6f4098477e38e72f8dc2f46e2c233758c89ba33e6e3a19a9c7fff7de1998b1d2",
+          "snapshot": ".local/sources/SRC-PARAMETER-SERVER/6f4098477e38e72f8dc2f46e2c233758c89ba33e6e3a19a9c7fff7de1998b1d2/osdi14-paper-li_mu.pdf"
+        }
+      ],
+      "fingerprint": "c6795baa3b60227f5922f1d7b9631b687aa219ae7ef2c8f9b8ce4c56b0cb647a",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "d03d442cf019ba287f214dee92f2f0ba909ecde3b173373e8cd264ce0f61877e",
+        "pages": [
+          "distributed-sparse-parameter-training",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "对照第 2–5 节、算法 1–4 及原图验证按范围通信、工作集、复制确认、范围时钟与 DAG 一致性；算例独立验算，保留算法印刷疑点，并区分 SSP 的读取窗口。 采用 PDF 与正式中文 PDF 已真实登录下载核验，文末同步访问说明。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "SRC-XDL",
+  "title": "XDL: An Industrial Deep Learning Framework for High-dimensional Sparse Data",
+  "kind": "paper",
+  "state": "active",
+  "current": "ef0d2e11b699694a78a8a44cfc0760c08b50d318830ba31fbf0d9140054d6c1c",
+  "versions": [
+    {
+      "locator": "https://raw.githubusercontent.com/dlp-kdd/dlp-kdd2019/dbe75ef64ed2e44dc5198156af6aa286534ff19c/assets/pdf/a6-jiang.pdf",
+      "revision": "DLP-KDD 2019 九页 ACM 排版，主办方公开归档 dbe75ef64",
+      "read_scope": "摘要、正文第 1–7 节、表 1–3、图 1–8、参考文献；核对论文版权与开源软件许可的区别。",
+      "artifacts": [
+        {
+          "name": "xdl-dlp-kdd-2019.pdf",
+          "sha256": "201f239095d494435dd3ab5fe633dd32518c9c0ba074d2d56258a4f59464cc40",
+          "snapshot": ".local/sources/SRC-XDL/201f239095d494435dd3ab5fe633dd32518c9c0ba074d2d56258a4f59464cc40/xdl-dlp-kdd-2019.pdf"
+        }
+      ],
+      "fingerprint": "ef0d2e11b699694a78a8a44cfc0760c08b50d318830ba31fbf0d9140054d6c1c",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "678925d31ccb0236206f3e1cd37897af54e828cc6789a583402d64cbf46ea9f3",
+        "pages": [
+          "distributed-sparse-parameter-training",
+          "serving-efficiency"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "据正式原文 §3–6、图 2–8 和表 1–3 复核 AMS 两类参数、完整键合并、跨批预取、读写一致性以及吞吐单位；对跨图吞吐、故障回放和异步模型质量分别保留边界。 采用 PDF 与正式中文 PDF 已真实登录下载核验，文末同步访问说明。"
+      }
+    }
+  ]
+}
