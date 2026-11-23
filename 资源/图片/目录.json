@@ -3304,6 +3304,196 @@
         314
       ],
       "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-UCB1/UCB1选臂规则.png",
+      "sha256": "bb7470a9b080c55287d79770c3b51200016d4f726f2098f3874062f439aae88f",
+      "kind": "第三方原图",
+      "source_id": "SRC-UCB1",
+      "source_version": "Machine Learning 47, 235–256 (2002)",
+      "basis": "图 1，PDF 第 3 页",
+      "credit": "Auer、Cesa-Bianchi、Fischer",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "0f5dd08e52165b5c9b17246ec7ecb9e71d6d2a9384dc167670bfedcfa29468f0",
+      "pdf_page": 3,
+      "crop_pt": [
+        173,
+        547,
+        422,
+        669
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-UCB1/十臂实验的最优臂比例与遗憾.png",
+      "sha256": "78232d2adc0e57275c09ea76c7bb04121c1090378080fc1a91c1ee001f677755",
+      "kind": "第三方原图",
+      "source_id": "SRC-UCB1",
+      "source_version": "Machine Learning 47, 235–256 (2002)",
+      "basis": "图 12，PDF 第 15 页",
+      "credit": "Auer、Cesa-Bianchi、Fischer",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "0f5dd08e52165b5c9b17246ec7ecb9e71d6d2a9384dc167670bfedcfa29468f0",
+      "pdf_page": 15,
+      "crop_pt": [
+        107,
+        316,
+        491,
+        488
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-THOMPSON-SAMPLING/Bernoulli模拟的累积遗憾.png",
+      "sha256": "ca7acf4cfa64d846af577d837991ba0e4415a7e988790b64a9f2e223ee5d96d4",
+      "kind": "第三方原图",
+      "source_id": "SRC-THOMPSON-SAMPLING",
+      "source_version": "NeurIPS 2011",
+      "basis": "图 1，PDF 第 3 页",
+      "credit": "Olivier Chapelle、Lihong Li",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "3dd07ef86920cc0b8e1e3fdcce22cde94d629fd9fcc22b8455486258ec1b6145",
+      "pdf_page": 3,
+      "crop_pt": [
+        89,
+        333,
+        523,
+        658
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-THOMPSON-SAMPLING/新闻回放的更新延迟.png",
+      "sha256": "47304b7f079a9fd660e35710836a51614486991dd8ebd28203e0b0b61e1f3678",
+      "kind": "第三方原图",
+      "source_id": "SRC-THOMPSON-SAMPLING",
+      "source_version": "NeurIPS 2011",
+      "basis": "图 5，PDF 第 8 页",
+      "credit": "Olivier Chapelle、Lihong Li",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "3dd07ef86920cc0b8e1e3fdcce22cde94d629fd9fcc22b8455486258ec1b6145",
+      "pdf_page": 8,
+      "crop_pt": [
+        107,
+        83,
+        502,
+        180
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-LINUCB/样本稀疏度与相对点击率.png",
+      "sha256": "2c872508115d0d845e69f12ee29488c947ac47a81d053b94240d8c13731361a8",
+      "kind": "第三方原图",
+      "source_id": "SRC-LINUCB",
+      "source_version": "arXiv 1003.0146v2",
+      "basis": "图 4，PDF 第 10 页",
+      "credit": "Lihong Li、Wei Chu、John Langford、Robert E. Schapire",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "e98ae83073fd959e1e36bdb8bbe81e2e2b6e0a7767d147098fedddcf3deb9da0",
+      "pdf_page": 10,
+      "crop_pt": [
+        33,
+        96,
+        303,
+        344
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SLATEQ/长期推荐训练与日志回路.png",
+      "sha256": "878084cf3c1e23eece9a892100942a764ce1df525ac27746868da4c72b079f52",
+      "kind": "第三方原图",
+      "source_id": "SRC-SLATEQ",
+      "source_version": "arXiv 1905.12767v2",
+      "basis": "图 1，PDF 第 27 页",
+      "credit": "Eugene Ie 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "19606162ed0db201dd3782960f261df3b940a533c6802227c6f31c75082f8cba",
+      "pdf_page": 27,
+      "crop_pt": [
+        168,
+        104,
+        441,
+        272
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-SLATEQ/线上参与度变化.png",
+      "sha256": "af649580e2cb781e3e2289b93a36db130c72723efef3cd10a5be73ec5d007733",
+      "kind": "第三方原图",
+      "source_id": "SRC-SLATEQ",
+      "source_version": "arXiv 1905.12767v2",
+      "basis": "图 2，PDF 第 30 页",
+      "credit": "Eugene Ie 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "19606162ed0db201dd3782960f261df3b940a533c6802227c6f31c75082f8cba",
+      "pdf_page": 30,
+      "crop_pt": [
+        159,
+        104,
+        449,
+        272
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-POUL/组合处理的场景动作聚合.png",
+      "sha256": "f12598eceff35bb8e7825d0f011df2165bf476886ec4786b444c87e000d9441e",
+      "kind": "第三方原图",
+      "source_id": "SRC-POUL",
+      "source_version": "arXiv 2602.19851v1",
+      "basis": "图 1，PDF 第 2 页",
+      "credit": "Xinyan Su、Jiacan Gao 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "bb51e9b04d146b52d604542cba3726c1193f615679e125e39f0712f6cb6a2aa8",
+      "pdf_page": 2,
+      "crop_pt": [
+        45,
+        59,
+        545,
+        241
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-TAQFORMER/处理查询与焦点类别读出.png",
+      "sha256": "d2ee402509f4db4571079c2d9e76695f9ef5637437d58e87a9d461b7a3e87bbe",
+      "kind": "第三方原图",
+      "source_id": "SRC-TAQFORMER",
+      "source_version": "arXiv 2610.26199v1",
+      "basis": "图 1，PDF 第 4 页",
+      "credit": "Jiahong Li、Zeqin Yang 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "fc85999afe4648ba25363607ddf56c8f4e873b1168128f22ffd16c1f5fed4249",
+      "pdf_page": 4,
+      "crop_pt": [
+        52,
+        81,
+        561,
+        337
+      ],
+      "created_on": "2026-11-23"
+    },
+    {
+      "path": "资源/图片/SRC-TAQFORMER/观测预训练与随机适配.png",
+      "sha256": "a802c5041150cf5fe646931ce8c86fe49d9f84d56f6980542017aa440961c0e4",
+      "kind": "第三方原图",
+      "source_id": "SRC-TAQFORMER",
+      "source_version": "arXiv 2610.26199v1",
+      "basis": "图 2，PDF 第 5 页",
+      "credit": "Jiahong Li、Zeqin Yang 等",
+      "modification": "固定 PDF 裁图，PyMuPDF 3 倍缩放，原标签保留",
+      "original_pdf_sha256": "fc85999afe4648ba25363607ddf56c8f4e873b1168128f22ffd16c1f5fed4249",
+      "pdf_page": 5,
+      "crop_pt": [
+        78,
+        81,
+        540,
+        337
+      ],
+      "created_on": "2026-11-23"
     }
   ]
 }

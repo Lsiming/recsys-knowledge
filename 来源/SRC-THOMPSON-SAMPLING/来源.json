@@ -1,0 +1,33 @@
+{
+  "id": "SRC-THOMPSON-SAMPLING",
+  "title": "An Empirical Evaluation of Thompson Sampling",
+  "kind": "paper",
+  "state": "active",
+  "current": "bad69e5abe2f136e9ed31cfc8cc05e2685d06a2ce09edebbe33a2f6955b03f38",
+  "versions": [
+    {
+      "locator": "https://proceedings.neurips.cc/paper_files/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf",
+      "revision": "NeurIPS 2011 proceedings，9页",
+      "read_scope": "固定9页，摘要、正文§1–6、算法1–3、公式(1)–(2)、图1–5、表1–2；文献核对书目。",
+      "artifacts": [
+        {
+          "name": "ThompsonSampling.pdf",
+          "sha256": "3dd07ef86920cc0b8e1e3fdcce22cde94d629fd9fcc22b8455486258ec1b6145",
+          "snapshot": ".local/sources/SRC-THOMPSON-SAMPLING/3dd07ef86920cc0b8e1e3fdcce22cde94d629fd9fcc22b8455486258ec1b6145/ThompsonSampling.pdf"
+        }
+      ],
+      "fingerprint": "bad69e5abe2f136e9ed31cfc8cc05e2685d06a2ce09edebbe33a2f6955b03f38",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "336df57b5819391ea783c29dc83ce06b17a4245319f4a8825a61601f40ec824e",
+        "pages": [
+          "contextual-bandit-log-evaluation"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "核对 NeurIPS 2011 §1–6、算法 1–3、式 (1)–(2)、图 1–5 和表 1–2；验算 Beta 后验概率与方差缩放，区分三个证据协议。8 页正文译稿均渲染目视，原译件私有认证下载。 已对直接引用和关联候选做技术证据与读者路径自查，未运行模型或独立审查。"
+      }
+    }
+  ]
+}

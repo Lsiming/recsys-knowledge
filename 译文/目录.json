@@ -1872,5 +1872,38 @@
     ],
     "evidence_url": "https://arxiv.org/abs/1904.06813v3",
     "evidence_sha256": "33bf188297215c7823dbfc83dcd5786aa90f21c0c25670474861886ebac09922"
+  },
+  {
+    "source_id": "SRC-UCB1",
+    "title": "UCB1 · Finite-time Analysis of the Multiarmed Bandit Problem",
+    "original_url": "https://cesa-bianchi.di.unimi.it/Pubblicazioni/ml-02.pdf",
+    "revision": "Machine Learning 47, 235–256 (2002), DOI 10.1023/A:1013689704352；作者站正式排版版",
+    "checked_on": "2026-11-23",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "14 页中文 PDF 已逐页验收并私有备份，公开 Markdown 全文译文再分发许可未确认。",
+    "authors": [
+      "Peter Auer",
+      "Nicolò Cesa-Bianchi",
+      "Paul Fischer"
+    ],
+    "evidence_url": "https://cesa-bianchi.di.unimi.it/Pubblicazioni/ml-02.pdf",
+    "evidence_sha256": "0f5dd08e52165b5c9b17246ec7ecb9e71d6d2a9384dc167670bfedcfa29468f0"
+  },
+  {
+    "source_id": "SRC-THOMPSON-SAMPLING",
+    "title": "An Empirical Evaluation of Thompson Sampling",
+    "original_url": "https://proceedings.neurips.cc/paper_files/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf",
+    "revision": "NeurIPS 2011 proceedings，9页",
+    "checked_on": "2026-11-23",
+    "license_url": null,
+    "status": "local-only",
+    "reason": "8 页中文 PDF 已逐页验收并私有备份，公开 Markdown 全文译文再分发许可未确认。",
+    "authors": [
+      "Olivier Chapelle",
+      "Lihong Li"
+    ],
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf",
+    "evidence_sha256": "3dd07ef86920cc0b8e1e3fdcce22cde94d629fd9fcc22b8455486258ec1b6145"
   }
 ]

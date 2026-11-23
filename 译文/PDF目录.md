@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-23，盘点107篇中文PDF，107篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-23，盘点109篇中文PDF，109篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -119,3 +119,5 @@
 | [Managing Diversity in Airbnb Search](https://arxiv.org/abs/2004.02621v1) · `SRC-AIRBNB-MLR` | 私有，需登录 · 20261123.1 · 6页 | [not-permitted](https://arxiv.org/abs/2004.02621v1) | 摘要、正文 §1–6、图表说明和代码注释。图内文字、代码语句和参考文献保留原文。；6 页逐页渲染目视，原文与译文均核对远端摘要并实际认证下载。 |
 | [Globally Optimized Mutual Influence Aware Ranking in E-Commerce Search](https://www.ijcai.org/proceedings/2018/0518.pdf) · `SRC-MIRNN` | 私有，需登录 · 20261123.1 · 10页 | [unverified](https://www.ijcai.org/proceedings/2018/518) | 摘要、正文 §1–5、算法 1、13 个编号公式、6 幅图及 2 张表的说明、描述脚注和致谢。参考文献和图内文字保留原文。；10 页逐页渲染目视，原文与译文均核对远端摘要并实际认证下载。 |
 | [Personalized Re-ranking for Recommendation](https://arxiv.org/abs/1904.06813v3) · `SRC-PRM` | 私有，需登录 · 20261123.1 · 7页 | [not-permitted](https://arxiv.org/abs/1904.06813v3) | 摘要、正文 §1–6、图表说明及描述性脚注。保留图内标签、文献和 ACM 权利声明。；7 页逐页渲染目视，原文与译文均核对远端摘要并实际认证下载。 |
+| [UCB1 · Finite-time Analysis of the Multiarmed Bandit Problem](https://cesa-bianchi.di.unimi.it/Pubblicazioni/ml-02.pdf) · `SRC-UCB1` | 私有，需登录 · 20261123.1 · 14页 | [unverified](https://cesa-bianchi.di.unimi.it/Pubblicazioni/ml-02.pdf) | 摘要、正文 §1–5、附录 A–B、证明、原编号公式、图表说明、致谢与注释。依据采用版 PDF 重排，实验图内英文和参考文献保留。；逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、大小和完整 SHA-256。 |
+| [An Empirical Evaluation of Thompson Sampling](https://proceedings.neurips.cc/paper_files/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf) · `SRC-THOMPSON-SAMPLING` | 私有，需登录 · 20261123.1 · 8页 | [unverified](https://proceedings.neurips.cc/paper_files/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf) | 摘要、正文 §1–6、算法 1–3、公式及表图说明。依据正式会议 PDF 重排，图内英文和参考文献保留。；逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、大小和完整 SHA-256。 |

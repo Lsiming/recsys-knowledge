@@ -20,16 +20,16 @@
       "retrieved_on": "2026-10-28",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "85c68790568a6c14f6ef0f40761f0fe9f5160ecbde744191ee5d27437b34fa31",
+        "notes_sha256": "7297550fc15e1db1a858c698ecbeeabb9e0f81c6eb7989cc38af2de0ea5f4114",
         "pages": [
           "causal-uplift",
           "combinatorial-policy-uplift",
           "history-conditioned-pricing",
           "marketing-subsidy"
         ],
-        "reviewed_on": "2026-11-21",
+        "reviewed_on": "2026-11-23",
         "review_method": "agent-self-review",
-        "review_note": "复核 v1 §3 的可行动作、响应差与预算式 (4)–(6)，§5 的 32 项对照平均 Qini、总体 PCOC、表 1 和 14 天线上试验。核对四页中与 POUL、商品定价的比较及笔记回链，POUL 定理 3.6 的证明疑点单独归属其来源。此次为知识整合自查，新版全文重读仍排在第 12 批。"
+        "review_note": "复核 v1 §3 的可行动作、响应差与预算式 (4)–(6)，§5 的 32 项对照平均 Qini、总体 PCOC、表 1 和 14 天线上试验。核对四页中与 POUL、商品定价的比较及笔记回链，POUL 定理 3.6 的证明疑点单独归属其来源。此次为知识整合自查，新版全文重读仍排在第 12 批。\n2026-11-23，PAPER-012：复核 v1 联合折扣的可行集合与候选待分配、焦点读出、OBS–RCT 门控 LoRA、排序/校准指标及线上口径；新增图 1–2 和联合响应算例。既有原译件认证复验。 已对直接引用和关联候选做技术证据与读者路径自查，未运行模型或独立审查。"
       }
     }
   ]

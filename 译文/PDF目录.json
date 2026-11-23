@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-11-23",
-  "inventory_note": "103篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "109篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -3929,6 +3929,77 @@
         "size_bytes": 996233,
         "pages": 7,
         "verified_download_sha256": "4dedd54e7756672da28d0caf52c6e7663afc757e7091b856bd008383451e684c"
+      }
+    },
+    {
+      "source_id": "SRC-UCB1",
+      "title": "UCB1 · Finite-time Analysis of the Multiarmed Bandit Problem",
+      "original_url": "https://cesa-bianchi.di.unimi.it/Pubblicazioni/ml-02.pdf",
+      "revision": "Machine Learning 47, 235–256 (2002), DOI 10.1023/A:1013689704352；作者站正式排版版",
+      "input_sha256": "f5fc78a57baf654534d843a6f15d9cf7a31ded2a7073d7104ef3d8beb6bc15ad",
+      "input_pages": 14,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、附录 A–B、证明、原编号公式、图表说明、致谢与注释。依据采用版 PDF 重排，实验图内英文和参考文献保留。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-23",
+        "authors": [
+          "Peter Auer",
+          "Nicolò Cesa-Bianchi",
+          "Paul Fischer"
+        ],
+        "original_pdf_sha256": "0f5dd08e52165b5c9b17246ec7ecb9e71d6d2a9384dc167670bfedcfa29468f0",
+        "evidence_url": "https://cesa-bianchi.di.unimi.it/Pubblicazioni/ml-02.pdf",
+        "evidence_sha256": "0f5dd08e52165b5c9b17246ec7ecb9e71d6d2a9384dc167670bfedcfa29468f0",
+        "notes": "Kluwer 期刊版首页版权声明为 © 2002 Kluwer Academic Publishers。公开全文译文许可未确认。"
+      },
+      "reason": "逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261123-batch-12-12",
+        "translation_version": "20261123.1",
+        "asset_name": "SRC-UCB1.zh-CN.private.20261123.1.pdf",
+        "sha256": "f5fc78a57baf654534d843a6f15d9cf7a31ded2a7073d7104ef3d8beb6bc15ad",
+        "size_bytes": 933359,
+        "pages": 14,
+        "verified_download_sha256": "f5fc78a57baf654534d843a6f15d9cf7a31ded2a7073d7104ef3d8beb6bc15ad"
+      }
+    },
+    {
+      "source_id": "SRC-THOMPSON-SAMPLING",
+      "title": "An Empirical Evaluation of Thompson Sampling",
+      "original_url": "https://proceedings.neurips.cc/paper_files/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf",
+      "revision": "NeurIPS 2011 proceedings，9页",
+      "input_sha256": "6d71388714361c72c7e44bcb5ce98ece977566555745f40ac69de1a124d842d1",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、算法 1–3、公式及表图说明。依据正式会议 PDF 重排，图内英文和参考文献保留。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-23",
+        "authors": [
+          "Olivier Chapelle",
+          "Lihong Li"
+        ],
+        "original_pdf_sha256": "3dd07ef86920cc0b8e1e3fdcce22cde94d629fd9fcc22b8455486258ec1b6145",
+        "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf",
+        "evidence_sha256": "3dd07ef86920cc0b8e1e3fdcce22cde94d629fd9fcc22b8455486258ec1b6145",
+        "notes": "NeurIPS 2011 官方论文入口提供论文 PDF，未核实公开全文译文许可。"
+      },
+      "reason": "逐页渲染目视。原文及中文 PDF 核对远端摘要，并认证下载校验 PDF 类型、大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261123-batch-12-12",
+        "translation_version": "20261123.1",
+        "asset_name": "SRC-THOMPSON-SAMPLING.zh-CN.private.20261123.1.pdf",
+        "sha256": "6d71388714361c72c7e44bcb5ce98ece977566555745f40ac69de1a124d842d1",
+        "size_bytes": 476153,
+        "pages": 8,
+        "verified_download_sha256": "6d71388714361c72c7e44bcb5ce98ece977566555745f40ac69de1a124d842d1"
       }
     }
   ],

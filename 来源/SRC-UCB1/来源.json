@@ -1,0 +1,33 @@
+{
+  "id": "SRC-UCB1",
+  "title": "UCB1 · Finite-time Analysis of the Multiarmed Bandit Problem",
+  "kind": "paper",
+  "state": "active",
+  "current": "ca1d196b180d023324c2930ae5c024f18413b0c22bfc82ce98b0d435efda7fa9",
+  "versions": [
+    {
+      "locator": "https://cesa-bianchi.di.unimi.it/Pubblicazioni/ml-02.pdf",
+      "revision": "Machine Learning 47, 235–256 (2002), DOI 10.1023/A:1013689704352；作者站正式排版版",
+      "read_scope": "采用22页期刊版；核对UCB1定义与定理1、证明及实验协议。",
+      "artifacts": [
+        {
+          "name": "AuerCF2002.pdf",
+          "sha256": "0f5dd08e52165b5c9b17246ec7ecb9e71d6d2a9384dc167670bfedcfa29468f0",
+          "snapshot": ".local/sources/SRC-UCB1/0f5dd08e52165b5c9b17246ec7ecb9e71d6d2a9384dc167670bfedcfa29468f0/AuerCF2002.pdf"
+        }
+      ],
+      "fingerprint": "ca1d196b180d023324c2930ae5c024f18413b0c22bfc82ce98b0d435efda7fa9",
+      "retrieved_on": "2026-11-23",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "99aa0a3c00836474ec0ecb91b234fd4a3c9e762262ee74db0166b0b4ca404e53",
+        "pages": [
+          "contextual-bandit-log-evaluation"
+        ],
+        "reviewed_on": "2026-11-23",
+        "review_method": "agent-self-review",
+        "review_note": "采用作者站固定期刊版，核对正文 §1–5、4 项定理、附录 A–B、式 (1)–(18)、图 1–12 和实验表。精读定理 1 的均值偏离和计数证明，保留其他证明的原文疑点。14 页中文译稿逐页渲染目视，原译件均登录下载校验。完成技术证据与读者路径自查。未运行模型或独立审查。"
+      }
+    }
+  ]
+}
