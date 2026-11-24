@@ -1,0 +1,44 @@
+{
+  "id": "SRC-TAOSR1",
+  "title": "TaoSR1: The Thinking Model for E-commerce Relevance Search",
+  "kind": "paper",
+  "state": "active",
+  "current": "cca21b4a7cb30ae3452141dab8c4918f6ed9221c2a884af7294541dc44e0a467",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2508.12365v4",
+      "revision": "arXiv:2508.12365v4，2026-03-10；KDD 2026 V.2 正式书目，7174–7184，DOI 10.1145/3770855.3818489",
+      "read_scope": "对照 11 页固定版 PDF 与作者 LaTeX 的摘要、正文、式 (1)–(12)、表 1–8 和算法 1；定向读附录 A.1–A.3 的实现、部署和原子能力分析，核对图 1–2。未运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "645ddcfb17005631365530f9fc4ebae135a559d20a660234bce268911bfadbc0",
+          "snapshot": ".local/sources/SRC-TAOSR1/645ddcfb17005631365530f9fc4ebae135a559d20a660234bce268911bfadbc0/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "e2ec0a3830bb56223a6699d4d019a857614bf1c05409964e5d16c63924f93bea",
+          "snapshot": ".local/sources/SRC-TAOSR1/e2ec0a3830bb56223a6699d4d019a857614bf1c05409964e5d16c63924f93bea/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "b3ddc273a40788ec87a2e20fab0da6c359b093f8cebf2dd14016a28c6f62b58b",
+          "snapshot": ".local/sources/SRC-TAOSR1/b3ddc273a40788ec87a2e20fab0da6c359b093f8cebf2dd14016a28c6f62b58b/abs.html"
+        }
+      ],
+      "fingerprint": "cca21b4a7cb30ae3452141dab8c4918f6ed9221c2a884af7294541dc44e0a467",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a56f8b79ba5d12dd1cccd49bdd559547796af08b85f4402e1cacff80d00500dc",
+        "pages": [
+          "search-relevance",
+          "search-systems"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "固定 v4 对照图 1–2、式 (6)/(9)、表 1–8、附录 A.1–A.3。复核规则教师数据、标签位置、难度筛选、CumPT、评估口径与图文联系，保留原稿阈值差异及 GMV 下降。两轮当前 Agent 自查，未运行模型。"
+      }
+    }
+  ]
+}

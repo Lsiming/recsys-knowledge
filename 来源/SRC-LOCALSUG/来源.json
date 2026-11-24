@@ -1,0 +1,45 @@
+{
+  "id": "SRC-LOCALSUG",
+  "title": "LocalSUG: City-Preference-Enhanced LLM for Query Suggestion in Local-Life Services",
+  "kind": "paper",
+  "state": "active",
+  "current": "01026d95d3d8fa757f5b786657981f9ddaaf4659faa22b11d7834169ed0c6e8d",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2603.04946v3",
+      "revision": "arXiv:2603.04946v3，2026-08-25",
+      "read_scope": "核对固定 14 页 PDF 与作者 LaTeX，阅读摘要、§1–5、局限、附录 A–G 的算法、指标与实验。未运行模型或访问作者的线上日志。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "10fcaf8da094f4f38dd763ab5df80ceae6e11d71f3eb29a9d239196948904104",
+          "snapshot": ".local/sources/SRC-LOCALSUG/10fcaf8da094f4f38dd763ab5df80ceae6e11d71f3eb29a9d239196948904104/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "3f6df22997a271acdca0ae7a8ed8b0c6deae2984bfe730911375c3447e07263a",
+          "snapshot": ".local/sources/SRC-LOCALSUG/3f6df22997a271acdca0ae7a8ed8b0c6deae2984bfe730911375c3447e07263a/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "8f8e592c7eda46d1cb729a7f04836ec308b03bb9a8f3a2d56d65ce9055204648",
+          "snapshot": ".local/sources/SRC-LOCALSUG/8f8e592c7eda46d1cb729a7f04836ec308b03bb9a8f3a2d56d65ce9055204648/abs.html"
+        }
+      ],
+      "fingerprint": "01026d95d3d8fa757f5b786657981f9ddaaf4659faa22b11d7834169ed0c6e8d",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "87b0bc8efa9223e94f729c42eab2313c1e30eddb4bb3fd68e8129d38de2d977e",
+        "pages": [
+          "prefix-query-generation",
+          "search-query-suggestion",
+          "search-systems"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "据固定 v3 核对城市候选、式 2–3、算法 1–2、图表 1–6 与附录 C/G；技术证据与读者路径两轮当前 Agent 自查，补充 OneSug 同接口对照及指标边界；伪代码分歧留审核台，未运行模型。"
+      }
+    }
+  ]
+}

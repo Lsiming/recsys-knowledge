@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-24，盘点120篇中文PDF，120篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-24，盘点128篇中文PDF，128篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -132,3 +132,11 @@
 | [From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization](https://ojs.aaai.org/index.php/AAAI/article/download/38508/42470) · `SRC-GENCDR` | 私有，需登录 · 20261124.1 · 12页 | [unverified](https://doi.org/10.1609/aaai.v40i17.38508) | 摘要、正文、致谢、图 1–6 及表 1–3 的标题和表头。保留 12 个编号公式、表内数值、图内英文及英文参考文献。；中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。 |
 | [Generative Multi-Target Cross-Domain Recommendation](https://arxiv.org/pdf/2507.12871v1) · `SRC-GMC` | 私有，需登录 · 20261124.1 · 9页 | [unverified](https://arxiv.org/abs/2507.12871v1) | 摘要、正文 §1–6、图 1–5 与表 1–4 的标题及表头、说明性脚注。保留 10 个编号公式、表内数值、原图英文和 80 条参考文献。；中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。 |
 | [Learning Decomposed Representation for Counterfactual Inference](https://arxiv.org/abs/2006.07040v2) · `SRC-DER-CFR` | 私有，需登录 · 20261124.1 · 9页 | [unverified](https://arxiv.org/abs/2006.07040v2) | 摘要、正文 §1–7、正文图表说明及描述性脚注译为中文；原图内标签、参考文献、附录 A–E（含算法 1）保留英文。；中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。 |
+| [Large Language Model based Long-tail Query Rewriting in Taobao Search](https://arxiv.org/abs/2311.03758v3) · `SRC-BEQUE` | 私有，需登录 · 20261124.1 · 7页 | [CC-BY-4.0](https://arxiv.org/abs/2311.03758v3) | 摘要、正文、正文图表说明及致谢；公式、数据、图内英文和参考文献保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |
+| [Probe-then-Plan: Environment-Aware Planning for Industrial E-commerce Search](https://arxiv.org/abs/2603.15262v2) · `SRC-EASP` | 私有，需登录 · 20261124.1 · 8页 | [unverified](https://arxiv.org/abs/2603.15262v2) | 摘要、正文、图表说明和报告人简介；公式、数据、图内文字与书目保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |
+| [LEAPS: An LLM-Empowered Adaptive Plugin in Taobao AI Search](https://arxiv.org/abs/2601.05513v2) · `SRC-LEAPS` | 私有，需登录 · 20261124.1 · 12页 | [unverified](https://arxiv.org/abs/2601.05513v2) | 摘要、正文、两图四表说明、脚注和算法注释；公式、图内文字和书目保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |
+| [A Unified Structured Query Understanding Framework for Industrial Semantic Search](https://arxiv.org/abs/2605.27441v2) · `SRC-LINKEDIN-SQU` | 私有，需登录 · 20261124.1 · 17页 | [CC-BY-4.0](https://arxiv.org/abs/2605.27441v2) | 摘要、正文、主文图表标题、致谢；附录、代码和数据示例、部分表内术语与书目保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |
+| [LocalSUG: City-Preference-Enhanced LLM for Query Suggestion in Local-Life Services](https://arxiv.org/abs/2603.04946v3) · `SRC-LOCALSUG` | 私有，需登录 · 20261124.1 · 15页 | [unverified](https://arxiv.org/abs/2603.04946v3) | 摘要、正文、图表标题、作者脚注和致谢；附录、图内文字、公式与书目保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |
+| [OneSearch: A Preliminary Exploration of the Unified End-to-End Generative Framework for E-commerce Search](https://arxiv.org/abs/2509.03236v5) · `SRC-ONESEARCH` | 私有，需登录 · 20261124.1 · 18页 | [CC-BY-4.0](https://arxiv.org/abs/2509.03236v5) | 摘要、正文、图表标题和署名脚注；原图、公式、部分表内技术标签及书目保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |
+| [QP-OneModel: A Unified Generative LLM for Multi-Task Query Understanding in Xiaohongshu Search](https://arxiv.org/abs/2602.09901v1) · `SRC-QP-ONEMODEL` | 私有，需登录 · 20261124.1 · 12页 | [unverified](https://arxiv.org/abs/2602.09901v1) | 摘要、正文、表图标题、作者脚注；公式、原图文字、部分表内术语与书目保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |
+| [TaoSR1: The Thinking Model for E-commerce Relevance Search](https://arxiv.org/abs/2508.12365v4) · `SRC-TAOSR1` | 私有，需登录 · 20261124.1 · 8页 | [unverified](https://arxiv.org/abs/2508.12365v4) | 摘要、正文、图表与算法说明；公式、数据、附录和书目保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |

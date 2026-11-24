@@ -1,0 +1,46 @@
+{
+  "id": "SRC-LEAPS",
+  "title": "LEAPS: An LLM-Empowered Adaptive Plugin in Taobao AI Search",
+  "kind": "paper",
+  "state": "active",
+  "current": "b1bf3107ceeff0665fb95e3ddf73c62cc2b5432ade6184defc80181876764f71",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2601.05513v2",
+      "revision": "arXiv:2601.05513v2，2026-05-12；采用版 PDF 标题页为 2026-05-13",
+      "read_scope": "核对固定 13 页 PDF 与作者 LaTeX，阅读摘要、§1–5、两图、四表、一算法及四式。参考文献用于篇内核查，未运行模型、访问工业日志或查作者实现。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "22f6be80abbd0fcf13a4a6c688ab3cd9c28c89c77c2e8efe991427187be8f69d",
+          "snapshot": ".local/sources/SRC-LEAPS/22f6be80abbd0fcf13a4a6c688ab3cd9c28c89c77c2e8efe991427187be8f69d/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "61e29ca9405bf14b231d64fec3c1259fab227e90fb7817b1ee0b150cb11267d8",
+          "snapshot": ".local/sources/SRC-LEAPS/61e29ca9405bf14b231d64fec3c1259fab227e90fb7817b1ee0b150cb11267d8/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "d9df64454bbc9cd945ab997cd9874b4588c8b18d51b1a0f76af50fc63b77c476",
+          "snapshot": ".local/sources/SRC-LEAPS/d9df64454bbc9cd945ab997cd9874b4588c8b18d51b1a0f76af50fc63b77c476/abs.html"
+        }
+      ],
+      "fingerprint": "b1bf3107ceeff0665fb95e3ddf73c62cc2b5432ade6184defc80181876764f71",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "751ee7557c7680cf9c491ae7e9bc4bb16b33cbc76580eb275d4a0649b67770c9",
+        "pages": [
+          "executable-query-planning",
+          "search-query-planning",
+          "search-relevance",
+          "search-systems"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "固定 v2 对照正文、算法 1 与表 1–4；核实后验相关率、去重覆盖、原查询验证、独立专家计分和线上 SRR。已完成技术证据和读者路径自查，保留验证器表述及 CTR 计算精度疑点，未做模型复现。"
+      }
+    }
+  ]
+}

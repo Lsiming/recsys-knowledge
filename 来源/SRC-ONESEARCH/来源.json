@@ -1,0 +1,44 @@
+{
+  "id": "SRC-ONESEARCH",
+  "title": "OneSearch: A Preliminary Exploration of the Unified End-to-End Generative Framework for E-commerce Search",
+  "kind": "paper",
+  "state": "active",
+  "current": "bdd30cbbeb4503805813a12e2d627d317cfb2c26feaa0e7ce68869c48a22b279",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2509.03236v5",
+      "revision": "arXiv:2509.03236v5，2025-10-22",
+      "read_scope": "核对采用版 14 页 PDF、作者 LaTeX、摘要及 §1–5，检查编码、行为序列、偏好公式、线上对照及成本口径。未在工业日志上复现。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "c5aa16f4b864f5d0ea9be55c7a6d4fb6f887516d66d27dce77b834f837bcd426",
+          "snapshot": ".local/sources/SRC-ONESEARCH/c5aa16f4b864f5d0ea9be55c7a6d4fb6f887516d66d27dce77b834f837bcd426/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "88377f50442992b04e1097187fc66dc84416d67e685e40207fcdcd84e9864d23",
+          "snapshot": ".local/sources/SRC-ONESEARCH/88377f50442992b04e1097187fc66dc84416d67e685e40207fcdcd84e9864d23/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "440507a491b440b7d9d87790a5286a5f5dc144a47e037510efade05b0d6c7668",
+          "snapshot": ".local/sources/SRC-ONESEARCH/440507a491b440b7d9d87790a5286a5f5dc144a47e037510efade05b0d6c7668/abs.html"
+        }
+      ],
+      "fingerprint": "bdd30cbbeb4503805813a12e2d627d317cfb2c26feaa0e7ce68869c48a22b279",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "f6eee3f13b64820cc124fe7872fc353996e4cfcbe42b32fa67dcc1cfe1eb7667",
+        "pages": [
+          "search-systems",
+          "semantic-code-retrieval"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "对照固定 v5 的 12 个编号公式、编码和行为原图、离线表 5、线上表 8–9 与成本图 7；技术证据与读者路径自查，确认纯生成和带重排配置的差异并保留印刷疑点。"
+      }
+    }
+  ]
+}

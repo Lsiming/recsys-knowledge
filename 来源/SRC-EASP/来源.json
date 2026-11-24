@@ -1,0 +1,45 @@
+{
+  "id": "SRC-EASP",
+  "title": "Probe-then-Plan: Environment-Aware Planning for Industrial E-commerce Search",
+  "kind": "paper",
+  "state": "active",
+  "current": "ec664ee51f482dd5dc73b586747f1bb0bc4c7f6ea0f6e02c63c0f8f377bc16f6",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2603.15262v2",
+      "revision": "arXiv:2603.15262v2，2026-04-29；SIGIR 2026 书目 DOI 10.1145/3805712.3808459，4518–4522 页",
+      "read_scope": "已对照 5 页固定版 PDF 及主 LaTeX 读摘要、§1–4、图 1、表 1–2、式 (1)–(3) 和报告人简介；参考文献用于核查篇内引用。未运行模型或查作者实现。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "24911b31e391517fe92c5b7c49f368eb503136c16ca81fa189e9ecdf0e848753",
+          "snapshot": ".local/sources/SRC-EASP/24911b31e391517fe92c5b7c49f368eb503136c16ca81fa189e9ecdf0e848753/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "f850848e0983c6b6e648686ca8f771f63f494919d7ebea31a7bba46795d11b93",
+          "snapshot": ".local/sources/SRC-EASP/f850848e0983c6b6e648686ca8f771f63f494919d7ebea31a7bba46795d11b93/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "f546c5375753485ef22dc5cb2abba076da36697fcac9d6ce3f1dd9289c2474ca",
+          "snapshot": ".local/sources/SRC-EASP/f546c5375753485ef22dc5cb2abba076da36697fcac9d6ce3f1dd9289c2474ca/abs.html"
+        }
+      ],
+      "fingerprint": "ec664ee51f482dd5dc73b586747f1bb0bc4c7f6ea0f6e02c63c0f8f377bc16f6",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "5b1debc82c3b38e76690f9c63dae8ce4cdfdb03e71f5306c565eaaa4c3ab9021",
+        "pages": [
+          "executable-query-planning",
+          "search-query-planning",
+          "search-systems"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "固定 v2 对照 PDF/LaTeX，复核探针、执行验证示范、相关性门控奖励、路由、表 2 与 A/B，确认 REL@30 计数单位，保留时延口径差异。技术与读者路径当前 Agent 自查，未运行或查作者实现。"
+      }
+    }
+  ]
+}

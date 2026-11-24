@@ -1,0 +1,45 @@
+{
+  "id": "SRC-BEQUE",
+  "title": "Large Language Model based Long-tail Query Rewriting in Taobao Search",
+  "kind": "paper",
+  "state": "active",
+  "current": "637176efbf5dd60e45a367323967552f8710bbde141f94c49c7e13f37a6ab36e",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2311.03758v3",
+      "revision": "arXiv:2311.03758v3，2024-03-04；WWW Companion 2024，20–28，DOI 10.1145/3589335.3648298",
+      "read_scope": "对照固定 9 页 PDF 与六个 TeX 正文子文件，阅读摘要、§1–5、致谢、图 1–2、表 1–6 与式 (1)–(11)，核实正式书目和原件权利声明。参考文献用于复核正文引文；未运行模型或查作者实现。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "36df076cd78892e92c80ad6e8bf8ff9207114a677cc26bb0bed8028eeff7f899",
+          "snapshot": ".local/sources/SRC-BEQUE/36df076cd78892e92c80ad6e8bf8ff9207114a677cc26bb0bed8028eeff7f899/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "47325b4689168b1669fcdc2a57e413fa2f74662a1e95a3a10b79daa97e18be21",
+          "snapshot": ".local/sources/SRC-BEQUE/47325b4689168b1669fcdc2a57e413fa2f74662a1e95a3a10b79daa97e18be21/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "63c0dec547f578c66ceabbf9de8433c3f684bfb8275764ae8fcce6754fc56cf6",
+          "snapshot": ".local/sources/SRC-BEQUE/63c0dec547f578c66ceabbf9de8433c3f684bfb8275764ae8fcce6754fc56cf6/abs.html"
+        }
+      ],
+      "fingerprint": "637176efbf5dd60e45a367323967552f8710bbde141f94c49c7e13f37a6ab36e",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e134a5ef23191fb245785427cb836279da61194fba3fe0cbfa926086b4537c29",
+        "pages": [
+          "executable-query-planning",
+          "search-query-planning",
+          "search-systems"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "对照固定 v3 PDF 与作者正文源码完成技术证据和学习路径自查。核对倒排路径、线上键值映射、计数式、PRO、表 3–6 与两种 A/B 流量口径；区分作者解释和可从式 (6) 得出的下界，保留未披露实现。未运行模型。"
+      }
+    }
+  ]
+}

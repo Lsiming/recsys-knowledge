@@ -30,7 +30,7 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "94855f065f29c5c4938e30a570b3e6a4d817867011387c6b89c88c7c8329d4a5",
+        "notes_sha256": "12e4f50891233632e96b53a964a16322940248a521c4cdd87c82fc659e692858",
         "pages": [
           "evaluation-bias",
           "generative-preference-alignment",
@@ -43,9 +43,9 @@
           "search-systems",
           "serving-efficiency"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增级联对照按各自固定版本区分V2目标三码、Think候选前缀缓存、OneReason完整候选缓存及OneSug查询建议；不同协议不做效果排名。"
+        "review_note": "以固定 v1 核对图 1、4–8、前缀混合、正负偏好构造及离线和线上指标，补作者图和同一前缀的贯穿例子。补查 AAAI 书目沿用 v1，保留原式梯度和统计协议疑点。当前 Agent 自查，未查作者实现或运行模型。"
       }
     }
   ]

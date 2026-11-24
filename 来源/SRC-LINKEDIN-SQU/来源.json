@@ -1,0 +1,45 @@
+{
+  "id": "SRC-LINKEDIN-SQU",
+  "title": "A Unified Structured Query Understanding Framework for Industrial Semantic Search",
+  "kind": "paper",
+  "state": "active",
+  "current": "7c117620d4a94f28912097426bd1a4fd720ec9019e2bc5ac69f3190b7d5e31b1",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2605.27441v2",
+      "revision": "arXiv:2605.27441v2，2026-06-07；KDD 2026 V.2，DOI 10.1145/3770855.3818312",
+      "read_scope": "核对固定 12 页 PDF、作者 LaTeX 与 §1–8、附录 A–D。阅读模式、工具、蒸馏、人评、代理评委、线上实验、压测及 EBR 消费。未复现工业服务。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "d32edf3990027aa6b2674b52ab278423c7fa80b4752105c6e97a224d2abde577",
+          "snapshot": ".local/sources/SRC-LINKEDIN-SQU/d32edf3990027aa6b2674b52ab278423c7fa80b4752105c6e97a224d2abde577/paper.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "68ee82227031a35522581c774c5e77675ac1b46622ad696c68d522fe961cbe8a",
+          "snapshot": ".local/sources/SRC-LINKEDIN-SQU/68ee82227031a35522581c774c5e77675ac1b46622ad696c68d522fe961cbe8a/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "c8c412b93d15e3fed2521456d3551d714cdfc0348891628c2e78e29395cf4f9c",
+          "snapshot": ".local/sources/SRC-LINKEDIN-SQU/c8c412b93d15e3fed2521456d3551d714cdfc0348891628c2e78e29395cf4f9c/abs.html"
+        }
+      ],
+      "fingerprint": "7c117620d4a94f28912097426bd1a4fd720ec9019e2bc5ac69f3190b7d5e31b1",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "64ae32b6c4504a69e6228a257471a520d52cbca56f0e7d87687677020249bb47",
+        "pages": [
+          "executable-query-understanding",
+          "search-query-understanding",
+          "search-systems"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "技术证据与读者路径自查完成；核对四路由、五功能、教师与评委不同数据口径、附录跨域模式和 EBR 消费，区分压测、离线重放和线上随机实验，保留表 11 单位差异。"
+      }
+    }
+  ]
+}
