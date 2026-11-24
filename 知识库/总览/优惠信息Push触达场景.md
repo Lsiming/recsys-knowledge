@@ -3,10 +3,10 @@ id: "push-offer-contact"
 title: "优惠信息Push触达：月初预选本月发送日"
 type: "map"
 status: "reviewed"
-updated: "2026-11-09"
+updated: "2026-11-24"
 summary: "围绕月初为用户预选本月优惠信息发送日，区分用款需求预测、触达响应与因果增量"
 aliases: ["Push触达场景", "优惠Push", "优惠信息触达", "月初选发送日", "发送哪一天", "贷款用款需求触达"]
-sources: {"SRC-TIM": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f"}
+sources: {"SRC-TIM": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-DEEPPVISIT": "aa6d1ae3ebfa9bd10e9bbb91c3fa3a72dd8b4d55883eb93fb57a1c9c7909b643"}
 related: ["push-timing-reading-path", "marketing-subsidy", "causal-uplift", "evaluation-bias", "exploration-longterm", "data-labels", "notification-quota-timing"]
 ---
 # 优惠信息Push触达：月初预选本月发送日
@@ -58,9 +58,9 @@ $B_d$ 表示日期 $d$ 的发送条数上限。若约束的是金额预算，需
 
 1. [TIM精读](../../来源/SRC-TIM/阅读笔记.md)：学习如何对一个时间网格预测用户分时响应，再统一分配给定触达配额。现有论文粒度是日内时槽，不是月内日期；将方法迁移到本场景属于待验证的扩展。
 2. [STEPS §2.1 与 §4.1](https://arxiv.org/html/2608.01949v1)：理解“预先估计各时点/频次价值，再用整数规划分配”的既有生产路线及其预规划局限。论文主体提出自触发方案，不能把整篇等同于月初静态选日算法。
-3. [DeepPvisit](../阅读/候选论文.md#p80)：补充访问时间与通知决策的生存分析视角；本库目前仅核对元数据和摘要，正文机制仍待精读。
-4. [User Activity Modeling under Inflated Distribution](../阅读/候选论文.md#p87)：作为STEPS引用的预规划路线候选，适合后续拿到正文后核实其是否能支撑用款需求与日期分配；当前没有据题名推断模型机制。
-5. [LinkedIn CIKM2022 Offline RL](../阅读/候选论文.md#p77)：对照学习执行中“发送或等待”的动态策略。若业务每月初锁定日期且执行中不重算，这篇不是首选；若允许根据临近行为改期，再读。
+3. [DeepPvisit](../../来源/SRC-DEEPPVISIT/阅读笔记.md)：对照现在发送与沿原访问时钟继续等待，理解离散选日之外的实时效用预测。原文依据线上旧策略日志拟合访问曲线，不能据此识别本场景不同日期与优惠方案的增量。
+4. [TSIL](../../来源/SRC-TSIL/阅读笔记.md)：用 14 日活跃天数的双端分布估计固定推送频次相对零推送的增量。可参照它的增量排序和容量再分配证据。候选动作是预设频次，改成候选发送日后要重新定义实验和响应窗。
+5. [通知候选到达后怎样决定发送或等待](../问题/通知候选到达后怎样决定发送或等待.md)：对照 DeepPvisit、LinkedIn 和 Twitter 的动态发送策略。若业务每月初锁定日期且执行中不重算，这篇不是首选；若允许根据临近行为改期，再读。
 
 完整论文机制与证据边界见[Push触达与时机阅读路线](../阅读/Push触达与时机论文路线.md)。因果效应定义与增量验证可衔接[因果推断与Uplift模块](../模块/因果推断与Uplift预估.md)、[营销补贴总图](营销补贴总图.md)和[评估、偏差与因果收益](../模块/评估、偏差与因果收益.md)。
 

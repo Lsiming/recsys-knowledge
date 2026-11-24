@@ -4832,6 +4832,247 @@
         "pages": 8,
         "verified_download_sha256": "a2e023b2f803f19895951c8db77d60998cb162028251424e56b248bf07efe677"
       }
+    },
+    {
+      "source_id": "SRC-TSIL",
+      "title": "User Activity Modeling under Inflated Distribution",
+      "original_url": "https://github.com/zhouchenlin/zhouchenlin.github.io/blob/717e9bc87603cd694f5eab9e35fbf56673f6aa0f/Publications/2026-SIGIR-User.pdf",
+      "revision": "SIGIR 2026 Industry Track 出版正文，DOI 10.1145/3805712.3808476；作者仓库固定提交 717e9bc87603cd694f5eab9e35fbf56673f6aa0f 的 6 页 PDF",
+      "input_sha256": "b85f9a01d8f276772cf5b02690376c7c1c2093ffb4e98dde9a5f32537e339a22",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明与致谢；保留公式、图内文字及书目。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-24",
+        "authors": [
+          "Xiang Li",
+          "Zhao-Yu Zhang",
+          "Chunyuan Zheng",
+          "Qingying Chen",
+          "Huiyou Jiang",
+          "Haoxuan Li",
+          "Zhouchen Lin"
+        ],
+        "original_pdf_sha256": "a02e23e4e8b8492c06374574968994626aec6376e348b87245d485e4933068ec",
+        "evidence_url": "https://github.com/zhouchenlin/zhouchenlin.github.io/blob/717e9bc87603cd694f5eab9e35fbf56673f6aa0f/Publications/2026-SIGIR-User.pdf",
+        "evidence_sha256": "a02e23e4e8b8492c06374574968994626aec6376e348b87245d485e4933068ec",
+        "notes": "固定采用版标示 CC BY 4.0，保留作者署名、来源和翻译说明。PDF 按项目规则在私有库维护。",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261124-batch-21-21",
+        "translation_version": "20261124.1",
+        "asset_name": "SRC-TSIL.zh-CN.private.20261124.1.pdf",
+        "sha256": "b85f9a01d8f276772cf5b02690376c7c1c2093ffb4e98dde9a5f32537e339a22",
+        "size_bytes": 619952,
+        "pages": 9,
+        "verified_download_sha256": "b85f9a01d8f276772cf5b02690376c7c1c2093ffb4e98dde9a5f32537e339a22"
+      }
+    },
+    {
+      "source_id": "SRC-DEEPPVISIT",
+      "title": "DeepPvisit: A Deep Survival Model for Notification Management",
+      "original_url": "https://doi.org/10.1145/3543873.3587666",
+      "revision": "WWW 2023 Companion，973–977 页，ACM 正式版，DOI 10.1145/3543873.3587666",
+      "input_sha256": "a1f4721e2b1dcb3c1a7cc4210c835797ad6040c7526722db8f51061720fd3dc7",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明；保留八个编号公式、图内文字及书目。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-24",
+        "authors": [
+          "Guangyu Yang",
+          "Efrem Ghebreab",
+          "Jiaxi Xu",
+          "Xianen Qiu",
+          "Yiping Yuan",
+          "Wensheng Sun"
+        ],
+        "original_pdf_sha256": "0119bfc1afa5722ba4f87f97e0f2609a9c114f6a502e0c20ba9508f3388227e5",
+        "evidence_url": "https://doi.org/10.1145/3543873.3587666",
+        "evidence_sha256": "0119bfc1afa5722ba4f87f97e0f2609a9c114f6a502e0c20ba9508f3388227e5",
+        "notes": "ACM 采用版版权说明要求遵循复制和再分发条件，未核实公开全文翻译许可。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261124-batch-21-21",
+        "translation_version": "20261124.1",
+        "asset_name": "SRC-DEEPPVISIT.zh-CN.private.20261124.1.pdf",
+        "sha256": "a1f4721e2b1dcb3c1a7cc4210c835797ad6040c7526722db8f51061720fd3dc7",
+        "size_bytes": 317258,
+        "pages": 8,
+        "verified_download_sha256": "a1f4721e2b1dcb3c1a7cc4210c835797ad6040c7526722db8f51061720fd3dc7"
+      }
+    },
+    {
+      "source_id": "SRC-LINKEDIN-NOTIFICATION-RL",
+      "title": "Offline Reinforcement Learning for Mobile Notifications",
+      "original_url": "https://arxiv.org/abs/2202.03867v1",
+      "revision": "arXiv:2202.03867v1，2022-02-04，11 页；CIKM 2022，DOI 10.1145/3511808.3557083",
+      "input_sha256": "1a685163dbfe14bbee45f7d2ab1ff29a7dc3ce82ae00774d2d1a706c93bc264f",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明与致谢；保留公式、图内文字及书目。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-24",
+        "authors": [
+          "Yiping Yuan",
+          "Ajith Muralidharan",
+          "Preetam Nandy",
+          "Miao Cheng",
+          "Prakruthi Prabhakar"
+        ],
+        "original_pdf_sha256": "c69463619feb3fe7d8f15f7f49e93751ce20d129eb11aab8980a71eed2979eae",
+        "evidence_url": "https://arxiv.org/abs/2202.03867v1",
+        "evidence_sha256": "b490cd83b198b6be0ddb2abc1cda79384b046fdc931b6a2144fa3dca929ff3bc",
+        "notes": "固定 arXiv 采用版使用非独占分发条款，未核实公开全文翻译许可。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261124-batch-21-21",
+        "translation_version": "20261124.1",
+        "asset_name": "SRC-LINKEDIN-NOTIFICATION-RL.zh-CN.private.20261124.1.pdf",
+        "sha256": "1a685163dbfe14bbee45f7d2ab1ff29a7dc3ce82ae00774d2d1a706c93bc264f",
+        "size_bytes": 596858,
+        "pages": 8,
+        "verified_download_sha256": "1a685163dbfe14bbee45f7d2ab1ff29a7dc3ce82ae00774d2d1a706c93bc264f"
+      }
+    },
+    {
+      "source_id": "SRC-LINKEDIN-NOTIFICATION-MORL",
+      "title": "Multi-objective Optimization of Notifications Using Offline Reinforcement Learning",
+      "original_url": "https://arxiv.org/abs/2207.03029v1",
+      "revision": "arXiv:2207.03029v1，2022-07-07，9 页；KDD 2022，DOI 10.1145/3534678.3539193",
+      "input_sha256": "fd7143221522d96a9e4bdebc6578cd51f19547c66831069edbc623bfde7a5ede",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表和算法说明、致谢；保留公式、图内文字及书目。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-24",
+        "authors": [
+          "Prakruthi Prabhakar",
+          "Yiping Yuan",
+          "Guangyu Yang",
+          "Wensheng Sun",
+          "Ajith Muralidharan"
+        ],
+        "original_pdf_sha256": "40de6e6fd7360b31d97aafd0bf37bfa04a7ae068159a97f6b9a7a96b84ecda6d",
+        "evidence_url": "https://arxiv.org/abs/2207.03029v1",
+        "evidence_sha256": "69da48942f138f60850517c1c0f5087b3194d002c985abf8e4d61cf877155be7",
+        "notes": "固定 arXiv 采用版使用非独占分发条款，未核实公开全文翻译许可。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261124-batch-21-21",
+        "translation_version": "20261124.1",
+        "asset_name": "SRC-LINKEDIN-NOTIFICATION-MORL.zh-CN.private.20261124.1.pdf",
+        "sha256": "fd7143221522d96a9e4bdebc6578cd51f19547c66831069edbc623bfde7a5ede",
+        "size_bytes": 717433,
+        "pages": 7,
+        "verified_download_sha256": "fd7143221522d96a9e4bdebc6578cd51f19547c66831069edbc623bfde7a5ede"
+      }
+    },
+    {
+      "source_id": "SRC-LINKEDIN-NOTIFICATION-DT",
+      "title": "Generative Sequential Notification Optimization via Multi-Objective Decision Transformers",
+      "original_url": "https://arxiv.org/abs/2509.02458v1",
+      "revision": "arXiv:2509.02458v1，2025-09-02，8 页；采用版标 Preprint, Under review",
+      "input_sha256": "120d16af57f0417b7279323ac845b36ce29989893509742e39442fd1c8a3faf7",
+      "input_pages": 12,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明、署名脚注与致谢；保留公式、图内文字及书目。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-24",
+        "authors": [
+          "Borja Ocejo",
+          "Ruofan Wang",
+          "Ke Liu",
+          "Rohit K. Patra",
+          "Haotian Shen",
+          "David Liu",
+          "Yiwen Yuan",
+          "Gokulraj Mohanasundaram",
+          "Fedor Borisyuk",
+          "Prakruthi Prabhakar"
+        ],
+        "original_pdf_sha256": "273e6a4c644abda4a2c85ebfa16f693275c71df38a9ae13d975925b44ac543d4",
+        "evidence_url": "https://arxiv.org/abs/2509.02458v1",
+        "evidence_sha256": "c9654586f8ec2c00386a6993a9e759b8c993a48e88f4c629b8129777b21e2dfb",
+        "notes": "固定采用版标示 CC BY 4.0，保留作者署名、来源和翻译说明。PDF 按项目规则在私有库维护。",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261124-batch-21-21",
+        "translation_version": "20261124.1",
+        "asset_name": "SRC-LINKEDIN-NOTIFICATION-DT.zh-CN.private.20261124.1.pdf",
+        "sha256": "120d16af57f0417b7279323ac845b36ce29989893509742e39442fd1c8a3faf7",
+        "size_bytes": 557560,
+        "pages": 12,
+        "verified_download_sha256": "120d16af57f0417b7279323ac845b36ce29989893509742e39442fd1c8a3faf7"
+      }
+    },
+    {
+      "source_id": "SRC-TWITTER-NOTIFICATION-RL",
+      "title": "Should I send this notification? Optimizing push notifications decision making by modeling the future",
+      "original_url": "https://arxiv.org/abs/2202.08812v1",
+      "revision": "arXiv:2202.08812v1，2022-02-17，9 页；未核实正式会议发表",
+      "input_sha256": "72f4cf670733b20494d89531c4fb3508747eac6804ffd3d2430d10ced9eb560c",
+      "input_pages": 12,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明、伪代码及作者脚注；保留图内文字、书目与附录 A。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-24",
+        "authors": [
+          "Conor O’Brien",
+          "Huasen Wu",
+          "Shaodan Zhai",
+          "Dalin Guo",
+          "Wenzhe Shi",
+          "Jonathan J Hunt"
+        ],
+        "original_pdf_sha256": "d0e7bca3d3aa8718355434ecea5dfb6851f93b337cf7531b31c96c52cca4692e",
+        "evidence_url": "https://arxiv.org/abs/2202.08812v1",
+        "evidence_sha256": "8d32ea857a16838f993ef26e4c0b95ca4ee6f790e4ec8c9092fa4a320f24ee39",
+        "notes": "固定 arXiv 采用版使用非独占分发条款，未核实公开全文翻译许可。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261124-batch-21-21",
+        "translation_version": "20261124.1",
+        "asset_name": "SRC-TWITTER-NOTIFICATION-RL.zh-CN.private.20261124.1.pdf",
+        "sha256": "72f4cf670733b20494d89531c4fb3508747eac6804ffd3d2430d10ced9eb560c",
+        "size_bytes": 508318,
+        "pages": 12,
+        "verified_download_sha256": "72f4cf670733b20494d89531c4fb3508747eac6804ffd3d2430d10ced9eb560c"
+      }
     }
   ],
   "storage_policy": "private-only",

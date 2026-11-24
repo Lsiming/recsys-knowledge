@@ -3,10 +3,10 @@ id: "push-timing-reading-path"
 title: "Push触达与时机：2022—2026年工业论文路线"
 type: "map"
 status: "reviewed"
-updated: "2026-11-09"
+updated: "2026-11-24"
 summary: "从日内时槽分配、发送或等待到自触发调度，筛选大厂Push时机与长期收益论文"
 aliases: ["Push", "触达时机", "通知推荐", "send time optimization", "notification", "STEPS", "TIM", "DeepPvisit", "FairNotification"]
-sources: {"SRC-TIM": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f"}
+sources: {"SRC-TIM": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-DEEPPVISIT": "aa6d1ae3ebfa9bd10e9bbb91c3fa3a72dd8b4d55883eb93fb57a1c9c7909b643", "SRC-LINKEDIN-NOTIFICATION-DT": "fc6bb3e6f9d1c6e37e985c4e476ba04d4ebe7cd98b06cc2c86306487d440bb37", "SRC-LINKEDIN-NOTIFICATION-RL": "ef357491d3cab9d1ef0b5c7ae57c02e90fde83a37d16638834449bd9faafba25", "SRC-LINKEDIN-NOTIFICATION-MORL": "9e68931195cc0bfabac0c1f987ac7d43fbf7a58e0a65d9f097b120d0546140f7", "SRC-TWITTER-NOTIFICATION-RL": "27524dfa0cb734e161ae9ce60d0726bdc11adc2483feb827e63eac349dac5bed"}
 related: ["paper-candidates", "exploration-longterm", "evaluation-bias", "multitask-objectives", "user-sequence", "serving-efficiency", "push-offer-contact", "notification-quota-timing"]
 ---
 # Push触达与时机：2022—2026年工业论文路线
@@ -24,7 +24,7 @@ Push的关键约束是用户没有主动打开推荐流：系统要决定是否�
 | 今天已有配额，分配到哪些时段？ | [P76 · TIM](候选论文.md#p76)，快手，ICMR2024 | 预测全天分槽CTR，再按预测值分配给定日配额；时机与配额是分开的 |
 | 队列里的通知现在发还是再等等？ | [P77 · Offline RL](候选论文.md#p77)，LinkedIn，CIKM2022 | 非强时效通知，每隔几小时检查候选，学习SEND/NOT-SEND及通知间隔 |
 | 事件到达时，怎样兼顾回访、点击和发送量？ | [P78 · 多目标Offline RL](候选论文.md#p78)，LinkedIn，KDD2022 | 近实时通知，用保守Q学习优化多目标长期奖励；决策时点由外部事件提供 |
-| 怎样用序列监督学习替代Q学习式策略？ | [P79 · 多目标DT](候选论文.md#p79)，LinkedIn，2025预印本 | 历史轨迹与目标回报条件化的发送/跳过；仍不直接生成最佳连续时间 |
+| 怎样用序列监督学习替代Q学习式策略？ | [P79 · 多目标DT](../../来源/SRC-LINKEDIN-NOTIFICATION-DT/阅读笔记.md)，LinkedIn，2025预印本 | 历史轨迹与目标回报条件化的发送/跳过；仍不直接生成最佳连续时间 |
 | 下一次何时再调用系统，届时是否发送？ | [P75 · STEPS](候选论文.md#p75)，字节/抖音，RecSys2026 | 规划代理预测下次调用时间，执行代理决定是否发送；另有轻过滤与业务事件触发 |
 
 ### TIM：先学一天中哪些时段更适合触达
@@ -37,11 +37,17 @@ TIM把长期通知接收、点击、观看等交互组织成“天×时槽”，
 
 ### LinkedIn：把等待当作可以学习的动作
 
-CIKM2022工作针对非强时效的批量通知：在预定检查点读取用户近期访问、历史通知数、badge等状态，从队列候选中决定发送或跳过。Double DQN学习后续回访价值，并用离线策略评价筛选。与TIM的全天配额分配相比，它让当前少发与后续状态联系起来；仍依赖检查时刻与日志动作覆盖。[固定v1全文](https://arxiv.org/html/2202.03867v1)§V-B Table I的一周线上A/B，相对生存分析监督基线，报告Sessions +0.30%、通知卡片量−3.49%、CTR +4.53%、取消关注通知动作−4.37%，作者报告均p<0.05。这是短周期策略实验，不等同长期留存已经充分验证。
+[LinkedIn CIKM 2022 精读](../../来源/SRC-LINKEDIN-NOTIFICATION-RL/阅读笔记.md)针对非强时效的批量通知：在预定检查点读取用户近期访问、历史通知数、badge等状态，从队列候选中选择发送或让候选回队；到期另行发送或丢弃。Double DQN 学习跨轮访问价值，再用状态边缘化权重校正目标策略与日志策略的状态、动作分布，筛选进线上 A/B 的候选。与TIM的全天配额分配相比，它让当前少发与后续状态联系起来；仍依赖检查时刻与日志动作覆盖。[固定v1全文](https://arxiv.org/html/2202.03867v1)§V-B Table I的一周线上A/B，相对生存分析监督基线，报告Sessions +0.30%、通知卡片量−3.49%、CTR +4.53%、取消关注通知动作−4.37%，作者报告均p<0.05。这是短周期策略实验，不等同长期留存已经充分验证。
 
-KDD2022[多目标工作](https://arxiv.org/html/2207.03029v1)针对近实时通知，把session、点击、发送量等奖励放入离线强化学习，并使用Conservative Q-Learning缓解分布外动作的价值高估；不同决策间隔也进入折扣。这与前一篇的批量通知间隔优化是不同任务和实验。其一步重要性采样评价存在作者承认的系统偏差，不能将离线策略曲线直接当作无偏长期收益。
+[LinkedIn KDD 2022 多目标精读](../../来源/SRC-LINKEDIN-NOTIFICATION-MORL/阅读笔记.md)把决策扩展到近实时事件和批量队列。不发近实时候选会丢弃，不发批量候选可以回队。会话、点击和发送量合成标量奖励，下一状态的价值按真实事件间隔折扣。CQL 在训练时压低日志支持薄弱动作的高估；一步重要性采样保留日志状态分布，用来筛选候选。固定 v1 表 1 的线上 A/B 中，DDQN + CQL 相对同目标监督 MOO 基线报告会话 +0.24%、WAU +0.18%、发送量 −1.73%、CTR +2.26%。相同论文表 2 另比较预测与观测会话奖励，使用另一对照。
 
-2025年[多目标Decision Transformer预印本](https://arxiv.org/html/2509.02458v1)把轨迹中的状态、动作和目标回报作为序列训练，用状态相关的回报提示驱动动作选择。“Generative”生成的是决策动作，不是通知文案。§6.3 Table 1在2%用户、每次一周的A/B中，报告所选最佳DT策略相对CQL的Sessions +0.72%、发送量−1.68%，CTR无统计显著变化；特征与工程链路也有变化，不能将全部收益归于DT结构。固定v1写明Under review，本轮未核实其正式会议身份。
+2025年[多目标 Decision Transformer 精读](../../来源/SRC-LINKEDIN-NOTIFICATION-DT/阅读笔记.md)把轨迹中的状态、动作和目标回报作为序列训练，用状态相关的回报提示驱动动作选择。“Generative”生成的是决策动作，不是通知文案。§6.3 Table 1在2%用户、每次一周的A/B中，报告所选最佳DT策略相对CQL的Sessions +0.72%、发送量−1.68%，CTR无统计显著变化；特征与工程链路也有变化，不能将全部收益归于DT结构。固定v1写明Under review，本轮未核实其正式会议身份。
+
+### Twitter：由连续响应状态求发送门槛
+
+[Twitter 基于模型的通知过滤](../../来源/SRC-TWITTER-NOTIFICATION-RL/阅读笔记.md)在定期挑出候选后比较发与不发的折扣打开数。历史通知连续打开或忽略形成状态，打开率经验倍数朝 1 收缩后进入打开概率；离线解出各状态的门槛，线上用校准分查表。确定性日志缺未发记录，不能识别状态变化的因果效应。33 天 A/B 中，收缩参数 0.2、上限加 2 的组合相对分位数启发式基线发送量 −5.79%、打开率 +7.96%、DAU +0.20%，可触达用户数变化未达显著。实验没有穷举上限与收缩参数的组合，不能拆分发送上限和收缩参数的影响。
+
+[通知候选到达后怎样决定发送或等待](../问题/通知候选到达后怎样决定发送或等待.md)把生存曲线、离线价值、显式用户模型与待获回报提示放在同一决策点比较。
 
 ### STEPS：连下次何时决策也一起学习
 
@@ -51,11 +57,11 @@ STEPS把固定轮询改为自触发闭环：基于Decision Transformer的规划�
 
 ## 补足生存模型、分配与打扰视角
 
-[P80 · DeepPvisit](候选论文.md#p80)从深度生存模型切入访问时间与通知决策，适合补足time-to-visit视角；它在WWW2023 Companion，不能算WWW主会。[P81 · Twitter未来行为模型](候选论文.md#p81)用model-based RL考虑跨天影响，适合作为长期价值建模补充，但本轮未核实正式会议。
+[DeepPvisit](../../来源/SRC-DEEPPVISIT/阅读笔记.md)以同一个未来访问窗比较两条路径：继续等待沿用原状态已过时长，立即发送重新起算。下一条通知先于访问到来时，似然用到已知的未访问时长。作者在一周实验中仅替换旧 AFT 效用模型，报告卡片数下降和通知 CTR 上升，Macrosessions 与 WAU 变化未显著。
 
 [P82 · Meta Fair Notification](候选论文.md#p82)把通知类型与用户机会建模为拍卖/公平分配，适合多业务争夺触达容量的场景。它处理资源分配与pacing，不是单用户最佳发送时间模型。[P86 · Google/CMU TOCHI2022](候选论文.md#p86)提供用户打扰偏好证据：一周、35人体验采样发现，减少不想要提醒时，抑制可能比延迟更符合偏好；内容也会显著影响偏好。小样本用户研究不能替代生产增长A/B。
 
-[P87 · 字节SIGIR2026 Industry工作](候选论文.md#p87)被STEPS作为预规划基线所依托的引用，可用来追查“活跃建模—uplift—频次/排时”路线。本轮只核实题名、机构、会议与引文位置，独立模型机制和收益待取得正文后判断。
+[TSIL](../../来源/SRC-TSIL/阅读笔记.md)是 STEPS 预规划基线引用的活跃建模工作。它用端点分类和中间天数分布估计 14 日活跃期望，比较零推送与预设频次，并据效用重新分配容量。原文实验按频次干预，具体发送日的选择还需日期级别的动作和对照。
 
 一个容易混淆的背景来源是[《A State Transition Model for Mobile Notifications via Survival Analysis》](https://doi.org/10.1145/3289600.3290981)：尽管[arXiv版本](https://arxiv.org/abs/2207.03099v1)在2022年上传，正式发表是WSDM2019，不计入2022—2026年的新论文。
 
@@ -69,4 +75,4 @@ STEPS把固定轮询改为自触发闭环：基于Decision Transformer的规划�
 
 Meta官方[facebookresearch/FairNotification](https://github.com/facebookresearch/FairNotification/tree/5f37544360a20df9fc3a462a196bc71427d240d3)的README明确关联Fair Notification论文，包含模拟、指标分析、派生数据notebook及Julia的Eisenberg–Gale求解文件；README提供[Instagram通知数据入口](https://socialmediaarchive.org/record/55?&ln=en)。代码许可为CC-BY-NC-4.0，复用时需核对非商业限制。本轮只静态核对固定commit的README与目录，未下载数据、运行notebook或验证可复现性。TIM、STEPS及LinkedIn核心策略论文，本轮未找到能够确认对应的官方实现；这不表示它们一定没有开源。
 
-检索截至2026-11-09。arXiv固定v1的摘要、方法和实验相关段落用于定向比较，会议身份用Crossref出版元数据交叉核对；DeepPvisit与TOCHI仅核元数据/摘要，P87仅核出版记录、作者页面与STEPS引文。其中TIM已补齐全文精读、正文翻译和4页中文PDF，见其阅读笔记；其余不称全文精读。未运行模型实验。网页与元数据响应保存在本地忽略目录`.local/research/push-20261109/`，不随Git分发。
+检索截至 2026-11-24。TIM、DeepPvisit、TSIL 和 LinkedIn 通知 DT 的采用版本及正文中文 PDF 见各篇精读，其余资料的定向阅读范围见候选表。未运行模型实验。

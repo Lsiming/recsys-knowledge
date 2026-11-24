@@ -1,0 +1,44 @@
+{
+  "id": "SRC-TWITTER-NOTIFICATION-RL",
+  "title": "Should I send this notification? Optimizing push notifications decision making by modeling the future",
+  "kind": "paper",
+  "state": "active",
+  "current": "27524dfa0cb734e161ae9ce60d0726bdc11adc2483feb827e63eac349dac5bed",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2202.08812v1",
+      "revision": "arXiv:2202.08812v1，2022-02-17，9 页；未核实正式会议发表",
+      "read_scope": "核对固定版摘要、§1–5、三图、表 1、算法 1 和附录 A，区分正文公式与递推近似；未运行作者实现或复现实验。",
+      "artifacts": [
+        {
+          "name": "original.pdf",
+          "sha256": "d0e7bca3d3aa8718355434ecea5dfb6851f93b337cf7531b31c96c52cca4692e",
+          "snapshot": ".local/sources/SRC-TWITTER-NOTIFICATION-RL/d0e7bca3d3aa8718355434ecea5dfb6851f93b337cf7531b31c96c52cca4692e/original.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "57ee638a2a420c35bf0f85e1737d5e3c36d3629e3961fb005906ba3ccead190c",
+          "snapshot": ".local/sources/SRC-TWITTER-NOTIFICATION-RL/57ee638a2a420c35bf0f85e1737d5e3c36d3629e3961fb005906ba3ccead190c/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "8d32ea857a16838f993ef26e4c0b95ca4ee6f790e4ec8c9092fa4a320f24ee39",
+          "snapshot": ".local/sources/SRC-TWITTER-NOTIFICATION-RL/8d32ea857a16838f993ef26e4c0b95ca4ee6f790e4ec8c9092fa4a320f24ee39/abs.html"
+        }
+      ],
+      "fingerprint": "27524dfa0cb734e161ae9ce60d0726bdc11adc2483feb827e63eac349dac5bed",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "408edb465c88cc9c239c21760cb25af562fcaf4b1d03a6a5a422b492d69632eb",
+        "pages": [
+          "notification-send-or-wait",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "复核连续响应的经验估计、收缩假设、Bellman 期望顺序、查表及 33 天线上分组；在阅读路线、候选表与动态问题建立双向入口。 当前 Agent 自查；未运行作者代码或复现实验。"
+      }
+    }
+  ]
+}

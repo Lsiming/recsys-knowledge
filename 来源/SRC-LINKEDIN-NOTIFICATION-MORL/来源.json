@@ -1,0 +1,45 @@
+{
+  "id": "SRC-LINKEDIN-NOTIFICATION-MORL",
+  "title": "Multi-objective Optimization of Notifications Using Offline Reinforcement Learning",
+  "kind": "paper",
+  "state": "active",
+  "current": "9e68931195cc0bfabac0c1f987ac7d43fbf7a58e0a65d9f097b120d0546140f7",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2207.03029v1",
+      "revision": "arXiv:2207.03029v1，2022-07-07，9 页；KDD 2022，DOI 10.1145/3534678.3539193",
+      "read_scope": "核对固定版摘要、§1–7、致谢、公式、图 1–6、表 1–2 和算法 1；未运行作者实现或复现实验。",
+      "artifacts": [
+        {
+          "name": "original.pdf",
+          "sha256": "40de6e6fd7360b31d97aafd0bf37bfa04a7ae068159a97f6b9a7a96b84ecda6d",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-MORL/40de6e6fd7360b31d97aafd0bf37bfa04a7ae068159a97f6b9a7a96b84ecda6d/original.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "09e97d11f909243e31a084774d348641d2e30466880eedce96f2db028e993786",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-MORL/09e97d11f909243e31a084774d348641d2e30466880eedce96f2db028e993786/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "69da48942f138f60850517c1c0f5087b3194d002c985abf8e4d61cf877155be7",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-MORL/69da48942f138f60850517c1c0f5087b3194d002c985abf8e4d61cf877155be7/abs.html"
+        }
+      ],
+      "fingerprint": "9e68931195cc0bfabac0c1f987ac7d43fbf7a58e0a65d9f097b120d0546140f7",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "5572265c0386060beae68b3231ca3cd7825ceb322a8a3d5c76e551bfffdb8fc2",
+        "pages": [
+          "multitask-objectives",
+          "notification-send-or-wait",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "复核近实时动作、时间折扣、奖励、保守惩罚、一步 OPE 及两组线上基线，补多目标模块、动态问题与前后论文链接。 当前 Agent 自查；未运行作者代码或复现实验。"
+      }
+    }
+  ]
+}

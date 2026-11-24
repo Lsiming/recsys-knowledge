@@ -6,7 +6,7 @@ status: "reviewed"
 updated: "2026-11-24"
 summary: "从干预与对照定义进入条件增量估计，连接策略表示、正交学习、排序与幅度验证"
 aliases: ["因果推断/uplift预估", "uplift预估", "Uplift Modeling", "CATE", "增益模型", "异质性干预效应", "营销因果模型"]
-sources: {"SRC-DER-CFR": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51", "SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f"}
+sources: {"SRC-DER-CFR": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51", "SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc"}
 related: ["observational-coupon-uplift", "marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives"]
 module: "因果推断与 Uplift 预估"
 ---
@@ -41,6 +41,7 @@ $t_0$ 可以是不发券，也可以是当前策略；换了对照就换了问�
 | 如何减少基准预测误差对效应学习的影响？ | 对结果和干预表示残差化；交叉拟合与已知随机化概率；不把局部正交性扩大为任意学习误差保证 | [POUL 的正交化推导](../../来源/SRC-POUL/阅读笔记.md#三项理论分别保证了什么)、[逐点误差余项的反例](../问题/正交得分怎样约束逐点效应误差.md) |
 | 联合折扣怎样同时建模和服务？ | 坐标级处理 Token 查询请求记忆，OBS 预训练后用 RCT LoRA 和门适配；通过处理并行复用请求编码 | [TaQFormer 精读](../../来源/SRC-TAQFORMER/阅读笔记.md) |
 | 能排序是否就能决定给多少补贴？ | AUUC看排序，分组效应误差看幅度；还需各动作的价值、成本与约束 | [POUL 的分箱实验](../../来源/SRC-POUL/阅读笔记.md#实验支持部分排序优势幅度校准仍然不足)、[TaQFormer 的预算分配算例](../问题/组合营销策略如何共享结构并估计因果增量.md#同样的增量为什么会选出不同的券) |
+| 结果集中在 0 天和全勤时，怎样估计触达增量？ | 先估计两个端点及中间区的概率，再对中间区建离散天数分布；以随机分配的不同频次重构各动作的结果期望 | [TSIL 的分布与增量算例](../../来源/SRC-TSIL/阅读笔记.md) |
 | 商品量价异质性怎样建模，单调性是否等于因果性？ | 历史条件化参数、非负增量遮罩、预测后选价；仍需干预支持和识别条件 | [TG-DIPricingNets与补贴模型比较](../问题/商品历史如何生成单调需求曲线并支持定价.md) |
 
 T-Learner、Causal Forest、DESCN和POUL称为DRCFR的 Cheng 等互信息模型，目前只作为POUL论文内部基线理解，不据此声称已独立精读。后续补基础或多值/连续干预资料时，围绕相同目标量、数据生成与支持条件比较，不另建一份同义的“增益模型”百科。

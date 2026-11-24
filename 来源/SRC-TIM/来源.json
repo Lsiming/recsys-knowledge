@@ -30,7 +30,7 @@
       "retrieved_on": "2026-11-09",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "75eb91d68eef2a41848cafa860c0929bdd01017cf3ee4a4c987e0dc4d803a0cf",
+        "notes_sha256": "c292ec70793d42171ff578877880aeea0c80150af84fba7ec8711c1fb4a80f30",
         "pages": [
           "exploration-longterm",
           "notification-quota-timing",
@@ -38,9 +38,9 @@
           "push-offer-contact",
           "push-timing-reading-path"
         ],
-        "reviewed_on": "2026-11-09",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "当前Agent通读固定v1全部5页及完整正文源码，自查5个直接引用知识页与来源笔记的分时响应目标、两级TAU、特定lambda下KKT比例解、累计pacing缺下界及3表/线上显著性边界。月初优惠选日为业务迁移分析，区分整数日期、月初特征可用性、需求和因果增量、容量及金额成本。4页中文PDF已逐页目视，原/译私有备份真实登录下载核验，两库目录已同步；未运行模型或独立审查。"
+        "review_note": "复核 TAU、固定配额正则系数与概率边界，检索分批和 Push 路线、配额问题、优惠场景和候选书目；快手表 3 仅据特定线上对照，复验既有 PDF。 当前 Agent 自查；未运行作者代码或复现实验。"
       }
     }
   ]

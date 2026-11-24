@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-24，盘点128篇中文PDF，128篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-24，盘点134篇中文PDF，134篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -140,3 +140,9 @@
 | [OneSearch: A Preliminary Exploration of the Unified End-to-End Generative Framework for E-commerce Search](https://arxiv.org/abs/2509.03236v5) · `SRC-ONESEARCH` | 私有，需登录 · 20261124.1 · 18页 | [CC-BY-4.0](https://arxiv.org/abs/2509.03236v5) | 摘要、正文、图表标题和署名脚注；原图、公式、部分表内技术标签及书目保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |
 | [QP-OneModel: A Unified Generative LLM for Multi-Task Query Understanding in Xiaohongshu Search](https://arxiv.org/abs/2602.09901v1) · `SRC-QP-ONEMODEL` | 私有，需登录 · 20261124.1 · 12页 | [unverified](https://arxiv.org/abs/2602.09901v1) | 摘要、正文、表图标题、作者脚注；公式、原图文字、部分表内术语与书目保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |
 | [TaoSR1: The Thinking Model for E-commerce Relevance Search](https://arxiv.org/abs/2508.12365v4) · `SRC-TAOSR1` | 私有，需登录 · 20261124.1 · 8页 | [unverified](https://arxiv.org/abs/2508.12365v4) | 摘要、正文、图表与算法说明；公式、数据、附录和书目保留。；正文译稿逐页目视；采用版原文与中文 PDF 均已认证下载并校验完整 SHA-256。 |
+| [User Activity Modeling under Inflated Distribution](https://github.com/zhouchenlin/zhouchenlin.github.io/blob/717e9bc87603cd694f5eab9e35fbf56673f6aa0f/Publications/2026-SIGIR-User.pdf) · `SRC-TSIL` | 私有，需登录 · 20261124.1 · 9页 | [CC-BY-4.0](https://github.com/zhouchenlin/zhouchenlin.github.io/blob/717e9bc87603cd694f5eab9e35fbf56673f6aa0f/Publications/2026-SIGIR-User.pdf) | 摘要、正文、图表说明与致谢；保留公式、图内文字及书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [DeepPvisit: A Deep Survival Model for Notification Management](https://doi.org/10.1145/3543873.3587666) · `SRC-DEEPPVISIT` | 私有，需登录 · 20261124.1 · 8页 | [unverified](https://doi.org/10.1145/3543873.3587666) | 摘要、正文、图表说明；保留八个编号公式、图内文字及书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Offline Reinforcement Learning for Mobile Notifications](https://arxiv.org/abs/2202.03867v1) · `SRC-LINKEDIN-NOTIFICATION-RL` | 私有，需登录 · 20261124.1 · 8页 | [unverified](https://arxiv.org/abs/2202.03867v1) | 摘要、正文、图表说明与致谢；保留公式、图内文字及书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Multi-objective Optimization of Notifications Using Offline Reinforcement Learning](https://arxiv.org/abs/2207.03029v1) · `SRC-LINKEDIN-NOTIFICATION-MORL` | 私有，需登录 · 20261124.1 · 7页 | [unverified](https://arxiv.org/abs/2207.03029v1) | 摘要、正文、图表和算法说明、致谢；保留公式、图内文字及书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Generative Sequential Notification Optimization via Multi-Objective Decision Transformers](https://arxiv.org/abs/2509.02458v1) · `SRC-LINKEDIN-NOTIFICATION-DT` | 私有，需登录 · 20261124.1 · 12页 | [CC-BY-4.0](https://arxiv.org/abs/2509.02458v1) | 摘要、正文、图表说明、署名脚注与致谢；保留公式、图内文字及书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Should I send this notification? Optimizing push notifications decision making by modeling the future](https://arxiv.org/abs/2202.08812v1) · `SRC-TWITTER-NOTIFICATION-RL` | 私有，需登录 · 20261124.1 · 12页 | [unverified](https://arxiv.org/abs/2202.08812v1) | 摘要、正文、图表说明、伪代码及作者脚注；保留图内文字、书目与附录 A。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |

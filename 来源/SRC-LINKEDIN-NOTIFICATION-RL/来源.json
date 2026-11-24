@@ -1,0 +1,45 @@
+{
+  "id": "SRC-LINKEDIN-NOTIFICATION-RL",
+  "title": "Offline Reinforcement Learning for Mobile Notifications",
+  "kind": "paper",
+  "state": "active",
+  "current": "ef357491d3cab9d1ef0b5c7ae57c02e90fde83a37d16638834449bd9faafba25",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2202.03867v1",
+      "revision": "arXiv:2202.03867v1，2022-02-04，11 页；CIKM 2022，DOI 10.1145/3511808.3557083",
+      "read_scope": "通读固定版摘要、§I–VI、致谢、公式、图 1–5 和表 I。核对作者源码与 arXiv 版本许可。未运行作者实现或复现实验。",
+      "artifacts": [
+        {
+          "name": "original.pdf",
+          "sha256": "c69463619feb3fe7d8f15f7f49e93751ce20d129eb11aab8980a71eed2979eae",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-RL/c69463619feb3fe7d8f15f7f49e93751ce20d129eb11aab8980a71eed2979eae/original.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "c9e37056021cb1166c89e8a7119a4714aa81c37bbcac317699894cae953e6408",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-RL/c9e37056021cb1166c89e8a7119a4714aa81c37bbcac317699894cae953e6408/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "b490cd83b198b6be0ddb2abc1cda79384b046fdc931b6a2144fa3dca929ff3bc",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-RL/b490cd83b198b6be0ddb2abc1cda79384b046fdc931b6a2144fa3dca929ff3bc/abs.html"
+        }
+      ],
+      "fingerprint": "ef357491d3cab9d1ef0b5c7ae57c02e90fde83a37d16638834449bd9faafba25",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "60f87318e9f469de275dfd7d6ce0ad707c8631f0953a21e342528bcc8558ae7a",
+        "pages": [
+          "exploration-longterm",
+          "notification-send-or-wait",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "复核周期回队、Double DQN、状态与动作分布比及一周 A/B，纳入长期模块和动态策略问题。论文中密度比分母和条件方向另行留注。 当前 Agent 自查；未运行作者代码或复现实验。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "SRC-TSIL",
+  "title": "User Activity Modeling under Inflated Distribution",
+  "kind": "paper",
+  "state": "active",
+  "current": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc",
+  "versions": [
+    {
+      "locator": "https://github.com/zhouchenlin/zhouchenlin.github.io/blob/717e9bc87603cd694f5eab9e35fbf56673f6aa0f/Publications/2026-SIGIR-User.pdf",
+      "revision": "SIGIR 2026 Industry Track 出版正文，DOI 10.1145/3805712.3808476；作者仓库固定提交 717e9bc87603cd694f5eab9e35fbf56673f6aa0f 的 6 页 PDF",
+      "read_scope": "通读原文摘要、§1–5、致谢、两张图、六张表及其公式，核对作者、出版标识、附带许可和参考文献表。译文以同一版本正文重排，未执行作者代码或训练复现。",
+      "artifacts": [
+        {
+          "name": "original.pdf",
+          "sha256": "a02e23e4e8b8492c06374574968994626aec6376e348b87245d485e4933068ec",
+          "snapshot": ".local/sources/SRC-TSIL/a02e23e4e8b8492c06374574968994626aec6376e348b87245d485e4933068ec/original.pdf"
+        }
+      ],
+      "fingerprint": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "c565c6b86721beb6a651b75b2d42127c64665e6449db88a01c17ec0d68c9d7a9",
+        "pages": [
+          "causal-uplift",
+          "notification-send-or-wait",
+          "push-offer-contact",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "复核 14 日两端膨胀、固定频次随机处理、校准指标及表 6 口径，回写因果模块、月初场景、动态策略问题与路线，保留疑点。 当前 Agent 自查；未运行作者代码或复现实验。"
+      }
+    }
+  ]
+}

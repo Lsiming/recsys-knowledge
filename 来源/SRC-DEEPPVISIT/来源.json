@@ -1,0 +1,35 @@
+{
+  "id": "SRC-DEEPPVISIT",
+  "title": "DeepPvisit: A Deep Survival Model for Notification Management",
+  "kind": "paper",
+  "state": "active",
+  "current": "aa6d1ae3ebfa9bd10e9bbb91c3fa3a72dd8b4d55883eb93fb57a1c9c7909b643",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3543873.3587666",
+      "revision": "WWW 2023 Companion，973–977 页，ACM 正式版，DOI 10.1145/3543873.3587666",
+      "read_scope": "通读 ACM 五页正式全文，核对摘要、§1–5、八个编号公式、两张图、线上指标表及参考文献；未执行作者代码或复现模型。",
+      "artifacts": [
+        {
+          "name": "original.pdf",
+          "sha256": "0119bfc1afa5722ba4f87f97e0f2609a9c114f6a502e0c20ba9508f3388227e5",
+          "snapshot": ".local/sources/SRC-DEEPPVISIT/0119bfc1afa5722ba4f87f97e0f2609a9c114f6a502e0c20ba9508f3388227e5/original.pdf"
+        }
+      ],
+      "fingerprint": "aa6d1ae3ebfa9bd10e9bbb91c3fa3a72dd8b4d55883eb93fb57a1c9c7909b643",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "b0cc12c62ed30febfe9a55177f62f3bb91301d6d1983c0b1156ada5252f6b222",
+        "pages": [
+          "notification-send-or-wait",
+          "push-offer-contact",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "复核同窗发/等概率、右删失、AGO 调度和一周 A/B；补场景、动态策略问题和延迟观察互链。保留原审查分歧。 当前 Agent 自查；未运行作者代码或复现实验。"
+      }
+    }
+  ]
+}

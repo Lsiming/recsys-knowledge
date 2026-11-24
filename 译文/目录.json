@@ -2353,5 +2353,127 @@
     "evidence_url": "https://arxiv.org/abs/2602.09901v1",
     "evidence_sha256": "9bcb5452d4f8c3cc5a4f17ca4cf35bbceb799f811940a38de838d9321f634931",
     "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-TSIL",
+    "title": "User Activity Modeling under Inflated Distribution",
+    "original_url": "https://github.com/zhouchenlin/zhouchenlin.github.io/blob/717e9bc87603cd694f5eab9e35fbf56673f6aa0f/Publications/2026-SIGIR-User.pdf",
+    "revision": "SIGIR 2026 Industry Track 出版正文，DOI 10.1145/3805712.3808476；作者仓库固定提交 717e9bc87603cd694f5eab9e35fbf56673f6aa0f 的 6 页 PDF",
+    "status": "local-only",
+    "reason": "9 页中文正文 PDF 已逐页目视并完成私有认证下载。此状态对应正式 Markdown 译文目录。",
+    "checked_on": "2026-11-24",
+    "authors": [
+      "Xiang Li",
+      "Zhao-Yu Zhang",
+      "Chunyuan Zheng",
+      "Qingying Chen",
+      "Huiyou Jiang",
+      "Haoxuan Li",
+      "Zhouchen Lin"
+    ],
+    "evidence_url": "https://github.com/zhouchenlin/zhouchenlin.github.io/blob/717e9bc87603cd694f5eab9e35fbf56673f6aa0f/Publications/2026-SIGIR-User.pdf",
+    "evidence_sha256": "a02e23e4e8b8492c06374574968994626aec6376e348b87245d485e4933068ec",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "source_id": "SRC-DEEPPVISIT",
+    "title": "DeepPvisit: A Deep Survival Model for Notification Management",
+    "original_url": "https://doi.org/10.1145/3543873.3587666",
+    "revision": "WWW 2023 Companion，973–977 页，ACM 正式版，DOI 10.1145/3543873.3587666",
+    "status": "local-only",
+    "reason": "8 页中文正文 PDF 已逐页目视并完成私有认证下载。此状态对应正式 Markdown 译文目录。",
+    "checked_on": "2026-11-24",
+    "authors": [
+      "Guangyu Yang",
+      "Efrem Ghebreab",
+      "Jiaxi Xu",
+      "Xianen Qiu",
+      "Yiping Yuan",
+      "Wensheng Sun"
+    ],
+    "evidence_url": "https://doi.org/10.1145/3543873.3587666",
+    "evidence_sha256": "0119bfc1afa5722ba4f87f97e0f2609a9c114f6a502e0c20ba9508f3388227e5"
+  },
+  {
+    "source_id": "SRC-LINKEDIN-NOTIFICATION-RL",
+    "title": "Offline Reinforcement Learning for Mobile Notifications",
+    "original_url": "https://arxiv.org/abs/2202.03867v1",
+    "revision": "arXiv:2202.03867v1，2022-02-04，11 页；CIKM 2022，DOI 10.1145/3511808.3557083",
+    "status": "local-only",
+    "reason": "8 页中文正文 PDF 已逐页目视并完成私有认证下载。此状态对应正式 Markdown 译文目录。",
+    "checked_on": "2026-11-24",
+    "authors": [
+      "Yiping Yuan",
+      "Ajith Muralidharan",
+      "Preetam Nandy",
+      "Miao Cheng",
+      "Prakruthi Prabhakar"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2202.03867v1",
+    "evidence_sha256": "b490cd83b198b6be0ddb2abc1cda79384b046fdc931b6a2144fa3dca929ff3bc",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-LINKEDIN-NOTIFICATION-MORL",
+    "title": "Multi-objective Optimization of Notifications Using Offline Reinforcement Learning",
+    "original_url": "https://arxiv.org/abs/2207.03029v1",
+    "revision": "arXiv:2207.03029v1，2022-07-07，9 页；KDD 2022，DOI 10.1145/3534678.3539193",
+    "status": "local-only",
+    "reason": "7 页中文正文 PDF 已逐页目视并完成私有认证下载。此状态对应正式 Markdown 译文目录。",
+    "checked_on": "2026-11-24",
+    "authors": [
+      "Prakruthi Prabhakar",
+      "Yiping Yuan",
+      "Guangyu Yang",
+      "Wensheng Sun",
+      "Ajith Muralidharan"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2207.03029v1",
+    "evidence_sha256": "69da48942f138f60850517c1c0f5087b3194d002c985abf8e4d61cf877155be7",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-LINKEDIN-NOTIFICATION-DT",
+    "title": "Generative Sequential Notification Optimization via Multi-Objective Decision Transformers",
+    "original_url": "https://arxiv.org/abs/2509.02458v1",
+    "revision": "arXiv:2509.02458v1，2025-09-02，8 页；采用版标 Preprint, Under review",
+    "status": "local-only",
+    "reason": "12 页中文正文 PDF 已逐页目视并完成私有认证下载。此状态对应正式 Markdown 译文目录。",
+    "checked_on": "2026-11-24",
+    "authors": [
+      "Borja Ocejo",
+      "Ruofan Wang",
+      "Ke Liu",
+      "Rohit K. Patra",
+      "Haotian Shen",
+      "David Liu",
+      "Yiwen Yuan",
+      "Gokulraj Mohanasundaram",
+      "Fedor Borisyuk",
+      "Prakruthi Prabhakar"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2509.02458v1",
+    "evidence_sha256": "c9654586f8ec2c00386a6993a9e759b8c993a48e88f4c629b8129777b21e2dfb",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "source_id": "SRC-TWITTER-NOTIFICATION-RL",
+    "title": "Should I send this notification? Optimizing push notifications decision making by modeling the future",
+    "original_url": "https://arxiv.org/abs/2202.08812v1",
+    "revision": "arXiv:2202.08812v1，2022-02-17，9 页；未核实正式会议发表",
+    "status": "local-only",
+    "reason": "12 页中文正文 PDF 已逐页目视并完成私有认证下载。此状态对应正式 Markdown 译文目录。",
+    "checked_on": "2026-11-24",
+    "authors": [
+      "Conor O’Brien",
+      "Huasen Wu",
+      "Shaodan Zhai",
+      "Dalin Guo",
+      "Wenzhe Shi",
+      "Jonathan J Hunt"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2202.08812v1",
+    "evidence_sha256": "8d32ea857a16838f993ef26e4c0b95ca4ee6f790e4ec8c9092fa4a320f24ee39",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
   }
 ]

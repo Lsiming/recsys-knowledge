@@ -1,0 +1,44 @@
+{
+  "id": "SRC-LINKEDIN-NOTIFICATION-DT",
+  "title": "Generative Sequential Notification Optimization via Multi-Objective Decision Transformers",
+  "kind": "paper",
+  "state": "active",
+  "current": "fc6bb3e6f9d1c6e37e985c4e476ba04d4ebe7cd98b06cc2c86306487d440bb37",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2509.02458v1",
+      "revision": "arXiv:2509.02458v1，2025-09-02，8 页；采用版标 Preprint, Under review",
+      "read_scope": "通读采用版摘要、§1–8、致谢、公式、四图三表，核对作者与版本的 CC BY 4.0 声明，并阅读全部进入编译的 LaTeX 正文。未运行作者实现或复现实验。",
+      "artifacts": [
+        {
+          "name": "original.pdf",
+          "sha256": "273e6a4c644abda4a2c85ebfa16f693275c71df38a9ae13d975925b44ac543d4",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-DT/273e6a4c644abda4a2c85ebfa16f693275c71df38a9ae13d975925b44ac543d4/original.pdf"
+        },
+        {
+          "name": "source.tar.gz",
+          "sha256": "12b28a34521c09a41da6e284539371982e67e1e06e3a4e5ccd8fd4b4702dc1f6",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-DT/12b28a34521c09a41da6e284539371982e67e1e06e3a4e5ccd8fd4b4702dc1f6/source.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "c9654586f8ec2c00386a6993a9e759b8c993a48e88f4c629b8129777b21e2dfb",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-DT/c9654586f8ec2c00386a6993a9e759b8c993a48e88f4c629b8129777b21e2dfb/abs.html"
+        }
+      ],
+      "fingerprint": "fc6bb3e6f9d1c6e37e985c4e476ba04d4ebe7cd98b06cc2c86306487d440bb37",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "23008bae21e11c327aa3e082e6eba91927b0a6a4bb48ef3c31550317c3926cbb",
+        "pages": [
+          "notification-send-or-wait",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "复核动作、RTG 两项监督、在线资格、成本及一周 A/B，修正与 CQL 的原文对应；保留图 4 分位异常与趋势冲突。 当前 Agent 自查；未运行作者代码或复现实验。"
+      }
+    }
+  ]
+}
