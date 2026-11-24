@@ -65,15 +65,16 @@
       "retrieved_on": "2026-10-29",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "838a443476617d607e9ecca921b5207338669b1bcc06e254e5d5c476aa52c3a8",
+        "notes_sha256": "0fc7121b6f5bd54cdc4b0dfc12e8f5728ff17c35d24c065225ef71b179c95f2a",
         "pages": [
+          "ann-candidate-coverage",
           "generation-decoding",
           "generative-recommendation",
           "interaction-vector-denoising"
         ],
         "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "PAPER-017 固定版证据和读者路径两轮自查。重查图1/2/4与算法1–2，补从历史条件、目标去噪到内积检索的实例，保留正文权重与伪代码的差异。"
+        "review_note": "PAPER-017 固定版证据和读者路径两轮自查。重查图1/2/4与算法1–2，补从历史条件、目标去噪到内积检索的实例，保留正文权重与伪代码的差异。 KB-022：核对 v1 §4.2.3 的候选内积 KNN，连通精读、去噪问题和向量索引精确基准。"
       }
     }
   ]

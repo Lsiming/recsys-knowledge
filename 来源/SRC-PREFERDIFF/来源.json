@@ -90,8 +90,9 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "c090d5346df9eb836d8d3b29e69b0315322147fd70d055ed1065ec29e4fe90fc",
+        "notes_sha256": "6216519ad9675b8fc5a208218e27376795beab212b51daa4bbd60eb23bbe4f01",
         "pages": [
+          "ann-candidate-coverage",
           "generation-decoding",
           "generative-preference-alignment",
           "generative-recommendation",
@@ -100,7 +101,7 @@
         ],
         "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "PAPER-017 固定版证据和读者路径两轮自查。重查图1–2及式(7)、(10)–(12)，补质心损失算例及训练/推理比较，保留上界与固定实现差异。"
+        "review_note": "PAPER-017 固定版证据和读者路径两轮自查。重查图1–2及式(7)、(10)–(12)，补质心损失算例及训练/推理比较，保留上界与固定实现差异。 KB-022：核对固定 v2 §3.1 目录物品的内积排序，新增向量索引问题引用与笔记回链。"
       }
     }
   ]

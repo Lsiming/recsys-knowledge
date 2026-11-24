@@ -25,7 +25,7 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "8b3bc11d67601cdb6d79c994a5295921dd9f78243748e95a01f8a3159a4b01d3",
+        "notes_sha256": "f00aa22b8e88212c80c95a90613a311ea713b01294b22abdc671cdcf8ad541e2",
         "pages": [
           "generation-decoding",
           "generative-recommendation",
@@ -37,7 +37,7 @@
         ],
         "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "复核 §III–IV、图 1/5、式 (6)–(7)，区分末层平衡、指令信号及约束寻址。 固定原译 PDF 通过认证下载与哈希复验。"
+        "review_note": "复核 §III–IV、图 1/5、式 (6)–(7)，区分末层平衡、指令信号及约束寻址。 固定原译 PDF 通过认证下载与哈希复验。 KB-022：核对固定 v4 §III-C 的语言和新增索引对齐任务，补到语言接口问题的笔记回链。"
       }
     }
   ]

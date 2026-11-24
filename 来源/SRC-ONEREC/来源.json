@@ -25,7 +25,7 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "d0ce5662d806f95b86ea9aec8abb26bc01b2c850606e1069bdc966b66bdd47ab",
+        "notes_sha256": "f6ab7cc5b8edfdaa2b26ab4a0a68cb4627dcb56a04072079ffeba0ecfb493227",
         "pages": [
           "generative-preference-alignment",
           "generative-recommendation",
@@ -39,7 +39,7 @@
         ],
         "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "PAPER-016 第16批原文与读者路径两轮自查。核对图2/3、算法2与表1；比较整会话 IPA、独立候选奖励和日志正例监督，保留 RM 百分比矛盾。"
+        "review_note": "PAPER-016 第16批原文与读者路径两轮自查。核对图2/3、算法2与表1；比较整会话 IPA、独立候选奖励和日志正例监督，保留 RM 百分比矛盾。 KB-022：核对固定 v1 的会话编码和前缀依赖，补到列表前缀问题的笔记回链。"
       }
     }
   ]

@@ -57,18 +57,20 @@
       "retrieved_on": "2026-10-29",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "28a218b04212413fea48551291fc7145d7750e6a27e52872bd05b8a33ec34de1",
+        "notes_sha256": "c58071ddb0806d810d4161d658cadab759a1e316c094ce87b4a46e1bc29277f9",
         "pages": [
+          "ann-candidate-coverage",
           "generation-decoding",
           "generative-output-evaluation",
           "generative-recommendation",
           "language-personalized-tasks",
           "paper-candidates",
-          "representations-tokenization"
+          "representations-tokenization",
+          "serving-efficiency"
         ],
         "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "复核 §II–III、式 (3)–(20)、图 1–2，区分并行协同量化、连续查询以及 GNN 可见交互。IEEE 出版身份另核，保留 arXiv 证据版本。 固定原译 PDF 通过认证下载与哈希复验。"
+        "review_note": "复核 §II–III、式 (3)–(20)、图 1–2，区分并行协同量化、连续查询以及 GNN 可见交互。IEEE 出版身份另核，保留 arXiv 证据版本。 固定原译 PDF 通过认证下载与哈希复验。 KB-022：核对 v3 §II-E 余弦示例与表 IV 的 LLM 冻结条件，补在线服务、向量索引和精读之间的引用。"
       }
     }
   ]

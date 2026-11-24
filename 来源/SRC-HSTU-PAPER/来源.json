@@ -25,8 +25,9 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "257d698074edf67acf198d7f12974216c7c4fd92afa993d31c0de8913de98852",
+        "notes_sha256": "55c50f9fbdc59454033f238ccd1303ae2727c7b250978d9411df6e2991c624cd",
         "pages": [
+          "attention-mask-padding",
           "generative-recommendation",
           "multi-item-speculative-decoding",
           "serving-efficiency",
@@ -37,7 +38,7 @@
         ],
         "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "PAPER-016 第16批原文与读者路径两轮自查。核对内容和响应位置及 M-FALCON 掩码、历史状态复用；增加图2/3/11与贯穿请求，吞吐仍按候选每秒。"
+        "review_note": "PAPER-016 第16批原文与读者路径两轮自查。核对内容和响应位置及 M-FALCON 掩码、历史状态复用；增加图2/3/11与贯穿请求，吞吐仍按候选每秒。 KB-022：核对固定 v3 的内容预测、响应预测和 M-FALCON，补到目标解码问题的笔记回链。 补遮罩概念与 M-FALCON 的双向引用。"
       }
     }
   ]

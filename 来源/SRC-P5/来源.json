@@ -25,7 +25,7 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "1fceb266fd04d18a33f587fef166cc435e85622217b48955829acc37a52d9291",
+        "notes_sha256": "941d60cd042436743bcf5439a733745529ee1c5bd8e4ec36b077418e350ec197",
         "pages": [
           "generation-decoding",
           "generative-recommendation",
@@ -37,7 +37,7 @@
         ],
         "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "复核 §3–5、图 1–3，区分整词位置编码、下一物品生成和各任务的候选协议。 固定原译 PDF 通过认证下载与哈希复验。"
+        "review_note": "复核 §3–5、图 1–3，区分整词位置编码、下一物品生成和各任务的候选协议。 固定原译 PDF 通过认证下载与哈希复验。 KB-022：核对固定 v7 §4 的 T5 初始化与提示学习，补到预训练迁移问题的笔记回链。"
       }
     }
   ]

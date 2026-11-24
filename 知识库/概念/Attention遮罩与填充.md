@@ -3,11 +3,11 @@ id: "attention-mask-padding"
 title: "Attention遮罩如何组合并处理填充位置"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-15"
+updated: "2026-11-24"
 summary: "以make_std_mask、广播、PAD Query和全遮罩Softmax说明可见性与监督边界"
 aliases: ["make_std_mask", "Key Padding Mask", "Causal Mask", "Padding Mask", "PAD Query", "Loss Mask", "NaN", "遮罩广播", "mask并行"]
-sources: {"SRC-BERT": "c6a7d8a52b8f422d4e8e9db2dab86dee349c31f2d91170511513e3bc41fd5331", "SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28", "SRC-GPT1-CODE": "7cd5d15bf083af358d280a6b681bf3d17c1069301589081bd501543e662147f9"}
-related: ["self-attention-context", "transformer-training-translation", "sequence-representation-pooling"]
+sources: {"SRC-BERT": "c6a7d8a52b8f422d4e8e9db2dab86dee349c31f2d91170511513e3bc41fd5331", "SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28", "SRC-GPT1-CODE": "7cd5d15bf083af358d280a6b681bf3d17c1069301589081bd501543e662147f9", "SRC-HSTU-PAPER": "3f959b9a9db7770623b18da44ce836ca02f106cace6136cb4781a3fc96ab0c0e"}
+related: ["self-attention-context", "transformer-training-translation", "sequence-representation-pooling", "target-aware-history-reuse"]
 ---
 # Attention遮罩如何组合并处理填充位置
 
@@ -34,6 +34,12 @@ Attention Mask决定Query允许读取哪些Key；Loss Mask决定哪些目标位�
 $$P_{bhij}=\operatorname{softmax}_{j}(S_{bhij}+M_{bij}),\quad S=QK^\top/\sqrt{d_k}.$$
 
 加性因果mask与加性padding mask可以相加，布尔“允许条件”则用逻辑与；这是表示方式的对应。直接把分数乘0不会屏蔽，因为$\exp(0)=1$仍参与分母。[Transformer §3.2.3](https://arxiv.org/pdf/1706.03762v7#page=5)报告禁止logit置$-\infty$；布尔逻辑和广播是该公式的实现展开。
+
+### 独立候选共用历史时怎样限制可见性
+
+把两个候选 A、B 接在同一段历史后，普通三角因果遮罩会让位置在后的 B 读到 A。若要分别打分，候选各自只读历史和自身，历史也不能回看候选。HSTU 的 M-FALCON 清除三角遮罩中的候选间连边，同时调整相对位置与时间偏置，使合批计算与逐候选计算一致。[HSTU v3 §3.4](https://arxiv.org/pdf/2402.17152v3#page=6) · [图 11](https://arxiv.org/pdf/2402.17152v3#page=24)
+
+这组可见性条件可以用布尔关系表达，实际如何屏蔽取决于注意力核。HSTU 对含相对偏置的 $QK^\top$ 分数逐元素施加 SiLU，再用所得权重聚合 $V$。合批复用的计算量见[目标感知排序](../问题/目标感知排序怎样复用历史计算.md)。[HSTU v3 §3.1 式 (2)](https://arxiv.org/pdf/2402.17152v3#page=4)
 
 ## make_std_mask的逐轴过程
 

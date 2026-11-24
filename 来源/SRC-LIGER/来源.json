@@ -25,8 +25,9 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "50dd375d6df6cd16ff8a4e6f33744b7c3eb0d398676664da1b78ceed4623c9b9",
+        "notes_sha256": "e4f98d4b23b137db093f57eb145a080975e2e7edc4fb86da58067a9cc3d0f29c",
         "pages": [
+          "ann-candidate-coverage",
           "generative-recommendation",
           "hybrid-generative-dense-retrieval",
           "multidomain-transfer",
@@ -34,7 +35,7 @@
         ],
         "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "PAPER-016 第16批原文与读者路径两轮自查。核对图2/4/5、算法1、表2及附录实验；补冷池入围与连续重排的区别，保留基准归一化口径。"
+        "review_note": "PAPER-016 第16批原文与读者路径两轮自查。核对图2/4/5、算法1、表2及附录实验；补冷池入围与连续重排的区别，保留基准归一化口径。 KB-022：核对固定 v2 算法 1 的候选并集及余弦重排，新增向量索引问题引用与笔记回链。"
       }
     }
   ]
