@@ -3,7 +3,7 @@
   "title": "A Survey on Generative Recommendation: Data, Model, and Tasks",
   "kind": "paper",
   "state": "active",
-  "current": "e55d64f2edd427c7aa802faa0c94bb1b97395d1b11a026430b369d558f53bfe0",
+  "current": "33ad87d232246b1ceac998d4e3e8157327121040a31610215fc0aeedc207cb10",
   "versions": [
     {
       "locator": "https://arxiv.org/abs/2510.27157v2",
@@ -71,6 +71,49 @@
         "reviewed_on": "2026-10-30",
         "review_method": "agent-self-review",
         "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 复核数据—模型—任务交叉分类、冷物品纠错、扩散对象及初读/后续17篇范围，笔记更新导航不扩大综述原件阅读范围，未声称综述全部引文已读。"
+      }
+    },
+    {
+      "locator": "https://arxiv.org/abs/2510.27157v2",
+      "revision": "arXiv:2510.27157v2，2026-05-09；初稿2025-10-31；源码为下载后未修改文件的本地重新打包",
+      "read_scope": "已读32页固定PDF的摘要、正文§1–8、图1–9、表1–7和相应LaTeX；文献用于定位候选，未独立精读所有被引论文；未运行模型或实验。微信解读另登记为SRC-GENREC-LONGTALK，不作独立实验验证。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "25220362871132175d0abd67e4e890dc1db54f0243bafeb2ab0f180120640767",
+          "snapshot": ".local/sources/SRC-GENREC-DMT/25220362871132175d0abd67e4e890dc1db54f0243bafeb2ab0f180120640767/paper.pdf"
+        },
+        {
+          "name": "source-unmodified-repacked.tar.gz",
+          "sha256": "b60720a00505b49ac224c4371ac2182aef683e79efd96a164e9078dc6df499f7",
+          "snapshot": ".local/sources/SRC-GENREC-DMT/b60720a00505b49ac224c4371ac2182aef683e79efd96a164e9078dc6df499f7/source-unmodified-repacked.tar.gz"
+        },
+        {
+          "name": "abs.html",
+          "sha256": "caaa9226753ac93cf4e6982c3dca248c6e68367701c4f2ac0b7b11b3a072e51c",
+          "snapshot": ".local/sources/SRC-GENREC-DMT/caaa9226753ac93cf4e6982c3dca248c6e68367701c4f2ac0b7b11b3a072e51c/abs.html"
+        }
+      ],
+      "fingerprint": "33ad87d232246b1ceac998d4e3e8157327121040a31610215fc0aeedc207cb10",
+      "retrieved_on": "2026-10-29",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "bdf05dff1832132015e1100ab45c94a9bbcce6c4587603011331824c6cb7c0b1",
+        "pages": [
+          "data-labels",
+          "evaluation-bias",
+          "generation-decoding",
+          "generative-output-evaluation",
+          "generative-recommendation",
+          "multidomain-transfer",
+          "paper-candidates",
+          "representations-tokenization",
+          "synthetic-recommendation-data",
+          "training-alignment"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "复核 v2 正文、图 1–9、表 1–7 与直接引用；更正图号范围，原件及版本不变。独立原论文优先用于纠正 ColdLLM、HSTU 和相关机制转述，表 5、7 仍须按原论文与指标定义查证。 当前 Agent 自查。"
       }
     }
   ]
