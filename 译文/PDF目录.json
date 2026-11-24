@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "inventory_note": "116篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
@@ -4312,6 +4312,121 @@
         "size_bytes": 851104,
         "pages": 13,
         "verified_download_sha256": "f83b3690d941e5de59caa175af82ad2e66bc00660d312b0f40e232d73b0015d2"
+      }
+    },
+    {
+      "source_id": "SRC-ALIGN3GR",
+      "title": "Align³GR: Unified Multi-Level Alignment for LLM-based Generative Recommendation",
+      "original_url": "https://arxiv.org/pdf/2511.11255v1",
+      "revision": "arXiv 2511.11255v1",
+      "input_sha256": "f31798ed83835b8780f32211654142f1c81277db8fff9da0aa1d253c1861f05a",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图 1–4 与表 1–5 的标题及表头、作者脚注。保留 3 个编号公式、表内数值、原图英文和 50 条参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-24",
+        "authors": [
+          "Wencai Ye",
+          "Mingjie Sun",
+          "Shuhang Chen",
+          "Wenjin Wu",
+          "Peng Jiang"
+        ],
+        "original_pdf_sha256": "b75b4794b5fcc2f8b2e26c91b0e9d7d4bfb28625fc96912a95f8575a8991d617",
+        "evidence_url": "https://arxiv.org/abs/2511.11255v1",
+        "evidence_sha256": "b75b4794b5fcc2f8b2e26c91b0e9d7d4bfb28625fc96912a95f8575a8991d617",
+        "notes": "固定 arXiv 版本用非独占分发许可，首页 © 2026 AAAI，保留所有权利；未确认公开全文译文许可。"
+      },
+      "reason": "中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261124-batch-19-19",
+        "translation_version": "20261124.1",
+        "asset_name": "SRC-ALIGN3GR.zh-CN.private.20261124.1.pdf",
+        "sha256": "f31798ed83835b8780f32211654142f1c81277db8fff9da0aa1d253c1861f05a",
+        "size_bytes": 1042790,
+        "pages": 8,
+        "verified_download_sha256": "f31798ed83835b8780f32211654142f1c81277db8fff9da0aa1d253c1861f05a"
+      }
+    },
+    {
+      "source_id": "SRC-GENCDR",
+      "title": "From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization",
+      "original_url": "https://ojs.aaai.org/index.php/AAAI/article/download/38508/42470",
+      "revision": "AAAI 2026，40(17)，14874–14882，DOI 10.1609/aaai.v40i17.38508",
+      "input_sha256": "9ac95c3591f7cdcb630c5a27c1ad40b6d28d9f0bc4824139bc6fdc4ca2d36105",
+      "input_pages": 12,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、致谢、图 1–6 及表 1–3 的标题和表头。保留 12 个编号公式、表内数值、图内英文及英文参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-24",
+        "authors": [
+          "Peiyu Hu",
+          "Wayne Lu",
+          "Jia Wang"
+        ],
+        "original_pdf_sha256": "b3f91692fbf1b7ae6a4d82296a57d3ed5dd5cc0fe2dd5937e9490f6fc4a641e9",
+        "evidence_url": "https://doi.org/10.1609/aaai.v40i17.38508",
+        "evidence_sha256": "b3f91692fbf1b7ae6a4d82296a57d3ed5dd5cc0fe2dd5937e9490f6fc4a641e9",
+        "notes": "AAAI 正式版首页 © 2026 AAAI，保留所有权利；未确认公开全文译文许可。"
+      },
+      "reason": "中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261124-batch-19-19",
+        "translation_version": "20261124.1",
+        "asset_name": "SRC-GENCDR.zh-CN.private.20261124.1.pdf",
+        "sha256": "9ac95c3591f7cdcb630c5a27c1ad40b6d28d9f0bc4824139bc6fdc4ca2d36105",
+        "size_bytes": 2175467,
+        "pages": 12,
+        "verified_download_sha256": "9ac95c3591f7cdcb630c5a27c1ad40b6d28d9f0bc4824139bc6fdc4ca2d36105"
+      }
+    },
+    {
+      "source_id": "SRC-GMC",
+      "title": "Generative Multi-Target Cross-Domain Recommendation",
+      "original_url": "https://arxiv.org/pdf/2507.12871v1",
+      "revision": "arXiv 2507.12871v1",
+      "input_sha256": "d46f1daaa045a689af8dc5f9429f76144b447d89241cc2172047e3df35947848",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、图 1–5 与表 1–4 的标题及表头、说明性脚注。保留 10 个编号公式、表内数值、原图英文和 80 条参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-24",
+        "authors": [
+          "Jinqiu Jin",
+          "Yang Zhang",
+          "Junwei Pan",
+          "Fuli Feng",
+          "Hua Lu",
+          "Lei Xiao",
+          "Haijie Gu",
+          "Xiangnan He"
+        ],
+        "original_pdf_sha256": "691cc1cb8c9e80e8796420e68064598bbaf24bf0b716f6d06cee71174fd8c344",
+        "evidence_url": "https://arxiv.org/abs/2507.12871v1",
+        "evidence_sha256": "691cc1cb8c9e80e8796420e68064598bbaf24bf0b716f6d06cee71174fd8c344",
+        "notes": "arXiv 非独占分发许可，PDF 所示 2018 年份为 ACM 模板字段。沿用原件权利声明，未确认公开全文译文许可。"
+      },
+      "reason": "中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261124-batch-19-19",
+        "translation_version": "20261124.1",
+        "asset_name": "SRC-GMC.zh-CN.private.20261124.1.pdf",
+        "sha256": "d46f1daaa045a689af8dc5f9429f76144b447d89241cc2172047e3df35947848",
+        "size_bytes": 1240101,
+        "pages": 9,
+        "verified_download_sha256": "d46f1daaa045a689af8dc5f9429f76144b447d89241cc2172047e3df35947848"
       }
     }
   ],

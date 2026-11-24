@@ -25,7 +25,7 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "25b751fffc2263aedad0549f26e817bc34925abf61e113bca32b9eceb06ce5d4",
+        "notes_sha256": "f268e3f72d267cc94dbe6762090cc386494e900a0e4b3f7b35c5f12dfe25bd62",
         "pages": [
           "evaluation-bias",
           "generation-decoding",
@@ -37,9 +37,9 @@
           "serving-efficiency",
           "training-alignment"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "正式10页全文及Zenodo v1.0.0三文件静态阅读后，逐项自查当前9个直接引用页：用户/物品独立RQ-VAE各自跨域共享、同一冻结SASRec、源域权重与逐维门、仅目标历史和用户前缀、分阶段LoRA、目标树，以及五域/三域零重合/适配成本的证据边界。保留画像时间、身份、量化目标和实现缺项；18页译文逐页目视与私有原/译认证下载另有收据。未运行模型或独立审查。"
+        "review_note": "按 KDD 正式版核对用户前缀、协同门及消融、双零协议边界，和同批模型交叉核对编码与历史，可编辑译本和附件复验通过。"
       }
     }
   ]

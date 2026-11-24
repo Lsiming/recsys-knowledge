@@ -1,0 +1,50 @@
+{
+  "id": "SRC-ALIGN3GR",
+  "title": "Align³GR: Unified Multi-Level Alignment for LLM-based Generative Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "50dbf3fc75ba01a3b3bfcbb2f4e5b0837ef7856646d6d8112b9d33e2e4f3019f",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2511.11255v1",
+      "revision": "arXiv 2511.11255v1",
+      "read_scope": "已取得 arXiv v1 的 9 页 PDF 和作者 LaTeX 副本，并核首页、图号及 AAAI 正式出版书目；逐章精读处理中。",
+      "artifacts": [
+        {
+          "name": "Align3GR.pdf",
+          "sha256": "b75b4794b5fcc2f8b2e26c91b0e9d7d4bfb28625fc96912a95f8575a8991d617",
+          "snapshot": ".local/sources/SRC-ALIGN3GR/b75b4794b5fcc2f8b2e26c91b0e9d7d4bfb28625fc96912a95f8575a8991d617/Align3GR.pdf"
+        }
+      ],
+      "fingerprint": "3c9dca517ff8b9eac6629b381e8b0b3faf1d4b91d4f246f6591b64c482d0cfbe",
+      "retrieved_on": "2026-11-24",
+      "integration": null
+    },
+    {
+      "locator": "https://arxiv.org/pdf/2511.11255v1",
+      "revision": "arXiv 2511.11255v1",
+      "read_scope": "阅读全文摘要、引言、相关工作、方法、实验和结论；核实式(1)–(3)、图1–4、表1–5及 AAAI 2026 出版元数据，图表和引用以 arXiv v1 为准。",
+      "artifacts": [
+        {
+          "name": "Align3GR.pdf",
+          "sha256": "b75b4794b5fcc2f8b2e26c91b0e9d7d4bfb28625fc96912a95f8575a8991d617",
+          "snapshot": ".local/sources/SRC-ALIGN3GR/b75b4794b5fcc2f8b2e26c91b0e9d7d4bfb28625fc96912a95f8575a8991d617/Align3GR.pdf"
+        }
+      ],
+      "fingerprint": "50dbf3fc75ba01a3b3bfcbb2f4e5b0837ef7856646d6d8112b9d33e2e4f3019f",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "04b3fe4349e8a4ff613062c9a32607f5f7b05a82ccad4c0bcdd2e7eacd4c9777",
+        "pages": [
+          "generative-preference-alignment",
+          "generative-recommendation",
+          "representations-tokenization"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "按 arXiv v1 自查双侧量化、行为任务、多负例逐阶段 DPO 和离线、全量部署的不同证据；原译附件通过复验。"
+      }
+    }
+  ]
+}

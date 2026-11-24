@@ -25,7 +25,7 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "db5dce6400512118b133c2c813638c371573b47b6dc76cc232b09bcadeebf26e",
+        "notes_sha256": "f46ce3846fce251272a5988a16750a9b93e797fbbd63ac0b5aafc05278445705",
         "pages": [
           "evaluation-bias",
           "federated-semantic-behavior-transfer",
@@ -36,9 +36,9 @@
           "serving-efficiency",
           "training-alignment"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 笔记只增UniGCRec已读比较：中心多域输入筛选与联邦原始行为隔离、本地CF和参数聚合分开，未改变FedCGR原件/指纹。"
+        "review_note": "按固定 v1 核对客户端和服务器可见量、源图、采样/全目录协议及隐私边界；新增 CIKM 书目和私有原译复验。"
       }
     }
   ]

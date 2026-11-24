@@ -1,0 +1,50 @@
+{
+  "id": "SRC-GENCDR",
+  "title": "From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization",
+  "kind": "paper",
+  "state": "active",
+  "current": "c3df3e9c1afa626e16e09312457c19dccd6e520bb3e286dafd820dc6b6023333",
+  "versions": [
+    {
+      "locator": "https://ojs.aaai.org/index.php/AAAI/article/download/38508/42470",
+      "revision": "AAAI 2026，40(17)，14874–14882，DOI 10.1609/aaai.v40i17.38508",
+      "read_scope": "已取得并核对 AAAI 正式版 9 页 PDF 及其 DOI、出版页码、图号；逐章精读处理中。",
+      "artifacts": [
+        {
+          "name": "GenCDR.pdf",
+          "sha256": "b3f91692fbf1b7ae6a4d82296a57d3ed5dd5cc0fe2dd5937e9490f6fc4a641e9",
+          "snapshot": ".local/sources/SRC-GENCDR/b3f91692fbf1b7ae6a4d82296a57d3ed5dd5cc0fe2dd5937e9490f6fc4a641e9/GenCDR.pdf"
+        }
+      ],
+      "fingerprint": "ff1d1e656c85a1165e5de3219a847f1aa4f09a8f1ecbf8518f1438914b2f7973",
+      "retrieved_on": "2026-11-24",
+      "integration": null
+    },
+    {
+      "locator": "https://ojs.aaai.org/index.php/AAAI/article/download/38508/42470",
+      "revision": "AAAI 2026，40(17)，14874–14882，DOI 10.1609/aaai.v40i17.38508",
+      "read_scope": "阅读全文摘要、引言、相关工作、任务、方法、实验、结论、致谢，核对式(1)–(12)、图1–6、表1–3及作者代码固定提交的 Amazon 和豆瓣域联合预处理入口。",
+      "artifacts": [
+        {
+          "name": "GenCDR.pdf",
+          "sha256": "b3f91692fbf1b7ae6a4d82296a57d3ed5dd5cc0fe2dd5937e9490f6fc4a641e9",
+          "snapshot": ".local/sources/SRC-GENCDR/b3f91692fbf1b7ae6a4d82296a57d3ed5dd5cc0fe2dd5937e9490f6fc4a641e9/GenCDR.pdf"
+        }
+      ],
+      "fingerprint": "c3df3e9c1afa626e16e09312457c19dccd6e520bb3e286dafd820dc6b6023333",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "73458737d6f4b2ed79e625a03eeefb61492899cf8236f0780eea03d449bd148c",
+        "pages": [
+          "generative-recommendation",
+          "multidomain-parameter-sharing",
+          "multidomain-transfer"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "按 AAAI 正式版自查双路由、共享 ID、候选和实验，保留论文与公开预处理在身份归并上的差异；原译附件通过复验。"
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-23，盘点116篇中文PDF，116篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-24，盘点119篇中文PDF，119篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -128,3 +128,6 @@
 | [More Effective Distributed ML via a Stale Synchronous Parallel Parameter Server](https://proceedings.neurips.cc/paper_files/paper/2013/hash/b7bb35b9c6ca2aee2df08cf09d7016c2-Abstract.html) · `SRC-SSP` | 私有，需登录 · 20261123.1 · 15页 | [unverified](https://proceedings.neurips.cc/paper_files/paper/2013/file/b7bb35b9c6ca2aee2df08cf09d7016c2-Paper.pdf) | 摘要、正文第 1–6 节、图 1–3 图注、脚注及致谢，参考文献和正式英文补充材料的附录 A–B 保留英文。；中文PDF逐页渲染目视；两份正式附件均通过远端摘要与认证下载全量哈希核验。 |
 | [Persia: A Hybrid System Scaling Deep Learning-based Recommenders up to 100 Trillion Parameters](https://arxiv.org/pdf/2111.05897v2) · `SRC-PERSIA` | 私有，需登录 · 20261123.1 · 16页 | [CC0-1.0](https://arxiv.org/abs/2111.05897v2) | 摘要、正文 §1–8、图表说明、伪代码与脚注。保留图中文字、作者署名、英文参考文献及英文附录。；中文PDF逐页渲染目视；两份正式附件均通过远端摘要与认证下载全量哈希核验。 |
 | [XDL: An Industrial Deep Learning Framework for High-dimensional Sparse Data](https://raw.githubusercontent.com/dlp-kdd/dlp-kdd2019/dbe75ef64ed2e44dc5198156af6aa286534ff19c/assets/pdf/a6-jiang.pdf) · `SRC-XDL` | 私有，需登录 · 20261123.1 · 13页 | [unverified](https://raw.githubusercontent.com/dlp-kdd/dlp-kdd2019/dbe75ef64ed2e44dc5198156af6aa286534ff19c/assets/pdf/a6-jiang.pdf) | 摘要、第 1–7 节，表 1–3、图 1–8 图注、脚注和保留英文参考文献；图内标签保留原语言。；中文PDF逐页渲染目视；两份正式附件均通过远端摘要与认证下载全量哈希核验。 |
+| [Align³GR: Unified Multi-Level Alignment for LLM-based Generative Recommendation](https://arxiv.org/pdf/2511.11255v1) · `SRC-ALIGN3GR` | 私有，需登录 · 20261124.1 · 8页 | [unverified](https://arxiv.org/abs/2511.11255v1) | 摘要、正文、图 1–4 与表 1–5 的标题及表头、作者脚注。保留 3 个编号公式、表内数值、原图英文和 50 条参考文献。；中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。 |
+| [From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization](https://ojs.aaai.org/index.php/AAAI/article/download/38508/42470) · `SRC-GENCDR` | 私有，需登录 · 20261124.1 · 12页 | [unverified](https://doi.org/10.1609/aaai.v40i17.38508) | 摘要、正文、致谢、图 1–6 及表 1–3 的标题和表头。保留 12 个编号公式、表内数值、图内英文及英文参考文献。；中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。 |
+| [Generative Multi-Target Cross-Domain Recommendation](https://arxiv.org/pdf/2507.12871v1) · `SRC-GMC` | 私有，需登录 · 20261124.1 · 9页 | [unverified](https://arxiv.org/abs/2507.12871v1) | 摘要、正文 §1–6、图 1–5 与表 1–4 的标题及表头、说明性脚注。保留 10 个编号公式、表内数值、原图英文和 80 条参考文献。；中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。 |

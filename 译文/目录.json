@@ -2081,5 +2081,62 @@
     ],
     "evidence_url": "https://arxiv.org/abs/2111.05897v2",
     "evidence_sha256": "a0907ba98b3de3e48980d604e4abeeb1755ce92b69a2e0d798716d560d7aa087"
+  },
+  {
+    "source_id": "SRC-GMC",
+    "title": "Generative Multi-Target Cross-Domain Recommendation",
+    "original_url": "https://arxiv.org/pdf/2507.12871v1",
+    "revision": "arXiv 2507.12871v1",
+    "status": "local-only",
+    "reason": "9 页中文正文 PDF 已逐页核对，原文与译文已私有备份并认证下载。arXiv 非独占分发许可，PDF 所示 2018 年份为 ACM 模板字段。沿用原件权利声明，未确认公开全文译文许可。 本篇未发布正式 Markdown 全文译文。",
+    "checked_on": "2026-11-24",
+    "authors": [
+      "Jinqiu Jin",
+      "Yang Zhang",
+      "Junwei Pan",
+      "Fuli Feng",
+      "Hua Lu",
+      "Lei Xiao",
+      "Haijie Gu",
+      "Xiangnan He"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2507.12871v1",
+    "evidence_sha256": "691cc1cb8c9e80e8796420e68064598bbaf24bf0b716f6d06cee71174fd8c344",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-GENCDR",
+    "title": "From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization",
+    "original_url": "https://ojs.aaai.org/index.php/AAAI/article/download/38508/42470",
+    "revision": "AAAI 2026，40(17)，14874–14882，DOI 10.1609/aaai.v40i17.38508",
+    "status": "local-only",
+    "reason": "12 页中文正文 PDF 已逐页核对，原文与译文已私有备份并认证下载。AAAI 正式版首页 © 2026 AAAI，保留所有权利；未确认公开全文译文许可。 本篇未发布正式 Markdown 全文译文。",
+    "checked_on": "2026-11-24",
+    "authors": [
+      "Peiyu Hu",
+      "Wayne Lu",
+      "Jia Wang"
+    ],
+    "evidence_url": "https://doi.org/10.1609/aaai.v40i17.38508",
+    "evidence_sha256": "b3f91692fbf1b7ae6a4d82296a57d3ed5dd5cc0fe2dd5937e9490f6fc4a641e9"
+  },
+  {
+    "source_id": "SRC-ALIGN3GR",
+    "title": "Align³GR: Unified Multi-Level Alignment for LLM-based Generative Recommendation",
+    "original_url": "https://arxiv.org/pdf/2511.11255v1",
+    "revision": "arXiv 2511.11255v1",
+    "status": "local-only",
+    "reason": "8 页中文正文 PDF 已逐页核对，原文与译文已私有备份并认证下载。固定 arXiv 版本用非独占分发许可，首页 © 2026 AAAI，保留所有权利；未确认公开全文译文许可。 本篇未发布正式 Markdown 全文译文。",
+    "checked_on": "2026-11-24",
+    "authors": [
+      "Wencai Ye",
+      "Mingjie Sun",
+      "Shuhang Chen",
+      "Wenjin Wu",
+      "Peng Jiang"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2511.11255v1",
+    "evidence_sha256": "b75b4794b5fcc2f8b2e26c91b0e9d7d4bfb28625fc96912a95f8575a8991d617",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
   }
 ]

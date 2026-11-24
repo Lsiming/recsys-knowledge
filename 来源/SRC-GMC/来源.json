@@ -1,0 +1,50 @@
+{
+  "id": "SRC-GMC",
+  "title": "Generative Multi-Target Cross-Domain Recommendation",
+  "kind": "paper",
+  "state": "active",
+  "current": "8008b775d1362808de9d6a3007b727d140d5a5fb78906db1c4ae616b0e965312",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2507.12871v1",
+      "revision": "arXiv 2507.12871v1",
+      "read_scope": "已取得 arXiv v1 的 11 页 PDF 及作者 LaTeX 副本，已核首页、图号、正文与参考文献边界；逐章精读处理中。",
+      "artifacts": [
+        {
+          "name": "GMC.pdf",
+          "sha256": "691cc1cb8c9e80e8796420e68064598bbaf24bf0b716f6d06cee71174fd8c344",
+          "snapshot": ".local/sources/SRC-GMC/691cc1cb8c9e80e8796420e68064598bbaf24bf0b716f6d06cee71174fd8c344/GMC.pdf"
+        }
+      ],
+      "fingerprint": "5f12aa45d53cf82ad23f696f1428b22fead83df42cf1f462148eff031e1855b0",
+      "retrieved_on": "2026-11-24",
+      "integration": null
+    },
+    {
+      "locator": "https://arxiv.org/pdf/2507.12871v1",
+      "revision": "arXiv 2507.12871v1",
+      "read_scope": "阅读全文摘要、§1–6、式(1)–(10)、图1–5、表1–4；用 LaTeX 复核公式表格及引用。",
+      "artifacts": [
+        {
+          "name": "GMC.pdf",
+          "sha256": "691cc1cb8c9e80e8796420e68064598bbaf24bf0b716f6d06cee71174fd8c344",
+          "snapshot": ".local/sources/SRC-GMC/691cc1cb8c9e80e8796420e68064598bbaf24bf0b716f6d06cee71174fd8c344/GMC.pdf"
+        }
+      ],
+      "fingerprint": "8008b775d1362808de9d6a3007b727d140d5a5fb78906db1c4ae616b0e965312",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "c67b17e7c90d7083fb4e4281326b16b9e930dc5b4d06c33b184079d5dfc811b6",
+        "pages": [
+          "generative-recommendation",
+          "multidomain-parameter-sharing",
+          "multidomain-transfer"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "按 arXiv v1 自查码本、中心训练、逐域 LoRA、消融与全部目标域评估；实验接口、版本与译文已核。"
+      }
+    }
+  ]
+}
