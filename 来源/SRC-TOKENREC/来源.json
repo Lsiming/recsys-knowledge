@@ -57,17 +57,18 @@
       "retrieved_on": "2026-10-29",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "e13d650e31daa308abcf0c4a99c8133223d05007c7a77ec31f6fba8e8c90d859",
+        "notes_sha256": "28a218b04212413fea48551291fc7145d7750e6a27e52872bd05b8a33ec34de1",
         "pages": [
           "generation-decoding",
           "generative-output-evaluation",
           "generative-recommendation",
+          "language-personalized-tasks",
           "paper-candidates",
           "representations-tokenization"
         ],
-        "reviewed_on": "2026-11-21",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。 2026-11-21 复核并补入从精读正文返回比较章节的链接。 笔记页首自引已对齐同一 v3 原件的全文阅读记录。"
+        "review_note": "复核 §II–III、式 (3)–(20)、图 1–2，区分并行协同量化、连续查询以及 GNN 可见交互。IEEE 出版身份另核，保留 arXiv 证据版本。 固定原译 PDF 通过认证下载与哈希复验。"
       }
     }
   ]

@@ -30,7 +30,7 @@
       "retrieved_on": "2026-10-29",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "e3843b4b7cb75cf506a0a7e8633e9a570a58c519c766fed45ad69bb8a47dffa8",
+        "notes_sha256": "cf6fb6c5c8e1c7b9f18c1f7358dba88bf927fe9cf5a130a11cdbd4a5bd323170",
         "pages": [
           "generative-recommendation",
           "paper-candidates",
@@ -38,9 +38,9 @@
           "semantic-code-retrieval",
           "training-alignment"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。"
+        "review_note": "复核 §3–4、图 1/4/6、式 (1)–(6)，区分协同量化、多样性、温度损失和候选效果。 固定原译 PDF 通过认证下载与哈希复验。"
       }
     }
   ]

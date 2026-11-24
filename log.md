@@ -741,3 +741,7 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 ## [2026-11-23] ingest | PAPER-014 · 特征哈希与分布式稀疏训练
 
 完成 Feature Hashing、Parameter Server、SSP、XDL 和 Persia 的精读、25 张作者原图及 71 页中文 PDF。围绕完整键辨析碰撞、缓存可见性、跨批预取、稀疏异步与稠密同步。五份原文和五份译文已在私有 Releases 通过认证下载和全量哈希。见[第 14 批交接](文档/会话/PAPER-014.md)。
+
+## [2026-11-24] ingest | PAPER-015 · 物品编码与行为语言对齐
+
+重读 P5、LC-Rec、GRID 实践手册、LETTER、LLaRA 与 TokenRec。用同一物品对比文本、行为向量、离散码和连续查询的监督与目录映射。补 13 张作者原图，逐页复验 60 页既有中文 PDF，12 份私有附件通过认证下载。版本差异、证据边界与验证见[第 15 批交接](文档/会话/PAPER-015.md)。
