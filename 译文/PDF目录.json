@@ -4428,6 +4428,47 @@
         "pages": 9,
         "verified_download_sha256": "d46f1daaa045a689af8dc5f9429f76144b447d89241cc2172047e3df35947848"
       }
+    },
+    {
+      "source_id": "SRC-DER-CFR",
+      "title": "Learning Decomposed Representation for Counterfactual Inference",
+      "original_url": "https://arxiv.org/abs/2006.07040v2",
+      "revision": "arXiv:2006.07040v2 (2021-10-12)",
+      "input_sha256": "8d52f15f2a5db8586e9e64f6ea67675821c9f805378bb4eaf8deac624ca805d7",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、正文图表说明及描述性脚注译为中文；原图内标签、参考文献、附录 A–E（含算法 1）保留英文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-24",
+        "authors": [
+          "Anpeng Wu",
+          "Kun Kuang",
+          "Junkun Yuan",
+          "Bo Li",
+          "Runze Wu",
+          "Qiang Zhu",
+          "Yueting Zhuang",
+          "Fei Wu"
+        ],
+        "original_pdf_sha256": "67cd318d9b6e4653251a09962e86c53ea6e8dd6408f0113a26e7c2ad735a9f42",
+        "evidence_url": "https://arxiv.org/abs/2006.07040v2",
+        "evidence_sha256": "67cd318d9b6e4653251a09962e86c53ea6e8dd6408f0113a26e7c2ad735a9f42",
+        "notes": "采用版登记为 arXiv 非独占分发许可，原件 ACM 权利栏保留；未确认公开全文翻译许可。"
+      },
+      "reason": "中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261124",
+        "translation_version": "20261124.1",
+        "asset_name": "SRC-DER-CFR.zh-CN.private.20261124.1.pdf",
+        "sha256": "8d52f15f2a5db8586e9e64f6ea67675821c9f805378bb4eaf8deac624ca805d7",
+        "size_bytes": 1953440,
+        "pages": 9,
+        "verified_download_sha256": "8d52f15f2a5db8586e9e64f6ea67675821c9f805378bb4eaf8deac624ca805d7"
+      }
     }
   ],
   "storage_policy": "private-only",

@@ -2138,5 +2138,15 @@
     "evidence_url": "https://arxiv.org/abs/2511.11255v1",
     "evidence_sha256": "b75b4794b5fcc2f8b2e26c91b0e9d7d4bfb28625fc96912a95f8575a8991d617",
     "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-DER-CFR",
+    "title": "Learning Decomposed Representation for Counterfactual Inference",
+    "original_url": "https://arxiv.org/abs/2006.07040v2",
+    "revision": "arXiv:2006.07040v2 (2021-10-12)",
+    "status": "local-only",
+    "reason": "固定版本为 arXiv 非独占分发许可，未确认公开全文译文许可。采用版原文与 9 页中文译本按 PDF 目录私有维护。",
+    "checked_on": "2026-11-24",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
   }
 ]

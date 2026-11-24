@@ -5811,6 +5811,54 @@
       "modification": "采用版 LaTeX 附图转 PNG，保留原标注",
       "source_archive_sha256": "56cec7342b27c82278a9bac73be0eeeee55dfd332375817933ea9c4c23e2eada",
       "sha256": "39fb53fd02705f11f130bf5fb2ae2687de471649a74dd281918eae6122d37d4f"
+    },
+    {
+      "path": "资源/图片/SRC-DER-CFR/三类因果因素及医疗示例.png",
+      "sha256": "846e5d7258944ce41f36887945a3e4c24867cb49b2e330b520682433cf2f8f2d",
+      "kind": "第三方原图",
+      "source_id": "SRC-DER-CFR",
+      "source_version": "arXiv 2006.07040v2",
+      "basis": "图 1，采用版 PDF 第 1 页；该版源码 fig_causal_medical_new.pdf",
+      "license": "沿用采用版原图权利声明",
+      "credit": "Anpeng Wu 等，Learning Decomposed Representation for Counterfactual Inference",
+      "modification": "从作者源码单页矢量图按宽 1080 像素渲染为 PNG，保留所有标签和子图",
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DER-CFR/已知分组下的表征贡献.png",
+      "sha256": "2cd95809fc89135b761ca96bf19562cfe8ed8390f0aa0460aa01062772283385",
+      "kind": "第三方原图",
+      "source_id": "SRC-DER-CFR",
+      "source_version": "arXiv 2006.07040v2",
+      "basis": "图 2，采用版 PDF 第 7 页；该版源码 fig_disentangle_single_4.pdf",
+      "license": "沿用采用版原图权利声明",
+      "credit": "Anpeng Wu 等，Learning Decomposed Representation for Counterfactual Inference",
+      "modification": "从作者源码单页矢量图按宽 1500 像素渲染为 PNG，保留所有标签和子图",
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DER-CFR/四种合成设定的因素贡献.png",
+      "sha256": "26a19aa8897b76a5fceba95d03c5095531bdc031ee4c1bf733b5cfaa760b2766",
+      "kind": "第三方原图",
+      "source_id": "SRC-DER-CFR",
+      "source_version": "arXiv 2006.07040v2",
+      "basis": "图 3，采用版 PDF 第 8 页；该版源码 fig_radar_column.pdf",
+      "license": "沿用采用版原图权利声明",
+      "credit": "Anpeng Wu 等，Learning Decomposed Representation for Counterfactual Inference",
+      "modification": "从作者源码单页矢量图按宽 1080 像素渲染为 PNG，保留所有标签和子图",
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DER-CFR/正则系数的敏感性.png",
+      "sha256": "8e35bfa34df54342cd6b28455cb4649e50b52c00890caf1c07a2811a0290052e",
+      "kind": "第三方原图",
+      "source_id": "SRC-DER-CFR",
+      "source_version": "arXiv 2006.07040v2",
+      "basis": "图 4，采用版 PDF 第 9 页；该版源码 alter_param_real.pdf",
+      "license": "沿用采用版原图权利声明",
+      "credit": "Anpeng Wu 等，Learning Decomposed Representation for Counterfactual Inference",
+      "modification": "从作者源码单页矢量图按宽 1500 像素渲染为 PNG，保留所有标签和子图",
+      "created_on": "2026-11-24"
     }
   ]
 }

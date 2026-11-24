@@ -1,0 +1,40 @@
+{
+  "id": "SRC-DER-CFR",
+  "title": "Learning Decomposed Representation for Counterfactual Inference",
+  "kind": "paper",
+  "state": "active",
+  "current": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2006.07040v2",
+      "revision": "arXiv:2006.07040v2 (2021-10-12)",
+      "read_scope": "通读采用版第 1–11 页：摘要、正文 §1–7、图 1–4、表 1–7，及附录 A–E 的正则、连续 MSE、算法 1、数据与超参；IEEE TKDE DOI 仅核对书目信息。",
+      "artifacts": [
+        {
+          "name": "2006.07040v2.pdf",
+          "sha256": "67cd318d9b6e4653251a09962e86c53ea6e8dd6408f0113a26e7c2ad735a9f42",
+          "snapshot": ".local/sources/SRC-DER-CFR/67cd318d9b6e4653251a09962e86c53ea6e8dd6408f0113a26e7c2ad735a9f42/2006.07040v2.pdf"
+        },
+        {
+          "name": "2006.07040v2.source.tar",
+          "sha256": "9eee31956760fabd839eca421ebff311be58a999ec18cb3565d2ccb1af47587e",
+          "snapshot": ".local/sources/SRC-DER-CFR/9eee31956760fabd839eca421ebff311be58a999ec18cb3565d2ccb1af47587e/2006.07040v2.source.tar"
+        }
+      ],
+      "fingerprint": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51",
+      "retrieved_on": "2026-11-24",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "f476904d369fd7e20de682806fa9e824039e25a47c68e730de48bdadbb948c24",
+        "pages": [
+          "causal-uplift",
+          "marketing-subsidy",
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-24",
+        "review_method": "agent-self-review",
+        "review_note": "回查 v2 正文、附录 A–E、七张表和四幅原图，核对发券例、条件独立及参数正交反例，修正读图方向。沿营销总图、模块、组合券、POUL 基线引文及正交得分反查，按指派、训练、出分与随机验证重读。加权核、Twins 维数、图 3 标签和表 5 疑点待核。"
+      }
+    }
+  ]
+}

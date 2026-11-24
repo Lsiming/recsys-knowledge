@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-24，盘点119篇中文PDF，119篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-24，盘点120篇中文PDF，120篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -131,3 +131,4 @@
 | [Align³GR: Unified Multi-Level Alignment for LLM-based Generative Recommendation](https://arxiv.org/pdf/2511.11255v1) · `SRC-ALIGN3GR` | 私有，需登录 · 20261124.1 · 8页 | [unverified](https://arxiv.org/abs/2511.11255v1) | 摘要、正文、图 1–4 与表 1–5 的标题及表头、作者脚注。保留 3 个编号公式、表内数值、原图英文和 50 条参考文献。；中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。 |
 | [From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization](https://ojs.aaai.org/index.php/AAAI/article/download/38508/42470) · `SRC-GENCDR` | 私有，需登录 · 20261124.1 · 12页 | [unverified](https://doi.org/10.1609/aaai.v40i17.38508) | 摘要、正文、致谢、图 1–6 及表 1–3 的标题和表头。保留 12 个编号公式、表内数值、图内英文及英文参考文献。；中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。 |
 | [Generative Multi-Target Cross-Domain Recommendation](https://arxiv.org/pdf/2507.12871v1) · `SRC-GMC` | 私有，需登录 · 20261124.1 · 9页 | [unverified](https://arxiv.org/abs/2507.12871v1) | 摘要、正文 §1–6、图 1–5 与表 1–4 的标题及表头、说明性脚注。保留 10 个编号公式、表内数值、原图英文和 80 条参考文献。；中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。 |
+| [Learning Decomposed Representation for Counterfactual Inference](https://arxiv.org/abs/2006.07040v2) · `SRC-DER-CFR` | 私有，需登录 · 20261124.1 · 9页 | [unverified](https://arxiv.org/abs/2006.07040v2) | 摘要、正文 §1–7、正文图表说明及描述性脚注译为中文；原图内标签、参考文献、附录 A–E（含算法 1）保留英文。；中文 PDF 逐页渲染目视，采用版原文及译文均验证远端摘要、认证下载与完整 SHA-256。 |
