@@ -749,3 +749,7 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 ## [2026-11-24] ingest | PAPER-016 · 生成式召排、偏好与推理成本
 
 重读 HSTU、OneRec、LIGER、OneMall、S-DPO、LatentR³、OneRec-Think 和 AtSpeed。增加 17 张作者原图，把同一请求的监督、候选覆盖、输出对象和计算复用对照归入五个问题页。八份既有正式中文 PDF 共 135 页复验通过，16 份私有附件已认证下载验哈希。更新论文工作流，将两库远端核验列入完成条件。[第 16 批交接](文档/会话/PAPER-016.md)
+
+## [2026-11-24] ingest | PAPER-017 · 扩散生成与解码阶段的排序权衡
+
+重读 DiffRec、DreamRec、MDGR、PreferDiff 和 Decoding Matters。补 15 张作者原图，在三个问题页比较去噪对象、已知目标与负质心、目录读出及前缀剪枝，按 D³ 图 2 修正类别熵概括。五份正式译本共 79 页完成复验，10 份私有附件通过认证下载验证。[第 17 批交接](文档/会话/PAPER-017.md)

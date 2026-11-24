@@ -25,20 +25,21 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "28b2f60d104d9401c015ad3920136de572b91f3eeb6186e11906bb1f95137bb5",
+        "notes_sha256": "1c3d5b06d80e9319a3f320f026d7b6b0701c0d37b589c72ae1db2314b6e4c641",
         "pages": [
           "evaluation-bias",
           "generation-decoding",
           "generative-output-evaluation",
           "generative-recommendation",
           "interaction-vector-denoising",
+          "item-decoding-bias",
           "representations-tokenization",
           "serving-efficiency",
           "training-alignment"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "已对照固定v2的11页原文与源码§1–6自查，9页正文中文PDF逐页验收，23公式/4表数值保持；原文及译文均私有备份并首次认证下载哈希核验。课程方向、固定集合与独立核、轮数/组合成本疑点保留REV-037；离线指标、内部QPS与作者线上A/B分列。未运行算法或核实作者实现。"
+        "review_note": "PAPER-017 固定版证据和读者路径两轮自查。重查图1–3、式(8)与表3，补掩码损失、置信度及组合展开实例，保留课程方向、轮次及合法码疑点。"
       }
     }
   ]

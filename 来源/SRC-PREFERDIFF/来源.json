@@ -90,7 +90,7 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "d208f23f4ea5e6b459e0fff45de67fd76ae7eaa712e52e987239cb0f04be5b7f",
+        "notes_sha256": "c090d5346df9eb836d8d3b29e69b0315322147fd70d055ed1065ec29e4fe90fc",
         "pages": [
           "generation-decoding",
           "generative-preference-alignment",
@@ -98,9 +98,9 @@
           "interaction-vector-denoising",
           "training-alignment"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "固定2410.13117v2正文/附录与38页正式PDF，正文37页中文工作本全页版面检查及关键页放大；正文12数学块/4表数值/图路径及附录原字节核对。分清BPR似然差、误差替代、质心与混合目标；数学反例和原文C.3/C.4不等式缺口保留。固定官方commit10文件静态范围明确，核对平方余弦、batch归约、gamma、重复ID、白化与21轮DDIM，未运行模型。主表/跨域协议/计时边界按版本定位；原/译PDF已私有上传并首次真实认证下载校验；当前Agent自查，未独立审查。"
+        "review_note": "PAPER-017 固定版证据和读者路径两轮自查。重查图1–2及式(7)、(10)–(12)，补质心损失算例及训练/推理比较，保留上界与固定实现差异。"
       }
     }
   ]

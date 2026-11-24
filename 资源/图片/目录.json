@@ -4655,6 +4655,291 @@
         0.404
       ],
       "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DIFFREC/交互恢复与潜空间扩散.png",
+      "sha256": "bcaf27abe58b805342fce6cd43fd791bda04de1b9149a28e053407c3e91cc882",
+      "kind": "第三方原图",
+      "source_id": "SRC-DIFFREC",
+      "source_version": "arXiv:2304.04971v3，2025-06-25；SIGIR 2023",
+      "basis": "图 1，采用 PDF 第 2 页",
+      "credit": "Diffusion Recommender Model，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "cef8fb3b02cb093e2701af2cd076dad97e8f51081e0cf3985cfda1f8ff7acdaf",
+      "pdf_page": 2,
+      "crop_normalized_ltrb": [
+        0.08863636363636364,
+        0.10369068541300527,
+        0.47045454545454546,
+        0.28295254833040423
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DIFFREC/交互向量的加噪和恢复.png",
+      "sha256": "a89cb9e670981df693dd0f9feac947129dcff2d41d9760cd1b1f193a88f5e105",
+      "kind": "第三方原图",
+      "source_id": "SRC-DIFFREC",
+      "source_version": "arXiv:2304.04971v3，2025-06-25；SIGIR 2023",
+      "basis": "图 2，采用 PDF 第 3 页",
+      "credit": "Diffusion Recommender Model，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "cef8fb3b02cb093e2701af2cd076dad97e8f51081e0cf3985cfda1f8ff7acdaf",
+      "pdf_page": 3,
+      "crop_normalized_ltrb": [
+        0.08636363636363636,
+        0.1054481546572935,
+        0.47954545454545455,
+        0.20210896309314588
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DIFFREC/分簇压缩与潜空间去噪.png",
+      "sha256": "ffd860c61646eca0b980d25dfc00f7d7a8e1ddac7bcc6af7c17e4a554e832dd8",
+      "kind": "第三方原图",
+      "source_id": "SRC-DIFFREC",
+      "source_version": "arXiv:2304.04971v3，2025-06-25；SIGIR 2023",
+      "basis": "图 3，采用 PDF 第 5 页",
+      "credit": "Diffusion Recommender Model，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "cef8fb3b02cb093e2701af2cd076dad97e8f51081e0cf3985cfda1f8ff7acdaf",
+      "pdf_page": 5,
+      "crop_normalized_ltrb": [
+        0.08863636363636364,
+        0.10369068541300527,
+        0.48409090909090907,
+        0.21441124780316345
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DIFFREC/加噪比例与排序指标.png",
+      "sha256": "f28e27d620351fc1e8ec99cf068114a244d3a6f1a2787112b595bba32a2e279f",
+      "kind": "第三方原图",
+      "source_id": "SRC-DIFFREC",
+      "source_version": "arXiv:2304.04971v3，2025-06-25；SIGIR 2023",
+      "basis": "图 4，采用 PDF 第 7 页",
+      "credit": "Diffusion Recommender Model，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "cef8fb3b02cb093e2701af2cd076dad97e8f51081e0cf3985cfda1f8ff7acdaf",
+      "pdf_page": 7,
+      "crop_normalized_ltrb": [
+        0.07727272727272727,
+        0.20210896309314588,
+        0.48863636363636365,
+        0.3251318101933216
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DREAMREC/从物品分类到生成目标向量.png",
+      "sha256": "9206fc260afe69348a6220c16091cf764d587668f339789f8e53397f130ebd34",
+      "kind": "第三方原图",
+      "source_id": "SRC-DREAMREC",
+      "source_version": "arXiv:2310.20453v1；NeurIPS 2023",
+      "basis": "图 1，采用 PDF 第 2 页",
+      "credit": "Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "9c1cacdd7b37327cdbb30c9a9aa06e4371d52c973d35e067125680bfb73b976c",
+      "pdf_page": 2,
+      "crop_normalized_ltrb": [
+        0.17045454545454544,
+        0.0843585237258348,
+        0.8318181818181818,
+        0.27943760984182775
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DREAMREC/历史条件与连续目标去噪.png",
+      "sha256": "d4b333df200f7336250a74bde85eb0c6e270216ce67152770602b139b5205b35",
+      "kind": "第三方原图",
+      "source_id": "SRC-DREAMREC",
+      "source_version": "arXiv:2310.20453v1；NeurIPS 2023",
+      "basis": "图 2，采用 PDF 第 5 页",
+      "credit": "Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "9c1cacdd7b37327cdbb30c9a9aa06e4371d52c973d35e067125680bfb73b976c",
+      "pdf_page": 5,
+      "crop_normalized_ltrb": [
+        0.48863636363636365,
+        0.5061511423550088,
+        0.8340909090909091,
+        0.7293497363796133
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DREAMREC/三域的个性化引导强度.png",
+      "sha256": "5564e66f2ef3d1af16c2327c0de7fc754622af386eeab978641e3a48107c935d",
+      "kind": "第三方原图",
+      "source_id": "SRC-DREAMREC",
+      "source_version": "arXiv:2310.20453v1；NeurIPS 2023",
+      "basis": "图 4，采用 PDF 第 9 页",
+      "credit": "Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "9c1cacdd7b37327cdbb30c9a9aa06e4371d52c973d35e067125680bfb73b976c",
+      "pdf_page": 9,
+      "crop_normalized_ltrb": [
+        0.16363636363636364,
+        0.0843585237258348,
+        0.8386363636363636,
+        0.23374340949033393
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-MDGR/自回归与掩码填码方式.png",
+      "sha256": "cb0ebabeef3445ceeb90ae8a60358085e8f769690f6d58d3a43b24fabe74e0e9",
+      "kind": "第三方原图",
+      "source_id": "SRC-MDGR",
+      "source_version": "arXiv:2601.19501v2（2026-01-29）",
+      "basis": "图 1，采用 PDF 第 2 页",
+      "credit": "Masked Diffusion Generative Recommendation，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "be0d6e1c5ce9ba338dc903a14f8e78bcf30f5db0048f63825430ca90371f0836",
+      "pdf_page": 2,
+      "crop_normalized_ltrb": [
+        0.09090909090909091,
+        0.1054481546572935,
+        0.4954545454545455,
+        0.3339191564147627
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-MDGR/码本课程掩码与推理.png",
+      "sha256": "c84c7ca2500793ef14e9cfd6683ad8568c8517523af1799d4b0357c8fc1bcb19",
+      "kind": "第三方原图",
+      "source_id": "SRC-MDGR",
+      "source_version": "arXiv:2601.19501v2（2026-01-29）",
+      "basis": "图 2，采用 PDF 第 4 页",
+      "credit": "Masked Diffusion Generative Recommendation，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "be0d6e1c5ce9ba338dc903a14f8e78bcf30f5db0048f63825430ca90371f0836",
+      "pdf_page": 4,
+      "crop_normalized_ltrb": [
+        0.08409090909090909,
+        0.10017574692442882,
+        0.9318181818181818,
+        0.39718804920913886
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-MDGR/全局难度与掩码数量.png",
+      "sha256": "a1c677884473e2c876db75e5263654b82f8992badd817819999a3801477ccf88",
+      "kind": "第三方原图",
+      "source_id": "SRC-MDGR",
+      "source_version": "arXiv:2601.19501v2（2026-01-29）",
+      "basis": "图 3，采用 PDF 第 9 页",
+      "credit": "Masked Diffusion Generative Recommendation，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "be0d6e1c5ce9ba338dc903a14f8e78bcf30f5db0048f63825430ca90371f0836",
+      "pdf_page": 9,
+      "crop_normalized_ltrb": [
+        0.08636363636363636,
+        0.0984182776801406,
+        0.5045454545454545,
+        0.22319859402460457
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-PREFERDIFF/正负样本对目标分布的影响.png",
+      "sha256": "3db363c316b76a1bd969e9d6a0eab74f51c882bd75e3f651173fa3f4dc4ee6b8",
+      "kind": "第三方原图",
+      "source_id": "SRC-PREFERDIFF",
+      "source_version": "arXiv:2410.13117v2，2025-04-20；ICLR 2025；官方实现固定fdf45b0325f2aa19eee4e92196f5b87d5848a1e3",
+      "basis": "图 1，采用 PDF 第 2 页",
+      "credit": "Preference Diffusion for Recommendation，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697f85c88d",
+      "pdf_page": 2,
+      "crop_normalized_ltrb": [
+        0.17045454545454544,
+        0.09666080843585237,
+        0.7068181818181818,
+        0.2478031634446397
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-PREFERDIFF/Beauty训练曲线.png",
+      "sha256": "2c9bfdd042bface14c0130da16f56541dc9f8a6e76a0651aad92c4ab163067a7",
+      "kind": "第三方原图",
+      "source_id": "SRC-PREFERDIFF",
+      "source_version": "arXiv:2410.13117v2，2025-04-20；ICLR 2025；官方实现固定fdf45b0325f2aa19eee4e92196f5b87d5848a1e3",
+      "basis": "图 2，采用 PDF 第 8 页",
+      "credit": "Preference Diffusion for Recommendation，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "efd54c42ee41a1f855a9220e13447c135b6ca448367812f288a3f3697f85c88d",
+      "pdf_page": 8,
+      "crop_normalized_ltrb": [
+        0.23863636363636365,
+        0.7258347978910369,
+        0.7772727272727272,
+        0.8488576449912126
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DECODING/标题相似性与类别熵.png",
+      "sha256": "e2a8e22d9258501a1e15040a400a8e7eb4635b3af677ee6d31d61996a4cef451",
+      "kind": "第三方原图",
+      "source_id": "SRC-DECODING",
+      "source_version": "arXiv:2406.14900v3，2024-11-05；EMNLP 2024 Main Conference",
+      "basis": "图 1，采用 PDF 第 5 页",
+      "credit": "Decoding Matters: Addressing Amplification Bias and Homogeneity Issue for LLM-based Recommendation，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "745802d7ea06a354dd0dce69070955f2c677609735e9450c491ab7b5fa53aae4",
+      "pdf_page": 5,
+      "crop_normalized_ltrb": [
+        0.1111111111111111,
+        0.07521367521367521,
+        0.8961352657004831,
+        0.20683760683760682
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DECODING/温度与辅助解码的多样性.png",
+      "sha256": "7493ca453f8eead38a2b832086b3def072305b5384a3febc8eb9acfc932859e4",
+      "kind": "第三方原图",
+      "source_id": "SRC-DECODING",
+      "source_version": "arXiv:2406.14900v3，2024-11-05；EMNLP 2024 Main Conference",
+      "basis": "图 2，采用 PDF 第 8 页",
+      "credit": "Decoding Matters: Addressing Amplification Bias and Homogeneity Issue for LLM-based Recommendation，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "745802d7ea06a354dd0dce69070955f2c677609735e9450c491ab7b5fa53aae4",
+      "pdf_page": 8,
+      "crop_normalized_ltrb": [
+        0.11594202898550725,
+        0.252991452991453,
+        0.4927536231884058,
+        0.4017094017094017
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-DECODING/目标类别分布与命中.png",
+      "sha256": "7fc2dbfb09fdd79dbbfd1da2342602fd7ca9b2c9e5382a4a71fdad4fe4e175c5",
+      "kind": "第三方原图",
+      "source_id": "SRC-DECODING",
+      "source_version": "arXiv:2406.14900v3，2024-11-05；EMNLP 2024 Main Conference",
+      "basis": "图 3，采用 PDF 第 8 页",
+      "credit": "Decoding Matters: Addressing Amplification Bias and Homogeneity Issue for LLM-based Recommendation，原论文作者",
+      "modification": "按图像区域裁取，保留原标注",
+      "original_pdf_sha256": "745802d7ea06a354dd0dce69070955f2c677609735e9450c491ab7b5fa53aae4",
+      "pdf_page": 8,
+      "crop_normalized_ltrb": [
+        0.5072463768115942,
+        0.24957264957264957,
+        0.8864734299516909,
+        0.3641025641025641
+      ],
+      "created_on": "2026-11-24"
     }
   ]
 }

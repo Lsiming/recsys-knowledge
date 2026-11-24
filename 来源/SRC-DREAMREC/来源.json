@@ -65,15 +65,15 @@
       "retrieved_on": "2026-10-29",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "d1a3b34cf77e2a4c64630dfd32977c9cb09a7bc8fa1bb5428e8cfe72d5d7fa26",
+        "notes_sha256": "838a443476617d607e9ecca921b5207338669b1bcc06e254e5d5c476aa52c3a8",
         "pages": [
           "generation-decoding",
           "generative-recommendation",
           "interaction-vector-denoising"
         ],
-        "reviewed_on": "2026-11-21",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。 2026-11-21 复核并补入从精读正文返回比较章节的链接。"
+        "review_note": "PAPER-017 固定版证据和读者路径两轮自查。重查图1/2/4与算法1–2，补从历史条件、目标去噪到内积检索的实例，保留正文权重与伪代码的差异。"
       }
     }
   ]
