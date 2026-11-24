@@ -30,18 +30,19 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "104aaae680598e7cd74112626b1d7b4cc73fea52e00a50731dc7a1e5831efed4",
+        "notes_sha256": "e3fd96b0f08efb2873a96cc580e0f4ac2c07f1ed35d0a2abe285fe4563cb79a1",
         "pages": [
           "generation-decoding",
           "generative-preference-alignment",
           "generative-recommendation",
           "latent-recommendation-reasoning",
           "preranking-cascade",
-          "serving-efficiency"
+          "serving-efficiency",
+          "target-decoding-compute"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增级联对照按各自固定版本区分V2目标三码、Think候选前缀缓存、OneReason完整候选缓存及OneSug查询建议；不同协议不做效果排名。"
+        "review_note": "PAPER-016 第16批原文与读者路径两轮自查。核对图2/4、式(6)–(11)；比较文字轨迹奖励与潜状态评价，明确离线前缀限制实时可见候选。"
       }
     }
   ]

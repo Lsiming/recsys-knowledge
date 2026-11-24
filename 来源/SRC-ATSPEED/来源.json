@@ -25,16 +25,17 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "70cfbb164a613565313c8e1fec83297e669d4aaa553e0157c60fa4e5eb4e4007",
+        "notes_sha256": "cda46650d06153c5c2bcdb84f8001fa0a840a51e42eac98b3e88e9e7b8ebdf08",
         "pages": [
           "generation-decoding",
           "generative-recommendation",
           "multi-item-speculative-decoding",
-          "serving-efficiency"
+          "serving-efficiency",
+          "target-decoding-compute"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。"
+        "review_note": "PAPER-016 第16批原文与读者路径两轮自查。核对图2/5、§2–3及算法1–2；拆分严格 beam 覆盖和宽松采样，保留伪代码与近似条件。"
       }
     }
   ]

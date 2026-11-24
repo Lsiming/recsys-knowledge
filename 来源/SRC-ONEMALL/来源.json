@@ -25,7 +25,7 @@
       "retrieved_on": "2026-10-30",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "dcab40b048eba801a666f916bdb730f288965f336b1c51eff699053e391e0159",
+        "notes_sha256": "d334391d96664cc52e054b7fd2bdbaa793df2db78ebf884298034655ac72bd5c",
         "pages": [
           "generative-output-evaluation",
           "generative-preference-alignment",
@@ -35,11 +35,12 @@
           "preranking-cascade",
           "representations-tokenization",
           "semantic-code-retrieval",
-          "serving-efficiency"
+          "serving-efficiency",
+          "target-decoding-compute"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "对照2601.21770v2全部11页及正文源码，核对业务配对、三种编码、QFormer/辅助监督、RL印式与六表；保留层号、16-bit/4096、概率比/损失缺项和指标分母疑点于REV-036。区分当前生成召回与未来统一召排、代理与回放及作者整体线上证据。9页中文PDF逐页验收，原译私有备份及首次认证下载均通过。未运行模型或核实作者实现。"
+        "review_note": "PAPER-016 第16批原文与读者路径两轮自查。核对图4/5、式(7)–(10)与表6；增加按行为压缩和单响应排序代理对照，保留印式缺项。"
       }
     }
   ]

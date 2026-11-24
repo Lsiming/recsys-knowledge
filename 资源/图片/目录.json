@@ -4332,6 +4332,329 @@
       "original_pdf_sha256": "ad21d63a9d09fdbad00225dcf9f6140ace114b0208b254c28138ab42164bcd83",
       "pdf_page": 4,
       "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-HSTU-PAPER/原始行为序列与训练.png",
+      "sha256": "70d3daeee2a9de905d421ae400c9760b78f39bc97f7f7bcbca53be47d9062a42",
+      "kind": "第三方原图",
+      "source_id": "SRC-HSTU-PAPER",
+      "source_version": "arXiv2402.17152v3，2024-05-06，ICML2024，26页",
+      "basis": "图 2，采用 PDF 第 3 页",
+      "credit": "Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "e4f953031df9cd67514bee657a6a342b6bdaad2a8cc9fccb3b0c3ce8a74591cf",
+      "pdf_page": 3,
+      "crop_normalized_ltrb": [
+        0.118,
+        0.075,
+        0.885,
+        0.322
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-HSTU-PAPER/HSTU层与传统组件.png",
+      "sha256": "4fa1b7c3abf05357e4cb886afa431033a1c0b0537b9ef8129c2edf40d5bff4ab",
+      "kind": "第三方原图",
+      "source_id": "SRC-HSTU-PAPER",
+      "source_version": "arXiv2402.17152v3，2024-05-06，ICML2024，26页",
+      "basis": "图 3，采用 PDF 第 4 页",
+      "credit": "Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "e4f953031df9cd67514bee657a6a342b6bdaad2a8cc9fccb3b0c3ce8a74591cf",
+      "pdf_page": 4,
+      "crop_normalized_ltrb": [
+        0.499,
+        0.075,
+        0.882,
+        0.395
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-HSTU-PAPER/候选微批与历史缓存.png",
+      "sha256": "3cc015cdb48716b75ee5b689032329c97997168dae2d1145e8cb9ea582378184",
+      "kind": "第三方原图",
+      "source_id": "SRC-HSTU-PAPER",
+      "source_version": "arXiv2402.17152v3，2024-05-06，ICML2024，26页",
+      "basis": "图 11，采用 PDF 第 24 页",
+      "credit": "Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "e4f953031df9cd67514bee657a6a342b6bdaad2a8cc9fccb3b0c3ce8a74591cf",
+      "pdf_page": 24,
+      "crop_normalized_ltrb": [
+        0.17,
+        0.15,
+        0.87,
+        0.721
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-ONEREC/会话生成和迭代偏好训练.png",
+      "sha256": "31eb3a0c40823c557921a37f01e8a57f20bef7744434670d1bab87049e29f351",
+      "kind": "第三方原图",
+      "source_id": "SRC-ONEREC",
+      "source_version": "arXiv:2502.18965v1, 2025-02-26",
+      "basis": "图 2，采用 PDF 第 3 页",
+      "credit": "OneRec: Unifying Retrieve and Rank with Generative Recommender and Preference Alignment，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "a508e505e20d6cdfaba65979a92130f3868a12199d94edc5fd7e9bc9a4289dba",
+      "pdf_page": 3,
+      "crop_normalized_ltrb": [
+        0.088,
+        0.087,
+        0.894,
+        0.458
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-ONEREC/训练采样到线上部署.png",
+      "sha256": "40ff859740795fe7ed30758e5cf1d0f662b5e485dd685ecc6f3e2ee36f069b96",
+      "kind": "第三方原图",
+      "source_id": "SRC-ONEREC",
+      "source_version": "arXiv:2502.18965v1, 2025-02-26",
+      "basis": "图 3，采用 PDF 第 5 页",
+      "credit": "OneRec: Unifying Retrieve and Rank with Generative Recommender and Preference Alignment，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "a508e505e20d6cdfaba65979a92130f3868a12199d94edc5fd7e9bc9a4289dba",
+      "pdf_page": 5,
+      "crop_normalized_ltrb": [
+        0.495,
+        0.754,
+        0.921,
+        0.855
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-LIGER/稠密离散与混合三条路径.png",
+      "sha256": "1a842a8079082ccbdc67c0e97074d2423e6023be1a576405b33b728ed087e9e4",
+      "kind": "第三方原图",
+      "source_id": "SRC-LIGER",
+      "source_version": "arXiv:2411.18814v2，2024-12-06；原PDF内日期2024-12-10",
+      "basis": "图 2，采用 PDF 第 4 页",
+      "credit": "Unifying Generative and Dense Retrieval for Sequential Recommendation，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "cc50cca611a1a0ce418fda60575c128b771f76e9bf4d6d065dddd04683e60180",
+      "pdf_page": 4,
+      "crop_normalized_ltrb": [
+        0.169,
+        0.075,
+        0.835,
+        0.382
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-LIGER/冷物品生成概率与入围门槛.png",
+      "sha256": "acb07c99b6b96fd98555c4ad0200f99c45dc9ebd7cb410f3bf8ef85fee254751",
+      "kind": "第三方原图",
+      "source_id": "SRC-LIGER",
+      "source_version": "arXiv:2411.18814v2，2024-12-06；原PDF内日期2024-12-10",
+      "basis": "图 4，采用 PDF 第 6 页",
+      "credit": "Unifying Generative and Dense Retrieval for Sequential Recommendation，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "cc50cca611a1a0ce418fda60575c128b771f76e9bf4d6d065dddd04683e60180",
+      "pdf_page": 6,
+      "crop_normalized_ltrb": [
+        0.107,
+        0.376,
+        0.894,
+        0.493
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-LIGER/候选并集和归一化差距.png",
+      "sha256": "78f23d1c17634f423e327d3187c756816e347abfe7cc96ea9a6c1ce32deb4e3d",
+      "kind": "第三方原图",
+      "source_id": "SRC-LIGER",
+      "source_version": "arXiv:2411.18814v2，2024-12-06；原PDF内日期2024-12-10",
+      "basis": "图 5，采用 PDF 第 7 页",
+      "credit": "Unifying Generative and Dense Retrieval for Sequential Recommendation，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "cc50cca611a1a0ce418fda60575c128b771f76e9bf4d6d065dddd04683e60180",
+      "pdf_page": 7,
+      "crop_normalized_ltrb": [
+        0.108,
+        0.609,
+        0.893,
+        0.788
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-ONEMALL/多行为摘要和语义码骨干.png",
+      "sha256": "0fe553d0e9a0511033b89bc658648dbdfb9ea30a5c85650fe1adbc1125345a20",
+      "kind": "第三方原图",
+      "source_id": "SRC-ONEMALL",
+      "source_version": "arXiv:2601.21770v2（2026-02-02）",
+      "basis": "图 4，采用 PDF 第 5 页",
+      "credit": "OneMall: One Architecture, More Scenarios -- End-to-End Generative Recommender Family at Kuaishou E-Commerce，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "c7d2998cdd303042e509225e378ccb79ad73de195a98aa8a2a8203a26fc9c0ce",
+      "pdf_page": 5,
+      "crop_normalized_ltrb": [
+        0.536,
+        0.318,
+        0.891,
+        0.57
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-ONEMALL/精排奖励与码生成训练.png",
+      "sha256": "cb6769b314ad2d3a11b94fa385ebfca30e714073903662a3f3fd733e8b219e39",
+      "kind": "第三方原图",
+      "source_id": "SRC-ONEMALL",
+      "source_version": "arXiv:2601.21770v2（2026-02-02）",
+      "basis": "图 5，采用 PDF 第 6 页",
+      "credit": "OneMall: One Architecture, More Scenarios -- End-to-End Generative Recommender Family at Kuaishou E-Commerce，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "c7d2998cdd303042e509225e378ccb79ad73de195a98aa8a2a8203a26fc9c0ce",
+      "pdf_page": 6,
+      "crop_normalized_ltrb": [
+        0.08,
+        0.093,
+        0.514,
+        0.248
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-SDPO/似然成对与多负例偏好.png",
+      "sha256": "02401343753ae23db0e47c27739af665bfb7ccf28e6627dce6d2d909576aaa22",
+      "kind": "第三方原图",
+      "source_id": "SRC-SDPO",
+      "source_version": "arXiv:2406.09215v3, 2024-11-07, NeurIPS 2024",
+      "basis": "图 1，采用 PDF 第 3 页",
+      "credit": "On Softmax Direct Preference Optimization for Recommendation，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "6cbcbabb554d1e9c095983f18a0befb1aea34a1eddaf89ca276866c5ad35ebd4",
+      "pdf_page": 3,
+      "crop_normalized_ltrb": [
+        0.166,
+        0.082,
+        0.837,
+        0.202
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-SDPO/偏好目标消融与反馈趋势.png",
+      "sha256": "a3e11676ab98415c19319d53c2a779750abb5d7772368c9dc1569408f2e75331",
+      "kind": "第三方原图",
+      "source_id": "SRC-SDPO",
+      "source_version": "arXiv:2406.09215v3, 2024-11-07, NeurIPS 2024",
+      "basis": "图 2，采用 PDF 第 8 页",
+      "credit": "On Softmax Direct Preference Optimization for Recommendation，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "6cbcbabb554d1e9c095983f18a0befb1aea34a1eddaf89ca276866c5ad35ebd4",
+      "pdf_page": 8,
+      "crop_normalized_ltrb": [
+        0.169,
+        0.095,
+        0.831,
+        0.225
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-LATENTR3/潜状态注入与两阶段训练.png",
+      "sha256": "f93ed396109ccce8399b887bd0e8a525a061c47a108156a4f7c1a3ac97e6f3c0",
+      "kind": "第三方原图",
+      "source_id": "SRC-LATENTR3",
+      "source_version": "arXiv:2505.19092v2（2025-10-24）；采用PDF标Under Review，ICLR2026发表信息未独立核实；官方代码c558b4404fefff7321d8f96c25c0a7cbfd47dde7定向静态核对",
+      "basis": "图 1，采用 PDF 第 3 页",
+      "credit": "Reinforced Latent Reasoning for LLM-based Recommendation，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "38dac74099fe0de7a8b5e19a2622341b0c47ae351630f4758e215dff73c674b8",
+      "pdf_page": 3,
+      "crop_normalized_ltrb": [
+        0.222,
+        0.102,
+        0.792,
+        0.312
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-ONEREC-THINK/语义对齐理由蒸馏和强化.png",
+      "sha256": "631e3440c1919897e962af7160f999cf38a0066eb75771b4167d56d04b327ae7",
+      "kind": "第三方原图",
+      "source_id": "SRC-ONEREC-THINK",
+      "source_version": "arXiv:2510.11639v2，2025-11-11；采用17页PDF，Kuaishou Inc.",
+      "basis": "图 2，采用 PDF 第 3 页",
+      "credit": "OneRec-Think: In-Text Reasoning for Generative Recommendation，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "8fbd181d6084d247637aa2d626b52fecb079fb794308ac37f6a67b6202aa6540",
+      "pdf_page": 3,
+      "crop_normalized_ltrb": [
+        0.1,
+        0.081,
+        0.9,
+        0.437
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-ONEREC-THINK/显式理由与物品推荐案例.png",
+      "sha256": "ad23e804b06f77b903a78122cc1887c8f72f7395992e8e566be1492ec5b3d8dc",
+      "kind": "第三方原图",
+      "source_id": "SRC-ONEREC-THINK",
+      "source_version": "arXiv:2510.11639v2，2025-11-11；采用17页PDF，Kuaishou Inc.",
+      "basis": "图 4，采用 PDF 第 7 页",
+      "credit": "OneRec-Think: In-Text Reasoning for Generative Recommendation，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "8fbd181d6084d247637aa2d626b52fecb079fb794308ac37f6a67b6202aa6540",
+      "pdf_page": 7,
+      "crop_normalized_ltrb": [
+        0.1,
+        0.084,
+        0.9,
+        0.463
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-ATSPEED/草稿对齐整步验证和树遮罩.png",
+      "sha256": "96bf34c0c89090fd0449ee05896e59b4af1b7619a84ac984d0df8d9f9570400d",
+      "kind": "第三方原图",
+      "source_id": "SRC-ATSPEED",
+      "source_version": "arXiv:2410.05165v3，2025-02-26；ICLR 2025",
+      "basis": "图 2，采用 PDF 第 4 页",
+      "credit": "Efficient Inference for Large Language Model-based Generative Recommendation，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "6bc91715ce3930fb2d59cc9b4a94f395a87e100f554372dbe2b30ef3e5204991",
+      "pdf_page": 4,
+      "crop_normalized_ltrb": [
+        0.169,
+        0.094,
+        0.833,
+        0.215
+      ],
+      "created_on": "2026-11-24"
+    },
+    {
+      "path": "资源/图片/SRC-ATSPEED/树形注意力与对齐强度实验.png",
+      "sha256": "8aa1363ee7f955959c0781d62f9adb4974cba9df1d53d5660ecbda67bc32898b",
+      "kind": "第三方原图",
+      "source_id": "SRC-ATSPEED",
+      "source_version": "arXiv:2410.05165v3，2025-02-26；ICLR 2025",
+      "basis": "图 5，采用 PDF 第 25 页",
+      "credit": "Efficient Inference for Large Language Model-based Generative Recommendation，原论文作者",
+      "modification": "按原图区域裁取，保留原标注",
+      "original_pdf_sha256": "6bc91715ce3930fb2d59cc9b4a94f395a87e100f554372dbe2b30ef3e5204991",
+      "pdf_page": 25,
+      "crop_normalized_ltrb": [
+        0.167,
+        0.255,
+        0.835,
+        0.404
+      ],
+      "created_on": "2026-11-24"
     }
   ]
 }

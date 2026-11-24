@@ -745,3 +745,7 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 ## [2026-11-24] ingest | PAPER-015 · 物品编码与行为语言对齐
 
 重读 P5、LC-Rec、GRID 实践手册、LETTER、LLaRA 与 TokenRec。用同一物品对比文本、行为向量、离散码和连续查询的监督与目录映射。补 13 张作者原图，逐页复验 60 页既有中文 PDF，12 份私有附件通过认证下载。版本差异、证据边界与验证见[第 15 批交接](文档/会话/PAPER-015.md)。
+
+## [2026-11-24] ingest | PAPER-016 · 生成式召排、偏好与推理成本
+
+重读 HSTU、OneRec、LIGER、OneMall、S-DPO、LatentR³、OneRec-Think 和 AtSpeed。增加 17 张作者原图，把同一请求的监督、候选覆盖、输出对象和计算复用对照归入五个问题页。八份既有正式中文 PDF 共 135 页复验通过，16 份私有附件已认证下载验哈希。更新论文工作流，将两库远端核验列入完成条件。[第 16 批交接](文档/会话/PAPER-016.md)

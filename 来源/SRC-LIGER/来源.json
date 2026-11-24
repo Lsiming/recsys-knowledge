@@ -25,16 +25,16 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "10f18ba448779ed2ce239e0585368b210ca6e098d8cddf7fc79349e9306eaff5",
+        "notes_sha256": "50dd375d6df6cd16ff8a4e6f33744b7c3eb0d398676664da1b78ceed4623c9b9",
         "pages": [
           "generative-recommendation",
           "hybrid-generative-dense-retrieval",
           "multidomain-transfer",
           "retrieval"
         ],
-        "reviewed_on": "2026-10-30",
+        "reviewed_on": "2026-11-24",
         "review_method": "agent-self-review",
-        "review_note": "本轮全局整理复核专题及相关模块/问题的生成对象、信息可见性、监督、目录映射和资源边界；保留既有独立精读证据，不声称重跑模型或独立审查。收据覆盖当前直接引用页，旧机制沿用已读原文与原有自查。 新增专题的机制摘要与问题导航，和原笔记核对生成对象、接口及适用条件；不表示再次全文翻译。"
+        "review_note": "PAPER-016 第16批原文与读者路径两轮自查。核对图2/4/5、算法1、表2及附录实验；补冷池入围与连续重排的区别，保留基准归一化口径。"
       }
     }
   ]
