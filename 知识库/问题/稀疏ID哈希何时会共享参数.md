@@ -8,6 +8,7 @@ summary: "区分有符号特征哈希、共享向量桶和保留完整键的参�
 aliases: ["Feature Hashing", "hashing trick", "signed hashing", "哈希碰撞", "共享 Embedding 槽"]
 sources: {"SRC-FEATURE-HASHING": "4f4145a0ddd24a943499ff74a507c7e0384dcd308a1c30c3a08e22ee5d1b484d", "SRC-FTRL": "c35d57025f475ec9b783deb09afb7988f6428f0e521351eb774f74cb74f937ee"}
 related: ["data-labels", "serving-efficiency", "distributed-sparse-parameter-training", "online-ctr-sparse-weights"]
+scenes: ["通用方法", "推荐"]
 module: "数据、样本与标签"
 solutions: [{"name": "有符号特征哈希", "idea": "稀疏坐标按哈希选桶，并带独立随机符号累加，压缩输入和参数寻址", "papers": ["SRC-FEATURE-HASHING"]}]
 ---

@@ -214,7 +214,7 @@ class EvidenceLifecycle(unittest.TestCase):
 
     def make_problem(self):
         meta, _ = wiki.read_page(self.page)
-        meta.update(id="test-problem", title="测试问题", type="problem", module="测试模块",
+        meta.update(id="test-problem", title="测试问题", type="problem", module="测试模块", scenes=["通用方法", "搜索"],
                     related=["evidence"], solutions=[
                         {"name": "测试方案 A", "idea": "测试机制，非领域结论", "papers": ["SRC-TEST"]}])
         path = self.page.with_name("test-problem.md")
@@ -249,6 +249,22 @@ class EvidenceLifecycle(unittest.TestCase):
         for query in ["测试模块", "测试方案 B", "SRC-SECOND", "Alpha"]:
             self.assertEqual(wiki.search(self.root, query, 1)[0]["title"], "测试问题")
         self.assertEqual(wiki.lint(self.root, local=True)[0], [])
+
+    def test_scene_navigation_and_validation(self):
+        path, meta = self.make_problem()
+        self.run_cli("index")
+        catalog = (self.root / "知识库/知识地图.md").read_text().split("## 按模块学习")[0]
+        search = catalog.split("### 搜索\n")[1].split("### 推荐\n")[0]
+        common = catalog.split("### 通用方法\n")[1]
+        self.assertIn("**跨场景可复用的问题**", search)
+        self.assertIn("**主要问题**", common)
+        self.assertEqual(search.count("test-problem.md"), 1)
+        self.assertEqual(common.count("test-problem.md"), 1)
+        for value in ([], ["搜索", "搜索"], ["未知"], "营销", [None]):
+            with self.subTest(scenes=value):
+                self.write_problem(path, dict(meta, scenes=value))
+                with self.assertRaises(ValueError):
+                    wiki.read_page(path)
 
     def test_problem_rejects_missing_module_or_duplicate_solution(self):
         path, meta = self.make_problem()

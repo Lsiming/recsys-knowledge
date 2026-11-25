@@ -8,6 +8,7 @@ summary: "由逐曝光梯度、坐标步长与 L1 阈值读出稀疏权重，连
 aliases: ["FTRL", "FTRL-Proximal", "稀疏在线学习", "在线CTR", "L1 近端更新", "渐进验证"]
 sources: {"SRC-FTRL": "c35d57025f475ec9b783deb09afb7988f6428f0e521351eb774f74cb74f937ee", "SRC-WIDEDEEP": "6c59a4020320ff1eb4e55fe37148b4952cbf03e178c73479f225224b0fd1114e", "SRC-FM": "22d8e46839f282fb7f569475856f22d2380b22da19e2630ed4e32855e1456fe3", "SRC-FFM": "280dda45f3f4b1cfec33a6b1f5ff989450ab4478d469abad6ce53264ebc3548b"}
 related: ["serving-efficiency", "ranking-interaction", "sparse-feature-interactions", "impression-ctr-calibration"]
+scenes: ["通用方法", "推荐"]
 module: "在线服务、更新与计算效率"
 solutions: [{"name": "FTRL-Proximal", "idea": "保存累计平方梯度和修正线性项，用逐坐标软阈值求下一次预测权重", "papers": ["SRC-FTRL"]}, {"name": "宽深模型的稀疏宽路", "idea": "人工交叉进入带 L1 的 FTRL 宽路，与 AdaGrad 深路共同拟合安装标签", "papers": ["SRC-WIDEDEEP"]}]
 ---

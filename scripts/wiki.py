@@ -14,6 +14,12 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 ID = re.compile(r"[a-zA-Z0-9][a-zA-Z0-9-]*\Z")
 TYPES = {"map", "concept", "method", "synthesis", "problem", "question"}
+SCENES = {
+    "搜索": "从用户输入的查询或前缀，追到可执行的检索请求、候选与相关性判断。",
+    "推荐": "从用户历史与物品供给，追到候选发现、兴趣建模与个性化排序。",
+    "营销": "从定价、发券或通知的决策，追到触达时机、成本与相对对照的增量。",
+    "通用方法": "从多个业务共用的建模、工程与评估问题，查方法的假设和适用条件。",
+}
 STATES = {"draft", "reviewed", "contested"}
 
 
@@ -93,6 +99,14 @@ def read_page(path):
         raise ValueError(f"{path}: sources 必须为来源 ID → 指纹映射")
     if "module" in meta and (not isinstance(meta["module"], str) or not meta["module"].strip()):
         raise ValueError(f"{path}: module 必须为非空字符串")
+    if meta["type"] == "problem" or "scenes" in meta:
+        scenes = meta.get("scenes")
+        if meta["type"] not in {"problem", "map"} or not isinstance(scenes, list) or not scenes:
+            raise ValueError(f"{path}: 问题页须填写 scenes，导读可选填")
+        if not all(isinstance(scene, str) and scene in SCENES for scene in scenes):
+            raise ValueError(f"{path}: scenes 含未知场景")
+        if len(set(scenes)) != len(scenes):
+            raise ValueError(f"{path}: scenes 不能包含重复场景")
     if meta["type"] == "problem":
         if not meta.get("module") or not isinstance(meta.get("solutions"), list) or not meta["solutions"]:
             raise ValueError(f"{path}: 问题页需要 module 和非空 solutions")
@@ -235,11 +249,39 @@ def table_text(value):
     return value.replace("\\", "\\\\").replace("|", "\\|").replace("[", "\\[").replace("]", "\\]").replace("\n", " ")
 
 
+def scene_navigation(root, problems, maps):
+    def link(path, meta):
+        return f"[{table_text(meta['title'])}]({path.relative_to(root / '知识库').as_posix()})"
+
+    lines = ["## 按场景找问题", "",
+             " · ".join(f"[{scene}](#{scene})" for scene in SCENES) + " · [按模块学习](#按模块学习)", ""]
+    for scene, description in SCENES.items():
+        lines += [f"### {scene}", "", description, ""]
+        guides = [link(p, m) for p, m in maps if scene in m.get("scenes", [])]
+        if guides:
+            lines += ["导读：" + " · ".join(guides), ""]
+        for primary, label in [(True, "主要问题"), (False, "跨场景可复用的问题")]:
+            by_module = {}
+            for path, meta in problems:
+                scenes = meta["scenes"][:1] if primary else meta["scenes"][1:]
+                if scene in scenes:
+                    by_module.setdefault(meta["module"], []).append(link(path, meta))
+            if by_module:
+                lines += [f"**{label}**", ""]
+                for module, links in sorted(by_module.items()):
+                    lines.append(f"- {module}：" + " · ".join(links))
+                lines.append("")
+    return lines
+
+
 def generated(root):
     all_pages, registry = pages(root), records(root)
     wiki = ["# 知识地图", "", "<!-- 由 python3 scripts/wiki.py index 生成，请维护知识页元数据。 -->", "",
-            "沿模块 → 问题 → 解法 → 论文学习。模块导读组织问题与候选阅读，已精读方案另列论文依据。", ""]
+            "从业务场景找问题，或沿模块查看解法与对应论文。", ""]
     maps = [(p, m) for p, m, _ in all_pages.values() if m["type"] == "map"]
+    problems = [(p, m) for p, m, _ in all_pages.values() if m["type"] == "problem"]
+    if problems:
+        wiki += scene_navigation(root, problems, maps)
     overview = [(p, m) for p, m in maps if not m.get("module")]
     if overview:
         wiki += ["## 总览、专题与阅读路线", ""]
@@ -249,7 +291,6 @@ def generated(root):
         wiki.append("")
     guides = [(p, m) for p, m in maps if m.get("module")]
     wiki += ["## 按模块学习", ""]
-    problems = [(p, m) for p, m, _ in all_pages.values() if m["type"] == "problem"]
     if not problems and not guides:
         wiki += ["尚无模块导读与论文方案；已有支持知识见下方。", ""]
     for module in sorted({m["module"] for _, m in problems + guides}):
@@ -386,7 +427,7 @@ def search(root, query, limit):
         paper_ids = sorted({sid for s in solutions for sid in s["papers"]})
         paper_terms = [registry[sid]["title"] for sid in paper_ids if sid in registry]
         heading = " ".join([meta["title"], *meta["aliases"], meta["summary"], meta.get("module", ""),
-                            *solution_terms, *paper_ids, *paper_terms]).casefold()
+                            *meta.get("scenes", []), *solution_terms, *paper_ids, *paper_terms]).casefold()
         terms = list(tokens)
         for token in tokens:
             if any(token in alias.casefold() for alias in meta["aliases"]):

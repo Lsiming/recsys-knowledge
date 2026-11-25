@@ -2,6 +2,7 @@
 id: "push-offer-contact"
 title: "优惠信息Push触达：月初预选本月发送日"
 type: "map"
+scenes: ["营销"]
 status: "reviewed"
 updated: "2026-11-24"
 summary: "围绕月初为用户预选本月优惠信息发送日，区分用款需求预测、触达响应与因果增量"
