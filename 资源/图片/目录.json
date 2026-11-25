@@ -7005,6 +7005,30 @@
       "credit": "Tianshi Li 等",
       "modification": "从固定出版版 PDF 裁出原图，保留标签和内容。",
       "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-MIM-DRCFR/共享底层与三因素训练.png",
+      "sha256": "9b66855e4cb055c21ead6f38d626df97101cce5c7d639115bafff3d55fe46b18",
+      "kind": "第三方原图",
+      "source_id": "SRC-MIM-DRCFR",
+      "source_version": "arXiv 2206.01022v1",
+      "basis": "图 1，PDF 第 2 页 https://arxiv.org/pdf/2206.01022v1#page=2",
+      "license": "原权利声明见采用版 PDF",
+      "credit": "Mingyuan Cheng et al., SIGIR 2022",
+      "modification": "采用版作者源码 model.png 原字节，仅中文文件名",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-MIM-DRCFR/消息推送增量排序曲线.png",
+      "sha256": "4dedf110c793ada1759a3e67f94276cc25e9e44a9d7b308a84824176f57b731d",
+      "kind": "第三方原图",
+      "source_id": "SRC-MIM-DRCFR",
+      "source_version": "arXiv 2206.01022v1",
+      "basis": "图 2，PDF 第 4 页 https://arxiv.org/pdf/2206.01022v1#page=4",
+      "license": "原权利声明见采用版 PDF",
+      "credit": "Mingyuan Cheng et al., SIGIR 2022",
+      "modification": "采用版作者源码 uplift.png 原字节，仅中文文件名",
+      "created_on": "2026-11-25"
     }
   ]
 }

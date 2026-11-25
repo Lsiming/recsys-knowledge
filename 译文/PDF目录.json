@@ -5448,6 +5448,45 @@
         "pages": 29,
         "verified_download_sha256": "98e581e374a23b75858843b5544e78de35438c52f3ab5816d3a8e00debc985d4"
       }
+    },
+    {
+      "source_id": "SRC-MIM-DRCFR",
+      "title": "Learning Disentangled Representations for Counterfactual Regression via Mutual Information Minimization",
+      "original_url": "https://arxiv.org/abs/2206.01022v1",
+      "revision": "arXiv:2206.01022v1 (2022-06-02); SIGIR 2022, DOI 10.1145/3477495.3532011",
+      "input_sha256": "f1f7f467ffbfa5bd34c504cfc0f328ce7efb1ca9acf752f923c8b19f1b721a3a",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–4、图表标题与表头、描述性脚注。保留公式、表值、图内文字、署名、权利声明与参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Mingyuan Cheng",
+          "Xinru Liao",
+          "Quan Liu",
+          "Bin Ma",
+          "Jian Xu",
+          "Bo Zheng"
+        ],
+        "original_pdf_sha256": "80313d8a0f876f11571707ffbacad5d373e648adbf1589169b97373e1dfd9151",
+        "evidence_url": "https://arxiv.org/abs/2206.01022v1",
+        "evidence_sha256": "80313d8a0f876f11571707ffbacad5d373e648adbf1589169b97373e1dfd9151",
+        "notes": "固定 arXiv 采用版使用非独占分发条款，未核实公开全文翻译许可。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-23-01",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-MIM-DRCFR.zh-CN.private.20261125.1.pdf",
+        "sha256": "f1f7f467ffbfa5bd34c504cfc0f328ce7efb1ca9acf752f923c8b19f1b721a3a",
+        "size_bytes": 871855,
+        "pages": 8,
+        "verified_download_sha256": "f1f7f467ffbfa5bd34c504cfc0f328ce7efb1ca9acf752f923c8b19f1b721a3a"
+      }
     }
   ],
   "storage_policy": "private-only",

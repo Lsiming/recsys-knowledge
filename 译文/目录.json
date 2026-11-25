@@ -2669,5 +2669,25 @@
     "evidence_url": "https://doi.org/10.1145/3478868",
     "evidence_sha256": "b89857c3a6458b36178aee3f762f6d7453db5cfa120a93b6abbb167d484f081d",
     "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "source_id": "SRC-MIM-DRCFR",
+    "title": "Learning Disentangled Representations for Counterfactual Regression via Mutual Information Minimization",
+    "original_url": "https://arxiv.org/abs/2206.01022v1",
+    "revision": "arXiv:2206.01022v1 (2022-06-02); SIGIR 2022, DOI 10.1145/3477495.3532011",
+    "status": "local-only",
+    "reason": "8 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Mingyuan Cheng",
+      "Xinru Liao",
+      "Quan Liu",
+      "Bin Ma",
+      "Jian Xu",
+      "Bo Zheng"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2206.01022v1",
+    "evidence_sha256": "80313d8a0f876f11571707ffbacad5d373e648adbf1589169b97373e1dfd9151",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
   }
 ]

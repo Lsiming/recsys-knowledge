@@ -1,0 +1,33 @@
+{
+  "id": "SRC-MIM-DRCFR",
+  "title": "Learning Disentangled Representations for Counterfactual Regression via Mutual Information Minimization",
+  "kind": "paper",
+  "state": "active",
+  "current": "a3669536b785f468d61aaa1f8fe813497234da17c368d65aa780be6778c4c90e",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2206.01022v1",
+      "revision": "arXiv:2206.01022v1 (2022-06-02); SIGIR 2022, DOI 10.1145/3477495.3532011",
+      "read_scope": "作者预印本 5 页，摘要、正文 §1–4、式 (1)–(13)、图 1–2 和表 1–3；出版条目用于核实身份。",
+      "artifacts": [
+        {
+          "name": "mim.pdf",
+          "sha256": "80313d8a0f876f11571707ffbacad5d373e648adbf1589169b97373e1dfd9151",
+          "snapshot": ".local/sources/SRC-MIM-DRCFR/80313d8a0f876f11571707ffbacad5d373e648adbf1589169b97373e1dfd9151/mim.pdf"
+        }
+      ],
+      "fingerprint": "a3669536b785f468d61aaa1f8fe813497234da17c368d65aa780be6778c4c90e",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "9feb35074f8caf839a5905bab34cd42090c75ee7c4ab6c657419de8b77c4114e",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对采用版图1–2、式(3)–(13)及表1–3，补齐三表征分工、互信息边界、离线排序与线上登录指标口径，并反查 DeR-CFR 和补贴清单。"
+      }
+    }
+  ]
+}
