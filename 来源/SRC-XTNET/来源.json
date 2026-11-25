@@ -1,0 +1,33 @@
+{
+  "id": "SRC-XTNET",
+  "title": "Cross-Treatment Effect Estimation for Multi-Category, Multi-Valued Causal Inference via Dynamic Neural Masking",
+  "kind": "paper",
+  "state": "active",
+  "current": "70493865355ba585101b4ea463fbf5cdbd66140ece749fdf13ee38eefc679d46",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2511.01641v1",
+      "revision": "arXiv:2511.01641v1 (2025-11-03)",
+      "read_scope": "作者预印本 12 页，摘要、正文 §1–7、图 1–3、表 1–5、算法 1 与附录的指标条件。",
+      "artifacts": [
+        {
+          "name": "xtnet.pdf",
+          "sha256": "ca78c3f31e13524032d9d6ceb4492169b61c8d01c7752e0d937897f7fe484839",
+          "snapshot": ".local/sources/SRC-XTNET/ca78c3f31e13524032d9d6ceb4492169b61c8d01c7752e0d937897f7fe484839/xtnet.pdf"
+        }
+      ],
+      "fingerprint": "70493865355ba585101b4ea463fbf5cdbd66140ece749fdf13ee38eefc679d46",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "fa889a2c8eea88645420994bb5e9d95091f4e174aa1f8c162c33ad4269a39455",
+        "pages": [
+          "combinatorial-policy-uplift"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核 §3–6、图 1–3、算法 1、表 1–5 和附录 A.2，建立动态遮罩、边际回报分组与原文边界导航。"
+      }
+    }
+  ]
+}

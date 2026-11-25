@@ -1,0 +1,33 @@
+{
+  "id": "SRC-MT-DML",
+  "title": "Multi-Treatment-DML: Causal Estimation for Multi-Dimensional Continuous Treatments with Monotonicity Constraints in Personal Loan Risk Optimization",
+  "kind": "paper",
+  "state": "active",
+  "current": "2d3e4989034dbb7d83113b4cb2e8212c5e8f0b7c5b0fc296e621d34b2bbf6805",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2508.02183v2",
+      "revision": "arXiv:2508.02183v2 (2025-08-11)",
+      "read_scope": "固定作者版 8 页，摘要、正文 §1–7、式 (1)–(7)、图 1–5、表 1–5。",
+      "artifacts": [
+        {
+          "name": "mtdml-v2.pdf",
+          "sha256": "28e19d2edc099d17f2fd0dbe1ae4328a66e454b948d7f30184f8d81143935c40",
+          "snapshot": ".local/sources/SRC-MT-DML/28e19d2edc099d17f2fd0dbe1ae4328a66e454b948d7f30184f8d81143935c40/mtdml-v2.pdf"
+        }
+      ],
+      "fingerprint": "2d3e4989034dbb7d83113b4cb2e8212c5e8f0b7c5b0fc296e621d34b2bbf6805",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "310606c7a7e1e0d2d4fb50812e9cb326ed4434506528cd7e3f4290c40e1b1c7f",
+        "pages": [
+          "combinatorial-policy-uplift"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核固定 v2 图 1–5、式 (1)–(7)、表 1–5，区分交叉拟合、形状约束、重叠及线上策略口径。"
+      }
+    }
+  ]
+}

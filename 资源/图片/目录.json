@@ -7077,6 +7077,126 @@
       "credit": "Zuwang He et al., KDD 2026",
       "modification": "采用版作者源码 images/rdd_effectiveness_compressed.pdf 转为 PNG，保留完整图。",
       "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-MT-DML/多维授信因果结构.png",
+      "sha256": "a41fafa4e63fffe9a6c979ad3d4d983918c3c6b37fa274711daa29a575471853",
+      "kind": "第三方原图",
+      "source_id": "SRC-MT-DML",
+      "source_version": "arXiv 2508.02183v2",
+      "basis": "图 1，PDF 第 3 页 https://arxiv.org/pdf/2508.02183v2#page=3",
+      "license": "CC-BY-4.0",
+      "credit": "Kexin Zhao et al.",
+      "modification": "采用版作者源码 causal_image.png 原字节，仅中文命名",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-MT-DML/处理残差与因果网络.png",
+      "sha256": "57da5b2d3dd3535b35888cae809e3de0c1c23552553e25247527ea4e09e962e7",
+      "kind": "第三方原图",
+      "source_id": "SRC-MT-DML",
+      "source_version": "arXiv 2508.02183v2",
+      "basis": "图 2，PDF 第 4 页 https://arxiv.org/pdf/2508.02183v2#page=4",
+      "license": "CC-BY-4.0",
+      "credit": "Kexin Zhao et al.",
+      "modification": "采用版作者源码 overall_architecture.png 原字节，仅中文命名",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-MT-DML/提额风险曲线.png",
+      "sha256": "02fcb29e9e4cb3905a18b879ab866de0d22085afe79f4839c23eb1481709701c",
+      "kind": "第三方原图",
+      "source_id": "SRC-MT-DML",
+      "source_version": "arXiv 2508.02183v2",
+      "basis": "图 4，PDF 第 6 页 https://arxiv.org/pdf/2508.02183v2#page=6",
+      "license": "CC-BY-4.0",
+      "credit": "Kexin Zhao et al.",
+      "modification": "采用版作者源码 delta_T.png 原字节，仅中文命名",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-MT-DML/三个月收益策略部署.png",
+      "sha256": "654bd10de5e53f5c22ec600fe429f5ba7621aa28df4510f280abe99e3a6ac623",
+      "kind": "第三方原图",
+      "source_id": "SRC-MT-DML",
+      "source_version": "arXiv 2508.02183v2",
+      "basis": "图 5，PDF 第 7 页 https://arxiv.org/pdf/2508.02183v2#page=7",
+      "license": "CC-BY-4.0",
+      "credit": "Kexin Zhao et al.",
+      "modification": "采用版作者源码 online_deployment.png 原字节，仅中文命名",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-XTNET/两类干预与多维结果.png",
+      "sha256": "9259c5591b910cba3e5a9f01be79321bd479b433664d25bcb1b042be2e420996",
+      "kind": "第三方原图",
+      "source_id": "SRC-XTNET",
+      "source_version": "arXiv 2511.01641v1",
+      "basis": "图 1，PDF 第 1 页 https://arxiv.org/pdf/2511.01641v1#page=1",
+      "license": "CC-BY-4.0",
+      "credit": "Xiaopeng Ke et al.",
+      "modification": "采用版作者源码 demo.pdf 转为 PNG，保留完整图",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-XTNET/拼接处理与逐组合结果头.png",
+      "sha256": "4bd080c389ccc765a51345cb38fa520a28ee18a1e4693f083c3baafb8447a341",
+      "kind": "第三方原图",
+      "source_id": "SRC-XTNET",
+      "source_version": "arXiv 2511.01641v1",
+      "basis": "图 2，PDF 第 2 页 https://arxiv.org/pdf/2511.01641v1#page=2",
+      "license": "CC-BY-4.0",
+      "credit": "Xiaopeng Ke et al.",
+      "modification": "采用版作者源码 recent-archs.pdf 转为 PNG，保留完整图",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-XTNET/三网与动态遮罩架构.png",
+      "sha256": "5b0d03a1c2ba50275bc29510be63ad31960eb2fdcb2c35fbf934e2c204f98943",
+      "kind": "第三方原图",
+      "source_id": "SRC-XTNET",
+      "source_version": "arXiv 2511.01641v1",
+      "basis": "图 3，PDF 第 4 页 https://arxiv.org/pdf/2511.01641v1#page=4",
+      "license": "CC-BY-4.0",
+      "credit": "Xiaopeng Ke et al.",
+      "modification": "采用版作者源码 xtnet-arch-new.pdf 转为 PNG，保留完整图",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-EEUEN/广告分配末端随机与曝光子群.png",
+      "sha256": "4d5e46b2baa467219872efbeb54e7f87ea24a05b7cbeeecd92d5b64bbeff7b3a",
+      "kind": "第三方原图",
+      "source_id": "SRC-EEUEN",
+      "source_version": "作者仓库 d85f24a2df32f8cfb974864046aa203461ee9e4b",
+      "basis": "图 1，固定稿 PDF 第 3 页，原件 SHA-256 4230732db999394a8f1ea6de9c1bafde86c4ed3f0f8f5d6301b49e67ff3d1219",
+      "license": "论文图表权利与作者稿一致",
+      "credit": "Wenwei Ke et al., ICDM 2021",
+      "modification": "从采用版 PDF 第 3 页按 pt 坐标 (45, 48, 564, 202) 裁取，2.5 倍渲染；保留图内原标签。",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-EEUEN/指派与曝光的两种增量网络.png",
+      "sha256": "39fcab56deb587ccbad859519acb1622228daf938cdc01a5fd7f7284c61acfac",
+      "kind": "第三方原图",
+      "source_id": "SRC-EEUEN",
+      "source_version": "作者仓库 d85f24a2df32f8cfb974864046aa203461ee9e4b",
+      "basis": "图 2，固定稿 PDF 第 5 页，原件 SHA-256 4230732db999394a8f1ea6de9c1bafde86c4ed3f0f8f5d6301b49e67ff3d1219",
+      "license": "论文图表权利与作者稿一致",
+      "credit": "Wenwei Ke et al., ICDM 2021",
+      "modification": "从采用版 PDF 第 5 页按 pt 坐标 (48, 42, 566, 209) 裁取，2.5 倍渲染；保留图内原标签。",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-EEUEN/指派与曝光增量曲线.png",
+      "sha256": "4cd65b8b70ff85398ee67469d117165a7d4a470f85cf47524077e9be60f59a88",
+      "kind": "第三方原图",
+      "source_id": "SRC-EEUEN",
+      "source_version": "作者仓库 d85f24a2df32f8cfb974864046aa203461ee9e4b",
+      "basis": "图 3，固定稿 PDF 第 7 页，原件 SHA-256 4230732db999394a8f1ea6de9c1bafde86c4ed3f0f8f5d6301b49e67ff3d1219",
+      "license": "论文图表权利与作者稿一致",
+      "credit": "Wenwei Ke et al., ICDM 2021",
+      "modification": "从采用版 PDF 第 7 页按 pt 坐标 (307, 48, 566, 285) 裁取，2.5 倍渲染；保留图内原标签。",
+      "created_on": "2026-11-25"
     }
   ]
 }

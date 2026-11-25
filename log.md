@@ -797,3 +797,7 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 ## [2026-11-25] ingest | PAPER-023 · CanniUplift 与平台净增量
 
 用同一位用户的店铺选择串联平台总量监督、核销混合模型及上线单店近似。新增跨店替代问题页，校准工业消融与线上 ROI 口径。17 页正文译文逐页验收，原文及译文均通过私有认证下载和完整 SHA-256 验证。 [CanniUplift 精读](来源/SRC-CANNIUPLIFT/阅读笔记.md)
+
+## [2026-11-25] ingest | PAPER-023 · 连续处理、组合折扣与实际曝光
+
+将 Multi-Treatment-DML 的残差与单调性、XTNet 的动态遮罩与组合折扣、EEUEN 的指派与曝光分解合入相应问题页。三份译文共 40 页逐页验收，原文与译文均登录下载并核对完整 SHA-256。五篇状态已回填营销补贴待读清单。 [交接](文档/会话/PAPER-023.md)

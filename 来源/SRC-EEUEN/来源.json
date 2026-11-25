@@ -1,0 +1,33 @@
+{
+  "id": "SRC-EEUEN",
+  "title": "Addressing Exposure Bias in Uplift Modeling for Large-scale Online Advertising",
+  "kind": "paper",
+  "state": "active",
+  "current": "c96240cebf94f06d6cc86e84f66d9c20a2214137f13431274ab6d8450921fe1d",
+  "versions": [
+    {
+      "locator": "https://github.com/aifor/eeuen/blob/d85f24a2df32f8cfb974864046aa203461ee9e4b/Uplift_Modeling_for_Online_Advertising.pdf",
+      "revision": "作者仓库 d85f24a2df32f8cfb974864046aa203461ee9e4b 匿名稿；ICDM 2021, DOI 10.1109/ICDM51629.2021.00138",
+      "read_scope": "作者公开仓库的固定匿名稿 10 页，摘要、正文 §I–VI、图 1–5、表 I–VI；会议条目用于核实身份。静态核对 helper/models.py 中 EUEN 与 EEUEN 的处理组梯度及推理分数。",
+      "artifacts": [
+        {
+          "name": "Uplift_Modeling_for_Online_Advertising.pdf",
+          "sha256": "4230732db999394a8f1ea6de9c1bafde86c4ed3f0f8f5d6301b49e67ff3d1219",
+          "snapshot": ".local/sources/SRC-EEUEN/4230732db999394a8f1ea6de9c1bafde86c4ed3f0f8f5d6301b49e67ff3d1219/Uplift_Modeling_for_Online_Advertising.pdf"
+        }
+      ],
+      "fingerprint": "c96240cebf94f06d6cc86e84f66d9c20a2214137f13431274ab6d8450921fe1d",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a8e8bf98edee60e13656bd63927a41803b36abd22ecbebfceb602c1cb2dc66bc",
+        "pages": [
+          "overlapping-online-experiments"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "固定匿名作者稿 §III–V 及图1–3、表I–VI与作者代码对照。阐明随机指派、单向接触与未曝光排除条件、实际分数，以及核销分解的差异。"
+      }
+    }
+  ]
+}

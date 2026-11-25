@@ -5533,6 +5533,126 @@
         "pages": 17,
         "verified_download_sha256": "6f3ee25033da705d9843819e184b2c782d4ce88a0aa32a4ed8e8e5e1c22c7e14"
       }
+    },
+    {
+      "source_id": "SRC-MT-DML",
+      "title": "Multi-Treatment-DML: Causal Estimation for Multi-Dimensional Continuous Treatments with Monotonicity Constraints in Personal Loan Risk Optimization",
+      "original_url": "https://arxiv.org/abs/2508.02183v2",
+      "revision": "arXiv:2508.02183v2 (2025-08-11)",
+      "input_sha256": "57d52bb86a17d42ae5ae2b33bc004f245d6ed5601269aacf4c86682ba5aca644",
+      "input_pages": 10,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、图表标题及表头，保留公式、表值、署名、原图和参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Kexin Zhao",
+          "Bo Wang",
+          "Cuiying Zhao",
+          "Tongyao Wan"
+        ],
+        "original_pdf_sha256": "28e19d2edc099d17f2fd0dbe1ae4328a66e454b948d7f30184f8d81143935c40",
+        "evidence_url": "https://arxiv.org/abs/2508.02183v2",
+        "evidence_sha256": "28e19d2edc099d17f2fd0dbe1ae4328a66e454b948d7f30184f8d81143935c40",
+        "notes": "固定采用版标示 CC BY 4.0，保留作者署名、来源和翻译说明。PDF 在私有库维护。",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-23-03",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-MT-DML.zh-CN.private.20261125.1.pdf",
+        "sha256": "57d52bb86a17d42ae5ae2b33bc004f245d6ed5601269aacf4c86682ba5aca644",
+        "size_bytes": 2388959,
+        "pages": 10,
+        "verified_download_sha256": "57d52bb86a17d42ae5ae2b33bc004f245d6ed5601269aacf4c86682ba5aca644"
+      }
+    },
+    {
+      "source_id": "SRC-XTNET",
+      "title": "Cross-Treatment Effect Estimation for Multi-Category, Multi-Valued Causal Inference via Dynamic Neural Masking",
+      "original_url": "https://arxiv.org/abs/2511.01641v1",
+      "revision": "arXiv:2511.01641v1 (2025-11-03)",
+      "input_sha256": "26f3813a0d4ee485c2f9a1ea2e20e1ecf1ed12fc556db015f28cf7ee02156567",
+      "input_pages": 19,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、图表及算法说明，保留公式、表值、署名、原图、书目与附录。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Xiaopeng Ke",
+          "Yihan Yu",
+          "Ruyue Zhang",
+          "Zhishuo Zhou",
+          "Fangzhou Shi",
+          "Chang Men",
+          "Zhengdan Zhu"
+        ],
+        "original_pdf_sha256": "ca78c3f31e13524032d9d6ceb4492169b61c8d01c7752e0d937897f7fe484839",
+        "evidence_url": "https://arxiv.org/abs/2511.01641v1",
+        "evidence_sha256": "ca78c3f31e13524032d9d6ceb4492169b61c8d01c7752e0d937897f7fe484839",
+        "notes": "固定采用版标示 CC BY 4.0，保留作者署名、来源和翻译说明。PDF 在私有库维护。",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-23-03",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-XTNET.zh-CN.private.20261125.1.pdf",
+        "sha256": "26f3813a0d4ee485c2f9a1ea2e20e1ecf1ed12fc556db015f28cf7ee02156567",
+        "size_bytes": 1971030,
+        "pages": 19,
+        "verified_download_sha256": "26f3813a0d4ee485c2f9a1ea2e20e1ecf1ed12fc556db015f28cf7ee02156567"
+      }
+    },
+    {
+      "source_id": "SRC-EEUEN",
+      "title": "Addressing Exposure Bias in Uplift Modeling for Large-scale Online Advertising",
+      "original_url": "https://github.com/aifor/eeuen/blob/d85f24a2df32f8cfb974864046aa203461ee9e4b/Uplift_Modeling_for_Online_Advertising.pdf",
+      "revision": "作者仓库 d85f24a2df32f8cfb974864046aa203461ee9e4b 匿名稿；ICDM 2021, DOI 10.1109/ICDM51629.2021.00138",
+      "input_sha256": "f010557fbeb38e977718b4675240afd6455a02ec84f0713eaf8c6f858b9eab73",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "固定作者匿名稿的摘要、正文 §I–VI、说明脚注、图表标题及表头。保留公式、原表值、图内文字及参考文献，会议书目补署名。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Wenwei Ke",
+          "Chuanren Liu",
+          "Xiangfu Shi",
+          "Yiqiao Dai",
+          "Philip S. Yu",
+          "Xiaoqiang Zhu"
+        ],
+        "original_pdf_sha256": "4230732db999394a8f1ea6de9c1bafde86c4ed3f0f8f5d6301b49e67ff3d1219",
+        "evidence_url": "https://github.com/aifor/eeuen/blob/d85f24a2df32f8cfb974864046aa203461ee9e4b/Uplift_Modeling_for_Online_Advertising.pdf",
+        "evidence_sha256": "4230732db999394a8f1ea6de9c1bafde86c4ed3f0f8f5d6301b49e67ff3d1219",
+        "notes": "采用版为公开作者仓库中的匿名论文 PDF。仓库代码许可不单独证明论文译文可公开。会议条目用于核实身份，未核实公开全文翻译许可。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-23-04",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-EEUEN.zh-CN.private.20261125.1.pdf",
+        "sha256": "f010557fbeb38e977718b4675240afd6455a02ec84f0713eaf8c6f858b9eab73",
+        "size_bytes": 863249,
+        "pages": 11,
+        "verified_download_sha256": "f010557fbeb38e977718b4675240afd6455a02ec84f0713eaf8c6f858b9eab73"
+      }
     }
   ],
   "storage_policy": "private-only",
