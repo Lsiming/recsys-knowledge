@@ -7209,6 +7209,69 @@
       "credit": "Ruyue Zhang et al., DiDi Chuxing",
       "modification": "采用版源码 img/poly-adaption.png，保留原字节与全图",
       "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-BUOPLR/组合干预增量模型与推送决策.png",
+      "sha256": "f3a4eb8cb28910ac2e81a537f0e5b8c3fc50be1238714104576af461ab57e88a",
+      "kind": "第三方原图",
+      "source_id": "SRC-BUOPLR",
+      "source_version": "ICML 2026 PMLR正式16页PDF",
+      "basis": "图1，PDF第4页 https://raw.githubusercontent.com/mlresearch/v306/main/assets/xu26ag/xu26ag.pdf#page=4",
+      "license": "作者保留版权，本文原图随精读展示，未据此声明公开全文译文许可",
+      "credit": "Jiajing Xu et al., Kuaishou Technology, ICML 2026",
+      "modification": "从采用版PDF裁剪并3倍转PNG，保留原标签、模块、箭头和图例",
+      "original_sha256": "f298090b4b1049ac62f920533d190c809d111123519658c18fed28f431a32911",
+      "page": 4,
+      "crop_points": [
+        54,
+        65,
+        544,
+        258
+      ],
+      "scale": 3,
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-BUOPLR/跨样式滑动重构.png",
+      "sha256": "0aed113136a75eb815098825b064e315120161aec328def97072da0ec5fbc2bb",
+      "kind": "第三方原图",
+      "source_id": "SRC-BUOPLR",
+      "source_version": "ICML 2026 PMLR正式16页PDF",
+      "basis": "图2，PDF第6页 https://raw.githubusercontent.com/mlresearch/v306/main/assets/xu26ag/xu26ag.pdf#page=6",
+      "license": "作者保留版权，本文原图随精读展示，未据此声明公开全文译文许可",
+      "credit": "Jiajing Xu et al., Kuaishou Technology, ICML 2026",
+      "modification": "从采用版PDF裁剪并3倍转PNG，保留原标签、模块、箭头和图例",
+      "original_sha256": "f298090b4b1049ac62f920533d190c809d111123519658c18fed28f431a32911",
+      "page": 6,
+      "crop_points": [
+        54,
+        65,
+        293,
+        218
+      ],
+      "scale": 3,
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-BUOPLR/合成数据的成本增量收益曲线.png",
+      "sha256": "f1576ce51c3dbc693af7d38bde977cafa60622d8e8faa891ff5a7c7a4fafd2e6",
+      "kind": "第三方原图",
+      "source_id": "SRC-BUOPLR",
+      "source_version": "ICML 2026 PMLR正式16页PDF",
+      "basis": "图3，PDF第8页 https://raw.githubusercontent.com/mlresearch/v306/main/assets/xu26ag/xu26ag.pdf#page=8",
+      "license": "作者保留版权，本文原图随精读展示，未据此声明公开全文译文许可",
+      "credit": "Jiajing Xu et al., Kuaishou Technology, ICML 2026",
+      "modification": "从采用版PDF裁剪并3倍转PNG，保留原标签、模块、箭头和图例",
+      "original_sha256": "f298090b4b1049ac62f920533d190c809d111123519658c18fed28f431a32911",
+      "page": 8,
+      "crop_points": [
+        306,
+        67,
+        544,
+        215
+      ],
+      "scale": 3,
+      "created_on": "2026-11-25"
     }
   ]
 }

@@ -2792,5 +2792,28 @@
     "evidence_url": "https://arxiv.org/abs/2511.01185v1",
     "evidence_sha256": "29c60b89451558d9cc991e065cbf6ce396826e1b509c2cd956a48cdb300a1483",
     "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "source_id": "SRC-BUOPLR",
+    "title": "Large-Scale Notification Dispatch with Bundle Treatments and Multi-Outcome Uplift Optimization",
+    "original_url": "https://proceedings.mlr.press/v306/xu26ag.html",
+    "revision": "ICML 2026，PMLR 306:141404–141419，正式16页PDF",
+    "status": "local-only",
+    "reason": "18页中文正文重排PDF保留英文书目与附录，已逐页目视并私有备份和认证下载。未确认逐篇公开全文译文许可，Markdown译文保留本地。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Jiajing Xu",
+      "Yanyun Li",
+      "Yongbao Song",
+      "Minqin Zhu",
+      "Huxiao Ji",
+      "Linchuan Li",
+      "Cunyi Zhang",
+      "Xuanping Li",
+      "Kaiqiao Zhan",
+      "Yanan Niu"
+    ],
+    "evidence_url": "https://proceedings.mlr.press/v306/xu26ag.html",
+    "evidence_sha256": "f298090b4b1049ac62f920533d190c809d111123519658c18fed28f431a32911"
   }
 ]

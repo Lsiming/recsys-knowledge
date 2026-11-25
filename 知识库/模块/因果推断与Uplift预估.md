@@ -6,7 +6,7 @@ status: "reviewed"
 updated: "2026-11-25"
 summary: "从干预与对照定义进入条件增量估计，连接策略表示、正交学习、排序与幅度验证"
 aliases: ["因果推断/uplift预估", "uplift预估", "Uplift Modeling", "CATE", "增益模型", "异质性干预效应", "营销因果模型"]
-sources: {"SRC-DER-CFR": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51", "SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-CANNIUPLIFT": "ca3fc4f098f34044e2234ff9c9089bc554640032326c7db0e05718dbdeb3f13e", "SRC-MIM-DRCFR": "a3669536b785f468d61aaa1f8fe813497234da17c368d65aa780be6778c4c90e"}
+sources: {"SRC-DER-CFR": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51", "SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-CANNIUPLIFT": "ca3fc4f098f34044e2234ff9c9089bc554640032326c7db0e05718dbdeb3f13e", "SRC-MIM-DRCFR": "a3669536b785f468d61aaa1f8fe813497234da17c368d65aa780be6778c4c90e", "SRC-BUOPLR": "fa6680dcf6913775fa8b223091fc72a8a468aaf1449275b00e5631c09e43393a"}
 related: ["push-frequency-activity-uplift", "observational-coupon-uplift", "marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives", "cross-seller-subsidy-uplift"]
 module: "因果推断与 Uplift 预估"
 ---
@@ -55,3 +55,7 @@ T-Learner、Causal Forest 和 DESCN 可在 POUL 的基线对比中定位。POUL 
 本模块输出的是干预相对于对照的条件效应。预算分配还需把增量价值与成本接入约束，入口见[营销补贴总图](../总览/营销补贴总图.md#从增量预估走向预算决策)。检验预测是否可信及执行后是否产生收益，复用[评估模块](评估、偏差与因果收益.md)；本文主表就展示了排序更好而幅度误差更大的情况。
 
 干预若会改变后续状态、触达疲劳或未来可用预算，需要进入[探索与长期策略学习](探索、长期收益与策略学习.md)，不能把单窗口CATE直接相加当成长期价值。用户特征和随机分配记录由[数据、样本与标签](数据、样本与标签.md)承接；GMV/成本等多个结果的共同学习可联系[多任务模块](多任务学习与多目标决策.md)，但POUL没有给出两项结果共享网络带来独立增益的证据。
+
+## 时间与样式组合下的小增量
+
+快手BUOPLR以MMoE表示时槽，通过样式增量累加、相邻结果重构和DAU—成本关系，共享细分组合中的监督。其RCT每条记录只观察实际指派动作，跨头重构仍按该位置的事实结果计损失。相邻增量与累计参数怎样接收梯度，见[组合策略中的BUOPLR比较](../问题/组合营销策略如何共享结构并估计因果增量.md#时间与样式组合怎样共享相邻结果监督)。预估输出进一步进入[时间、样式与全局预算分配](../问题/给定配额怎样安排通知发送时机.md#时间与样式怎样在全局预算下一起选择)，单次因果估计与多通知日程之间依赖额外的时间独立近似。

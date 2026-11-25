@@ -5694,6 +5694,49 @@
         "pages": 7,
         "verified_download_sha256": "52c8339ff1e81d4da3d16028e325198cae99918499c949e82b37237670e9861e"
       }
+    },
+    {
+      "source_id": "SRC-BUOPLR",
+      "title": "Large-Scale Notification Dispatch with Bundle Treatments and Multi-Outcome Uplift Optimization",
+      "original_url": "https://proceedings.mlr.press/v306/xu26ag.html",
+      "revision": "ICML 2026，PMLR 306:141404–141419，正式16页PDF",
+      "input_sha256": "47670e820585a205e949603999462689b5215b915793791ecec5e4b8887dda39",
+      "input_pages": 18,
+      "duplicate_count": 0,
+      "scope": "正式PDF摘要、正文§1–5、图表标题与表头、局限和影响声明中文翻译。前10页中文重排，末8页保留原文参考文献与附录A–D。图内英文、全部公式及数值保留。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Jiajing Xu",
+          "Yanyun Li",
+          "Yongbao Song",
+          "Minqin Zhu",
+          "Huxiao Ji",
+          "Linchuan Li",
+          "Cunyi Zhang",
+          "Xuanping Li",
+          "Kaiqiao Zhan",
+          "Yanan Niu"
+        ],
+        "original_pdf_sha256": "f298090b4b1049ac62f920533d190c809d111123519658c18fed28f431a32911",
+        "evidence_url": "https://proceedings.mlr.press/v306/xu26ag.html",
+        "evidence_sha256": "f298090b4b1049ac62f920533d190c809d111123519658c18fed28f431a32911",
+        "notes": "PMLR正式采用PDF保留Copyright 2026 by the author(s)。本次固定论文页与PDF未显示逐篇CC授权，未据此登记公开全文译文许可。仅按既有持续授权私有备份原文与译本。"
+      },
+      "reason": "18页译本已逐页目视，原文和中文PDF均完成实际认证下载与完整SHA256核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-24-02",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-BUOPLR.zh-CN.private.20261125.1.pdf",
+        "sha256": "47670e820585a205e949603999462689b5215b915793791ecec5e4b8887dda39",
+        "size_bytes": 1010773,
+        "pages": 18,
+        "verified_download_sha256": "47670e820585a205e949603999462689b5215b915793791ecec5e4b8887dda39"
+      }
     }
   ],
   "storage_policy": "private-only",

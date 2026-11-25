@@ -4,10 +4,10 @@ title: "优惠信息Push触达：月初预选本月发送日"
 type: "map"
 scenes: ["营销"]
 status: "reviewed"
-updated: "2026-11-24"
+updated: "2026-11-25"
 summary: "围绕月初为用户预选本月优惠信息发送日，区分用款需求预测、触达响应与因果增量"
 aliases: ["Push触达场景", "优惠Push", "优惠信息触达", "月初选发送日", "发送哪一天", "贷款用款需求触达"]
-sources: {"SRC-TIM": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-DEEPPVISIT": "aa6d1ae3ebfa9bd10e9bbb91c3fa3a72dd8b4d55883eb93fb57a1c9c7909b643"}
+sources: {"SRC-TIM": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-DEEPPVISIT": "aa6d1ae3ebfa9bd10e9bbb91c3fa3a72dd8b4d55883eb93fb57a1c9c7909b643", "SRC-BUOPLR": "fa6680dcf6913775fa8b223091fc72a8a468aaf1449275b00e5631c09e43393a"}
 related: ["push-timing-reading-path", "marketing-subsidy", "causal-uplift", "evaluation-bias", "exploration-longterm", "data-labels", "notification-quota-timing"]
 ---
 # 优惠信息Push触达：月初预选本月发送日
@@ -66,3 +66,9 @@ $B_d$ 表示日期 $d$ 的发送条数上限。若约束的是金额预算，需
 完整论文机制与证据边界见[Push触达与时机阅读路线](../阅读/Push触达与时机论文路线.md)。因果效应定义与增量验证可衔接[因果推断与Uplift模块](../模块/因果推断与Uplift预估.md)、[营销补贴总图](营销补贴总图.md)和[评估、偏差与因果收益](../模块/评估、偏差与因果收益.md)。
 
 本页所述业务现状来自用户提供的场景描述；日期选优、随机分配与净收益表达是据此给出的建模/实验建议，不是已验证线上效果。具体结果窗口、优惠处理定义、风险约束与实验授权仍需按业务规范确定。
+
+## 联合选日与处理类型的论文接口
+
+快手[BUOPLR（PMOS）](../../来源/SRC-BUOPLR/阅读笔记.md)联合预估日内时槽和通知样式的DAU与成本增量，在厂商个人配额、平台金额预算及总通知量下选择组合。其分配框架更贴近本页的时间预规划接口，可以沿[时间与样式的联合约束分配](../问题/给定配额怎样安排通知发送时机.md#时间与样式怎样在全局预算下一起选择)学习。
+
+迁移到月初优惠选日时，样式可替换为业务定义明确的优惠类型，时间轴需改为月内候选日，所有特征严格截在月初。增量目标需重新定义为用款、放款或净收益，通知CPC也要换成实际触达和优惠成本。原文按单次RCT估计效果，日程相加采用时间独立近似，尚未验证跨日优惠的联合效应。个人配额剪枝的可行性可以核对，原稿渐近最优性主张仍有[明确反例与证明缺口](../../来源/SRC-BUOPLR/阅读笔记.md#剪枝能保证什么最优性还差哪一步)。

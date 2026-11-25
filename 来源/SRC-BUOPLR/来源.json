@@ -1,0 +1,38 @@
+{
+  "id": "SRC-BUOPLR",
+  "title": "Large-Scale Notification Dispatch with Bundle Treatments and Multi-Outcome Uplift Optimization",
+  "kind": "paper",
+  "state": "active",
+  "current": "fa6680dcf6913775fa8b223091fc72a8a468aaf1449275b00e5631c09e43393a",
+  "versions": [
+    {
+      "locator": "https://proceedings.mlr.press/v306/xu26ag.html",
+      "revision": "ICML 2026，PMLR 306:141404–141419，正式16页PDF",
+      "read_scope": "已读摘要、正文§1–5、局限和影响声明；核对附录A–D、19个正文编号公式、7表、3图与算法1。参考文献仅作身份和本文已有TIM等比较定位，未逐篇核实，未读作者实现或运行模型。",
+      "artifacts": [
+        {
+          "name": "paper.pdf",
+          "sha256": "f298090b4b1049ac62f920533d190c809d111123519658c18fed28f431a32911",
+          "snapshot": ".local/sources/SRC-BUOPLR/f298090b4b1049ac62f920533d190c809d111123519658c18fed28f431a32911/paper.pdf"
+        }
+      ],
+      "fingerprint": "fa6680dcf6913775fa8b223091fc72a8a468aaf1449275b00e5631c09e43393a",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "32d21b075ce9cc79c6ae5deb1e40e3e5093e6ff480ce95beb1287b14aff5c448",
+        "pages": [
+          "causal-uplift",
+          "combinatorial-policy-uplift",
+          "marketing-subsidy",
+          "notification-quota-timing",
+          "push-offer-contact",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "当前Agent完成技术证据和读者路径两轮自查，核对19式、7表、3图与算法，穷举验证剪枝反例。回查TIM、OFA、POUL相关比较及单次RCT到多次日程边界。18页译本逐页目视，三张原图以marked和Chromium实际渲染，两份私有PDF实际认证下载并完整SHA256核验。未取得作者实现或运行模型。"
+      }
+    }
+  ]
+}
