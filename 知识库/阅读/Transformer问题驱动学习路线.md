@@ -4,7 +4,7 @@ title: "Transformer问题驱动学习路线"
 type: "map"
 status: "reviewed"
 updated: "2026-11-21"
-summary: "从注意力与序列监督进入分词、共享权重、归一化、RoPE 和 FlashAttention 的论文与推导"
+summary: "从注意力与序列监督进入分词、归一化、RoPE 与 ALiBi、FlashAttention 与 GQA，以及门控 FFN"
 aliases: ["Transformer面试", "Transformer常考题", "Transformer八股", "Transformer知识覆盖", "技术问题梳理", "RoPE", "ALiBi", "FlashAttention", "KV Cache", "GQA", "RMSNorm", "SwiGLU"]
 sources: {"SRC-TRANSFORMER-INTERVIEW": "d4e96b7bc7f5b8b1d308be92016b2e6fb93fa24e40be0d045e9cf883ffeb3392", "SRC-MLNLP-TRANSFORMER": "f79f30e659d0550e6501c10897ed9bc022b0d6f43f199f976d7deb77b1faaa41", "SRC-LLM-INTERVIEW-TRANSFORMER": "1187df8efd6eec8ef65ce5c8f965d4928a911e948d2618c0d418e869e12972b6", "SRC-ANNOTATED-TRANSFORMER": "beeb95223c4b6291a6731ea8154535c34d236a83e1b35b47636be38504caba28"}
 related: ["self-attention-context", "pretraining-task-transfer", "classic-reading-path", "learning-resources", "target-decoding-compute", "transformer-position", "layernorm-residual", "attention-mask-padding", "transformer-training-translation", "embedding-weight-tying", "attention-compute-memory", "language-model-loss-gradient", "sequence-representation-pooling"]
@@ -64,7 +64,7 @@ related: ["self-attention-context", "pretraining-task-transfer", "classic-readin
 |---|---|---|
 | [Transformer-interview](../../来源/SRC-TRANSFORMER-INTERVIEW/阅读笔记.md) | 用结构、mask、复杂度和LN问题自测 | README代码与部分答案存在具体错误 |
 | [ML-NLP Transformer章](../../来源/SRC-MLNLP-TRANSFORMER/阅读笔记.md) | 从结构图式导读进入基础概念 | 多头输出与FFN、seq2seq术语需辨析 |
-| [LLM面试笔记](../../来源/SRC-LLM-INTERVIEW-TRANSFORMER/阅读笔记.md) | 从基础问题延伸到位置与推理 | 定向读取部分章节，现代方法效果未经原文核验 |
+| [LLM面试笔记](../../来源/SRC-LLM-INTERVIEW-TRANSFORMER/阅读笔记.md) | 从基础问题延伸到位置与推理 | 教程用于定位问题，GQA、ALiBi 的实验条件可分别回到上列论文 |
 | [Annotated Transformer](../../来源/SRC-ANNOTATED-TRANSFORMER/阅读笔记.md) | 对照张量与损失实现 | 教学代码，不是逐项复刻原论文；未运行 |
 
 检索截至2026-11-02；这是定向取样，不是全GitHub穷举，也不是公司面试题频统计。来源卡固定commit与文件哈希；题目归并保留出处，技术答案优先采用论文、明确推导与已核对的代码路径。

@@ -30,15 +30,15 @@
       "retrieved_on": "2026-11-24",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "64ae32b6c4504a69e6228a257471a520d52cbca56f0e7d87687677020249bb47",
+        "notes_sha256": "702023870ca4d2e39ed437521626da8d6a3c77411f275386ad57e2526ebfd15a",
         "pages": [
           "executable-query-understanding",
           "search-query-understanding",
           "search-systems"
         ],
-        "reviewed_on": "2026-11-24",
+        "reviewed_on": "2026-11-25",
         "review_method": "agent-self-review",
-        "review_note": "技术证据与读者路径自查完成；核对四路由、五功能、教师与评委不同数据口径、附录跨域模式和 EBR 消费，区分压测、离线重放和线上随机实验，保留表 11 单位差异。"
+        "review_note": "技术证据与读者路径自查完成；核对四路由、五功能、教师与评委不同数据口径、附录跨域模式和 EBR 消费，区分压测、离线重放和线上随机实验，保留表 11 单位差异。 KB-023：核对四类路由、结构化输出和下游消费，接通搜索查询理解问题与精读。"
       }
     }
   ]

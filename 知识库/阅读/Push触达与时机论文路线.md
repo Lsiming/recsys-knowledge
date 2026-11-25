@@ -7,7 +7,7 @@ updated: "2026-11-25"
 summary: "从日内时槽分配、发送或等待到自触发调度，筛选大厂Push时机与长期收益论文"
 aliases: ["Push", "触达时机", "通知推荐", "send time optimization", "notification", "STEPS", "TIM", "DeepPvisit", "FairNotification"]
 sources: {"SRC-TIM": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-DEEPPVISIT": "aa6d1ae3ebfa9bd10e9bbb91c3fa3a72dd8b4d55883eb93fb57a1c9c7909b643", "SRC-LINKEDIN-NOTIFICATION-DT": "fc6bb3e6f9d1c6e37e985c4e476ba04d4ebe7cd98b06cc2c86306487d440bb37", "SRC-LINKEDIN-NOTIFICATION-RL": "ef357491d3cab9d1ef0b5c7ae57c02e90fde83a37d16638834449bd9faafba25", "SRC-LINKEDIN-NOTIFICATION-MORL": "9e68931195cc0bfabac0c1f987ac7d43fbf7a58e0a65d9f097b120d0546140f7", "SRC-TWITTER-NOTIFICATION-RL": "27524dfa0cb734e161ae9ce60d0726bdc11adc2483feb827e63eac349dac5bed", "SRC-PUSHGEN": "da350c1c4d588497fc7de289b6cce848cc4e1c07e62d188ca9b5e47e34939dde", "SRC-LINKEDIN-NOTIFICATION-GNN": "ea9fda755ec78e5cd7cd1243d0c3859cad700e0901f759b2b3e4f100558bae44", "SRC-STEPS": "5f1c750c574a8f91ccf7c0b97915fe08186334c1150ad3850bba3bea3c184d95", "SRC-FAIR-NOTIFICATION": "6af872de1b2ea319ea8b0d97d922004b70a1d3b44774eddb44952777023ae122", "SRC-HGENPUSH": "88b0601665bc07fe5d2584541b62dd20c6dc1643c87b49f232f596216eded5b6", "SRC-ALERT-NOW-OR-NEVER": "57e095823e9ffce7048f304c7abe43f3ebf49f66e3be4c88f599cf90d4a73e45"}
-related: ["paper-candidates", "exploration-longterm", "evaluation-bias", "multitask-objectives", "user-sequence", "serving-efficiency", "push-offer-contact", "notification-quota-timing"]
+related: ["paper-candidates", "exploration-longterm", "evaluation-bias", "multitask-objectives", "user-sequence", "serving-efficiency", "push-offer-contact", "notification-quota-timing", "notification-send-or-wait", "push-frequency-activity-uplift"]
 ---
 # Push触达与时机：2022—2026年工业论文路线
 
@@ -21,9 +21,9 @@ Push的关键约束是用户没有主动打开推荐流：系统要决定是否�
 
 | 实际要决定什么 | 优先阅读 | 决策接口与约束 |
 |---|---|---|
-| 今天已有配额，分配到哪些时段？ | [P76 · TIM](候选论文.md#p76)，快手，ICMR2024 | 预测全天分槽CTR，再按预测值分配给定日配额；时机与配额是分开的 |
-| 队列里的通知现在发还是再等等？ | [P77 · Offline RL](候选论文.md#p77)，LinkedIn，CIKM2022 | 非强时效通知，每隔几小时检查候选，学习SEND/NOT-SEND及通知间隔 |
-| 事件到达时，怎样兼顾回访、点击和发送量？ | [P78 · 多目标Offline RL](候选论文.md#p78)，LinkedIn，KDD2022 | 近实时通知，用保守Q学习优化多目标长期奖励；决策时点由外部事件提供 |
+| 今天已有配额，分配到哪些时段？ | [P76 · TIM](../../来源/SRC-TIM/阅读笔记.md)，快手，ICMR2024 | 预测全天分槽CTR，再按预测值分配给定日配额；时机与配额是分开的 |
+| 队列里的通知现在发还是再等等？ | [P77 · Offline RL](../../来源/SRC-LINKEDIN-NOTIFICATION-RL/阅读笔记.md)，LinkedIn，CIKM2022 | 非强时效通知，每隔几小时检查队首，选择立即发出或放回队列，连续几轮的动作决定实际发送间隔 |
+| 事件到达时，怎样兼顾回访、点击和发送量？ | [P78 · 多目标 Offline RL](../../来源/SRC-LINKEDIN-NOTIFICATION-MORL/阅读笔记.md)，LinkedIn，KDD2022 | 用保守 Q 学习权衡会话、点击与发送量；近实时事件到达或定期队列取出候选时作决策 |
 | 怎样用序列监督学习替代Q学习式策略？ | [P79 · 多目标DT](../../来源/SRC-LINKEDIN-NOTIFICATION-DT/阅读笔记.md)，LinkedIn，2025预印本 | 历史轨迹与目标回报条件化的发送/跳过；仍不直接生成最佳连续时间 |
 | 下一次何时再调用系统，届时是否发送？ | [STEPS 精读](../../来源/SRC-STEPS/阅读笔记.md)，字节/抖音，RecSys2026 | 规划代理预测下次调用时间，执行代理决定是否发送；另有轻过滤与业务事件触发 |
 
@@ -63,7 +63,7 @@ STEPS把固定轮询改为自触发闭环：基于Decision Transformer的规划�
 
 [Alert Now or Never](../../来源/SRC-ALERT-NOW-OR-NEVER/阅读笔记.md)通过一周 Android 体验采样收集通知栏送达和声音提醒的偏好。525 条训练标签里，静默送达占 26%，立即送达后延迟提醒占 6.3%。行为模型聚合同一用户历史相似通知的动作和响应时间，在 79 条共同覆盖测试样本上的 ROC AUC 为 0.749。它比较的是主观偏好预测，和生产策略 A/B 的活跃、打扰指标口径不同。
 
-[TSIL](../../来源/SRC-TSIL/阅读笔记.md)是 STEPS 预规划基线引用的活跃建模工作。它用端点分类和中间天数分布估计 14 日活跃期望，比较零推送与预设频次，并据效用重新分配容量。原文实验按频次干预，具体发送日的选择还需日期级别的动作和对照。
+[TSIL](../../来源/SRC-TSIL/阅读笔记.md)是 STEPS 预规划基线引用的活跃建模工作。它用端点分类和中间天数分布估计 14 日活跃期望，比较零推送与预设频次，并据效用重新分配容量。两臂的增量怎样计算、排序与幅度如何分开验证，见[推送频次增量](../问题/活跃天数集中在两端时怎样估计推送频次增量.md)。具体发送日的选择还需日期级别的动作和对照。
 
 一个容易混淆的背景来源是[《A State Transition Model for Mobile Notifications via Survival Analysis》](https://doi.org/10.1145/3289600.3290981)：尽管[arXiv版本](https://arxiv.org/abs/2207.03099v1)在2022年上传，正式发表是WSDM2019，不计入2022—2026年的新论文。
 

@@ -29,11 +29,12 @@
         "pages": [
           "data-labels",
           "generative-recommendation",
+          "hybrid-generative-dense-retrieval",
           "synthetic-recommendation-data"
         ],
-        "reviewed_on": "2026-11-24",
+        "reviewed_on": "2026-11-25",
         "review_method": "agent-self-review",
-        "review_note": "复核 v2 正文、图 1–5、表 1–3、式 4–17；核对冷物品输入、候选与真实反馈来源，保留式 17 的概率定义缺口并明确线上指标分母。 当前 Agent 自查。"
+        "review_note": "复核 v2 正文、图 1–5、表 1–3、式 4–17；核对冷物品输入、候选与真实反馈来源，保留式 17 的概率定义缺口并明确线上指标分母。 当前 Agent 自查。 KB-023：对照 v2 的冷物品候选筛选、伪交互及评估，区分召回入口、数据增强和真实留出反馈。"
       }
     }
   ]

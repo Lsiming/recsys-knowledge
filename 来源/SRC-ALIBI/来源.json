@@ -25,13 +25,13 @@
       "retrieved_on": "2026-11-25",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "aa1b588da199d97154cccbcfa23a1adf0a6a9380a6a81bb3e1b5ca86557a90e6",
+        "notes_sha256": "67082d0494867dde116ce47b905d7e08e50959dfa3a5a150170ab7fd97273bf3",
         "pages": [
           "transformer-position"
         ],
         "reviewed_on": "2026-11-25",
         "review_method": "agent-self-review",
-        "review_note": "回查 v1 正文、六幅承重图及附录。复核距离排序、头斜率、Softmax 算例、缓存条件、等时间和等更新步结果及滑窗困惑度。保留附录表 1 对 §2.4 速度口径的勘误，中文本全页验收后复查五张变更页。未运行作者实现。"
+        "review_note": "回查 v1 正文、六幅承重图及附录。复核距离排序、头斜率、Softmax 算例、缓存条件、等时间和等更新步结果及滑窗困惑度。保留附录表 1 对 §2.4 速度口径的勘误，中文本全页验收后复查五张变更页。未运行作者实现。 KB-023：按 v1 §3、§5 和附录表 14 复核距离项的平移条件、滑窗协议和数值对应页。"
       }
     }
   ]

@@ -25,7 +25,7 @@
       "retrieved_on": "2026-11-25",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "a4a4fcf93e8eaa4b2ca72f89fb421f2a47a7c4b1adec5ac20202c9aa8fd7fae4",
+        "notes_sha256": "a2d28274856a897ef22962c0547c02c06e670bcf5c1c111a70622e4b6785d884",
         "pages": [
           "generative-preference-alignment",
           "push-timing-reading-path",
@@ -33,7 +33,7 @@
         ],
         "reviewed_on": "2026-11-25",
         "review_method": "agent-self-review",
-        "review_note": "固定 v1 正文对照两图六表，以视频码、混合码和会话消费算例检查教师目标、分层推断及排名接口。复核 InfoNCE 总式、零方差与线上 p 值。中文 PDF 11 页已逐页目视，未运行作者实现。"
+        "review_note": "固定 v1 正文对照两图六表，以视频码、混合码和会话消费算例检查教师目标、分层推断及排名接口。复核 InfoNCE 总式、零方差与线上 p 值。中文 PDF 11 页已逐页目视，未运行作者实现。 KB-023：核对候选码生成和反馈优化的监督对象，接通偏好训练问题与精读。"
       }
     }
   ]

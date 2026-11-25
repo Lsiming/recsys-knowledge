@@ -25,13 +25,14 @@
       "retrieved_on": "2026-11-25",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "9b3b3df9be92bd4daed78fd0c86540916041cd91184ff6434258b19a3eaf3599",
+        "notes_sha256": "8c0970450e1f6b8de4f24c7950f3bdca8430fda7950659efa8deff1235bd33fe",
         "pages": [
-          "attention-compute-memory"
+          "attention-compute-memory",
+          "serving-efficiency"
         ],
         "reviewed_on": "2026-11-25",
         "review_method": "agent-self-review",
-        "review_note": "核对固定版 §1–5、表 1、图 1–6 和附录 A。用同一摘要样本校验 Query、KV、分组投影、监督、梯度、解码以及缓存成本。反查源文、OneRec-V2 相关入口、题库解释和知识概念，区分固定长度图和多任务平均表。图 3 单位差异已对照 EMNLP 出版 PDF 并登记。未运行作者实现。"
+        "review_note": "核对固定版 §1–5、表 1、图 1–6 和附录 A。用同一摘要样本校验 Query、KV、分组投影、监督、梯度、解码以及缓存成本。反查源文、OneRec-V2 相关入口、题库解释和知识概念，区分固定长度图和多任务平均表。图 3 单位差异已对照 EMNLP 出版 PDF 并登记。未运行作者实现。 KB-023：用 v1 §2–3 核实 T5 解码器自注意力和交叉注意力的分组范围，复算两支逻辑 KV 存量并连到服务模块。"
       }
     }
   ]

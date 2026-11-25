@@ -35,13 +35,13 @@
       "retrieved_on": "2026-11-02",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "5ac5fecb54015d197f84c444729997483a2743ef0ca2bfa423f39e95a29b2237",
+        "notes_sha256": "6eae1cb1e2929eb6ea91b898e48fcd2229a9573c4e5f154d93b4b81b0734d426",
         "pages": [
           "transformer-question-path"
         ],
         "reviewed_on": "2026-11-25",
         "review_method": "agent-self-review",
-        "review_note": "保持旧题库定向核验范围，增核 MQA 小节的检查点表述。对照 GQA 固定版 §2.1 和 §2.2，明确一个 MHA 检查点内成组平均和追加训练，将多检查点融合保留为未核实。重查阅读路线与既有资源入口。"
+        "review_note": "保持旧题库定向核验范围，增核 MQA 小节的检查点表述。对照 GQA 固定版 §2.1 和 §2.2，明确一个 MHA 检查点内成组平均和追加训练，将多检查点融合保留为未核实。重查阅读路线与既有资源入口。 KB-023：核实教程对应的 ALiBi 和 GQA 论文入口及证据边界。"
       }
     }
   ]
