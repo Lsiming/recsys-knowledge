@@ -1,0 +1,38 @@
+{
+  "id": "SRC-BALANCED-COUNTERFACTUAL",
+  "title": "Learning Representations for Counterfactual Inference",
+  "kind": "paper",
+  "state": "active",
+  "current": "b44061acf02efa7caa7d3a918a94be173445d4245103cf96c351c8cc5806e2bc",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1605.03661v1",
+      "revision": "arXiv:1605.03661v1 (2016-05-12)",
+      "read_scope": "正文 §1–7、算法 1、定理 1 及 IHDP、News 实验，核对附录证明的假设。",
+      "artifacts": [
+        {
+          "name": "1605.03661v1.pdf",
+          "sha256": "96dc691535a211a20aa6e36ad3926433245fd2cfb9131bda38be3757f64081f7",
+          "snapshot": ".local/sources/SRC-BALANCED-COUNTERFACTUAL/96dc691535a211a20aa6e36ad3926433245fd2cfb9131bda38be3757f64081f7/1605.03661v1.pdf"
+        },
+        {
+          "name": "1605.03661v1.arxiv-source.tar.gz",
+          "sha256": "78c3ba3844b1a16a21836957045f7a08afeccf37a79614bb5cee6d4cfbe86af4",
+          "snapshot": ".local/sources/SRC-BALANCED-COUNTERFACTUAL/78c3ba3844b1a16a21836957045f7a08afeccf37a79614bb5cee6d4cfbe86af4/1605.03661v1.arxiv-source.tar.gz"
+        }
+      ],
+      "fingerprint": "b44061acf02efa7caa7d3a918a94be173445d4245103cf96c351c8cc5806e2bc",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "6541e3958d86ddf99ecf0c59cfed684332368e5fc85782aa9c2cad53601b6260",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核 v1 式 (3) 与 BNN 实验省略的代理项及 IHDP NPCI B，保持 Johansson 与 CFRNet 的机制差异。谱范数印式疑点留译注和审核台。"
+      }
+    }
+  ]
+}

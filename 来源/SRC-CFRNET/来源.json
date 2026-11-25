@@ -1,0 +1,38 @@
+{
+  "id": "SRC-CFRNET",
+  "title": "Estimating Individual Treatment Effect: Generalization Bounds and Algorithms",
+  "kind": "paper",
+  "state": "active",
+  "current": "fd07c47c203be91c43ff6e68062eb1c9c1083b8e2818d55e417cadb56a730e19",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1606.03976v5",
+      "revision": "arXiv:1606.03976v5 (2017-05-16)",
+      "read_scope": "精读正文 §1–6、定理 1、算法 1、表 1 和图 1–3，核对附录的反事实误差分解与实现条件。",
+      "artifacts": [
+        {
+          "name": "1606.03976v5.pdf",
+          "sha256": "47f2149d257cbc50214aafe5e567a11acd6ec438081b64486bcd0c167fcf93bb",
+          "snapshot": ".local/sources/SRC-CFRNET/47f2149d257cbc50214aafe5e567a11acd6ec438081b64486bcd0c167fcf93bb/1606.03976v5.pdf"
+        },
+        {
+          "name": "1606.03976v5.arxiv-source.tar.gz",
+          "sha256": "57023f1b8cda8b3682d909651258428eb6181931cd499f5f852cb29c2ea3a850",
+          "snapshot": ".local/sources/SRC-CFRNET/57023f1b8cda8b3682d909651258428eb6181931cd499f5f852cb29c2ea3a850/1606.03976v5.arxiv-source.tar.gz"
+        }
+      ],
+      "fingerprint": "fd07c47c203be91c43ff6e68062eb1c9c1083b8e2818d55e417cadb56a730e19",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e8d5784e8154f13d65140bcf346cda2998f886396e92b9f48b4f19a09df541aa",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核 v5 误差上界、事实臂路由及 IPM，检查 DeR-CFR、MIM-DRCFR、OFA 的术语和 Jobs 指标。NPCI A 与 Hill B 按 DragonNet 脚注分别注明。"
+      }
+    }
+  ]
+}

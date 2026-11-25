@@ -7272,6 +7272,195 @@
       ],
       "scale": 3,
       "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-PEARL-CAUSAL-DIAGRAMS/后门路径与调整集.png",
+      "sha256": "d5658bf1df92bacee3d7bb25aad58ed36c7fc30632e4b933c82c80845c510d16",
+      "kind": "第三方原图",
+      "source_id": "SRC-PEARL-CAUSAL-DIAGRAMS",
+      "source_version": "Biometrika 82(4), 1995",
+      "basis": "图 2，刊页 675，固定 PDF 第 7 页 https://ftp.cs.ucla.edu/pub/stat_ser/R218-B.pdf#page=7",
+      "credit": "Judea Pearl",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留完整科学内容。",
+      "original_sha256": "0a9dd3218e541acbf26aeff5865e3c70cb662cd7de50e1234d016f1af5da8927",
+      "page": 7,
+      "crop_points": [
+        145,
+        58,
+        390,
+        221
+      ],
+      "scale": 2,
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-PEARL-CAUSAL-DIAGRAMS/未观测混杂下的前门路径.png",
+      "sha256": "3be32a15a022690bcdc3e895784d60a09cca34afce881af3ed4cd4f0a339a01f",
+      "kind": "第三方原图",
+      "source_id": "SRC-PEARL-CAUSAL-DIAGRAMS",
+      "source_version": "Biometrika 82(4), 1995",
+      "basis": "图 3，刊页 675，固定 PDF 第 7 页 https://ftp.cs.ucla.edu/pub/stat_ser/R218-B.pdf#page=7",
+      "credit": "Judea Pearl",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留完整科学内容。",
+      "original_sha256": "0a9dd3218e541acbf26aeff5865e3c70cb662cd7de50e1234d016f1af5da8927",
+      "page": 7,
+      "crop_points": [
+        145,
+        563,
+        385,
+        677
+      ],
+      "scale": 2,
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-ROSENBAUM-RUBIN-PS/分层前后协变量平衡.png",
+      "sha256": "14f3f337a130f3d6685885cdfdb4346ac723a2caefef7b0fc278a53ff70ef5ce",
+      "kind": "第三方原图",
+      "source_id": "SRC-ROSENBAUM-RUBIN-PS",
+      "source_version": "Biometrika 70(1), 1983",
+      "basis": "表 2，刊页 52，固定 PDF 第 13 页 https://www.stat.cmu.edu/~ryantibs/journalclub/rosenbaum_1983.pdf#page=13",
+      "credit": "Paul R. Rosenbaum、Donald B. Rubin",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留完整科学内容。",
+      "original_sha256": "e945e4a5704146298ffec6f7f08f2621e8e9e10100985a8a38d44b949e221285",
+      "page": 13,
+      "crop_points": [
+        51,
+        423,
+        489,
+        550
+      ],
+      "scale": 2,
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-CAUSAL-LEARNING-EVAL/因果学习任务与评估矩阵.png",
+      "sha256": "95b35a24cfc01119648eae4232aede41a9eaa7e82b9b0daeea567d4deb6b759c",
+      "kind": "第三方原图",
+      "source_id": "SRC-CAUSAL-LEARNING-EVAL",
+      "source_version": "arXiv 2202.02896v1",
+      "basis": "表 I，固定 PDF 第 3 页 https://arxiv.org/pdf/2202.02896v1#page=3",
+      "credit": "Lu Cheng 等",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留完整科学内容。",
+      "original_sha256": "0e4a1f5a68be2d98d7ffbbe6782d8fed8c31453073ad7d6a3423b602f37c8f2d",
+      "page": 3,
+      "crop_points": [
+        47,
+        51,
+        565,
+        297
+      ],
+      "scale": 2,
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-QINI-MEASURES/Qini随机基线与超额面积.png",
+      "sha256": "37f1083330740745a9fb376d8c7df7b1e431412459b2941932281011c62d86ea",
+      "kind": "第三方原图",
+      "source_id": "SRC-QINI-MEASURES",
+      "source_version": "KDD 2011 Workshop 作者稿",
+      "basis": "图 8，固定 PDF 第 6 页 https://stochasticsolutions.com/pdf/kdd2011late.pdf#page=6",
+      "credit": "Patrick D. Surry、Nicholas J. Radcliffe",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留完整科学内容。",
+      "original_sha256": "2f559e49e33023d82993027b8a9fa8060b495633e2c6df904f033947543067c4",
+      "page": 6,
+      "crop_points": [
+        51,
+        103,
+        295,
+        337
+      ],
+      "scale": 2,
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-BALANCED-COUNTERFACTUAL/事实结果与表征平衡.png",
+      "sha256": "77619802fc5ead374b4afb59a6e663b13b282d5483e55114f5655ca1f90f7a05",
+      "kind": "第三方原图",
+      "source_id": "SRC-BALANCED-COUNTERFACTUAL",
+      "source_version": "arXiv 1605.03661v1",
+      "basis": "图 1，固定 PDF 第 3 页 https://arxiv.org/pdf/1605.03661v1#page=3",
+      "credit": "Fredrik D. Johansson、Uri Shalit、David Sontag",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留完整科学内容。",
+      "original_sha256": "96dc691535a211a20aa6e36ad3926433245fd2cfb9131bda38be3757f64081f7",
+      "page": 3,
+      "crop_points": [
+        53,
+        69,
+        299,
+        220
+      ],
+      "scale": 2,
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-CFRNET/共享编码器与分臂结果头.png",
+      "sha256": "7adb4c0f26462eb60ea6bf71826f4e79e287aa1903fbcd79a43beec9a49e837d",
+      "kind": "第三方原图",
+      "source_id": "SRC-CFRNET",
+      "source_version": "arXiv 1606.03976v5",
+      "basis": "图 1，固定 PDF 第 2 页 https://arxiv.org/pdf/1606.03976v5#page=2",
+      "credit": "Uri Shalit、Fredrik D. Johansson、David Sontag",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留完整科学内容。",
+      "original_sha256": "47f2149d257cbc50214aafe5e567a11acd6ec438081b64486bcd0c167fcf93bb",
+      "page": 2,
+      "crop_points": [
+        306,
+        64,
+        555,
+        198
+      ],
+      "scale": 2,
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-META-LEARNERS/样本不均衡时的X-Learner.png",
+      "sha256": "3d0dbabd7e8f62517f1f201544a25c3f38733e90f95d961d0c41d3807e13071d",
+      "kind": "第三方原图",
+      "source_id": "SRC-META-LEARNERS",
+      "source_version": "arXiv 1706.03461v6",
+      "basis": "图 1，固定 PDF 第 4 页 https://arxiv.org/pdf/1706.03461v6#page=4",
+      "credit": "Sören R. Künzel、Jasjeet S. Sekhon、Peter J. Bickel、Bin Yu",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留完整科学内容。",
+      "original_sha256": "c46362fa1fbb1212460e4e8dd414624d7e84bb8ead6984abfe9550c22713e5c3",
+      "page": 4,
+      "crop_points": [
+        314,
+        47,
+        574,
+        370
+      ],
+      "scale": 2,
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-DRAGONNET/结果头与倾向头.png",
+      "sha256": "99313e99902a8860be8461370f74f615e02e90331927653d020aea86ec2a4a77",
+      "kind": "第三方原图",
+      "source_id": "SRC-DRAGONNET",
+      "source_version": "arXiv 1906.02120v2",
+      "basis": "图 1，固定 PDF 第 3 页 https://arxiv.org/pdf/1906.02120v2#page=3",
+      "credit": "Claudia Shi、David M. Blei、Victor Veitch",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留完整科学内容。",
+      "original_sha256": "938e97f334d24a06e278eb66cc3334d54961d943ea143be7524ebf57d71220a9",
+      "page": 3,
+      "crop_points": [
+        342,
+        313,
+        535,
+        424
+      ],
+      "scale": 2,
+      "created_on": "2026-11-25"
     }
   ]
 }

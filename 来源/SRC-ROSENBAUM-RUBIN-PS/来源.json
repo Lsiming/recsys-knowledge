@@ -1,0 +1,33 @@
+{
+  "id": "SRC-ROSENBAUM-RUBIN-PS",
+  "title": "The Central Role of the Propensity Score in Observational Studies for Causal Effects",
+  "kind": "paper",
+  "state": "active",
+  "current": "5c6a1b9884859cbed887f3ccd98d45ea5e78f717113e9d05a417facf981fa0c3",
+  "versions": [
+    {
+      "locator": "https://www.stat.cmu.edu/~ryantibs/journalclub/rosenbaum_1983.pdf",
+      "revision": "Biometrika 70(1), 41–55 (1983)",
+      "read_scope": "精读 §1–2、§3.2–3.3、表 1–2，纸刊扫描附一页 JSTOR 封页。",
+      "artifacts": [
+        {
+          "name": "Rosenbaum-Rubin-Biometrika-1983.pdf",
+          "sha256": "e945e4a5704146298ffec6f7f08f2621e8e9e10100985a8a38d44b949e221285",
+          "snapshot": ".local/sources/SRC-ROSENBAUM-RUBIN-PS/e945e4a5704146298ffec6f7f08f2621e8e9e10100985a8a38d44b949e221285/Rosenbaum-Rubin-Biometrika-1983.pdf"
+        }
+      ],
+      "fingerprint": "5c6a1b9884859cbed887f3ccd98d45ea5e78f717113e9d05a417facf981fa0c3",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "cdf89ca76fcb3a6d887b45bf313c6257442685bbf9cf26e19074db0eed8d4497",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核原文的平衡性质、强可忽略和匹配分层边界，并检查与历史发券、因果模块及随机验证路径的关系。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "SRC-PEARL-CAUSAL-DIAGRAMS",
+  "title": "Causal Diagrams for Empirical Research",
+  "kind": "paper",
+  "state": "active",
+  "current": "0e94b161ace406450607f5e5cd643907d160bb61a7618ad757cec94ca1bf59f2",
+  "versions": [
+    {
+      "locator": "https://ftp.cs.ucla.edu/pub/stat_ser/R218-B.pdf",
+      "revision": "Biometrika 82(4), 669–710 (1995)",
+      "read_scope": "精读 §2.3、§3.1–3.2、§4.3 的识别条件、式 (6)–(9)、图 2–3，并核查 §5 的应用例。",
+      "artifacts": [
+        {
+          "name": "Pearl-author.pdf",
+          "sha256": "0a9dd3218e541acbf26aeff5865e3c70cb662cd7de50e1234d016f1af5da8927",
+          "snapshot": ".local/sources/SRC-PEARL-CAUSAL-DIAGRAMS/0a9dd3218e541acbf26aeff5865e3c70cb662cd7de50e1234d016f1af5da8927/Pearl-author.pdf"
+        }
+      ],
+      "fingerprint": "0e94b161ace406450607f5e5cd643907d160bb61a7618ad757cec94ca1bf59f2",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e12d441df5c0244c74fe34402e78220acf663026784dd95ccbd0a1285808a155",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定归档的前门和后门路径、识别式及发券算例，复核 Module 入口及近邻问题，保留真实优惠详情外的直接路径风险。"
+      }
+    }
+  ]
+}

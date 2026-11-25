@@ -1,0 +1,38 @@
+{
+  "id": "SRC-DRAGONNET",
+  "title": "Adapting Neural Networks for the Estimation of Treatment Effects",
+  "kind": "paper",
+  "state": "active",
+  "current": "2997af25d1ce168a45d7f19ea19fc03a5ea9766e94d1a567a7b99b7eaa5b160d",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1906.02120v2",
+      "revision": "arXiv:1906.02120v2 (2019-10-17)",
+      "read_scope": "精读正文 §1–6、式 (1.2)–(3.5)、图 1–3 和表 1–5，回查附录样本量及裁剪分析。",
+      "artifacts": [
+        {
+          "name": "1906.02120v2.pdf",
+          "sha256": "938e97f334d24a06e278eb66cc3334d54961d943ea143be7524ebf57d71220a9",
+          "snapshot": ".local/sources/SRC-DRAGONNET/938e97f334d24a06e278eb66cc3334d54961d943ea143be7524ebf57d71220a9/1906.02120v2.pdf"
+        },
+        {
+          "name": "1906.02120v2.arxiv-source.tar.gz",
+          "sha256": "7eb8ad4c675c9f4a22803d769979b105a1aa10d5ab5ec5f6198b86856ec84217",
+          "snapshot": ".local/sources/SRC-DRAGONNET/7eb8ad4c675c9f4a22803d769979b105a1aa10d5ab5ec5f6198b86856ec84217/1906.02120v2.arxiv-source.tar.gz"
+        }
+      ],
+      "fingerprint": "2997af25d1ce168a45d7f19ea19fc03a5ea9766e94d1a567a7b99b7eaa5b160d",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "25b66269d84066b1d0a73f2188d243faf0c0de8fcff9740d0c2a5241f9d9e9a9",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核 v2 的扰动导数暨 ATE 影响函数，核对 ACIC 的 101 个入选模拟数据集、表 2–3 统计及附录切分歧义。译注保留原文差异。"
+      }
+    }
+  ]
+}

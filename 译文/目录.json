@@ -2815,5 +2815,130 @@
     ],
     "evidence_url": "https://proceedings.mlr.press/v306/xu26ag.html",
     "evidence_sha256": "f298090b4b1049ac62f920533d190c809d111123519658c18fed28f431a32911"
+  },
+  {
+    "source_id": "SRC-META-LEARNERS",
+    "title": "Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning",
+    "original_url": "https://arxiv.org/pdf/1706.03461v6",
+    "revision": "arXiv:1706.03461v6 (2019-04-24)",
+    "status": "local-only",
+    "reason": "38 页中文正文 PDF 已私有备份并认证下载核验，公开全文译文许可未确认。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Sören R. Künzel",
+      "Jasjeet S. Sekhon",
+      "Peter J. Bickel",
+      "Bin Yu"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1706.03461v6",
+    "evidence_sha256": "c46362fa1fbb1212460e4e8dd414624d7e84bb8ead6984abfe9550c22713e5c3",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-BALANCED-COUNTERFACTUAL",
+    "title": "Learning Representations for Counterfactual Inference",
+    "original_url": "https://arxiv.org/pdf/1605.03661v1",
+    "revision": "arXiv:1605.03661v1 (2016-05-12)",
+    "status": "local-only",
+    "reason": "9 页中文正文 PDF 已私有备份并认证下载核验，公开全文译文许可未确认。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Fredrik D. Johansson",
+      "Uri Shalit",
+      "David Sontag"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1605.03661v1",
+    "evidence_sha256": "96dc691535a211a20aa6e36ad3926433245fd2cfb9131bda38be3757f64081f7",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-CFRNET",
+    "title": "Estimating Individual Treatment Effect: Generalization Bounds and Algorithms",
+    "original_url": "https://arxiv.org/pdf/1606.03976v5",
+    "revision": "arXiv:1606.03976v5 (2017-05-16)",
+    "status": "local-only",
+    "reason": "17 页中文正文 PDF 已私有备份并认证下载核验，公开全文译文许可未确认。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Uri Shalit",
+      "Fredrik D. Johansson",
+      "David Sontag"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1606.03976v5",
+    "evidence_sha256": "47f2149d257cbc50214aafe5e567a11acd6ec438081b64486bcd0c167fcf93bb",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-DRAGONNET",
+    "title": "Adapting Neural Networks for the Estimation of Treatment Effects",
+    "original_url": "https://arxiv.org/pdf/1906.02120v2",
+    "revision": "arXiv:1906.02120v2 (2019-10-17)",
+    "status": "local-only",
+    "reason": "11 页中文正文 PDF 已私有备份并认证下载核验，公开全文译文许可未确认。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Claudia Shi",
+      "David M. Blei",
+      "Victor Veitch"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1906.02120v2",
+    "evidence_sha256": "938e97f334d24a06e278eb66cc3334d54961d943ea143be7524ebf57d71220a9",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-PEARL-CAUSAL-DIAGRAMS",
+    "title": "Causal Diagrams for Empirical Research",
+    "original_url": "https://ftp.cs.ucla.edu/pub/stat_ser/R218-B.pdf",
+    "revision": "Biometrika 82(4), 669–710 (1995)",
+    "authors": [
+      "Judea Pearl"
+    ],
+    "status": "reading-only",
+    "reason": "按营销补贴第 1 批范围解读前门与后门。",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "source_id": "SRC-ROSENBAUM-RUBIN-PS",
+    "title": "The Central Role of the Propensity Score in Observational Studies for Causal Effects",
+    "original_url": "https://www.stat.cmu.edu/~ryantibs/journalclub/rosenbaum_1983.pdf",
+    "revision": "Biometrika 70(1), 41–55 (1983)",
+    "authors": [
+      "Paul R. Rosenbaum",
+      "Donald B. Rubin"
+    ],
+    "status": "reading-only",
+    "reason": "按营销补贴第 1 批范围解读倾向得分、匹配与分层。",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "source_id": "SRC-CAUSAL-LEARNING-EVAL",
+    "title": "Evaluation Methods and Measures for Causal Learning Algorithms",
+    "original_url": "https://arxiv.org/pdf/2202.02896v1",
+    "revision": "arXiv:2202.02896v1 (2022-02-07)",
+    "authors": [
+      "Lu Cheng",
+      "Ruocheng Guo",
+      "Raha Moraffah",
+      "Paras Sheth",
+      "K. Selçuk Candan",
+      "Huan Liu"
+    ],
+    "status": "reading-only",
+    "reason": "按营销补贴第 1 批范围解读因果学习评估。",
+    "checked_on": "2026-11-25",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "source_id": "SRC-QINI-MEASURES",
+    "title": "Quality Measures for Uplift Models",
+    "original_url": "https://stochasticsolutions.com/pdf/kdd2011late.pdf",
+    "revision": "KDD 2011 Workshop 作者稿",
+    "authors": [
+      "Patrick D. Surry",
+      "Nicholas J. Radcliffe"
+    ],
+    "status": "reading-only",
+    "reason": "按营销补贴第 1 批范围解读 Qini。采用 2011 年作者稿，另核对 2007 年刊文题录与摘要。",
+    "checked_on": "2026-11-25"
   }
 ]

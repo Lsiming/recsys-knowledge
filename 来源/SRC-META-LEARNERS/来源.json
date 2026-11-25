@@ -1,0 +1,38 @@
+{
+  "id": "SRC-META-LEARNERS",
+  "title": "Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning",
+  "kind": "paper",
+  "state": "active",
+  "current": "63f18f398458891acc6e97c9313260f4dfd5a5a4ebc1a39619f92af9fd42e590",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1706.03461v6",
+      "revision": "arXiv:1706.03461v6 (2019-04-24)",
+      "read_scope": "精读正文三类学习器、样本不均衡模拟、收敛率、应用与条件；回查附录伪代码。",
+      "artifacts": [
+        {
+          "name": "1706.03461v6.pdf",
+          "sha256": "c46362fa1fbb1212460e4e8dd414624d7e84bb8ead6984abfe9550c22713e5c3",
+          "snapshot": ".local/sources/SRC-META-LEARNERS/c46362fa1fbb1212460e4e8dd414624d7e84bb8ead6984abfe9550c22713e5c3/1706.03461v6.pdf"
+        },
+        {
+          "name": "1706.03461v6.arxiv-source.tar.gz",
+          "sha256": "f3d75571933b5db70f7e5b02752bc54e9f0d2361f4a8b7334632b44ebb5a86b5",
+          "snapshot": ".local/sources/SRC-META-LEARNERS/f3d75571933b5db70f7e5b02752bc54e9f0d2361f4a8b7334632b44ebb5a86b5/1706.03461v6.arxiv-source.tar.gz"
+        }
+      ],
+      "fingerprint": "63f18f398458891acc6e97c9313260f4dfd5a5a4ebc1a39619f92af9fd42e590",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "63dbadcabd62ffba38fd846871c3a6df1ae76159ba68335c8ae72aa7bd207de3",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核 v6 伪效应的方向、权重及小处理臂的速率条件，和 POUL、共享双头及券档方法比较其训练监督。中文译本逐页目视。"
+      }
+    }
+  ]
+}

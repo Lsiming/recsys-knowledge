@@ -1,0 +1,38 @@
+{
+  "id": "SRC-QINI-MEASURES",
+  "title": "Quality Measures for Uplift Models",
+  "kind": "paper",
+  "state": "active",
+  "current": "0a53b7ed3aebbe5e3f04ac0f95389f9bba86994244deb6cf8bbd0f07a5e54e07",
+  "versions": [
+    {
+      "locator": "https://stochasticsolutions.com/pdf/kdd2011late.pdf",
+      "revision": "KDD 2011 Workshop 作者稿",
+      "read_scope": "精读 §3–4 和图 6–12。另核对 Radcliffe 2007 机构摘要与题录，2007 正文尚未取得。",
+      "artifacts": [
+        {
+          "name": "Surry-Radcliffe-2011.pdf",
+          "sha256": "2f559e49e33023d82993027b8a9fa8060b495633e2c6df904f033947543067c4",
+          "snapshot": ".local/sources/SRC-QINI-MEASURES/2f559e49e33023d82993027b8a9fa8060b495633e2c6df904f033947543067c4/Surry-Radcliffe-2011.pdf"
+        },
+        {
+          "name": "Radcliffe-2007-Edinburgh.html",
+          "sha256": "ac8293f8e2858f5aafeb231b206d06648498ce0e76429ef3812d157fa45d7cdf",
+          "snapshot": ".local/sources/SRC-QINI-MEASURES/ac8293f8e2858f5aafeb231b206d06648498ce0e76429ef3812d157fa45d7cdf/Radcliffe-2007-Edinburgh.html"
+        }
+      ],
+      "fingerprint": "0a53b7ed3aebbe5e3f04ac0f95389f9bba86994244deb6cf8bbd0f07a5e54e07",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "17d6f8c4d2c71bd552fd4d5b9636a44a5cc2417412838d98cf7e22fb80b792e1",
+        "pages": [
+          "coupon-uplift-evaluation"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "2007 刊文核至爱丁堡大学题录与摘要。2011 作者稿图 8 与 2022 综述式 (8)–(10) 支持现有计算与口径比较，读者路径和未决范围已复核。"
+      }
+    }
+  ]
+}

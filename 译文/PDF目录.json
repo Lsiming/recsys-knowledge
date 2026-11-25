@@ -2,7 +2,7 @@
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
   "updated": "2026-11-25",
-  "inventory_note": "116篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
+  "inventory_note": "按来源 ID 登记中文 PDF 的范围、许可和备份状态。原文、旧构建和图表不计为独立中文 PDF。",
   "entries": [
     {
       "source_id": "SRC-ATSPEED",
@@ -5736,6 +5736,151 @@
         "size_bytes": 1010773,
         "pages": 18,
         "verified_download_sha256": "47670e820585a205e949603999462689b5215b915793791ecec5e4b8887dda39"
+      }
+    },
+    {
+      "source_id": "SRC-META-LEARNERS",
+      "title": "Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning",
+      "original_url": "https://arxiv.org/pdf/1706.03461v6",
+      "revision": "arXiv:1706.03461v6 (2019-04-24)",
+      "input_sha256": "289005bb87dc1fd6f10efbcc07ed00433a92be575c907c7cdbaf055f57090753",
+      "input_pages": 38,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、正文图表说明与致谢。附录、图内文字与 37 条参考文献保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Sören R. Künzel",
+          "Jasjeet S. Sekhon",
+          "Peter J. Bickel",
+          "Bin Yu"
+        ],
+        "original_pdf_sha256": "c46362fa1fbb1212460e4e8dd414624d7e84bb8ead6984abfe9550c22713e5c3",
+        "evidence_url": "https://arxiv.org/abs/1706.03461v6",
+        "evidence_sha256": "c46362fa1fbb1212460e4e8dd414624d7e84bb8ead6984abfe9550c22713e5c3",
+        "notes": "固定 arXiv 版本列非独占分发条款（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）。公开全文译文许可未确认。PNAS 版另标 CC BY-NC-ND 4.0，见 https://pmc.ncbi.nlm.nih.gov/articles/PMC6410831/ 。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-01-02",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-META-LEARNERS.zh-CN.private.20261125.1.pdf",
+        "sha256": "289005bb87dc1fd6f10efbcc07ed00433a92be575c907c7cdbaf055f57090753",
+        "size_bytes": 1753771,
+        "pages": 38,
+        "verified_download_sha256": "289005bb87dc1fd6f10efbcc07ed00433a92be575c907c7cdbaf055f57090753"
+      }
+    },
+    {
+      "source_id": "SRC-BALANCED-COUNTERFACTUAL",
+      "title": "Learning Representations for Counterfactual Inference",
+      "original_url": "https://arxiv.org/pdf/1605.03661v1",
+      "revision": "arXiv:1605.03661v1 (2016-05-12)",
+      "input_sha256": "ac1b5f9fb1aac6616a2d0be22ac8218aa5a84d0b7bf804c79512989bbda09032",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、正文图表说明与描述性脚注。附录、图内文字与参考文献保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Fredrik D. Johansson",
+          "Uri Shalit",
+          "David Sontag"
+        ],
+        "original_pdf_sha256": "96dc691535a211a20aa6e36ad3926433245fd2cfb9131bda38be3757f64081f7",
+        "evidence_url": "https://arxiv.org/abs/1605.03661v1",
+        "evidence_sha256": "96dc691535a211a20aa6e36ad3926433245fd2cfb9131bda38be3757f64081f7",
+        "notes": "固定 arXiv 版本列非独占分发条款（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）。公开全文译文许可未确认。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-01-02",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-BALANCED-COUNTERFACTUAL.zh-CN.private.20261125.1.pdf",
+        "sha256": "ac1b5f9fb1aac6616a2d0be22ac8218aa5a84d0b7bf804c79512989bbda09032",
+        "size_bytes": 563705,
+        "pages": 9,
+        "verified_download_sha256": "ac1b5f9fb1aac6616a2d0be22ac8218aa5a84d0b7bf804c79512989bbda09032"
+      }
+    },
+    {
+      "source_id": "SRC-CFRNET",
+      "title": "Estimating Individual Treatment Effect: Generalization Bounds and Algorithms",
+      "original_url": "https://arxiv.org/pdf/1606.03976v5",
+      "revision": "arXiv:1606.03976v5 (2017-05-16)",
+      "input_sha256": "a016cb8dac4359810c79e36d54320d232a4eda4f50785407495553517d82ff7f",
+      "input_pages": 17,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明与描述性脚注。附录、图内文字与参考文献保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Uri Shalit",
+          "Fredrik D. Johansson",
+          "David Sontag"
+        ],
+        "original_pdf_sha256": "47f2149d257cbc50214aafe5e567a11acd6ec438081b64486bcd0c167fcf93bb",
+        "evidence_url": "https://arxiv.org/abs/1606.03976v5",
+        "evidence_sha256": "47f2149d257cbc50214aafe5e567a11acd6ec438081b64486bcd0c167fcf93bb",
+        "notes": "固定 arXiv 版本列非独占分发条款（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）。公开全文译文许可未确认。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-01-02",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-CFRNET.zh-CN.private.20261125.1.pdf",
+        "sha256": "a016cb8dac4359810c79e36d54320d232a4eda4f50785407495553517d82ff7f",
+        "size_bytes": 1249783,
+        "pages": 17,
+        "verified_download_sha256": "a016cb8dac4359810c79e36d54320d232a4eda4f50785407495553517d82ff7f"
+      }
+    },
+    {
+      "source_id": "SRC-DRAGONNET",
+      "title": "Adapting Neural Networks for the Estimation of Treatment Effects",
+      "original_url": "https://arxiv.org/pdf/1906.02120v2",
+      "revision": "arXiv:1906.02120v2 (2019-10-17)",
+      "input_sha256": "7cf2f9465c03ef6cacd8b49408be0c6f4eba7aee77997fb442ba013078968e0f",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、正文图表说明及致谢。附录、图内文字与参考文献保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Claudia Shi",
+          "David M. Blei",
+          "Victor Veitch"
+        ],
+        "original_pdf_sha256": "938e97f334d24a06e278eb66cc3334d54961d943ea143be7524ebf57d71220a9",
+        "evidence_url": "https://arxiv.org/abs/1906.02120v2",
+        "evidence_sha256": "938e97f334d24a06e278eb66cc3334d54961d943ea143be7524ebf57d71220a9",
+        "notes": "固定 arXiv 版本列非独占分发条款（https://arxiv.org/licenses/nonexclusive-distrib/1.0/）。公开全文译文许可未确认。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-01-02",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-DRAGONNET.zh-CN.private.20261125.1.pdf",
+        "sha256": "7cf2f9465c03ef6cacd8b49408be0c6f4eba7aee77997fb442ba013078968e0f",
+        "size_bytes": 767811,
+        "pages": 11,
+        "verified_download_sha256": "7cf2f9465c03ef6cacd8b49408be0c6f4eba7aee77997fb442ba013078968e0f"
       }
     }
   ],

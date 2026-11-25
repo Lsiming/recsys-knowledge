@@ -1,0 +1,33 @@
+{
+  "id": "SRC-CAUSAL-LEARNING-EVAL",
+  "title": "Evaluation Methods and Measures for Causal Learning Algorithms",
+  "kind": "paper",
+  "state": "active",
+  "current": "acb57d96018374ab7cfdcd189e9f3c5d35034ebb0277b48afdffd27ef97737a7",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2202.02896v1",
+      "revision": "arXiv:2202.02896v1 (2022-02-07)",
+      "read_scope": "精读表 I、§3 单期处理效应指标和评估流程，检查同节时序、网络及 §8 的限制。",
+      "artifacts": [
+        {
+          "name": "2202.02896v1.pdf",
+          "sha256": "0e4a1f5a68be2d98d7ffbbe6782d8fed8c31453073ad7d6a3423b602f37c8f2d",
+          "snapshot": ".local/sources/SRC-CAUSAL-LEARNING-EVAL/0e4a1f5a68be2d98d7ffbbe6782d8fed8c31453073ad7d6a3423b602f37c8f2d/2202.02896v1.pdf"
+        }
+      ],
+      "fingerprint": "acb57d96018374ab7cfdcd189e9f3c5d35034ebb0277b48afdffd27ef97737a7",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "2582d525673f0604fdb3710639dae9cfe625434324aa2e5f07850fd8a85d6196",
+        "pages": [
+          "coupon-uplift-evaluation"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "对照固定 v1 表 I 及式 (4)–(10)，将 PEHE、ATE、Qini、分桶校准和冻结策略价值连到各自的真值与随机设计。复核评估模块与组合券入口。"
+      }
+    }
+  ]
+}

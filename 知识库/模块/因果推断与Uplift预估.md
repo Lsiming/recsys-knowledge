@@ -7,7 +7,7 @@ updated: "2026-11-25"
 summary: "从干预与对照定义进入条件增量估计，连接策略表示、正交学习、排序与幅度验证"
 aliases: ["因果推断/uplift预估", "uplift预估", "Uplift Modeling", "CATE", "增益模型", "异质性干预效应", "营销因果模型"]
 sources: {"SRC-DER-CFR": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51", "SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-CANNIUPLIFT": "ca3fc4f098f34044e2234ff9c9089bc554640032326c7db0e05718dbdeb3f13e", "SRC-MIM-DRCFR": "a3669536b785f468d61aaa1f8fe813497234da17c368d65aa780be6778c4c90e", "SRC-BUOPLR": "fa6680dcf6913775fa8b223091fc72a8a468aaf1449275b00e5631c09e43393a"}
-related: ["push-frequency-activity-uplift", "observational-coupon-uplift", "marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives", "cross-seller-subsidy-uplift"]
+related: ["push-frequency-activity-uplift", "observational-coupon-uplift", "marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives", "cross-seller-subsidy-uplift", "coupon-uplift-evaluation"]
 module: "因果推断与 Uplift 预估"
 ---
 # 因果推断与 Uplift 预估
@@ -31,6 +31,8 @@ $$
 $t_0$ 可以是不发券，也可以是当前策略；换了对照就换了问题。结果可以是固定窗口的订单、GMV、利润或成本，但月度GMV不能直接称终身收益，GMV也不是利润。某个用户只观测一个潜在结果，因此预测通常是特征条件下的平均差异，不是可直接核对的个人真实反事实。
 
 随机实验仍需核对分配单元、分层、触发、对照与窗口；触发后的样本未必仍保持最初随机性。观察数据还需论证一致性、无未观测混杂与重叠。倾向概率与正交化不自动补齐这些识别条件。[POUL §2与§4的具体边界](../../来源/SRC-POUL/阅读笔记.md#预估的是条件平均效应不是可观测的个人真值)可作为检查实例。
+
+从观察日志出发，可沿 [后门、前门和倾向匹配](../问题/历史发券日志如何估计补贴增量.md#因果图决定先分哪些组) 判断两臂是否可比，再选择 [S/T/X-Learner、TARNet、CFR 或 DragonNet](../问题/历史发券日志如何估计补贴增量.md#结果回归怎样利用不同臂的样本)。拿到独立随机留出后，分别看排序、幅度校准和部署规则的净值。 [补贴增量的验证](../问题/怎样验证补贴增量的排序幅度和策略价值.md)
 
 ## 用什么机制估计哪些增量
 

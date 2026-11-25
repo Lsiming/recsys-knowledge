@@ -28,7 +28,11 @@ def render(entries):
     for e in entries:
         title = e['title'].replace('|', '\\|')
         note = f"[{title}](../来源/{e['source_id']}/阅读笔记.md)"
-        translation = f"[中文译文]({e['source_id']}/中文译文.md)" if e['status'] == 'published' else '本地保留'
+        translation = {
+            'published': f"[中文译文]({e['source_id']}/中文译文.md)",
+            'local-only': '本地保留',
+            'reading-only': '仅解读',
+        }[e['status']]
         license_link = f" · [原文许可]({e['license_url']})" if e.get('license_url') else ''
         state = f"已公开，{e['license_id']}；{e['scope']}" if e['status'] == 'published' else e['reason']
         lines.append(f"| {note} | {translation} | [固定原文]({e['original_url']}){license_link} | {state.replace('|', '、')} |")
@@ -51,7 +55,7 @@ def check(root, entries):
         version = next(v for v in record['versions'] if v['fingerprint'] == record['current'])
         if record['kind'] != 'paper' or e.get('original_url') != version['locator'] or e.get('revision') != version['revision']:
             errors.append(f'{sid}: 译文身份/版本与当前来源不符，需复核许可和译文版本')
-        if e.get('status') not in {'published', 'local-only'}:
+        if e.get('status') not in {'published', 'local-only', 'reading-only'}:
             errors.append(f'{sid}: 无效公开状态')
         if not e.get('reason') or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', e.get('checked_on', '')):
             errors.append(f'{sid}: 缺少核实日期或状态原因')

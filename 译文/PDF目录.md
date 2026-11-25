@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-25，盘点150篇中文PDF，150篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-25，盘点154篇中文PDF，154篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -162,3 +162,7 @@
 | [Addressing Exposure Bias in Uplift Modeling for Large-scale Online Advertising](https://github.com/aifor/eeuen/blob/d85f24a2df32f8cfb974864046aa203461ee9e4b/Uplift_Modeling_for_Online_Advertising.pdf) · `SRC-EEUEN` | 私有，需登录 · 20261125.1 · 11页 | [unverified](https://github.com/aifor/eeuen/blob/d85f24a2df32f8cfb974864046aa203461ee9e4b/Uplift_Modeling_for_Online_Advertising.pdf) | 固定作者匿名稿的摘要、正文 §I–VI、说明脚注、图表标题及表头。保留公式、原表值、图内文字及参考文献，会议书目补署名。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
 | [A Comparative Study of Model Adaptation Strategies for Multi-Treatment Uplift Modeling](https://arxiv.org/abs/2511.01185v1) · `SRC-OFA` | 私有，需登录 · 20261125.1 · 7页 | [CC-BY-4.0](https://arxiv.org/abs/2511.01185v1) | 摘要、正文 §1–4、图表标题及表头、描述性脚注。保留公式、数值、图内原标签、署名与 22 条参考文献。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
 | [Large-Scale Notification Dispatch with Bundle Treatments and Multi-Outcome Uplift Optimization](https://proceedings.mlr.press/v306/xu26ag.html) · `SRC-BUOPLR` | 私有，需登录 · 20261125.1 · 18页 | [unverified](https://proceedings.mlr.press/v306/xu26ag.html) | 正式PDF摘要、正文§1–5、图表标题与表头、局限和影响声明中文翻译。前10页中文重排，末8页保留原文参考文献与附录A–D。图内英文、全部公式及数值保留。；18页译本已逐页目视，原文和中文PDF均完成实际认证下载与完整SHA256核验。 |
+| [Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning](https://arxiv.org/pdf/1706.03461v6) · `SRC-META-LEARNERS` | 私有，需登录 · 20261125.1 · 38页 | [unverified](https://arxiv.org/abs/1706.03461v6) | 摘要、正文、正文图表说明与致谢。附录、图内文字与 37 条参考文献保留原文。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Learning Representations for Counterfactual Inference](https://arxiv.org/pdf/1605.03661v1) · `SRC-BALANCED-COUNTERFACTUAL` | 私有，需登录 · 20261125.1 · 9页 | [unverified](https://arxiv.org/abs/1605.03661v1) | 摘要、正文 §1–7、正文图表说明与描述性脚注。附录、图内文字与参考文献保留原文。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Estimating Individual Treatment Effect: Generalization Bounds and Algorithms](https://arxiv.org/pdf/1606.03976v5) · `SRC-CFRNET` | 私有，需登录 · 20261125.1 · 17页 | [unverified](https://arxiv.org/abs/1606.03976v5) | 摘要、正文、图表说明与描述性脚注。附录、图内文字与参考文献保留原文。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Adapting Neural Networks for the Estimation of Treatment Effects](https://arxiv.org/pdf/1906.02120v2) · `SRC-DRAGONNET` | 私有，需登录 · 20261125.1 · 11页 | [unverified](https://arxiv.org/abs/1906.02120v2) | 摘要、正文 §1–6、正文图表说明及致谢。附录、图内文字与参考文献保留原文。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
