@@ -7197,6 +7197,18 @@
       "credit": "Wenwei Ke et al., ICDM 2021",
       "modification": "从采用版 PDF 第 7 页按 pt 坐标 (307, 48, 566, 285) 裁取，2.5 倍渲染；保留图内原标签。",
       "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-OFA/多处理模型三种适配方式.png",
+      "sha256": "9b9cf2e24297a6a67d88f82d038feef1589b62883436d5c91ef79349a40924d3",
+      "kind": "第三方原图",
+      "source_id": "SRC-OFA",
+      "source_version": "arXiv 2511.01185v1",
+      "basis": "图 1，PDF 第 2 页 https://arxiv.org/pdf/2511.01185v1#page=2",
+      "license": "CC-BY-4.0",
+      "credit": "Ruyue Zhang et al., DiDi Chuxing",
+      "modification": "采用版源码 img/poly-adaption.png，保留原字节与全图",
+      "created_on": "2026-11-25"
     }
   ]
 }

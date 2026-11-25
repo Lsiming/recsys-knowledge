@@ -1,0 +1,38 @@
+{
+  "id": "SRC-OFA",
+  "title": "A Comparative Study of Model Adaptation Strategies for Multi-Treatment Uplift Modeling",
+  "kind": "paper",
+  "state": "active",
+  "current": "ac540371f1d1ba16831437eb7fadc593e7061129bf71ad8d3f0e13f80dd69c17",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2511.01185v1",
+      "revision": "arXiv:2511.01185v1（2025-11-03）",
+      "read_scope": "采用版 5 页，摘要、正文 §1–4、图 1、表 1–4 及用于解释理论边界的引用。",
+      "artifacts": [
+        {
+          "name": "2511.01185v1.pdf",
+          "sha256": "29c60b89451558d9cc991e065cbf6ce396826e1b509c2cd956a48cdb300a1483",
+          "snapshot": ".local/sources/SRC-OFA/29c60b89451558d9cc991e065cbf6ce396826e1b509c2cd956a48cdb300a1483/2511.01185v1.pdf"
+        },
+        {
+          "name": "2511.01185v1.tar.gz",
+          "sha256": "573054e38a48b658c02743ddd48f07f286dcfef5002fe29819c60e901a13d499",
+          "snapshot": ".local/sources/SRC-OFA/573054e38a48b658c02743ddd48f07f286dcfef5002fe29819c60e901a13d499/2511.01185v1.tar.gz"
+        }
+      ],
+      "fingerprint": "ac540371f1d1ba16831437eb7fadc593e7061129bf71ad8d3f0e13f80dd69c17",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "3f29ed65667c4540f2acf843cb45f480aed505c7e4fc1a62164c8e3635e360ac",
+        "pages": [
+          "combinatorial-policy-uplift"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "复核采用版 §2–3、图1、表1–4、Galanti–Wolf 定理4与 TaQFormer 固定版 §3 的处理查询。补齐低阶共享、经验 Gram 矩阵、同阶单项式与 treatment attention 的表达和证据边界。全库回查模块、问题、待读与相关方法，未决原稿细节见审核台。"
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-25，盘点148篇中文PDF，148篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-25，盘点149篇中文PDF，149篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -160,3 +160,4 @@
 | [Multi-Treatment-DML: Causal Estimation for Multi-Dimensional Continuous Treatments with Monotonicity Constraints in Personal Loan Risk Optimization](https://arxiv.org/abs/2508.02183v2) · `SRC-MT-DML` | 私有，需登录 · 20261125.1 · 10页 | [CC-BY-4.0](https://arxiv.org/abs/2508.02183v2) | 摘要、正文 §1–7、图表标题及表头，保留公式、表值、署名、原图和参考文献。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
 | [Cross-Treatment Effect Estimation for Multi-Category, Multi-Valued Causal Inference via Dynamic Neural Masking](https://arxiv.org/abs/2511.01641v1) · `SRC-XTNET` | 私有，需登录 · 20261125.1 · 19页 | [CC-BY-4.0](https://arxiv.org/abs/2511.01641v1) | 摘要、正文 §1–7、图表及算法说明，保留公式、表值、署名、原图、书目与附录。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
 | [Addressing Exposure Bias in Uplift Modeling for Large-scale Online Advertising](https://github.com/aifor/eeuen/blob/d85f24a2df32f8cfb974864046aa203461ee9e4b/Uplift_Modeling_for_Online_Advertising.pdf) · `SRC-EEUEN` | 私有，需登录 · 20261125.1 · 11页 | [unverified](https://github.com/aifor/eeuen/blob/d85f24a2df32f8cfb974864046aa203461ee9e4b/Uplift_Modeling_for_Online_Advertising.pdf) | 固定作者匿名稿的摘要、正文 §I–VI、说明脚注、图表标题及表头。保留公式、原表值、图内文字及参考文献，会议书目补署名。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [A Comparative Study of Model Adaptation Strategies for Multi-Treatment Uplift Modeling](https://arxiv.org/abs/2511.01185v1) · `SRC-OFA` | 私有，需登录 · 20261125.1 · 7页 | [CC-BY-4.0](https://arxiv.org/abs/2511.01185v1) | 摘要、正文 §1–4、图表标题及表头、描述性脚注。保留公式、数值、图内原标签、署名与 22 条参考文献。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |

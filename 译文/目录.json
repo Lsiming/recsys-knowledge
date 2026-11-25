@@ -2772,5 +2772,25 @@
     ],
     "evidence_url": "https://github.com/aifor/eeuen/blob/d85f24a2df32f8cfb974864046aa203461ee9e4b/Uplift_Modeling_for_Online_Advertising.pdf",
     "evidence_sha256": "4230732db999394a8f1ea6de9c1bafde86c4ed3f0f8f5d6301b49e67ff3d1219"
+  },
+  {
+    "source_id": "SRC-OFA",
+    "title": "A Comparative Study of Model Adaptation Strategies for Multi-Treatment Uplift Modeling",
+    "original_url": "https://arxiv.org/abs/2511.01185v1",
+    "revision": "arXiv:2511.01185v1（2025-11-03）",
+    "status": "local-only",
+    "reason": "7 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Ruyue Zhang",
+      "Xiaopeng Ke",
+      "Ming Liu",
+      "Fangzhou Shi",
+      "Chang Men",
+      "Zhengdan Zhu"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2511.01185v1",
+    "evidence_sha256": "29c60b89451558d9cc991e065cbf6ce396826e1b509c2cd956a48cdb300a1483",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]

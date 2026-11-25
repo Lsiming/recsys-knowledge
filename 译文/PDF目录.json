@@ -5653,6 +5653,47 @@
         "pages": 11,
         "verified_download_sha256": "f010557fbeb38e977718b4675240afd6455a02ec84f0713eaf8c6f858b9eab73"
       }
+    },
+    {
+      "source_id": "SRC-OFA",
+      "title": "A Comparative Study of Model Adaptation Strategies for Multi-Treatment Uplift Modeling",
+      "original_url": "https://arxiv.org/abs/2511.01185v1",
+      "revision": "arXiv:2511.01185v1（2025-11-03）",
+      "input_sha256": "52c8339ff1e81d4da3d16028e325198cae99918499c949e82b37237670e9861e",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–4、图表标题及表头、描述性脚注。保留公式、数值、图内原标签、署名与 22 条参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Ruyue Zhang",
+          "Xiaopeng Ke",
+          "Ming Liu",
+          "Fangzhou Shi",
+          "Chang Men",
+          "Zhengdan Zhu"
+        ],
+        "original_pdf_sha256": "29c60b89451558d9cc991e065cbf6ce396826e1b509c2cd956a48cdb300a1483",
+        "evidence_url": "https://arxiv.org/abs/2511.01185v1",
+        "evidence_sha256": "29c60b89451558d9cc991e065cbf6ce396826e1b509c2cd956a48cdb300a1483",
+        "notes": "固定采用版标示 CC BY 4.0，保留作者署名、来源和翻译说明。PDF 在私有库维护。",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-24-01",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-OFA.zh-CN.private.20261125.1.pdf",
+        "sha256": "52c8339ff1e81d4da3d16028e325198cae99918499c949e82b37237670e9861e",
+        "size_bytes": 396789,
+        "pages": 7,
+        "verified_download_sha256": "52c8339ff1e81d4da3d16028e325198cae99918499c949e82b37237670e9861e"
+      }
     }
   ],
   "storage_policy": "private-only",
