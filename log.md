@@ -793,3 +793,7 @@ check_context、wiki lint、index检查通过；保留POUL/TaQFormer及争议页
 ## [2026-11-25] ingest | PAPER-023 · MIM-DRCFR 与发券日志
 
 将 MIM-DRCFR 的共享编码、成对互信息约束和两臂推理归入历史发券增量问题，并与 DeR-CFR 的逐样本权重比较。8 页中文译文逐页验收，原文和译文均已登录下载并校验。清单另将淘宝 CanniUplift 补为 P122，纳入完整流程组。 [营销补贴待读论文](知识库/阅读/营销补贴待读论文.md)
+
+## [2026-11-25] ingest | PAPER-023 · CanniUplift 与平台净增量
+
+用同一位用户的店铺选择串联平台总量监督、核销混合模型及上线单店近似。新增跨店替代问题页，校准工业消融与线上 ROI 口径。17 页正文译文逐页验收，原文及译文均通过私有认证下载和完整 SHA-256 验证。 [CanniUplift 精读](来源/SRC-CANNIUPLIFT/阅读笔记.md)

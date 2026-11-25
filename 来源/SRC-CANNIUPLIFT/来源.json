@@ -1,0 +1,35 @@
+{
+  "id": "SRC-CANNIUPLIFT",
+  "title": "CanniUplift: A Holistic Framework for Mitigating Seller and Incentive Cannibalization in E-commerce Uplift Modeling",
+  "kind": "paper",
+  "state": "active",
+  "current": "ca3fc4f098f34044e2234ff9c9089bc554640032326c7db0e05718dbdeb3f13e",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/abs/2607.05242v1",
+      "revision": "arXiv:2607.05242v1 (2026-07-06); KDD 2026, DOI 10.1145/3770855.3818334",
+      "read_scope": "采用版 12 页，摘要、正文 §1–7，附录 A–C，图 1–4 和表 1–4。",
+      "artifacts": [
+        {
+          "name": "canni.pdf",
+          "sha256": "f9d18dc0dea138bfc43c918cb39ecde95584f0be71db31f8880824d393f311a6",
+          "snapshot": ".local/sources/SRC-CANNIUPLIFT/f9d18dc0dea138bfc43c918cb39ecde95584f0be71db31f8880824d393f311a6/canni.pdf"
+        }
+      ],
+      "fingerprint": "ca3fc4f098f34044e2234ff9c9089bc554640032326c7db0e05718dbdeb3f13e",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "cffaf3438b530041f6fa186574c00adcae9cd530561b06e1e0f196eaa1f1a753",
+        "pages": [
+          "causal-uplift",
+          "cross-seller-subsidy-uplift",
+          "marketing-subsidy"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "采用版图1–4、式(5)–(16)、(31)–(33)与工业消融、线上表按页复核，核对全局监督、核销后变量和联合投放边界。"
+      }
+    }
+  ]
+}

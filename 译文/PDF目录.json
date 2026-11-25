@@ -5487,6 +5487,52 @@
         "pages": 8,
         "verified_download_sha256": "f1f7f467ffbfa5bd34c504cfc0f328ce7efb1ca9acf752f923c8b19f1b721a3a"
       }
+    },
+    {
+      "source_id": "SRC-CANNIUPLIFT",
+      "title": "CanniUplift: A Holistic Framework for Mitigating Seller and Incentive Cannibalization in E-commerce Uplift Modeling",
+      "original_url": "https://arxiv.org/abs/2607.05242v1",
+      "revision": "arXiv:2607.05242v1 (2026-07-06); KDD 2026, DOI 10.1145/3770855.3818334",
+      "input_sha256": "6f3ee25033da705d9843819e184b2c782d4ce88a0aa32a4ed8e8e5e1c22c7e14",
+      "input_pages": 17,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、正文图表标题及表头、描述性脚注。保留公式、表值、图内文字、署名、参考文献与附录 A–C。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Zuwang He",
+          "Shihao Shu",
+          "Yuli Qu",
+          "Hanyu Gao",
+          "Ziliang Zhang",
+          "Diwei Chen",
+          "Xiangda Yan",
+          "Buyu Gao",
+          "Tanchao Zhu",
+          "Yumeng Li",
+          "Junxiong Zhu"
+        ],
+        "original_pdf_sha256": "f9d18dc0dea138bfc43c918cb39ecde95584f0be71db31f8880824d393f311a6",
+        "evidence_url": "https://arxiv.org/abs/2607.05242v1",
+        "evidence_sha256": "f9d18dc0dea138bfc43c918cb39ecde95584f0be71db31f8880824d393f311a6",
+        "notes": "固定采用版标示 CC BY 4.0，保留作者署名、来源和翻译说明。PDF 在私有库维护。",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-23-02",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-CANNIUPLIFT.zh-CN.private.20261125.1.pdf",
+        "sha256": "6f3ee25033da705d9843819e184b2c782d4ce88a0aa32a4ed8e8e5e1c22c7e14",
+        "size_bytes": 1745800,
+        "pages": 17,
+        "verified_download_sha256": "6f3ee25033da705d9843819e184b2c782d4ce88a0aa32a4ed8e8e5e1c22c7e14"
+      }
     }
   ],
   "storage_policy": "private-only",

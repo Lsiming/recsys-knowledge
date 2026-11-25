@@ -7029,6 +7029,54 @@
       "credit": "Mingyuan Cheng et al., SIGIR 2022",
       "modification": "采用版作者源码 uplift.png 原字节，仅中文文件名",
       "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-CANNIUPLIFT/跨店替代与激励归因.png",
+      "sha256": "9cce9575581a52dc7ab7ed4667f41e60d2b4ab1e886ed45ad914684bc0825e58",
+      "kind": "第三方原图",
+      "source_id": "SRC-CANNIUPLIFT",
+      "source_version": "arXiv 2607.05242v1",
+      "basis": "图 1，PDF 第 2 页 https://arxiv.org/pdf/2607.05242v1#page=2",
+      "license": "CC-BY-4.0",
+      "credit": "Zuwang He et al., KDD 2026",
+      "modification": "采用版作者源码 images/intro_fig.pdf 转为 PNG，保留完整图。",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-CANNIUPLIFT/平台对齐与核销分解架构.png",
+      "sha256": "a3a54afb7dc8e14c062ee24c2bfb47b462d03bb86e3c877dd5515accfff8ded4",
+      "kind": "第三方原图",
+      "source_id": "SRC-CANNIUPLIFT",
+      "source_version": "arXiv 2607.05242v1",
+      "basis": "图 2，PDF 第 4 页 https://arxiv.org/pdf/2607.05242v1#page=4",
+      "license": "CC-BY-4.0",
+      "credit": "Zuwang He et al., KDD 2026",
+      "modification": "采用版作者源码 images/framework.pdf 转为 PNG，保留完整图。",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-CANNIUPLIFT/蚕食率与跨店浏览.png",
+      "sha256": "08582d986f5629211d699fa978af4ab69746da899d0d9468a78bb6caaab12b6e",
+      "kind": "第三方原图",
+      "source_id": "SRC-CANNIUPLIFT",
+      "source_version": "arXiv 2607.05242v1",
+      "basis": "图 3，PDF 第 8 页 https://arxiv.org/pdf/2607.05242v1#page=8",
+      "license": "CC-BY-4.0",
+      "credit": "Zuwang He et al., KDD 2026",
+      "modification": "采用版作者源码 images/cannibalization_analysis.pdf 转为 PNG，保留完整图。",
+      "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-CANNIUPLIFT/核销两组的预测增量.png",
+      "sha256": "be0105b65986654e8766d51e2bed2e4d8682b2fd9cc7252a36039920930d5c1c",
+      "kind": "第三方原图",
+      "source_id": "SRC-CANNIUPLIFT",
+      "source_version": "arXiv 2607.05242v1",
+      "basis": "图 4，PDF 第 8 页 https://arxiv.org/pdf/2607.05242v1#page=8",
+      "license": "CC-BY-4.0",
+      "credit": "Zuwang He et al., KDD 2026",
+      "modification": "采用版作者源码 images/rdd_effectiveness_compressed.pdf 转为 PNG，保留完整图。",
+      "created_on": "2026-11-25"
     }
   ]
 }

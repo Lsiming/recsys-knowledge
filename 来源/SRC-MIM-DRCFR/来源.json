@@ -22,11 +22,13 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "9feb35074f8caf839a5905bab34cd42090c75ee7c4ab6c657419de8b77c4114e",
         "pages": [
+          "causal-uplift",
+          "marketing-subsidy",
           "observational-coupon-uplift"
         ],
         "reviewed_on": "2026-11-25",
         "review_method": "agent-self-review",
-        "review_note": "核对采用版图1–2、式(3)–(13)及表1–3，补齐三表征分工、互信息边界、离线排序与线上登录指标口径，并反查 DeR-CFR 和补贴清单。"
+        "review_note": "分解表征的监督和因果假设已按采用版整合。补齐模块和总图精读入口，纠正仅有基线阅读的旧描述。"
       }
     }
   ]

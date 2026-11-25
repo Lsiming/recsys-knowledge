@@ -6,8 +6,8 @@ status: "reviewed"
 updated: "2026-11-25"
 summary: "从干预与对照定义进入条件增量估计，连接策略表示、正交学习、排序与幅度验证"
 aliases: ["因果推断/uplift预估", "uplift预估", "Uplift Modeling", "CATE", "增益模型", "异质性干预效应", "营销因果模型"]
-sources: {"SRC-DER-CFR": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51", "SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc"}
-related: ["push-frequency-activity-uplift", "observational-coupon-uplift", "marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives"]
+sources: {"SRC-DER-CFR": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51", "SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-CANNIUPLIFT": "ca3fc4f098f34044e2234ff9c9089bc554640032326c7db0e05718dbdeb3f13e", "SRC-MIM-DRCFR": "a3669536b785f468d61aaa1f8fe813497234da17c368d65aa780be6778c4c90e"}
+related: ["push-frequency-activity-uplift", "observational-coupon-uplift", "marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives", "cross-seller-subsidy-uplift"]
 module: "因果推断与 Uplift 预估"
 ---
 # 因果推断与 Uplift 预估
@@ -18,7 +18,7 @@ Uplift 预估关心同类用户接受不同干预时，结果的期望差异。�
 
 [商品历史与单调定价问题](../问题/商品历史如何生成单调需求曲线并支持定价.md)补充价格响应建模这一相邻入口：TG-DIPricingNets用历史生成需求网络权重、以累计非负因子约束价格方向，再按毛利枚举价格。它在本模块作为响应预测与因果效应的边界案例；观测销量预测、形状约束和历史利润分组均不自动建立因果识别。
 
-[历史发券日志如何估计补贴增量](../问题/历史发券日志如何估计补贴增量.md)从非随机指派切入。DeR-CFR 将处理前特征分为工具、混杂与调整表征，交替更新结果网络和逐样本权重，用两个结果头估计固定券相对不发券的增量。[论文精读](../../来源/SRC-DER-CFR/阅读笔记.md)
+[历史发券日志如何估计补贴增量](../问题/历史发券日志如何估计补贴增量.md)从非随机指派切入。DeR-CFR 将处理前特征分为工具、混杂与调整表征，交替更新结果网络和逐样本权重，用两个结果头估计固定券相对不发券的增量。MIM-DRCFR 共享三路编码的底层，对结果专用表征做跨臂平衡，并用互信息约束输出因素的依赖。 [DeR-CFR](../../来源/SRC-DER-CFR/阅读笔记.md) · [MIM-DRCFR](../../来源/SRC-MIM-DRCFR/阅读笔记.md)
 
 ## 先定义比较，再选择模型
 
@@ -42,9 +42,10 @@ $t_0$ 可以是不发券，也可以是当前策略；换了对照就换了问�
 | 联合折扣怎样同时建模和服务？ | 坐标级处理 Token 查询请求记忆，OBS 预训练后用 RCT LoRA 和门适配；通过处理并行复用请求编码 | [TaQFormer 精读](../../来源/SRC-TAQFORMER/阅读笔记.md) |
 | 能排序是否就能决定给多少补贴？ | AUUC看排序，分组效应误差看幅度；还需各动作的价值、成本与约束 | [POUL 的分箱实验](../../来源/SRC-POUL/阅读笔记.md#实验支持部分排序优势幅度校准仍然不足)、[TaQFormer 的预算分配算例](../问题/组合营销策略如何共享结构并估计因果增量.md#同样的增量为什么会选出不同的券) |
 | 结果集中在 0 天和全勤时，怎样估计触达增量？ | 对零推送与预设频次两个随机分配组，分别用两个端点及中间天数的分布重构 14 日活跃期望，再取两臂之差 | [推送频次增量的分布估计与校准](../问题/活跃天数集中在两端时怎样估计推送频次增量.md) |
+| 店铺券可能把订单从其他店移过来时，怎样估计平台总增量？ | 用用户平台总 GMV 约束候选结果分数，并用核销概率混合处理组的两条结果路径 | [跨店替代与平台净增量](../问题/跨店替代时怎样估计补贴的平台净增量.md) |
 | 商品量价异质性怎样建模，单调性是否等于因果性？ | 历史条件化参数、非负增量遮罩、预测后选价；仍需干预支持和识别条件 | [TG-DIPricingNets与补贴模型比较](../问题/商品历史如何生成单调需求曲线并支持定价.md) |
 
-T-Learner、Causal Forest、DESCN和POUL称为DRCFR的 Cheng 等互信息模型，目前只作为POUL论文内部基线理解，不据此声称已独立精读。后续补基础或多值/连续干预资料时，围绕相同目标量、数据生成与支持条件比较，不另建一份同义的“增益模型”百科。
+T-Learner、Causal Forest 和 DESCN 可在 POUL 的基线对比中定位。POUL 表中的 DRCFR 引用对应 Cheng 等的 MIM-DRCFR，独立精读见上文。后续补基础或多值/连续干预资料时，围绕相同目标量、数据生成与支持条件比较，不另建一份同义的“增益模型”百科。
 
 ## 与评估、决策和序贯学习怎样衔接
 

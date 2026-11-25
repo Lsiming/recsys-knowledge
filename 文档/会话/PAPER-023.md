@@ -6,7 +6,7 @@
 |---|---|---|
 | P34 Multi-Treatment-DML | [arXiv 2508.02183v2](https://arxiv.org/abs/2508.02183v2) | 原文和 LaTeX 已取得 |
 | P23 EEUEN | [ICDM 2021 DOI](https://doi.org/10.1109/ICDM51629.2021.00138) | 身份已核实。当前 IEEE 原文请求失败，开放存档未找到全文 |
-| P122 CanniUplift | [arXiv 2607.05242v1](https://arxiv.org/abs/2607.05242v1) | 已归入完整流程组，原文和 LaTeX 已取得 |
+| P122 CanniUplift | [arXiv 2607.05242v1](https://arxiv.org/abs/2607.05242v1) | 完整流程组。17 页中文译文逐页核查，精读和平台净增量问题页互链，原文与译文均已登录下载并核对 SHA-256 |
 | P36 MIM-DRCFR | [arXiv 2206.01022v1](https://arxiv.org/abs/2206.01022v1) | 8 页中文译文逐页检查并保存，精读和发券增量问题页互链。原文与译文均已登录下载并核对 SHA-256 |
 | P04 XTNet | [arXiv 2511.01641v1](https://arxiv.org/abs/2511.01641v1) | 原文和 LaTeX 已取得 |
 
