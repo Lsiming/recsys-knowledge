@@ -2475,5 +2475,199 @@
     "evidence_url": "https://arxiv.org/abs/2202.08812v1",
     "evidence_sha256": "8d32ea857a16838f993ef26e4c0b95ca4ee6f790e4ec8c9092fa4a320f24ee39",
     "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-GQA",
+    "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+    "original_url": "https://arxiv.org/pdf/2305.13245v1",
+    "revision": "arXiv 2305.13245v1，2023-05-22",
+    "status": "local-only",
+    "reason": "6 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "authors": [
+      "Joshua Ainslie",
+      "James Lee-Thorp",
+      "Michiel de Jong",
+      "Yury Zemlyanskiy",
+      "Federico Lebrón",
+      "Sumit Sanghai"
+    ],
+    "evidence_url": "https://arxiv.org/pdf/2305.13245v1",
+    "evidence_sha256": "7b27c9aee2fd1eb8cbd2a2f25ba5e9268a9a72965f9c3567103dc72e7ed18d52"
+  },
+  {
+    "source_id": "SRC-PUSHGEN",
+    "title": "PushGen: Push Notifications Generation with LLM",
+    "original_url": "https://arxiv.org/pdf/2512.14490v1",
+    "revision": "arXiv 2512.14490v1（2025-12-16），WSDM 2026 DOI 10.1145/3773966.3779373",
+    "status": "local-only",
+    "reason": "7 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "authors": [
+      "Shifu Bie",
+      "Jiangxia Cao",
+      "Zixiao Luo",
+      "Yichuan Zou",
+      "Lei Liang",
+      "Lu Zhang",
+      "Linxun Chen",
+      "Zhaojie Liu",
+      "Xuanping Li",
+      "Guorui Zhou",
+      "Kaiqiao Zhan",
+      "Kun Gai"
+    ],
+    "evidence_url": "https://arxiv.org/pdf/2512.14490v1",
+    "evidence_sha256": "c3a560f0b064c535f90078bfbd4411acd1db25414008951d4e606ddca17bde50"
+  },
+  {
+    "source_id": "SRC-SWIGLU",
+    "title": "GLU Variants Improve Transformer",
+    "original_url": "https://arxiv.org/pdf/2002.05202v1",
+    "revision": "arXiv 2002.05202v1，2020-02-12",
+    "status": "local-only",
+    "reason": "4 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "authors": [
+      "Noam Shazeer"
+    ],
+    "evidence_url": "https://arxiv.org/pdf/2002.05202v1",
+    "evidence_sha256": "7398ae8b163722a6b5410fb975722adbe6b5f6f9c7f1efa584f1c6b79eaa93e2"
+  },
+  {
+    "source_id": "SRC-ALIBI",
+    "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+    "original_url": "https://arxiv.org/pdf/2108.12409v1",
+    "revision": "arXiv 2108.12409v1，2021-08-27",
+    "status": "local-only",
+    "reason": "20 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "authors": [
+      "Ofir Press",
+      "Noah A. Smith",
+      "Mike Lewis"
+    ],
+    "evidence_url": "https://arxiv.org/pdf/2108.12409v1",
+    "evidence_sha256": "c1bf5a313b5e16d955dfa3a860a76ae697f9c1541383390c71480169a176c908"
+  },
+  {
+    "source_id": "SRC-LINKEDIN-NOTIFICATION-GNN",
+    "title": "Large Scalable Cross-Domain Graph Neural Networks for Personalized Notification at LinkedIn",
+    "original_url": "https://arxiv.org/pdf/2506.12700v1",
+    "revision": "arXiv 2506.12700v1（2025-06-15）；CIKM 2025 出版题名不同，DOI 10.1145/3746252.3761581",
+    "status": "local-only",
+    "reason": "7 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Shihai He",
+      "Julie Choi",
+      "Tianqi Li",
+      "Zhiwei Ding",
+      "Peng Du",
+      "Priya Bannur",
+      "Franco Liang",
+      "Fedor Borisyuk",
+      "Padmini Jaikumar",
+      "Xiaobing Xue",
+      "Viral Gupta"
+    ],
+    "evidence_url": "https://arxiv.org/pdf/2506.12700v1",
+    "evidence_sha256": "c4a880ee9d7798f3d6aa7b40c0fda52d07fcffdf4176205bbe1e1e1e99c02d0d",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "source_id": "SRC-STEPS",
+    "title": "A Self-Triggered Agentic Push Recommendation System",
+    "original_url": "https://arxiv.org/pdf/2608.01949v1",
+    "revision": "arXiv 2608.01949v1（2026-08-03）；RecSys 2026，DOI 10.1145/3773078.3831932",
+    "status": "local-only",
+    "reason": "7 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Zhao-Yu Zhang",
+      "Qingying Chen",
+      "Chunyuan Zheng",
+      "Jing Zhou",
+      "Jian Sun",
+      "Siqi Chen",
+      "Leiying Chen",
+      "Chuan Zhou",
+      "Huiyou Jiang",
+      "Xin Tao",
+      "Haoxuan Li",
+      "Zhouchen Lin"
+    ],
+    "evidence_url": "https://arxiv.org/pdf/2608.01949v1",
+    "evidence_sha256": "24dd5195d38be884d28f1d7f71a532642ca6a0aaa0410cffda7608a880f8e4c8",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "source_id": "SRC-FAIR-NOTIFICATION",
+    "title": "Fair Notification Optimization: An Auction Approach",
+    "original_url": "https://arxiv.org/pdf/2302.04835v1",
+    "revision": "arXiv 2302.04835v1（2023-02-09）",
+    "status": "local-only",
+    "reason": "16 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Christian Kroer",
+      "Deeksha Sinha",
+      "Xuan Zhang",
+      "Shiwen Cheng",
+      "Ziyu Zhou"
+    ],
+    "evidence_url": "https://arxiv.org/pdf/2302.04835v1",
+    "evidence_sha256": "eff59d41e1ef69d62a20fc3b5d6034d96f1d1bd629709d9fd9b4008bb2491ab8",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  {
+    "source_id": "SRC-HGENPUSH",
+    "title": "HGenPush: A Heterogeneous Generative Recommendation Architecture for Industrial Push Notification Systems",
+    "original_url": "https://arxiv.org/pdf/2607.03362v1",
+    "revision": "arXiv 2607.03362v1（2026-07-03），KDD 2026 V.2 DOI 10.1145/3770855.3818429",
+    "status": "local-only",
+    "reason": "11 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Xiao Liang",
+      "Jiali Feng",
+      "Xin Feng",
+      "Yiqing Wang",
+      "Baolin Ye",
+      "Siyao Feng",
+      "Zhihui Deng",
+      "Cunyi Zhang",
+      "Huajin Sun",
+      "Xuanping Li",
+      "Kaiqiao Zhan",
+      "Yanan Niu",
+      "Kun Gai"
+    ],
+    "evidence_url": "https://arxiv.org/pdf/2607.03362v1",
+    "evidence_sha256": "36e81449d940ab105c75bdc7e3806eccdd128bf50de1bfe0b4086890edcc2acb",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-ALERT-NOW-OR-NEVER",
+    "title": "Alert Now or Never: Understanding and Predicting Notification Preferences of Smartphone Users",
+    "original_url": "https://doi.org/10.1145/3478868",
+    "revision": "ACM TOCHI 29(5), Article 39，2022-11，DOI 10.1145/3478868",
+    "status": "local-only",
+    "reason": "29 页中文正文 PDF 已逐页目视并完成私有认证下载。正式 Markdown 译文未发布。",
+    "checked_on": "2026-11-25",
+    "authors": [
+      "Tianshi Li",
+      "Julia Katherine Haines",
+      "Miguel Flores Ruiz de Eguino",
+      "Jason I. Hong",
+      "Jeffrey Nichols"
+    ],
+    "evidence_url": "https://doi.org/10.1145/3478868",
+    "evidence_sha256": "b89857c3a6458b36178aee3f762f6d7453db5cfa120a93b6abbb167d484f081d",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]

@@ -1,0 +1,39 @@
+{
+  "id": "SRC-FAIR-NOTIFICATION",
+  "title": "Fair Notification Optimization: An Auction Approach",
+  "kind": "paper",
+  "state": "active",
+  "current": "6af872de1b2ea319ea8b0d97d922004b70a1d3b44774eddb44952777023ae122",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2302.04835v1",
+      "revision": "arXiv 2302.04835v1（2023-02-09）",
+      "read_scope": "核对摘要、§1–7、算法 1、正文两图三表及附录中的比例性和节奏稳定性证据；未运行官方实现。",
+      "artifacts": [
+        {
+          "name": "FAIR-NOTIFICATION.2302.04835v1.pdf",
+          "sha256": "eff59d41e1ef69d62a20fc3b5d6034d96f1d1bd629709d9fd9b4008bb2491ab8",
+          "snapshot": ".local/sources/SRC-FAIR-NOTIFICATION/eff59d41e1ef69d62a20fc3b5d6034d96f1d1bd629709d9fd9b4008bb2491ab8/FAIR-NOTIFICATION.2302.04835v1.pdf"
+        },
+        {
+          "name": "FAIR-NOTIFICATION.2302.04835v1.source.tar.gz",
+          "sha256": "af42be21755806c17c280b09f1f78f3692de99b5ab96638f144fc6e0b55f8904",
+          "snapshot": ".local/sources/SRC-FAIR-NOTIFICATION/af42be21755806c17c280b09f1f78f3692de99b5ab96638f144fc6e0b55f8904/FAIR-NOTIFICATION.2302.04835v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "6af872de1b2ea319ea8b0d97d922004b70a1d3b44774eddb44952777023ae122",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "2764ef876e6d02e0cd7c22e9f9d649d773c1d104ed7a172374be8e4f0ed4e884",
+        "pages": [
+          "notification-quota-timing",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "固定 v1 正文与附录对照，按同一个候选演算 FP 和 SP 的扣费及用户容量边界，分开核查两组线上 A/B 与离线模拟。核对第 9 页伪代码与第 14 页原图，保留门槛等号、平台预算索引及表 3 排印问题。中文译文 16 页已逐页目视。未运行官方代码。"
+      }
+    }
+  ]
+}

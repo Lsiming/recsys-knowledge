@@ -1,0 +1,39 @@
+{
+  "id": "SRC-LINKEDIN-NOTIFICATION-GNN",
+  "title": "Large Scalable Cross-Domain Graph Neural Networks for Personalized Notification at LinkedIn",
+  "kind": "paper",
+  "state": "active",
+  "current": "ea9fda755ec78e5cd7cd1243d0c3859cad700e0901f759b2b3e4f100558bae44",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2506.12700v1",
+      "revision": "arXiv 2506.12700v1（2025-06-15）；CIKM 2025 出版题名不同，DOI 10.1145/3746252.3761581",
+      "read_scope": "核对固定预印本摘要、§1–8、五图五表、七个公式与参考文献引用。未运行作者实现。",
+      "artifacts": [
+        {
+          "name": "LINKEDIN-NOTIFICATION-GNN.2506.12700v1.pdf",
+          "sha256": "c4a880ee9d7798f3d6aa7b40c0fda52d07fcffdf4176205bbe1e1e1e99c02d0d",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-GNN/c4a880ee9d7798f3d6aa7b40c0fda52d07fcffdf4176205bbe1e1e1e99c02d0d/LINKEDIN-NOTIFICATION-GNN.2506.12700v1.pdf"
+        },
+        {
+          "name": "LINKEDIN-NOTIFICATION-GNN.2506.12700v1.source.tar.gz",
+          "sha256": "b17e26386e0fce25c046ccb2b43919ee11262c1a283f4272da08d54e8ce0a67b",
+          "snapshot": ".local/sources/SRC-LINKEDIN-NOTIFICATION-GNN/b17e26386e0fce25c046ccb2b43919ee11262c1a283f4272da08d54e8ce0a67b/LINKEDIN-NOTIFICATION-GNN.2506.12700v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "ea9fda755ec78e5cd7cd1243d0c3859cad700e0901f759b2b3e4f100558bae44",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "0ed01fc7e460a09b673abb773f194bec2162ce5c848a1a99d51dc65db037b0cb",
+        "pages": [
+          "multidomain-parameter-sharing",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "对照固定预印本摘要、§1–8、五图五表及七式，检查跨域图、样本时间线、任务标签、线上读取接口和 14 天 A/B 的基线。复核两条阅读路线与候选表中的同名条目，保留式 7 和时段数量疑点。中文 PDF 已逐页目视，未运行作者实现。"
+      }
+    }
+  ]
+}

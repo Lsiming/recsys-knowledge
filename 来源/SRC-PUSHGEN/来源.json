@@ -1,0 +1,39 @@
+{
+  "id": "SRC-PUSHGEN",
+  "title": "PushGen: Push Notifications Generation with LLM",
+  "kind": "paper",
+  "state": "active",
+  "current": "da350c1c4d588497fc7de289b6cce848cc4e1c07e62d188ca9b5e47e34939dde",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2512.14490v1",
+      "revision": "arXiv 2512.14490v1（2025-12-16），WSDM 2026 DOI 10.1145/3773966.3779373",
+      "read_scope": "核对固定版摘要、§1–5、四图、三表、训练式、权重式和线上指标定义。未运行作者实现。",
+      "artifacts": [
+        {
+          "name": "PUSHGEN.2512.14490v1.pdf",
+          "sha256": "c3a560f0b064c535f90078bfbd4411acd1db25414008951d4e606ddca17bde50",
+          "snapshot": ".local/sources/SRC-PUSHGEN/c3a560f0b064c535f90078bfbd4411acd1db25414008951d4e606ddca17bde50/PUSHGEN.2512.14490v1.pdf"
+        },
+        {
+          "name": "PUSHGEN.2512.14490v1.source.tar.gz",
+          "sha256": "2ce2a99a41b197cc433ffbf932802631a84cdd9d3c4f572dc2e9bbe49a797edc",
+          "snapshot": ".local/sources/SRC-PUSHGEN/2ce2a99a41b197cc433ffbf932802631a84cdd9d3c4f572dc2e9bbe49a797edc/PUSHGEN.2512.14490v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "da350c1c4d588497fc7de289b6cce848cc4e1c07e62d188ca9b5e47e34939dde",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "5465c3b0cc343fe84fcb1cafbeac3e04125e9b610401508b80737330c4001d6f",
+        "pages": [
+          "generative-preference-alignment",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "对照固定版 §1–5、四图三表及原式，使用同一视频算例检查输入、监督、筛选和线上指标。复核置信权重、交叉引用和直接成对概率与分差口径的冲突，确认图和译文逐页验收及两条阅读路线，未运行作者实现。"
+      }
+    }
+  ]
+}

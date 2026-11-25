@@ -1,0 +1,39 @@
+{
+  "id": "SRC-STEPS",
+  "title": "A Self-Triggered Agentic Push Recommendation System",
+  "kind": "paper",
+  "state": "active",
+  "current": "5f1c750c574a8f91ccf7c0b97915fe08186334c1150ad3850bba3bea3c184d95",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2608.01949v1",
+      "revision": "arXiv 2608.01949v1（2026-08-03）；RecSys 2026，DOI 10.1145/3773078.3831932",
+      "read_scope": "核对固定版摘要、§1–5、8 图 7 表及正负轨迹奖励、序数解码、价值引导和部署接口。未运行作者实现。",
+      "artifacts": [
+        {
+          "name": "STEPS.2608.01949v1.pdf",
+          "sha256": "24dd5195d38be884d28f1d7f71a532642ca6a0aaa0410cffda7608a880f8e4c8",
+          "snapshot": ".local/sources/SRC-STEPS/24dd5195d38be884d28f1d7f71a532642ca6a0aaa0410cffda7608a880f8e4c8/STEPS.2608.01949v1.pdf"
+        },
+        {
+          "name": "STEPS.2608.01949v1.source.tar.gz",
+          "sha256": "053c972a789c97d87e20d69257fa192418730645ab93ddeb5f3f9f36c7dc7af8",
+          "snapshot": ".local/sources/SRC-STEPS/053c972a789c97d87e20d69257fa192418730645ab93ddeb5f3f9f36c7dc7af8/STEPS.2608.01949v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "5f1c750c574a8f91ccf7c0b97915fe08186334c1150ad3850bba3bea3c184d95",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "c75780eaad7960ff0f9b009a55b3220bce6583f5ee7c32780d0c945327f0df87",
+        "pages": [
+          "notification-send-or-wait",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "以固定 v1 对照图 2–4 和 8，沿同一算例核对回报条件、调用间隔、动作软标签和提前过滤。复核表 1–7 的指标与不同资源分母，保留 Bellman 索引及发送分档疑点。按候选、场景、问题和模块反查改链。正文译文 7 页逐页目视，未运行作者实现。"
+      }
+    }
+  ]
+}

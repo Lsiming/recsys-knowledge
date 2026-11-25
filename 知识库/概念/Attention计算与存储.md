@@ -3,10 +3,10 @@ id: "attention-compute-memory"
 title: "Attention的平方矩阵、KV缓存与FlashAttention"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-21"
+updated: "2026-11-25"
 summary: "比较显式分数矩阵、逐层 KV 缓存与 FlashAttention 的分块前向、反向重算和显存读写"
-aliases: ["Attention Score存储", "平方复杂度", "KV Cache", "FlashAttention", "online softmax", "FP16显存", "prefill", "decode"]
-sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-FLASHATTENTION": "12fc356b011202b581abd7a8aff9c9e237f7636fab0e7216cd452054c2e77616", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-SASREC": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b", "SRC-SASREC-CODE": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff"}
+aliases: ["Attention Score存储", "平方复杂度", "KV Cache", "FlashAttention", "online softmax", "FP16显存", "prefill", "decode", "GQA", "MQA", "分组查询注意力"]
+sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-GQA": "a692bc16c6d261c636858345d76d0c78939995f739a00b7d0b100a0dc8f7182a", "SRC-FLASHATTENTION": "12fc356b011202b581abd7a8aff9c9e237f7636fab0e7216cd452054c2e77616", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-SASREC": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b", "SRC-SASREC-CODE": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff"}
 related: ["self-attention-context", "transformer-position"]
 ---
 # Attention的平方矩阵、KV缓存与FlashAttention
@@ -27,9 +27,15 @@ related: ["self-attention-context", "transformer-position"]
 
 $$2LBT H_{kv}d_h,$$
 
-再乘实际每元素字节数。MHA取$H_{kv}=H$；GQA/MQA的KV头更少，不能用Query头数代替KV头数估存储。代码可静态核对Llama的`n_kv_heads`与`cache_k/cache_v`形状；此处未核验不同头共享方式的模型质量。
+再乘实际每元素字节数。MHA取$H_{kv}=H$；GQA/MQA的KV头更少，不能用Query头数代替KV头数估存储。代码可静态核对Llama的`n_kv_heads`与`cache_k/cache_v`形状；质量证据见下文的同规模 T5 对照。
 
 无缓存重算完整前缀时，每步不仅重算旧K/V，还重算旧位置的多层状态、投影和FFN。缓存后每层新Query仍读取历史Key：给定长度$P$的固定前缀，再逐步处理$N$个新位置，匹配数按$\sum_{t=1}^N(P+t)=NP+N(N+1)/2$增长；它没有消除位置匹配的累计平方项。Prefill可并行编码已知前缀，decode依赖新Token逐步到来。[静态缓存实现](../../来源/SRC-LLAMA-CACHE-CODE/阅读笔记.md)
+
+## 多个查询头怎样共享缓存
+
+设有 $H$ 个查询头、$G$ 个等大的组，并且 $G$ 整除 $H$。每组只为各历史位置投影并保存一套键和值。组内每个查询头仍用自己的 Query 对相同的键打分，再用自己的分布聚合同一组值。$G=H$ 时是 MHA，$G=1$ 时是 MQA，中间为 GQA。固定 $B,T,d_h$ 时，未复制的 KV 字节数随 $G$ 线性变化，查询头数及每头的打分位置数仍由 $H,T$ 决定。若在内核里物化广播结果，或在多设备上重复存储键值组，实际节省还要按实现计算。[GQA §2.2，作者图 2 与算例](../../来源/SRC-GQA/阅读笔记.md#继续生成摘要时哪些头共享键和值)
+
+已有 MHA 检查点可以将各组内的 Key 权重取平均、Value 权重单独取平均，保留每个 Query 投影，随后用原目标追加预训练以适应共享。GQA 在 T5.1.1 XXL 的解码器自注意力和交叉注意力使用这项转换。按表 1，续训原步数 5% 的 GQA-8 用 0.28 s 得到平均开发分数 47.1，MQA 为 0.24 s 和 46.5，原 MHA-XXL 为 1.51 s 和 47.2。耗时是 TPUv4 贪心解码下的单芯片每样本耗时，分数平均了摘要、翻译、问答的不同指标。固定版图 3 列 ms，与表 1 列 s 有差异，数字沿用表 1。[GQA §3 与实验口径](../../来源/SRC-GQA/阅读笔记.md#在什么预算和任务下靠近-mha)
 
 ## 因果缓存成立需要固定哪些条件
 

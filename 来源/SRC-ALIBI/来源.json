@@ -1,0 +1,38 @@
+{
+  "id": "SRC-ALIBI",
+  "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+  "kind": "paper",
+  "state": "active",
+  "current": "9205215d28ab579ef775b0d31efeedc190fda20adcfd85b3c223b03609fd1215",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2108.12409v1",
+      "revision": "arXiv 2108.12409v1，2021-08-27",
+      "read_scope": "核对摘要、正文 §1–7、图 1–10及支撑结论的附录表 1–3、5、11–15。重点核对头斜率、分段和滑窗以及等时和等更新两套协议。未运行作者实现。",
+      "artifacts": [
+        {
+          "name": "ALIBI.2108.12409v1.pdf",
+          "sha256": "c1bf5a313b5e16d955dfa3a860a76ae697f9c1541383390c71480169a176c908",
+          "snapshot": ".local/sources/SRC-ALIBI/c1bf5a313b5e16d955dfa3a860a76ae697f9c1541383390c71480169a176c908/ALIBI.2108.12409v1.pdf"
+        },
+        {
+          "name": "ALIBI.2108.12409v1.source.tar.gz",
+          "sha256": "302401933f34cddbfc83aaa3cd75defb5b041776c1febd54832e1fe5ff027088",
+          "snapshot": ".local/sources/SRC-ALIBI/302401933f34cddbfc83aaa3cd75defb5b041776c1febd54832e1fe5ff027088/ALIBI.2108.12409v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "9205215d28ab579ef775b0d31efeedc190fda20adcfd85b3c223b03609fd1215",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "aa1b588da199d97154cccbcfa23a1adf0a6a9380a6a81bb3e1b5ca86557a90e6",
+        "pages": [
+          "transformer-position"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "回查 v1 正文、六幅承重图及附录。复核距离排序、头斜率、Softmax 算例、缓存条件、等时间和等更新步结果及滑窗困惑度。保留附录表 1 对 §2.4 速度口径的勘误，中文本全页验收后复查五张变更页。未运行作者实现。"
+      }
+    }
+  ]
+}

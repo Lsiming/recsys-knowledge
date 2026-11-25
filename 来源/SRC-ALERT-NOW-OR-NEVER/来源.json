@@ -1,0 +1,34 @@
+{
+  "id": "SRC-ALERT-NOW-OR-NEVER",
+  "title": "Alert Now or Never: Understanding and Predicting Notification Preferences of Smartphone Users",
+  "kind": "paper",
+  "state": "active",
+  "current": "57e095823e9ffce7048f304c7abe43f3ebf49f66e3be4c88f599cf90d4a73e45",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3478868",
+      "revision": "ACM TOCHI 29(5), Article 39，2022-11，DOI 10.1145/3478868",
+      "read_scope": "精读摘要及 §1–8，核对九图与表 1–4、问卷与模型评估、附录在采用版的范围；未运行作者实现。",
+      "artifacts": [
+        {
+          "name": "ALERT-NOW-OR-NEVER.10.1145.3478868.pdf",
+          "sha256": "b89857c3a6458b36178aee3f762f6d7453db5cfa120a93b6abbb167d484f081d",
+          "snapshot": ".local/sources/SRC-ALERT-NOW-OR-NEVER/b89857c3a6458b36178aee3f762f6d7453db5cfa120a93b6abbb167d484f081d/ALERT-NOW-OR-NEVER.10.1145.3478868.pdf"
+        }
+      ],
+      "fingerprint": "57e095823e9ffce7048f304c7abe43f3ebf49f66e3be4c88f599cf90d4a73e45",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "65ef59fb52499adf310454e757756c836fed22cace41b02d725d1b2719e91fa5",
+        "pages": [
+          "notification-send-or-wait",
+          "push-timing-reading-path"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "对照采用版摘要、§1–8、九图四表及附录范围。以同一包裹通知检查 ESM 监督、按应用和内容匹配、回归训练与阈值使用，复核 ROC 分母和图 8 图注。中文 PDF 29 页已逐页目视，未运行作者实现。"
+      }
+    }
+  ]
+}

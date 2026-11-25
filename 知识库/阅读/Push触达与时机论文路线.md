@@ -3,10 +3,10 @@ id: "push-timing-reading-path"
 title: "Push触达与时机：2022—2026年工业论文路线"
 type: "map"
 status: "reviewed"
-updated: "2026-11-24"
+updated: "2026-11-25"
 summary: "从日内时槽分配、发送或等待到自触发调度，筛选大厂Push时机与长期收益论文"
 aliases: ["Push", "触达时机", "通知推荐", "send time optimization", "notification", "STEPS", "TIM", "DeepPvisit", "FairNotification"]
-sources: {"SRC-TIM": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-DEEPPVISIT": "aa6d1ae3ebfa9bd10e9bbb91c3fa3a72dd8b4d55883eb93fb57a1c9c7909b643", "SRC-LINKEDIN-NOTIFICATION-DT": "fc6bb3e6f9d1c6e37e985c4e476ba04d4ebe7cd98b06cc2c86306487d440bb37", "SRC-LINKEDIN-NOTIFICATION-RL": "ef357491d3cab9d1ef0b5c7ae57c02e90fde83a37d16638834449bd9faafba25", "SRC-LINKEDIN-NOTIFICATION-MORL": "9e68931195cc0bfabac0c1f987ac7d43fbf7a58e0a65d9f097b120d0546140f7", "SRC-TWITTER-NOTIFICATION-RL": "27524dfa0cb734e161ae9ce60d0726bdc11adc2483feb827e63eac349dac5bed"}
+sources: {"SRC-TIM": "7e73df972b74f7b7b888353975a737296196afba65d0623bfdb242ea4620bf8f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-DEEPPVISIT": "aa6d1ae3ebfa9bd10e9bbb91c3fa3a72dd8b4d55883eb93fb57a1c9c7909b643", "SRC-LINKEDIN-NOTIFICATION-DT": "fc6bb3e6f9d1c6e37e985c4e476ba04d4ebe7cd98b06cc2c86306487d440bb37", "SRC-LINKEDIN-NOTIFICATION-RL": "ef357491d3cab9d1ef0b5c7ae57c02e90fde83a37d16638834449bd9faafba25", "SRC-LINKEDIN-NOTIFICATION-MORL": "9e68931195cc0bfabac0c1f987ac7d43fbf7a58e0a65d9f097b120d0546140f7", "SRC-TWITTER-NOTIFICATION-RL": "27524dfa0cb734e161ae9ce60d0726bdc11adc2483feb827e63eac349dac5bed", "SRC-PUSHGEN": "da350c1c4d588497fc7de289b6cce848cc4e1c07e62d188ca9b5e47e34939dde", "SRC-LINKEDIN-NOTIFICATION-GNN": "ea9fda755ec78e5cd7cd1243d0c3859cad700e0901f759b2b3e4f100558bae44", "SRC-STEPS": "5f1c750c574a8f91ccf7c0b97915fe08186334c1150ad3850bba3bea3c184d95", "SRC-FAIR-NOTIFICATION": "6af872de1b2ea319ea8b0d97d922004b70a1d3b44774eddb44952777023ae122", "SRC-HGENPUSH": "88b0601665bc07fe5d2584541b62dd20c6dc1643c87b49f232f596216eded5b6", "SRC-ALERT-NOW-OR-NEVER": "57e095823e9ffce7048f304c7abe43f3ebf49f66e3be4c88f599cf90d4a73e45"}
 related: ["paper-candidates", "exploration-longterm", "evaluation-bias", "multitask-objectives", "user-sequence", "serving-efficiency", "push-offer-contact", "notification-quota-timing"]
 ---
 # Push触达与时机：2022—2026年工业论文路线
@@ -25,7 +25,7 @@ Push的关键约束是用户没有主动打开推荐流：系统要决定是否�
 | 队列里的通知现在发还是再等等？ | [P77 · Offline RL](候选论文.md#p77)，LinkedIn，CIKM2022 | 非强时效通知，每隔几小时检查候选，学习SEND/NOT-SEND及通知间隔 |
 | 事件到达时，怎样兼顾回访、点击和发送量？ | [P78 · 多目标Offline RL](候选论文.md#p78)，LinkedIn，KDD2022 | 近实时通知，用保守Q学习优化多目标长期奖励；决策时点由外部事件提供 |
 | 怎样用序列监督学习替代Q学习式策略？ | [P79 · 多目标DT](../../来源/SRC-LINKEDIN-NOTIFICATION-DT/阅读笔记.md)，LinkedIn，2025预印本 | 历史轨迹与目标回报条件化的发送/跳过；仍不直接生成最佳连续时间 |
-| 下一次何时再调用系统，届时是否发送？ | [P75 · STEPS](候选论文.md#p75)，字节/抖音，RecSys2026 | 规划代理预测下次调用时间，执行代理决定是否发送；另有轻过滤与业务事件触发 |
+| 下一次何时再调用系统，届时是否发送？ | [STEPS 精读](../../来源/SRC-STEPS/阅读笔记.md)，字节/抖音，RecSys2026 | 规划代理预测下次调用时间，执行代理决定是否发送；另有轻过滤与业务事件触发 |
 
 ### TIM：先学一天中哪些时段更适合触达
 
@@ -51,7 +51,7 @@ TIM把长期通知接收、点击、观看等交互组织成“天×时槽”，
 
 ### STEPS：连下次何时决策也一起学习
 
-STEPS把固定轮询改为自触发闭环：基于Decision Transformer的规划代理通过门控序数回归预测下一次调用时间，执行代理按轨迹奖励判断是否发送。轻量过滤器在昂贵召回/排序前筛掉低价值请求，并限制不合理规划；直播等业务事件仍可触发系统，因此并非完全取消外部事件。方法见[固定v1全文](https://arxiv.org/html/2608.01949v1)§3，出版身份见[RecSys2026 DOI](https://doi.org/10.1145/3773078.3831932)。
+STEPS把固定轮询改为自触发闭环：基于Decision Transformer的规划代理通过门控序数回归预测下一次调用时间，执行代理按轨迹奖励判断是否发送。轻量过滤器在昂贵召回/排序前筛掉低价值请求，并限制不合理规划；直播等业务事件仍可触发系统，因此并非完全取消外部事件。完整时间解码、执行价值和成本分母见[STEPS 精读](../../来源/SRC-STEPS/阅读笔记.md)。出版身份见[RecSys 2026 DOI](https://doi.org/10.1145/3773078.3831932)。
 
 作者在§4.1 Table 1的抖音14天、设备随机A/B中，相对预先规划频次的生产基线，报告User Active Days +0.2843%、关闭Push权限的用户数−1.9089%、资源消耗−79.42%。资源下降主要来自轻量过滤器，不能解释成单纯“更准地预测时机就省了79%”。这一方向最直接覆盖“何时再决策+届时是否发”，但需要轨迹数据、执行与规划协调、过滤和事件兜底，工程投入高于单独替换时槽预测器。
 
@@ -59,7 +59,9 @@ STEPS把固定轮询改为自触发闭环：基于Decision Transformer的规划�
 
 [DeepPvisit](../../来源/SRC-DEEPPVISIT/阅读笔记.md)以同一个未来访问窗比较两条路径：继续等待沿用原状态已过时长，立即发送重新起算。下一条通知先于访问到来时，似然用到已知的未访问时长。作者在一周实验中仅替换旧 AFT 效用模型，报告卡片数下降和通知 CTR 上升，Macrosessions 与 WAU 变化未显著。
 
-[P82 · Meta Fair Notification](候选论文.md#p82)把通知类型与用户机会建模为拍卖/公平分配，适合多业务争夺触达容量的场景。它处理资源分配与pacing，不是单用户最佳发送时间模型。[P86 · Google/CMU TOCHI2022](候选论文.md#p86)提供用户打扰偏好证据：一周、35人体验采样发现，减少不想要提醒时，抑制可能比延迟更符合偏好；内容也会显著影响偏好。小样本用户研究不能替代生产增长A/B。
+[Fair Notification Optimization 精读](../../来源/SRC-FAIR-NOTIFICATION/阅读笔记.md)把通知类型当作虚拟买家，用预算、节奏乘数和逐用户价格分配容量。生成时刻来自上游，候选到达后过价即发。两次线上 A/B 分别检验集中拍卖和计价规则，具体基线见[通知配额问题](../问题/给定配额怎样安排通知发送时机.md#多个通知类型怎样共享同一用户的容量)。
+
+[Alert Now or Never](../../来源/SRC-ALERT-NOW-OR-NEVER/阅读笔记.md)通过一周 Android 体验采样收集通知栏送达和声音提醒的偏好。525 条训练标签里，静默送达占 26%，立即送达后延迟提醒占 6.3%。行为模型聚合同一用户历史相似通知的动作和响应时间，在 79 条共同覆盖测试样本上的 ROC AUC 为 0.749。它比较的是主观偏好预测，和生产策略 A/B 的活跃、打扰指标口径不同。
 
 [TSIL](../../来源/SRC-TSIL/阅读笔记.md)是 STEPS 预规划基线引用的活跃建模工作。它用端点分类和中间天数分布估计 14 日活跃期望，比较零推送与预设频次，并据效用重新分配容量。原文实验按频次干预，具体发送日的选择还需日期级别的动作和对照。
 
@@ -67,7 +69,7 @@ STEPS把固定轮询改为自触发闭环：基于Decision Transformer的规划�
 
 ## 内容推荐与发送时机分别看
 
-[P83 · HGenPush](候选论文.md#p83)，快手KDD2026，用异构生成式推荐处理视频与作者等候选；[P84 · PushGen](候选论文.md#p84)，快手WSDM2026，用LLM生成通知文案；[P85 · LinkedIn跨域GNN](候选论文.md#p85)，CIKM2025，利用跨域行为改进通知表示。这些都值得作为Push内容链路阅读，但时间特征、时序聚合或CTR提升本身，不等于学到了何时触达。
+[HGenPush 精读](../../来源/SRC-HGENPUSH/阅读笔记.md)，快手 KDD 2026，共享行为主干分别生成视频码与作者混合码，生成候选跳过粗排进入精排；[PushGen](../../来源/SRC-PUSHGEN/阅读笔记.md)，快手 WSDM 2026，用视频事实和风格条件生成文案，再以同视频 A/B 胜负训练判别器做替换筛选；[LinkedIn 跨域 GNN](../../来源/SRC-LINKEDIN-NOTIFICATION-GNN/阅读笔记.md)，CIKM 2025，把动态、邮件与通知的行为合入异构图，每日批产会员表示供第二阶段排序器判断发送资格和排序。时序聚合编码已有事件，触发时刻由下游链路决定。固定 v1 表 5 的 14 天 A/B 比较 SPR 接入向量前后的完整变化，站内 CTR +0.62%、Push CTR +0.30%、WAU +0.10%。三个方法在内容链路里分别改变候选、文案和排序输入。
 
 如果要从业务问题选择第一篇：已有每日配额、先改善日内分发，读TIM；主要痛点是疲劳和频控，读LinkedIn的两篇2022论文；希望进一步统一长期轨迹、唤醒时间与调用成本，再读2025 DT和STEPS。多业务配额冲突补Fair Notification，用户打扰偏好补TOCHI。评估时同时报告活跃/回访、发送量、权限关闭或投诉与总成本，CTR仅是其中一项；不同平台、基线、随机化单位与实验周期的相对提升不能直接排序。相关基础见[长期策略模块](../模块/探索、长期收益与策略学习.md)、[多目标模块](../模块/多任务学习与多目标决策.md)、[序列建模](../模块/用户兴趣与序列建模.md)、[服务效率](../模块/在线服务、更新与计算效率.md)与[因果评估](../模块/评估、偏差与因果收益.md)。
 
@@ -75,4 +77,4 @@ STEPS把固定轮询改为自触发闭环：基于Decision Transformer的规划�
 
 Meta官方[facebookresearch/FairNotification](https://github.com/facebookresearch/FairNotification/tree/5f37544360a20df9fc3a462a196bc71427d240d3)的README明确关联Fair Notification论文，包含模拟、指标分析、派生数据notebook及Julia的Eisenberg–Gale求解文件；README提供[Instagram通知数据入口](https://socialmediaarchive.org/record/55?&ln=en)。代码许可为CC-BY-NC-4.0，复用时需核对非商业限制。本轮只静态核对固定commit的README与目录，未下载数据、运行notebook或验证可复现性。TIM、STEPS及LinkedIn核心策略论文，本轮未找到能够确认对应的官方实现；这不表示它们一定没有开源。
 
-检索截至 2026-11-24。TIM、DeepPvisit、TSIL 和 LinkedIn 通知 DT 的采用版本及正文中文 PDF 见各篇精读，其余资料的定向阅读范围见候选表。未运行模型实验。
+检索截至 2026-11-25。采用版本、阅读范围及正文中文 PDF 见各篇精读。未运行模型实验。

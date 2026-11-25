@@ -1,0 +1,38 @@
+{
+  "id": "SRC-SWIGLU",
+  "title": "GLU Variants Improve Transformer",
+  "kind": "paper",
+  "state": "active",
+  "current": "a1144cd80273c95ec480c9efc2b5afcf19548593ab8f95edc058775ef89ff451",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2002.05202v1",
+      "revision": "arXiv 2002.05202v1，2020-02-12",
+      "read_scope": "固定版摘要与正文 §1–4、式 (1)–(6)、表 1–4及脚注。重点核对标准 FFN、门控双投影、宽度对齐与 T5 训练和微调口径。未运行作者实现。",
+      "artifacts": [
+        {
+          "name": "SWIGLU.2002.05202v1.pdf",
+          "sha256": "7398ae8b163722a6b5410fb975722adbe6b5f6f9c7f1efa584f1c6b79eaa93e2",
+          "snapshot": ".local/sources/SRC-SWIGLU/7398ae8b163722a6b5410fb975722adbe6b5f6f9c7f1efa584f1c6b79eaa93e2/SWIGLU.2002.05202v1.pdf"
+        },
+        {
+          "name": "SWIGLU.2002.05202v1.source.tar.gz",
+          "sha256": "94e32360bed874304f3f7cd0deacb94c3c72fc4528b1e1b38efad23ebba14224",
+          "snapshot": ".local/sources/SRC-SWIGLU/94e32360bed874304f3f7cd0deacb94c3c72fc4528b1e1b38efad23ebba14224/SWIGLU.2002.05202v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "a1144cd80273c95ec480c9efc2b5afcf19548593ab8f95edc058775ef89ff451",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "4e792a3b41fcd043e0878955e33691e83a1302ddf8a7939e646842ba81257bc4",
+        "pages": [
+          "transformer-ffn-gating"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "回查固定正文六式四表、矩阵宽度对齐与训练协议。按同一 T5 片段填充样本自查计算、任务监督、两路梯度、结果边界及原表展示，合并 FFN 概念和三处阅读入口。中文 PDF 四页已目视，未运行作者实现。"
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "inventory_note": "116篇中文PDF均已私有备份并登录下载核验；按来源ID登记，原文、旧构建和图表不计为独立中文PDF。",
   "entries": [
     {
@@ -5072,6 +5072,381 @@
         "size_bytes": 508318,
         "pages": 12,
         "verified_download_sha256": "72f4cf670733b20494d89531c4fb3508747eac6804ffd3d2430d10ced9eb560c"
+      }
+    },
+    {
+      "source_id": "SRC-ALIBI",
+      "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+      "original_url": "https://arxiv.org/pdf/2108.12409v1",
+      "revision": "arXiv 2108.12409v1，2021-08-27",
+      "input_sha256": "2dc7ef7ec43633572a70ba486ec2ffca1acdceb6e82aad37c0f515b80482a6e6",
+      "input_pages": 20,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明与脚注，保留图内文字、英文附录与书目。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Ofir Press",
+          "Noah A. Smith",
+          "Mike Lewis"
+        ],
+        "original_pdf_sha256": "c1bf5a313b5e16d955dfa3a860a76ae697f9c1541383390c71480169a176c908",
+        "evidence_url": "https://arxiv.org/pdf/2108.12409v1",
+        "evidence_sha256": "c1bf5a313b5e16d955dfa3a860a76ae697f9c1541383390c71480169a176c908",
+        "notes": "固定 arXiv 采用版使用非独占分发条款，未核实公开全文翻译许可。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-22-22",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-ALIBI.zh-CN.private.20261125.1.pdf",
+        "sha256": "2dc7ef7ec43633572a70ba486ec2ffca1acdceb6e82aad37c0f515b80482a6e6",
+        "size_bytes": 659131,
+        "pages": 20,
+        "verified_download_sha256": "2dc7ef7ec43633572a70ba486ec2ffca1acdceb6e82aad37c0f515b80482a6e6"
+      }
+    },
+    {
+      "source_id": "SRC-SWIGLU",
+      "title": "GLU Variants Improve Transformer",
+      "original_url": "https://arxiv.org/pdf/2002.05202v1",
+      "revision": "arXiv 2002.05202v1，2020-02-12",
+      "input_sha256": "d800474f0c9fe448a915b014290114f068847f2178432ea40f8f1eb914059182",
+      "input_pages": 4,
+      "duplicate_count": 0,
+      "scope": "摘要、正文与表注，保留公式和书目。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Noam Shazeer"
+        ],
+        "original_pdf_sha256": "7398ae8b163722a6b5410fb975722adbe6b5f6f9c7f1efa584f1c6b79eaa93e2",
+        "evidence_url": "https://arxiv.org/pdf/2002.05202v1",
+        "evidence_sha256": "7398ae8b163722a6b5410fb975722adbe6b5f6f9c7f1efa584f1c6b79eaa93e2",
+        "notes": "固定 arXiv 采用版使用非独占分发条款，未核实公开全文翻译许可。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-22-22",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-SWIGLU.zh-CN.private.20261125.1.pdf",
+        "sha256": "d800474f0c9fe448a915b014290114f068847f2178432ea40f8f1eb914059182",
+        "size_bytes": 215875,
+        "pages": 4,
+        "verified_download_sha256": "d800474f0c9fe448a915b014290114f068847f2178432ea40f8f1eb914059182"
+      }
+    },
+    {
+      "source_id": "SRC-GQA",
+      "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+      "original_url": "https://arxiv.org/pdf/2305.13245v1",
+      "revision": "arXiv 2305.13245v1，2023-05-22",
+      "input_sha256": "61ca1a576998ff3b031a0302e96bc8632efb142006a01f3a6b31ca3ae9d2e431",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明、脚注与致谢，保留图内文字、英文附录与书目。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Joshua Ainslie",
+          "James Lee-Thorp",
+          "Michiel de Jong",
+          "Yury Zemlyanskiy",
+          "Federico Lebrón",
+          "Sumit Sanghai"
+        ],
+        "original_pdf_sha256": "7b27c9aee2fd1eb8cbd2a2f25ba5e9268a9a72965f9c3567103dc72e7ed18d52",
+        "evidence_url": "https://arxiv.org/pdf/2305.13245v1",
+        "evidence_sha256": "7b27c9aee2fd1eb8cbd2a2f25ba5e9268a9a72965f9c3567103dc72e7ed18d52",
+        "notes": "固定采用版标示 CC BY 4.0，保留作者署名、来源和翻译说明。PDF 在私有库维护。",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-22-22",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-GQA.zh-CN.private.20261125.1.pdf",
+        "sha256": "61ca1a576998ff3b031a0302e96bc8632efb142006a01f3a6b31ca3ae9d2e431",
+        "size_bytes": 346594,
+        "pages": 6,
+        "verified_download_sha256": "61ca1a576998ff3b031a0302e96bc8632efb142006a01f3a6b31ca3ae9d2e431"
+      }
+    },
+    {
+      "source_id": "SRC-LINKEDIN-NOTIFICATION-GNN",
+      "title": "Large Scalable Cross-Domain Graph Neural Networks for Personalized Notification at LinkedIn",
+      "original_url": "https://arxiv.org/pdf/2506.12700v1",
+      "revision": "arXiv 2506.12700v1（2025-06-15）；CIKM 2025 出版题名不同，DOI 10.1145/3746252.3761581",
+      "input_sha256": "929802add2117533f802a5308a9e106e4ffc1f8b0d8c402dacf478f0c73f2f34",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明与作者脚注，保留公式、图内文字与书目。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Shihai He",
+          "Julie Choi",
+          "Tianqi Li",
+          "Zhiwei Ding",
+          "Peng Du",
+          "Priya Bannur",
+          "Franco Liang",
+          "Fedor Borisyuk",
+          "Padmini Jaikumar",
+          "Xiaobing Xue",
+          "Viral Gupta"
+        ],
+        "original_pdf_sha256": "c4a880ee9d7798f3d6aa7b40c0fda52d07fcffdf4176205bbe1e1e1e99c02d0d",
+        "evidence_url": "https://arxiv.org/pdf/2506.12700v1",
+        "evidence_sha256": "c4a880ee9d7798f3d6aa7b40c0fda52d07fcffdf4176205bbe1e1e1e99c02d0d",
+        "notes": "固定采用版标示 CC BY 4.0，保留作者署名、来源和翻译说明。PDF 在私有库维护。",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-22-22",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-LINKEDIN-NOTIFICATION-GNN.zh-CN.private.20261125.1.pdf",
+        "sha256": "929802add2117533f802a5308a9e106e4ffc1f8b0d8c402dacf478f0c73f2f34",
+        "size_bytes": 630183,
+        "pages": 7,
+        "verified_download_sha256": "929802add2117533f802a5308a9e106e4ffc1f8b0d8c402dacf478f0c73f2f34"
+      }
+    },
+    {
+      "source_id": "SRC-STEPS",
+      "title": "A Self-Triggered Agentic Push Recommendation System",
+      "original_url": "https://arxiv.org/pdf/2608.01949v1",
+      "revision": "arXiv 2608.01949v1（2026-08-03）；RecSys 2026，DOI 10.1145/3773078.3831932",
+      "input_sha256": "335d544983ed99dd7646af383cac5101a26b21e2f3a9b0d2ba280008308dc1f4",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明与脚注，保留公式、图内文字与书目。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Zhao-Yu Zhang",
+          "Qingying Chen",
+          "Chunyuan Zheng",
+          "Jing Zhou",
+          "Jian Sun",
+          "Siqi Chen",
+          "Leiying Chen",
+          "Chuan Zhou",
+          "Huiyou Jiang",
+          "Xin Tao",
+          "Haoxuan Li",
+          "Zhouchen Lin"
+        ],
+        "original_pdf_sha256": "24dd5195d38be884d28f1d7f71a532642ca6a0aaa0410cffda7608a880f8e4c8",
+        "evidence_url": "https://arxiv.org/pdf/2608.01949v1",
+        "evidence_sha256": "24dd5195d38be884d28f1d7f71a532642ca6a0aaa0410cffda7608a880f8e4c8",
+        "notes": "固定采用版标示 CC BY 4.0，保留作者署名、来源和翻译说明。PDF 在私有库维护。",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-22-22",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-STEPS.zh-CN.private.20261125.1.pdf",
+        "sha256": "335d544983ed99dd7646af383cac5101a26b21e2f3a9b0d2ba280008308dc1f4",
+        "size_bytes": 3304119,
+        "pages": 7,
+        "verified_download_sha256": "335d544983ed99dd7646af383cac5101a26b21e2f3a9b0d2ba280008308dc1f4"
+      }
+    },
+    {
+      "source_id": "SRC-FAIR-NOTIFICATION",
+      "title": "Fair Notification Optimization: An Auction Approach",
+      "original_url": "https://arxiv.org/pdf/2302.04835v1",
+      "revision": "arXiv 2302.04835v1（2023-02-09）",
+      "input_sha256": "4ee10c75a79fce8a8f0417fc27cffacf3d3585f8a26f4e1961b92cd75fe2ef7d",
+      "input_pages": 16,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表及算法说明，保留公式、英文附录与书目。",
+      "status": "private",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Christian Kroer",
+          "Deeksha Sinha",
+          "Xuan Zhang",
+          "Shiwen Cheng",
+          "Ziyu Zhou"
+        ],
+        "original_pdf_sha256": "eff59d41e1ef69d62a20fc3b5d6034d96f1d1bd629709d9fd9b4008bb2491ab8",
+        "evidence_url": "https://arxiv.org/pdf/2302.04835v1",
+        "evidence_sha256": "eff59d41e1ef69d62a20fc3b5d6034d96f1d1bd629709d9fd9b4008bb2491ab8",
+        "notes": "固定版使用 CC BY-NC-ND 4.0，演绎全文仅按既有授权私有备份。",
+        "license_id": "CC-BY-NC-ND-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-22-22",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-FAIR-NOTIFICATION.zh-CN.private.20261125.1.pdf",
+        "sha256": "4ee10c75a79fce8a8f0417fc27cffacf3d3585f8a26f4e1961b92cd75fe2ef7d",
+        "size_bytes": 1143555,
+        "pages": 16,
+        "verified_download_sha256": "4ee10c75a79fce8a8f0417fc27cffacf3d3585f8a26f4e1961b92cd75fe2ef7d"
+      }
+    },
+    {
+      "source_id": "SRC-PUSHGEN",
+      "title": "PushGen: Push Notifications Generation with LLM",
+      "original_url": "https://arxiv.org/pdf/2512.14490v1",
+      "revision": "arXiv 2512.14490v1（2025-12-16），WSDM 2026 DOI 10.1145/3773966.3779373",
+      "input_sha256": "c66317714123d1ed79dd5b58cdd2f9de257b912209ca41972ccdd3eb97217504",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明与作者信息，保留公式、图内文字与书目。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Shifu Bie",
+          "Jiangxia Cao",
+          "Zixiao Luo",
+          "Yichuan Zou",
+          "Lei Liang",
+          "Lu Zhang",
+          "Linxun Chen",
+          "Zhaojie Liu",
+          "Xuanping Li",
+          "Guorui Zhou",
+          "Kaiqiao Zhan",
+          "Kun Gai"
+        ],
+        "original_pdf_sha256": "c3a560f0b064c535f90078bfbd4411acd1db25414008951d4e606ddca17bde50",
+        "evidence_url": "https://arxiv.org/pdf/2512.14490v1",
+        "evidence_sha256": "c3a560f0b064c535f90078bfbd4411acd1db25414008951d4e606ddca17bde50",
+        "notes": "采用 PDF 首页标示 CC BY 4.0，arXiv 版本条目列非独占分发。保留两处证据，公开全文翻译许可未统一确认。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-22-22",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-PUSHGEN.zh-CN.private.20261125.1.pdf",
+        "sha256": "c66317714123d1ed79dd5b58cdd2f9de257b912209ca41972ccdd3eb97217504",
+        "size_bytes": 2139167,
+        "pages": 7,
+        "verified_download_sha256": "c66317714123d1ed79dd5b58cdd2f9de257b912209ca41972ccdd3eb97217504"
+      }
+    },
+    {
+      "source_id": "SRC-HGENPUSH",
+      "title": "HGenPush: A Heterogeneous Generative Recommendation Architecture for Industrial Push Notification Systems",
+      "original_url": "https://arxiv.org/pdf/2607.03362v1",
+      "revision": "arXiv 2607.03362v1（2026-07-03），KDD 2026 V.2 DOI 10.1145/3770855.3818429",
+      "input_sha256": "079f178c76cbebdb0efcec11bf549f516bd13f43a8da4d03c367f908e57079b7",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明与作者信息，保留公式、图内文字与书目。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Xiao Liang",
+          "Jiali Feng",
+          "Xin Feng",
+          "Yiqing Wang",
+          "Baolin Ye",
+          "Siyao Feng",
+          "Zhihui Deng",
+          "Cunyi Zhang",
+          "Huajin Sun",
+          "Xuanping Li",
+          "Kaiqiao Zhan",
+          "Yanan Niu",
+          "Kun Gai"
+        ],
+        "original_pdf_sha256": "36e81449d940ab105c75bdc7e3806eccdd128bf50de1bfe0b4086890edcc2acb",
+        "evidence_url": "https://arxiv.org/pdf/2607.03362v1",
+        "evidence_sha256": "36e81449d940ab105c75bdc7e3806eccdd128bf50de1bfe0b4086890edcc2acb",
+        "notes": "采用 PDF 首页标示 CC BY 4.0，arXiv 版本条目列非独占分发。保留两处证据，公开全文翻译许可未统一确认。"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-22-22",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-HGENPUSH.zh-CN.private.20261125.1.pdf",
+        "sha256": "079f178c76cbebdb0efcec11bf549f516bd13f43a8da4d03c367f908e57079b7",
+        "size_bytes": 989421,
+        "pages": 11,
+        "verified_download_sha256": "079f178c76cbebdb0efcec11bf549f516bd13f43a8da4d03c367f908e57079b7"
+      }
+    },
+    {
+      "source_id": "SRC-ALERT-NOW-OR-NEVER",
+      "title": "Alert Now or Never: Understanding and Predicting Notification Preferences of Smartphone Users",
+      "original_url": "https://doi.org/10.1145/3478868",
+      "revision": "ACM TOCHI 29(5), Article 39，2022-11，DOI 10.1145/3478868",
+      "input_sha256": "98e581e374a23b75858843b5544e78de35438c52f3ab5816d3a8e00debc985d4",
+      "input_pages": 29,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–8、图表说明与脚注，保留图内英文、附录与全部书目。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-25",
+        "authors": [
+          "Tianshi Li",
+          "Julia Katherine Haines",
+          "Miguel Flores Ruiz de Eguino",
+          "Jason I. Hong",
+          "Jeffrey Nichols"
+        ],
+        "original_pdf_sha256": "b89857c3a6458b36178aee3f762f6d7453db5cfa120a93b6abbb167d484f081d",
+        "evidence_url": "https://doi.org/10.1145/3478868",
+        "evidence_sha256": "b89857c3a6458b36178aee3f762f6d7453db5cfa120a93b6abbb167d484f081d",
+        "notes": "固定采用版标示 CC BY 4.0，保留作者署名、来源和翻译说明。PDF 在私有库维护。",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261125-batch-22-22",
+        "translation_version": "20261125.1",
+        "asset_name": "SRC-ALERT-NOW-OR-NEVER.zh-CN.private.20261125.1.pdf",
+        "sha256": "98e581e374a23b75858843b5544e78de35438c52f3ab5816d3a8e00debc985d4",
+        "size_bytes": 1656073,
+        "pages": 29,
+        "verified_download_sha256": "98e581e374a23b75858843b5544e78de35438c52f3ab5816d3a8e00debc985d4"
       }
     }
   ],

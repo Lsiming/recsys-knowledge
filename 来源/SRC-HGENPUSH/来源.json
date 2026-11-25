@@ -1,0 +1,40 @@
+{
+  "id": "SRC-HGENPUSH",
+  "title": "HGenPush: A Heterogeneous Generative Recommendation Architecture for Industrial Push Notification Systems",
+  "kind": "paper",
+  "state": "active",
+  "current": "88b0601665bc07fe5d2584541b62dd20c6dc1643c87b49f232f596216eded5b6",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2607.03362v1",
+      "revision": "arXiv 2607.03362v1（2026-07-03），KDD 2026 V.2 DOI 10.1145/3770855.3818429",
+      "read_scope": "核对摘要、§1–5、两图六表和正文公式，重点检查链式码生成、作者对齐和会话奖励；未运行作者实现。",
+      "artifacts": [
+        {
+          "name": "HGENPUSH.2607.03362v1.pdf",
+          "sha256": "36e81449d940ab105c75bdc7e3806eccdd128bf50de1bfe0b4086890edcc2acb",
+          "snapshot": ".local/sources/SRC-HGENPUSH/36e81449d940ab105c75bdc7e3806eccdd128bf50de1bfe0b4086890edcc2acb/HGENPUSH.2607.03362v1.pdf"
+        },
+        {
+          "name": "HGENPUSH.2607.03362v1.source.tar.gz",
+          "sha256": "d96cb1eaa9b961996916803f8c327dc541eefbdbee80ca32e566a208159198b3",
+          "snapshot": ".local/sources/SRC-HGENPUSH/d96cb1eaa9b961996916803f8c327dc541eefbdbee80ca32e566a208159198b3/HGENPUSH.2607.03362v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "88b0601665bc07fe5d2584541b62dd20c6dc1643c87b49f232f596216eded5b6",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a4a4fcf93e8eaa4b2ca72f89fb421f2a47a7c4b1adec5ac20202c9aa8fd7fae4",
+        "pages": [
+          "generative-preference-alignment",
+          "push-timing-reading-path",
+          "semantic-code-retrieval"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "固定 v1 正文对照两图六表，以视频码、混合码和会话消费算例检查教师目标、分层推断及排名接口。复核 InfoNCE 总式、零方差与线上 p 值。中文 PDF 11 页已逐页目视，未运行作者实现。"
+      }
+    }
+  ]
+}

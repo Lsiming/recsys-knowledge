@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-24，盘点134篇中文PDF，134篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-25，盘点143篇中文PDF，143篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -146,3 +146,12 @@
 | [Multi-objective Optimization of Notifications Using Offline Reinforcement Learning](https://arxiv.org/abs/2207.03029v1) · `SRC-LINKEDIN-NOTIFICATION-MORL` | 私有，需登录 · 20261124.1 · 7页 | [unverified](https://arxiv.org/abs/2207.03029v1) | 摘要、正文、图表和算法说明、致谢；保留公式、图内文字及书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
 | [Generative Sequential Notification Optimization via Multi-Objective Decision Transformers](https://arxiv.org/abs/2509.02458v1) · `SRC-LINKEDIN-NOTIFICATION-DT` | 私有，需登录 · 20261124.1 · 12页 | [CC-BY-4.0](https://arxiv.org/abs/2509.02458v1) | 摘要、正文、图表说明、署名脚注与致谢；保留公式、图内文字及书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
 | [Should I send this notification? Optimizing push notifications decision making by modeling the future](https://arxiv.org/abs/2202.08812v1) · `SRC-TWITTER-NOTIFICATION-RL` | 私有，需登录 · 20261124.1 · 12页 | [unverified](https://arxiv.org/abs/2202.08812v1) | 摘要、正文、图表说明、伪代码及作者脚注；保留图内文字、书目与附录 A。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation](https://arxiv.org/pdf/2108.12409v1) · `SRC-ALIBI` | 私有，需登录 · 20261125.1 · 20页 | [unverified](https://arxiv.org/pdf/2108.12409v1) | 摘要、正文、图表说明与脚注，保留图内文字、英文附录与书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [GLU Variants Improve Transformer](https://arxiv.org/pdf/2002.05202v1) · `SRC-SWIGLU` | 私有，需登录 · 20261125.1 · 4页 | [unverified](https://arxiv.org/pdf/2002.05202v1) | 摘要、正文与表注，保留公式和书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/pdf/2305.13245v1) · `SRC-GQA` | 私有，需登录 · 20261125.1 · 6页 | [CC-BY-4.0](https://arxiv.org/pdf/2305.13245v1) | 摘要、正文、图表说明、脚注与致谢，保留图内文字、英文附录与书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Large Scalable Cross-Domain Graph Neural Networks for Personalized Notification at LinkedIn](https://arxiv.org/pdf/2506.12700v1) · `SRC-LINKEDIN-NOTIFICATION-GNN` | 私有，需登录 · 20261125.1 · 7页 | [CC-BY-4.0](https://arxiv.org/pdf/2506.12700v1) | 摘要、正文、图表说明与作者脚注，保留公式、图内文字与书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [A Self-Triggered Agentic Push Recommendation System](https://arxiv.org/pdf/2608.01949v1) · `SRC-STEPS` | 私有，需登录 · 20261125.1 · 7页 | [CC-BY-4.0](https://arxiv.org/pdf/2608.01949v1) | 摘要、正文、图表说明与脚注，保留公式、图内文字与书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Fair Notification Optimization: An Auction Approach](https://arxiv.org/pdf/2302.04835v1) · `SRC-FAIR-NOTIFICATION` | 私有，需登录 · 20261125.1 · 16页 | [CC-BY-NC-ND-4.0](https://arxiv.org/pdf/2302.04835v1) | 摘要、正文、图表及算法说明，保留公式、英文附录与书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [PushGen: Push Notifications Generation with LLM](https://arxiv.org/pdf/2512.14490v1) · `SRC-PUSHGEN` | 私有，需登录 · 20261125.1 · 7页 | [unverified](https://arxiv.org/pdf/2512.14490v1) | 摘要、正文、图表说明与作者信息，保留公式、图内文字与书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [HGenPush: A Heterogeneous Generative Recommendation Architecture for Industrial Push Notification Systems](https://arxiv.org/pdf/2607.03362v1) · `SRC-HGENPUSH` | 私有，需登录 · 20261125.1 · 11页 | [unverified](https://arxiv.org/pdf/2607.03362v1) | 摘要、正文、图表说明与作者信息，保留公式、图内文字与书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |
+| [Alert Now or Never: Understanding and Predicting Notification Preferences of Smartphone Users](https://doi.org/10.1145/3478868) · `SRC-ALERT-NOW-OR-NEVER` | 私有，需登录 · 20261125.1 · 29页 | [CC-BY-4.0](https://doi.org/10.1145/3478868) | 摘要、正文 §1–8、图表说明与脚注，保留图内英文、附录与全部书目。；正文译稿逐页目视，采用原文与中文 PDF 均认证下载并校验完整 SHA-256。 |

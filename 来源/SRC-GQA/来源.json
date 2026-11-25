@@ -1,0 +1,38 @@
+{
+  "id": "SRC-GQA",
+  "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+  "kind": "paper",
+  "state": "active",
+  "current": "a692bc16c6d261c636858345d76d0c78939995f739a00b7d0b100a0dc8f7182a",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2305.13245v1",
+      "revision": "arXiv 2305.13245v1，2023-05-22",
+      "read_scope": "核对固定版摘要、正文 §1–5、图 1–6、表 1 与附录 A；重点核对检查点平均、KV 头分组、追加预训练预算、质量与计时协议。未运行作者实现。",
+      "artifacts": [
+        {
+          "name": "GQA.2305.13245v1.pdf",
+          "sha256": "7b27c9aee2fd1eb8cbd2a2f25ba5e9268a9a72965f9c3567103dc72e7ed18d52",
+          "snapshot": ".local/sources/SRC-GQA/7b27c9aee2fd1eb8cbd2a2f25ba5e9268a9a72965f9c3567103dc72e7ed18d52/GQA.2305.13245v1.pdf"
+        },
+        {
+          "name": "GQA.2305.13245v1.source.tar.gz",
+          "sha256": "7534880f8a191619e00cfc28b4d127546426860be6c75f96ca24889d9702a2bd",
+          "snapshot": ".local/sources/SRC-GQA/7534880f8a191619e00cfc28b4d127546426860be6c75f96ca24889d9702a2bd/GQA.2305.13245v1.source.tar.gz"
+        }
+      ],
+      "fingerprint": "a692bc16c6d261c636858345d76d0c78939995f739a00b7d0b100a0dc8f7182a",
+      "retrieved_on": "2026-11-25",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "9b3b3df9be92bd4daed78fd0c86540916041cd91184ff6434258b19a3eaf3599",
+        "pages": [
+          "attention-compute-memory"
+        ],
+        "reviewed_on": "2026-11-25",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定版 §1–5、表 1、图 1–6 和附录 A。用同一摘要样本校验 Query、KV、分组投影、监督、梯度、解码以及缓存成本。反查源文、OneRec-V2 相关入口、题库解释和知识概念，区分固定长度图和多任务平均表。图 3 单位差异已对照 EMNLP 出版 PDF 并登记。未运行作者实现。"
+      }
+    }
+  ]
+}

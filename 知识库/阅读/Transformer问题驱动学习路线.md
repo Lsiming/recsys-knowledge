@@ -33,6 +33,8 @@ related: ["self-attention-context", "pretraining-task-transfer", "classic-readin
 
 先读[Transformer精读](../../来源/SRC-TRANSFORMER/阅读笔记.md)，说明编码器、因果解码器和交叉注意力的输入输出。再到[上下文问题页](../问题/序列怎样用自注意力建立上下文.md)，试着回答：Q/K/V为什么同源但不相等？分成8头后张量各有几维？Softmax沿哪一轴？为何按每头维度的平方根缩放？
 
+把每个位置汇聚后的状态送入[逐位置前馈层](../概念/逐位置前馈层的门控与宽度.md)，可以沿普通 FFN 和 SwiGLU 的两个计算路径比较隐藏宽度与训练预算。
+
 随后检查边界：把mask乘0为何不够？padding键与padding目标是否都处理了？无位置模型是置换等变还是置换不变？FFN是否跨Token混合？LN对哪些数求均值？这些问题应能写出公式或一个最小反例，而不只背诵“多头捕捉多种信息”。
 
 ## 把训练目标与网络结构分开
@@ -54,7 +56,7 @@ related: ["self-attention-context", "pretraining-task-transfer", "classic-readin
 | 位置如何进入 Q、K 的点积？ | [加性位置向量与 RoPE](../概念/Transformer位置编码.md#从加性位置向量到rope) | [RoFormer 的二维旋转与相对位移](../../来源/SRC-ROFORMER/阅读笔记.md) |
 | 精确注意力如何减少显存读写，反向时重新算什么？ | [分块前向与反向重算](../概念/Attention计算与存储.md#flashattention为什么不必保存完整概率矩阵) | [FlashAttention 的在线 Softmax、HBM 访问与算量](../../来源/SRC-FLASHATTENTION/阅读笔记.md) |
 
-长度外推、门控 FFN 和 KV 头共享各有不同的比较基线。三篇原文及待核问题见[后续补读 P127–P129](候选论文.md#transformer-followup)。此前的 [32 项覆盖审计](../../维护/Transformer知识覆盖审计.md)和 [102 题逐项核验](../../维护/Transformer历史问答沉淀核验.md)保留各自日期的范围。
+[SwiGLU 精读](../../来源/SRC-SWIGLU/阅读笔记.md)用相同矩阵预算比较普通 FFN 和门控 FFN。[GQA 精读](../../来源/SRC-GQA/阅读笔记.md)结合组内投影平均和追加训练比较 MHA、MQA 与 GQA。[ALiBi 精读](../../来源/SRC-ALIBI/阅读笔记.md)用不重叠与滑窗评估区分长输入的困惑度和远距离证据利用。此前的 [32 项覆盖审计](../../维护/Transformer知识覆盖审计.md)和 [102 题逐项核验](../../维护/Transformer历史问答沉淀核验.md)保留各自日期的范围。
 
 ## GitHub题目从哪里来
 

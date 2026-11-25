@@ -1,15 +1,15 @@
 ---
 id: "transformer-position"
-title: "Transformer的位置编码：正弦、学习表与RoPE"
+title: "Transformer的位置编码：正弦、学习表、RoPE 与 ALiBi"
 type: "concept"
 status: "reviewed"
-updated: "2026-11-21"
-summary: "比较正弦、学习位置表与 RoFormer 的相对旋转，解释旋转键缓存及长度外推的条件"
-aliases: ["正弦位置编码", "Sinusoidal PE", "pos和i", "高低频", "偶数维奇数维", "旋转矩阵", "RoPE", "KV Cache", "旋转Key"]
-sources: {"SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ROFORMER": "a83a7bdb16a8b48f55940315b3808f519552a41623ecfbe5e19cb219fc11fdb8", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-GPT1": "346378979c197abef55857af94342a537f9401868d4cac993cf0d3aab8260bee", "SRC-SASREC": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b", "SRC-SASREC-CODE": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff"}
+updated: "2026-11-25"
+summary: "比较绝对位置、相对旋转与注意力偏置，解释缓存及训练长度之外的评估条件"
+aliases: ["正弦位置编码", "Sinusoidal PE", "pos和i", "高低频", "偶数维奇数维", "旋转矩阵", "RoPE", "KV Cache", "旋转Key", "ALiBi", "线性距离偏置", "长度外推"]
+sources: {"SRC-ALIBI": "9205215d28ab579ef775b0d31efeedc190fda20adcfd85b3c223b03609fd1215", "SRC-TRANSFORMER": "2f1f9bf5db06a169aa117374ef34952e2b94e55aae46648e6f0d1280b4055d3e", "SRC-ROFORMER": "a83a7bdb16a8b48f55940315b3808f519552a41623ecfbe5e19cb219fc11fdb8", "SRC-LLAMA-CACHE-CODE": "e55e955775dd72fa548253694315647318567770485176edf06ac92b4beb54dc", "SRC-GPT1": "346378979c197abef55857af94342a537f9401868d4cac993cf0d3aab8260bee", "SRC-SASREC": "4d1a1790276a3327439223472a93ed9610e6da82fe26979fdd9c2f3f1f01432b", "SRC-SASREC-CODE": "823147e3d84a55fb68b603db06eda3adb8da208e69a03ba8c14d11f0347656ff"}
 related: ["self-attention-context", "transformer-training-translation"]
 ---
-# Transformer的位置编码：正弦、学习表与RoPE
+# Transformer的位置编码：正弦、学习表、RoPE 与 ALiBi
 
 不带位置机制的全可见自注意力对序列置换等变，逐位置FFN也不会主动编码Token次序；因而原始架构另需位置表示来区分顺序。原始Transformer把位置向量加到Token嵌入上，RoPE则在每层投影后旋转Q/K。位置机制和可见性mask是独立选择：RoPE既能用于因果注意力，也能用于双向注意力。
 
@@ -82,6 +82,8 @@ $$R(m)^\top R(n)=R(n-m),\qquad (q'_m)^\top k'_n=q_m^\top R(n-m)k_n.$$
 | 正弦绝对PE | 输入嵌入加固定向量 | 无位置表参数 | 公式可算更长位置，效果需验证 |
 | 学习式绝对PE | 输入嵌入加位置查表 | 每个位置的向量 | 未训练/未建表的位置需额外处理 |
 | RoPE | 每层投影后旋转Q/K | 原始频率预设，无传统位置表 | 旋转可算更长位置，效果需验证 |
+| T5 距离偏置 | 给 Attention logits 加按相对距离分桶的偏置 | 学习各桶偏置 | 多个大距离复用同桶，效果需验证 |
+| ALiBi | 给因果 Attention logits 加逐头固定线性距离偏置 | 斜率预设 | 可计算更长距离，长依赖能力需单独验证 |
 
 “相对位置编码”是方法族：例如T5使用相对距离桶给Attention logits加可学习偏置，与RoPE旋转内容向量不同，不能一概而论。具体方法见[T5精读](../../来源/SRC-T5/阅读笔记.md)。
 
@@ -90,6 +92,14 @@ $$R(m)^\top R(n)=R(n-m),\qquad (q'_m)^\top k'_n=q_m^\top R(n-m)k_n.$$
 对每组复数坐标，把内容乘积记为 $h_i$，以 $\Delta=m-n$ 记位置差。RoPE 的分数是 $\Re\sum_i h_i e^{\mathrm{i}\Delta\theta_i}$。令 $S_j(\Delta)=\sum_{i<j} e^{\mathrm{i}\Delta\theta_i}$，$h_{d/2}=0$。Abel 变换把复数和改写为 $-\sum_i S_{i+1}(h_{i+1}-h_i)$。不同角频率的部分和在较大位移处会更多相消，作者图 2 展示了 $\sum_j |S_j|$ 相关量的下降趋势和局部振荡。具体分数还取决于 $h_i$，注意力权重又取决于整行 Softmax 的其他分数。这个结论不意味着每对词的权重随距离均单调下降。
 
 采用可因式分解的线性注意力时，可以对查询与键的特征映射分别应用旋转，再先聚合旋转键的外积和值。原论文公式（19）的分母沿用未旋转的非负特征，以避免旋转后符号相消。分子权重因而可以为负，其和也不保证等于分母。中文 CAIL2019-SCM 长度 512 与 1024 的结果说明给同一模型更多文本可能有益，表 5 没有同长 1024 的 WoBERT，而且 RoFormer 训练覆盖过 1536。检验长度外推时，还要固定训练覆盖、比较方法与有效输入长度。[RoFormer §3.3–3.4、§4.5](../../来源/SRC-ROFORMER/阅读笔记.md)
+
+## ALiBi把相对距离直接加到分数
+
+设查询位置为 $i$，键位置为 $j$，头 $h$ 的固定斜率为 $m_h>0$。因果注意力先屏蔽 $j>i$，其余分数再加上 $-m_h(i-j)$，沿键轴做 Softmax。键位置增大到 $i$ 时，偏置从负值递增至零。任意两键内容分数相同时，远一格相对近一格的注意力权重比为 $e^{-m_h}$。内容差可以抵消距离差。8 头实验用 $m_h=2^{-h}$（$h=1,\ldots,8$），让不同头具有不同的偏好强度。[ALiBi 公式与同一句子的计算](../../来源/SRC-ALIBI/阅读笔记.md#在每个查询的位置把距离写进分数)
+
+与 RoPE 在内容点积中引入相对旋转相比，ALiBi 把位置贡献单独加到分数上。与 T5 可学习的距离桶相比，ALiBi 不训练位置参数，远处扣分也随距离继续增长。追加查询时，新的偏置按当前查询和可读键的相对距离重算，历史 K/V 可以在因果状态保持一致时沿用；本方法没有位置旋转后的键需要专门存储。
+
+对长度外推，要分别看位置项能算到什么范围、给定长度的困惑度是否退化、以及模型能否利用很远的证据。不重叠切分中，长度 $L$ 的每段里同样有 $r$ 个早期预测只有不超过 $r$ 个上下文词元。增大 $L$ 会降低这类预测的比例，即使模型利用的最远有效距离不变，平均 PPL 也可能改善。在 WikiText-103 上用步长 1 的滑窗减少边界效应后，ALiBi 的长输入 PPL 相对平稳，改善远小于非重叠切分。这给位置方法的对照增加了一项条件：固定训练长度、可见窗口和计分位置，再比较外推。具体长依赖能力还要分距离验证。[ALiBi 实验与附录表](../../来源/SRC-ALIBI/阅读笔记.md#更长的段减少了短上下文预测)
 
 ## 为什么缓存已经旋转的Key
 
