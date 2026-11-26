@@ -1,0 +1,38 @@
+{
+  "id": "SRC-LTR-DFL",
+  "title": "Decision-Focused Learning: Through the Lens of Learning to Rank",
+  "kind": "paper",
+  "state": "active",
+  "current": "fc33e59f4277fd975515c294c591bf326d9bdc78652c2eeef214aae1efdcdffb",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2112.03609v4",
+      "revision": "arXiv 2112.03609v4",
+      "read_scope": "正文 §1–6、候选缓存与排序损失、实验和问题定义附录。 作者 LaTeX 下载后未改动文件在本地重新打包。 未运行模型。",
+      "artifacts": [
+        {
+          "name": "2112.03609v4.pdf",
+          "sha256": "4f63fe45cb6863cb99b1c1c4c58f172abc11018e2b7eff9bc7a4b2e1eb08ccd6",
+          "snapshot": ".local/sources/SRC-LTR-DFL/4f63fe45cb6863cb99b1c1c4c58f172abc11018e2b7eff9bc7a4b2e1eb08ccd6/2112.03609v4.pdf"
+        },
+        {
+          "name": "2112.03609v4-source-repacked.tar.gz",
+          "sha256": "f1dfc11efcbeab2c98bbed74a0464363acfa8c2d11d1fb1072441d34131d64a0",
+          "snapshot": ".local/sources/SRC-LTR-DFL/f1dfc11efcbeab2c98bbed74a0464363acfa8c2d11d1fb1072441d34131d64a0/2112.03609v4-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "fc33e59f4277fd975515c294c591bf326d9bdc78652c2eeef214aae1efdcdffb",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "d528ded66de014581a388ad6e245aa17c488fe37844d84162b16d6dab2412c12",
+        "pages": [
+          "decision-focused-budget-learning"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "复核完整成本对候选池定序、并列处理、缓存扩展和后悔评价。 当前 Agent 核对固定原文与读者路径，译文逐页渲染，未运行模型。"
+      }
+    }
+  ]
+}

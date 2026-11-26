@@ -1,0 +1,38 @@
+{
+  "id": "SRC-SPO",
+  "title": "Smart “Predict, then Optimize”",
+  "kind": "paper",
+  "state": "active",
+  "current": "6b7e5341fbfa35bcea62b7a8255b170268ce3bab3701756b3a5cfe01ec27e145",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1710.08005v5",
+      "revision": "arXiv 1710.08005v5",
+      "read_scope": "正文、SPO/SPO+、Fisher 一致性条件、求解算法、数值实验及相应附录。 作者 LaTeX 下载后未改动文件在本地重新打包。 未运行模型。",
+      "artifacts": [
+        {
+          "name": "1710.08005v5.pdf",
+          "sha256": "56381283da01e0a21a861cc8d1bfda97b377095b64051d7d68156b94e848cc3b",
+          "snapshot": ".local/sources/SRC-SPO/56381283da01e0a21a861cc8d1bfda97b377095b64051d7d68156b94e848cc3b/1710.08005v5.pdf"
+        },
+        {
+          "name": "1710.08005v5-source-repacked.tar.gz",
+          "sha256": "6c7857493d1b8be4010f535ba815773995511a7c65aa09616955ef7de7246492",
+          "snapshot": ".local/sources/SRC-SPO/6c7857493d1b8be4010f535ba815773995511a7c65aa09616955ef7de7246492/1710.08005v5-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "6b7e5341fbfa35bcea62b7a8255b170268ce3bab3701756b3a5cfe01ec27e145",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "f714683e80320a5bb8e5ecfb74d00db713b67ab17e2922195bd6591d9d6dafc2",
+        "pages": [
+          "decision-focused-budget-learning"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "复核完整成本向量、扰动求解次梯度、Fisher 一致性与二分类指示笔误。 当前 Agent 核对固定原文与读者路径，译文逐页渲染，未运行模型。"
+      }
+    }
+  ]
+}

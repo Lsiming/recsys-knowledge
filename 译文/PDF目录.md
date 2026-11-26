@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-26，盘点168篇中文PDF，168篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-26，盘点176篇中文PDF，176篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -180,3 +180,11 @@
 | [VCNet and Functional Targeted Regularization For Learning Causal Effects of Continuous Treatments](https://arxiv.org/pdf/2103.07861v1) · `SRC-VCNET` | 私有，需登录 · 20261126.1 · 23页 | [unverified](https://arxiv.org/pdf/2103.07861v1) | 摘要、正文 §1–7、正文图表说明及描述性脚注。图内文字、参考文献和附录保留英文。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
 | [A framework for massive scale personalized promotion](https://arxiv.org/pdf/2108.12100v1) · `SRC-DIPN` | 私有，需登录 · 20261126.1 · 7页 | [CC-BY-NC-SA-4.0](https://arxiv.org/pdf/2108.12100v1) | 摘要、正文 §1–6、正文图表说明、表格及描述性脚注。图内文字与参考文献保留英文。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
 | [End-to-End Cost-Effective Incentive Recommendation under Budget Constraint with Uplift Modeling](https://arxiv.org/pdf/2408.11623v2) · `SRC-E3IR` | 私有，需登录 · 20261126.1 · 8页 | [unverified](https://arxiv.org/pdf/2408.11623v2) | 摘要、正文 §1–6、正文图表说明、描述性脚注及致谢。图内文字和参考文献保留英文，采用 PDF 无附录。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
+| [Rankability-enhanced Revenue Uplift Modeling Framework for Online Marketing](https://arxiv.org/pdf/2405.15301v2) · `SRC-RERUM` | 私有，需登录 · 20261126.1 · 10页 | [unverified](https://arxiv.org/abs/2405.15301v2) | 摘要、正文 §1–6、式 (1)–(21)、图表说明、算法叙述、作者说明和致谢。图内文字、参考文献及附录 A–D 保留原文。；10 页中文译本逐页渲染目视。采用原文与中文 PDF 均校验 Release 摘要、认证下载大小和完整 SHA-256。 |
+| [Heterogeneous Causal Learning for Effectiveness Optimization in User Marketing](https://arxiv.org/pdf/2004.09702v1) · `SRC-UBER-HCL` | 私有，需登录 · 20261126.1 · 6页 | [unverified](https://arxiv.org/abs/2004.09702v1) | 摘要、正文 §1–5、图表说明及公式。图内文字及参考文献保留原文。；6 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。 |
+| [Heterogeneous Causal Learning for Optimizing Aggregated Functions in User Growth](https://arxiv.org/pdf/2507.05510v1) · `SRC-DRM-CRM` | 私有，需登录 · 20261126.1 · 9页 | [not-permitted](https://arxiv.org/abs/2507.05510v1) | 摘要、正文 §1–5、图表说明及公式。图内文字、参考文献及附录 A–D 保留原文。；9 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。 |
+| [LBCF: A Large-Scale Budget-Constrained Causal Forest Algorithm](https://arxiv.org/pdf/2201.12585v2) · `SRC-LBCF` | 私有，需登录 · 20261126.1 · 8页 | [unverified](https://arxiv.org/abs/2201.12585v2) | 摘要、正文、致谢、算法叙述和正文图表说明。图内文字、参考文献和附录保留原文。；8 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。 |
+| [Smart “Predict, then Optimize”](https://arxiv.org/pdf/1710.08005v5) · `SRC-SPO` | 私有，需登录 · 20261126.1 · 34页 | [unverified](https://arxiv.org/abs/1710.08005v5) | 摘要、正文 §1–7、致谢、命题与正文图说明。保留原文公式及编号，解释 0–1 损失的印刷疑点。图内文字、参考文献与附录保留原文。；34 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。 |
+| [Decision-Focused Learning without Differentiable Optimization: Learning Locally Optimized Decision Losses](https://arxiv.org/pdf/2203.16067v4) · `SRC-LODL` | 私有，需登录 · 20261126.1 · 14页 | [CC-BY-4.0](https://arxiv.org/abs/2203.16067v4) | 摘要、正文 §1–6、致谢及资助说明、正文图表说明。图内文字、参考文献、检查表与附录 A–B 保留原文。；14 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。 |
+| [Decision-Focused Learning: Through the Lens of Learning to Rank](https://arxiv.org/pdf/2112.03609v4) · `SRC-LTR-DFL` | 私有，需登录 · 20261126.1 · 11页 | [CC-BY-4.0](https://arxiv.org/abs/2112.03609v4) | 摘要、正文 §1–6、致谢、算法叙述及正文图表说明。图内文字、参考文献与附录 A–C 保留原文。；11 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。 |
+| [Decision Focused Causal Learning for Direct Counterfactual Marketing Optimization](https://arxiv.org/pdf/2407.13664v1) · `SRC-DFCL` | 私有，需登录 · 20261126.1 · 10页 | [unverified](https://arxiv.org/abs/2407.13664v1) | 摘要、正文 §1–7、正文图表说明与公式。图内文字、参考文献与附录保留原文。；10 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。 |

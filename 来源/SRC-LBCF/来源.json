@@ -1,0 +1,39 @@
+{
+  "id": "SRC-LBCF",
+  "title": "LBCF: A Large-Scale Budget-Constrained Causal Forest Algorithm",
+  "kind": "paper",
+  "state": "active",
+  "current": "addedee4c4241631a33370c42f6583804004b35df80998e6042f6451ea6d4d17",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2201.12585v2",
+      "revision": "arXiv 2201.12585v2",
+      "read_scope": "§1–8、式 (1)–(9)、算法 1–3、图 1–6 及附录 A.1。 作者 LaTeX 下载后未改动文件在本地重新打包。 未运行模型。",
+      "artifacts": [
+        {
+          "name": "2201.12585v2.pdf",
+          "sha256": "41270916f5f694e94b20db55d4d1e3f5d92f174bdb6fd3b75c583ee167d07bca",
+          "snapshot": ".local/sources/SRC-LBCF/41270916f5f694e94b20db55d4d1e3f5d92f174bdb6fd3b75c583ee167d07bca/2201.12585v2.pdf"
+        },
+        {
+          "name": "2201.12585v2-source-repacked.tar.gz",
+          "sha256": "3a28af9f9d55efa8a1c6732f3d1ebadf7b97f23eefb856f39ca590d06795f054",
+          "snapshot": ".local/sources/SRC-LBCF/3a28af9f9d55efa8a1c6732f3d1ebadf7b97f23eefb856f39ca590d06795f054/2201.12585v2-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "addedee4c4241631a33370c42f6583804004b35df80998e6042f6451ea6d4d17",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "1326a102eb4278be21553bf9afe21e2718b34837544397a1471e21338ccee461",
+        "pages": [
+          "combinatorial-policy-uplift",
+          "coupon-uplift-evaluation"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "复核统一森林增量、DGB 对偶价格与策略分组离线评估，保留折点整数可行性边界。 当前 Agent 核对固定原文与读者路径，译文逐页渲染，未运行模型。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "SRC-RERUM",
+  "title": "Rankability-enhanced Revenue Uplift Modeling Framework for Online Marketing",
+  "kind": "paper",
+  "state": "active",
+  "current": "a345effae489b74e994633df9206ad820dc0c44a48f1b56b616f3172583e4bf6",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2405.15301v2",
+      "revision": "arXiv 2405.15301v2",
+      "read_scope": "§1–6、式 (3)–(21)、算法 1、图 1–4、表 1–4 与附录 C–D。 保留 arXiv 上游 LaTeX 源码原始压缩包。 未运行模型。",
+      "artifacts": [
+        {
+          "name": "2405.15301v2.pdf",
+          "sha256": "d9462f46ac4625f392b09ad86abc56fe90bcc37f5e18caad2486c5f9d3208871",
+          "snapshot": ".local/sources/SRC-RERUM/d9462f46ac4625f392b09ad86abc56fe90bcc37f5e18caad2486c5f9d3208871/2405.15301v2.pdf"
+        },
+        {
+          "name": "2405.15301v2-source.tar.gz",
+          "sha256": "3b6f9afaf5613a4b63801d5d9489d497a9185525808966b0c58ad5b4659bada1",
+          "snapshot": ".local/sources/SRC-RERUM/3b6f9afaf5613a4b63801d5d9489d497a9185525808966b0c58ad5b4659bada1/2405.15301v2-source.tar.gz"
+        }
+      ],
+      "fingerprint": "a345effae489b74e994633df9206ad820dc0c44a48f1b56b616f3172583e4bf6",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a435f4bc87b37f80100f77b2b6eb73906eead3475527e6ce4e06e193bd7a33e8",
+        "pages": [
+          "coupon-outcome-distribution",
+          "coupon-uplift-evaluation"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "回核付费概率与正额均值、两臂排序监督和 LIFT@2，保留误差类型与对数适用边界。 当前 Agent 核对固定原文与读者路径，译文逐页渲染，未运行模型。"
+      }
+    }
+  ]
+}

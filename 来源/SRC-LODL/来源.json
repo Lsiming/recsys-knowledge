@@ -1,0 +1,38 @@
+{
+  "id": "SRC-LODL",
+  "title": "Decision-Focused Learning without Differentiable Optimization: Learning Locally Optimized Decision Losses",
+  "kind": "paper",
+  "state": "active",
+  "current": "a36040b950f1ee4b4a2a0b97fffe2ead385d967d9dfcac64badc3d1655f6d2e9",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2203.16067v4",
+      "revision": "arXiv 2203.16067v4",
+      "read_scope": "正文与支撑局部损失构造、实验和采样范围的附录，另核对 NeurIPS 书目。 作者 LaTeX 下载后未改动文件在本地重新打包。 未运行模型。",
+      "artifacts": [
+        {
+          "name": "2203.16067v4.pdf",
+          "sha256": "295137e1794768c22014793cbc4e1c7ee54155d132b88ca22f111881be7695e2",
+          "snapshot": ".local/sources/SRC-LODL/295137e1794768c22014793cbc4e1c7ee54155d132b88ca22f111881be7695e2/2203.16067v4.pdf"
+        },
+        {
+          "name": "2203.16067v4-source-repacked.tar.gz",
+          "sha256": "fdf2f1f41702e33b5b6cc3b76884a5c95d6b5c3bfaccc7ade3f643844220aa59",
+          "snapshot": ".local/sources/SRC-LODL/fdf2f1f41702e33b5b6cc3b76884a5c95d6b5c3bfaccc7ade3f643844220aa59/2203.16067v4-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "a36040b950f1ee4b4a2a0b97fffe2ead385d967d9dfcac64badc3d1655f6d2e9",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "72318aab7416293625d4dd01da03e97decc97a8143ffa0e231ee3edf8647cf3c",
+        "pages": [
+          "decision-focused-budget-learning"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "复核探针、局部损失权重和计算摊销，在同一算例比较与在线法的区别。 当前 Agent 核对固定原文与读者路径，译文逐页渲染，未运行模型。"
+      }
+    }
+  ]
+}

@@ -6443,6 +6443,321 @@
         "pages": 8,
         "verified_download_sha256": "159ab372b0bfd600091f52b143e748f87b2dbe2af824572753455825809497b1"
       }
+    },
+    {
+      "source_id": "SRC-RERUM",
+      "title": "Rankability-enhanced Revenue Uplift Modeling Framework for Online Marketing",
+      "original_url": "https://arxiv.org/pdf/2405.15301v2",
+      "revision": "arXiv 2405.15301v2",
+      "input_sha256": "ced804be477cfb1334bdead51fc591c7c7af4f66cff9e325249908bd37378691",
+      "input_pages": 10,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、式 (1)–(21)、图表说明、算法叙述、作者说明和致谢。图内文字、参考文献及附录 A–D 保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Bowei He",
+          "Yunpeng Weng",
+          "Xing Tang",
+          "Ziqiang Cui",
+          "Zexu Sun",
+          "Liang Chen",
+          "Xiuqiang He",
+          "Chen Ma"
+        ],
+        "original_pdf_sha256": "d9462f46ac4625f392b09ad86abc56fe90bcc37f5e18caad2486c5f9d3208871",
+        "evidence_url": "https://arxiv.org/abs/2405.15301v2",
+        "evidence_sha256": "a8dd1567c4ebf495eb85f44bafba3ce17c25998150a7107bd288485c050a21a8",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "arXiv 固定 v2 为非独占分发许可，PDF 首页载 ACM 权利及个人／课堂使用声明，公开全文译文许可未确认。"
+      },
+      "reason": "10 页中文译本逐页渲染目视。采用原文与中文 PDF 均校验 Release 摘要、认证下载大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-07-08",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-RERUM.zh-CN.private.20261126.1.pdf",
+        "sha256": "ced804be477cfb1334bdead51fc591c7c7af4f66cff9e325249908bd37378691",
+        "size_bytes": 2235763,
+        "pages": 10,
+        "verified_download_sha256": "ced804be477cfb1334bdead51fc591c7c7af4f66cff9e325249908bd37378691"
+      }
+    },
+    {
+      "source_id": "SRC-UBER-HCL",
+      "title": "Heterogeneous Causal Learning for Effectiveness Optimization in User Marketing",
+      "original_url": "https://arxiv.org/pdf/2004.09702v1",
+      "revision": "arXiv 2004.09702v1",
+      "input_sha256": "197536e916c2aafb83a88d935fc7b0b38515637ff9639c5c1159d02bec9dcbd7",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、图表说明及公式。图内文字及参考文献保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Zou, Will Y.",
+          "Du, Shuyang",
+          "Lee, James",
+          "Pedersen, Jan"
+        ],
+        "original_pdf_sha256": "0a4f2f48abbef1ffaf40478161922ea5a5c66a1319863c8df6843ad1fe7a0176",
+        "evidence_url": "https://arxiv.org/abs/2004.09702v1",
+        "evidence_sha256": "1c8c5f7395c6122e45617aced47139dc30a6d82b0966d55058a3444cb5fed03c",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notes": "固定版 arXiv 入口标为 CC BY-SA 4.0，采用 PDF 同时载有 ACM 模板权利声明。保留两项依据，未确认本库公开全文译文所用授权。"
+      },
+      "reason": "6 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-07-08",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-UBER-HCL.zh-CN.private.20261126.1.pdf",
+        "sha256": "197536e916c2aafb83a88d935fc7b0b38515637ff9639c5c1159d02bec9dcbd7",
+        "size_bytes": 1909505,
+        "pages": 6,
+        "verified_download_sha256": "197536e916c2aafb83a88d935fc7b0b38515637ff9639c5c1159d02bec9dcbd7"
+      }
+    },
+    {
+      "source_id": "SRC-DRM-CRM",
+      "title": "Heterogeneous Causal Learning for Optimizing Aggregated Functions in User Growth",
+      "original_url": "https://arxiv.org/pdf/2507.05510v1",
+      "revision": "arXiv 2507.05510v1",
+      "input_sha256": "f5061a43369b276b8a81f9c47d4d0001ac2ec80e70e5cbf6ddd6280e4477b0ac",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、图表说明及公式。图内文字、参考文献及附录 A–D 保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Du, Shuyang",
+          "Zhang, Jennifer",
+          "Zou, Will Y."
+        ],
+        "original_pdf_sha256": "c1381c73f6ac6adc6cb510e65799f7ac88f03378a8039e404f6eaf16c750aa1f",
+        "evidence_url": "https://arxiv.org/abs/2507.05510v1",
+        "evidence_sha256": "1e435a85277ab908e83ee0ab54d6bf705de2f1d6330fe5fe766b51e637cfb927",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "notes": "固定版使用 CC BY-NC-ND 4.0，禁止分享改编作品。保留署名与 PDF 权利声明，译本私有使用。"
+      },
+      "reason": "9 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-07-08",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-DRM-CRM.zh-CN.private.20261126.1.pdf",
+        "sha256": "f5061a43369b276b8a81f9c47d4d0001ac2ec80e70e5cbf6ddd6280e4477b0ac",
+        "size_bytes": 1784869,
+        "pages": 9,
+        "verified_download_sha256": "f5061a43369b276b8a81f9c47d4d0001ac2ec80e70e5cbf6ddd6280e4477b0ac"
+      }
+    },
+    {
+      "source_id": "SRC-LBCF",
+      "title": "LBCF: A Large-Scale Budget-Constrained Causal Forest Algorithm",
+      "original_url": "https://arxiv.org/pdf/2201.12585v2",
+      "revision": "arXiv 2201.12585v2",
+      "input_sha256": "c66ff654b8e3ecd97a2148504a41f9e650b97ad76b985691e996e7b62d5b372c",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、致谢、算法叙述和正文图表说明。图内文字、参考文献和附录保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Ai, Meng",
+          "Li, Biao",
+          "Gong, Heyang",
+          "Yu, Qingwei",
+          "Xue, Shengjie",
+          "Zhang, Yuan",
+          "Zhang, Yunzhou",
+          "Jiang, Peng"
+        ],
+        "original_pdf_sha256": "41270916f5f694e94b20db55d4d1e3f5d92f174bdb6fd3b75c583ee167d07bca",
+        "evidence_url": "https://arxiv.org/abs/2201.12585v2",
+        "evidence_sha256": "233422d713d40b2dd6eaa9c58a4d7e7556d8b57b4fb0c98c48fc035fbc5788e0",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定版使用 arXiv 非独占分发许可，PDF 首页载 ACM 权利声明。公开全文译文许可未确认。"
+      },
+      "reason": "8 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-07-08",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-LBCF.zh-CN.private.20261126.1.pdf",
+        "sha256": "c66ff654b8e3ecd97a2148504a41f9e650b97ad76b985691e996e7b62d5b372c",
+        "size_bytes": 2138679,
+        "pages": 8,
+        "verified_download_sha256": "c66ff654b8e3ecd97a2148504a41f9e650b97ad76b985691e996e7b62d5b372c"
+      }
+    },
+    {
+      "source_id": "SRC-SPO",
+      "title": "Smart “Predict, then Optimize”",
+      "original_url": "https://arxiv.org/pdf/1710.08005v5",
+      "revision": "arXiv 1710.08005v5",
+      "input_sha256": "5141a505f2b1b559eeda3040eb0f95f2d2d61691db430e713d7d5d61097b2dda",
+      "input_pages": 34,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、致谢、命题与正文图说明。保留原文公式及编号，解释 0–1 损失的印刷疑点。图内文字、参考文献与附录保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Elmachtoub, Adam N.",
+          "Grigas, Paul"
+        ],
+        "original_pdf_sha256": "56381283da01e0a21a861cc8d1bfda97b377095b64051d7d68156b94e848cc3b",
+        "evidence_url": "https://arxiv.org/abs/1710.08005v5",
+        "evidence_sha256": "2d15a568f53b1ec9398c1c8769b97e17f62c6a2850ae888d0e7bd67cf891bfcc",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定版使用 arXiv 非独占分发许可。公开全文译文许可未确认。"
+      },
+      "reason": "34 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-07-08",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-SPO.zh-CN.private.20261126.1.pdf",
+        "sha256": "5141a505f2b1b559eeda3040eb0f95f2d2d61691db430e713d7d5d61097b2dda",
+        "size_bytes": 1172078,
+        "pages": 34,
+        "verified_download_sha256": "5141a505f2b1b559eeda3040eb0f95f2d2d61691db430e713d7d5d61097b2dda"
+      }
+    },
+    {
+      "source_id": "SRC-LODL",
+      "title": "Decision-Focused Learning without Differentiable Optimization: Learning Locally Optimized Decision Losses",
+      "original_url": "https://arxiv.org/pdf/2203.16067v4",
+      "revision": "arXiv 2203.16067v4",
+      "input_sha256": "e011ecdbe3bcd30e703bca8cbbd7749c3b118787c5519bf41c0cd3941e6e7c75",
+      "input_pages": 14,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、致谢及资助说明、正文图表说明。图内文字、参考文献、检查表与附录 A–B 保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Shah, Sanket",
+          "Wang, Kai",
+          "Wilder, Bryan",
+          "Perrault, Andrew",
+          "Tambe, Milind"
+        ],
+        "original_pdf_sha256": "295137e1794768c22014793cbc4e1c7ee54155d132b88ca22f111881be7695e2",
+        "evidence_url": "https://arxiv.org/abs/2203.16067v4",
+        "evidence_sha256": "44ac8351818fdfd2900b9f65547d5fe1745b92a434ae26a3831801a3b30ca180",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "notes": "采用的 arXiv 固定版标为 CC BY 4.0。许可适用于其覆盖范围，图中如另有明确署名或权利声明按原声明保留。本次 PDF 私有存放。",
+        "license_id": "CC-BY-4.0"
+      },
+      "reason": "14 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-07-08",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-LODL.zh-CN.private.20261126.1.pdf",
+        "sha256": "e011ecdbe3bcd30e703bca8cbbd7749c3b118787c5519bf41c0cd3941e6e7c75",
+        "size_bytes": 1720252,
+        "pages": 14,
+        "verified_download_sha256": "e011ecdbe3bcd30e703bca8cbbd7749c3b118787c5519bf41c0cd3941e6e7c75"
+      }
+    },
+    {
+      "source_id": "SRC-LTR-DFL",
+      "title": "Decision-Focused Learning: Through the Lens of Learning to Rank",
+      "original_url": "https://arxiv.org/pdf/2112.03609v4",
+      "revision": "arXiv 2112.03609v4",
+      "input_sha256": "aa7e06813db97457d64de229d1c94e8b59c5a1b663c3c12ea93362e4ec30132c",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、致谢、算法叙述及正文图表说明。图内文字、参考文献与附录 A–C 保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Mandi, Jayanta",
+          "Bucarey, Víctor",
+          "Mulamba, Maxime",
+          "Guns, Tias"
+        ],
+        "original_pdf_sha256": "4f63fe45cb6863cb99b1c1c4c58f172abc11018e2b7eff9bc7a4b2e1eb08ccd6",
+        "evidence_url": "https://arxiv.org/abs/2112.03609v4",
+        "evidence_sha256": "8a0b80f69f563f4dfbbd70c2636bd306711163cac3125b79a86a1191085e278e",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "notes": "采用的 arXiv 固定版标为 CC BY 4.0，PDF 载有作者版权声明。保留署名及原声明，本次 PDF 私有存放。",
+        "license_id": "CC-BY-4.0"
+      },
+      "reason": "11 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-07-08",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-LTR-DFL.zh-CN.private.20261126.1.pdf",
+        "sha256": "aa7e06813db97457d64de229d1c94e8b59c5a1b663c3c12ea93362e4ec30132c",
+        "size_bytes": 2170023,
+        "pages": 11,
+        "verified_download_sha256": "aa7e06813db97457d64de229d1c94e8b59c5a1b663c3c12ea93362e4ec30132c"
+      }
+    },
+    {
+      "source_id": "SRC-DFCL",
+      "title": "Decision Focused Causal Learning for Direct Counterfactual Marketing Optimization",
+      "original_url": "https://arxiv.org/pdf/2407.13664v1",
+      "revision": "arXiv 2407.13664v1",
+      "input_sha256": "745dbad206b9f989cbf89e8a31113d464da834f0c220ab2bb5dded771f32a7da",
+      "input_pages": 10,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、正文图表说明与公式。图内文字、参考文献与附录保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Zhou, Hao",
+          "Huang, Rongxiao",
+          "Li, Shaoming",
+          "Jiang, Guibin",
+          "Zheng, Jiaqi",
+          "Cheng, Bing",
+          "Lin, Wei"
+        ],
+        "original_pdf_sha256": "2a335785c96203c0fe293222b9586fb04db3f9186ac98d0a545e587c2f02d993",
+        "evidence_url": "https://arxiv.org/abs/2407.13664v1",
+        "evidence_sha256": "6888d0e143f767d5ee168918044601bae563f4d6ce290dbdd28a1b1d8def4fcd",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定版使用 arXiv 非独占分发许可，PDF 首页载 ACM 权利声明。公开全文译文许可未确认。"
+      },
+      "reason": "10 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-07-08",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-DFCL.zh-CN.private.20261126.1.pdf",
+        "sha256": "745dbad206b9f989cbf89e8a31113d464da834f0c220ab2bb5dded771f32a7da",
+        "size_bytes": 880636,
+        "pages": 10,
+        "verified_download_sha256": "745dbad206b9f989cbf89e8a31113d464da834f0c220ab2bb5dded771f32a7da"
+      }
     }
   ],
   "storage_policy": "private-only",

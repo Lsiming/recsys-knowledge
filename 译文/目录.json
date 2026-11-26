@@ -3265,5 +3265,158 @@
     "evidence_sha256": "9c325031d9e518ce46a842c802a0f10bb77b7c7895c2b605e5575987c2ccb2aa",
     "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "reason": "已完成正文中文 PDF 及逐页验收。固定版本为 arXiv 非独占分发许可，公开全文派生译文权利未核实。 采用 PDF 保留 ACM 权利声明。"
+  },
+  {
+    "source_id": "SRC-RERUM",
+    "title": "Rankability-enhanced Revenue Uplift Modeling Framework for Online Marketing",
+    "original_url": "https://arxiv.org/pdf/2405.15301v2",
+    "revision": "arXiv 2405.15301v2",
+    "authors": [
+      "Bowei He",
+      "Yunpeng Weng",
+      "Xing Tang",
+      "Ziqiang Cui",
+      "Zexu Sun",
+      "Liang Chen",
+      "Xiuqiang He",
+      "Chen Ma"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/abs/2405.15301v2",
+    "evidence_sha256": "a8dd1567c4ebf495eb85f44bafba3ce17c25998150a7107bd288485c050a21a8",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 并私有备份，未另制正式 Markdown 译文。arXiv 固定 v2 为非独占分发许可，PDF 首页载 ACM 权利及个人／课堂使用声明，公开全文译文许可未确认。"
+  },
+  {
+    "source_id": "SRC-UBER-HCL",
+    "title": "Heterogeneous Causal Learning for Effectiveness Optimization in User Marketing",
+    "original_url": "https://arxiv.org/pdf/2004.09702v1",
+    "revision": "arXiv 2004.09702v1",
+    "authors": [
+      "Zou, Will Y.",
+      "Du, Shuyang",
+      "Lee, James",
+      "Pedersen, Jan"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/abs/2004.09702v1",
+    "evidence_sha256": "1c8c5f7395c6122e45617aced47139dc30a6d82b0966d55058a3444cb5fed03c",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "reason": "已完成正文中文 PDF 并私有备份，未另制正式 Markdown 译文。固定版 arXiv 入口标为 CC BY-SA 4.0，采用 PDF 同时载有 ACM 模板权利声明。保留两项依据，未确认本库公开全文译文所用授权。"
+  },
+  {
+    "source_id": "SRC-DRM-CRM",
+    "title": "Heterogeneous Causal Learning for Optimizing Aggregated Functions in User Growth",
+    "original_url": "https://arxiv.org/pdf/2507.05510v1",
+    "revision": "arXiv 2507.05510v1",
+    "authors": [
+      "Du, Shuyang",
+      "Zhang, Jennifer",
+      "Zou, Will Y."
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/abs/2507.05510v1",
+    "evidence_sha256": "1e435a85277ab908e83ee0ab54d6bf705de2f1d6330fe5fe766b51e637cfb927",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "reason": "已完成正文中文 PDF 并私有备份，未另制正式 Markdown 译文。固定版使用 CC BY-NC-ND 4.0，禁止分享改编作品。保留署名与 PDF 权利声明，译本私有使用。"
+  },
+  {
+    "source_id": "SRC-LBCF",
+    "title": "LBCF: A Large-Scale Budget-Constrained Causal Forest Algorithm",
+    "original_url": "https://arxiv.org/pdf/2201.12585v2",
+    "revision": "arXiv 2201.12585v2",
+    "authors": [
+      "Ai, Meng",
+      "Li, Biao",
+      "Gong, Heyang",
+      "Yu, Qingwei",
+      "Xue, Shengjie",
+      "Zhang, Yuan",
+      "Zhang, Yunzhou",
+      "Jiang, Peng"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/abs/2201.12585v2",
+    "evidence_sha256": "233422d713d40b2dd6eaa9c58a4d7e7556d8b57b4fb0c98c48fc035fbc5788e0",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 并私有备份，未另制正式 Markdown 译文。固定版使用 arXiv 非独占分发许可，PDF 首页载 ACM 权利声明。公开全文译文许可未确认。"
+  },
+  {
+    "source_id": "SRC-SPO",
+    "title": "Smart “Predict, then Optimize”",
+    "original_url": "https://arxiv.org/pdf/1710.08005v5",
+    "revision": "arXiv 1710.08005v5",
+    "authors": [
+      "Elmachtoub, Adam N.",
+      "Grigas, Paul"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/abs/1710.08005v5",
+    "evidence_sha256": "2d15a568f53b1ec9398c1c8769b97e17f62c6a2850ae888d0e7bd67cf891bfcc",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 并私有备份，未另制正式 Markdown 译文。固定版使用 arXiv 非独占分发许可。公开全文译文许可未确认。"
+  },
+  {
+    "source_id": "SRC-LODL",
+    "title": "Decision-Focused Learning without Differentiable Optimization: Learning Locally Optimized Decision Losses",
+    "original_url": "https://arxiv.org/pdf/2203.16067v4",
+    "revision": "arXiv 2203.16067v4",
+    "authors": [
+      "Shah, Sanket",
+      "Wang, Kai",
+      "Wilder, Bryan",
+      "Perrault, Andrew",
+      "Tambe, Milind"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/abs/2203.16067v4",
+    "evidence_sha256": "44ac8351818fdfd2900b9f65547d5fe1745b92a434ae26a3831801a3b30ca180",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "reason": "已完成正文中文 PDF 并私有备份，未另制正式 Markdown 译文。采用的 arXiv 固定版标为 CC BY 4.0。许可适用于其覆盖范围，图中如另有明确署名或权利声明按原声明保留。本次 PDF 私有存放。"
+  },
+  {
+    "source_id": "SRC-LTR-DFL",
+    "title": "Decision-Focused Learning: Through the Lens of Learning to Rank",
+    "original_url": "https://arxiv.org/pdf/2112.03609v4",
+    "revision": "arXiv 2112.03609v4",
+    "authors": [
+      "Mandi, Jayanta",
+      "Bucarey, Víctor",
+      "Mulamba, Maxime",
+      "Guns, Tias"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/abs/2112.03609v4",
+    "evidence_sha256": "8a0b80f69f563f4dfbbd70c2636bd306711163cac3125b79a86a1191085e278e",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "reason": "已完成正文中文 PDF 并私有备份，未另制正式 Markdown 译文。采用的 arXiv 固定版标为 CC BY 4.0，PDF 载有作者版权声明。保留署名及原声明，本次 PDF 私有存放。"
+  },
+  {
+    "source_id": "SRC-DFCL",
+    "title": "Decision Focused Causal Learning for Direct Counterfactual Marketing Optimization",
+    "original_url": "https://arxiv.org/pdf/2407.13664v1",
+    "revision": "arXiv 2407.13664v1",
+    "authors": [
+      "Zhou, Hao",
+      "Huang, Rongxiao",
+      "Li, Shaoming",
+      "Jiang, Guibin",
+      "Zheng, Jiaqi",
+      "Cheng, Bing",
+      "Lin, Wei"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/abs/2407.13664v1",
+    "evidence_sha256": "6888d0e143f767d5ee168918044601bae563f4d6ce290dbdd28a1b1d8def4fcd",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 并私有备份，未另制正式 Markdown 译文。固定版使用 arXiv 非独占分发许可，PDF 首页载 ACM 权利声明。公开全文译文许可未确认。"
   }
 ]

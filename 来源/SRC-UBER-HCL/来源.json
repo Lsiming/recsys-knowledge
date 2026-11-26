@@ -1,0 +1,38 @@
+{
+  "id": "SRC-UBER-HCL",
+  "title": "Heterogeneous Causal Learning for Effectiveness Optimization in User Marketing",
+  "kind": "paper",
+  "state": "active",
+  "current": "22965f4e0b31421a338271c4f16363b9878c727e873880fd31cbf5fca8ca4fed",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2004.09702v1",
+      "revision": "arXiv 2004.09702v1",
+      "read_scope": "§1–5、式 (3)–(23)、图 1–5、表 1–2。 作者 LaTeX 下载后未改动文件在本地重新打包。 未运行模型。",
+      "artifacts": [
+        {
+          "name": "2004.09702v1.pdf",
+          "sha256": "0a4f2f48abbef1ffaf40478161922ea5a5c66a1319863c8df6843ad1fe7a0176",
+          "snapshot": ".local/sources/SRC-UBER-HCL/0a4f2f48abbef1ffaf40478161922ea5a5c66a1319863c8df6843ad1fe7a0176/2004.09702v1.pdf"
+        },
+        {
+          "name": "2004.09702v1-source-repacked.tar.gz",
+          "sha256": "81a0e1ec7e3743c63cb67e79835f79fa27d5e99b9292fc45ad9f75ca31539757",
+          "snapshot": ".local/sources/SRC-UBER-HCL/81a0e1ec7e3743c63cb67e79835f79fa27d5e99b9292fc45ad9f75ca31539757/2004.09702v1-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "22965f4e0b31421a338271c4f16363b9878c727e873880fd31cbf5fca8ca4fed",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "618f807bf5a41dc411e4ca6d87bfc3c0d6d8340741d2609ac821298e89d235cf",
+        "pages": [
+          "coupon-uplift-evaluation"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "复核净增量目标、累计成本曲线与聚合效率，保留预算乘子更新的原式疑点。 当前 Agent 核对固定原文与读者路径，译文逐页渲染，未运行模型。"
+      }
+    }
+  ]
+}

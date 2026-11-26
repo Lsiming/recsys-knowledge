@@ -1,0 +1,40 @@
+{
+  "id": "SRC-DFCL",
+  "title": "Decision Focused Causal Learning for Direct Counterfactual Marketing Optimization",
+  "kind": "paper",
+  "state": "active",
+  "current": "b0c86422b04eaa831f261a0a5b9c137d17fb7d7d27a98088d6a487e18dc6ff98",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2407.13664v1",
+      "revision": "arXiv 2407.13664v1",
+      "read_scope": "正文 §1–7、预测与对偶损失、梯度估计、离线和线上评估及附录 A–D。 作者 LaTeX 下载后未改动文件在本地重新打包。 未运行模型。",
+      "artifacts": [
+        {
+          "name": "2407.13664v1.pdf",
+          "sha256": "2a335785c96203c0fe293222b9586fb04db3f9186ac98d0a545e587c2f02d993",
+          "snapshot": ".local/sources/SRC-DFCL/2a335785c96203c0fe293222b9586fb04db3f9186ac98d0a545e587c2f02d993/2407.13664v1.pdf"
+        },
+        {
+          "name": "2407.13664v1-source-repacked.tar.gz",
+          "sha256": "9875aa07890adf33eaad3628213a78f9bc28e002240c497c1ed09a96cd239c02",
+          "snapshot": ".local/sources/SRC-DFCL/9875aa07890adf33eaad3628213a78f9bc28e002240c497c1ed09a96cd239c02/2407.13664v1-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "b0c86422b04eaa831f261a0a5b9c137d17fb7d7d27a98088d6a487e18dc6ff98",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "774f99ac924a41deacff35eca6b66964b829f88c7550ad7f7d2f07596a6bc4c7",
+        "pages": [
+          "combinatorial-policy-uplift",
+          "coupon-uplift-evaluation",
+          "decision-focused-budget-learning"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "复核固定价格下事实回报梯度和多档策略价值，保留价格网格与整数解的边界。 当前 Agent 核对固定原文与读者路径，译文逐页渲染，未运行模型。"
+      }
+    }
+  ]
+}
