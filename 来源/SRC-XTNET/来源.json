@@ -22,11 +22,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "fa889a2c8eea88645420994bb5e9d95091f4e174aa1f8c162c33ad4269a39455",
         "pages": [
-          "combinatorial-policy-uplift"
+          "combinatorial-policy-uplift",
+          "multitreatment-multioutcome-uplift"
         ],
-        "reviewed_on": "2026-11-25",
+        "reviewed_on": "2026-11-26",
         "review_method": "agent-self-review",
-        "review_note": "复核 §3–6、图 1–3、算法 1、表 1–5 和附录 A.2，建立动态遮罩、边际回报分组与原文边界导航。"
+        "review_note": "保留对单类训练、组合遮罩及 MCMV-AUCC 的核对；复核新问题页的联合动作解释，区分多维同发与互斥奖励类型。"
       }
     }
   ]

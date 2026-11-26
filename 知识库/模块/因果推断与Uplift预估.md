@@ -7,7 +7,7 @@ updated: "2026-11-26"
 summary: "从干预与对照定义进入条件增量估计，连接策略表示、正交学习、排序与幅度验证"
 aliases: ["因果推断/uplift预估", "uplift预估", "Uplift Modeling", "CATE", "增益模型", "异质性干预效应", "营销因果模型"]
 sources: {"SRC-DER-CFR": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51", "SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-CANNIUPLIFT": "ca3fc4f098f34044e2234ff9c9089bc554640032326c7db0e05718dbdeb3f13e", "SRC-MIM-DRCFR": "a3669536b785f468d61aaa1f8fe813497234da17c368d65aa780be6778c4c90e", "SRC-BUOPLR": "fa6680dcf6913775fa8b223091fc72a8a468aaf1449275b00e5631c09e43393a"}
-related: ["push-frequency-activity-uplift", "observational-coupon-uplift", "marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives", "cross-seller-subsidy-uplift", "coupon-uplift-evaluation", "coupon-outcome-distribution", "residualized-treatment-effects"]
+related: ["push-frequency-activity-uplift", "observational-coupon-uplift", "marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives", "cross-seller-subsidy-uplift", "coupon-uplift-evaluation", "coupon-outcome-distribution", "residualized-treatment-effects", "multitreatment-multioutcome-uplift"]
 module: "因果推断与 Uplift 预估"
 ---
 # 因果推断与 Uplift 预估
@@ -43,8 +43,10 @@ $t_0$ 可以是不发券，也可以是当前策略；换了对照就换了问�
 | 如何减少基准预测误差对效应学习的影响？ | FWL 与 Robinson 从结果和处理剔除基准，DML 对低维参数求正交方程，R-learner 直接学习异质效应函数 | [残差化与交叉拟合](../问题/残差化怎样估计营销干预效应.md)、[POUL 的正交化推导](../../来源/SRC-POUL/阅读笔记.md#三项理论分别保证了什么)、[逐点误差余项的反例](../问题/正交得分怎样约束逐点效应误差.md) |
 | 联合折扣怎样同时建模和服务？ | 坐标级处理 Token 查询请求记忆，OBS 预训练后用 RCT LoRA 和门适配；通过处理并行复用请求编码 | [TaQFormer 精读](../../来源/SRC-TAQFORMER/阅读笔记.md) |
 | 单张券的不同面额怎样共享样本？ | OFA 用用户侧系数和有序档位的勒让德基值预测一条曲线 | [有序券档响应](../问题/组合营销策略如何共享结构并估计因果增量.md#有序券档怎样共享一条响应曲线) |
+| 多种互斥处理和多个结果怎样分用专家？ | M³TN 按处理头设置门并共用自然响应，MTMT 按结果设置门，HMUM 对齐分支的对照门并按请求调整结果权重 | [离散多处理与多目标比较](../问题/多档营销动作怎样共享并区分多个结果.md) |
 | 固定的优惠券组合与连续额度怎样共享学习？ | XTNet 用组合遮罩修正单类响应，Multi-Treatment-DML 在连续处理残差上拟合敏感度 | [连续斜率与离散交互](../问题/组合营销策略如何共享结构并估计因果增量.md#连续方案的斜率与离散组合的交互) |
 | 二元或多档券的结果头怎样借用监督？ | DESCN 训练联合事件与交叉路径，EFIN 按处理特征挑选用户字段，MIL 增加包级训练信号 | [全空间响应与包级监督](../问题/历史发券日志如何估计补贴增量.md#全空间联合事件怎样给响应头补监督) |
+| 优惠改变点击人群时怎样比较订单增量？ | ECUP 用全曝光 CTR 与 CTCVR 联合学习，按券档比较乘积响应 | [曝光转化的分母与概率差](../问题/点击后转化率估计.md#处理还会改变走到点击这一步的人) |
 | 券后金额的均值和尾部怎样共同进入预算？ | DNet 对每个动作学习有序分位网格，用均值与分位跨度驱动选档 | [补贴怎样改变消费金额的分布](../问题/补贴怎样改变消费金额的分布.md) |
 | 能排序是否就能决定给多少补贴？ | AUUC看排序，分组效应误差看幅度；还需各动作的价值、成本与约束 | [POUL 的分箱实验](../../来源/SRC-POUL/阅读笔记.md#实验支持部分排序优势幅度校准仍然不足)、[TaQFormer 的预算分配算例](../问题/组合营销策略如何共享结构并估计因果增量.md#同样的增量为什么会选出不同的券) |
 | 结果集中在 0 天和全勤时，怎样估计触达增量？ | 对零推送与预设频次两个随机分配组，分别用两个端点及中间天数的分布重构 14 日活跃期望，再取两臂之差 | [推送频次增量的分布估计与校准](../问题/活跃天数集中在两端时怎样估计推送频次增量.md) |

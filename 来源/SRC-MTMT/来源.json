@@ -1,0 +1,38 @@
+{
+  "id": "SRC-MTMT",
+  "title": "Multi-Treatment Multi-Task Uplift Modeling for Enhancing User Growth",
+  "kind": "paper",
+  "state": "active",
+  "current": "412ae4afaa8ca6ce72c88aa6163c5e88b80be22b1ba7c29fd0077477d4248dbf",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2408.12803v1",
+      "revision": "arXiv:2408.12803v1 (2024-08-23)",
+      "read_scope": "采用版摘要、正文 §1–6、式 (1)–(9)、图 1–5 与表 1–3；核对正文所指附录在采用版中未收录。未运行模型。",
+      "artifacts": [
+        {
+          "name": "2408.12803v1.pdf",
+          "sha256": "7a6fe846c916ac71ad0632295e42773fbdca47877a4b65caae9d22f748399fec",
+          "snapshot": ".local/sources/SRC-MTMT/7a6fe846c916ac71ad0632295e42773fbdca47877a4b65caae9d22f748399fec/2408.12803v1.pdf"
+        },
+        {
+          "name": "2408.12803v1-source.tar.gz",
+          "sha256": "63f51b1d162c0dfbf988df3c7fc13a182ebc0518f2f2c8fb8c2a6a3def135b6f",
+          "snapshot": ".local/sources/SRC-MTMT/63f51b1d162c0dfbf988df3c7fc13a182ebc0518f2f2c8fb8c2a6a3def135b6f/2408.12803v1-source.tar.gz"
+        }
+      ],
+      "fingerprint": "412ae4afaa8ca6ce72c88aa6163c5e88b80be22b1ba7c29fd0077477d4248dbf",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "707c41af7699619dfcfe1ccb9ca20477e12cd47bfd26df611829c1dc2c8c1295",
+        "pages": [
+          "multitreatment-multioutcome-uplift"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "对照 v1 正文、式 (1)–(9)、图 1–5 与表 1–3；核对基础与二级效应的参照及事实损失，修正 M³TN 机制引用并按数值保留表文差异。采用版无所指附录；未运行模型。"
+      }
+    }
+  ]
+}

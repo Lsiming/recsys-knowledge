@@ -1,0 +1,38 @@
+{
+  "id": "SRC-M3TN",
+  "title": "M³TN: Multi-gate Mixture-of-Experts based Multi-valued Treatment Network for Uplift Modeling",
+  "kind": "paper",
+  "state": "active",
+  "current": "75e9514f91bf445d03a143db84f3f04c2502c1b40a57fb69bc2e2ba7c1f9861b",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2401.14426v1",
+      "revision": "arXiv:2401.14426v1 (2024-01-24); ICASSP 2024, DOI 10.1109/ICASSP48485.2024.10446323",
+      "read_scope": "采用版摘要、正文 §1–6、公式 (1)–(6)、图 1–3、表 1–2；对照作者 LaTeX 编译源码，未运行模型。",
+      "artifacts": [
+        {
+          "name": "2401.14426v1.pdf",
+          "sha256": "25a9f550ab22f819522cf525da28c166d117d231e82b5453bf8c1703fe5e0fd0",
+          "snapshot": ".local/sources/SRC-M3TN/25a9f550ab22f819522cf525da28c166d117d231e82b5453bf8c1703fe5e0fd0/2401.14426v1.pdf"
+        },
+        {
+          "name": "2401.14426v1-source.tar.gz",
+          "sha256": "007fec7453c7ba51ae6779f7c8fea38aa17d8994324eec22c40aba3fc7249d7f",
+          "snapshot": ".local/sources/SRC-M3TN/007fec7453c7ba51ae6779f7c8fea38aa17d8994324eec22c40aba3fc7249d7f/2401.14426v1-source.tar.gz"
+        }
+      ],
+      "fingerprint": "75e9514f91bf445d03a143db84f3f04c2502c1b40a57fb69bc2e2ba7c1f9861b",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "ec77412e18d53d3f7af0532b9aee5b78933e8241212e13ee42ce8ac13fe3a748",
+        "pages": [
+          "multitreatment-multioutcome-uplift"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "对照 v1 正文、图 1–3、表 1–2 和采用版 LaTeX，核对逐处理 MMoE 门、共享自然响应与事实监督；按表格保留与 §4.2 的不一致。未运行模型。"
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-26，盘点160篇中文PDF，160篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-26，盘点164篇中文PDF，164篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -172,3 +172,7 @@
 | [Explicit Feature Interaction-aware Uplift Network for Online Marketing](https://arxiv.org/pdf/2306.00315v1) · `SRC-EFIN` | 私有，需登录 · 20261126.1 · 9页 | [unverified](https://arxiv.org/abs/2306.00315v1) | 摘要、正文 §1–6、图表说明、描述性脚注与致谢。图内文字、参考文献和权利声明保留。；正文译稿逐页目视，采用原文和中文 PDF 均认证下载核验。 |
 | [Multiple Instance Learning for Uplift Modeling](https://arxiv.org/pdf/2312.09639v1) · `SRC-MIL-UPLIFT` | 私有，需登录 · 20261126.1 · 5页 | [CC-BY-NC-ND-4.0](https://arxiv.org/abs/2312.09639v1) | 摘要、正文 §1–5、正文图表说明与描述性脚注。附录 A–B、参考文献和图内文字保留原文。；正文译稿逐页目视，采用原文和中文 PDF 均认证下载核验。 |
 | [DNet: Distributional Network for Distributional Individualized Treatment Effects](https://researchonline.lse.ac.uk/id/eprint/122895/1/Distributional_Network_for_Distributional_Individualized.pdf) · `SRC-DNET` | 私有，需登录 · 20261126.1 · 16页 | [unverified](https://researchonline.lse.ac.uk/id/eprint/122895/) | 依据 LSE 存档的 KDD 正式论文重排，译摘要、正文 §1–7、九图、四表说明与描述性脚注。图内文字、43 条参考文献和权利声明保留。；正文译稿逐页目视，采用原文和中文 PDF 均认证下载核验。 |
+| [Multi-Treatment Multi-Task Uplift Modeling for Enhancing User Growth](https://arxiv.org/pdf/2408.12803v1) · `SRC-MTMT` | 私有，需登录 · 20261126.1 · 6页 | [CC-BY-4.0](https://arxiv.org/abs/2408.12803v1) | 摘要、正文 §1–6、正文图表说明、表头及描述性脚注。保留公式、图内文字、参考文献与原稿权利说明。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
+| [M³TN: Multi-gate Mixture-of-Experts based Multi-valued Treatment Network for Uplift Modeling](https://arxiv.org/pdf/2401.14426v1) · `SRC-M3TN` | 私有，需登录 · 20261126.1 · 4页 | [unverified](https://arxiv.org/abs/2401.14426v1) | 摘要、正文 §1–5、图表说明及表头。保留公式、图内文字、数值、署名和参考文献。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
+| [Heterogeneous Multi-treatment Uplift Modeling for Trade-off Optimization in Short-Video Recommendation](https://arxiv.org/pdf/2511.18997v2) · `SRC-HMUM` | 私有，需登录 · 20261126.1 · 8页 | [CC-BY-4.0](https://arxiv.org/abs/2511.18997v2) | 摘要、正文 §1–7、正文图表说明及描述性脚注。附录 A、图内文字和参考文献保留原文。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
+| [Entire Chain Uplift Modeling with Context-Enhanced Learning for Intelligent Marketing](https://arxiv.org/pdf/2402.03379v1) · `SRC-ECUP` | 私有，需登录 · 20261126.1 · 7页 | [CC-BY-4.0](https://arxiv.org/abs/2402.03379v1) | 摘要、正文 §1–7、图表说明与描述性脚注。参考文献及图内文字保留原文。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |

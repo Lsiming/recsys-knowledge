@@ -28,11 +28,12 @@
         "notes_sha256": "3f29ed65667c4540f2acf843cb45f480aed505c7e4fc1a62164c8e3635e360ac",
         "pages": [
           "combinatorial-policy-uplift",
-          "coupon-outcome-distribution"
+          "coupon-outcome-distribution",
+          "multitreatment-multioutcome-uplift"
         ],
         "reviewed_on": "2026-11-26",
         "review_method": "agent-self-review",
-        "review_note": "复核有序券档的勒让德读出，增加与 EFIN 处理描述及 Mono-DNet 网格均值约束的比较，沿用既有精读与协议。"
+        "review_note": "保留对有序档位勒让德基、表示平衡及分位次序的既有核对；复核新问题页，区分有序券档共同监督用户侧系数与互斥处理专属头。"
       }
     }
   ]

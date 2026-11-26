@@ -6119,6 +6119,169 @@
         "pages": 16,
         "verified_download_sha256": "fd866900c0205a7035edd575bc4c8a4d36fb79908b498ea6f58e0e8f2b6e0a8a"
       }
+    },
+    {
+      "source_id": "SRC-MTMT",
+      "title": "Multi-Treatment Multi-Task Uplift Modeling for Enhancing User Growth",
+      "original_url": "https://arxiv.org/pdf/2408.12803v1",
+      "revision": "arXiv:2408.12803v1 (2024-08-23)",
+      "input_sha256": "00013e985a2122b47940d971c8101a9565a86d353184c902c1f68d7f4e15ef30",
+      "input_pages": 6,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、正文图表说明、表头及描述性脚注。保留公式、图内文字、参考文献与原稿权利说明。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Yuxiang Wei",
+          "Zhaoxin Qiu",
+          "Yingjie Li",
+          "Yuke Sun",
+          "Xiaoling Li"
+        ],
+        "original_pdf_sha256": "7a6fe846c916ac71ad0632295e42773fbdca47877a4b65caae9d22f748399fec",
+        "evidence_url": "https://arxiv.org/abs/2408.12803v1",
+        "evidence_sha256": "7a6fe846c916ac71ad0632295e42773fbdca47877a4b65caae9d22f748399fec",
+        "notes": "arXiv 固定版本页标示 CC BY 4.0，采用 PDF 另印有 ACM 模版权利限制行。译文保留原稿权利说明，公开派生译文仍待核对两项权利信息。",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_id": "CC-BY-4.0"
+      },
+      "reason": "中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-05-05",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-MTMT.zh-CN.private.20261126.1.pdf",
+        "sha256": "00013e985a2122b47940d971c8101a9565a86d353184c902c1f68d7f4e15ef30",
+        "size_bytes": 435486,
+        "pages": 6,
+        "verified_download_sha256": "00013e985a2122b47940d971c8101a9565a86d353184c902c1f68d7f4e15ef30"
+      }
+    },
+    {
+      "source_id": "SRC-M3TN",
+      "title": "M³TN: Multi-gate Mixture-of-Experts based Multi-valued Treatment Network for Uplift Modeling",
+      "original_url": "https://arxiv.org/pdf/2401.14426v1",
+      "revision": "arXiv:2401.14426v1 (2024-01-24); ICASSP 2024, DOI 10.1109/ICASSP48485.2024.10446323",
+      "input_sha256": "2112f7a426ec8de2abb3b2c6c222285413cb65e1581a26877ec32067fd0d8983",
+      "input_pages": 4,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、图表说明及表头。保留公式、图内文字、数值、署名和参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Zexu Sun",
+          "Xu Chen"
+        ],
+        "original_pdf_sha256": "25a9f550ab22f819522cf525da28c166d117d231e82b5453bf8c1703fe5e0fd0",
+        "evidence_url": "https://arxiv.org/abs/2401.14426v1",
+        "evidence_sha256": "25a9f550ab22f819522cf525da28c166d117d231e82b5453bf8c1703fe5e0fd0",
+        "notes": "固定版使用 arXiv 非独占分发许可，未确认公开派生译文许可。",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "reason": "中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-05-05",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-M3TN.zh-CN.private.20261126.1.pdf",
+        "sha256": "2112f7a426ec8de2abb3b2c6c222285413cb65e1581a26877ec32067fd0d8983",
+        "size_bytes": 1373931,
+        "pages": 4,
+        "verified_download_sha256": "2112f7a426ec8de2abb3b2c6c222285413cb65e1581a26877ec32067fd0d8983"
+      }
+    },
+    {
+      "source_id": "SRC-HMUM",
+      "title": "Heterogeneous Multi-treatment Uplift Modeling for Trade-off Optimization in Short-Video Recommendation",
+      "original_url": "https://arxiv.org/pdf/2511.18997v2",
+      "revision": "arXiv:2511.18997v2 (2025-11-29); KDD 2026, DOI 10.1145/3770854.3783933",
+      "input_sha256": "14186b7b10042354fa06acaaa0a12b968528cf59dbbd5f0c3a379c9ed104234b",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、正文图表说明及描述性脚注。附录 A、图内文字和参考文献保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Chenhao Zhai",
+          "Chang Meng",
+          "Xueliang Wang",
+          "Shuchang Liu",
+          "Xiaolong Hu",
+          "Shisong Tang",
+          "Xiaoqiang Feng",
+          "Xiu Li"
+        ],
+        "original_pdf_sha256": "99ec328e822c87ff7b6439165720712a145c05afed53e0d880573c179147c1b8",
+        "evidence_url": "https://arxiv.org/abs/2511.18997v2",
+        "evidence_sha256": "9b628c743f6460bea0daaf2841cce7c75cca1e8fa08fecdf29ae03993a9bf62f",
+        "notes": "采用的 arXiv v2 版本页列 CC BY 4.0，作者及署名保留。许可依据对应 arXiv v2。",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_id": "CC-BY-4.0"
+      },
+      "reason": "中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-05-05",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-HMUM.zh-CN.private.20261126.1.pdf",
+        "sha256": "14186b7b10042354fa06acaaa0a12b968528cf59dbbd5f0c3a379c9ed104234b",
+        "size_bytes": 627627,
+        "pages": 8,
+        "verified_download_sha256": "14186b7b10042354fa06acaaa0a12b968528cf59dbbd5f0c3a379c9ed104234b"
+      }
+    },
+    {
+      "source_id": "SRC-ECUP",
+      "title": "Entire Chain Uplift Modeling with Context-Enhanced Learning for Intelligent Marketing",
+      "original_url": "https://arxiv.org/pdf/2402.03379v1",
+      "revision": "arXiv:2402.03379v1 (2024-02-04); WWW 2024 Companion, DOI 10.1145/3589335.3648320; arXiv v2 撤回声明",
+      "input_sha256": "81de5231865b55259b88722e181c106337e4212e6f4e6495e3e0f9f9c99fb24c",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、图表说明与描述性脚注。参考文献及图内文字保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Yinqiu Huang",
+          "Shuli Wang",
+          "Min Gao",
+          "Xue Wei",
+          "Changhao Li",
+          "Chuan Luo",
+          "Yinhua Zhu",
+          "Xiong Xiao",
+          "Yi Luo"
+        ],
+        "original_pdf_sha256": "36e0024ebc976c53ab33ac058963581545b13d489cc3ec0ba9d28453fca4abe7",
+        "evidence_url": "https://arxiv.org/abs/2402.03379v1",
+        "evidence_sha256": "2d28a885cc073de8146e3670c503542c8f88e4a82d9c8152c4653fad591cac1c",
+        "notes": "采用的 arXiv v1 版本页列 CC BY 4.0。v2 已撤回并保留公告，许可判断对应 v1 文字与字节。",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_id": "CC-BY-4.0"
+      },
+      "reason": "中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-05-05",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-ECUP.zh-CN.private.20261126.1.pdf",
+        "sha256": "81de5231865b55259b88722e181c106337e4212e6f4e6495e3e0f9f9c99fb24c",
+        "size_bytes": 1435626,
+        "pages": 7,
+        "verified_download_sha256": "81de5231865b55259b88722e181c106337e4212e6f4e6495e3e0f9f9c99fb24c"
+      }
     }
   ],
   "storage_policy": "private-only",

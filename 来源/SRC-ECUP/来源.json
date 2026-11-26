@@ -1,0 +1,68 @@
+{
+  "id": "SRC-ECUP",
+  "title": "Entire Chain Uplift Modeling with Context-Enhanced Learning for Intelligent Marketing",
+  "kind": "paper",
+  "state": "active",
+  "current": "9526f0f926b4bb9b2ea0ec26c2af475800da76a1244cffbcf3954ef9c04ac73c",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2402.03379v1",
+      "revision": "arXiv:2402.03379v1 (2024-02-04); WWW 2024 Companion, DOI 10.1145/3589335.3648320; arXiv v2 撤回声明",
+      "read_scope": "核对采用版摘要、正文 §1–7、式 (1)–(14)、图 1–6 和表 1–5；核对 v2 撤回页、会议题录与 MT-LIFT 仓库固定 README，未下载数据或运行模型。",
+      "artifacts": [
+        {
+          "name": "2402.03379v1.pdf",
+          "sha256": "36e0024ebc976c53ab33ac058963581545b13d489cc3ec0ba9d28453fca4abe7",
+          "snapshot": ".local/sources/SRC-ECUP/36e0024ebc976c53ab33ac058963581545b13d489cc3ec0ba9d28453fca4abe7/2402.03379v1.pdf"
+        },
+        {
+          "name": "2402.03379v1-source.tar.gz",
+          "sha256": "a8c9ec14efb267dbfcc99dc7f77acf97e2d470b6df94c586c202418e4e8a630a",
+          "snapshot": ".local/sources/SRC-ECUP/a8c9ec14efb267dbfcc99dc7f77acf97e2d470b6df94c586c202418e4e8a630a/2402.03379v1-source.tar.gz"
+        },
+        {
+          "name": "MT-LIFT-README.md",
+          "sha256": "1598c913bb2e715c384141ad716794d2c827356b492213bb864369419d5f8ca6",
+          "snapshot": ".local/sources/SRC-ECUP/1598c913bb2e715c384141ad716794d2c827356b492213bb864369419d5f8ca6/MT-LIFT-README.md"
+        }
+      ],
+      "fingerprint": "2315e7246f44eb0bef8949bacd65f855ca493d03a5312349b7fb61b920fa4815",
+      "retrieved_on": "2026-11-26",
+      "integration": null
+    },
+    {
+      "locator": "https://arxiv.org/pdf/2402.03379v1",
+      "revision": "arXiv:2402.03379v1 (2024-02-04); WWW 2024 Companion, DOI 10.1145/3589335.3648320; arXiv v2 撤回声明",
+      "read_scope": "核对采用版摘要、正文 §1–7、式 (1)–(16)、图 1–6 和表 1–5；核对 v2 撤回页、会议题录与 MT-LIFT 仓库固定 README，未下载数据或运行模型。",
+      "artifacts": [
+        {
+          "name": "2402.03379v1.pdf",
+          "sha256": "36e0024ebc976c53ab33ac058963581545b13d489cc3ec0ba9d28453fca4abe7",
+          "snapshot": ".local/sources/SRC-ECUP/36e0024ebc976c53ab33ac058963581545b13d489cc3ec0ba9d28453fca4abe7/2402.03379v1.pdf"
+        },
+        {
+          "name": "2402.03379v1-source.tar.gz",
+          "sha256": "a8c9ec14efb267dbfcc99dc7f77acf97e2d470b6df94c586c202418e4e8a630a",
+          "snapshot": ".local/sources/SRC-ECUP/a8c9ec14efb267dbfcc99dc7f77acf97e2d470b6df94c586c202418e4e8a630a/2402.03379v1-source.tar.gz"
+        },
+        {
+          "name": "MT-LIFT-README.md",
+          "sha256": "1598c913bb2e715c384141ad716794d2c827356b492213bb864369419d5f8ca6",
+          "snapshot": ".local/sources/SRC-ECUP/1598c913bb2e715c384141ad716794d2c827356b492213bb864369419d5f8ca6/MT-LIFT-README.md"
+        }
+      ],
+      "fingerprint": "9526f0f926b4bb9b2ea0ec26c2af475800da76a1244cffbcf3954ef9c04ac73c",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "1cb154cadd65da6d741e7b9705dd92a75f1e7721e869b299a3020d9ca4e12bd8",
+        "pages": [
+          "post-click-cvr-estimation"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "对照固定 v1 式 (1)–(16)、图 2、4–6、表 3–5 和 MT-LIFT 固定 README；复核 ESMM 的概率空间、DESCN 的指派联合事件、EFIN 的处理交互及多任务入口。发券算例对齐分母与概率差，限制点击者的解释并记录 v2 公告；无复现实验。"
+      }
+    }
+  ]
+}
