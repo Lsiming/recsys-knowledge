@@ -25,17 +25,18 @@
       "retrieved_on": "2026-10-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "7c04cf48812b179f61cab139a9873664cbc394b2f1424f45085e6546e54ac215",
+        "notes_sha256": "d5a676dfa8a63b0a439fcab42cdadb16e5e3b6673bae478c21afd6e9df97ea05",
         "pages": [
           "causal-uplift",
           "combinatorial-policy-uplift",
           "history-conditioned-pricing",
           "marketing-subsidy",
-          "orthogonal-score-cate-error"
+          "orthogonal-score-cate-error",
+          "residualized-treatment-effects"
         ],
-        "reviewed_on": "2026-11-23",
+        "reviewed_on": "2026-11-26",
         "review_method": "agent-self-review",
-        "review_note": "对照 v1 假设 3.5、定义、算法 1 的已知分配中心和 B.5.2 的恒等式，构造严格正余项尺度的零梯度反例并用有理数核算。五个引用页采用局部正交性、显式交叉项分解与原表实验边界。非作者勘误或模型复现；新版全文重读仍在第 12 批。\n2026-11-23，PAPER-012：复核 v1 场景—动作混合、策略分配概率、正交损失、3.6 的既有反例和主实验支持范围；新增图 1 和中心化训练算例。既有原译件认证复验。 已对直接引用和关联候选做技术证据与读者路径自查，未运行模型或独立审查。"
+        "review_note": "复核当前绑定页及固定 v1 实验，补 DESCN 原始二元接口回链和与 DML/R-learner 的目标对照，保留定理 3.6 反例边界。"
       }
     }
   ]

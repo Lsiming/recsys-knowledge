@@ -7461,6 +7461,216 @@
       ],
       "scale": 2,
       "created_on": "2026-11-25"
+    },
+    {
+      "path": "资源/图片/SRC-MIL-UPLIFT/六种基线加入MIL前后的增量曲线.png",
+      "sha256": "7d4b556ac3eb205f8c4efeea462625eca7e008957e42c936931b69d7970a724b",
+      "kind": "第三方原图",
+      "source_id": "SRC-MIL-UPLIFT",
+      "source_version": "arXiv 2312.09639v1",
+      "basis": "附录图 1，固定 PDF 第 6 页 https://arxiv.org/pdf/2312.09639v1#page=6",
+      "credit": "Yao Zhao、Haipeng Zhang、Shiwei Lyu、Ruiying Jiang、Jinjie Gu、Guannan Zhang",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 3 倍分辨率裁剪六个子图。",
+      "original_sha256": "62ad4bef28ea78c5a8d3179290a59c4fb0c6cf03c549033d2ebd1345d4e9badf",
+      "page": 6,
+      "crop_points": [
+        315,
+        174,
+        568,
+        328
+      ],
+      "scale": 3,
+      "created_on": "2026-11-26"
+    },
+    {
+      "path": "资源/图片/SRC-DML/正交得分与正则化偏差.png",
+      "sha256": "018071cfe9d651d22a7a640f2deaa349acf9f96793635597f9dd887b87e44e0f",
+      "kind": "第三方原图",
+      "source_id": "SRC-DML",
+      "source_version": "arXiv 1608.00060v7",
+      "basis": "图 1，固定 PDF 第 4 页 https://arxiv.org/pdf/1608.00060v7#page=4",
+      "credit": "Victor Chernozhukov、Denis Chetverikov、Mert Demirer、Esther Duflo、Christian Hansen、Whitney Newey、James Robins",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪图像。",
+      "original_sha256": "3186133dacb9f4a31c004a00150627de1e5cf26e203d1522a25a5444c7dbdf78",
+      "page": 4,
+      "crop_points": [
+        109,
+        139,
+        479,
+        317
+      ],
+      "scale": 2,
+      "created_on": "2026-11-26"
+    },
+    {
+      "path": "资源/图片/SRC-DML/样本切分与过拟合偏差.png",
+      "sha256": "c769f860610bcbe0ad1015fd6e4f23bc7f0581367b4ab6750a81431e0eaa0e39",
+      "kind": "第三方原图",
+      "source_id": "SRC-DML",
+      "source_version": "arXiv 1608.00060v7",
+      "basis": "图 2，固定 PDF 第 7 页 https://arxiv.org/pdf/1608.00060v7#page=7",
+      "credit": "Victor Chernozhukov、Denis Chetverikov、Mert Demirer、Esther Duflo、Christian Hansen、Whitney Newey、James Robins",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪图像。",
+      "original_sha256": "3186133dacb9f4a31c004a00150627de1e5cf26e203d1522a25a5444c7dbdf78",
+      "page": 7,
+      "crop_points": [
+        109,
+        138,
+        479,
+        280
+      ],
+      "scale": 2,
+      "created_on": "2026-11-26"
+    },
+    {
+      "path": "资源/图片/SRC-R-LEARNER/核回归的准预言机模拟.png",
+      "sha256": "ce6fe873ee05b47817f6265fe625945001c1860cfcd7b98143ded0316edf7605",
+      "kind": "第三方原图",
+      "source_id": "SRC-R-LEARNER",
+      "source_version": "arXiv 1712.04912v4",
+      "basis": "图 4，固定 PDF 第 19 页 https://arxiv.org/pdf/1712.04912v4#page=19",
+      "credit": "Xinkun Nie、Stefan Wager",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪图像。",
+      "original_sha256": "a0e7cfcab31fee005a73052d72edec7a701581c3e386b0747c7df4eaf3e6d879",
+      "page": 19,
+      "crop_points": [
+        111,
+        135,
+        503,
+        518
+      ],
+      "scale": 2,
+      "created_on": "2026-11-26"
+    },
+    {
+      "path": "资源/图片/SRC-DESCN/全空间联合概率与交叉响应.png",
+      "sha256": "2f11f146594c5f8fd0562c9718092d8cb25227d1034905d143c848f75b31d46b",
+      "kind": "第三方原图",
+      "source_id": "SRC-DESCN",
+      "source_version": "arXiv 2207.09920v3",
+      "basis": "图 1，固定 PDF 第 4 页 https://arxiv.org/pdf/2207.09920v3#page=4",
+      "credit": "Kailiang Zhong、Fengtong Xiao、Yan Ren、Yaorong Liang、Wenqing Yao、Xiaofeng Yang、Ling Cen",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留原有标签与科学内容。",
+      "original_sha256": "b3468010f9ba995f7942a7c9e4064d985949d349f6436a844a6dbf5b58a00afb",
+      "page": 4,
+      "crop_points": [
+        51,
+        77,
+        561,
+        241
+      ],
+      "scale": 2,
+      "created_on": "2026-11-26"
+    },
+    {
+      "path": "资源/图片/SRC-EFIN/干预特征与自然响应架构.png",
+      "sha256": "fa898c147d2c6963dbfd97504d2bb7a6d1ff55b42ce0e356753a67fcc2b7b74a",
+      "kind": "第三方原图",
+      "source_id": "SRC-EFIN",
+      "source_version": "arXiv 2306.00315v1",
+      "basis": "图 2，固定 PDF 第 5 页 https://arxiv.org/pdf/2306.00315v1#page=5",
+      "credit": "Dugang Liu、Xing Tang、Han Gao、Fuyuan Lyu、Xiuqiang He",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留原有标签与科学内容。",
+      "original_sha256": "a302e62dc25b2ab15ebb32c56d3cde297bd6e3ca0a93394fb9950eeeb25a9c5d",
+      "page": 5,
+      "crop_points": [
+        62,
+        81,
+        554,
+        244
+      ],
+      "scale": 2,
+      "created_on": "2026-11-26"
+    },
+    {
+      "path": "资源/图片/SRC-EFIN/干预约束的分类结构.png",
+      "sha256": "5f8f6dc221ad4bb988a99244250f0915312f584dd47f9dab98ee55cb7393baed",
+      "kind": "第三方原图",
+      "source_id": "SRC-EFIN",
+      "source_version": "arXiv 2306.00315v1",
+      "basis": "图 3，固定 PDF 第 5 页 https://arxiv.org/pdf/2306.00315v1#page=5",
+      "credit": "Dugang Liu、Xing Tang、Han Gao、Fuyuan Lyu、Xiuqiang He",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留原有标签与科学内容。",
+      "original_sha256": "a302e62dc25b2ab15ebb32c56d3cde297bd6e3ca0a93394fb9950eeeb25a9c5d",
+      "page": 5,
+      "crop_points": [
+        343,
+        279,
+        532,
+        414
+      ],
+      "scale": 2,
+      "created_on": "2026-11-26"
+    },
+    {
+      "path": "资源/图片/SRC-DNET/非交叉分位的累积和平移.png",
+      "sha256": "fecb26f940b71a466074801e1635ec31221a6daaac7fe615ee65b9805546248b",
+      "kind": "第三方原图",
+      "source_id": "SRC-DNET",
+      "source_version": "KDD 2023 正式版，LSE 存档",
+      "basis": "图 3，固定 PDF 第 5 页 https://researchonline.lse.ac.uk/id/eprint/122895/1/Distributional_Network_for_Distributional_Individualized.pdf#page=5",
+      "credit": "Guojun Wu、Ge Song、Xiaoxiang Lv、Shikai Luo、Chengchun Shi、Hongtu Zhu",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留原有标签与科学内容。",
+      "original_sha256": "25a2dcd8ce6294dad7786240a8381c94bfc2fc9a22c3125ebe1dbc3254db134e",
+      "page": 5,
+      "crop_points": [
+        52,
+        77,
+        298,
+        344
+      ],
+      "scale": 2,
+      "created_on": "2026-11-26"
+    },
+    {
+      "path": "资源/图片/SRC-DNET/分臂分位数塔与倾向头.png",
+      "sha256": "e5f49c21d948c9525712e51e38b89bbe0dddcdedd99233ccdb270efbf71c662a",
+      "kind": "第三方原图",
+      "source_id": "SRC-DNET",
+      "source_version": "KDD 2023 正式版，LSE 存档",
+      "basis": "图 4，固定 PDF 第 5 页 https://researchonline.lse.ac.uk/id/eprint/122895/1/Distributional_Network_for_Distributional_Individualized.pdf#page=5",
+      "credit": "Guojun Wu、Ge Song、Xiaoxiang Lv、Shikai Luo、Chengchun Shi、Hongtu Zhu",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留原有标签与科学内容。",
+      "original_sha256": "25a2dcd8ce6294dad7786240a8381c94bfc2fc9a22c3125ebe1dbc3254db134e",
+      "page": 5,
+      "crop_points": [
+        314,
+        81,
+        561,
+        192
+      ],
+      "scale": 2,
+      "created_on": "2026-11-26"
+    },
+    {
+      "path": "资源/图片/SRC-DNET/零值概率与分位数塔.png",
+      "sha256": "6f17a54e597128a49a20e6bc695513f1db6f7df9975670c1d111b94b8a261d8f",
+      "kind": "第三方原图",
+      "source_id": "SRC-DNET",
+      "source_version": "KDD 2023 正式版，LSE 存档",
+      "basis": "图 5，固定 PDF 第 7 页 https://researchonline.lse.ac.uk/id/eprint/122895/1/Distributional_Network_for_Distributional_Individualized.pdf#page=7",
+      "credit": "Guojun Wu、Ge Song、Xiaoxiang Lv、Shikai Luo、Chengchun Shi、Hongtu Zhu",
+      "license": "采用版作者原图，保留署名及原始标签。",
+      "modification": "从固定 PDF 以 2 倍分辨率裁剪，保留原有标签与科学内容。",
+      "original_sha256": "25a2dcd8ce6294dad7786240a8381c94bfc2fc9a22c3125ebe1dbc3254db134e",
+      "page": 7,
+      "crop_points": [
+        68,
+        81,
+        279,
+        192
+      ],
+      "scale": 2,
+      "created_on": "2026-11-26"
     }
   ]
 }

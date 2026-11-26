@@ -2940,5 +2940,164 @@
     "status": "reading-only",
     "reason": "按营销补贴第 1 批范围解读 Qini。采用 2011 年作者稿，另核对 2007 年刊文题录与摘要。",
     "checked_on": "2026-11-25"
+  },
+  {
+    "source_id": "SRC-DML",
+    "title": "Double/Debiased Machine Learning for Treatment and Causal Parameters",
+    "original_url": "https://arxiv.org/pdf/1608.00060v7",
+    "revision": "arXiv:1608.00060v7 (2024-11-03); The Econometrics Journal 2018, DOI 10.1111/ectj.12097",
+    "status": "local-only",
+    "reason": "52 页中文正文 PDF 已私有备份并认证下载核验，公开全文译文许可未确认。",
+    "checked_on": "2026-11-26",
+    "authors": [
+      "Victor Chernozhukov",
+      "Denis Chetverikov",
+      "Mert Demirer",
+      "Esther Duflo",
+      "Christian Hansen",
+      "Whitney Newey",
+      "James Robins"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1608.00060v7",
+    "evidence_sha256": "3186133dacb9f4a31c004a00150627de1e5cf26e203d1522a25a5444c7dbdf78",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-R-LEARNER",
+    "title": "Quasi-Oracle Estimation of Heterogeneous Treatment Effects",
+    "original_url": "https://arxiv.org/pdf/1712.04912v4",
+    "revision": "arXiv:1712.04912v4 (2020-08-06); Biometrika 108(2), 299–319, DOI 10.1093/biomet/asaa076",
+    "status": "local-only",
+    "reason": "41 页中文正文 PDF 已私有备份并认证下载核验，公开全文译文许可未确认。",
+    "checked_on": "2026-11-26",
+    "authors": [
+      "Xinkun Nie",
+      "Stefan Wager"
+    ],
+    "evidence_url": "https://arxiv.org/abs/1712.04912v4",
+    "evidence_sha256": "a0e7cfcab31fee005a73052d72edec7a701581c3e386b0747c7df4eaf3e6d879",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-DESCN",
+    "title": "DESCN: Deep Entire Space Cross Networks for Individual Treatment Effect Estimation",
+    "original_url": "https://arxiv.org/pdf/2207.09920v3",
+    "revision": "arXiv:2207.09920v3 (2023-10-20); KDD 2022, DOI 10.1145/3534678.3539198",
+    "status": "local-only",
+    "reason": "7 页中文正文 PDF 已私有备份并认证下载核验，公开全文译文许可未确认。",
+    "checked_on": "2026-11-26",
+    "authors": [
+      "Kailiang Zhong",
+      "Fengtong Xiao",
+      "Yan Ren",
+      "Yaorong Liang",
+      "Wenqing Yao",
+      "Xiaofeng Yang",
+      "Ling Cen"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2207.09920v3",
+    "evidence_sha256": "b3468010f9ba995f7942a7c9e4064d985949d349f6436a844a6dbf5b58a00afb",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-EFIN",
+    "title": "Explicit Feature Interaction-aware Uplift Network for Online Marketing",
+    "original_url": "https://arxiv.org/pdf/2306.00315v1",
+    "revision": "arXiv:2306.00315v1 (2023-06-01); KDD 2023, DOI 10.1145/3580305.3599820",
+    "status": "local-only",
+    "reason": "9 页中文正文 PDF 已私有备份并认证下载核验，公开全文译文许可未确认。",
+    "checked_on": "2026-11-26",
+    "authors": [
+      "Dugang Liu",
+      "Xing Tang",
+      "Han Gao",
+      "Fuyuan Lyu",
+      "Xiuqiang He"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2306.00315v1",
+    "evidence_sha256": "a302e62dc25b2ab15ebb32c56d3cde297bd6e3ca0a93394fb9950eeeb25a9c5d",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  {
+    "source_id": "SRC-MIL-UPLIFT",
+    "title": "Multiple Instance Learning for Uplift Modeling",
+    "original_url": "https://arxiv.org/pdf/2312.09639v1",
+    "revision": "arXiv:2312.09639v1 (2023-12-15); CIKM 2022, DOI 10.1145/3511808.3557655",
+    "status": "local-only",
+    "reason": "5 页中文正文 PDF 已私有备份并认证下载核验，公开全文译文许可未确认。",
+    "checked_on": "2026-11-26",
+    "authors": [
+      "Yao Zhao",
+      "Haipeng Zhang",
+      "Shiwei Lyu",
+      "Ruiying Jiang",
+      "Jinjie Gu",
+      "Guannan Zhang"
+    ],
+    "evidence_url": "https://arxiv.org/abs/2312.09639v1",
+    "evidence_sha256": "62ad4bef28ea78c5a8d3179290a59c4fb0c6cf03c549033d2ebd1345d4e9badf",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  {
+    "source_id": "SRC-DNET",
+    "title": "DNet: Distributional Network for Distributional Individualized Treatment Effects",
+    "original_url": "https://researchonline.lse.ac.uk/id/eprint/122895/1/Distributional_Network_for_Distributional_Individualized.pdf",
+    "revision": "KDD 2023, 5215–5224; DOI 10.1145/3580305.3599809; LSE 正式版存档，含机构封面",
+    "status": "local-only",
+    "reason": "16 页中文正文 PDF 已私有备份并认证下载核验，公开全文译文许可未确认。",
+    "checked_on": "2026-11-26",
+    "authors": [
+      "Guojun Wu",
+      "Ge Song",
+      "Xiaoxiang Lv",
+      "Shikai Luo",
+      "Chengchun Shi",
+      "Hongtu Zhu"
+    ],
+    "evidence_url": "https://researchonline.lse.ac.uk/id/eprint/122895/",
+    "evidence_sha256": "25a2dcd8ce6294dad7786240a8381c94bfc2fc9a22c3125ebe1dbc3254db134e"
+  },
+  {
+    "source_id": "SRC-FRISCH-WAUGH",
+    "title": "Partial Time Regressions as Compared with Individual Trends",
+    "original_url": "https://doi.org/10.2307/1907330",
+    "revision": "Econometrica 1(4), 387–401 (1933); DOI 10.2307/1907330",
+    "status": "reading-only",
+    "reason": "已核原刊题录，按 Basu 的历史考据解读去线性趋势，1933 年原刊全文待取得。",
+    "checked_on": "2026-11-26",
+    "authors": [
+      "Ragnar Frisch",
+      "Frederick V. Waugh"
+    ],
+    "evidence_url": "https://doi.org/10.2307/1907330",
+    "evidence_sha256": "5a5ebe91350e6d9a4d9be3ec51de396ec999b4c389aefab3e48dec18b6e0f26c"
+  },
+  {
+    "source_id": "SRC-LOVELL",
+    "title": "Seasonal Adjustment of Economic Time Series and Multiple Regression Analysis",
+    "original_url": "https://doi.org/10.1080/01621459.1963.10480682",
+    "revision": "JASA 58(304), 993–1010 (1963); DOI 10.1080/01621459.1963.10480682",
+    "status": "reading-only",
+    "reason": "已核原刊题录，按 Basu 的历史考据解读季节调整与分块控制，1963 年原刊全文待取得。",
+    "checked_on": "2026-11-26",
+    "authors": [
+      "Michael C. Lovell"
+    ],
+    "evidence_url": "https://doi.org/10.1080/01621459.1963.10480682",
+    "evidence_sha256": "60b0c504abcd799e2e84959bb01b10261b00e6a6d8cca2ee29b10fae958ba92f"
+  },
+  {
+    "source_id": "SRC-ROBINSON-PLR",
+    "title": "Root-N-Consistent Semiparametric Regression",
+    "original_url": "https://doi.org/10.2307/1912705",
+    "revision": "Econometrica 56(4), 931–954 (1988); DOI 10.2307/1912705",
+    "status": "reading-only",
+    "reason": "已核原刊题录、摘要及 DML 与 R-learner 的推导，1988 年原刊全文待取得。",
+    "checked_on": "2026-11-26",
+    "authors": [
+      "Peter M. Robinson"
+    ],
+    "evidence_url": "https://doi.org/10.2307/1912705",
+    "evidence_sha256": "abfbf7b595e941ff8538e886e51e5762c99526505814b5206bcd861357c78a64"
   }
 ]

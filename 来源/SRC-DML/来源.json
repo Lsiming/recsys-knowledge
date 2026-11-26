@@ -1,0 +1,33 @@
+{
+  "id": "SRC-DML",
+  "title": "Double/Debiased Machine Learning for Treatment and Causal Parameters",
+  "kind": "paper",
+  "state": "active",
+  "current": "2b89c3baf9004d9420a3c6017dc6b972856769f5eabf47358ab472032753d82f",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1608.00060v7",
+      "revision": "arXiv:1608.00060v7 (2024-11-03); The Econometrics Journal 2018, DOI 10.1111/ectj.12097",
+      "read_scope": "精读 §1 的偏差例、§3.1 的交叉拟合、§4.1 的部分线性得分与 §5.1 的 ATE 得分，核对 v7 速率勘误与 401(k) 经验示例。PDF 首页印作 Treatment and Structural Parameters。",
+      "artifacts": [
+        {
+          "name": "1608.00060v7.pdf",
+          "sha256": "3186133dacb9f4a31c004a00150627de1e5cf26e203d1522a25a5444c7dbdf78",
+          "snapshot": ".local/sources/SRC-DML/3186133dacb9f4a31c004a00150627de1e5cf26e203d1522a25a5444c7dbdf78/1608.00060v7.pdf"
+        }
+      ],
+      "fingerprint": "2b89c3baf9004d9420a3c6017dc6b972856769f5eabf47358ab472032753d82f",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "f8b415bb8ef6e0219afa9f11feaec8b65804b273c9a2fc3470112fe52ebbe253",
+        "pages": [
+          "residualized-treatment-effects"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v7 的分折定义、PLR 和 ATE 得分、正则化模拟及范数勘误，复核 401(k) 和 AJR 表注；回填固定斜率、重叠权重和低维推断边界。未复现实证。"
+      }
+    }
+  ]
+}

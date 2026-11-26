@@ -1,0 +1,38 @@
+{
+  "id": "SRC-LOVELL",
+  "title": "Seasonal Adjustment of Economic Time Series and Multiple Regression Analysis",
+  "kind": "paper",
+  "state": "active",
+  "current": "9cd86e6ca862365187457ff559b1f7ed6b9b5246908cce24c2b7b4e9ee92d475",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1080/01621459.1963.10480682",
+      "revision": "JASA 58(304), 993–1010 (1963); DOI 10.1080/01621459.1963.10480682",
+      "read_scope": "核对出版题录，借 Basu arXiv:2307.00369v1 §5 回查多变量投影一般化、残差及协方差讨论。1963 年全文待取得。",
+      "artifacts": [
+        {
+          "name": "LOVELL-Crossref.json",
+          "sha256": "60b0c504abcd799e2e84959bb01b10261b00e6a6d8cca2ee29b10fae958ba92f",
+          "snapshot": ".local/sources/SRC-LOVELL/60b0c504abcd799e2e84959bb01b10261b00e6a6d8cca2ee29b10fae958ba92f/LOVELL-Crossref.json"
+        },
+        {
+          "name": "2307.00369v1.pdf",
+          "sha256": "2861ea322d3cb8fb246188eea961d9e666df4bc02a27ec81183630f3fbcab79f",
+          "snapshot": ".local/sources/SRC-LOVELL/2861ea322d3cb8fb246188eea961d9e666df4bc02a27ec81183630f3fbcab79f/2307.00369v1.pdf"
+        }
+      ],
+      "fingerprint": "9cd86e6ca862365187457ff559b1f7ed6b9b5246908cce24c2b7b4e9ee92d475",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "96871834d91a29f2735e36b1b894ad28fce2af062a42dd9e11b4577be61a9f55",
+        "pages": [
+          "residualized-treatment-effects"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对原刊题录和 Basu §5 的史料、系数及残差恒等式，回填多控制块及自由度；原刊全文待取得。"
+      }
+    }
+  ]
+}

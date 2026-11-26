@@ -1,0 +1,38 @@
+{
+  "id": "SRC-ROBINSON-PLR",
+  "title": "Root-N-Consistent Semiparametric Regression",
+  "kind": "paper",
+  "state": "active",
+  "current": "37ef605f7675a1ccdc3cf05e1e1eb686ca78a254774f9b55ffaa0b687ba4f118",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.2307/1912705",
+      "revision": "Econometrica 56(4), 931–954 (1988); DOI 10.2307/1912705",
+      "read_scope": "核对出版题录和 EconPapers 摘要，并用 DML §1、§4 与 R-learner §2 核对对 Robinson 变换的复述。1988 年全文待取得。",
+      "artifacts": [
+        {
+          "name": "ROBINSON-PLR-Crossref.json",
+          "sha256": "abfbf7b595e941ff8538e886e51e5762c99526505814b5206bcd861357c78a64",
+          "snapshot": ".local/sources/SRC-ROBINSON-PLR/abfbf7b595e941ff8538e886e51e5762c99526505814b5206bcd861357c78a64/ROBINSON-PLR-Crossref.json"
+        },
+        {
+          "name": "historical-econpapers.html",
+          "sha256": "1eb23d1182b5a64b3ce198e9bea1ebb77a772d4544913b4b5d99d303d342d5f7",
+          "snapshot": ".local/sources/SRC-ROBINSON-PLR/1eb23d1182b5a64b3ce198e9bea1ebb77a772d4544913b4b5d99d303d342d5f7/historical-econpapers.html"
+        }
+      ],
+      "fingerprint": "37ef605f7675a1ccdc3cf05e1e1eb686ca78a254774f9b55ffaa0b687ba4f118",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "55e9030df467562e72c6cab46897222803fb2cd315b163edc84240768ef0be19",
+        "pages": [
+          "residualized-treatment-effects"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对原刊题录和 EconPapers 摘要、DML §4.1 与 R-learner §2 的复述，回填条件均值残差；原刊全文待取得。"
+      }
+    }
+  ]
+}

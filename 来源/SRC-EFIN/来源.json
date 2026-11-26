@@ -1,0 +1,49 @@
+{
+  "id": "SRC-EFIN",
+  "title": "Explicit Feature Interaction-aware Uplift Network for Online Marketing",
+  "kind": "paper",
+  "state": "active",
+  "current": "be9d62832f9852974aca63108d50fed8a5eb22bf92a4d2006382a0d50cdb1229",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2306.00315v1",
+      "revision": "arXiv:2306.00315v1 (2023-06-01); KDD 2023",
+      "read_scope": "取得并核对题录及九页作者稿；精读范围随核查更新。",
+      "artifacts": [
+        {
+          "name": "2306.00315v1.pdf",
+          "sha256": "a302e62dc25b2ab15ebb32c56d3cde297bd6e3ca0a93394fb9950eeeb25a9c5d",
+          "snapshot": ".local/sources/SRC-EFIN/a302e62dc25b2ab15ebb32c56d3cde297bd6e3ca0a93394fb9950eeeb25a9c5d/2306.00315v1.pdf"
+        }
+      ],
+      "fingerprint": "fb97d3ffc11535326d98d3e1a3003f6ec60bcdf308366a40fc1ea82ae3baa34d",
+      "retrieved_on": "2026-11-26",
+      "integration": null
+    },
+    {
+      "locator": "https://arxiv.org/pdf/2306.00315v1",
+      "revision": "arXiv:2306.00315v1 (2023-06-01); KDD 2023, DOI 10.1145/3580305.3599820",
+      "read_scope": "精读九页作者稿正文 §1–6、式 (1)–(14)、图 1–5、表 1–6，核对线上和消融的指标边界。",
+      "artifacts": [
+        {
+          "name": "2306.00315v1.pdf",
+          "sha256": "a302e62dc25b2ab15ebb32c56d3cde297bd6e3ca0a93394fb9950eeeb25a9c5d",
+          "snapshot": ".local/sources/SRC-EFIN/a302e62dc25b2ab15ebb32c56d3cde297bd6e3ca0a93394fb9950eeeb25a9c5d/2306.00315v1.pdf"
+        }
+      ],
+      "fingerprint": "be9d62832f9852974aca63108d50fed8a5eb22bf92a4d2006382a0d50cdb1229",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "9f67496e7d7a9d2f669047b29902fef686c74d3dca877b2a967c8b8ab0fec7ba",
+        "pages": [
+          "combinatorial-policy-uplift",
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v1 字段交互、反标签联合目标、表 3–6；复核反标签分类可等价翻转头，添加 OFA 处理轴对照。保留指标和线上协议边界。"
+      }
+    }
+  ]
+}

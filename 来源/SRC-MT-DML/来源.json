@@ -22,11 +22,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "310606c7a7e1e0d2d4fb50812e9cb326ed4434506528cd7e3f4290c40e1b1c7f",
         "pages": [
-          "combinatorial-policy-uplift"
+          "combinatorial-policy-uplift",
+          "residualized-treatment-effects"
         ],
-        "reviewed_on": "2026-11-25",
+        "reviewed_on": "2026-11-26",
         "review_method": "agent-self-review",
-        "review_note": "复核固定 v2 图 1–5、式 (1)–(7)、表 1–5，区分交叉拟合、形状约束、重叠及线上策略口径。"
+        "review_note": "复核贷款 v2 的残差与敏感度，加入二元 R-learner 和多坐标残差协方差比较，沿用真实评估条件及既有整合范围。"
       }
     }
   ]

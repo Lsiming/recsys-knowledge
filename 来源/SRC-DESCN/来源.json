@@ -1,0 +1,34 @@
+{
+  "id": "SRC-DESCN",
+  "title": "DESCN: Deep Entire Space Cross Networks for Individual Treatment Effect Estimation",
+  "kind": "paper",
+  "state": "active",
+  "current": "6e4c05a56eb9d63ca4d18a4d27bcb7c809d7180ab7951d44f4b1d883edecced0",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2207.09920v3",
+      "revision": "arXiv:2207.09920v3 (2023-10-20); KDD 2022, DOI 10.1145/3534678.3539198",
+      "read_scope": "精读正文 §1–6、图 1、式 (1)–(10)、表 1–4；复核作者代码前向与推理。",
+      "artifacts": [
+        {
+          "name": "2207.09920v3.pdf",
+          "sha256": "b3468010f9ba995f7942a7c9e4064d985949d349f6436a844a6dbf5b58a00afb",
+          "snapshot": ".local/sources/SRC-DESCN/b3468010f9ba995f7942a7c9e4064d985949d349f6436a844a6dbf5b58a00afb/2207.09920v3.pdf"
+        }
+      ],
+      "fingerprint": "6e4c05a56eb9d63ca4d18a4d27bcb7c809d7180ab7951d44f4b1d883edecced0",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "e5bee11d051b98ba1bcf52f3677f2c953968f287f46c7df7ed3558580511faed",
+        "pages": [
+          "combinatorial-policy-uplift",
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v3 全空间联合目标、交叉 logit、表 2–3 和固定作者实现；更新历史券问题与组合策略的 POUL 基线回链，保留表格冲突。未运行模型。"
+      }
+    }
+  ]
+}

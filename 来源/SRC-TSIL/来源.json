@@ -23,14 +23,15 @@
         "notes_sha256": "5fa793d9fa4ac7c60108f508f353063ddb395129c225928e114e93c882cfd108",
         "pages": [
           "causal-uplift",
+          "coupon-outcome-distribution",
           "notification-send-or-wait",
           "push-frequency-activity-uplift",
           "push-offer-contact",
           "push-timing-reading-path"
         ],
-        "reviewed_on": "2026-11-25",
+        "reviewed_on": "2026-11-26",
         "review_method": "agent-self-review",
-        "review_note": "按作者固定版第 2–5 页核对两端膨胀分布、零推送与预设频次的两臂期望差以及表 2、5 的增量排序与总体校准；以独立频次问题承接索引并连接日内节奏与逐条发送，不外推单条边际或选日效果。"
+        "review_note": "复核两端点和中间部分的混合期望，在分臂金额问题对照零点质量与条件分位；端点定义和原评估沿用已有范围。"
       }
     }
   ]

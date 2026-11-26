@@ -1,0 +1,33 @@
+{
+  "id": "SRC-R-LEARNER",
+  "title": "Quasi-Oracle Estimation of Heterogeneous Treatment Effects",
+  "kind": "paper",
+  "state": "active",
+  "current": "1ab0442f0e731e98aab2033511ce0abad54fdc07057bb6fbfd0a6c8485ad5518",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1712.04912v4",
+      "revision": "arXiv:1712.04912v4 (2020-08-06); Biometrika 108(2), 299–319, DOI 10.1093/biomet/asaa076",
+      "read_scope": "精读正文 §1–7 中的 R-loss、核方法条件、模拟对照和扩展，回查附录模拟表与定理证明位置。",
+      "artifacts": [
+        {
+          "name": "1712.04912v4.pdf",
+          "sha256": "a0e7cfcab31fee005a73052d72edec7a701581c3e386b0747c7df4eaf3e6d879",
+          "snapshot": ".local/sources/SRC-R-LEARNER/a0e7cfcab31fee005a73052d72edec7a701581c3e386b0747c7df4eaf3e6d879/1712.04912v4.pdf"
+        }
+      ],
+      "fingerprint": "1ab0442f0e731e98aab2033511ce0abad54fdc07057bb6fbfd0a6c8485ad5518",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a56582021097fad6443bf7a44dc876dcdb0b2d9fe9ea090aa95793e77dddb1ec",
+        "pages": [
+          "residualized-treatment-effects"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v4 式 (1)–(4)、定理 3 及预言机模拟；回填折外残差、平方权重与异质效应目标，和 DML、MT-DML 对照。未运行模型。"
+      }
+    }
+  ]
+}

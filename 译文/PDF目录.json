@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "inventory_note": "按来源 ID 登记中文 PDF 的范围、许可和备份状态。原文、旧构建和图表不计为独立中文 PDF。",
   "entries": [
     {
@@ -5881,6 +5881,243 @@
         "size_bytes": 767811,
         "pages": 11,
         "verified_download_sha256": "7cf2f9465c03ef6cacd8b49408be0c6f4eba7aee77997fb442ba013078968e0f"
+      }
+    },
+    {
+      "source_id": "SRC-DML",
+      "title": "Double/Debiased Machine Learning for Treatment and Causal Parameters",
+      "original_url": "https://arxiv.org/pdf/1608.00060v7",
+      "revision": "arXiv:1608.00060v7 (2024-11-03); The Econometrics Journal 2018, DOI 10.1111/ectj.12097",
+      "input_sha256": "f91e91e4fcb074e6b143b5277ae4d451fb05eb1ab95b41f4923c8ff0a74f59ce",
+      "input_pages": 52,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、两幅图注、四张表及注释、描述性脚注和致谢。图内英文、参考文献和证明附录保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Victor Chernozhukov",
+          "Denis Chetverikov",
+          "Mert Demirer",
+          "Esther Duflo",
+          "Christian Hansen",
+          "Whitney Newey",
+          "James Robins"
+        ],
+        "original_pdf_sha256": "3186133dacb9f4a31c004a00150627de1e5cf26e203d1522a25a5444c7dbdf78",
+        "evidence_url": "https://arxiv.org/abs/1608.00060v7",
+        "evidence_sha256": "3186133dacb9f4a31c004a00150627de1e5cf26e203d1522a25a5444c7dbdf78",
+        "notes": "固定 arXiv 条目采用 arXiv 非独占分发许可，公开译文许可未确认。",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文和中文 PDF 均认证下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-03-04",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-DML.zh-CN.private.20261126.1.pdf",
+        "sha256": "f91e91e4fcb074e6b143b5277ae4d451fb05eb1ab95b41f4923c8ff0a74f59ce",
+        "size_bytes": 716165,
+        "pages": 52,
+        "verified_download_sha256": "f91e91e4fcb074e6b143b5277ae4d451fb05eb1ab95b41f4923c8ff0a74f59ce"
+      }
+    },
+    {
+      "source_id": "SRC-R-LEARNER",
+      "title": "Quasi-Oracle Estimation of Heterogeneous Treatment Effects",
+      "original_url": "https://arxiv.org/pdf/1712.04912v4",
+      "revision": "arXiv:1712.04912v4 (2020-08-06); Biometrika 108(2), 299–319, DOI 10.1093/biomet/asaa076",
+      "input_sha256": "1ff6d29707c9c6a361d8f04a7fe64598e2fb827eeb9072ebf0350723eed2f5cf",
+      "input_pages": 41,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、正文图表说明与致谢。证明附录、附录表、图内文字和参考文献保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Xinkun Nie",
+          "Stefan Wager"
+        ],
+        "original_pdf_sha256": "a0e7cfcab31fee005a73052d72edec7a701581c3e386b0747c7df4eaf3e6d879",
+        "evidence_url": "https://arxiv.org/abs/1712.04912v4",
+        "evidence_sha256": "a0e7cfcab31fee005a73052d72edec7a701581c3e386b0747c7df4eaf3e6d879",
+        "notes": "固定 arXiv 条目采用 arXiv 非独占分发许可，公开译文许可未确认。",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文和中文 PDF 均认证下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-03-04",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-R-LEARNER.zh-CN.private.20261126.1.pdf",
+        "sha256": "1ff6d29707c9c6a361d8f04a7fe64598e2fb827eeb9072ebf0350723eed2f5cf",
+        "size_bytes": 576003,
+        "pages": 41,
+        "verified_download_sha256": "1ff6d29707c9c6a361d8f04a7fe64598e2fb827eeb9072ebf0350723eed2f5cf"
+      }
+    },
+    {
+      "source_id": "SRC-DESCN",
+      "title": "DESCN: Deep Entire Space Cross Networks for Individual Treatment Effect Estimation",
+      "original_url": "https://arxiv.org/pdf/2207.09920v3",
+      "revision": "arXiv:2207.09920v3 (2023-10-20); KDD 2022, DOI 10.1145/3534678.3539198",
+      "input_sha256": "f2bed6b546fc41b3df4e195e3f9cb339d24dee8cb47ea9eb674c924b1caa8e86",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、图表说明与描述性脚注。图内文字、参考文献和权利声明保留。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Kailiang Zhong",
+          "Fengtong Xiao",
+          "Yan Ren",
+          "Yaorong Liang",
+          "Wenqing Yao",
+          "Xiaofeng Yang",
+          "Ling Cen"
+        ],
+        "original_pdf_sha256": "b3468010f9ba995f7942a7c9e4064d985949d349f6436a844a6dbf5b58a00afb",
+        "evidence_url": "https://arxiv.org/abs/2207.09920v3",
+        "evidence_sha256": "b3468010f9ba995f7942a7c9e4064d985949d349f6436a844a6dbf5b58a00afb",
+        "notes": "固定 arXiv 条目采用 arXiv 非独占分发许可，公开译文许可未确认。",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文和中文 PDF 均认证下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-03-04",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-DESCN.zh-CN.private.20261126.1.pdf",
+        "sha256": "f2bed6b546fc41b3df4e195e3f9cb339d24dee8cb47ea9eb674c924b1caa8e86",
+        "size_bytes": 673488,
+        "pages": 7,
+        "verified_download_sha256": "f2bed6b546fc41b3df4e195e3f9cb339d24dee8cb47ea9eb674c924b1caa8e86"
+      }
+    },
+    {
+      "source_id": "SRC-EFIN",
+      "title": "Explicit Feature Interaction-aware Uplift Network for Online Marketing",
+      "original_url": "https://arxiv.org/pdf/2306.00315v1",
+      "revision": "arXiv:2306.00315v1 (2023-06-01); KDD 2023, DOI 10.1145/3580305.3599820",
+      "input_sha256": "b87be04ae62d00fe41d179d7eaec5d96c9d69e170590f2d72df04945ebf85a43",
+      "input_pages": 9,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、图表说明、描述性脚注与致谢。图内文字、参考文献和权利声明保留。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Dugang Liu",
+          "Xing Tang",
+          "Han Gao",
+          "Fuyuan Lyu",
+          "Xiuqiang He"
+        ],
+        "original_pdf_sha256": "a302e62dc25b2ab15ebb32c56d3cde297bd6e3ca0a93394fb9950eeeb25a9c5d",
+        "evidence_url": "https://arxiv.org/abs/2306.00315v1",
+        "evidence_sha256": "a302e62dc25b2ab15ebb32c56d3cde297bd6e3ca0a93394fb9950eeeb25a9c5d",
+        "notes": "固定 arXiv 条目采用 arXiv 非独占分发许可，公开译文许可未确认。",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "reason": "正文译稿逐页目视，采用原文和中文 PDF 均认证下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-03-04",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-EFIN.zh-CN.private.20261126.1.pdf",
+        "sha256": "b87be04ae62d00fe41d179d7eaec5d96c9d69e170590f2d72df04945ebf85a43",
+        "size_bytes": 920461,
+        "pages": 9,
+        "verified_download_sha256": "b87be04ae62d00fe41d179d7eaec5d96c9d69e170590f2d72df04945ebf85a43"
+      }
+    },
+    {
+      "source_id": "SRC-MIL-UPLIFT",
+      "title": "Multiple Instance Learning for Uplift Modeling",
+      "original_url": "https://arxiv.org/pdf/2312.09639v1",
+      "revision": "arXiv:2312.09639v1 (2023-12-15); CIKM 2022, DOI 10.1145/3511808.3557655",
+      "input_sha256": "5f2a3db5b50a8d84580f7ac0ced88bb21e2e4125761fc77b35f3a8f7143cfafe",
+      "input_pages": 5,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、正文图表说明与描述性脚注。附录 A–B、参考文献和图内文字保留原文。",
+      "status": "private",
+      "rights": {
+        "decision": "not-permitted",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Yao Zhao",
+          "Haipeng Zhang",
+          "Shiwei Lyu",
+          "Ruiying Jiang",
+          "Jinjie Gu",
+          "Guannan Zhang"
+        ],
+        "original_pdf_sha256": "62ad4bef28ea78c5a8d3179290a59c4fb0c6cf03c549033d2ebd1345d4e9badf",
+        "evidence_url": "https://arxiv.org/abs/2312.09639v1",
+        "evidence_sha256": "62ad4bef28ea78c5a8d3179290a59c4fb0c6cf03c549033d2ebd1345d4e9badf",
+        "notes": "固定 arXiv v1 标注 CC BY-NC-ND 4.0，原文另保留 CIKM 版权栏。该许可不授权发布派生译文。",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "license_id": "CC-BY-NC-ND-4.0"
+      },
+      "reason": "正文译稿逐页目视，采用原文和中文 PDF 均认证下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-03-04",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-MIL-UPLIFT.zh-CN.private.20261126.1.pdf",
+        "sha256": "5f2a3db5b50a8d84580f7ac0ced88bb21e2e4125761fc77b35f3a8f7143cfafe",
+        "size_bytes": 717653,
+        "pages": 5,
+        "verified_download_sha256": "5f2a3db5b50a8d84580f7ac0ced88bb21e2e4125761fc77b35f3a8f7143cfafe"
+      }
+    },
+    {
+      "source_id": "SRC-DNET",
+      "title": "DNet: Distributional Network for Distributional Individualized Treatment Effects",
+      "original_url": "https://researchonline.lse.ac.uk/id/eprint/122895/1/Distributional_Network_for_Distributional_Individualized.pdf",
+      "revision": "KDD 2023, 5215–5224; DOI 10.1145/3580305.3599809; LSE 正式版存档，含机构封面",
+      "input_sha256": "fd866900c0205a7035edd575bc4c8a4d36fb79908b498ea6f58e0e8f2b6e0a8a",
+      "input_pages": 16,
+      "duplicate_count": 0,
+      "scope": "依据 LSE 存档的 KDD 正式论文重排，译摘要、正文 §1–7、九图、四表说明与描述性脚注。图内文字、43 条参考文献和权利声明保留。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Guojun Wu",
+          "Ge Song",
+          "Xiaoxiang Lv",
+          "Shikai Luo",
+          "Chengchun Shi",
+          "Hongtu Zhu"
+        ],
+        "original_pdf_sha256": "25a2dcd8ce6294dad7786240a8381c94bfc2fc9a22c3125ebe1dbc3254db134e",
+        "evidence_url": "https://researchonline.lse.ac.uk/id/eprint/122895/",
+        "evidence_sha256": "25a2dcd8ce6294dad7786240a8381c94bfc2fc9a22c3125ebe1dbc3254db134e",
+        "notes": "LSE 存档许可字段为 Other，正式版保留 ACM 版权栏与原作者署名，未确认公开全文译文许可。"
+      },
+      "reason": "正文译稿逐页目视，采用原文和中文 PDF 均认证下载核验。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-03-04",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-DNET.zh-CN.private.20261126.1.pdf",
+        "sha256": "fd866900c0205a7035edd575bc4c8a4d36fb79908b498ea6f58e0e8f2b6e0a8a",
+        "size_bytes": 2391148,
+        "pages": 16,
+        "verified_download_sha256": "fd866900c0205a7035edd575bc4c8a4d36fb79908b498ea6f58e0e8f2b6e0a8a"
       }
     }
   ],

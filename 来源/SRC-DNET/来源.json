@@ -1,0 +1,48 @@
+{
+  "id": "SRC-DNET",
+  "title": "DNet: Distributional Network for Distributional Individualized Treatment Effects",
+  "kind": "paper",
+  "state": "active",
+  "current": "503e793876a051b5ebebff1d469c3ccbcdcd2ee7b7dc0b11592d5ad32eb840ae",
+  "versions": [
+    {
+      "locator": "https://researchonline.lse.ac.uk/id/eprint/122895/1/Distributional_Network_for_Distributional_Individualized.pdf",
+      "revision": "KDD 2023, 5215–5224; DOI 10.1145/3580305.3599809; LSE 正式版存档，含机构封面",
+      "read_scope": "取得并核对 LSE 存档与 KDD 正式题录、连续页码；精读范围随核查更新。",
+      "artifacts": [
+        {
+          "name": "DNet-LSE-original.pdf",
+          "sha256": "25a2dcd8ce6294dad7786240a8381c94bfc2fc9a22c3125ebe1dbc3254db134e",
+          "snapshot": ".local/sources/SRC-DNET/25a2dcd8ce6294dad7786240a8381c94bfc2fc9a22c3125ebe1dbc3254db134e/DNet-LSE-original.pdf"
+        }
+      ],
+      "fingerprint": "95f74486c9fd6c0b23972cb3420a777c863e8549880d84c054c725f3920b7321",
+      "retrieved_on": "2026-11-26",
+      "integration": null
+    },
+    {
+      "locator": "https://researchonline.lse.ac.uk/id/eprint/122895/1/Distributional_Network_for_Distributional_Individualized.pdf",
+      "revision": "KDD 2023, 5215–5224; DOI 10.1145/3580305.3599809; LSE 正式版存档，含机构封面",
+      "read_scope": "精读正式版 §1–7、式 (1)–(8)、图 1–9、表 1–4，核对平均与分位估计、变体及业务评估。",
+      "artifacts": [
+        {
+          "name": "DNet-LSE-original.pdf",
+          "sha256": "25a2dcd8ce6294dad7786240a8381c94bfc2fc9a22c3125ebe1dbc3254db134e",
+          "snapshot": ".local/sources/SRC-DNET/25a2dcd8ce6294dad7786240a8381c94bfc2fc9a22c3125ebe1dbc3254db134e/DNet-LSE-original.pdf"
+        }
+      ],
+      "fingerprint": "503e793876a051b5ebebff1d469c3ccbcdcd2ee7b7dc0b11592d5ad32eb840ae",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "71ce07c8dd67fee01de5880032a7d1b29e65ce8ed25c24f8babfc88a824765a8",
+        "pages": [
+          "coupon-outcome-distribution"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对 LSE 正式版式 (1)–(8)、原图和实验，分清均值、边际分位和个体差值分布；保留表 2 及分位损失的印式问题，未运行模型。"
+      }
+    }
+  ]
+}

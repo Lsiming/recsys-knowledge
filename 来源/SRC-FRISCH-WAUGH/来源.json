@@ -1,0 +1,38 @@
+{
+  "id": "SRC-FRISCH-WAUGH",
+  "title": "Partial Time Regressions as Compared with Individual Trends",
+  "kind": "paper",
+  "state": "active",
+  "current": "1dbdf160ae3ded45c97b19764c916b6d8816baaf86c5a6172e49a02cfb7a8a56",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.2307/1907330",
+      "revision": "Econometrica 1(4), 387–401 (1933); DOI 10.2307/1907330",
+      "read_scope": "核对出版题录，借 Basu arXiv:2307.00369v1 §4 回查去线性时间趋势、史料引文与证明形式。1933 年全文待取得。",
+      "artifacts": [
+        {
+          "name": "FRISCH-WAUGH-Crossref.json",
+          "sha256": "5a5ebe91350e6d9a4d9be3ec51de396ec999b4c389aefab3e48dec18b6e0f26c",
+          "snapshot": ".local/sources/SRC-FRISCH-WAUGH/5a5ebe91350e6d9a4d9be3ec51de396ec999b4c389aefab3e48dec18b6e0f26c/FRISCH-WAUGH-Crossref.json"
+        },
+        {
+          "name": "2307.00369v1.pdf",
+          "sha256": "2861ea322d3cb8fb246188eea961d9e666df4bc02a27ec81183630f3fbcab79f",
+          "snapshot": ".local/sources/SRC-FRISCH-WAUGH/2861ea322d3cb8fb246188eea961d9e666df4bc02a27ec81183630f3fbcab79f/2307.00369v1.pdf"
+        }
+      ],
+      "fingerprint": "1dbdf160ae3ded45c97b19764c916b6d8816baaf86c5a6172e49a02cfb7a8a56",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "af151865cdedf580ccd75f892719381e65d9e95e879cef833cd8cb223f3f1f87",
+        "pages": [
+          "residualized-treatment-effects"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对原刊题录和 Basu §4 所引原文，回填单条时间趋势与现代投影表达；原刊全文待取得。"
+      }
+    }
+  ]
+}

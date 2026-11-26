@@ -27,11 +27,12 @@
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
         "notes_sha256": "3f29ed65667c4540f2acf843cb45f480aed505c7e4fc1a62164c8e3635e360ac",
         "pages": [
-          "combinatorial-policy-uplift"
+          "combinatorial-policy-uplift",
+          "coupon-outcome-distribution"
         ],
-        "reviewed_on": "2026-11-25",
+        "reviewed_on": "2026-11-26",
         "review_method": "agent-self-review",
-        "review_note": "复核采用版 §2–3、图1、表1–4、Galanti–Wolf 定理4与 TaQFormer 固定版 §3 的处理查询。补齐低阶共享、经验 Gram 矩阵、同阶单项式与 treatment attention 的表达和证据边界。全库回查模块、问题、待读与相关方法，未决原稿细节见审核台。"
+        "review_note": "复核有序券档的勒让德读出，增加与 EFIN 处理描述及 Mono-DNet 网格均值约束的比较，沿用既有精读与协议。"
       }
     }
   ]
