@@ -1,0 +1,40 @@
+{
+  "id": "SRC-DIPN",
+  "title": "A framework for massive scale personalized promotion",
+  "kind": "paper",
+  "state": "active",
+  "current": "e224690654450725c2191e37dfb0d61c7141fa37f1f1a81fe7984e6bf0ec6753",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2108.12100v1",
+      "revision": "arXiv:2108.12100v1 (2021-08-27)",
+      "read_scope": "摘要、正文 §1–6、式 (1)–(20)、图 1–6 与表 1–5；定向核对 IPS、响应 logit、平滑项、分配目标和在线实验表。未运行模型。",
+      "artifacts": [
+        {
+          "name": "2108.12100v1.pdf",
+          "sha256": "d435231b3c08088eef4b25f41168e9891ec83992bbd28c6aad029cebefda0ff2",
+          "snapshot": ".local/sources/SRC-DIPN/d435231b3c08088eef4b25f41168e9891ec83992bbd28c6aad029cebefda0ff2/2108.12100v1.pdf"
+        },
+        {
+          "name": "2108.12100v1-source.tar.gz",
+          "sha256": "21d1a559291582d58a9ab24e5d527e69ec5ee2f374d81d2a26a921c343bfe946",
+          "snapshot": ".local/sources/SRC-DIPN/21d1a559291582d58a9ab24e5d527e69ec5ee2f374d81d2a26a921c343bfe946/2108.12100v1-source.tar.gz"
+        }
+      ],
+      "fingerprint": "e224690654450725c2191e37dfb0d61c7141fa37f1f1a81fe7984e6bf0ec6753",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "5f454bbfeb8650b99179a7eb7b51debe590d2c23fbd4bc8e16619cb9bcc4dc5d",
+        "pages": [
+          "combinatorial-policy-uplift",
+          "continuous-coupon-dose-response",
+          "history-conditioned-pricing"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v1 的 logit 与概率相邻增量、两阶段训练、形状正则、预算影子价格和花呗 A/B 条件。保留 LP／整数约束、零分母和表格口径疑点，与 TG-DIPricingNets 的销量尺度对齐。完成技术证据及读者路径自查，未运行模型。"
+      }
+    }
+  ]
+}

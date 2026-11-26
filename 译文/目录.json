@@ -3179,5 +3179,91 @@
     "evidence_url": "https://arxiv.org/abs/2402.03379v1",
     "evidence_sha256": "2d28a885cc073de8146e3670c503542c8f88e4a82d9c8152c4653fad591cac1c",
     "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "source_id": "SRC-DRNET",
+    "title": "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves",
+    "original_url": "https://arxiv.org/pdf/1902.00981v3",
+    "revision": "arXiv:1902.00981v3 (2020-12-10); AAAI 2020, DOI 10.1609/aaai.v34i04.6014",
+    "authors": [
+      "Patrick Schwab",
+      "Lorenz Linhardt",
+      "Stefan Bauer",
+      "Joachim M. Buhmann",
+      "Walter Karlen"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/pdf/1902.00981v3",
+    "evidence_sha256": "962daba89412eec5207cfe9b507ce3f5e5611d20d44b6e497dc1002cd708d3c8",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 及逐页验收。固定版本为 arXiv 非独占分发许可，公开全文派生译文权利未核实。"
+  },
+  {
+    "source_id": "SRC-VCNET",
+    "title": "VCNet and Functional Targeted Regularization For Learning Causal Effects of Continuous Treatments",
+    "original_url": "https://arxiv.org/pdf/2103.07861v1",
+    "revision": "arXiv:2103.07861v1 (2021-03-14); ICLR 2021",
+    "authors": [
+      "Lizhen Nie",
+      "Mao Ye",
+      "Qiang Liu",
+      "Dan Nicolae"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/pdf/2103.07861v1",
+    "evidence_sha256": "b5fb5f49eb59164118030f38ce96aa267b50b57e106672ebc0c0ef81d8b7b223",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 及逐页验收。固定版本为 arXiv 非独占分发许可，公开全文派生译文权利未核实。"
+  },
+  {
+    "source_id": "SRC-DIPN",
+    "title": "A framework for massive scale personalized promotion",
+    "original_url": "https://arxiv.org/pdf/2108.12100v1",
+    "revision": "arXiv:2108.12100v1 (2021-08-27)",
+    "authors": [
+      "Yitao Shen",
+      "Yue Wang",
+      "Xingyu Lu",
+      "Feng Qi",
+      "Jia Yan",
+      "Yixiang Mu",
+      "Yao Yang",
+      "Yifan Peng",
+      "Jinjie Gu"
+    ],
+    "status": "published",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/pdf/2108.12100v1",
+    "evidence_sha256": "d6784c5fed225ae77c38223efaf0c3b58bff8c0cc6632202a280f628241ae175",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "reason": "采用版 CC BY-NC-SA 4.0，已逐篇登记署名、非商业与相同方式共享。",
+    "file": "译文/SRC-DIPN/中文译文.md",
+    "license_id": "CC-BY-NC-SA-4.0",
+    "translator": "recsys-knowledge contributors（AI 辅助翻译与整理）",
+    "scope": "摘要、正文第 1–6 节、六幅图的说明、五张表和描述性脚注。图像与英文书目通过固定原文查阅。",
+    "changes": "译为中文，公式和表值沿用固定版，另加译注及署名许可说明。",
+    "sha256": "7dcfdfaea1f0e4550d2421765cfb2c178ed3bae14971fa3be7d3fe989b8f844b"
+  },
+  {
+    "source_id": "SRC-E3IR",
+    "title": "End-to-End Cost-Effective Incentive Recommendation under Budget Constraint with Uplift Modeling",
+    "original_url": "https://arxiv.org/pdf/2408.11623v2",
+    "revision": "arXiv:2408.11623v2 (2024-08-24); RecSys 2024, DOI 10.1145/3640457.3688147",
+    "authors": [
+      "Zexu Sun",
+      "Hao Yang",
+      "Dugang Liu",
+      "Yunpeng Weng",
+      "Xing Tang",
+      "Xiuqiang He"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-26",
+    "evidence_url": "https://arxiv.org/pdf/2408.11623v2",
+    "evidence_sha256": "9c325031d9e518ce46a842c802a0f10bb77b7c7895c2b605e5575987c2ccb2aa",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 及逐页验收。固定版本为 arXiv 非独占分发许可，公开全文派生译文权利未核实。 采用 PDF 保留 ACM 权利声明。"
   }
 ]

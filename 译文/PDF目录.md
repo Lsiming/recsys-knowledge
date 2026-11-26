@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-26，盘点164篇中文PDF，164篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-26，盘点168篇中文PDF，168篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -176,3 +176,7 @@
 | [M³TN: Multi-gate Mixture-of-Experts based Multi-valued Treatment Network for Uplift Modeling](https://arxiv.org/pdf/2401.14426v1) · `SRC-M3TN` | 私有，需登录 · 20261126.1 · 4页 | [unverified](https://arxiv.org/abs/2401.14426v1) | 摘要、正文 §1–5、图表说明及表头。保留公式、图内文字、数值、署名和参考文献。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
 | [Heterogeneous Multi-treatment Uplift Modeling for Trade-off Optimization in Short-Video Recommendation](https://arxiv.org/pdf/2511.18997v2) · `SRC-HMUM` | 私有，需登录 · 20261126.1 · 8页 | [CC-BY-4.0](https://arxiv.org/abs/2511.18997v2) | 摘要、正文 §1–7、正文图表说明及描述性脚注。附录 A、图内文字和参考文献保留原文。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
 | [Entire Chain Uplift Modeling with Context-Enhanced Learning for Intelligent Marketing](https://arxiv.org/pdf/2402.03379v1) · `SRC-ECUP` | 私有，需登录 · 20261126.1 · 7页 | [CC-BY-4.0](https://arxiv.org/abs/2402.03379v1) | 摘要、正文 §1–7、图表说明与描述性脚注。参考文献及图内文字保留原文。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
+| [Learning Counterfactual Representations for Estimating Individual Dose-Response Curves](https://arxiv.org/pdf/1902.00981v3) · `SRC-DRNET` | 私有，需登录 · 20261126.1 · 11页 | [unverified](https://arxiv.org/pdf/1902.00981v3) | 摘要、正文 §1–6、三幅图注、正文两表、描述性脚注及致谢。图内文字、参考文献和附录保留英文。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
+| [VCNet and Functional Targeted Regularization For Learning Causal Effects of Continuous Treatments](https://arxiv.org/pdf/2103.07861v1) · `SRC-VCNET` | 私有，需登录 · 20261126.1 · 23页 | [unverified](https://arxiv.org/pdf/2103.07861v1) | 摘要、正文 §1–7、正文图表说明及描述性脚注。图内文字、参考文献和附录保留英文。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
+| [A framework for massive scale personalized promotion](https://arxiv.org/pdf/2108.12100v1) · `SRC-DIPN` | 私有，需登录 · 20261126.1 · 7页 | [CC-BY-NC-SA-4.0](https://arxiv.org/pdf/2108.12100v1) | 摘要、正文 §1–6、正文图表说明、表格及描述性脚注。图内文字与参考文献保留英文。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |
+| [End-to-End Cost-Effective Incentive Recommendation under Budget Constraint with Uplift Modeling](https://arxiv.org/pdf/2408.11623v2) · `SRC-E3IR` | 私有，需登录 · 20261126.1 · 8页 | [unverified](https://arxiv.org/pdf/2408.11623v2) | 摘要、正文 §1–6、正文图表说明、描述性脚注及致谢。图内文字和参考文献保留英文，采用 PDF 无附录。；中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。 |

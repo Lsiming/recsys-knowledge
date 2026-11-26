@@ -1,0 +1,43 @@
+{
+  "id": "SRC-DRNET",
+  "title": "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves",
+  "kind": "paper",
+  "state": "active",
+  "current": "ae44af493c905cb59b6a0b390ca27687bca7d971bf5d776f3a1c47e013d9eb24",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1902.00981v3",
+      "revision": "arXiv:1902.00981v3 (2020-12-10); AAAI 2020, DOI 10.1609/aaai.v34i04.6014",
+      "read_scope": "摘要、正文 §1–6、式 (1)–(8)、图 1–3、表 1–2、附录 A–D 与表 S1–S3；静态核对作者仓库 65b88567 的剂量评价函数，未运行。",
+      "artifacts": [
+        {
+          "name": "1902.00981v3.pdf",
+          "sha256": "0db42dc9da4c51f431f44591f591eea3e10a3f23f3b43b30715192b5f6d2d501",
+          "snapshot": ".local/sources/SRC-DRNET/0db42dc9da4c51f431f44591f591eea3e10a3f23f3b43b30715192b5f6d2d501/1902.00981v3.pdf"
+        },
+        {
+          "name": "1902.00981v3-source.tar.gz",
+          "sha256": "73f6945af3eb0da6386e01e6d460eca682d7cd84a8a6ae609198410804ccf07f",
+          "snapshot": ".local/sources/SRC-DRNET/73f6945af3eb0da6386e01e6d460eca682d7cd84a8a6ae609198410804ccf07f/1902.00981v3-source.tar.gz"
+        },
+        {
+          "name": "authors-exposure-metrics.py",
+          "sha256": "ecc1430ef926a9763afc612927a884653b78a9384543293016c34fa5cdeb6737",
+          "snapshot": ".local/sources/SRC-DRNET/ecc1430ef926a9763afc612927a884653b78a9384543293016c34fa5cdeb6737/authors-exposure-metrics.py"
+        }
+      ],
+      "fingerprint": "ae44af493c905cb59b6a0b390ca27687bca7d971bf5d776f3a1c47e013d9eb24",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "13da22ecf21c65abdf381c905f414f95d194e623e9a4488ef3c9eb8bab714de7",
+        "pages": [
+          "continuous-coupon-dose-response"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定 v3 的分段路由、事实监督、个体 MISE、DPE／PE 和三组半合成条件，静态复核固定实现的 Romberg 网格并保留正文与代码差异。完成技术证据及读者路径自查，未运行模型。"
+      }
+    }
+  ]
+}

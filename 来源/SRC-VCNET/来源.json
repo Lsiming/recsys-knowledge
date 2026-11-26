@@ -1,0 +1,53 @@
+{
+  "id": "SRC-VCNET",
+  "title": "VCNet and Functional Targeted Regularization For Learning Causal Effects of Continuous Treatments",
+  "kind": "paper",
+  "state": "active",
+  "current": "5e1b0059ab943330dca90f49a06bcaa5f7505dae8b0368520b517d480ea4d3c4",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2103.07861v1",
+      "revision": "arXiv:2103.07861v1 (2021-03-14); ICLR 2021",
+      "read_scope": "摘要、正文 §1–7、式 (1)–(4)、图 1–2、表 1–2，重点核对附录 A.1、A.2.3–A.2.4、A.4；静态查作者仓库 a2e95381 的插值、FTR 训练和出分，未运行。",
+      "artifacts": [
+        {
+          "name": "2103.07861v1.pdf",
+          "sha256": "ab20749381672fc98109089a1075e5ac2f82b4e5308e62b296a612c9f307acfe",
+          "snapshot": ".local/sources/SRC-VCNET/ab20749381672fc98109089a1075e5ac2f82b4e5308e62b296a612c9f307acfe/2103.07861v1.pdf"
+        },
+        {
+          "name": "2103.07861v1-source.tar.gz",
+          "sha256": "57bf0c79f6f63b35c3b3bec3ad02831bb34d2a6d21969e1764b7055205034799",
+          "snapshot": ".local/sources/SRC-VCNET/57bf0c79f6f63b35c3b3bec3ad02831bb34d2a6d21969e1764b7055205034799/2103.07861v1-source.tar.gz"
+        },
+        {
+          "name": "author-dynamic_net.py",
+          "sha256": "668c597a4a530467e519b5f959dd81c44704013fbf571e803655cbf26d6e8827",
+          "snapshot": ".local/sources/SRC-VCNET/668c597a4a530467e519b5f959dd81c44704013fbf571e803655cbf26d6e8827/author-dynamic_net.py"
+        },
+        {
+          "name": "author-main_batch.py",
+          "sha256": "5fd0e778f1943cfd298b6cc16959077e0e1b4a603e621a2577c8d4ef9afdb4e0",
+          "snapshot": ".local/sources/SRC-VCNET/5fd0e778f1943cfd298b6cc16959077e0e1b4a603e621a2577c8d4ef9afdb4e0/author-main_batch.py"
+        },
+        {
+          "name": "author-eval.py",
+          "sha256": "9e803c92b9a3500433c394ae1612b1332010d061743dd7ed97cedc8faa91a536",
+          "snapshot": ".local/sources/SRC-VCNET/9e803c92b9a3500433c394ae1612b1332010d061743dd7ed97cedc8faa91a536/author-eval.py"
+        }
+      ],
+      "fingerprint": "5e1b0059ab943330dca90f49a06bcaa5f7505dae8b0368520b517d480ea4d3c4",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "695affc32fb6da9d10547501f9c8be43b2a8c098a2e77460d73a4dabb1fb620c",
+        "pages": [
+          "continuous-coupon-dose-response"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定 v1 的连续变系数、条件密度、FTR 残差矩、双重稳健条件及 AMSE。静态复核固定作者实现的插值及训练和出分，保留实验对照例外。完成技术证据及读者路径自查，未运行模型。"
+      }
+    }
+  ]
+}

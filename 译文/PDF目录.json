@@ -6282,6 +6282,167 @@
         "pages": 7,
         "verified_download_sha256": "81de5231865b55259b88722e181c106337e4212e6f4e6495e3e0f9f9c99fb24c"
       }
+    },
+    {
+      "source_id": "SRC-DRNET",
+      "title": "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves",
+      "original_url": "https://arxiv.org/pdf/1902.00981v3",
+      "revision": "arXiv:1902.00981v3 (2020-12-10); AAAI 2020, DOI 10.1609/aaai.v34i04.6014",
+      "input_sha256": "ad8e300c7a0b5fbe519c63b40260144a9be7ee0133efe23af42028ad82c9b77d",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、三幅图注、正文两表、描述性脚注及致谢。图内文字、参考文献和附录保留英文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Patrick Schwab",
+          "Lorenz Linhardt",
+          "Stefan Bauer",
+          "Joachim M. Buhmann",
+          "Walter Karlen"
+        ],
+        "original_pdf_sha256": "0db42dc9da4c51f431f44591f591eea3e10a3f23f3b43b30715192b5f6d2d501",
+        "evidence_url": "https://arxiv.org/pdf/1902.00981v3",
+        "evidence_sha256": "962daba89412eec5207cfe9b507ce3f5e5611d20d44b6e497dc1002cd708d3c8",
+        "notes": "固定版为 arXiv 非独占分发许可，未确认公开派生译文许可。",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "reason": "中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-06-06",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-DRNET.zh-CN.private.20261126.1.pdf",
+        "sha256": "ad8e300c7a0b5fbe519c63b40260144a9be7ee0133efe23af42028ad82c9b77d",
+        "size_bytes": 827850,
+        "pages": 11,
+        "verified_download_sha256": "ad8e300c7a0b5fbe519c63b40260144a9be7ee0133efe23af42028ad82c9b77d"
+      }
+    },
+    {
+      "source_id": "SRC-VCNET",
+      "title": "VCNet and Functional Targeted Regularization For Learning Causal Effects of Continuous Treatments",
+      "original_url": "https://arxiv.org/pdf/2103.07861v1",
+      "revision": "arXiv:2103.07861v1 (2021-03-14); ICLR 2021",
+      "input_sha256": "6c08f0af269d85aa3109ec077a40b251a5c5460fb22bd6f8d8c982059838e23c",
+      "input_pages": 23,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、正文图表说明及描述性脚注。图内文字、参考文献和附录保留英文。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Lizhen Nie",
+          "Mao Ye",
+          "Qiang Liu",
+          "Dan Nicolae"
+        ],
+        "original_pdf_sha256": "ab20749381672fc98109089a1075e5ac2f82b4e5308e62b296a612c9f307acfe",
+        "evidence_url": "https://arxiv.org/pdf/2103.07861v1",
+        "evidence_sha256": "b5fb5f49eb59164118030f38ce96aa267b50b57e106672ebc0c0ef81d8b7b223",
+        "notes": "固定版为 arXiv 非独占分发许可，未确认公开派生译文许可。",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "reason": "中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-06-06",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-VCNET.zh-CN.private.20261126.1.pdf",
+        "sha256": "6c08f0af269d85aa3109ec077a40b251a5c5460fb22bd6f8d8c982059838e23c",
+        "size_bytes": 735727,
+        "pages": 23,
+        "verified_download_sha256": "6c08f0af269d85aa3109ec077a40b251a5c5460fb22bd6f8d8c982059838e23c"
+      }
+    },
+    {
+      "source_id": "SRC-DIPN",
+      "title": "A framework for massive scale personalized promotion",
+      "original_url": "https://arxiv.org/pdf/2108.12100v1",
+      "revision": "arXiv:2108.12100v1 (2021-08-27)",
+      "input_sha256": "bb9df5f3972d8d0fb7905ac46d2ffd5aa351a66c467f8ada7f0998739a9dbe3a",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、正文图表说明、表格及描述性脚注。图内文字与参考文献保留英文。",
+      "status": "private",
+      "rights": {
+        "decision": "allowed",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Yitao Shen",
+          "Yue Wang",
+          "Xingyu Lu",
+          "Feng Qi",
+          "Jia Yan",
+          "Yixiang Mu",
+          "Yao Yang",
+          "Yifan Peng",
+          "Jinjie Gu"
+        ],
+        "original_pdf_sha256": "d435231b3c08088eef4b25f41168e9891ec83992bbd28c6aad029cebefda0ff2",
+        "evidence_url": "https://arxiv.org/pdf/2108.12100v1",
+        "evidence_sha256": "d6784c5fed225ae77c38223efaf0c3b58bff8c0cc6632202a280f628241ae175",
+        "notes": "采用的 arXiv v1 标注 CC BY-NC-SA 4.0；公开 Markdown 译文依原许可发布，PDF 保持私有。",
+        "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "license_id": "CC-BY-NC-SA-4.0"
+      },
+      "reason": "中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-06-06",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-DIPN.zh-CN.private.20261126.1.pdf",
+        "sha256": "bb9df5f3972d8d0fb7905ac46d2ffd5aa351a66c467f8ada7f0998739a9dbe3a",
+        "size_bytes": 1454012,
+        "pages": 7,
+        "verified_download_sha256": "bb9df5f3972d8d0fb7905ac46d2ffd5aa351a66c467f8ada7f0998739a9dbe3a"
+      }
+    },
+    {
+      "source_id": "SRC-E3IR",
+      "title": "End-to-End Cost-Effective Incentive Recommendation under Budget Constraint with Uplift Modeling",
+      "original_url": "https://arxiv.org/pdf/2408.11623v2",
+      "revision": "arXiv:2408.11623v2 (2024-08-24); RecSys 2024, DOI 10.1145/3640457.3688147",
+      "input_sha256": "159ab372b0bfd600091f52b143e748f87b2dbe2af824572753455825809497b1",
+      "input_pages": 8,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、正文图表说明、描述性脚注及致谢。图内文字和参考文献保留英文，采用 PDF 无附录。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-26",
+        "authors": [
+          "Zexu Sun",
+          "Hao Yang",
+          "Dugang Liu",
+          "Yunpeng Weng",
+          "Xing Tang",
+          "Xiuqiang He"
+        ],
+        "original_pdf_sha256": "e8e5c741b250c81a92f5e392eed1c0f0b3ed971d024803cec494a41d9ae4f169",
+        "evidence_url": "https://arxiv.org/pdf/2408.11623v2",
+        "evidence_sha256": "9c325031d9e518ce46a842c802a0f10bb77b7c7895c2b605e5575987c2ccb2aa",
+        "notes": "采用的 arXiv v2 为非独占分发许可，PDF 载有 ACM 权利和个人/课堂许可说明。",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "reason": "中文正文逐页目视，采用原文与译本均实际认证下载并校验完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261126-batch-06-06",
+        "translation_version": "20261126.1",
+        "asset_name": "SRC-E3IR.zh-CN.private.20261126.1.pdf",
+        "sha256": "159ab372b0bfd600091f52b143e748f87b2dbe2af824572753455825809497b1",
+        "size_bytes": 2869988,
+        "pages": 8,
+        "verified_download_sha256": "159ab372b0bfd600091f52b143e748f87b2dbe2af824572753455825809497b1"
+      }
     }
   ],
   "storage_policy": "private-only",

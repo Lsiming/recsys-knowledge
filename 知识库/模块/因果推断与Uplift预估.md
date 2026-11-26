@@ -7,7 +7,7 @@ updated: "2026-11-26"
 summary: "从干预与对照定义进入条件增量估计，连接策略表示、正交学习、排序与幅度验证"
 aliases: ["因果推断/uplift预估", "uplift预估", "Uplift Modeling", "CATE", "增益模型", "异质性干预效应", "营销因果模型"]
 sources: {"SRC-DER-CFR": "410d90cbabd12b63742c81ca4d0abaf66dc6abba9c53cfc177c6a33c615dfb51", "SRC-POUL": "d139f7272f351bf9fe6e3e11e402f45c7a492d461b0d84aa607de7123635e2d6", "SRC-TAQFORMER": "4e554c9d861bf8e2cce70ff4659761f93c20fa9dbad55c2754d17829861c9794", "SRC-TG-DIPN": "195fa6867e616170135cfe7ab8ccaaef214d7a8b3b6515ef70f0274eba66b86f", "SRC-TSIL": "40312e0e4785536c1e1f37dd1c65e2db4354fcb35b9f952f7448e468938afcdc", "SRC-CANNIUPLIFT": "ca3fc4f098f34044e2234ff9c9089bc554640032326c7db0e05718dbdeb3f13e", "SRC-MIM-DRCFR": "a3669536b785f468d61aaa1f8fe813497234da17c368d65aa780be6778c4c90e", "SRC-BUOPLR": "fa6680dcf6913775fa8b223091fc72a8a468aaf1449275b00e5631c09e43393a"}
-related: ["push-frequency-activity-uplift", "observational-coupon-uplift", "marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives", "cross-seller-subsidy-uplift", "coupon-uplift-evaluation", "coupon-outcome-distribution", "residualized-treatment-effects", "multitreatment-multioutcome-uplift"]
+related: ["push-frequency-activity-uplift", "observational-coupon-uplift", "marketing-subsidy", "combinatorial-policy-uplift", "orthogonal-score-cate-error", "history-conditioned-pricing", "evaluation-bias", "data-labels", "exploration-longterm", "multitask-objectives", "cross-seller-subsidy-uplift", "coupon-uplift-evaluation", "coupon-outcome-distribution", "residualized-treatment-effects", "multitreatment-multioutcome-uplift", "continuous-coupon-dose-response"]
 module: "因果推断与 Uplift 预估"
 ---
 # 因果推断与 Uplift 预估
@@ -19,6 +19,8 @@ Uplift 预估关心同类用户接受不同干预时，结果的期望差异。�
 [商品历史与单调定价问题](../问题/商品历史如何生成单调需求曲线并支持定价.md)补充价格响应建模这一相邻入口：TG-DIPricingNets用历史生成需求网络权重、以累计非负因子约束价格方向，再按毛利枚举价格。它在本模块作为响应预测与因果效应的边界案例；观测销量预测、形状约束和历史利润分组均不自动建立因果识别。
 
 [历史发券日志如何估计补贴增量](../问题/历史发券日志如何估计补贴增量.md)从非随机指派切入。DeR-CFR 将处理前特征分为工具、混杂与调整表征，交替更新结果网络和逐样本权重，用两个结果头估计固定券相对不发券的增量。MIM-DRCFR 共享三路编码的底层，对结果专用表征做跨臂平衡，并用互信息约束输出因素的依赖。 [DeR-CFR](../../来源/SRC-DER-CFR/阅读笔记.md) · [MIM-DRCFR](../../来源/SRC-MIM-DRCFR/阅读笔记.md)
+
+[连续券额响应](../问题/连续券额怎样估计并约束响应曲线.md)区分逐人选档和目标人群平均曲线，比较分段剂量头、变系数和单调保证，再把响应接到预算选档。
 
 ## 先定义比较，再选择模型
 

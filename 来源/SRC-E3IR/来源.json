@@ -1,0 +1,39 @@
+{
+  "id": "SRC-E3IR",
+  "title": "End-to-End Cost-Effective Incentive Recommendation under Budget Constraint with Uplift Modeling",
+  "kind": "paper",
+  "state": "active",
+  "current": "940db67ea8441be695a790b521d65dd7f2e58a39d1d74ff11d4f0aba85741ff0",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2408.11623v2",
+      "revision": "arXiv:2408.11623v2 (2024-08-24); RecSys 2024, DOI 10.1145/3640457.3688147",
+      "read_scope": "摘要、正文 §1–6、式 (1)–(20)、图 1–6、表 1–2；核对目标符号、预算可行性、价值代理和分配损失。采用版 PDF 正文引用附录，但该版末尾只有参考文献；未运行模型。",
+      "artifacts": [
+        {
+          "name": "2408.11623v2.pdf",
+          "sha256": "e8e5c741b250c81a92f5e392eed1c0f0b3ed971d024803cec494a41d9ae4f169",
+          "snapshot": ".local/sources/SRC-E3IR/e8e5c741b250c81a92f5e392eed1c0f0b3ed971d024803cec494a41d9ae4f169/2408.11623v2.pdf"
+        },
+        {
+          "name": "2408.11623v2-source.tar.gz",
+          "sha256": "4190c08ff37b4521daca1caf9d8e37a475f5b7652c62f839a1c3d7d55b17b8ab",
+          "snapshot": ".local/sources/SRC-E3IR/4190c08ff37b4521daca1caf9d8e37a475f5b7652c62f839a1c3d7d55b17b8ab/2408.11623v2-source.tar.gz"
+        }
+      ],
+      "fingerprint": "940db67ea8441be695a790b521d65dd7f2e58a39d1d74ff11d4f0aba85741ff0",
+      "retrieved_on": "2026-11-26",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "f3085b1fd04ddee66613f29261823cbc14ce8da5132ac3df67e644aba1425960",
+        "pages": [
+          "combinatorial-policy-uplift",
+          "continuous-coupon-dose-response"
+        ],
+        "reviewed_on": "2026-11-26",
+        "review_method": "agent-self-review",
+        "review_note": "复核 v2 的价值、成本与预算反馈、整数邻点代理和实验口径。式 (2)–(3)、(14)、(19)–(20) 的目标与损失待实现澄清，表 2 和图 6 标度各按原版。技术证据和读者路径已自查，未运行模型。"
+      }
+    }
+  ]
+}
