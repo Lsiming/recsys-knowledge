@@ -1,0 +1,38 @@
+{
+  "id": "SRC-CEVAE",
+  "title": "Causal Effect Inference with Deep Latent-Variable Models",
+  "kind": "paper",
+  "state": "active",
+  "current": "1746c6e924ec31383bcbe727245fead48c95ae1547e5070f116e3ae8dc688cac",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1705.08821v2",
+      "revision": "arXiv 1705.08821v2",
+      "read_scope": "正文 §1–5、定理 1、式 (1)–(11)、四图、两表与附录 A。源码为下载后未修改文件的本地重新打包。未运行作者模型。",
+      "artifacts": [
+        {
+          "name": "1705.08821v2.pdf",
+          "sha256": "ffb5a582e39030ab0848f3fb412d9c32d3a17fd060fe18c19bba9b92a071e053",
+          "snapshot": ".local/sources/SRC-CEVAE/ffb5a582e39030ab0848f3fb412d9c32d3a17fd060fe18c19bba9b92a071e053/1705.08821v2.pdf"
+        },
+        {
+          "name": "1705.08821v2-source-repacked.tar.gz",
+          "sha256": "a5982e147a44b82b15c19c285db84cba87a96e6fb0e27a45eae6b814f65b47ce",
+          "snapshot": ".local/sources/SRC-CEVAE/a5982e147a44b82b15c19c285db84cba87a96e6fb0e27a45eae6b814f65b47ce/1705.08821v2-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "1746c6e924ec31383bcbe727245fead48c95ae1547e5070f116e3ae8dc688cac",
+      "retrieved_on": "2026-11-27",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "441b1c8917f20961c51eca658f792f5adde4f14056f2fdb8bf09a173aad2a8e0",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-27",
+        "review_method": "agent-self-review",
+        "review_note": "核对图 1–4、定理 1、式 (1)–(11)、表 1–2 与附录 A。区分事实辅助抽样与干预固定处理，逐页验收 LuaLaTeX 译本。"
+      }
+    }
+  ]
+}

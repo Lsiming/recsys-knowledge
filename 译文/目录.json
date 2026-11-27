@@ -3418,5 +3418,93 @@
     "evidence_sha256": "6888d0e143f767d5ee168918044601bae563f4d6ce290dbdd28a1b1d8def4fcd",
     "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "reason": "已完成正文中文 PDF 并私有备份，未另制正式 Markdown 译文。固定版使用 arXiv 非独占分发许可，PDF 首页载 ACM 权利声明。公开全文译文许可未确认。"
+  },
+  {
+    "source_id": "SRC-VAE",
+    "title": "Auto-Encoding Variational Bayes",
+    "original_url": "https://arxiv.org/pdf/1312.6114v11",
+    "revision": "arXiv 1312.6114v11",
+    "authors": [
+      "Diederik P. Kingma",
+      "Max Welling"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-27",
+    "evidence_url": "https://arxiv.org/abs/1312.6114v11",
+    "evidence_sha256": "b64f67239437f394c5c8cc117b0e25859aad370081f8159dc62a608eafc646e0",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 并私有备份。采用版为 arXiv 非独占分发许可，公开全文译文的独立许可尚未核实。"
+  },
+  {
+    "source_id": "SRC-CLUB",
+    "title": "CLUB: A Contrastive Log-ratio Upper Bound of Mutual Information",
+    "original_url": "https://proceedings.mlr.press/v119/cheng20b/cheng20b.pdf",
+    "revision": "ICML 2020, PMLR 119, pp. 1779–1788",
+    "authors": [
+      "Pengyu Cheng",
+      "Weituo Hao",
+      "Shuyang Dai",
+      "Jiachang Liu",
+      "Zhe Gan",
+      "Lawrence Carin"
+    ],
+    "status": "reading-only",
+    "checked_on": "2026-11-27",
+    "evidence_url": "https://proceedings.mlr.press/v119/cheng20b.html",
+    "reason": "按营销补贴第 10 批清单只做正式刊版精读。"
+  },
+  {
+    "source_id": "SRC-CEVAE",
+    "title": "Causal Effect Inference with Deep Latent-Variable Models",
+    "original_url": "https://arxiv.org/pdf/1705.08821v2",
+    "revision": "arXiv 1705.08821v2",
+    "authors": [
+      "Christos Louizos",
+      "Uri Shalit",
+      "Joris Mooij",
+      "David Sontag",
+      "Richard Zemel",
+      "Max Welling"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-27",
+    "evidence_url": "https://arxiv.org/abs/1705.08821v2",
+    "evidence_sha256": "eb92266140e085a1c4047473af247ee262719cd4d64544ef58ca30691b78760a",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 并私有备份。采用版为 arXiv 非独占分发许可，公开全文译文的独立许可尚未核实。"
+  },
+  {
+    "source_id": "SRC-TED-VAE",
+    "title": "Treatment effect estimation with disentangled latent factors",
+    "original_url": "https://arxiv.org/pdf/2001.10652v3",
+    "revision": "arXiv 2001.10652v3",
+    "authors": [
+      "Weijia Zhang",
+      "Lin Liu",
+      "Jiuyong Li"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-27",
+    "evidence_url": "https://arxiv.org/abs/2001.10652v3",
+    "evidence_sha256": "bc02ea70130af8cfce9943c7036da192fa660609037e3aae55c6541de6be26e5",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 并私有备份。采用版为 arXiv 非独占分发许可，公开全文译文的独立许可尚未核实。"
+  },
+  {
+    "source_id": "SRC-CTS",
+    "title": "Uplift Modeling with Multiple Treatments and General Response Types",
+    "original_url": "https://arxiv.org/pdf/1705.08492v1",
+    "revision": "arXiv 1705.08492v1",
+    "authors": [
+      "Yan Zhao",
+      "Xiao Fang",
+      "David Simchi-Levi"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-27",
+    "evidence_url": "https://arxiv.org/abs/1705.08492v1",
+    "evidence_sha256": "32f1b91adfafc14421a53ea407d7108d1e9edd5eee51c236efe839a12609ba55",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 并私有备份。采用版为 arXiv 非独占分发许可，公开全文译文的独立许可尚未核实。"
   }
 ]

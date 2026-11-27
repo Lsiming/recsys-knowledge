@@ -1,0 +1,33 @@
+{
+  "id": "SRC-CLUB",
+  "title": "CLUB: A Contrastive Log-ratio Upper Bound of Mutual Information",
+  "kind": "paper",
+  "state": "active",
+  "current": "e48fc361de603e80f106de56fc833c5ae996a1be191a0a3def6c509231fc47de",
+  "versions": [
+    {
+      "locator": "https://proceedings.mlr.press/v119/cheng20b/cheng20b.pdf",
+      "revision": "ICML 2020, PMLR 119, pp. 1779–1788",
+      "read_scope": "全文 §1–5、定理 3.1–3.2、推论 3.3、算法 1、图 1–4 与表 1–2。未运行模型。",
+      "artifacts": [
+        {
+          "name": "SRC-CLUB.original.pdf",
+          "sha256": "1f528a20bcdb1841e80438e53708d61b82baaf0e4fd5cbfe2729fa408fddb901",
+          "snapshot": ".local/sources/SRC-CLUB/1f528a20bcdb1841e80438e53708d61b82baaf0e4fd5cbfe2729fa408fddb901/SRC-CLUB.original.pdf"
+        }
+      ],
+      "fingerprint": "e48fc361de603e80f106de56fc833c5ae996a1be191a0a3def6c509231fc47de",
+      "retrieved_on": "2026-11-27",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "a2c58d9c068e6a21cfac49ec2eee2fe88e97f65a67a27bf3a628d1b565c2336a",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-27",
+        "review_method": "agent-self-review",
+        "review_note": "复核 PMLR 正式版定理 3.1–3.2、推论 3.3、式 (13)–(16)、算法 1 和实验表。区分条件于批次的无偏抽样与总体同索引偏差，回查 MIM-DRCFR 式 (5)–(8) 及历史发券问题。"
+      }
+    }
+  ]
+}

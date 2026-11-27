@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-26，盘点176篇中文PDF，176篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-27，盘点180篇中文PDF，180篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -188,3 +188,7 @@
 | [Decision-Focused Learning without Differentiable Optimization: Learning Locally Optimized Decision Losses](https://arxiv.org/pdf/2203.16067v4) · `SRC-LODL` | 私有，需登录 · 20261126.1 · 14页 | [CC-BY-4.0](https://arxiv.org/abs/2203.16067v4) | 摘要、正文 §1–6、致谢及资助说明、正文图表说明。图内文字、参考文献、检查表与附录 A–B 保留原文。；14 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。 |
 | [Decision-Focused Learning: Through the Lens of Learning to Rank](https://arxiv.org/pdf/2112.03609v4) · `SRC-LTR-DFL` | 私有，需登录 · 20261126.1 · 11页 | [CC-BY-4.0](https://arxiv.org/abs/2112.03609v4) | 摘要、正文 §1–6、致谢、算法叙述及正文图表说明。图内文字、参考文献与附录 A–C 保留原文。；11 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。 |
 | [Decision Focused Causal Learning for Direct Counterfactual Marketing Optimization](https://arxiv.org/pdf/2407.13664v1) · `SRC-DFCL` | 私有，需登录 · 20261126.1 · 10页 | [unverified](https://arxiv.org/abs/2407.13664v1) | 摘要、正文 §1–7、正文图表说明与公式。图内文字、参考文献与附录保留原文。；10 页中文译本逐页渲染核对。采用原文与中文 PDF 均核对 Release 摘要，经认证下载复核大小和完整 SHA-256。 |
+| [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114v11) · `SRC-VAE` | 私有，需登录 · 20261127.2 · 13页 | [unverified](https://arxiv.org/abs/1312.6114v11) | 摘要、正文 §1–7、正文图注和描述性脚注译为中文。公式、图内标注、附录和参考文献保留。；LuaLaTeX 译本 13 页逐页渲染核对，中文字体内嵌且含 ToUnicode。原译件已认证下载核对。 |
+| [Causal Effect Inference with Deep Latent-Variable Models](https://arxiv.org/pdf/1705.08821v2) · `SRC-CEVAE` | 私有，需登录 · 20261127.2 · 11页 | [unverified](https://arxiv.org/abs/1705.08821v2) | 摘要、正文 §1–5、正文图表说明和描述性脚注译为中文。公式、图内标注、附录和参考文献保留。；11 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。 |
+| [Treatment effect estimation with disentangled latent factors](https://arxiv.org/pdf/2001.10652v3) · `SRC-TED-VAE` | 私有，需登录 · 20261127.1 · 7页 | [unverified](https://arxiv.org/abs/2001.10652v3) | 摘要、正文、图表说明和描述性脚注译为中文。保留公式、图内标注和参考文献。；7 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。 |
+| [Uplift Modeling with Multiple Treatments and General Response Types](https://arxiv.org/pdf/1705.08492v1) · `SRC-CTS` | 私有，需登录 · 20261127.1 · 7页 | [unverified](https://arxiv.org/abs/1705.08492v1) | 摘要、正文 §1–5、算法说明、图注和描述性脚注译为中文。保留公式、图内标注、调参附录和参考文献。；7 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。 |

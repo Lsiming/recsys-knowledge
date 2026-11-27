@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "inventory_note": "按来源 ID 登记中文 PDF 的范围、许可和备份状态。原文、旧构建和图表不计为独立中文 PDF。",
   "entries": [
     {
@@ -6757,6 +6757,156 @@
         "size_bytes": 880636,
         "pages": 10,
         "verified_download_sha256": "745dbad206b9f989cbf89e8a31113d464da834f0c220ab2bb5dded771f32a7da"
+      }
+    },
+    {
+      "source_id": "SRC-VAE",
+      "title": "Auto-Encoding Variational Bayes",
+      "original_url": "https://arxiv.org/pdf/1312.6114v11",
+      "revision": "arXiv 1312.6114v11",
+      "input_sha256": "3277a070a859ec7e5129eeed21b0c784d997de88794ab06a016531ec7871f730",
+      "input_pages": 13,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、正文图注和描述性脚注译为中文。公式、图内标注、附录和参考文献保留。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-27",
+        "authors": [
+          "Diederik P. Kingma",
+          "Max Welling"
+        ],
+        "original_pdf_sha256": "bdcb63b79ed88f64f8ee2d43a721930d01dde5441a4dba20ecaa2342b34e017c",
+        "evidence_url": "https://arxiv.org/abs/1312.6114v11",
+        "evidence_sha256": "b64f67239437f394c5c8cc117b0e25859aad370081f8159dc62a608eafc646e0",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "采用版为 arXiv 非独占分发许可，未获公开全文译文的独立授权证据。"
+      },
+      "reason": "LuaLaTeX 译本 13 页逐页渲染核对，中文字体内嵌且含 ToUnicode。原译件已认证下载核对。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261127-batch-09-10",
+        "translation_version": "20261127.2",
+        "asset_name": "SRC-VAE.zh-CN.private.20261127.2.pdf",
+        "sha256": "3277a070a859ec7e5129eeed21b0c784d997de88794ab06a016531ec7871f730",
+        "size_bytes": 4093617,
+        "pages": 13,
+        "verified_download_sha256": "3277a070a859ec7e5129eeed21b0c784d997de88794ab06a016531ec7871f730"
+      }
+    },
+    {
+      "source_id": "SRC-CEVAE",
+      "title": "Causal Effect Inference with Deep Latent-Variable Models",
+      "original_url": "https://arxiv.org/pdf/1705.08821v2",
+      "revision": "arXiv 1705.08821v2",
+      "input_sha256": "1fb182716df1ea8304fc3ebf97e5f3605312f7da28f3a9c57766ebe5f78365fd",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、正文图表说明和描述性脚注译为中文。公式、图内标注、附录和参考文献保留。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-27",
+        "authors": [
+          "Christos Louizos",
+          "Uri Shalit",
+          "Joris Mooij",
+          "David Sontag",
+          "Richard Zemel",
+          "Max Welling"
+        ],
+        "original_pdf_sha256": "ffb5a582e39030ab0848f3fb412d9c32d3a17fd060fe18c19bba9b92a071e053",
+        "evidence_url": "https://arxiv.org/abs/1705.08821v2",
+        "evidence_sha256": "eb92266140e085a1c4047473af247ee262719cd4d64544ef58ca30691b78760a",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "采用版为 arXiv 非独占分发许可，未获公开全文译文的独立授权证据。"
+      },
+      "reason": "11 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261127-batch-09-10",
+        "translation_version": "20261127.2",
+        "asset_name": "SRC-CEVAE.zh-CN.private.20261127.2.pdf",
+        "sha256": "1fb182716df1ea8304fc3ebf97e5f3605312f7da28f3a9c57766ebe5f78365fd",
+        "size_bytes": 632109,
+        "pages": 11,
+        "verified_download_sha256": "1fb182716df1ea8304fc3ebf97e5f3605312f7da28f3a9c57766ebe5f78365fd"
+      }
+    },
+    {
+      "source_id": "SRC-TED-VAE",
+      "title": "Treatment effect estimation with disentangled latent factors",
+      "original_url": "https://arxiv.org/pdf/2001.10652v3",
+      "revision": "arXiv 2001.10652v3",
+      "input_sha256": "82df12a241a5588861ff20090241480c76decfc46df2208010ddc4585f7b5a7d",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文、图表说明和描述性脚注译为中文。保留公式、图内标注和参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-27",
+        "authors": [
+          "Weijia Zhang",
+          "Lin Liu",
+          "Jiuyong Li"
+        ],
+        "original_pdf_sha256": "245065d6cf7510c200c0c1740448ed5e189660a81dfd6ee942d35ec32fec37a2",
+        "evidence_url": "https://arxiv.org/abs/2001.10652v3",
+        "evidence_sha256": "bc02ea70130af8cfce9943c7036da192fa660609037e3aae55c6541de6be26e5",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "采用版为 arXiv 非独占分发许可，未获公开全文译文的独立授权证据。"
+      },
+      "reason": "7 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261127-batch-09-10",
+        "translation_version": "20261127.1",
+        "asset_name": "SRC-TED-VAE.zh-CN.private.20261127.1.pdf",
+        "sha256": "82df12a241a5588861ff20090241480c76decfc46df2208010ddc4585f7b5a7d",
+        "size_bytes": 883681,
+        "pages": 7,
+        "verified_download_sha256": "82df12a241a5588861ff20090241480c76decfc46df2208010ddc4585f7b5a7d"
+      }
+    },
+    {
+      "source_id": "SRC-CTS",
+      "title": "Uplift Modeling with Multiple Treatments and General Response Types",
+      "original_url": "https://arxiv.org/pdf/1705.08492v1",
+      "revision": "arXiv 1705.08492v1",
+      "input_sha256": "5933d874f85ed81bfd0ed279d5ee2a3d419261f6d2d3965f479bd4fdc2ba322b",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–5、算法说明、图注和描述性脚注译为中文。保留公式、图内标注、调参附录和参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-27",
+        "authors": [
+          "Yan Zhao",
+          "Xiao Fang",
+          "David Simchi-Levi"
+        ],
+        "original_pdf_sha256": "b7772159c00f678d9cd8402b38c5fd492fb94b6bebe6cf4aa1486554149a836b",
+        "evidence_url": "https://arxiv.org/abs/1705.08492v1",
+        "evidence_sha256": "32f1b91adfafc14421a53ea407d7108d1e9edd5eee51c236efe839a12609ba55",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "采用版为 arXiv 非独占分发许可，未获公开全文译文的独立授权证据。"
+      },
+      "reason": "7 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261127-batch-09-10",
+        "translation_version": "20261127.1",
+        "asset_name": "SRC-CTS.zh-CN.private.20261127.1.pdf",
+        "sha256": "5933d874f85ed81bfd0ed279d5ee2a3d419261f6d2d3965f479bd4fdc2ba322b",
+        "size_bytes": 1136683,
+        "pages": 7,
+        "verified_download_sha256": "5933d874f85ed81bfd0ed279d5ee2a3d419261f6d2d3965f479bd4fdc2ba322b"
       }
     }
   ],

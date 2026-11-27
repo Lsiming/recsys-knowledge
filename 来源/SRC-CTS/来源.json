@@ -1,0 +1,39 @@
+{
+  "id": "SRC-CTS",
+  "title": "Uplift Modeling with Multiple Treatments and General Response Types",
+  "kind": "paper",
+  "state": "active",
+  "current": "35ef374f4eb80b3e6f56f94b77ecd34c6510f1af542e06f4dae3a8fcbc2e551d",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1705.08492v1",
+      "revision": "arXiv 1705.08492v1",
+      "read_scope": "摘要、§1–5、式 (2.1)–(4.11)、算法 1、图 1–5 与调参附录。",
+      "artifacts": [
+        {
+          "name": "1705.08492v1.pdf",
+          "sha256": "b7772159c00f678d9cd8402b38c5fd492fb94b6bebe6cf4aa1486554149a836b",
+          "snapshot": ".local/sources/SRC-CTS/b7772159c00f678d9cd8402b38c5fd492fb94b6bebe6cf4aa1486554149a836b/1705.08492v1.pdf"
+        },
+        {
+          "name": "1705.08492v1-source-repacked.tar.gz",
+          "sha256": "ceb912c96d6482cde6e59eeb3e426fc409a9e5d845dbd6bd95e59c68d0a06795",
+          "snapshot": ".local/sources/SRC-CTS/ceb912c96d6482cde6e59eeb3e426fc409a9e5d845dbd6bd95e59c68d0a06795/1705.08492v1-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "35ef374f4eb80b3e6f56f94b77ecd34c6510f1af542e06f4dae3a8fcbc2e551d",
+      "retrieved_on": "2026-11-27",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "fb5c170380962b6d601cc6a8de99a253782f8b8fa13543413034d13d4422ed7f",
+        "pages": [
+          "combinatorial-policy-uplift",
+          "coupon-uplift-evaluation"
+        ],
+        "reviewed_on": "2026-11-27",
+        "review_method": "agent-self-review",
+        "review_note": "核对式 (2.1)–(3.9)、算法 1 及图 1–5。用不等随机概率核对策略价值和原文条件记号，比较 LBCF 的效应估计与全局预算。保留图 2 与图 3 的政策覆盖口径。"
+      }
+    }
+  ]
+}

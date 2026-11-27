@@ -1,0 +1,38 @@
+{
+  "id": "SRC-VAE",
+  "title": "Auto-Encoding Variational Bayes",
+  "kind": "paper",
+  "state": "active",
+  "current": "6f008a0d1a8d96376d87dd59154f2872b9dbfbff690a2b0eb2ed20fe846b30bc",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1312.6114v11",
+      "revision": "arXiv 1312.6114v11",
+      "read_scope": "采用版摘要、正文 §1–7、式 (1)–(10)、算法 1、图 1–3 和附录 A–E 中支撑 KL、编码器与似然估计的段落。源码为下载后未修改文件的本地重新打包。未运行作者模型。",
+      "artifacts": [
+        {
+          "name": "1312.6114v11.pdf",
+          "sha256": "bdcb63b79ed88f64f8ee2d43a721930d01dde5441a4dba20ecaa2342b34e017c",
+          "snapshot": ".local/sources/SRC-VAE/bdcb63b79ed88f64f8ee2d43a721930d01dde5441a4dba20ecaa2342b34e017c/1312.6114v11.pdf"
+        },
+        {
+          "name": "1312.6114v11-source-repacked.tar.gz",
+          "sha256": "f276ccf6a1d58b72f8c5df963ab1b45de7b84bc023fea98f5a28d7a950166037",
+          "snapshot": ".local/sources/SRC-VAE/f276ccf6a1d58b72f8c5df963ab1b45de7b84bc023fea98f5a28d7a950166037/1312.6114v11-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "6f008a0d1a8d96376d87dd59154f2872b9dbfbff690a2b0eb2ed20fe846b30bc",
+      "retrieved_on": "2026-11-27",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "f64ffa29be62dbdb2d0434ac04f8f06efbb7f7ccbd14926c0fb86baae4d02c05",
+        "pages": [
+          "interaction-vector-denoising"
+        ],
+        "reviewed_on": "2026-11-27",
+        "review_method": "agent-self-review",
+        "review_note": "复核采用版 §2–5、附录 A–E 与关键公式、实验和原图，核对 L-DiffRec 的 VAE 接口。译本现采用 LuaLaTeX 以修复字符映射。"
+      }
+    }
+  ]
+}

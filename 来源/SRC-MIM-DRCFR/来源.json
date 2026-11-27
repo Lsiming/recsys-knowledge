@@ -20,15 +20,15 @@
       "retrieved_on": "2026-11-25",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "9feb35074f8caf839a5905bab34cd42090c75ee7c4ab6c657419de8b77c4114e",
+        "notes_sha256": "c3040ad7fd376bf57f84a4befe4dd6442dadb240860c79bef4abbb0e47a0781d",
         "pages": [
           "causal-uplift",
           "marketing-subsidy",
           "observational-coupon-uplift"
         ],
-        "reviewed_on": "2026-11-25",
+        "reviewed_on": "2026-11-27",
         "review_method": "agent-self-review",
-        "review_note": "分解表征的监督和因果假设已按采用版整合。补齐模块和总图精读入口，纠正仅有基线阅读的旧描述。"
+        "review_note": "复核 arXiv 2206.01022v1 §2.3，将互信息上界与两步训练的入口转到 CLUB 正式版精读。复查模块、总图和历史发券页的处理定义、三路监督和证据。"
       }
     }
   ]

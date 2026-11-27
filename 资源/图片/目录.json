@@ -8531,6 +8531,447 @@
         561,
         431
       ]
+    },
+    {
+      "path": "资源/图片/SRC-CLUB/已知互信息的估计曲线.png",
+      "sha256": "63abf4b4a635e9683942217a6899298e1c20a84f3d485a3d66db6c4e93e4858d",
+      "kind": "第三方原图",
+      "source_id": "SRC-CLUB",
+      "source_version": "ICML 2020, PMLR 119, pp. 1779–1788",
+      "basis": "固定 PDF 第 5 页图 1。",
+      "source_url": "https://proceedings.mlr.press/v119/cheng20b/cheng20b.pdf#page=5",
+      "credit": "Pengyu Cheng、Weituo Hao、Shuyang Dai、Jiachang Liu、Zhe Gan、Lawrence Carin",
+      "license": "固定刊版版权栏保留，未核实开放改编许可",
+      "modification": "从正式 PDF 裁出作者图区域，保持全部子图、标签和原有顺序。",
+      "created_on": "2026-11-27",
+      "original_sha256": "1f528a20bcdb1841e80438e53708d61b82baaf0e4fd5cbfe2729fa408fddb901",
+      "pdf_page": 5,
+      "crop_points": [
+        54,
+        66,
+        543,
+        247
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CLUB/负采样与批量计算时间.png",
+      "sha256": "759bbe342027310aae715ff64a1c23c5b0321e0cfec90bbbcb5f9537415ff26a",
+      "kind": "第三方原图",
+      "source_id": "SRC-CLUB",
+      "source_version": "ICML 2020, PMLR 119, pp. 1779–1788",
+      "basis": "固定 PDF 第 7 页图 3。",
+      "source_url": "https://proceedings.mlr.press/v119/cheng20b/cheng20b.pdf#page=7",
+      "credit": "Pengyu Cheng、Weituo Hao、Shuyang Dai、Jiachang Liu、Zhe Gan、Lawrence Carin",
+      "license": "固定刊版版权栏保留，未核实开放改编许可",
+      "modification": "从正式 PDF 裁出作者图区域，保持全部子图、标签和原有顺序。",
+      "created_on": "2026-11-27",
+      "original_sha256": "1f528a20bcdb1841e80438e53708d61b82baaf0e4fd5cbfe2729fa408fddb901",
+      "pdf_page": 7,
+      "crop_points": [
+        70,
+        66,
+        272,
+        184
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CLUB/领域适配的解耦训练.png",
+      "sha256": "462fdb5120eb57bb3102a9bf5dfeba73b30a32677b4d81d83a7b7d90c32e9fd6",
+      "kind": "第三方原图",
+      "source_id": "SRC-CLUB",
+      "source_version": "ICML 2020, PMLR 119, pp. 1779–1788",
+      "basis": "固定 PDF 第 8 页图 4。",
+      "source_url": "https://proceedings.mlr.press/v119/cheng20b/cheng20b.pdf#page=8",
+      "credit": "Pengyu Cheng、Weituo Hao、Shuyang Dai、Jiachang Liu、Zhe Gan、Lawrence Carin",
+      "license": "固定刊版版权栏保留，未核实开放改编许可",
+      "modification": "从正式 PDF 裁出作者图区域，保持全部子图、标签和原有顺序。",
+      "created_on": "2026-11-27",
+      "original_sha256": "1f528a20bcdb1841e80438e53708d61b82baaf0e4fd5cbfe2729fa408fddb901",
+      "pdf_page": 8,
+      "crop_points": [
+        65,
+        66,
+        278,
+        164
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-VAE/有向生成模型与近似后验.png",
+      "sha256": "55ecc911d4641310978b14eacaf3cee13feb20ff07a01dce200eabb23eb3210b",
+      "kind": "第三方原图",
+      "source_id": "SRC-VAE",
+      "source_version": "arXiv 1312.6114v11",
+      "basis": "固定 PDF 第 2 页图 1。",
+      "source_url": "https://arxiv.org/pdf/1312.6114v11#page=2",
+      "credit": "Diederik P. Kingma、Max Welling",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域，保留全部子图和标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "bdcb63b79ed88f64f8ee2d43a721930d01dde5441a4dba20ecaa2342b34e017c",
+      "pdf_page": 2,
+      "crop_points": [
+        253,
+        79,
+        357,
+        173
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-VAE/变分下界学习曲线.png",
+      "sha256": "44f83d033fe1d88312abd022bb5de6ea5b760e13566f8061049de4ad42097dc8",
+      "kind": "第三方原图",
+      "source_id": "SRC-VAE",
+      "source_version": "arXiv 1312.6114v11",
+      "basis": "固定 PDF 第 7 页图 2。",
+      "source_url": "https://arxiv.org/pdf/1312.6114v11#page=7",
+      "credit": "Diederik P. Kingma、Max Welling",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域，保留全部子图和标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "bdcb63b79ed88f64f8ee2d43a721930d01dde5441a4dba20ecaa2342b34e017c",
+      "pdf_page": 7,
+      "crop_points": [
+        108,
+        79,
+        497,
+        230
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-VAE/边缘似然训练比较.png",
+      "sha256": "3669612f39b6a91b076fe46e794482d19dfe1e39b4c79400dd8c2adf3d8735de",
+      "kind": "第三方原图",
+      "source_id": "SRC-VAE",
+      "source_version": "arXiv 1312.6114v11",
+      "basis": "固定 PDF 第 8 页图 3。",
+      "source_url": "https://arxiv.org/pdf/1312.6114v11#page=8",
+      "credit": "Diederik P. Kingma、Max Welling",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域，保留全部子图和标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "bdcb63b79ed88f64f8ee2d43a721930d01dde5441a4dba20ecaa2342b34e017c",
+      "pdf_page": 8,
+      "crop_points": [
+        108,
+        80,
+        503,
+        233
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-VAE/二维潜空间的解码网格.png",
+      "sha256": "aba1474101d5e07787adcf9a5a39c7facb3867f716230e8b4a17c00253162b03",
+      "kind": "第三方原图",
+      "source_id": "SRC-VAE",
+      "source_version": "arXiv 1312.6114v11",
+      "basis": "固定 PDF 第 10 页图 4。",
+      "source_url": "https://arxiv.org/pdf/1312.6114v11#page=10",
+      "credit": "Diederik P. Kingma、Max Welling",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域，保留全部子图和标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "bdcb63b79ed88f64f8ee2d43a721930d01dde5441a4dba20ecaa2342b34e017c",
+      "pdf_page": 10,
+      "crop_points": [
+        125,
+        82,
+        488,
+        324
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CEVAE/代理变量与隐藏混杂因果图.png",
+      "sha256": "344ffb9e5e22836662148802df3ca2e9b08a9ae969b68e625ffabbb01ee82c98",
+      "kind": "第三方原图",
+      "source_id": "SRC-CEVAE",
+      "source_version": "arXiv 1705.08821v2",
+      "basis": "固定 PDF 第 2 页图 1。",
+      "source_url": "https://arxiv.org/pdf/1705.08821v2#page=2",
+      "credit": "Christos Louizos、Uri Shalit、Joris Mooij、David Sontag、Richard Zemel、Max Welling",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域，保留全部子图和标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "ffb5a582e39030ab0848f3fb412d9c32d3a17fd060fe18c19bba9b92a071e053",
+      "pdf_page": 2,
+      "crop_points": [
+        258,
+        68,
+        348,
+        168
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CEVAE/推断网络与生成网络.png",
+      "sha256": "cf6655f64d68eec3896bc7dd314715641968c40888f80dfaf56fc150395e17fa",
+      "kind": "第三方原图",
+      "source_id": "SRC-CEVAE",
+      "source_version": "arXiv 1705.08821v2",
+      "basis": "固定 PDF 第 4 页图 2。",
+      "source_url": "https://arxiv.org/pdf/1705.08821v2#page=4",
+      "credit": "Christos Louizos、Uri Shalit、Joris Mooij、David Sontag、Richard Zemel、Max Welling",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域，保留全部子图和标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "ffb5a582e39030ab0848f3fb412d9c32d3a17fd060fe18c19bba9b92a071e053",
+      "pdf_page": 4,
+      "crop_points": [
+        148,
+        140,
+        470,
+        261
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CEVAE/高斯混合代理下的ATE误差.png",
+      "sha256": "5fb8c4657d5035047d9cb5bb5f6d8b4016f9eeb7c966525bdee2b0becfb0b8fc",
+      "kind": "第三方原图",
+      "source_id": "SRC-CEVAE",
+      "source_version": "arXiv 1705.08821v2",
+      "basis": "固定 PDF 第 7 页图 3。",
+      "source_url": "https://arxiv.org/pdf/1705.08821v2#page=7",
+      "credit": "Christos Louizos、Uri Shalit、Joris Mooij、David Sontag、Richard Zemel、Max Welling",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域，保留全部子图和标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "ffb5a582e39030ab0848f3fb412d9c32d3a17fd060fe18c19bba9b92a071e053",
+      "pdf_page": 7,
+      "crop_points": [
+        177,
+        157,
+        430,
+        316
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CEVAE/双胞胎代理噪声实验.png",
+      "sha256": "862a0153587200849bfbbc8221a0bc7e435494ab97c0330731ac4e86ab519e28",
+      "kind": "第三方原图",
+      "source_id": "SRC-CEVAE",
+      "source_version": "arXiv 1705.08821v2",
+      "basis": "固定 PDF 第 8 页图 4。",
+      "source_url": "https://arxiv.org/pdf/1705.08821v2#page=8",
+      "credit": "Christos Louizos、Uri Shalit、Joris Mooij、David Sontag、Richard Zemel、Max Welling",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域，保留全部子图和标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "ffb5a582e39030ab0848f3fb412d9c32d3a17fd060fe18c19bba9b92a071e053",
+      "pdf_page": 8,
+      "crop_points": [
+        115,
+        327,
+        492,
+        501
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-TED-VAE/三组潜在因素的因果图.png",
+      "sha256": "15e23d3ff4ab218a36e29f65f97c0adf50298d53b8dcc388d26842186b100be8",
+      "kind": "第三方原图",
+      "source_id": "SRC-TED-VAE",
+      "source_version": "arXiv 2001.10652v3",
+      "basis": "固定 PDF 第 2 页图 1。",
+      "source_url": "https://arxiv.org/pdf/2001.10652v3#page=2",
+      "credit": "Weijia Zhang、Lin Liu、Jiuyong Li",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域。",
+      "created_on": "2026-11-27",
+      "original_sha256": "245065d6cf7510c200c0c1740448ed5e189660a81dfd6ee942d35ec32fec37a2",
+      "pdf_page": 2,
+      "crop_points": [
+        111,
+        51,
+        235,
+        163
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-TED-VAE/生成网络与三路推断网络.png",
+      "sha256": "f0e63917e2c204883b6fdf90728bab0b9f929b56f6e41713b7dc7a68ec2368b6",
+      "kind": "第三方原图",
+      "source_id": "SRC-TED-VAE",
+      "source_version": "arXiv 2001.10652v3",
+      "basis": "固定 PDF 第 4 页图 2。",
+      "source_url": "https://arxiv.org/pdf/2001.10652v3#page=4",
+      "credit": "Weijia Zhang、Lin Liu、Jiuyong Li",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域。",
+      "created_on": "2026-11-27",
+      "original_sha256": "245065d6cf7510c200c0c1740448ed5e189660a81dfd6ee942d35ec32fec37a2",
+      "pdf_page": 4,
+      "crop_points": [
+        76,
+        51,
+        540,
+        204
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-TED-VAE/合成数据的效应估计对比.png",
+      "sha256": "c2719fe10ec0a01051ee1a780a6950a72eed1fca91dc8b6452dc17f72a6f9add",
+      "kind": "第三方原图",
+      "source_id": "SRC-TED-VAE",
+      "source_version": "arXiv 2001.10652v3",
+      "basis": "固定 PDF 第 5 页图 3。",
+      "source_url": "https://arxiv.org/pdf/2001.10652v3#page=5",
+      "credit": "Weijia Zhang、Lin Liu、Jiuyong Li",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域。",
+      "created_on": "2026-11-27",
+      "original_sha256": "245065d6cf7510c200c0c1740448ed5e189660a81dfd6ee942d35ec32fec37a2",
+      "pdf_page": 5,
+      "crop_points": [
+        318,
+        49,
+        563,
+        175
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-TED-VAE/去掉一组潜变量后的误差.png",
+      "sha256": "0330c66beb7e15fbdec9c9f971cb526d0170bae8c0c4546f2321f0b63c6008a6",
+      "kind": "第三方原图",
+      "source_id": "SRC-TED-VAE",
+      "source_version": "arXiv 2001.10652v3",
+      "basis": "固定 PDF 第 6 页图 4。",
+      "source_url": "https://arxiv.org/pdf/2001.10652v3#page=6",
+      "credit": "Weijia Zhang、Lin Liu、Jiuyong Li",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图区域。",
+      "created_on": "2026-11-27",
+      "original_sha256": "245065d6cf7510c200c0c1740448ed5e189660a81dfd6ee942d35ec32fec37a2",
+      "pdf_page": 6,
+      "crop_points": [
+        54,
+        50,
+        293,
+        141
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CTS/情境处理选择训练与预测.png",
+      "sha256": "0f4d4d303c679acf440c278218d75e9c5bda73daec569ad699184019d8850792",
+      "kind": "第三方原图",
+      "source_id": "SRC-CTS",
+      "source_version": "arXiv 1705.08492v1",
+      "basis": "固定 PDF 第 5 页算法 1。",
+      "source_url": "https://arxiv.org/pdf/1705.08492v1#page=5",
+      "credit": "Yan Zhao、Xiao Fang、David Simchi-Levi",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者排版区域。",
+      "created_on": "2026-11-27",
+      "original_sha256": "b7772159c00f678d9cd8402b38c5fd492fb94b6bebe6cf4aa1486554149a836b",
+      "pdf_page": 5,
+      "crop_points": [
+        309,
+        74,
+        554,
+        426
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CTS/四处理合成实验策略价值.png",
+      "sha256": "dbe8f257cba8b9441913862291c44f72a782e3846e3b75ce3e60c850dd21743d",
+      "kind": "第三方原图",
+      "source_id": "SRC-CTS",
+      "source_version": "arXiv 1705.08492v1",
+      "basis": "固定 PDF 第 6 页图 1。",
+      "source_url": "https://arxiv.org/pdf/1705.08492v1#page=6",
+      "credit": "Yan Zhao、Xiao Fang、David Simchi-Levi",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者排版区域。",
+      "created_on": "2026-11-27",
+      "original_sha256": "b7772159c00f678d9cd8402b38c5fd492fb94b6bebe6cf4aa1486554149a836b",
+      "pdf_page": 6,
+      "crop_points": [
+        310,
+        83,
+        554,
+        248
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CTS/优先登机覆盖率与人均收入.png",
+      "sha256": "939e76a457884b68aed50b1fc02eb27e987ac36a16dca25e4d9117b34120ea0b",
+      "kind": "第三方原图",
+      "source_id": "SRC-CTS",
+      "source_version": "arXiv 1705.08492v1",
+      "basis": "固定 PDF 第 7 页图 2。",
+      "source_url": "https://arxiv.org/pdf/1705.08492v1#page=7",
+      "credit": "Yan Zhao、Xiao Fang、David Simchi-Levi",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者排版区域。",
+      "created_on": "2026-11-27",
+      "original_sha256": "b7772159c00f678d9cd8402b38c5fd492fb94b6bebe6cf4aa1486554149a836b",
+      "pdf_page": 7,
+      "crop_points": [
+        309,
+        250,
+        554,
+        416
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CTS/优先登机全量定价收入.png",
+      "sha256": "f5d8a7f363907a56e5c54572a2e0104689cb93579cd9b665d00fb1bac6c1a846",
+      "kind": "第三方原图",
+      "source_id": "SRC-CTS",
+      "source_version": "arXiv 1705.08492v1",
+      "basis": "固定 PDF 第 7 页图 3。",
+      "source_url": "https://arxiv.org/pdf/1705.08492v1#page=7",
+      "credit": "Yan Zhao、Xiao Fang、David Simchi-Levi",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者排版区域。",
+      "created_on": "2026-11-27",
+      "original_sha256": "b7772159c00f678d9cd8402b38c5fd492fb94b6bebe6cf4aa1486554149a836b",
+      "pdf_page": 7,
+      "crop_points": [
+        309,
+        496,
+        554,
+        660
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CTS/四档座位定价人均收入.png",
+      "sha256": "c1bfd45ee170e80868e4c09a405bf383d1af0e4c7a270dbbb438f5c5fdd1dbde",
+      "kind": "第三方原图",
+      "source_id": "SRC-CTS",
+      "source_version": "arXiv 1705.08492v1",
+      "basis": "固定 PDF 第 8 页图 4。",
+      "source_url": "https://arxiv.org/pdf/1705.08492v1#page=8",
+      "credit": "Yan Zhao、Xiao Fang、David Simchi-Levi",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者排版区域。",
+      "created_on": "2026-11-27",
+      "original_sha256": "b7772159c00f678d9cd8402b38c5fd492fb94b6bebe6cf4aa1486554149a836b",
+      "pdf_page": 8,
+      "crop_points": [
+        309,
+        92,
+        554,
+        251
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CTS/四档座位定价覆盖曲线.png",
+      "sha256": "634617fc925f1685578e48dabbd236df99f3a8764d19fb36ca3482ca0cd818a1",
+      "kind": "第三方原图",
+      "source_id": "SRC-CTS",
+      "source_version": "arXiv 1705.08492v1",
+      "basis": "固定 PDF 第 8 页图 5。",
+      "source_url": "https://arxiv.org/pdf/1705.08492v1#page=8",
+      "credit": "Yan Zhao、Xiao Fang、David Simchi-Levi",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者排版区域。",
+      "created_on": "2026-11-27",
+      "original_sha256": "b7772159c00f678d9cd8402b38c5fd492fb94b6bebe6cf4aa1486554149a836b",
+      "pdf_page": 8,
+      "crop_points": [
+        309,
+        321,
+        554,
+        476
+      ]
     }
   ]
 }
