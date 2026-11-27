@@ -1,0 +1,39 @@
+{
+  "id": "SRC-CAUSAL-FOREST",
+  "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
+  "kind": "paper",
+  "state": "active",
+  "current": "84f5713d16f9435077e58676d87aea972e2fe5437ef9f3d8d980621716958b69",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1510.04342v4",
+      "revision": "arXiv 1510.04342v4",
+      "read_scope": "摘要、§1–6、程序 1–2、图 1–2、表 1–3，以及附录 B、图 3 和定理 1、11 的证明。源码为下载后未修改文件的本地重新打包。未运行模型。",
+      "artifacts": [
+        {
+          "name": "1510.04342v4.pdf",
+          "sha256": "4ce3bc946f2f3aae9f0d2a485e5f6632b7e5cfd94639f4b50edd6347bb219e6a",
+          "snapshot": ".local/sources/SRC-CAUSAL-FOREST/4ce3bc946f2f3aae9f0d2a485e5f6632b7e5cfd94639f4b50edd6347bb219e6a/1510.04342v4.pdf"
+        },
+        {
+          "name": "1510.04342v4-source-repacked.tar.gz",
+          "sha256": "da5cb8d68098a4a2ae63da3788fafb272288c6f9b359997644cbdbdf22344028",
+          "snapshot": ".local/sources/SRC-CAUSAL-FOREST/da5cb8d68098a4a2ae63da3788fafb272288c6f9b359997644cbdbdf22344028/1510.04342v4-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "84f5713d16f9435077e58676d87aea972e2fe5437ef9f3d8d980621716958b69",
+      "retrieved_on": "2026-11-27",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "54788c6251750189a6a53958849576a6236c57ea557b62f1a5fdd146188a12ec",
+        "pages": [
+          "coupon-uplift-evaluation",
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-27",
+        "review_method": "agent-self-review",
+        "review_note": "按程序 1–2 复核结构与估计样本角色，核对式 (5)、(8)、(24) 的权重、定理 11 的逐点目标及表 3 和图 1–3 的偏差和覆盖。与 CT-H、倾向匹配和已用作基线的组合森林区分。"
+      }
+    }
+  ]
+}

@@ -6944,6 +6944,42 @@
         "pages": 17,
         "verified_download_sha256": "e702043c91e45dc3ff1ddc906f925dad40a28d2de8adc8dabddc7e3bda0d8d17"
       }
+    },
+    {
+      "source_id": "SRC-CAUSAL-FOREST",
+      "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
+      "original_url": "https://arxiv.org/pdf/1510.04342v4",
+      "revision": "arXiv 1510.04342v4",
+      "input_sha256": "7ad79bcbbbbbf0d44306c1c5a7935d940913dc4ac60e9e704c18e0bf684d3fde",
+      "input_pages": 36,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、程序、主图表文字、描述性脚注和致谢译为中文。保留公式、图内标签、附录和参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-27",
+        "authors": [
+          "Stefan Wager",
+          "Susan Athey"
+        ],
+        "original_pdf_sha256": "4ce3bc946f2f3aae9f0d2a485e5f6632b7e5cfd94639f4b50edd6347bb219e6a",
+        "evidence_url": "https://arxiv.org/abs/1510.04342v4",
+        "evidence_sha256": "acfc1fe6037fc9fc93a2b21f4f8bd9dae8c074cbb4d1ffd39c1594a6835e6a68",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "采用版为 arXiv 非独占分发许可，未获公开全文译文的独立授权证据。"
+      },
+      "reason": "36 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261127-batch-09-10",
+        "translation_version": "20261127.1",
+        "asset_name": "SRC-CAUSAL-FOREST.zh-CN.private.20261127.1.pdf",
+        "sha256": "7ad79bcbbbbbf0d44306c1c5a7935d940913dc4ac60e9e704c18e0bf684d3fde",
+        "size_bytes": 1571212,
+        "pages": 36,
+        "verified_download_sha256": "7ad79bcbbbbbf0d44306c1c5a7935d940913dc4ac60e9e704c18e0bf684d3fde"
+      }
     }
   ],
   "storage_policy": "private-only",

@@ -8993,6 +8993,111 @@
         498,
         558
       ]
+    },
+    {
+      "path": "资源/图片/SRC-CAUSAL-FOREST/双样本树的分裂与叶估计.png",
+      "sha256": "f18a37fe35b81993ab542dbccaac6890925b1ab9d24bff0b7328240130021da5",
+      "kind": "第三方原图",
+      "source_id": "SRC-CAUSAL-FOREST",
+      "source_version": "arXiv 1510.04342v4",
+      "basis": "固定 PDF 第 9 页程序 1。",
+      "source_url": "https://arxiv.org/pdf/1510.04342v4#page=9",
+      "credit": "Stefan Wager、Susan Athey",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "4ce3bc946f2f3aae9f0d2a485e5f6632b7e5cfd94639f4b50edd6347bb219e6a",
+      "pdf_page": 9,
+      "crop_points": [
+        109,
+        109,
+        507,
+        439
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CAUSAL-FOREST/倾向树的训练与预测.png",
+      "sha256": "ee2d95b10f9719e41144124ec6c82a6660e8b88001b31a7cdb2e1bf9945213f9",
+      "kind": "第三方原图",
+      "source_id": "SRC-CAUSAL-FOREST",
+      "source_version": "arXiv 1510.04342v4",
+      "basis": "固定 PDF 第 10 页程序 2。",
+      "source_url": "https://arxiv.org/pdf/1510.04342v4#page=10",
+      "credit": "Stefan Wager、Susan Athey",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "4ce3bc946f2f3aae9f0d2a485e5f6632b7e5cfd94639f4b50edd6347bb219e6a",
+      "pdf_page": 10,
+      "crop_points": [
+        109,
+        110,
+        507,
+        316
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CAUSAL-FOREST/抽样方差与正态诊断.png",
+      "sha256": "db7567f1c9053b7ede6d1c9fe35fab8a229f96028030bac82b2efe1794fbf41e",
+      "kind": "第三方原图",
+      "source_id": "SRC-CAUSAL-FOREST",
+      "source_version": "arXiv 1510.04342v4",
+      "basis": "固定 PDF 第 22 页图 1。",
+      "source_url": "https://arxiv.org/pdf/1510.04342v4#page=22",
+      "credit": "Stefan Wager、Susan Athey",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "4ce3bc946f2f3aae9f0d2a485e5f6632b7e5cfd94639f4b50edd6347bb219e6a",
+      "pdf_page": 22,
+      "crop_points": [
+        108,
+        109,
+        505,
+        247
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CAUSAL-FOREST/效应峰值的森林估计.png",
+      "sha256": "1d9d57a21c8470fb15a525b310c6f0d3097abb1b8e4f1d2044d0e6cd38b8a3cc",
+      "kind": "第三方原图",
+      "source_id": "SRC-CAUSAL-FOREST",
+      "source_version": "arXiv 1510.04342v4",
+      "basis": "固定 PDF 第 23 页图 2。",
+      "source_url": "https://arxiv.org/pdf/1510.04342v4#page=23",
+      "credit": "Stefan Wager、Susan Athey",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "4ce3bc946f2f3aae9f0d2a485e5f6632b7e5cfd94639f4b50edd6347bb219e6a",
+      "pdf_page": 23,
+      "crop_points": [
+        111,
+        278,
+        506,
+        496
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-CAUSAL-FOREST/边界预测的诚实与自适应对照.png",
+      "sha256": "98b14633fd7933058f38322cb273f4330a0f00304dbfa8649a21256efc768713",
+      "kind": "第三方原图",
+      "source_id": "SRC-CAUSAL-FOREST",
+      "source_version": "arXiv 1510.04342v4",
+      "basis": "固定 PDF 第 31 页图 3。",
+      "source_url": "https://arxiv.org/pdf/1510.04342v4#page=31",
+      "credit": "Stefan Wager、Susan Athey",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "4ce3bc946f2f3aae9f0d2a485e5f6632b7e5cfd94639f4b50edd6347bb219e6a",
+      "pdf_page": 31,
+      "crop_points": [
+        173,
+        122,
+        434,
+        344
+      ]
     }
   ]
 }
