@@ -8972,6 +8972,27 @@
         554,
         476
       ]
+    },
+    {
+      "path": "资源/图片/SRC-CAUSAL-TREE/诚实估计的模拟区间覆盖率.png",
+      "sha256": "8613bedb51647f08d4065772441c851a302d576588dc6476dc4f93786fd2b381",
+      "kind": "第三方原图",
+      "source_id": "SRC-CAUSAL-TREE",
+      "source_version": "arXiv 1504.01132v3",
+      "basis": "固定 PDF 第 19 页表 1。",
+      "source_url": "https://arxiv.org/pdf/1504.01132v3#page=19",
+      "credit": "Susan Athey、Guido W. Imbens",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者表格及表脚注。",
+      "created_on": "2026-11-27",
+      "original_sha256": "5618b7bf6a2239d6313d5babb92fa20ef9398b9e424deefa3628170d84880eba",
+      "pdf_page": 19,
+      "crop_points": [
+        114,
+        85,
+        498,
+        558
+      ]
     }
   ]
 }

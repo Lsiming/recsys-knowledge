@@ -3506,5 +3506,21 @@
     "evidence_sha256": "32f1b91adfafc14421a53ea407d7108d1e9edd5eee51c236efe839a12609ba55",
     "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "reason": "已完成正文中文 PDF 并私有备份。采用版为 arXiv 非独占分发许可，公开全文译文的独立许可尚未核实。"
+  },
+  {
+    "source_id": "SRC-CAUSAL-TREE",
+    "title": "Recursive Partitioning for Heterogeneous Causal Effects",
+    "original_url": "https://arxiv.org/pdf/1504.01132v3",
+    "revision": "arXiv 1504.01132v3",
+    "authors": [
+      "Susan Athey",
+      "Guido W. Imbens"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-27",
+    "evidence_url": "https://arxiv.org/abs/1504.01132v3",
+    "evidence_sha256": "e40677c55da688758ff13541d3c1d1753d7edd978c531bc29d1b45c5449d65bf",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 并私有备份。采用版为 arXiv 非独占分发许可，公开全文译文的独立许可尚未核实。"
   }
 ]

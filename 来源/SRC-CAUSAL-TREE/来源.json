@@ -1,0 +1,38 @@
+{
+  "id": "SRC-CAUSAL-TREE",
+  "title": "Recursive Partitioning for Heterogeneous Causal Effects",
+  "kind": "paper",
+  "state": "active",
+  "current": "79e0964a0b6df6ab82837e7a7e465c095c62771fe14f7b6cc7516c2aa7524f51",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1504.01132v3",
+      "revision": "arXiv 1504.01132v3",
+      "read_scope": "摘要、引言、§1–9、表 1 和在线附录及表 A1。源码为下载后未修改文件的本地重新打包。未运行作者模型。",
+      "artifacts": [
+        {
+          "name": "1504.01132v3.pdf",
+          "sha256": "5618b7bf6a2239d6313d5babb92fa20ef9398b9e424deefa3628170d84880eba",
+          "snapshot": ".local/sources/SRC-CAUSAL-TREE/5618b7bf6a2239d6313d5babb92fa20ef9398b9e424deefa3628170d84880eba/1504.01132v3.pdf"
+        },
+        {
+          "name": "1504.01132v3-source-repacked.tar.gz",
+          "sha256": "2cbccfc8c6ff83e0693b13d75750e6a0794c3e036995fff0ad28b6accf4d826f",
+          "snapshot": ".local/sources/SRC-CAUSAL-TREE/2cbccfc8c6ff83e0693b13d75750e6a0794c3e036995fff0ad28b6accf4d826f/1504.01132v3-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "79e0964a0b6df6ab82837e7a7e465c095c62771fe14f7b6cc7516c2aa7524f51",
+      "retrieved_on": "2026-11-27",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "b177a3e0e724ea44cbab6f558a9326290977718c57c089c56bbdc88dac8a2cd7",
+        "pages": [
+          "coupon-uplift-evaluation"
+        ],
+        "reviewed_on": "2026-11-27",
+        "review_method": "agent-self-review",
+        "review_note": "核对随机分配下叶效应目标、两份方差惩罚、剪枝与估计分样、原表与在线附录的覆盖和误差口径。与 CTS 的选档价值、历史发券的倾向加权相互定位。"
+      }
+    }
+  ]
+}

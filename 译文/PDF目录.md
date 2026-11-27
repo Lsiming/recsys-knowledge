@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-27，盘点180篇中文PDF，180篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-27，盘点181篇中文PDF，181篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -192,3 +192,4 @@
 | [Causal Effect Inference with Deep Latent-Variable Models](https://arxiv.org/pdf/1705.08821v2) · `SRC-CEVAE` | 私有，需登录 · 20261127.2 · 11页 | [unverified](https://arxiv.org/abs/1705.08821v2) | 摘要、正文 §1–5、正文图表说明和描述性脚注译为中文。公式、图内标注、附录和参考文献保留。；11 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。 |
 | [Treatment effect estimation with disentangled latent factors](https://arxiv.org/pdf/2001.10652v3) · `SRC-TED-VAE` | 私有，需登录 · 20261127.1 · 7页 | [unverified](https://arxiv.org/abs/2001.10652v3) | 摘要、正文、图表说明和描述性脚注译为中文。保留公式、图内标注和参考文献。；7 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。 |
 | [Uplift Modeling with Multiple Treatments and General Response Types](https://arxiv.org/pdf/1705.08492v1) · `SRC-CTS` | 私有，需登录 · 20261127.1 · 7页 | [unverified](https://arxiv.org/abs/1705.08492v1) | 摘要、正文 §1–5、算法说明、图注和描述性脚注译为中文。保留公式、图内标注、调参附录和参考文献。；7 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。 |
+| [Recursive Partitioning for Heterogeneous Causal Effects](https://arxiv.org/pdf/1504.01132v3) · `SRC-CAUSAL-TREE` | 私有，需登录 · 20261127.1 · 17页 | [unverified](https://arxiv.org/abs/1504.01132v3) | 摘要、引言、正文 §1–9、主表文字与描述性脚注译为中文。保留公式、在线附录和参考文献。；17 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。 |

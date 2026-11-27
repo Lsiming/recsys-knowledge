@@ -6908,6 +6908,42 @@
         "pages": 7,
         "verified_download_sha256": "5933d874f85ed81bfd0ed279d5ee2a3d419261f6d2d3965f479bd4fdc2ba322b"
       }
+    },
+    {
+      "source_id": "SRC-CAUSAL-TREE",
+      "title": "Recursive Partitioning for Heterogeneous Causal Effects",
+      "original_url": "https://arxiv.org/pdf/1504.01132v3",
+      "revision": "arXiv 1504.01132v3",
+      "input_sha256": "e702043c91e45dc3ff1ddc906f925dad40a28d2de8adc8dabddc7e3bda0d8d17",
+      "input_pages": 17,
+      "duplicate_count": 0,
+      "scope": "摘要、引言、正文 §1–9、主表文字与描述性脚注译为中文。保留公式、在线附录和参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-27",
+        "authors": [
+          "Susan Athey",
+          "Guido W. Imbens"
+        ],
+        "original_pdf_sha256": "5618b7bf6a2239d6313d5babb92fa20ef9398b9e424deefa3628170d84880eba",
+        "evidence_url": "https://arxiv.org/abs/1504.01132v3",
+        "evidence_sha256": "e40677c55da688758ff13541d3c1d1753d7edd978c531bc29d1b45c5449d65bf",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "采用版为 arXiv 非独占分发许可，未获公开全文译文的独立授权证据。"
+      },
+      "reason": "17 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261127-batch-09-10",
+        "translation_version": "20261127.1",
+        "asset_name": "SRC-CAUSAL-TREE.zh-CN.private.20261127.1.pdf",
+        "sha256": "e702043c91e45dc3ff1ddc906f925dad40a28d2de8adc8dabddc7e3bda0d8d17",
+        "size_bytes": 540695,
+        "pages": 17,
+        "verified_download_sha256": "e702043c91e45dc3ff1ddc906f925dad40a28d2de8adc8dabddc7e3bda0d8d17"
+      }
     }
   ],
   "storage_policy": "private-only",
