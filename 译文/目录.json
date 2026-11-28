@@ -3698,5 +3698,23 @@
     "evidence_sha256": "1de492e3f1cf42af8740edc5c5ecd5db6fe2be600ac6a9ca20727439e2817e01",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "reason": "中文正文 PDF 已私有备份。固定 arXiv 版本的 CC BY 4.0 与原 PDF 的 ACM 权利栏并存，本轮交付采用 PDF，未制作正式 Markdown 全文译本。"
+  },
+  {
+    "source_id": "SRC-AUAF",
+    "title": "An Adaptive Unified Allocation Framework for Guaranteed Display Advertising",
+    "original_url": "https://doi.org/10.1145/3488560.3498500",
+    "revision": "ACM WSDM 2022 正式版，pp. 132–140",
+    "authors": [
+      "Xiao Cheng",
+      "Chuanren Liu",
+      "Liang Dai",
+      "Peng Zhang",
+      "Zhen Fang",
+      "Zhonglin Zu"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://doi.org/10.1145/3488560.3498500",
+    "reason": "ACM 正式版未确认公开全文翻译许可。中文正文以 PDF 私有备份。"
   }
 ]

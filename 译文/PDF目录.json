@@ -7168,6 +7168,44 @@
         "pages": 13,
         "verified_download_sha256": "a2cc5d89a2991588a4144c331fe69c5f4c713268069a2e79632f35af0694bd90"
       }
+    },
+    {
+      "source_id": "SRC-AUAF",
+      "title": "An Adaptive Unified Allocation Framework for Guaranteed Display Advertising",
+      "original_url": "https://doi.org/10.1145/3488560.3498500",
+      "revision": "ACM WSDM 2022 正式版，pp. 132–140",
+      "input_sha256": "c1e2bfe0c4ca4d80699aac2b1b9b8537932c469a00d960915ea9e03a008d70bc",
+      "input_pages": 12,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、图表标题、算法 1、脚注与致谢为中文，保留 22 个编号公式、作者原图内英文、22 条参考文献、作者署名与 ACM 权利声明。",
+      "status": "private",
+      "reason": "12 页中文正文重排逐页核验，原译件均经认证下载并核对大小和完整 SHA-256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Xiao Cheng",
+          "Chuanren Liu",
+          "Liang Dai",
+          "Peng Zhang",
+          "Zhen Fang",
+          "Zhonglin Zu"
+        ],
+        "original_pdf_sha256": "8435c59669522116a0b1cb95698cda5335b804c9d5985e6d9d748a6d2d872c32",
+        "evidence_url": "https://doi.org/10.1145/3488560.3498500",
+        "notes": "ACM WSDM 2022 正式版首页载有 © 2022 Association for Computing Machinery，并要求其他用途的复制、再发布、向服务器发布或重新分发事先取得许可。未确认公开全文译文授权。"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261128",
+        "translation_version": "20261128.1",
+        "asset_name": "SRC-AUAF.zh-CN.private.20261128.1.pdf",
+        "sha256": "c1e2bfe0c4ca4d80699aac2b1b9b8537932c469a00d960915ea9e03a008d70bc",
+        "size_bytes": 721347,
+        "pages": 12,
+        "verified_download_sha256": "c1e2bfe0c4ca4d80699aac2b1b9b8537932c469a00d960915ea9e03a008d70bc"
+      }
     }
   ],
   "storage_policy": "private-only",

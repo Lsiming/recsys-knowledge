@@ -9959,6 +9959,126 @@
         "scale": 3
       },
       "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-AUAF/保量广告系统.png",
+      "sha256": "2dbb715642cd7539629c619bb7a04b01d62815137bcf28ff5a36ae66ae87ffbb",
+      "kind": "第三方原图",
+      "source_id": "SRC-AUAF",
+      "source_version": "ACM WSDM 2022 正式版，pp. 132–140",
+      "basis": "图 1，PDF 第 2 页，出版页 133",
+      "license": "© 2022 Association for Computing Machinery，保留原署名与权利声明",
+      "credit": "Xiao Cheng、Chuanren Liu、Liang Dai、Peng Zhang、Zhen Fang、Zhonglin Zu",
+      "modification": "按 PDF pt 坐标裁去版面空白，以 3 倍分辨率转换为 PNG，未修改图中文字或数据。",
+      "created_on": "2026-11-28",
+      "original_pdf_sha256": "8435c59669522116a0b1cb95698cda5335b804c9d5985e6d9d748a6d2d872c32",
+      "pdf_page": 2,
+      "crop_pt": [
+        52,
+        82,
+        296,
+        220
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-AUAF/请求与合同二部图.png",
+      "sha256": "91f7d93a0157072753ea5ccfdf2ac9449bd6a280578ac177472706c59485c45e",
+      "kind": "第三方原图",
+      "source_id": "SRC-AUAF",
+      "source_version": "ACM WSDM 2022 正式版，pp. 132–140",
+      "basis": "图 2，PDF 第 3 页，出版页 134",
+      "license": "© 2022 Association for Computing Machinery，保留原署名与权利声明",
+      "credit": "Xiao Cheng、Chuanren Liu、Liang Dai、Peng Zhang、Zhen Fang、Zhonglin Zu",
+      "modification": "按 PDF pt 坐标裁去版面空白，以 3 倍分辨率转换为 PNG，未修改图中文字或数据。",
+      "created_on": "2026-11-28",
+      "original_pdf_sha256": "8435c59669522116a0b1cb95698cda5335b804c9d5985e6d9d748a6d2d872c32",
+      "pdf_page": 3,
+      "crop_pt": [
+        51,
+        79,
+        306,
+        228
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-AUAF/滚动分配与投放节奏.png",
+      "sha256": "65e3bf7dad47657cccb392cf0bbd6eb65c1996fe24c1997829fe80ef11ae3036",
+      "kind": "第三方原图",
+      "source_id": "SRC-AUAF",
+      "source_version": "ACM WSDM 2022 正式版，pp. 132–140",
+      "basis": "图 3，PDF 第 6 页，出版页 137",
+      "license": "© 2022 Association for Computing Machinery，保留原署名与权利声明",
+      "credit": "Xiao Cheng、Chuanren Liu、Liang Dai、Peng Zhang、Zhen Fang、Zhonglin Zu",
+      "modification": "按 PDF pt 坐标裁去版面空白，以 3 倍分辨率转换为 PNG，未修改图中文字或数据。",
+      "created_on": "2026-11-28",
+      "original_pdf_sha256": "8435c59669522116a0b1cb95698cda5335b804c9d5985e6d9d748a6d2d872c32",
+      "pdf_page": 6,
+      "crop_pt": [
+        75,
+        79,
+        287,
+        197
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-AUAF/离线分配收敛.png",
+      "sha256": "a057bd498b11d75e0d407db1cbad3d56340330182629ed4b302a386362f6a46f",
+      "kind": "第三方原图",
+      "source_id": "SRC-AUAF",
+      "source_version": "ACM WSDM 2022 正式版，pp. 132–140",
+      "basis": "图 4，PDF 第 8 页，出版页 139",
+      "license": "© 2022 Association for Computing Machinery，保留原署名与权利声明",
+      "credit": "Xiao Cheng、Chuanren Liu、Liang Dai、Peng Zhang、Zhen Fang、Zhonglin Zu",
+      "modification": "按 PDF pt 坐标裁去版面空白，以 3 倍分辨率转换为 PNG，未修改图中文字或数据。",
+      "created_on": "2026-11-28",
+      "original_pdf_sha256": "8435c59669522116a0b1cb95698cda5335b804c9d5985e6d9d748a6d2d872c32",
+      "pdf_page": 8,
+      "crop_pt": [
+        76,
+        332,
+        529,
+        454
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-AUAF/不同流量切片的分配.png",
+      "sha256": "5b9603018a65a9bb9479f99343e0229f0773d16261c5cc341924e6cb1f400813",
+      "kind": "第三方原图",
+      "source_id": "SRC-AUAF",
+      "source_version": "ACM WSDM 2022 正式版，pp. 132–140",
+      "basis": "图 5，PDF 第 8 页，出版页 139",
+      "license": "© 2022 Association for Computing Machinery，保留原署名与权利声明",
+      "credit": "Xiao Cheng、Chuanren Liu、Liang Dai、Peng Zhang、Zhen Fang、Zhonglin Zu",
+      "modification": "按 PDF pt 坐标裁去版面空白，以 3 倍分辨率转换为 PNG，未修改图中文字或数据。",
+      "created_on": "2026-11-28",
+      "original_pdf_sha256": "8435c59669522116a0b1cb95698cda5335b804c9d5985e6d9d748a6d2d872c32",
+      "pdf_page": 8,
+      "crop_pt": [
+        77,
+        488,
+        535,
+        600
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-AUAF/线上实验的预估与实际点击率.png",
+      "sha256": "a75fd2b36dc38248064c5cedeba585de8948c98946021cd95bc1342addfce8be",
+      "kind": "第三方原图",
+      "source_id": "SRC-AUAF",
+      "source_version": "ACM WSDM 2022 正式版，pp. 132–140",
+      "basis": "图 6，PDF 第 7 页，出版页 138",
+      "license": "© 2022 Association for Computing Machinery，保留原署名与权利声明",
+      "credit": "Xiao Cheng、Chuanren Liu、Liang Dai、Peng Zhang、Zhen Fang、Zhonglin Zu",
+      "modification": "按 PDF pt 坐标裁去版面空白，以 3 倍分辨率转换为 PNG，未修改图中文字或数据。",
+      "created_on": "2026-11-28",
+      "original_pdf_sha256": "8435c59669522116a0b1cb95698cda5335b804c9d5985e6d9d748a6d2d872c32",
+      "pdf_page": 7,
+      "crop_pt": [
+        316,
+        528,
+        557,
+        630
+      ]
     }
   ]
 }

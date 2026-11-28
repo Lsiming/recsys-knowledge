@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-28，盘点187篇中文PDF，187篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-28，盘点188篇中文PDF，188篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -199,3 +199,4 @@
 | [GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets](https://github.com/gasanchez10/freganv2/blob/3037720047e4cdd02d11394ff77919f93ce385df/Papers_elegidos/588_ganite_estimation_of_individua%20%281%29.pdf) · `SRC-GANITE` | 私有，需登录 · 20261127.1 · 23页 | [unverified](https://iclr.cc/Conferences/2018/Schedule?showEvent=153) | 摘要、正文 §1–6、图表说明、脚注及致谢译为中文。保留公式、图内文字、参考文献与英文附录。；23 页经 Poppler 逐页渲染核对，原译件均经认证下载核验大小与完整 SHA-256。 |
 | [TSCAN: Context-Aware Uplift Modeling via Two-Stage Training for Online Merchant Business Diagnosis](https://arxiv.org/pdf/2504.18881v3) · `SRC-TSCAN` | 私有，需登录 · 20261128.1 · 15页 | [unverified](https://arxiv.org/abs/2504.18881v3) | 摘要、正文 §1–6、图表标题与必要脚注译为中文。保留公式、图内英文、原版权声明及 49 项参考文献。；15 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。 |
 | [Robust Uplift Modeling with Large-Scale Contexts for Real-time Marketing](https://arxiv.org/pdf/2502.15697v1) · `SRC-UMLC` | 私有，需登录 · 20261128.1 · 13页 | [CC-BY-4.0](https://arxiv.org/abs/2502.15697v1) | 摘要、§1–6、正文图表标题、致谢及说明性脚注为中文。保留原公式、原图内部标注、附录 A–C、39 条参考文献以及作者与 ACM 权利声明。；13 页中文正文译本逐页核验，原译件经认证下载并核对大小和完整 SHA-256。 |
+| [An Adaptive Unified Allocation Framework for Guaranteed Display Advertising](https://doi.org/10.1145/3488560.3498500) · `SRC-AUAF` | 私有，需登录 · 20261128.1 · 12页 | [unverified](https://doi.org/10.1145/3488560.3498500) | 摘要、正文 §1–6、图表标题、算法 1、脚注与致谢为中文，保留 22 个编号公式、作者原图内英文、22 条参考文献、作者署名与 ACM 权利声明。；12 页中文正文重排逐页核验，原译件均经认证下载并核对大小和完整 SHA-256。 |

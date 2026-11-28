@@ -1,0 +1,33 @@
+{
+  "id": "SRC-AUAF",
+  "title": "An Adaptive Unified Allocation Framework for Guaranteed Display Advertising",
+  "kind": "paper",
+  "state": "active",
+  "current": "9f2b10a21f4d28ae1dd033d1710c4fa2d6778e3967b9ac93d287a463373ebaa7",
+  "versions": [
+    {
+      "locator": "https://doi.org/10.1145/3488560.3498500",
+      "revision": "ACM WSDM 2022 正式版，pp. 132–140",
+      "read_scope": "全文：摘要、§1–6、定理1与证明、算法1、公式1–22、图1–6、表1–3、致谢与参考文献。采用用户提供的 ACM 正式出版 PDF。",
+      "artifacts": [
+        {
+          "name": "An Adaptive Unified Allocation Framework for Guaranteed Display Advertising.pdf",
+          "sha256": "8435c59669522116a0b1cb95698cda5335b804c9d5985e6d9d748a6d2d872c32",
+          "snapshot": ".local/sources/SRC-AUAF/8435c59669522116a0b1cb95698cda5335b804c9d5985e6d9d748a6d2d872c32/An Adaptive Unified Allocation Framework for Guaranteed Display Advertising.pdf"
+        }
+      ],
+      "fingerprint": "9f2b10a21f4d28ae1dd033d1710c4fa2d6778e3967b9ac93d287a463373ebaa7",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "458a95f837dbd232d9c4f94012cd5caae29fde8d10a0856cf5f32461c925d85e",
+        "pages": [
+          "guaranteed-display-allocation"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对 ACM 正式版§3–5、式 (1)–(22)、算法1与表2–3，以正部函数斜率补全可行性论证，并核对公开代码的投影实现与 CTR/CVR 边界。复查重排模块、通知配额与预算策略。"
+      }
+    }
+  ]
+}
