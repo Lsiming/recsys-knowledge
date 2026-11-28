@@ -20,13 +20,13 @@
       "retrieved_on": "2026-11-28",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "458a95f837dbd232d9c4f94012cd5caae29fde8d10a0856cf5f32461c925d85e",
+        "notes_sha256": "fd79a09da1cf5cdafe7d47a38b3bcc87dbcad71b4631c3344603f15a3a045f04",
         "pages": [
           "guaranteed-display-allocation"
         ],
         "reviewed_on": "2026-11-28",
         "review_method": "agent-self-review",
-        "review_note": "核对 ACM 正式版§3–5、式 (1)–(22)、算法1与表2–3，以正部函数斜率补全可行性论证，并核对公开代码的投影实现与 CTR/CVR 边界。复查重排模块、通知配额与预算策略。"
+        "review_note": "核对 ACM 正式版§3–5、式 (1)–(22)、算法1与表2–3，以正部函数斜率补全可行性论证，并核对公开代码的投影实现与 CTR/CVR 边界。复查重排模块、通知配额与预算策略。后续验证行内及块公式的 Markdown 渲染。"
       }
     }
   ]
