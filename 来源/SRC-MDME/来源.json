@@ -1,0 +1,38 @@
+{
+  "id": "SRC-MDME",
+  "title": "Billion-user Customer Lifetime Value Prediction: An Industrial-scale Solution from Kuaishou",
+  "kind": "paper",
+  "state": "active",
+  "current": "eb2398f46e93da553d70811e88f1c6df6b6655094a1c683cd0094a11322714b0",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2208.13358v1",
+      "revision": "arXiv:2208.13358v1 (2022-08-29)，CIKM 2022 作者版",
+      "read_scope": "摘要、正文 §1–6、式 (1)–(16)、图 1–4、表 1–4。核对分段与分桶读出、跨窗连接及软约束、Mutual Gini 和实验口径。未运行模型。",
+      "artifacts": [
+        {
+          "name": "2208.13358v1.pdf",
+          "sha256": "36d5462cd0ddf0855893fd98e829b1470a362298efe6328b76148e832f18cae2",
+          "snapshot": ".local/sources/SRC-MDME/36d5462cd0ddf0855893fd98e829b1470a362298efe6328b76148e832f18cae2/2208.13358v1.pdf"
+        },
+        {
+          "name": "2208.13358v1-source.tar.gz",
+          "sha256": "0ac48b10f61591de2523b86b6e30dc426dd829cbebfd8dede8929a6d2294b067",
+          "snapshot": ".local/sources/SRC-MDME/0ac48b10f61591de2523b86b6e30dc426dd829cbebfd8dede8929a6d2294b067/2208.13358v1-source.tar.gz"
+        }
+      ],
+      "fingerprint": "eb2398f46e93da553d70811e88f1c6df6b6655094a1c683cd0094a11322714b0",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "9e8a1a947eb362b6d90faaafcb747cfa7074aede975a0e67668edb1bbdb0001a",
+        "pages": [
+          "new-customer-ltv-zero-and-tail"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对读出和事实桶监督、短窗分布与软约束、式 (15)–(16) 以及四表实验口径。保留图 1 标签单位疑点，当前 Agent 自查。"
+      }
+    }
+  ]
+}

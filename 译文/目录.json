@@ -3844,5 +3844,24 @@
     "evidence_sha256": "a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828",
     "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "reason": "正文中文 PDF 已私有备份。arXiv 非独占分发许可仅授权 arXiv 分发。译本保留作者和权利声明，公开翻译分发许可未确认。"
+  },
+  {
+    "source_id": "SRC-MDME",
+    "title": "Billion-user Customer Lifetime Value Prediction: An Industrial-scale Solution from Kuaishou",
+    "original_url": "https://arxiv.org/pdf/2208.13358v1",
+    "revision": "arXiv:2208.13358v1 (2022-08-29)，CIKM 2022 作者版",
+    "authors": [
+      "Kunpeng Li",
+      "Guangcui Shao",
+      "Naijun Yang",
+      "Xiao Fang",
+      "Yang Song"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://arxiv.org/pdf/2208.13358v1",
+    "evidence_sha256": "36d5462cd0ddf0855893fd98e829b1470a362298efe6328b76148e832f18cae2",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "正文中文 PDF 已私有备份。arXiv 非独占分发许可仅授权 arXiv 分发。译本保留作者和权利声明，公开翻译分发许可未确认。"
   }
 ]

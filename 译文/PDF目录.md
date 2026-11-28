@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-28，盘点195篇中文PDF，195篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-28，盘点196篇中文PDF，196篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -207,3 +207,4 @@
 | [Temporal Uplift Modeling for Online Marketing](https://dl.acm.org/doi/10.1145/3637528.3671560) · `SRC-TPPUM` | 私有，需登录 · 20261128.1 · 11页 | [unverified](https://dl.acm.org/doi/10.1145/3637528.3671560) | 摘要、正文 §1–7、正文图表说明、说明性脚注及致谢译为中文。保留公式、参考文献、图内英文、原署名及正式附录。；11 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。 |
 | [A Deep Probabilistic Model for Customer Lifetime Value Prediction](https://arxiv.org/pdf/1912.07753v1) · `SRC-ZILN` | 私有，需登录 · 20261128.1 · 19页 | [unverified](https://arxiv.org/pdf/1912.07753v1) | 摘要、正文 §1–6、图表标题及致谢译为中文，保留公式、图内标注、参考文献、附录 A 和作者署名。；19 页经 PyMuPDF 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。 |
 | [Out of the Box Thinking: Improving Customer Lifetime Value Modelling via Expert Routing and Game Whale Detection](https://arxiv.org/pdf/2308.12729v1) · `SRC-EXPLTV` | 私有，需登录 · 20261128.1 · 7页 | [unverified](https://arxiv.org/pdf/2308.12729v1) | 摘要、正文 §1–6、图表标题与作者脚注译为中文，保留公式、作者图内英文、参考文献和版权声明。；7 页经 PyMuPDF 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。 |
+| [Billion-user Customer Lifetime Value Prediction: An Industrial-scale Solution from Kuaishou](https://arxiv.org/pdf/2208.13358v1) · `SRC-MDME` | 私有，需登录 · 20261128.1 · 6页 | [unverified](https://arxiv.org/pdf/2208.13358v1) | 摘要、正文 §1–6、图表标题与作者脚注译为中文，保留公式、作者图内英文、参考文献和版权声明。；6 页经 PyMuPDF 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。 |

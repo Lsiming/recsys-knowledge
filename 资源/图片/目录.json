@@ -10815,6 +10815,54 @@
         "scale": 2.7
       },
       "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-MDME/用户价值的长尾和右侧抬升.png",
+      "sha256": "50c42b65cbe0ecdefd7a37869a220f001f16f2eaaab45bbfb6f461d8ffaa92dd",
+      "kind": "第三方原图",
+      "source_id": "SRC-MDME",
+      "source_version": "arXiv:2208.13358v1",
+      "basis": "图 1，PDF p.2",
+      "credit": "Kunpeng Li、Guangcui Shao、Naijun Yang、Xiao Fang、Yang Song",
+      "license": "保留原作版权与署名",
+      "modification": "提取采用版作者 LaTeX 中原图字节，无改绘",
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-MDME/多时距预测和桶分布前递.png",
+      "sha256": "2354ee95d58905bfc416a3a586d71421cd470b900fc6be77418d958190138983",
+      "kind": "第三方原图",
+      "source_id": "SRC-MDME",
+      "source_version": "arXiv:2208.13358v1",
+      "basis": "图 2，PDF p.4",
+      "credit": "Kunpeng Li、Guangcui Shao、Naijun Yang、Xiao Fang、Yang Song",
+      "license": "保留原作版权与署名",
+      "modification": "提取采用版作者 LaTeX 中原图字节，无改绘",
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-MDME/分段分桶及桶内回归.png",
+      "sha256": "b800fca30df4e8c82b5d5301701ee33799c41eb1065858d866c866d013e33347",
+      "kind": "第三方原图",
+      "source_id": "SRC-MDME",
+      "source_version": "arXiv:2208.13358v1",
+      "basis": "图 3，PDF p.4",
+      "credit": "Kunpeng Li、Guangcui Shao、Naijun Yang、Xiao Fang、Yang Song",
+      "license": "保留原作版权与署名",
+      "modification": "提取采用版作者 LaTeX 中原图字节，无改绘",
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-MDME/Mutual Gini 的两条累计曲线.png",
+      "sha256": "3264ca49025f18e26e0cd56e7f416e63c7025595b4c79d649280c533afd4c206",
+      "kind": "第三方原图",
+      "source_id": "SRC-MDME",
+      "source_version": "arXiv:2208.13358v1",
+      "basis": "图 4，PDF p.7",
+      "credit": "Kunpeng Li、Guangcui Shao、Naijun Yang、Xiao Fang、Yang Song",
+      "license": "保留原作版权与署名",
+      "modification": "提取采用版作者 LaTeX 中原图字节，无改绘",
+      "created_on": "2026-11-28"
     }
   ]
 }
