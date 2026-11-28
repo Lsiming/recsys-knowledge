@@ -1,0 +1,38 @@
+{
+  "id": "SRC-CAUSAL-TRANSFORMER",
+  "title": "Causal Transformer for Estimating Counterfactual Outcomes",
+  "kind": "paper",
+  "state": "active",
+  "current": "fc3749f8b7e2c0b427dad59c52294c3e256af1e3cbe04b14464c52661c90f7b8",
+  "versions": [
+    {
+      "locator": "https://proceedings.mlr.press/v162/melnychuk22a/melnychuk22a.pdf",
+      "revision": "ICML 2022 正式版，PMLR 162:15293–15329；作者 LaTeX 为下载后未修改文件的本地重新打包",
+      "read_scope": "通读摘要、正文 §1–6、图 1–2、表 1–4，复核附录 A、C、E–F、I–L；未运行模型。",
+      "artifacts": [
+        {
+          "name": "ct.pdf",
+          "sha256": "0217b0cc6c14e416a8c5d59f6eb535b0442910ee8fd137adf27fc013bc6ceaf4",
+          "snapshot": ".local/sources/SRC-CAUSAL-TRANSFORMER/0217b0cc6c14e416a8c5d59f6eb535b0442910ee8fd137adf27fc013bc6ceaf4/ct.pdf"
+        },
+        {
+          "name": "SRC-CAUSAL-TRANSFORMER.source-repacked.tar.gz",
+          "sha256": "06e350fd00a1f6d7b238e345b5bbda5a3c6e6e4ff3c5185cf984418da04f50d2",
+          "snapshot": ".local/sources/SRC-CAUSAL-TRANSFORMER/06e350fd00a1f6d7b238e345b5bbda5a3c6e6e4ff3c5185cf984418da04f50d2/SRC-CAUSAL-TRANSFORMER.source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "fc3749f8b7e2c0b427dad59c52294c3e256af1e3cbe04b14464c52661c90f7b8",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "1a1a625ad1579357283b8758e9bc7ebda2db687d7541b4c773bc008914071a93",
+        "pages": [
+          "longitudinal-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对正文图1–2、表1–4、式(1)–(23)、附录A、C、E–F、I–L。复算CDC损失、核对反向KL方向及不均衡先验，按两期发券走查掩码、滞后动作、事实监督和模型回填。技术证据与读者路径由当前 Agent 自查。"
+      }
+    }
+  ]
+}

@@ -7281,6 +7281,43 @@
         "pages": 29,
         "verified_download_sha256": "d4166918fd008a6d49d99c212ef9d136ca7a41300adf79bea25e8a63900e973b"
       }
+    },
+    {
+      "source_id": "SRC-CAUSAL-TRANSFORMER",
+      "title": "Causal Transformer for Estimating Counterfactual Outcomes",
+      "original_url": "https://proceedings.mlr.press/v162/melnychuk22a/melnychuk22a.pdf",
+      "revision": "ICML 2022 正式版，PMLR 162:15293–15329；作者 LaTeX 为下载后未修改文件的本地重新打包",
+      "input_sha256": "3715045a90196a8b35f473d163c0e55ac35e75d32a091200d530f2bb8f488fbf",
+      "input_pages": 35,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、正文图表说明及说明性脚注译为中文。保留公式、附录、参考文献、图内英文及原署名。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Valentyn Melnychuk",
+          "Dennis Frauen",
+          "Stefan Feuerriegel"
+        ],
+        "original_pdf_sha256": "0217b0cc6c14e416a8c5d59f6eb535b0442910ee8fd137adf27fc013bc6ceaf4",
+        "evidence_url": "https://arxiv.org/abs/2204.07258v1",
+        "evidence_sha256": "4b7eca07b11cb60478a2c9bf475990b4d0957ee666ddb208195f4670758bf59a",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "作者 arXiv 版本采用非独占分发许可，PMLR 正式版保留作者署名与 2022 版权栏。未确认公开翻译分发许可。"
+      },
+      "reason": "35 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261128-batch-13-14",
+        "translation_version": "20261128.1",
+        "asset_name": "SRC-CAUSAL-TRANSFORMER.zh-CN.private.20261128.1.pdf",
+        "sha256": "3715045a90196a8b35f473d163c0e55ac35e75d32a091200d530f2bb8f488fbf",
+        "size_bytes": 1887501,
+        "pages": 35,
+        "verified_download_sha256": "3715045a90196a8b35f473d163c0e55ac35e75d32a091200d530f2bb8f488fbf"
+      }
     }
   ],
   "storage_policy": "private-only",

@@ -3751,5 +3751,22 @@
     "evidence_sha256": "7fe84e593519e7094c4dcb3ce841f4bbbe3bf980d372fe6ecccfa6b1733bf299",
     "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "reason": "正文中文 PDF 已私有备份。arXiv 固定版采用非独占分发许可，保留会议版作者署名。未确认公开翻译分发许可。"
+  },
+  {
+    "source_id": "SRC-CAUSAL-TRANSFORMER",
+    "title": "Causal Transformer for Estimating Counterfactual Outcomes",
+    "original_url": "https://proceedings.mlr.press/v162/melnychuk22a/melnychuk22a.pdf",
+    "revision": "ICML 2022 正式版，PMLR 162:15293–15329；作者 LaTeX 为下载后未修改文件的本地重新打包",
+    "authors": [
+      "Valentyn Melnychuk",
+      "Dennis Frauen",
+      "Stefan Feuerriegel"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://arxiv.org/abs/2204.07258v1",
+    "evidence_sha256": "4b7eca07b11cb60478a2c9bf475990b4d0957ee666ddb208195f4670758bf59a",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "正文中文 PDF 已私有备份。作者 arXiv 版本采用非独占分发许可，PMLR 正式版保留作者署名与 2022 版权栏。未确认公开翻译分发许可。"
   }
 ]
