@@ -1,0 +1,38 @@
+{
+  "id": "SRC-CRN",
+  "title": "Estimating Counterfactual Treatment Outcomes over Time Through Adversarially Balanced Representations",
+  "kind": "paper",
+  "state": "active",
+  "current": "bbb32aed7c337d6a19aefa2b357f3879536a75cb607e4f81a96f9a3fca88517f",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2002.04083v1",
+      "revision": "arXiv 2002.04083v1，ICLR 2020 会议论文作者上传版；LaTeX 为下载后未修改文件的本地重新打包",
+      "read_scope": "通读正文摘要、§1–7、图 1–5、表 1；复核附录 B（识别条件）、C（时变混杂）、D（理论证明）、E（训练过程）、L（时机测试）及 M（真实日志事实预测）。未运行模型。",
+      "artifacts": [
+        {
+          "name": "crn.pdf",
+          "sha256": "a4bb711cbc68be6771d74b9cdad218e732475a52e5321f88d97c6be5b6ad677e",
+          "snapshot": ".local/sources/SRC-CRN/a4bb711cbc68be6771d74b9cdad218e732475a52e5321f88d97c6be5b6ad677e/crn.pdf"
+        },
+        {
+          "name": "SRC-CRN.source-repacked.tar.gz",
+          "sha256": "ee9051151d8608887d9b8ae32b3d03ac43ea3edf8f384f5ca8a032e3ca4681c3",
+          "snapshot": ".local/sources/SRC-CRN/ee9051151d8608887d9b8ae32b3d03ac43ea3edf8f384f5ca8a032e3ca4681c3/SRC-CRN.source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "bbb32aed7c337d6a19aefa2b357f3879536a75cb607e4f81a96f9a3fca88517f",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "97c920ee1580d77ffcf01fff4e360740569350d14fc51a65b179c79b388ac120",
+        "pages": [
+          "longitudinal-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "复核固定会议稿图1–5、式(1)–(7)、表1、附录B–E及L–M，区分动作头梯度、结果头输入、理论分布平衡与反事实充分性，复算算例与关键时距数字。两轮由当前 Agent 自查。"
+      }
+    }
+  ]
+}

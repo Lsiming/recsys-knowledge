@@ -7206,6 +7206,81 @@
         "pages": 12,
         "verified_download_sha256": "c1e2bfe0c4ca4d80699aac2b1b9b8537932c469a00d960915ea9e03a008d70bc"
       }
+    },
+    {
+      "source_id": "SRC-R-MSN",
+      "title": "Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks",
+      "original_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/56e6a93212e4482d99c84a639d254b67-Paper.pdf",
+      "revision": "NeurIPS 2018 会议论文集正式版及官方补充材料",
+      "input_sha256": "8c6817bb4f685a23d8e0a85b815326e91bdebef310e45720e0ca5943b9521aac",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、图表说明及致谢译为中文。保留公式、图内英文、原署名和 44 项参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Bryan Lim",
+          "Ahmed Alaa",
+          "Mihaela van der Schaar"
+        ],
+        "original_pdf_sha256": "58115ff978494f268783da91adde8a1e1aad3c98b6729538a1b752877feee65b",
+        "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2018/hash/56e6a93212e4482d99c84a639d254b67-Abstract.html",
+        "evidence_sha256": "d80ed065833df3d5145862f43dc1a68729500babd3c729afe1fca934329d5028",
+        "license_url": "",
+        "notes": "NeurIPS 2018 正式公开会议版，原署名和权利保留。未确认公开翻译分发许可。"
+      },
+      "reason": "11 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261128-batch-13-14",
+        "translation_version": "20261128.1",
+        "asset_name": "SRC-R-MSN.zh-CN.private.20261128.1.pdf",
+        "sha256": "8c6817bb4f685a23d8e0a85b815326e91bdebef310e45720e0ca5943b9521aac",
+        "size_bytes": 1149594,
+        "pages": 11,
+        "verified_download_sha256": "8c6817bb4f685a23d8e0a85b815326e91bdebef310e45720e0ca5943b9521aac"
+      }
+    },
+    {
+      "source_id": "SRC-CRN",
+      "title": "Estimating Counterfactual Treatment Outcomes over Time Through Adversarially Balanced Representations",
+      "original_url": "https://arxiv.org/pdf/2002.04083v1",
+      "revision": "arXiv 2002.04083v1，ICLR 2020 会议论文作者上传版；LaTeX 为下载后未修改文件的本地重新打包",
+      "input_sha256": "d4166918fd008a6d49d99c212ef9d136ca7a41300adf79bea25e8a63900e973b",
+      "input_pages": 29,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、正文图表说明、说明性脚注及致谢译为中文。保留公式、附录、参考文献、图内英文及原署名。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Ioana Bica",
+          "Ahmed M. Alaa",
+          "James Jordon",
+          "Mihaela van der Schaar"
+        ],
+        "original_pdf_sha256": "a4bb711cbc68be6771d74b9cdad218e732475a52e5321f88d97c6be5b6ad677e",
+        "evidence_url": "https://arxiv.org/abs/2002.04083v1",
+        "evidence_sha256": "7fe84e593519e7094c4dcb3ce841f4bbbe3bf980d372fe6ecccfa6b1733bf299",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "arXiv 固定版采用非独占分发许可，保留会议版作者署名。未确认公开翻译分发许可。"
+      },
+      "reason": "29 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261128-batch-13-14",
+        "translation_version": "20261128.1",
+        "asset_name": "SRC-CRN.zh-CN.private.20261128.1.pdf",
+        "sha256": "d4166918fd008a6d49d99c212ef9d136ca7a41300adf79bea25e8a63900e973b",
+        "size_bytes": 4561732,
+        "pages": 29,
+        "verified_download_sha256": "d4166918fd008a6d49d99c212ef9d136ca7a41300adf79bea25e8a63900e973b"
+      }
     }
   ],
   "storage_policy": "private-only",

@@ -1,0 +1,38 @@
+{
+  "id": "SRC-R-MSN",
+  "title": "Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks",
+  "kind": "paper",
+  "state": "active",
+  "current": "6cde263463358b1f3f2b719ead0bc4a987b0659673746e12a2888605399ad201",
+  "versions": [
+    {
+      "locator": "https://proceedings.neurips.cc/paper_files/paper/2018/file/56e6a93212e4482d99c84a639d254b67-Paper.pdf",
+      "revision": "NeurIPS 2018 会议论文集正式版及官方补充材料",
+      "read_scope": "正式 PDF 11 页，通读正文 §1–6、式 (1)–(9)、图 1–4、表 1，定向核对官方补充材料附录 A–C 的因果假设、权重公式与一步误差对照。未运行模型。",
+      "artifacts": [
+        {
+          "name": "rmsn-conference.pdf",
+          "sha256": "58115ff978494f268783da91adde8a1e1aad3c98b6729538a1b752877feee65b",
+          "snapshot": ".local/sources/SRC-R-MSN/58115ff978494f268783da91adde8a1e1aad3c98b6729538a1b752877feee65b/rmsn-conference.pdf"
+        },
+        {
+          "name": "rmsn-supp.zip",
+          "sha256": "039681519703f11180b0bef42656b9831a1e2c1508415f5b48820fbe1764b6bd",
+          "snapshot": ".local/sources/SRC-R-MSN/039681519703f11180b0bef42656b9831a1e2c1508415f5b48820fbe1764b6bd/rmsn-supp.zip"
+        }
+      ],
+      "fingerprint": "6cde263463358b1f3f2b719ead0bc4a987b0659673746e12a2888605399ad201",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "2267b3aa880ab7347b8aadfacd1ced605629d0183de5ee736aa65ae2cc4a9fe5",
+        "pages": [
+          "longitudinal-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对正式版式(1)–(5)、图1–4、表1及官方附录B–C，并以CRN固定版图2、附录E核对两种解码递推的区别；保留原文报告差异。两轮由当前 Agent 自查。"
+      }
+    }
+  ]
+}

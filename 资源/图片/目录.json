@@ -10079,6 +10079,213 @@
         557,
         630
       ]
+    },
+    {
+      "path": "资源/图片/SRC-R-MSN/不同治疗路径下的预测.png",
+      "sha256": "bc8fe01d2c28d60bdffdde9db56f215c9297f1f9b4a073d425fd6ffd24725e66",
+      "kind": "第三方原图",
+      "source_id": "SRC-R-MSN",
+      "source_version": "NeurIPS 2018 会议论文集",
+      "basis": "图 1，PDF p.2",
+      "license": "保留原作版权与署名",
+      "credit": "Bryan Lim、Ahmed Alaa、Mihaela van der Schaar",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "58115ff978494f268783da91adde8a1e1aad3c98b6729538a1b752877feee65b",
+      "pdf_page": 2,
+      "crop": {
+        "rect": [
+          125,
+          524,
+          487,
+          621
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-R-MSN/编码器和解码器.png",
+      "sha256": "0d36302e5c10add7862286e943b97d91f663b81715c4e7c047008c4a2052ff89",
+      "kind": "第三方原图",
+      "source_id": "SRC-R-MSN",
+      "source_version": "NeurIPS 2018 会议论文集",
+      "basis": "图 2，PDF p.5",
+      "license": "保留原作版权与署名",
+      "credit": "Bryan Lim、Ahmed Alaa、Mihaela van der Schaar",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "58115ff978494f268783da91adde8a1e1aad3c98b6729538a1b752877feee65b",
+      "pdf_page": 5,
+      "crop": {
+        "rect": [
+          120,
+          70,
+          492,
+          142
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-R-MSN/三个训练阶段.png",
+      "sha256": "4dd884be4d19409414248b8ab351bf4a543bf61a611c9e7f578688161aba8c9e",
+      "kind": "第三方原图",
+      "source_id": "SRC-R-MSN",
+      "source_version": "NeurIPS 2018 会议论文集",
+      "basis": "图 3，PDF p.5",
+      "license": "保留原作版权与署名",
+      "credit": "Bryan Lim、Ahmed Alaa、Mihaela van der Schaar",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "58115ff978494f268783da91adde8a1e1aad3c98b6729538a1b752877feee65b",
+      "pdf_page": 5,
+      "crop": {
+        "rect": [
+          127,
+          497,
+          487,
+          701
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-R-MSN/指派规则改变后的一步误差.png",
+      "sha256": "d7bf65eb8f9b7ddd9783ad8fd39ffa66e97c7571899aa38fd87e64efb1877705",
+      "kind": "第三方原图",
+      "source_id": "SRC-R-MSN",
+      "source_version": "NeurIPS 2018 会议论文集",
+      "basis": "图 4，PDF p.8",
+      "license": "保留原作版权与署名",
+      "credit": "Bryan Lim、Ahmed Alaa、Mihaela van der Schaar",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "58115ff978494f268783da91adde8a1e1aad3c98b6729538a1b752877feee65b",
+      "pdf_page": 8,
+      "crop": {
+        "rect": [
+          140,
+          71,
+          471,
+          199
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-CRN/治疗计划和时机的反事实走势.png",
+      "sha256": "efc983368fc170a87e507a5fd01de2a6c8aca552a9e8e07c0dc4ed7b49dcbe98",
+      "kind": "第三方原图",
+      "source_id": "SRC-CRN",
+      "source_version": "arXiv 2002.04083v1，ICLR 2020",
+      "basis": "图 1，PDF p.2",
+      "license": "保留原作版权与署名",
+      "credit": "Ioana Bica、Ahmed M. Alaa、James Jordon、Mihaela van der Schaar",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "a4bb711cbc68be6771d74b9cdad218e732475a52e5321f88d97c6be5b6ad677e",
+      "pdf_page": 2,
+      "crop": {
+        "rect": [
+          112,
+          75,
+          505,
+          213
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-CRN/编码器与解码器.png",
+      "sha256": "11ae6478ef3c052bfb362623d76aac5eff08d73ca6579054a8a63d89693f438b",
+      "kind": "第三方原图",
+      "source_id": "SRC-CRN",
+      "source_version": "arXiv 2002.04083v1，ICLR 2020",
+      "basis": "图 2，PDF p.5",
+      "license": "保留原作版权与署名",
+      "credit": "Ioana Bica、Ahmed M. Alaa、James Jordon、Mihaela van der Schaar",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "a4bb711cbc68be6771d74b9cdad218e732475a52e5321f88d97c6be5b6ad677e",
+      "pdf_page": 5,
+      "crop": {
+        "rect": [
+          107,
+          75,
+          507,
+          218
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-CRN/治疗分类和梯度反转.png",
+      "sha256": "c97df6107f732dd53c4d0977d1cb15ca41195800f1cc3c6b053f70f0c2faf9e9",
+      "kind": "第三方原图",
+      "source_id": "SRC-CRN",
+      "source_version": "arXiv 2002.04083v1，ICLR 2020",
+      "basis": "图 3，PDF p.6",
+      "license": "保留原作版权与署名",
+      "credit": "Ioana Bica、Ahmed M. Alaa、James Jordon、Mihaela van der Schaar",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "a4bb711cbc68be6771d74b9cdad218e732475a52e5321f88d97c6be5b6ad677e",
+      "pdf_page": 6,
+      "crop": {
+        "rect": [
+          341,
+          140,
+          509,
+          344
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-CRN/不同时变混杂强度下的预测误差.png",
+      "sha256": "be2d71a06eaff6d7d7c41ce86fb9e00c6006d3ec63b7af2c933820e65a0fa556",
+      "kind": "第三方原图",
+      "source_id": "SRC-CRN",
+      "source_version": "arXiv 2002.04083v1，ICLR 2020",
+      "basis": "图 4，PDF p.8",
+      "license": "保留原作版权与署名",
+      "credit": "Ioana Bica、Ahmed M. Alaa、James Jordon、Mihaela van der Schaar",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "a4bb711cbc68be6771d74b9cdad218e732475a52e5321f88d97c6be5b6ad677e",
+      "pdf_page": 8,
+      "crop": {
+        "rect": [
+          105,
+          72,
+          508,
+          220
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-CRN/表示空间的二维投影.png",
+      "sha256": "dde484ca3387db8a3661dde6560cd1975065320fcec09d67b00b1aa4bbc6de56",
+      "kind": "第三方原图",
+      "source_id": "SRC-CRN",
+      "source_version": "arXiv 2002.04083v1，ICLR 2020",
+      "basis": "图 5，PDF p.8",
+      "license": "保留原作版权与署名",
+      "credit": "Ioana Bica、Ahmed M. Alaa、James Jordon、Mihaela van der Schaar",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "a4bb711cbc68be6771d74b9cdad218e732475a52e5321f88d97c6be5b6ad677e",
+      "pdf_page": 8,
+      "crop": {
+        "rect": [
+          108,
+          515,
+          505,
+          569
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
     }
   ]
 }

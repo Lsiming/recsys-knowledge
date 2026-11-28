@@ -3716,5 +3716,40 @@
     "checked_on": "2026-11-28",
     "evidence_url": "https://doi.org/10.1145/3488560.3498500",
     "reason": "ACM 正式版未确认公开全文翻译许可。中文正文以 PDF 私有备份。"
+  },
+  {
+    "source_id": "SRC-R-MSN",
+    "title": "Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks",
+    "original_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/56e6a93212e4482d99c84a639d254b67-Paper.pdf",
+    "revision": "NeurIPS 2018 会议论文集正式版及官方补充材料",
+    "authors": [
+      "Bryan Lim",
+      "Ahmed Alaa",
+      "Mihaela van der Schaar"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2018/hash/56e6a93212e4482d99c84a639d254b67-Abstract.html",
+    "evidence_sha256": "d80ed065833df3d5145862f43dc1a68729500babd3c729afe1fca934329d5028",
+    "license_url": "",
+    "reason": "正文中文 PDF 已私有备份。NeurIPS 2018 正式公开会议版，原署名和权利保留。未确认公开翻译分发许可。"
+  },
+  {
+    "source_id": "SRC-CRN",
+    "title": "Estimating Counterfactual Treatment Outcomes over Time Through Adversarially Balanced Representations",
+    "original_url": "https://arxiv.org/pdf/2002.04083v1",
+    "revision": "arXiv 2002.04083v1，ICLR 2020 会议论文作者上传版；LaTeX 为下载后未修改文件的本地重新打包",
+    "authors": [
+      "Ioana Bica",
+      "Ahmed M. Alaa",
+      "James Jordon",
+      "Mihaela van der Schaar"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://arxiv.org/abs/2002.04083v1",
+    "evidence_sha256": "7fe84e593519e7094c4dcb3ce841f4bbbe3bf980d372fe6ecccfa6b1733bf299",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "正文中文 PDF 已私有备份。arXiv 固定版采用非独占分发许可，保留会议版作者署名。未确认公开翻译分发许可。"
   }
 ]
