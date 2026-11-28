@@ -7398,6 +7398,43 @@
         "pages": 11,
         "verified_download_sha256": "4473079e6690128b06d16a9dc2a0875123fa3cb0dec4c1f9fa8b147236d8dd5c"
       }
+    },
+    {
+      "source_id": "SRC-ZILN",
+      "title": "A Deep Probabilistic Model for Customer Lifetime Value Prediction",
+      "original_url": "https://arxiv.org/pdf/1912.07753v1",
+      "revision": "arXiv:1912.07753v1 (2019-12-16)",
+      "input_sha256": "f2a91dd809e1e04d3e3b1a6936bf3b674dd7d65c275301cc2290d48515ed5a41",
+      "input_pages": 19,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、图表标题及致谢译为中文，保留公式、图内标注、参考文献、附录 A 和作者署名。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Xiaojing Wang",
+          "Tianqi Liu",
+          "Jingang Miao"
+        ],
+        "original_pdf_sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+        "evidence_url": "https://arxiv.org/pdf/1912.07753v1",
+        "evidence_sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "arXiv 非独占分发许可仅授权 arXiv 分发。译本保留作者和权利声明，公开翻译分发许可未确认。"
+      },
+      "reason": "19 页经 PyMuPDF 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261128-batch-15-16",
+        "translation_version": "20261128.1",
+        "asset_name": "SRC-ZILN.zh-CN.private.20261128.1.pdf",
+        "sha256": "f2a91dd809e1e04d3e3b1a6936bf3b674dd7d65c275301cc2290d48515ed5a41",
+        "size_bytes": 582206,
+        "pages": 19,
+        "verified_download_sha256": "f2a91dd809e1e04d3e3b1a6936bf3b674dd7d65c275301cc2290d48515ed5a41"
+      }
     }
   ],
   "storage_policy": "private-only",

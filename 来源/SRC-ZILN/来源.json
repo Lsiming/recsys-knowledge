@@ -1,0 +1,38 @@
+{
+  "id": "SRC-ZILN",
+  "title": "A Deep Probabilistic Model for Customer Lifetime Value Prediction",
+  "kind": "paper",
+  "state": "active",
+  "current": "a79cfab6d403769ef9c75cdd264cc042430b346e7b2855eb8828a50b07bd62cd",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1912.07753v1",
+      "revision": "arXiv:1912.07753v1 (2019-12-16)",
+      "read_scope": "摘要、正文 §1–6、公式 (1)–(5)、图 1–7、表 1–4；定向核对附录 A 的混合分布、取均值及对数正态均值估计。未运行模型。",
+      "artifacts": [
+        {
+          "name": "1912.07753v1.pdf",
+          "sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+          "snapshot": ".local/sources/SRC-ZILN/014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5/1912.07753v1.pdf"
+        },
+        {
+          "name": "1912.07753v1-source.tar.gz",
+          "sha256": "c2787141edee4e0af5ef39680e856b190723416abdc1b2f05d4f3c1b75991ede",
+          "snapshot": ".local/sources/SRC-ZILN/c2787141edee4e0af5ef39680e856b190723416abdc1b2f05d4f3c1b75991ede/1912.07753v1-source.tar.gz"
+        }
+      ],
+      "fingerprint": "a79cfab6d403769ef9c75cdd264cc042430b346e7b2855eb8828a50b07bd62cd",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "3dd31b8c82a66f80ec42da63f30cdc782b908fc314d8b5ff2daf6de83a986a71",
+        "pages": [
+          "new-customer-ltv-zero-and-tail"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v1 正文与图表，复算零值、对数参数和原尺度均值，追查 A/B 曲线图注与十分位 MAPE 求和差异。将预测目标和补贴增量的适用条件合并到知识页。当前 Agent 自查，未运行模型。"
+      }
+    }
+  ]
+}

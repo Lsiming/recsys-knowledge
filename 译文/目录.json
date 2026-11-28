@@ -3808,5 +3808,22 @@
     "evidence_sha256": "a6d549708d1265bcad8950be2447b1f00dc44a451f5dfeca40eb96cd41bcd628",
     "license_url": "https://dl.acm.org/doi/10.1145/3637528.3671560",
     "reason": "正文中文 PDF 已私有备份。ACM 正式版首页载明个人或课堂复制条件，其他复制、再出版及转发需特定授权。译本保留作者和权利声明，公开翻译分发许可未确认。"
+  },
+  {
+    "source_id": "SRC-ZILN",
+    "title": "A Deep Probabilistic Model for Customer Lifetime Value Prediction",
+    "original_url": "https://arxiv.org/pdf/1912.07753v1",
+    "revision": "arXiv:1912.07753v1 (2019-12-16)",
+    "authors": [
+      "Xiaojing Wang",
+      "Tianqi Liu",
+      "Jingang Miao"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://arxiv.org/pdf/1912.07753v1",
+    "evidence_sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "正文中文 PDF 已私有备份。arXiv 非独占分发许可仅授权 arXiv 分发。译本保留作者和权利声明，公开翻译分发许可未确认。"
   }
 ]

@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-28，盘点193篇中文PDF，193篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-28，盘点194篇中文PDF，194篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -205,3 +205,4 @@
 | [Causal Transformer for Estimating Counterfactual Outcomes](https://proceedings.mlr.press/v162/melnychuk22a/melnychuk22a.pdf) · `SRC-CAUSAL-TRANSFORMER` | 私有，需登录 · 20261128.1 · 35页 | [unverified](https://arxiv.org/abs/2204.07258v1) | 摘要、正文 §1–6、正文图表说明及说明性脚注译为中文。保留公式、附录、参考文献、图内英文及原署名。；35 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。 |
 | [Counterfactual Neural Temporal Point Process for Estimating Causal Influence of Misinformation on Social Media](https://www.proceedings.com/content/068/068431-0773open.pdf) · `SRC-CNTPP` | 私有，需登录 · 20261128.1 · 11页 | [unverified](https://arxiv.org/abs/2210.07518v1) | 摘要、正文 §1–8、正文图表说明、说明性脚注及致谢译为中文。保留公式、参考文献、图内英文及原署名。正文引用的附录和 Checklist 链接到作者版。；11 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。 |
 | [Temporal Uplift Modeling for Online Marketing](https://dl.acm.org/doi/10.1145/3637528.3671560) · `SRC-TPPUM` | 私有，需登录 · 20261128.1 · 11页 | [unverified](https://dl.acm.org/doi/10.1145/3637528.3671560) | 摘要、正文 §1–7、正文图表说明、说明性脚注及致谢译为中文。保留公式、参考文献、图内英文、原署名及正式附录。；11 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。 |
+| [A Deep Probabilistic Model for Customer Lifetime Value Prediction](https://arxiv.org/pdf/1912.07753v1) · `SRC-ZILN` | 私有，需登录 · 20261128.1 · 19页 | [unverified](https://arxiv.org/pdf/1912.07753v1) | 摘要、正文 §1–6、图表标题及致谢译为中文，保留公式、图内标注、参考文献、附录 A 和作者署名。；19 页经 PyMuPDF 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。 |

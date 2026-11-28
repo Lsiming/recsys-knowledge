@@ -10516,6 +10516,167 @@
         "scale": 3
       },
       "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-ZILN/客户价值的零点与长尾.png",
+      "sha256": "f7aedc708b0fa5ffe69d8cf6660769504d5839e9708ad39a4d2cff204d41ddd4",
+      "kind": "第三方原图",
+      "source_id": "SRC-ZILN",
+      "source_version": "arXiv:1912.07753v1",
+      "basis": "图 1，PDF p.4",
+      "credit": "Xiaojing Wang、Tianqi Liu、Jingang Miao",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+      "pdf_page": 4,
+      "crop": {
+        "rect": [
+          167.401,
+          81.86,
+          444.607,
+          257.334
+        ],
+        "scale": 2.6
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-ZILN/平方误差与对数正态损失.png",
+      "sha256": "feeccb0e11378fe4d97ad68df4796456267df0926d058ae29f43ab6378a07b75",
+      "kind": "第三方原图",
+      "source_id": "SRC-ZILN",
+      "source_version": "arXiv:1912.07753v1",
+      "basis": "图 2，PDF p.5",
+      "credit": "Xiaojing Wang、Tianqi Liu、Jingang Miao",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+      "pdf_page": 5,
+      "crop": {
+        "rect": [
+          167.401,
+          81.86,
+          444.601,
+          255.11
+        ],
+        "scale": 2.6
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-ZILN/复购概率与金额分布的网络结构.png",
+      "sha256": "60f9b8819884e0eaa7c0c2f58df0ca14133f6602520e161bb1e66ceaa44a2fb9",
+      "kind": "第三方原图",
+      "source_id": "SRC-ZILN",
+      "source_version": "arXiv:1912.07753v1",
+      "basis": "图 3，PDF p.6",
+      "credit": "Xiaojing Wang、Tianqi Liu、Jingang Miao",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+      "pdf_page": 6,
+      "crop": {
+        "rect": [
+          187.199,
+          81.861,
+          424.796,
+          307.997
+        ],
+        "scale": 2.6
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-ZILN/模型排序的累计增益曲线.png",
+      "sha256": "660287158389ddae3565231d8a434f948234a65e6d848eb801856db2a766184c",
+      "kind": "第三方原图",
+      "source_id": "SRC-ZILN",
+      "source_version": "arXiv:1912.07753v1",
+      "basis": "图 4，PDF p.7",
+      "credit": "Xiaojing Wang、Tianqi Liu、Jingang Miao",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+      "pdf_page": 7,
+      "crop": {
+        "rect": [
+          167.401,
+          81.862,
+          444.6,
+          252.24
+        ],
+        "scale": 2.6
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-ZILN/十分位金额校准.png",
+      "sha256": "71060a234fa1b2e6dcd2e45bfa41a760365ca58969d53aa2affe6ff450851f4e",
+      "kind": "第三方原图",
+      "source_id": "SRC-ZILN",
+      "source_version": "arXiv:1912.07753v1",
+      "basis": "图 5，PDF p.8",
+      "credit": "Xiaojing Wang、Tianqi Liu、Jingang Miao",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+      "pdf_page": 8,
+      "crop": {
+        "rect": [
+          108.0,
+          81.861,
+          503.997,
+          235.153
+        ],
+        "scale": 2.6
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-ZILN/捐款响应者的金额分布.png",
+      "sha256": "4d76e85a28b56715c9ceab07093de536d2368e0d26efccee3c1d5a07d9f5645a",
+      "kind": "第三方原图",
+      "source_id": "SRC-ZILN",
+      "source_version": "arXiv:1912.07753v1",
+      "basis": "图 6，PDF p.12",
+      "credit": "Xiaojing Wang、Tianqi Liu、Jingang Miao",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+      "pdf_page": 12,
+      "crop": {
+        "rect": [
+          167.401,
+          81.863,
+          444.606,
+          259.671
+        ],
+        "scale": 2.6
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-ZILN/公开捐款实验的结果分布.png",
+      "sha256": "01edec54721e98c44dbd5bd88ffd3832d25fbc5fe1b8ca3afc049701b2f13b42",
+      "kind": "第三方原图",
+      "source_id": "SRC-ZILN",
+      "source_version": "arXiv:1912.07753v1",
+      "basis": "图 7，PDF p.12",
+      "credit": "Xiaojing Wang、Tianqi Liu、Jingang Miao",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "014aa0844db9193353caf117af09e5bcd02faaf6d5f39e5085477f88fdc7d4f5",
+      "pdf_page": 12,
+      "crop": {
+        "rect": [
+          108.0,
+          305.543,
+          504.008,
+          461.393
+        ],
+        "scale": 2.6
+      },
+      "created_on": "2026-11-28"
     }
   ]
 }
