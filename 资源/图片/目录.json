@@ -9371,6 +9371,594 @@
         506,
         324
       ]
+    },
+    {
+      "path": "资源/图片/SRC-BROOKHART-PS-VARIABLES/模拟一的三类协变量.jpg",
+      "sha256": "737084a72f56a5e9619a48fd9d4a589c93b6abed7f244326c4b421cb2bf29e95",
+      "kind": "第三方原图",
+      "source_id": "SRC-BROOKHART-PS-VARIABLES",
+      "source_version": "PMC1513192 接受稿，AJE 2006，163(12)，1149–1156",
+      "basis": "图 1，https://pmc.ncbi.nlm.nih.gov/articles/PMC1513192/#F1",
+      "license": "保留原作版权与署名",
+      "credit": "M. Alan Brookhart 等",
+      "modification": "原始 JPEG，无裁剪与重编码",
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-BROOKHART-PS-VARIABLES/指派强度与效应方差.jpg",
+      "sha256": "81e4b12d5ac75d116b604bbe7274e76fe264de0756d8b46b262544a0a1d4f232",
+      "kind": "第三方原图",
+      "source_id": "SRC-BROOKHART-PS-VARIABLES",
+      "source_version": "PMC1513192 接受稿，AJE 2006，163(12)，1149–1156",
+      "basis": "图 2，https://pmc.ncbi.nlm.nih.gov/articles/PMC1513192/#F2",
+      "license": "保留原作版权与署名",
+      "credit": "M. Alan Brookhart 等",
+      "modification": "原始 JPEG，无裁剪与重编码",
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-BROOKHART-PS-VARIABLES/调整与未调整的均方误差.jpg",
+      "sha256": "90bb6e083fed0137b81fd4ffd5f986d2cfc346773c9bbebcef9f14a4f94a5f9d",
+      "kind": "第三方原图",
+      "source_id": "SRC-BROOKHART-PS-VARIABLES",
+      "source_version": "PMC1513192 接受稿，AJE 2006，163(12)，1149–1156",
+      "basis": "图 3，https://pmc.ncbi.nlm.nih.gov/articles/PMC1513192/#F3",
+      "license": "保留原作版权与署名",
+      "credit": "M. Alan Brookhart 等",
+      "modification": "原始 JPEG，无裁剪与重编码",
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-PERFECT-MATCH/多处理结果头.png",
+      "sha256": "7b7016fc845fd613d08b2f202512250bf1b45ddefb4752ceee6779a8edd62763",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERFECT-MATCH",
+      "source_version": "arXiv 1810.00656v5",
+      "basis": "图 1，PDF p.4",
+      "license": "保留原作版权与署名",
+      "credit": "Patrick Schwab、Lorenz Linhardt、Walter Karlen",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "6e489b4f9b4105453db437f346521bcc1361777b281a9bac13d985f757ada1a4",
+      "pdf_page": 4,
+      "crop": {
+        "rect": [
+          329,
+          69,
+          470,
+          146
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-PERFECT-MATCH/逐小批匹配算法.png",
+      "sha256": "dc45a6f4589f092a3ef929709c56b836fe1547015b02706b954ffcb5886ff764",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERFECT-MATCH",
+      "source_version": "arXiv 1810.00656v5",
+      "basis": "算法 1，PDF p.5",
+      "license": "保留原作版权与署名",
+      "credit": "Patrick Schwab、Lorenz Linhardt、Walter Karlen",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "6e489b4f9b4105453db437f346521bcc1361777b281a9bac13d985f757ada1a4",
+      "pdf_page": 5,
+      "crop": {
+        "rect": [
+          105,
+          71,
+          505,
+          260
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-PERFECT-MATCH/近邻效应指标与真实误差.png",
+      "sha256": "93965e3973e5ae95ec946617c97987ee96494edcdf35773ff984e9481531f902",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERFECT-MATCH",
+      "source_version": "arXiv 1810.00656v5",
+      "basis": "图 2，PDF p.5",
+      "license": "保留原作版权与署名",
+      "credit": "Patrick Schwab、Lorenz Linhardt、Walter Karlen",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "6e489b4f9b4105453db437f346521bcc1361777b281a9bac13d985f757ada1a4",
+      "pdf_page": 5,
+      "crop": {
+        "rect": [
+          179,
+          595,
+          431,
+          681
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-PERFECT-MATCH/小批和全量匹配的学习动态.png",
+      "sha256": "e62cf11e08eef77bcac9e39c598fbeabe99f21ac957bcebf2cde5f6bd0e8f42d",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERFECT-MATCH",
+      "source_version": "arXiv 1810.00656v5",
+      "basis": "图 3，PDF p.6",
+      "license": "保留原作版权与署名",
+      "credit": "Patrick Schwab、Lorenz Linhardt、Walter Karlen",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "6e489b4f9b4105453db437f346521bcc1361777b281a9bac13d985f757ada1a4",
+      "pdf_page": 6,
+      "crop": {
+        "rect": [
+          137,
+          74,
+          476,
+          140
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-PERFECT-MATCH/匹配比例和指派偏差实验.png",
+      "sha256": "b28cb9e2545ff5fc6c08e335e27800ba344f5cb49d9df86269542ccb65252c83",
+      "kind": "第三方原图",
+      "source_id": "SRC-PERFECT-MATCH",
+      "source_version": "arXiv 1810.00656v5",
+      "basis": "图 4–5，PDF p.7",
+      "license": "保留原作版权与署名",
+      "credit": "Patrick Schwab、Lorenz Linhardt、Walter Karlen",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "6e489b4f9b4105453db437f346521bcc1361777b281a9bac13d985f757ada1a4",
+      "pdf_page": 7,
+      "crop": {
+        "rect": [
+          107,
+          542,
+          506,
+          631
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-PSEUDO-SAMPLE-FUSION/试验组间分布漂移.png",
+      "sha256": "cbd525234f2c536bac85325fec68900dc0daac6b5515a9abfa7397fbf34ee1f9",
+      "kind": "第三方原图",
+      "source_id": "SRC-PSEUDO-SAMPLE-FUSION",
+      "source_version": "arXiv 2509.18148v1",
+      "basis": "图 1，PDF p.2",
+      "license": "保留原作版权与署名",
+      "credit": "Kairong Han、Weidong Huang、Taiyang Zhou、Peng Zhen、Kun Kuang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "4521557fe3036344625af7988f92dcd7314aaf5c504c5dd70d52e8b1dbed0d0e",
+      "pdf_page": 2,
+      "crop": {
+        "rect": [
+          73,
+          85,
+          281,
+          254
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-PSEUDO-SAMPLE-FUSION/平移匹配与融合流程.png",
+      "sha256": "f21d97e1d5dcc1a9a97731dee930fd6e9240c996e97ad578730c36ea71890d32",
+      "kind": "第三方原图",
+      "source_id": "SRC-PSEUDO-SAMPLE-FUSION",
+      "source_version": "arXiv 2509.18148v1",
+      "basis": "图 2，PDF p.3",
+      "license": "保留原作版权与署名",
+      "credit": "Kairong Han、Weidong Huang、Taiyang Zhou、Peng Zhen、Kun Kuang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "4521557fe3036344625af7988f92dcd7314aaf5c504c5dd70d52e8b1dbed0d0e",
+      "pdf_page": 3,
+      "crop": {
+        "rect": [
+          320,
+          193,
+          554,
+          419
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-PSEUDO-SAMPLE-FUSION/融合比例和评估集的影响.png",
+      "sha256": "1f794280e9274ac3dd12c74d1f6d0d6a0fa71224102e407df94610e356a11651",
+      "kind": "第三方原图",
+      "source_id": "SRC-PSEUDO-SAMPLE-FUSION",
+      "source_version": "arXiv 2509.18148v1",
+      "basis": "图 4，PDF p.7",
+      "license": "保留原作版权与署名",
+      "credit": "Kairong Han、Weidong Huang、Taiyang Zhou、Peng Zhen、Kun Kuang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "4521557fe3036344625af7988f92dcd7314aaf5c504c5dd70d52e8b1dbed0d0e",
+      "pdf_page": 7,
+      "crop": {
+        "rect": [
+          104,
+          82,
+          511,
+          234
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-PSEUDO-SAMPLE-FUSION/供需特征在融合前后的分布.png",
+      "sha256": "5437cd91e9dcccb6041249a6f0a11596837b79709cb028f64837fd5fe31d5a11",
+      "kind": "第三方原图",
+      "source_id": "SRC-PSEUDO-SAMPLE-FUSION",
+      "source_version": "arXiv 2509.18148v1",
+      "basis": "图 5，PDF p.7",
+      "license": "保留原作版权与署名",
+      "credit": "Kairong Han、Weidong Huang、Taiyang Zhou、Peng Zhen、Kun Kuang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "4521557fe3036344625af7988f92dcd7314aaf5c504c5dd70d52e8b1dbed0d0e",
+      "pdf_page": 7,
+      "crop": {
+        "rect": [
+          53,
+          283,
+          296,
+          454
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-AUGURZKY-SCHMIDT-PS/基本模型的倾向得分.png",
+      "sha256": "623740c1147ebb8c9ea0d97b412a3d494addbf188a5ff3b101ccd87bdc7c62f0",
+      "kind": "第三方原图",
+      "source_id": "SRC-AUGURZKY-SCHMIDT-PS",
+      "source_version": "IZA DP 271（2001-03），EconStor 机构存档",
+      "basis": "图 1，PDF p.21",
+      "license": "保留原作版权与署名",
+      "credit": "Boris Augurzky、Christoph M. Schmidt",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "91f3f5d4572a2d8428c439af9c6a356033397dbf65b7ea55cb197954c2041d45",
+      "pdf_page": 21,
+      "crop": {
+        "rect": [
+          111,
+          34,
+          470,
+          494
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-AUGURZKY-SCHMIDT-PS/替代模型的倾向设定误差.png",
+      "sha256": "de839fe41aaeb656698c080bd30b55853b96fc8202061013b8d23f24ff00e641",
+      "kind": "第三方原图",
+      "source_id": "SRC-AUGURZKY-SCHMIDT-PS",
+      "source_version": "IZA DP 271（2001-03），EconStor 机构存档",
+      "basis": "图 2，PDF p.26",
+      "license": "保留原作版权与署名",
+      "credit": "Boris Augurzky、Christoph M. Schmidt",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "91f3f5d4572a2d8428c439af9c6a356033397dbf65b7ea55cb197954c2041d45",
+      "pdf_page": 26,
+      "crop": {
+        "rect": [
+          108,
+          81,
+          455,
+          633
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-TSCAN/商家上下文与处理的总体架构.png",
+      "sha256": "587967890fd657ff369cd842182039b5aaebb1cdb47833e894bdc0a39ca454a8",
+      "kind": "第三方原图",
+      "source_id": "SRC-TSCAN",
+      "source_version": "arXiv 2504.18881v3",
+      "basis": "图 1，PDF p.5",
+      "license": "保留原作版权与署名",
+      "credit": "Hangtao Zhang、Zhe Li、Kairui Zhang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "8bc7faaa195f9e536fbac983a0d25ce406e745a74e3d8c9aa7414921a5043abb",
+      "pdf_page": 5,
+      "crop": {
+        "rect": [
+          45,
+          437,
+          443,
+          567
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-TSCAN/上下文感知的门控与注意力.png",
+      "sha256": "8cca82ad51e867d770004c16242753019d393ebcc8369cc98da2894397eab292",
+      "kind": "第三方原图",
+      "source_id": "SRC-TSCAN",
+      "source_version": "arXiv 2504.18881v3",
+      "basis": "图 2，PDF p.6",
+      "license": "保留原作版权与署名",
+      "credit": "Hangtao Zhang、Zhe Li、Kairui Zhang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "8bc7faaa195f9e536fbac983a0d25ce406e745a74e3d8c9aa7414921a5043abb",
+      "pdf_page": 6,
+      "crop": {
+        "rect": [
+          113,
+          503,
+          372,
+          638
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-TSCAN/处理感知的门控与注意力.png",
+      "sha256": "b53f67ecf0938a661b33dfc5aa10ee12749c90693cd2bf8072ee45d786d05442",
+      "kind": "第三方原图",
+      "source_id": "SRC-TSCAN",
+      "source_version": "arXiv 2504.18881v3",
+      "basis": "图 3，PDF p.7",
+      "license": "保留原作版权与署名",
+      "credit": "Hangtao Zhang、Zhe Li、Kairui Zhang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "8bc7faaa195f9e536fbac983a0d25ce406e745a74e3d8c9aa7414921a5043abb",
+      "pdf_page": 7,
+      "crop": {
+        "rect": [
+          114,
+          372,
+          374,
+          506
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-TSCAN/前缀和与区间增量.png",
+      "sha256": "16b3f422047c7712c94f70149e400e5445eea2c70409da88d472c5729394b0da",
+      "kind": "第三方原图",
+      "source_id": "SRC-TSCAN",
+      "source_version": "arXiv 2504.18881v3",
+      "basis": "图 4，PDF p.9",
+      "license": "保留原作版权与署名",
+      "credit": "Hangtao Zhang、Zhe Li、Kairui Zhang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "8bc7faaa195f9e536fbac983a0d25ce406e745a74e3d8c9aa7414921a5043abb",
+      "pdf_page": 9,
+      "crop": {
+        "rect": [
+          146,
+          262,
+          337,
+          373
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-TSCAN/两阶段训练和反事实采样.png",
+      "sha256": "4fea961fe7aab761fd9bf20bef34873af868c222ff0e229052defe7f4ed8cfc2",
+      "kind": "第三方原图",
+      "source_id": "SRC-TSCAN",
+      "source_version": "arXiv 2504.18881v3",
+      "basis": "图 5，PDF p.10",
+      "license": "保留原作版权与署名",
+      "credit": "Hangtao Zhang、Zhe Li、Kairui Zhang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "8bc7faaa195f9e536fbac983a0d25ce406e745a74e3d8c9aa7414921a5043abb",
+      "pdf_page": 10,
+      "crop": {
+        "rect": [
+          44,
+          81,
+          444,
+          228
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-TSCAN/连续评分和二元活动的增益曲线.png",
+      "sha256": "10a88ee21d7f71a105848ba943bd884c9bd98ae55e3f50bc7d4f1eaf8b75d55e",
+      "kind": "第三方原图",
+      "source_id": "SRC-TSCAN",
+      "source_version": "arXiv 2504.18881v3",
+      "basis": "图 6，PDF p.15",
+      "license": "保留原作版权与署名",
+      "credit": "Hangtao Zhang、Zhe Li、Kairui Zhang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "8bc7faaa195f9e536fbac983a0d25ce406e745a74e3d8c9aa7414921a5043abb",
+      "pdf_page": 15,
+      "crop": {
+        "rect": [
+          54,
+          81,
+          433,
+          233
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-TSCAN/增量损失系数的敏感性.png",
+      "sha256": "83f3339f74a2ea2d403e911927ee985672da6cc6b027042f6d1dfd9f92595ffe",
+      "kind": "第三方原图",
+      "source_id": "SRC-TSCAN",
+      "source_version": "arXiv 2504.18881v3",
+      "basis": "图 7，PDF p.16",
+      "license": "保留原作版权与署名",
+      "credit": "Hangtao Zhang、Zhe Li、Kairui Zhang",
+      "modification": "从采用版 PDF 裁出内容区域；无改绘",
+      "source_pdf_sha256": "8bc7faaa195f9e536fbac983a0d25ce406e745a74e3d8c9aa7414921a5043abb",
+      "pdf_page": 16,
+      "crop": {
+        "rect": [
+          58,
+          327,
+          435,
+          461
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-UMLC/随机分配与稀疏上下文.png",
+      "sha256": "ac193ecdd8a72f4b069f8adc7d7b808a7b41145f4bf131896ba9ec251d678ff3",
+      "kind": "第三方原图",
+      "source_id": "SRC-UMLC",
+      "source_version": "arXiv 2502.15697v1，2025-01-04",
+      "basis": "图 1，PDF p.2",
+      "license": "CC BY 4.0（采用 arXiv 版本）",
+      "credit": "Zexu Sun、Qiyu Han、Minqin Zhu、Hao Gong、Dugang Liu、Chen Ma",
+      "modification": "从采用版 PDF 裁出内容区域，无改绘",
+      "source_pdf_sha256": "1edc7df215872f81da519b0d61a1c1f53dc08f26809af551c21b20d180242090",
+      "pdf_page": 2,
+      "crop": {
+        "rect": [
+          317,
+          86,
+          559,
+          291
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-UMLC/上下文分组和特征交互总图.png",
+      "sha256": "58471c24cf562a3ec56d1d20f2c11060ad58ac37cfd4b4201bb3322198acf0b0",
+      "kind": "第三方原图",
+      "source_id": "SRC-UMLC",
+      "source_version": "arXiv 2502.15697v1，2025-01-04",
+      "basis": "图 2，PDF p.4",
+      "license": "CC BY 4.0（采用 arXiv 版本）",
+      "credit": "Zexu Sun、Qiyu Han、Minqin Zhu、Hao Gong、Dugang Liu、Chen Ma",
+      "modification": "从采用版 PDF 裁出内容区域，无改绘",
+      "source_pdf_sha256": "1edc7df215872f81da519b0d61a1c1f53dc08f26809af551c21b20d180242090",
+      "pdf_page": 4,
+      "crop": {
+        "rect": [
+          70,
+          86,
+          546,
+          299
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-UMLC/合成与生产数据的整体结果.png",
+      "sha256": "252b13636e419c82f4c86761467cf742bf3c3b55bef2fdf42b14ab245330cf4b",
+      "kind": "第三方原图",
+      "source_id": "SRC-UMLC",
+      "source_version": "arXiv 2502.15697v1，2025-01-04",
+      "basis": "表 1，PDF p.7",
+      "license": "CC BY 4.0（采用 arXiv 版本）",
+      "credit": "Zexu Sun、Qiyu Han、Minqin Zhu、Hao Gong、Dugang Liu、Chen Ma",
+      "modification": "从采用版 PDF 裁出内容区域，无改绘",
+      "source_pdf_sha256": "1edc7df215872f81da519b0d61a1c1f53dc08f26809af551c21b20d180242090",
+      "pdf_page": 7,
+      "crop": {
+        "rect": [
+          48,
+          112,
+          577,
+          307
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-UMLC/响应嵌入的分组可视化.png",
+      "sha256": "81385dfc5bd71ac64563190330891b568b21738cd31c7b99d29735f08ef8c6cb",
+      "kind": "第三方原图",
+      "source_id": "SRC-UMLC",
+      "source_version": "arXiv 2502.15697v1，2025-01-04",
+      "basis": "图 4，PDF p.8",
+      "license": "CC BY 4.0（采用 arXiv 版本）",
+      "credit": "Zexu Sun、Qiyu Han、Minqin Zhu、Hao Gong、Dugang Liu、Chen Ma",
+      "modification": "从采用版 PDF 裁出内容区域，无改绘",
+      "source_pdf_sha256": "1edc7df215872f81da519b0d61a1c1f53dc08f26809af551c21b20d180242090",
+      "pdf_page": 8,
+      "crop": {
+        "rect": [
+          104,
+          85,
+          507,
+          313
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-UMLC/分组数与对齐覆盖.png",
+      "sha256": "aeab1a43dc5df379a7b2ded502c7df9fc485a07ac3572a91d041e1353de8a702",
+      "kind": "第三方原图",
+      "source_id": "SRC-UMLC",
+      "source_version": "arXiv 2502.15697v1，2025-01-04",
+      "basis": "图 5，PDF p.8",
+      "license": "CC BY 4.0（采用 arXiv 版本）",
+      "credit": "Zexu Sun、Qiyu Han、Minqin Zhu、Hao Gong、Dugang Liu、Chen Ma",
+      "modification": "从采用版 PDF 裁出内容区域，无改绘",
+      "source_pdf_sha256": "1edc7df215872f81da519b0d61a1c1f53dc08f26809af551c21b20d180242090",
+      "pdf_page": 8,
+      "crop": {
+        "rect": [
+          318,
+          352,
+          559,
+          460
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-UMLC/合成数据的增量真值误差.png",
+      "sha256": "bf0769ea0fd1c791f4c348f98602398480ef80d75b8b971e3d830db50a85f7a8",
+      "kind": "第三方原图",
+      "source_id": "SRC-UMLC",
+      "source_version": "arXiv 2502.15697v1，2025-01-04",
+      "basis": "表 4，PDF p.11",
+      "license": "CC BY 4.0（采用 arXiv 版本）",
+      "credit": "Zexu Sun、Qiyu Han、Minqin Zhu、Hao Gong、Dugang Liu、Chen Ma",
+      "modification": "从采用版 PDF 裁出内容区域，无改绘",
+      "source_pdf_sha256": "1edc7df215872f81da519b0d61a1c1f53dc08f26809af551c21b20d180242090",
+      "pdf_page": 11,
+      "crop": {
+        "rect": [
+          319,
+          268,
+          561,
+          445
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
     }
   ]
 }

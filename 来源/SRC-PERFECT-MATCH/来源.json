@@ -1,0 +1,34 @@
+{
+  "id": "SRC-PERFECT-MATCH",
+  "title": "Perfect Match: A Simple Method for Learning Representations For Counterfactual Inference With Neural Networks",
+  "kind": "paper",
+  "state": "active",
+  "current": "f56a734c4247574c5f2d96565a45d791530ff69f8bcb65911039eb35a6913228",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1810.00656v5",
+      "revision": "arXiv 1810.00656v5；2019-05-27",
+      "read_scope": "通读 16 页。正文 §1–6、算法 1、图 1–5、表 1 与附录 A–I，复查匹配坐标、事实学习、理论局限和指标。按清单仅解读，未运行模型。",
+      "artifacts": [
+        {
+          "name": "perfect-full.pdf",
+          "sha256": "6e489b4f9b4105453db437f346521bcc1361777b281a9bac13d985f757ada1a4",
+          "snapshot": ".local/sources/SRC-PERFECT-MATCH/6e489b4f9b4105453db437f346521bcc1361777b281a9bac13d985f757ada1a4/perfect-full.pdf"
+        }
+      ],
+      "fingerprint": "f56a734c4247574c5f2d96565a45d791530ff69f8bcb65911039eb35a6913228",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "c3f2d467fd4d24b7ec1281277dcf1c512e3fc3fcfe76c538871896b8d2c266fd",
+        "pages": [
+          "coupon-uplift-evaluation",
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v5 算法 1、多臂排序索引、近邻事实梯度、定理 1 和表 1。比较数据集级匹配与 CFRNet，回填验证集代理的支持条件。"
+      }
+    }
+  ]
+}

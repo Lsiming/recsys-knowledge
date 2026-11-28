@@ -3588,5 +3588,115 @@
     "evidence_sha256": "b4c0968222df589394dab9b4bdda963deecc066f9884a333171aebd31173cc79",
     "license_url": "",
     "reason": "已完成正文中文 PDF 并私有备份。固定会议版镜像和官方会议题录的题名与作者一致。官方原附件不可访问，公开全文译文许可未核实。"
+  },
+  {
+    "source_id": "SRC-TSCAN",
+    "title": "TSCAN: Context-Aware Uplift Modeling via Two-Stage Training for Online Merchant Business Diagnosis",
+    "original_url": "https://arxiv.org/pdf/2504.18881v3",
+    "revision": "arXiv 2504.18881v3，2026-02-02；原稿出版卷期及 DOI 为模板字段；源码为下载后未修改文件的本地重新打包",
+    "authors": [
+      "Hangtao Zhang",
+      "Zhe Li",
+      "Kairui Zhang"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://arxiv.org/abs/2504.18881v3",
+    "evidence_sha256": "ea9c3a4a4d6a2af37ab191fa57dc5e5a779ebfa0aabfab2028a44caaae352918",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "正文中文 PDF 已私有备份。固定 arXiv 版本为非独占分发许可。原 PDF 保留作者版权及 ACM 出版权声明。未确认公开译文许可。"
+  },
+  {
+    "source_id": "SRC-ABADIE-IMBENS-MATCHING",
+    "title": "Large Sample Properties of Matching Estimators for Average Treatment Effects",
+    "original_url": "https://economics.mit.edu/sites/default/files/publications/LARGE%20SAMPLE%20PROPERTIES%20OF%20MATCHING%20ESTIMATORS.pdf",
+    "revision": "Econometrica 74(1), January 2006, pp. 235–267；DOI 10.1111/j.1468-0262.2006.00655.x；作者 MIT 书目提供原刊排印版",
+    "authors": [
+      "Alberto Abadie",
+      "Guido W. Imbens"
+    ],
+    "status": "reading-only",
+    "checked_on": "2026-11-28",
+    "reason": "按营销补贴第 11 批清单仅解读原刊放回匹配、偏差率及推断条件。"
+  },
+  {
+    "source_id": "SRC-AUGURZKY-SCHMIDT-PS",
+    "title": "The Propensity Score: A Means to an End",
+    "original_url": "https://www.econstor.eu/bitstream/10419/21122/1/dp271.pdf?download=1",
+    "revision": "IZA Discussion Paper No. 271，2001-03，EconStor 机构存档（handle 10419/21122）",
+    "authors": [
+      "Boris Augurzky",
+      "Christoph M. Schmidt"
+    ],
+    "status": "reading-only",
+    "checked_on": "2026-11-28",
+    "reason": "按营销补贴第 11 批清单仅解读IZA 工作论文的卡尺全匹配与分层诊断。"
+  },
+  {
+    "source_id": "SRC-BROOKHART-PS-VARIABLES",
+    "title": "Variable Selection for Propensity Score Models",
+    "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1513192/",
+    "revision": "PubMed Central 作者接受稿，PMC1513192；AJE 2006，163(12)，1149–1156，DOI 10.1093/aje/kwj149",
+    "authors": [
+      "M. Alan Brookhart",
+      "Sebastian Schneeweiss",
+      "Kenneth J. Rothman",
+      "Robert J. Glynn",
+      "Jerry Avorn",
+      "Til Stürmer"
+    ],
+    "status": "reading-only",
+    "checked_on": "2026-11-28",
+    "reason": "按营销补贴第 11 批清单仅解读作者接受稿的变量选择与两组模拟。"
+  },
+  {
+    "source_id": "SRC-PERFECT-MATCH",
+    "title": "Perfect Match: A Simple Method for Learning Representations For Counterfactual Inference With Neural Networks",
+    "original_url": "https://arxiv.org/pdf/1810.00656v5",
+    "revision": "arXiv 1810.00656v5；2019-05-27",
+    "authors": [
+      "Patrick Schwab",
+      "Lorenz Linhardt",
+      "Walter Karlen"
+    ],
+    "status": "reading-only",
+    "checked_on": "2026-11-28",
+    "reason": "按营销补贴第 12 批清单仅解读多处理近邻的逐小批采样与实验。"
+  },
+  {
+    "source_id": "SRC-PSEUDO-SAMPLE-FUSION",
+    "title": "Augmenting Limited and Biased RCTs through Pseudo-Sample Matching-Based Observational Data Fusion Method",
+    "original_url": "https://arxiv.org/pdf/2509.18148v1",
+    "revision": "arXiv 2509.18148v1；2025-09-16；CIKM 2025 版式，PDF 内 DOI 为占位符",
+    "authors": [
+      "Kairong Han",
+      "Weidong Huang",
+      "Taiyang Zhou",
+      "Peng Zhen",
+      "Kun Kuang"
+    ],
+    "status": "reading-only",
+    "checked_on": "2026-11-28",
+    "reason": "按营销补贴第 12 批清单仅解读伪样本匹配的跨源融合与实验。"
+  },
+  {
+    "source_id": "SRC-UMLC",
+    "title": "Robust Uplift Modeling with Large-Scale Contexts for Real-time Marketing",
+    "original_url": "https://arxiv.org/pdf/2502.15697v1",
+    "revision": "arXiv 2502.15697v1，2025-01-04，KDD 2025；LaTeX 为下载后未修改文件的本地重新打包",
+    "authors": [
+      "Zexu Sun",
+      "Qiyu Han",
+      "Minqin Zhu",
+      "Hao Gong",
+      "Dugang Liu",
+      "Chen Ma"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://arxiv.org/abs/2502.15697v1",
+    "evidence_sha256": "1de492e3f1cf42af8740edc5c5ecd5db6fe2be600ac6a9ca20727439e2817e01",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "reason": "中文正文 PDF 已私有备份。固定 arXiv 版本的 CC BY 4.0 与原 PDF 的 ACM 权利栏并存，本轮交付采用 PDF，未制作正式 Markdown 全文译本。"
   }
 ]

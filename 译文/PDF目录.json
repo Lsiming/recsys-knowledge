@@ -7090,6 +7090,84 @@
         "pages": 23,
         "verified_download_sha256": "78bf8276f46a129d1355744b17550068015d8fe4b345973e72a994b182fea692"
       }
+    },
+    {
+      "source_id": "SRC-TSCAN",
+      "title": "TSCAN: Context-Aware Uplift Modeling via Two-Stage Training for Online Merchant Business Diagnosis",
+      "original_url": "https://arxiv.org/pdf/2504.18881v3",
+      "revision": "arXiv 2504.18881v3，2026-02-02；原稿出版卷期及 DOI 为模板字段；源码为下载后未修改文件的本地重新打包",
+      "input_sha256": "520f97c332f154d9b5fab72b902891199a4f0b49e3ea3fdd4445b8cc5a07c920",
+      "input_pages": 15,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、图表标题与必要脚注译为中文。保留公式、图内英文、原版权声明及 49 项参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Hangtao Zhang",
+          "Zhe Li",
+          "Kairui Zhang"
+        ],
+        "original_pdf_sha256": "8bc7faaa195f9e536fbac983a0d25ce406e745a74e3d8c9aa7414921a5043abb",
+        "evidence_url": "https://arxiv.org/abs/2504.18881v3",
+        "evidence_sha256": "ea9c3a4a4d6a2af37ab191fa57dc5e5a779ebfa0aabfab2028a44caaae352918",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "固定 arXiv 版本为非独占分发许可。原 PDF 保留作者版权及 ACM 出版权声明。未确认公开译文许可。"
+      },
+      "reason": "15 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261128-batch-11-12",
+        "translation_version": "20261128.1",
+        "asset_name": "SRC-TSCAN.zh-CN.private.20261128.1.pdf",
+        "sha256": "520f97c332f154d9b5fab72b902891199a4f0b49e3ea3fdd4445b8cc5a07c920",
+        "size_bytes": 1005051,
+        "pages": 15,
+        "verified_download_sha256": "520f97c332f154d9b5fab72b902891199a4f0b49e3ea3fdd4445b8cc5a07c920"
+      }
+    },
+    {
+      "source_id": "SRC-UMLC",
+      "title": "Robust Uplift Modeling with Large-Scale Contexts for Real-time Marketing",
+      "original_url": "https://arxiv.org/pdf/2502.15697v1",
+      "revision": "arXiv 2502.15697v1，2025-01-04，KDD 2025；LaTeX 为下载后未修改文件的本地重新打包",
+      "input_sha256": "a2cc5d89a2991588a4144c331fe69c5f4c713268069a2e79632f35af0694bd90",
+      "input_pages": 13,
+      "duplicate_count": 0,
+      "scope": "摘要、§1–6、正文图表标题、致谢及说明性脚注为中文。保留原公式、原图内部标注、附录 A–C、39 条参考文献以及作者与 ACM 权利声明。",
+      "status": "private",
+      "reason": "13 页中文正文译本逐页核验，原译件经认证下载并核对大小和完整 SHA-256。",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Zexu Sun",
+          "Qiyu Han",
+          "Minqin Zhu",
+          "Hao Gong",
+          "Dugang Liu",
+          "Chen Ma"
+        ],
+        "original_pdf_sha256": "1edc7df215872f81da519b0d61a1c1f53dc08f26809af551c21b20d180242090",
+        "evidence_url": "https://arxiv.org/abs/2502.15697v1",
+        "notes": "固定 arXiv v1 的许可标为 CC BY 4.0。采用版 PDF 同时保留真实 KDD 2025 出版项与 ACM 权利栏。中文 PDF 仅作私有备份。",
+        "evidence_sha256": "1de492e3f1cf42af8740edc5c5ecd5db6fe2be600ac6a9ca20727439e2817e01",
+        "license_id": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261128-batch-11-12",
+        "translation_version": "20261128.1",
+        "asset_name": "SRC-UMLC.zh-CN.private.20261128.1.pdf",
+        "sha256": "a2cc5d89a2991588a4144c331fe69c5f4c713268069a2e79632f35af0694bd90",
+        "size_bytes": 6137065,
+        "pages": 13,
+        "verified_download_sha256": "a2cc5d89a2991588a4144c331fe69c5f4c713268069a2e79632f35af0694bd90"
+      }
     }
   ],
   "storage_policy": "private-only",

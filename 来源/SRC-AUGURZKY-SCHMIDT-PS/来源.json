@@ -1,0 +1,33 @@
+{
+  "id": "SRC-AUGURZKY-SCHMIDT-PS",
+  "title": "The Propensity Score: A Means to an End",
+  "kind": "paper",
+  "state": "active",
+  "current": "686ee29b04f93fa7f2d6b692875603ee4d4891805dea2a6bcb9768aa4edff092",
+  "versions": [
+    {
+      "locator": "https://www.econstor.eu/bitstream/10419/21122/1/dp271.pdf?download=1",
+      "revision": "IZA Discussion Paper No. 271，2001-03，EconStor 机构存档（handle 10419/21122）",
+      "read_scope": "正文 §1–6、图 1–2 和表 1–7。编码异常部分用 OCR 与渲染原图复核，重点核对全匹配、式 (10)–(12) 与共同支持。按清单仅解读，未运行模拟。",
+      "artifacts": [
+        {
+          "name": "aug-econstor-query.pdf",
+          "sha256": "91f3f5d4572a2d8428c439af9c6a356033397dbf65b7ea55cb197954c2041d45",
+          "snapshot": ".local/sources/SRC-AUGURZKY-SCHMIDT-PS/91f3f5d4572a2d8428c439af9c6a356033397dbf65b7ea55cb197954c2041d45/aug-econstor-query.pdf"
+        }
+      ],
+      "fingerprint": "686ee29b04f93fa7f2d6b692875603ee4d4891805dea2a6bcb9768aa4edff092",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "7508d9ee73306b35b384e789dc2b83cdec462ecfc38981093b12e97253ad1321",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对 IZA 271 式 (10)–(12)、图 1–2、表 4–7，区分匹配后平衡、对照容量和保留人群。在历史发券中与固定近邻和样条变量选择比较。"
+      }
+    }
+  ]
+}

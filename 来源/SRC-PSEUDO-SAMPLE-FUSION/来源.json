@@ -1,0 +1,34 @@
+{
+  "id": "SRC-PSEUDO-SAMPLE-FUSION",
+  "title": "Augmenting Limited and Biased RCTs through Pseudo-Sample Matching-Based Observational Data Fusion Method",
+  "kind": "paper",
+  "state": "active",
+  "current": "69a3d449b089d94ceddd3e96b66cd88b92037e39133538805adc79554e6af83d",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2509.18148v1",
+      "revision": "arXiv 2509.18148v1；2025-09-16；CIKM 2025 版式，PDF 内 DOI 为占位符",
+      "read_scope": "8 页，正文 §1–5，含图 1–5、表 1–4、算法 1。按清单仅解读，未运行模型或复现实验。",
+      "artifacts": [
+        {
+          "name": "fusion-full.pdf",
+          "sha256": "4521557fe3036344625af7988f92dcd7314aaf5c504c5dd70d52e8b1dbed0d0e",
+          "snapshot": ".local/sources/SRC-PSEUDO-SAMPLE-FUSION/4521557fe3036344625af7988f92dcd7314aaf5c504c5dd70d52e8b1dbed0d0e/fusion-full.pdf"
+        }
+      ],
+      "fingerprint": "69a3d449b089d94ceddd3e96b66cd88b92037e39133538805adc79554e6af83d",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "90e36b34b6ab5cf939d3390f1e6cb24e722036fa2b70800738047d0af86649e4",
+        "pages": [
+          "coupon-uplift-evaluation",
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v1 §3、图 2、算法 1 与表 2–4，区分所选均值、外部人群代表性和线上策略结果。"
+      }
+    }
+  ]
+}

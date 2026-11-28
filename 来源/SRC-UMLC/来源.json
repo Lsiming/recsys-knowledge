@@ -1,0 +1,39 @@
+{
+  "id": "SRC-UMLC",
+  "title": "Robust Uplift Modeling with Large-Scale Contexts for Real-time Marketing",
+  "kind": "paper",
+  "state": "active",
+  "current": "f53a962a37a171fbc0e2e3c14fa64048907b52c6726a5ee9eae97c9b9eb0ffbb",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2502.15697v1",
+      "revision": "arXiv 2502.15697v1，2025-01-04，KDD 2025；LaTeX 为下载后未修改文件的本地重新打包",
+      "read_scope": "核对 15 页固定 PDF 的摘要、§1–6、图 1–5、表 1–2、附录 A–C 的推导和实验定义、真值指标及算法 1；对照作者 TeX。未运行模型。 另静态核对公开提交 b9c91b0 的基模型前向、CFRNet 损失与公共验证器。",
+      "artifacts": [
+        {
+          "name": "umlc-v1.pdf",
+          "sha256": "1edc7df215872f81da519b0d61a1c1f53dc08f26809af551c21b20d180242090",
+          "snapshot": ".local/sources/SRC-UMLC/1edc7df215872f81da519b0d61a1c1f53dc08f26809af551c21b20d180242090/umlc-v1.pdf"
+        },
+        {
+          "name": "SRC-UMLC.source-repacked.tar.gz",
+          "sha256": "6c57b3e97fcfbc063b2e57de092556e24781a30e74e4a54862e94678428b277d",
+          "snapshot": ".local/sources/SRC-UMLC/6c57b3e97fcfbc063b2e57de092556e24781a30e74e4a54862e94678428b277d/SRC-UMLC.source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "f53a962a37a171fbc0e2e3c14fa64048907b52c6726a5ee9eae97c9b9eb0ffbb",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "3a8be22fc7fb9e098a36d23b6afe37b483008cf62d3211412bd9b04d4245fb2e",
+        "pages": [
+          "coupon-uplift-evaluation",
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "回查 v1 图 1–5、式 (1)–(18)、命题 1、表 1–4、附录 C.3–5 和公开提交 b9c91b0 的训练及评估路径，核对实际 PDF 页码。区分同臂同组聚合、跨臂事实复用、两动作教师差和排序及幅度。用低清播放记录贯穿训练聚合、注意力和预测，未运行模型。"
+      }
+    }
+  ]
+}

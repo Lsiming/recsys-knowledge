@@ -1,0 +1,39 @@
+{
+  "id": "SRC-TSCAN",
+  "title": "TSCAN: Context-Aware Uplift Modeling via Two-Stage Training for Online Merchant Business Diagnosis",
+  "kind": "paper",
+  "state": "active",
+  "current": "02c506f758adfcb93637d3769079794916ab338c64a2bcb2e6c71dc8cfbb0efb",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2504.18881v3",
+      "revision": "arXiv 2504.18881v3，2026-02-02；原稿出版卷期及 DOI 为模板字段；源码为下载后未修改文件的本地重新打包",
+      "read_scope": "20 页固定版，通读正文 §1–6、图 1–7、表 1–4，核对作者 TeX 及正文译稿。未运行模型。",
+      "artifacts": [
+        {
+          "name": "tscan-full.pdf",
+          "sha256": "8bc7faaa195f9e536fbac983a0d25ce406e745a74e3d8c9aa7414921a5043abb",
+          "snapshot": ".local/sources/SRC-TSCAN/8bc7faaa195f9e536fbac983a0d25ce406e745a74e3d8c9aa7414921a5043abb/tscan-full.pdf"
+        },
+        {
+          "name": "SRC-TSCAN.source-repacked.tar.gz",
+          "sha256": "e210a4334c96d34c33bcb8589f6442f54c4ff05fae914343eff40a5e8ee2c988",
+          "snapshot": ".local/sources/SRC-TSCAN/e210a4334c96d34c33bcb8589f6442f54c4ff05fae914343eff40a5e8ee2c988/SRC-TSCAN.source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "02c506f758adfcb93637d3769079794916ab338c64a2bcb2e6c71dc8cfbb0efb",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "cfb404e6a8bd623f5a1a2791c59a71fa225afb6e169e5f9bb56c795d6669ad03",
+        "pages": [
+          "continuous-coupon-dose-response",
+          "coupon-uplift-evaluation"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定 v3 式 (4)–(20)、图 1–7 和表 1–4。补齐 TSCAN 与连续券额、策略评估两个方向的知识回链，核对同一向量内的前缀约束与跨剂量前向的区别。15 页中文译本经逐页核对，原译件经认证下载。"
+      }
+    }
+  ]
+}

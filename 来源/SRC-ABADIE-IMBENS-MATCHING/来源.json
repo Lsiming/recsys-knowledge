@@ -1,0 +1,33 @@
+{
+  "id": "SRC-ABADIE-IMBENS-MATCHING",
+  "title": "Large Sample Properties of Matching Estimators for Average Treatment Effects",
+  "kind": "paper",
+  "state": "active",
+  "current": "8dd6d3f10863a7b2f5ea331826cc573b129fbba097b39e78c9bbe2b2f38cd1ad",
+  "versions": [
+    {
+      "locator": "https://economics.mit.edu/sites/default/files/publications/LARGE%20SAMPLE%20PROPERTIES%20OF%20MATCHING%20ESTIMATORS.pdf",
+      "revision": "Econometrica 74(1), January 2006, pp. 235–267；DOI 10.1111/j.1468-0262.2006.00655.x；作者 MIT 书目提供原刊排印版",
+      "read_scope": "通读 33 页正式版，包括 §1–5、定理 1–7、推论 1 与数学附录，重点复查匹配复用次数、条件偏差、中心化、效率界和方差公式。按清单仅解读。",
+      "artifacts": [
+        {
+          "name": "abadie-mit-full.pdf",
+          "sha256": "0cc0a239d13ad0e41440d80a447a38dcf660cb2362d22494327571a79b3cb0c4",
+          "snapshot": ".local/sources/SRC-ABADIE-IMBENS-MATCHING/0cc0a239d13ad0e41440d80a447a38dcf660cb2362d22494327571a79b3cb0c4/abadie-mit-full.pdf"
+        }
+      ],
+      "fingerprint": "8dd6d3f10863a7b2f5ea331826cc573b129fbba097b39e78c9bbe2b2f38cd1ad",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "2b8fc53093cbb7ab4e96b0bbe87cb0e491f6e650f1d5ee0b58be8d3e23b3c64a",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对原刊式 (3)–(4)、定理 1–6 和推论 1。回填复用权重、维数偏差与估计倾向时的推断范围。"
+      }
+    }
+  ]
+}
