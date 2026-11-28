@@ -11,10 +11,12 @@
 
 ## 附件与发布
 
-UMLC、TSCAN 的原文与译文及 Augurzky–Schmidt、Abadie–Imbens、Perfect Match、伪样本匹配的四份采用版原文，共八份 PDF。实际登录下载全部通过 PDF 签名、大小和完整 SHA-256 校验，临时下载已自动清理。正式中文 PDF 哈希分别为 `a2cc5d89a2991588a4144c331fe69c5f4c713268069a2e79632f35af0694bd90` 和 `520f97c332f154d9b5fab72b902891199a4f0b49e3ea3fdd4445b8cc5a07c920`。UMLC 的 arXiv v1 明示 CC BY 4.0，原 PDF 同时载有 KDD 2025 出版版权说明，本轮采用私有 PDF 交付。
-
-## 尚待取得的原件
-
-Hahn（1998），Econometrica 66(2), 315–332，DOI `10.2307/2998560`。已核对题录和摘要中的 ATE/ATT 区别。JSTOR 原刊入口触发网站访问验证，Wiley PDF 请求返回 403，RePEc、OpenAlex、Semantic Scholar 和作者公开书目暂未提供经过核实的可读全文。 [RePEc 摘要](https://ideas.repec.org/a/ecm/emetrp/v66y1998i2p315-332.html)取得原刊 PDF 或作者可核验的全文后，续读其效率界、充分条件、插补估计和证明，并回填 [P62](../../知识库/阅读/营销补贴待读论文.md#p62) 与历史发券问题页。
+UMLC、TSCAN 的原文与译文及 Augurzky–Schmidt、Abadie–Imbens、Perfect Match、伪样本匹配的四份采用版原文，共八份 PDF。实际登录下载全部通过 PDF 签名、大小和完整 SHA-256 校验，临时下载已自动清理。正式中文 PDF 哈希分别为 `a2cc5d89a2991588a4144c331fe69c5f4c713268069a2e79632f35af0694bd90` 和 `520f97c332f154d9b5fab72b902891199a4f0b49e3ea3fdd4445b8cc5a07c920`。UMLC 的 arXiv v1 明示 CC BY 4.0，原 PDF 同时载有 KDD 2025 出版版权说明，本轮采用私有 PDF 交付。七篇交付同步至公开库 `342a051` 和私有附件库 `79c3055`，两库对应 CI 均通过。
 
 Brookhart 的精读采用 PMC 的完整作者接受稿 HTML，三图为同版本的作者图。PDF 入口返回 HTML 验证页，正式采用的证据快照为 HTML。
+
+## 本轮跳过的论文
+
+Hahn（1998），Econometrica 66(2), 315–332，DOI `10.2307/2998560`。已核对题录和摘要中的 ATE/ATT 区别。JSTOR 原刊入口触发网站访问验证，Wiley PDF 请求返回 403，RePEc、OpenAlex、Semantic Scholar 和作者公开书目暂未提供经过核实的可读全文。 [RePEc 摘要](https://ideas.repec.org/a/ecm/emetrp/v66y1998i2p315-332.html)
+
+用户决定本轮跳过 [P62](../../知识库/阅读/营销补贴待读论文.md#p62)，第 11–12 批按其余七篇验收。已保留本地续读稿供后续复核效率界、条件、插补估计和证明。
