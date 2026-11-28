@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "repository": "Lsiming/recsys-knowledge",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "inventory_note": "按来源 ID 登记中文 PDF 的范围、许可和备份状态。原文、旧构建和图表不计为独立中文 PDF。",
   "entries": [
     {
@@ -6979,6 +6979,116 @@
         "size_bytes": 1571212,
         "pages": 36,
         "verified_download_sha256": "7ad79bcbbbbbf0d44306c1c5a7935d940913dc4ac60e9e704c18e0bf684d3fde"
+      }
+    },
+    {
+      "source_id": "SRC-GRF",
+      "title": "Generalized Random Forests",
+      "original_url": "https://arxiv.org/pdf/1610.01271v4",
+      "revision": "arXiv 1610.01271v4",
+      "input_sha256": "4493d518f2b5b77ce295b79540d8b1c2825a2f16d064d8316d38772bfcb8a435",
+      "input_pages": 36,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–8、主图表标题、算法说明和注释、致谢译为中文。保留公式、伪代码、图内标签、附录和参考文献。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-27",
+        "authors": [
+          "Susan Athey",
+          "Julie Tibshirani",
+          "Stefan Wager"
+        ],
+        "original_pdf_sha256": "16f3e320d67b6a39d47490bbda466df7a42343deb53f4609729a4826b9e649e8",
+        "evidence_url": "https://arxiv.org/abs/1610.01271v4",
+        "evidence_sha256": "1f79f47a54ed758a61506317d1e82faa68de7a7faa995458eef1c2a043f374c1",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "采用版为 arXiv 非独占分发许可，尚未核实公开全文译文的独立授权。"
+      },
+      "reason": "36 页经 Poppler 逐页渲染核对，原译件均经认证下载核验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261127-batch-09-10",
+        "translation_version": "20261127.1",
+        "asset_name": "SRC-GRF.zh-CN.private.20261127.1.pdf",
+        "sha256": "4493d518f2b5b77ce295b79540d8b1c2825a2f16d064d8316d38772bfcb8a435",
+        "size_bytes": 1154798,
+        "pages": 36,
+        "verified_download_sha256": "4493d518f2b5b77ce295b79540d8b1c2825a2f16d064d8316d38772bfcb8a435"
+      }
+    },
+    {
+      "source_id": "SRC-UPLIFT-TREE",
+      "title": "Decision Trees for Uplift Modeling with Single and Multiple Treatments",
+      "original_url": "https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf",
+      "revision": "Knowledge and Information Systems 32(2), 303–327 (2012), DOI 10.1007/s10115-011-0434-0",
+      "input_sha256": "72a24b90735538ea867f177a82704d18cc8ef528e09447498c12a6d548eda326",
+      "input_pages": 21,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、主图表标题与致谢译为中文。保留图内英文、附录、参考文献和作者简介。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-27",
+        "authors": [
+          "Piotr Rzepakowski",
+          "Szymon Jaroszewicz"
+        ],
+        "original_pdf_sha256": "aa7f6160a10d68823191949f1a3bc2d35bb490a402780ce86b3bdd5b8f6eb322",
+        "evidence_url": "https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf#page=20",
+        "evidence_sha256": "aa7f6160a10d68823191949f1a3bc2d35bb490a402780ce86b3bdd5b8f6eb322",
+        "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+        "notes": "正式刊版第 322 页标明 CC BY-NC。当前正式 Markdown 发布流程尚未支持非商业许可，本轮译文按私有附件维护。"
+      },
+      "reason": "21 页经 Poppler 逐页渲染核对，原译件均经认证下载核验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261127-batch-09-10",
+        "translation_version": "20261127.2",
+        "asset_name": "SRC-UPLIFT-TREE.zh-CN.private.20261127.2.pdf",
+        "sha256": "72a24b90735538ea867f177a82704d18cc8ef528e09447498c12a6d548eda326",
+        "size_bytes": 1119392,
+        "pages": 21,
+        "verified_download_sha256": "72a24b90735538ea867f177a82704d18cc8ef528e09447498c12a6d548eda326"
+      }
+    },
+    {
+      "source_id": "SRC-GANITE",
+      "title": "GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets",
+      "original_url": "https://github.com/gasanchez10/freganv2/blob/3037720047e4cdd02d11394ff77919f93ce385df/Papers_elegidos/588_ganite_estimation_of_individua%20%281%29.pdf",
+      "revision": "ICLR 2018, OpenReview ByKWUeWA-, 22 页会议版的固定镜像",
+      "input_sha256": "78bf8276f46a129d1355744b17550068015d8fe4b345973e72a994b182fea692",
+      "input_pages": 23,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、图表说明、脚注及致谢译为中文。保留公式、图内文字、参考文献与英文附录。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Jinsung Yoon",
+          "James Jordon",
+          "Mihaela van der Schaar"
+        ],
+        "original_pdf_sha256": "6e7bc3165f5e0605e9862a57433f83f08c9920767c1eaffa7049b62df2e0f6e9",
+        "evidence_url": "https://iclr.cc/Conferences/2018/Schedule?showEvent=153",
+        "evidence_sha256": "b4c0968222df589394dab9b4bdda963deecc066f9884a333171aebd31173cc79",
+        "license_url": "",
+        "notes": "固定会议版镜像和官方会议题录的题名与作者一致。官方原附件不可访问，公开全文译文许可未核实。"
+      },
+      "reason": "23 页经 Poppler 逐页渲染核对，原译件均经认证下载核验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261127-batch-09-10",
+        "translation_version": "20261127.1",
+        "asset_name": "SRC-GANITE.zh-CN.private.20261127.1.pdf",
+        "sha256": "78bf8276f46a129d1355744b17550068015d8fe4b345973e72a994b182fea692",
+        "size_bytes": 3586812,
+        "pages": 23,
+        "verified_download_sha256": "78bf8276f46a129d1355744b17550068015d8fe4b345973e72a994b182fea692"
       }
     }
   ],

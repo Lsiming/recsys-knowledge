@@ -25,13 +25,13 @@
       "retrieved_on": "2026-11-27",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "9c3ec7ffad6c8077bfd1a6348d5724d869a1e5f0fb4c5989528ec3e42ffd59a8",
+        "notes_sha256": "467741600318029abce08f960d293d819b99f424072df173887b2e08c52173f9",
         "pages": [
           "observational-coupon-uplift"
         ],
         "reviewed_on": "2026-11-27",
         "review_method": "agent-self-review",
-        "review_note": "核对定理 1–2、近似后验、两项辅助监督、表 1–3 与图 1–4。比较 CEVAE 和 MIM-DRCFR 的监督路径，保留 Twins 分母疑点。"
+        "review_note": "核对定理 1–2、近似后验、两项辅助监督、表 1–3 与图 1–4。比较 CEVAE 和 MIM-DRCFR，保留 Twins 分母疑点，并区分本篇 GANITE 对照和 GANITE 原文设置。"
       }
     }
   ]

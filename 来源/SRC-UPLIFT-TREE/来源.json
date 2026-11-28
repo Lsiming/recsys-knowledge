@@ -1,0 +1,34 @@
+{
+  "id": "SRC-UPLIFT-TREE",
+  "title": "Decision Trees for Uplift Modeling with Single and Multiple Treatments",
+  "kind": "paper",
+  "state": "active",
+  "current": "64e229f18bd5da4a47d7871fce4755bfbd4a4aba89be4a04a7368711d761e99f",
+  "versions": [
+    {
+      "locator": "https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf",
+      "revision": "Knowledge and Information Systems 32(2), 303–327 (2012), DOI 10.1007/s10115-011-0434-0",
+      "read_scope": "正文 §1–6、原刊式 (1)–(7)、图 1–4、表 1–2，及附录中的退化条件和多处理散度证明。未重跑实验。",
+      "artifacts": [
+        {
+          "name": "SRC-UPLIFT-TREE.original.pdf",
+          "sha256": "aa7f6160a10d68823191949f1a3bc2d35bb490a402780ce86b3bdd5b8f6eb322",
+          "snapshot": ".local/sources/SRC-UPLIFT-TREE/aa7f6160a10d68823191949f1a3bc2d35bb490a402780ce86b3bdd5b8f6eb322/SRC-UPLIFT-TREE.original.pdf"
+        }
+      ],
+      "fingerprint": "64e229f18bd5da4a47d7871fce4755bfbd4a4aba89be4a04a7368711d761e99f",
+      "retrieved_on": "2026-11-27",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "f015bc1db5e751cd5f8bf5cfb20bc1855febcd83b5cbc79e5f9b9d5ca8a8b1fc",
+        "pages": [
+          "combinatorial-policy-uplift",
+          "coupon-uplift-evaluation"
+        ],
+        "reviewed_on": "2026-11-27",
+        "review_method": "agent-self-review",
+        "review_note": "对照正式刊版式 (1)–(7)、表 1–2、图 1–4 与附录，复算分裂和剪枝教学例，回填多档选择与评估；定理 5.1 权重边界留审核。"
+      }
+    }
+  ]
+}

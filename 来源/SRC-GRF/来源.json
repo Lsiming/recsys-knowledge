@@ -1,0 +1,40 @@
+{
+  "id": "SRC-GRF",
+  "title": "Generalized Random Forests",
+  "kind": "paper",
+  "state": "active",
+  "current": "de42da3760455bc012957361dd1fd435ce87b44cf6f01fc46247d1e370ba2eab",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/1610.01271v4",
+      "revision": "arXiv 1610.01271v4",
+      "read_scope": "摘要、§1–8、算法 1–2、图 1–3、表 1，并回查耦合、分裂准则和工具变量的附录。源码为下载后未修改文件的本地重新打包。未运行模型。",
+      "artifacts": [
+        {
+          "name": "1610.01271v4.pdf",
+          "sha256": "16f3e320d67b6a39d47490bbda466df7a42343deb53f4609729a4826b9e649e8",
+          "snapshot": ".local/sources/SRC-GRF/16f3e320d67b6a39d47490bbda466df7a42343deb53f4609729a4826b9e649e8/1610.01271v4.pdf"
+        },
+        {
+          "name": "1610.01271v4-source-repacked.tar.gz",
+          "sha256": "b0eb6c4a79989a1d5b05668630d1c8dbe4dca077bc0c97cadfb4b96f8b77e1b8",
+          "snapshot": ".local/sources/SRC-GRF/b0eb6c4a79989a1d5b05668630d1c8dbe4dca077bc0c97cadfb4b96f8b77e1b8/1610.01271v4-source-repacked.tar.gz"
+        }
+      ],
+      "fingerprint": "de42da3760455bc012957361dd1fd435ce87b44cf6f01fc46247d1e370ba2eab",
+      "retrieved_on": "2026-11-27",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "1148c1417f526884adf5d57f2b3d44e409eb16c7379663e5ba4eff3257f799e2",
+        "pages": [
+          "coupon-outcome-distribution",
+          "observational-coupon-uplift",
+          "residualized-treatment-effects"
+        ],
+        "reviewed_on": "2026-11-27",
+        "review_method": "agent-self-review",
+        "review_note": "核对 v4 的森林权重、梯度分裂、局部中心化、分位数与小袋区间。回填历史发券、残差化和结果分布，保留覆盖率印式与分裂归一化说明。"
+      }
+    }
+  ]
+}

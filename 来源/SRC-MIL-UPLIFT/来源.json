@@ -20,13 +20,13 @@
       "retrieved_on": "2026-11-26",
       "integration": {
         "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
-        "notes_sha256": "ff0133addb550465a5807f05e0657301e0dd24a82106486ff05e1a8e3ee1e411",
+        "notes_sha256": "93541da8e6f3da02957a31a5a170a551e7a1aebc8b9a6f1badfd683db5309927",
         "pages": [
           "observational-coupon-uplift"
         ],
-        "reviewed_on": "2026-11-26",
+        "reviewed_on": "2026-11-27",
         "review_method": "agent-self-review",
-        "review_note": "核对作者稿组包、包级单位及两套数据的表 2–4；补历史券问题的指派依赖和排序证据范围。未运行模型。"
+        "review_note": "核对作者稿组包、包级单位及两套数据的表 2–4；补历史券问题的指派依赖和排序证据范围，再回查 GANITE 原始目标和二元实现。未运行模型。"
       }
     }
   ]

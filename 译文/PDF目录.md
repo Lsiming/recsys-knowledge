@@ -2,7 +2,7 @@
 
 <!-- 由 python3 scripts/pdf_releases.py index 生成，请维护 PDF目录.json。 -->
 
-截至2026-11-27，盘点182篇中文PDF，182篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
+截至2026-11-28，盘点185篇中文PDF，185篇已私有备份，其余逐篇记录。公开仓库不再托管PDF；原有9篇公开附件已撤下，许可判断保留。
 
 原文和中文PDF统一由独立私有附件仓库维护，需有权账号登录。公开克隆、Fork与PR不附带这些文件或访问权限。
 
@@ -194,3 +194,6 @@
 | [Uplift Modeling with Multiple Treatments and General Response Types](https://arxiv.org/pdf/1705.08492v1) · `SRC-CTS` | 私有，需登录 · 20261127.1 · 7页 | [unverified](https://arxiv.org/abs/1705.08492v1) | 摘要、正文 §1–5、算法说明、图注和描述性脚注译为中文。保留公式、图内标注、调参附录和参考文献。；7 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。 |
 | [Recursive Partitioning for Heterogeneous Causal Effects](https://arxiv.org/pdf/1504.01132v3) · `SRC-CAUSAL-TREE` | 私有，需登录 · 20261127.1 · 17页 | [unverified](https://arxiv.org/abs/1504.01132v3) | 摘要、引言、正文 §1–9、主表文字与描述性脚注译为中文。保留公式、在线附录和参考文献。；17 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。 |
 | [Estimation and Inference of Heterogeneous Treatment Effects using Random Forests](https://arxiv.org/pdf/1510.04342v4) · `SRC-CAUSAL-FOREST` | 私有，需登录 · 20261127.1 · 36页 | [unverified](https://arxiv.org/abs/1510.04342v4) | 摘要、正文 §1–6、程序、主图表文字、描述性脚注和致谢译为中文。保留公式、图内标签、附录和参考文献。；36 页经 Poppler 逐页渲染核对。采用原文与中文 PDF 经认证下载核对大小和完整 SHA-256。 |
+| [Generalized Random Forests](https://arxiv.org/pdf/1610.01271v4) · `SRC-GRF` | 私有，需登录 · 20261127.1 · 36页 | [unverified](https://arxiv.org/abs/1610.01271v4) | 摘要、正文 §1–8、主图表标题、算法说明和注释、致谢译为中文。保留公式、伪代码、图内标签、附录和参考文献。；36 页经 Poppler 逐页渲染核对，原译件均经认证下载核验大小与完整 SHA-256。 |
+| [Decision Trees for Uplift Modeling with Single and Multiple Treatments](https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf) · `SRC-UPLIFT-TREE` | 私有，需登录 · 20261127.2 · 21页 | [unverified](https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf#page=20) | 摘要、正文 §1–6、主图表标题与致谢译为中文。保留图内英文、附录、参考文献和作者简介。；21 页经 Poppler 逐页渲染核对，原译件均经认证下载核验大小与完整 SHA-256。 |
+| [GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets](https://github.com/gasanchez10/freganv2/blob/3037720047e4cdd02d11394ff77919f93ce385df/Papers_elegidos/588_ganite_estimation_of_individua%20%281%29.pdf) · `SRC-GANITE` | 私有，需登录 · 20261127.1 · 23页 | [unverified](https://iclr.cc/Conferences/2018/Schedule?showEvent=153) | 摘要、正文 §1–6、图表说明、脚注及致谢译为中文。保留公式、图内文字、参考文献与英文附录。；23 页经 Poppler 逐页渲染核对，原译件均经认证下载核验大小与完整 SHA-256。 |

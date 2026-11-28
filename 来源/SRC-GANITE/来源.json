@@ -1,0 +1,33 @@
+{
+  "id": "SRC-GANITE",
+  "title": "GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets",
+  "kind": "paper",
+  "state": "active",
+  "current": "c2238d5afc3ce0f12b2c9216c740610c91155ddc3ddd5c3b145681998eba5225",
+  "versions": [
+    {
+      "locator": "https://github.com/gasanchez10/freganv2/blob/3037720047e4cdd02d11394ff77919f93ce385df/Papers_elegidos/588_ganite_estimation_of_individua%20%281%29.pdf",
+      "revision": "ICLR 2018, OpenReview ByKWUeWA-, 22 页会议版的固定镜像",
+      "read_scope": "摘要、正文 §1–6、式 (1)–(6)、图 1–3、表 1–3 与附录伪代码、数据定义、表 4–9。另静态核对作者公开二元实现。镜像题名、作者和会议标识与官方记录一致，官方附件不可达，未核对两者字节。未运行模型。",
+      "artifacts": [
+        {
+          "name": "GANITE-ICLR2018.pdf",
+          "sha256": "6e7bc3165f5e0605e9862a57433f83f08c9920767c1eaffa7049b62df2e0f6e9",
+          "snapshot": ".local/sources/SRC-GANITE/6e7bc3165f5e0605e9862a57433f83f08c9920767c1eaffa7049b62df2e0f6e9/GANITE-ICLR2018.pdf"
+        }
+      ],
+      "fingerprint": "c2238d5afc3ce0f12b2c9216c740610c91155ddc3ddd5c3b145681998eba5225",
+      "retrieved_on": "2026-11-27",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "7e43dc74606bee5654dce268806cc2dad0a3449e40f4c36c66080f042241bd8e",
+        "pages": [
+          "observational-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-27",
+        "review_method": "agent-self-review",
+        "review_note": "核对固定会议镜像图 1–3、式 (1)–(6)、表 1–3 和固定作者二元代码，比较事实监督与生成补全。明确联合分布识别、试验边界及镜像来源。"
+      }
+    }
+  ]
+}

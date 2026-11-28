@@ -9098,6 +9098,279 @@
         434,
         344
       ]
+    },
+    {
+      "path": "资源/图片/SRC-GRF/森林权重如何汇合同叶邻居.png",
+      "sha256": "285411ffe7d55062011bf71ef5b7001196c40f6bd78909faccb1764e9c350a7f",
+      "kind": "第三方原图",
+      "source_id": "SRC-GRF",
+      "source_version": "arXiv 1610.01271v4",
+      "basis": "固定 PDF 第 6 页图 1。",
+      "source_url": "https://arxiv.org/pdf/1610.01271v4#page=6",
+      "credit": "Susan Athey、Julie Tibshirani、Stefan Wager",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "16f3e320d67b6a39d47490bbda466df7a42343deb53f4609729a4826b9e649e8",
+      "pdf_page": 6,
+      "crop_points": [
+        119,
+        108,
+        505,
+        341
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-GRF/诚实森林的加权估计程序.png",
+      "sha256": "05d671e1070d47b9abbfdc932cc814980dbbbde06ad138d3c1b7ac2c2c81d4b4",
+      "kind": "第三方原图",
+      "source_id": "SRC-GRF",
+      "source_version": "arXiv 1610.01271v4",
+      "basis": "固定 PDF 第 10 页算法 1。",
+      "source_url": "https://arxiv.org/pdf/1610.01271v4#page=10",
+      "credit": "Susan Athey、Julie Tibshirani、Stefan Wager",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "16f3e320d67b6a39d47490bbda466df7a42343deb53f4609729a4826b9e649e8",
+      "pdf_page": 10,
+      "crop_points": [
+        105,
+        104,
+        507,
+        348
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-GRF/梯度树的重标记与分裂.png",
+      "sha256": "7f51e5d292f59db2a280c80fdf54fb7d5d82074c45b2f0866368b9516a79be60",
+      "kind": "第三方原图",
+      "source_id": "SRC-GRF",
+      "source_version": "arXiv 1610.01271v4",
+      "basis": "固定 PDF 第 11 页算法 2。",
+      "source_url": "https://arxiv.org/pdf/1610.01271v4#page=11",
+      "credit": "Susan Athey、Julie Tibshirani、Stefan Wager",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "16f3e320d67b6a39d47490bbda466df7a42343deb53f4609729a4826b9e649e8",
+      "pdf_page": 11,
+      "crop_points": [
+        105,
+        104,
+        507,
+        330
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-GRF/均值不变时的分位变化.png",
+      "sha256": "357b7250c852739cc17c6a3ffb57267ccefae62e941c5a4af3bddb4bb1523063",
+      "kind": "第三方原图",
+      "source_id": "SRC-GRF",
+      "source_version": "arXiv 1610.01271v4",
+      "basis": "固定 PDF 第 19 页图 2。",
+      "source_url": "https://arxiv.org/pdf/1610.01271v4#page=19",
+      "credit": "Susan Athey、Julie Tibshirani、Stefan Wager",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "16f3e320d67b6a39d47490bbda466df7a42343deb53f4609729a4826b9e649e8",
+      "pdf_page": 19,
+      "crop_points": [
+        113,
+        111,
+        506,
+        303
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-GRF/局部中心化在三种生成设置下的误差.png",
+      "sha256": "8db19ddbabe3dfdceddbb4af09754c7e4e2a793af7ad5acdc31a5af2400e6d90",
+      "kind": "第三方原图",
+      "source_id": "SRC-GRF",
+      "source_version": "arXiv 1610.01271v4",
+      "basis": "固定 PDF 第 23 页表 1。",
+      "source_url": "https://arxiv.org/pdf/1610.01271v4#page=23",
+      "credit": "Susan Athey、Julie Tibshirani、Stefan Wager",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "16f3e320d67b6a39d47490bbda466df7a42343deb53f4609729a4826b9e649e8",
+      "pdf_page": 23,
+      "crop_points": [
+        113,
+        104,
+        501,
+        333
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-GRF/第三个孩子与母亲的劳动参与.png",
+      "sha256": "0b7f1dfb2595650a35ca38e0e64aba14de4b4dc7d70048717279b10badc4e752",
+      "kind": "第三方原图",
+      "source_id": "SRC-GRF",
+      "source_version": "arXiv 1610.01271v4",
+      "basis": "固定 PDF 第 26 页图 3。",
+      "source_url": "https://arxiv.org/pdf/1610.01271v4#page=26",
+      "credit": "Susan Athey、Julie Tibshirani、Stefan Wager",
+      "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "modification": "从采用版 PDF 裁出作者图形。",
+      "created_on": "2026-11-27",
+      "original_sha256": "16f3e320d67b6a39d47490bbda466df7a42343deb53f4609729a4826b9e649e8",
+      "pdf_page": 26,
+      "crop_points": [
+        113,
+        111,
+        506,
+        302
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-UPLIFT-TREE/排序后的增量曲线.png",
+      "sha256": "7898d08f760e2f6ff2a36e9b0b7120522f8c41ed1e0e1bb4ced79aa546e30649",
+      "kind": "第三方原图",
+      "source_id": "SRC-UPLIFT-TREE",
+      "source_version": "Knowledge and Information Systems 32(2), 303–327 (2012), DOI 10.1007/s10115-011-0434-0",
+      "basis": "固定 PDF 第 12 页图 1。",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf#page=12",
+      "credit": "Piotr Rzepakowski、Szymon Jaroszewicz",
+      "license": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "modification": "从采用版裁出作者图形，保留原图标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "aa7f6160a10d68823191949f1a3bc2d35bb490a402780ce86b3bdd5b8f6eb322",
+      "pdf_page": 12,
+      "crop_points": [
+        47,
+        55,
+        393,
+        261
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-UPLIFT-TREE/AUUC排名的Nemenyi检验.png",
+      "sha256": "0d5a756363c506cdb2976e29cd9d1d3c6e1b96d98e393466839ea7c53fb87401",
+      "kind": "第三方原图",
+      "source_id": "SRC-UPLIFT-TREE",
+      "source_version": "Knowledge and Information Systems 32(2), 303–327 (2012), DOI 10.1007/s10115-011-0434-0",
+      "basis": "固定 PDF 第 14 页图 2。",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf#page=14",
+      "credit": "Piotr Rzepakowski、Szymon Jaroszewicz",
+      "license": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "modification": "从采用版裁出作者图形，保留原图标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "aa7f6160a10d68823191949f1a3bc2d35bb490a402780ce86b3bdd5b8f6eb322",
+      "pdf_page": 14,
+      "crop_points": [
+        47,
+        309,
+        393,
+        389
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-UPLIFT-TREE/四成覆盖时的Nemenyi检验.png",
+      "sha256": "ee98dd29eeb79a65b57dda839d218e1f7b3f24ce64e87ce53acd485eb81e2e10",
+      "kind": "第三方原图",
+      "source_id": "SRC-UPLIFT-TREE",
+      "source_version": "Knowledge and Information Systems 32(2), 303–327 (2012), DOI 10.1007/s10115-011-0434-0",
+      "basis": "固定 PDF 第 15 页图 3。",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf#page=15",
+      "credit": "Piotr Rzepakowski、Szymon Jaroszewicz",
+      "license": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "modification": "从采用版裁出作者图形，保留原图标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "aa7f6160a10d68823191949f1a3bc2d35bb490a402780ce86b3bdd5b8f6eb322",
+      "pdf_page": 15,
+      "crop_points": [
+        47,
+        55,
+        393,
+        208
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-UPLIFT-TREE/两种处理的增量曲线.png",
+      "sha256": "25200ea8c108924070716d85dd4edb16f925e5f391733773711e7ff3618b5ca1",
+      "kind": "第三方原图",
+      "source_id": "SRC-UPLIFT-TREE",
+      "source_version": "Knowledge and Information Systems 32(2), 303–327 (2012), DOI 10.1007/s10115-011-0434-0",
+      "basis": "固定 PDF 第 20 页图 4。",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf#page=20",
+      "credit": "Piotr Rzepakowski、Szymon Jaroszewicz",
+      "license": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "modification": "从采用版裁出作者图形，保留原图标签。",
+      "created_on": "2026-11-27",
+      "original_sha256": "aa7f6160a10d68823191949f1a3bc2d35bb490a402780ce86b3bdd5b8f6eb322",
+      "pdf_page": 20,
+      "crop_points": [
+        47,
+        55,
+        393,
+        260
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-GANITE/两个对抗阶段的训练和推断.png",
+      "sha256": "62b88370a0e26484ea0270b96aa31d4d8b8b8c91165ec0604e5beec3e5bfea52",
+      "kind": "第三方原图",
+      "source_id": "SRC-GANITE",
+      "source_version": "ICLR 2018, OpenReview ByKWUeWA-, 22 页会议版的固定镜像",
+      "basis": "采用版 PDF 第 4 页图 1。",
+      "source_url": "https://github.com/gasanchez10/freganv2/blob/3037720047e4cdd02d11394ff77919f93ce385df/Papers_elegidos/588_ganite_estimation_of_individua%20%281%29.pdf",
+      "credit": "Jinsung Yoon、James Jordon、Mihaela van der Schaar",
+      "license": "待核；保留作者署名和会议来源。",
+      "modification": "从固定会议版镜像裁出作者原图，保留原始图例及标注。",
+      "created_on": "2026-11-27",
+      "original_sha256": "6e7bc3165f5e0605e9862a57433f83f08c9920767c1eaffa7049b62df2e0f6e9",
+      "pdf_page": 4,
+      "crop_points": [
+        106,
+        78,
+        505,
+        273
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-GANITE/选择偏差与效应误差.png",
+      "sha256": "3fc844afe8a600fddb500acad04f7afb3bf2c04f6649250bc8458289248cfc66",
+      "kind": "第三方原图",
+      "source_id": "SRC-GANITE",
+      "source_version": "ICLR 2018, OpenReview ByKWUeWA-, 22 页会议版的固定镜像",
+      "basis": "采用版 PDF 第 8 页图 2。",
+      "source_url": "https://github.com/gasanchez10/freganv2/blob/3037720047e4cdd02d11394ff77919f93ce385df/Papers_elegidos/588_ganite_estimation_of_individua%20%281%29.pdf",
+      "credit": "Jinsung Yoon、James Jordon、Mihaela van der Schaar",
+      "license": "待核；保留作者署名和会议来源。",
+      "modification": "从固定会议版镜像裁出作者原图，保留原始图例及标注。",
+      "created_on": "2026-11-27",
+      "original_sha256": "6e7bc3165f5e0605e9862a57433f83f08c9920767c1eaffa7049b62df2e0f6e9",
+      "pdf_page": 8,
+      "crop_points": [
+        158,
+        207,
+        448,
+        360
+      ]
+    },
+    {
+      "path": "资源/图片/SRC-GANITE/事实样本与生成的潜在结果.png",
+      "sha256": "f446bd4634946ab0c518fe7427fff97b6b772702e1dd5ec68b63f1650c07170f",
+      "kind": "第三方原图",
+      "source_id": "SRC-GANITE",
+      "source_version": "ICLR 2018, OpenReview ByKWUeWA-, 22 页会议版的固定镜像",
+      "basis": "采用版 PDF 第 17 页图 3。",
+      "source_url": "https://github.com/gasanchez10/freganv2/blob/3037720047e4cdd02d11394ff77919f93ce385df/Papers_elegidos/588_ganite_estimation_of_individua%20%281%29.pdf",
+      "credit": "Jinsung Yoon、James Jordon、Mihaela van der Schaar",
+      "license": "待核；保留作者署名和会议来源。",
+      "modification": "从固定会议版镜像裁出作者原图，保留原始图例及标注。",
+      "created_on": "2026-11-27",
+      "original_sha256": "6e7bc3165f5e0605e9862a57433f83f08c9920767c1eaffa7049b62df2e0f6e9",
+      "pdf_page": 17,
+      "crop_points": [
+        105,
+        102,
+        506,
+        324
+      ]
     }
   ]
 }

@@ -15,4 +15,20 @@
 - Causal Tree 及此前首组知识经隔离发布到公开 `f986a6c`，CI `45968441404` 通过。日常 main 对齐该版本后重放原有本地 E3IR 澄清，核对文件树相同，原提交链留在本地归档。
 - Causal Forest 固定 2017 年 7 月 11 日的 arXiv v4，完成 36 页正文译本和精读。五幅作者原图对应双样本树、倾向树、方差诊断、效应峰值和边界模拟。核对式 (5)、(8)、(24)、定理 11 及三组模拟的覆盖与误差，并回填历史发券和评估两页。原译件经实际认证下载校验，私有提交 `a19f77f` 与远端一致，368 份正式 PDF 对账通过。 [Causal Forest 精读](../../来源/SRC-CAUSAL-FOREST/阅读笔记.md)
 
-本批已完成七篇精读和六份中文正文 PDF（91 页）。GRF 和 Uplift 树分裂待完成译文及精读，GANITE 待取得足以核对的全文。OpenAlex 登记了该篇但无 PDF 或全文内容，作者实验室的旧 PDF URL 返回 404。
+
+## 第 9–10 批最终交付
+
+2026-11-28 核对完成。第 9 批为 Causal Tree、Causal Forest、GRF、Uplift 树分裂、CTS，第 10 批为 VAE、CEVAE、TED-VAE、GANITE 与只解读的 CLUB。共十篇精读、九份正文中文 PDF、40 张嵌入笔记的作者图表或算法框。 [待读清单](../../知识库/阅读/营销补贴待读论文.md#剩余论文分批建议)
+
+| 批次 | 论文 | 中文 PDF 页数 |
+|---|---|---:|
+| 09 | Causal Tree、Causal Forest、GRF、Uplift 树分裂、CTS | 17、36、36、21、7 |
+| 10 | VAE、CEVAE、TED-VAE、GANITE | 13、11、7、23 |
+| 10 | CLUB | 按清单仅解读 |
+
+- [GRF](../../来源/SRC-GRF/阅读笔记.md)用同一两树例比较逐树平均的 10 个百分点和先合并权重再解局部矩的 8.73。核对局部中心化、分位数与小袋方差。最终译本去掉作者模板构建页脚，并校验纸面内容与已核对的前版像素一致。
+- [Uplift 树分裂](../../来源/SRC-UPLIFT-TREE/阅读笔记.md)按 Springer 固定刊版重排，保留四幅作者图、两张数据表及英文附录。核对散度分裂、验证集剪枝、动作匹配评估及多处理权重边界，和 Causal Tree、CTS 比较。原刊注明 CC BY-NC，译文仍以私有 PDF 维护。
+- [GANITE](../../来源/SRC-GANITE/阅读笔记.md)采用 GitHub 固定提交保存的 22 页 ICLR 2018 会议版镜像。题名、作者、会议信息与官方题录一致。OpenReview 仍返回访问验证，无法核对两份文件是否字节一致。译本覆盖全部正文，附录维持英文。论文两阶段对抗结构与作者公开的二元三网络实现分开记录。回查 MIL 与 TED-VAE 的基线引用，区分各自样本、指标和实验协议。 [固定镜像](https://github.com/gasanchez10/freganv2/blob/3037720047e4cdd02d11394ff77919f93ce385df/Papers_elegidos/588_ganite_estimation_of_individua%20%281%29.pdf) · [会议题录](https://iclr.cc/Conferences/2018/Schedule?showEvent=153)
+- 反查六个直接引用问题页及营销模块、相关总览和旧论文对照。两轮自查涵盖公式、算例、图表、证据定位与阅读路径。以题名、别名、问题和方法检索核对 24 个入口，题名索引可直达论文，问题页和精读笔记可互查。未进行模型复现或独立审查。
+- 171 页译文逐页渲染检查，九对正式原译件已实际认证下载并校验完整 SHA-256，临时下载自动清理。私有目录推进到 `e58ae92`，374 份正式 PDF 与 Releases 对账一致，匿名访问返回 404，私有 CI 通过。 [私有 CI](https://github.com/Lsiming/recsys-knowledge-attachments/actions/runs/46108344664) · [PDF 访问说明](../工具/中文PDF发布.md)
+- 公开发布以上一远端 `36e85b4` 为基线整合 GRF、Uplift 树分裂和 GANITE 的当轮内容；日常 main 上另一会话的 E3IR 澄清保留在本地。

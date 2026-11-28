@@ -3538,5 +3538,55 @@
     "evidence_sha256": "acfc1fe6037fc9fc93a2b21f4f8bd9dae8c074cbb4d1ffd39c1594a6835e6a68",
     "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "reason": "已完成正文中文 PDF 并私有备份。采用版为 arXiv 非独占分发许可，公开全文译文的独立许可尚未核实。"
+  },
+  {
+    "source_id": "SRC-GRF",
+    "title": "Generalized Random Forests",
+    "original_url": "https://arxiv.org/pdf/1610.01271v4",
+    "revision": "arXiv 1610.01271v4",
+    "authors": [
+      "Susan Athey",
+      "Julie Tibshirani",
+      "Stefan Wager"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-27",
+    "evidence_url": "https://arxiv.org/abs/1610.01271v4",
+    "evidence_sha256": "1f79f47a54ed758a61506317d1e82faa68de7a7faa995458eef1c2a043f374c1",
+    "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "已完成正文中文 PDF 并私有备份。采用版为 arXiv 非独占分发许可，尚未核实公开全文译文的独立授权。"
+  },
+  {
+    "source_id": "SRC-UPLIFT-TREE",
+    "title": "Decision Trees for Uplift Modeling with Single and Multiple Treatments",
+    "original_url": "https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf",
+    "revision": "Knowledge and Information Systems 32(2), 303–327 (2012), DOI 10.1007/s10115-011-0434-0",
+    "authors": [
+      "Piotr Rzepakowski",
+      "Szymon Jaroszewicz"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-27",
+    "evidence_url": "https://link.springer.com/content/pdf/10.1007/s10115-011-0434-0.pdf#page=20",
+    "evidence_sha256": "aa7f6160a10d68823191949f1a3bc2d35bb490a402780ce86b3bdd5b8f6eb322",
+    "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+    "reason": "已完成正文中文 PDF 并私有备份。正式刊版第 322 页标明 CC BY-NC。当前正式 Markdown 发布流程尚未支持非商业许可，本轮译文按私有附件维护。"
+  },
+  {
+    "source_id": "SRC-GANITE",
+    "title": "GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets",
+    "original_url": "https://github.com/gasanchez10/freganv2/blob/3037720047e4cdd02d11394ff77919f93ce385df/Papers_elegidos/588_ganite_estimation_of_individua%20%281%29.pdf",
+    "revision": "ICLR 2018, OpenReview ByKWUeWA-, 22 页会议版的固定镜像",
+    "authors": [
+      "Jinsung Yoon",
+      "James Jordon",
+      "Mihaela van der Schaar"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://iclr.cc/Conferences/2018/Schedule?showEvent=153",
+    "evidence_sha256": "b4c0968222df589394dab9b4bdda963deecc066f9884a333171aebd31173cc79",
+    "license_url": "",
+    "reason": "已完成正文中文 PDF 并私有备份。固定会议版镜像和官方会议题录的题名与作者一致。官方原附件不可访问，公开全文译文许可未核实。"
   }
 ]
