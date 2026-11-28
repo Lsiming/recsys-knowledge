@@ -10677,6 +10677,144 @@
         "scale": 2.6
       },
       "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-EXPLTV/游戏消费的零值与长尾.png",
+      "sha256": "5c205bbe150c217df3a3a82ab4a328185134c01c911a76f9e76abb1fb256b1df",
+      "kind": "第三方原图",
+      "source_id": "SRC-EXPLTV",
+      "source_version": "arXiv:2308.12729v1",
+      "basis": "图 1，PDF p.2",
+      "credit": "Shijie Zhang、Xin Yan、Xuejiao Yang、Binfeng Jia、Shuangyang Wang",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828",
+      "pdf_page": 2,
+      "crop": {
+        "rect": [
+          56,
+          82,
+          288,
+          181
+        ],
+        "scale": 2.7
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-EXPLTV/检测门控和金额专家的连接.png",
+      "sha256": "efbee6b4f6fc50f000b49369d24fef7ca2a77011d1ad8fcd8567d91f81ec13f0",
+      "kind": "第三方原图",
+      "source_id": "SRC-EXPLTV",
+      "source_version": "arXiv:2308.12729v1",
+      "basis": "图 2，PDF p.4",
+      "credit": "Shijie Zhang、Xin Yan、Xuejiao Yang、Binfeng Jia、Shuangyang Wang",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828",
+      "pdf_page": 4,
+      "crop": {
+        "rect": [
+          57,
+          83,
+          548,
+          347
+        ],
+        "scale": 2.7
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-EXPLTV/三款游戏的付费与金额排序.png",
+      "sha256": "40da8171720ed9a1d93d6838a0b611bd1c3c76d026bf911597324947508d1a5a",
+      "kind": "第三方原图",
+      "source_id": "SRC-EXPLTV",
+      "source_version": "arXiv:2308.12729v1",
+      "basis": "图 3，PDF p.6",
+      "credit": "Shijie Zhang、Xin Yan、Xuejiao Yang、Binfeng Jia、Shuangyang Wang",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828",
+      "pdf_page": 6,
+      "crop": {
+        "rect": [
+          318,
+          79,
+          564,
+          251
+        ],
+        "scale": 2.7
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-EXPLTV/候选预算与高消费找回.png",
+      "sha256": "50802570a30cc6fa32176f74be91f7defcd0aea89ce411d84d651e64762cc977",
+      "kind": "第三方原图",
+      "source_id": "SRC-EXPLTV",
+      "source_version": "arXiv:2308.12729v1",
+      "basis": "图 4，PDF p.7",
+      "credit": "Shijie Zhang、Xin Yan、Xuejiao Yang、Binfeng Jia、Shuangyang Wang",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828",
+      "pdf_page": 7,
+      "crop": {
+        "rect": [
+          56,
+          243,
+          292,
+          370
+        ],
+        "scale": 2.7
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-EXPLTV/高消费玩家的表征分布.png",
+      "sha256": "fdd1ef9fe9599200f92de9b114f3b57e8c327ff35ee6b9ceb2de214c5531e0ba",
+      "kind": "第三方原图",
+      "source_id": "SRC-EXPLTV",
+      "source_version": "arXiv:2308.12729v1",
+      "basis": "图 5，PDF p.7",
+      "credit": "Shijie Zhang、Xin Yan、Xuejiao Yang、Binfeng Jia、Shuangyang Wang",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828",
+      "pdf_page": 7,
+      "crop": {
+        "rect": [
+          315,
+          242,
+          560,
+          370
+        ],
+        "scale": 2.7
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-EXPLTV/损失权重与嵌入维度敏感性.png",
+      "sha256": "05f12e262694ed4f4891a70e8d92a3ff4636ff52e3bb4bff17729ae04f24402b",
+      "kind": "第三方原图",
+      "source_id": "SRC-EXPLTV",
+      "source_version": "arXiv:2308.12729v1",
+      "basis": "图 6，PDF p.9",
+      "credit": "Shijie Zhang、Xin Yan、Xuejiao Yang、Binfeng Jia、Shuangyang Wang",
+      "license": "保留原作版权与署名",
+      "modification": "从采用版 PDF 裁出原图，无改绘",
+      "source_pdf_sha256": "a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828",
+      "pdf_page": 9,
+      "crop": {
+        "rect": [
+          77,
+          85,
+          541,
+          225
+        ],
+        "scale": 2.7
+      },
+      "created_on": "2026-11-28"
     }
   ]
 }

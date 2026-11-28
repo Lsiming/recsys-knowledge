@@ -1,0 +1,38 @@
+{
+  "id": "SRC-EXPLTV",
+  "title": "Out of the Box Thinking: Improving Customer Lifetime Value Modelling via Expert Routing and Game Whale Detection",
+  "kind": "paper",
+  "state": "active",
+  "current": "d67822509f67e8bb2939c490891e0612b6c059903a876e1b8f04a3e47a95506f",
+  "versions": [
+    {
+      "locator": "https://arxiv.org/pdf/2308.12729v1",
+      "revision": "arXiv:2308.12729v1 (2023-08-24)，CIKM 2023 作者版",
+      "read_scope": "摘要、正文 §1–6、式 (1)–(15)、图 1–6 和表 1–3，核对高消费软标签、联合读出、参数空间门控、实验及公式疑点。未运行模型。",
+      "artifacts": [
+        {
+          "name": "2308.12729v1.pdf",
+          "sha256": "a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828",
+          "snapshot": ".local/sources/SRC-EXPLTV/a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828/2308.12729v1.pdf"
+        },
+        {
+          "name": "2308.12729v1-source.tar.gz",
+          "sha256": "06e03951aea5b4c3adf5b7ea57b6156225608d4ab0a0652b8b0c9b90722ca69b",
+          "snapshot": ".local/sources/SRC-EXPLTV/06e03951aea5b4c3adf5b7ea57b6156225608d4ab0a0652b8b0c9b90722ca69b/2308.12729v1-source.tar.gz"
+        }
+      ],
+      "fingerprint": "d67822509f67e8bb2939c490891e0612b6c059903a876e1b8f04a3e47a95506f",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "b70624b5b3d6ad1ecc1772122d647547aca3e7799fea51e8966840a148a61ae1",
+        "pages": [
+          "new-customer-ltv-zero-and-tail"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对软标签、联合监督、参数门控算例、似然公式疑点、实验分母及图表口径。比较 ZILN 与 ExpLTV，当前 Agent 自查。"
+      }
+    }
+  ]
+}

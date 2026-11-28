@@ -7435,6 +7435,45 @@
         "pages": 19,
         "verified_download_sha256": "f2a91dd809e1e04d3e3b1a6936bf3b674dd7d65c275301cc2290d48515ed5a41"
       }
+    },
+    {
+      "source_id": "SRC-EXPLTV",
+      "title": "Out of the Box Thinking: Improving Customer Lifetime Value Modelling via Expert Routing and Game Whale Detection",
+      "original_url": "https://arxiv.org/pdf/2308.12729v1",
+      "revision": "arXiv:2308.12729v1 (2023-08-24)，CIKM 2023 作者版",
+      "input_sha256": "06c3f8002fe2e7c286f284cdb58ab439f2fe294df96237c7aaae0d5afca1573c",
+      "input_pages": 7,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–6、图表标题与作者脚注译为中文，保留公式、作者图内英文、参考文献和版权声明。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Shijie Zhang",
+          "Xin Yan",
+          "Xuejiao Yang",
+          "Binfeng Jia",
+          "Shuangyang Wang"
+        ],
+        "original_pdf_sha256": "a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828",
+        "evidence_url": "https://arxiv.org/pdf/2308.12729v1",
+        "evidence_sha256": "a9cbda2a1df1865769fe0c4bf40a620dc7093f4de32baa2dea3c2a268e836828",
+        "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "arXiv 非独占分发许可仅授权 arXiv 分发。译本保留作者和权利声明，公开翻译分发许可未确认。"
+      },
+      "reason": "7 页经 PyMuPDF 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261128-batch-15-16",
+        "translation_version": "20261128.1",
+        "asset_name": "SRC-EXPLTV.zh-CN.private.20261128.1.pdf",
+        "sha256": "06c3f8002fe2e7c286f284cdb58ab439f2fe294df96237c7aaae0d5afca1573c",
+        "size_bytes": 917542,
+        "pages": 7,
+        "verified_download_sha256": "06c3f8002fe2e7c286f284cdb58ab439f2fe294df96237c7aaae0d5afca1573c"
+      }
     }
   ],
   "storage_policy": "private-only",
