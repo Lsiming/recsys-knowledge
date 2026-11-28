@@ -1,0 +1,33 @@
+{
+  "id": "SRC-TPPUM",
+  "title": "Temporal Uplift Modeling for Online Marketing",
+  "kind": "paper",
+  "state": "active",
+  "current": "6104702b875e23575be814d77248781839e42d655c5f69b2de47b0a5db2c549c",
+  "versions": [
+    {
+      "locator": "https://dl.acm.org/doi/10.1145/3637528.3671560",
+      "revision": "ACM SIGKDD 2024 正式版，6247–6256 页，DOI 10.1145/3637528.3671560",
+      "read_scope": "通读摘要、正文 §1–7、图1–5、表1–2、式(1)–(9)、致谢，定向阅读附录A的模拟生成过程；未运行模型。",
+      "artifacts": [
+        {
+          "name": "tppum-kdd2024.pdf",
+          "sha256": "a6d549708d1265bcad8950be2447b1f00dc44a451f5dfeca40eb96cd41bcd628",
+          "snapshot": ".local/sources/SRC-TPPUM/a6d549708d1265bcad8950be2447b1f00dc44a451f5dfeca40eb96cd41bcd628/tppum-kdd2024.pdf"
+        }
+      ],
+      "fingerprint": "6104702b875e23575be814d77248781839e42d655c5f69b2de47b0a5db2c549c",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "c68d5c40f6c47048f294c56ee852289cd28f55baf77b85499b66dad8275fed22",
+        "pages": [
+          "continuous-time-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "以 ACM 正式版核对三路训练、离线删加处理、线上窗口和两个交易场景，逐项查图 1–5、表 1–2 与式 (1)–(9)。复算共享例中的窗口金额和事件均值，沿总览、模块、多期干预页和 CNTPP 反查。摘要和引言的提升值、表 2 的 RMSE 改善与实现未明事项登记审核台。已完成技术证据与读者路径自查。"
+      }
+    }
+  ]
+}

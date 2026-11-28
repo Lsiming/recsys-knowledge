@@ -3785,5 +3785,28 @@
     "evidence_sha256": "a3bac86eceeeba2c0a7de2bba7a35a44648e1a3cb8d1fe155908dbfbc12b8f01",
     "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "reason": "正文中文 PDF 已私有备份。作者 arXiv 版本采用非独占分发许可，NeurIPS 论文集保留作者署名。未确认公开翻译分发许可。"
+  },
+  {
+    "source_id": "SRC-TPPUM",
+    "title": "Temporal Uplift Modeling for Online Marketing",
+    "original_url": "https://dl.acm.org/doi/10.1145/3637528.3671560",
+    "revision": "ACM SIGKDD 2024 正式版，6247–6256 页，DOI 10.1145/3637528.3671560",
+    "authors": [
+      "Xin Zhang",
+      "Kai Wang",
+      "Zengmao Wang",
+      "Bo Du",
+      "Shiwei Zhao",
+      "Runze Wu",
+      "Xudong Shen",
+      "Tangjie Lv",
+      "Changjie Fan"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://dl.acm.org/doi/10.1145/3637528.3671560",
+    "evidence_sha256": "a6d549708d1265bcad8950be2447b1f00dc44a451f5dfeca40eb96cd41bcd628",
+    "license_url": "https://dl.acm.org/doi/10.1145/3637528.3671560",
+    "reason": "正文中文 PDF 已私有备份。ACM 正式版首页载明个人或课堂复制条件，其他复制、再出版及转发需特定授权。译本保留作者和权利声明，公开翻译分发许可未确认。"
   }
 ]

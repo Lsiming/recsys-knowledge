@@ -7355,6 +7355,49 @@
         "pages": 11,
         "verified_download_sha256": "8e1eefd80749d3f869e9b955788a67366e4a911eb840a5545a0599ba31489775"
       }
+    },
+    {
+      "source_id": "SRC-TPPUM",
+      "title": "Temporal Uplift Modeling for Online Marketing",
+      "original_url": "https://dl.acm.org/doi/10.1145/3637528.3671560",
+      "revision": "ACM SIGKDD 2024 正式版，6247–6256 页，DOI 10.1145/3637528.3671560",
+      "input_sha256": "4473079e6690128b06d16a9dc2a0875123fa3cb0dec4c1f9fa8b147236d8dd5c",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–7、正文图表说明、说明性脚注及致谢译为中文。保留公式、参考文献、图内英文、原署名及正式附录。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Xin Zhang",
+          "Kai Wang",
+          "Zengmao Wang",
+          "Bo Du",
+          "Shiwei Zhao",
+          "Runze Wu",
+          "Xudong Shen",
+          "Tangjie Lv",
+          "Changjie Fan"
+        ],
+        "original_pdf_sha256": "a6d549708d1265bcad8950be2447b1f00dc44a451f5dfeca40eb96cd41bcd628",
+        "evidence_url": "https://dl.acm.org/doi/10.1145/3637528.3671560",
+        "evidence_sha256": "a6d549708d1265bcad8950be2447b1f00dc44a451f5dfeca40eb96cd41bcd628",
+        "license_url": "https://dl.acm.org/doi/10.1145/3637528.3671560",
+        "notes": "ACM 正式版首页载明个人或课堂复制条件，其他复制、再出版及转发需特定授权。译本保留作者和权利声明，公开翻译分发许可未确认。"
+      },
+      "reason": "11 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261128-batch-13-14",
+        "translation_version": "20261128.1",
+        "asset_name": "SRC-TPPUM.zh-CN.private.20261128.1.pdf",
+        "sha256": "4473079e6690128b06d16a9dc2a0875123fa3cb0dec4c1f9fa8b147236d8dd5c",
+        "size_bytes": 2287037,
+        "pages": 11,
+        "verified_download_sha256": "4473079e6690128b06d16a9dc2a0875123fa3cb0dec4c1f9fa8b147236d8dd5c"
+      }
     }
   ],
   "storage_policy": "private-only",
