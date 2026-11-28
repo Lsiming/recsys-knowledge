@@ -7318,6 +7318,43 @@
         "pages": 35,
         "verified_download_sha256": "3715045a90196a8b35f473d163c0e55ac35e75d32a091200d530f2bb8f488fbf"
       }
+    },
+    {
+      "source_id": "SRC-CNTPP",
+      "title": "Counterfactual Neural Temporal Point Process for Estimating Causal Influence of Misinformation on Social Media",
+      "original_url": "https://www.proceedings.com/content/068/068431-0773open.pdf",
+      "revision": "NeurIPS 2022 论文集版，DOI 10.52202/068431-0773；作者 LaTeX 为下载后未修改文件的本地重新打包，作者补充材料采用 arXiv 2210.07518v1",
+      "input_sha256": "8e1eefd80749d3f869e9b955788a67366e4a911eb840a5545a0599ba31489775",
+      "input_pages": 11,
+      "duplicate_count": 0,
+      "scope": "摘要、正文 §1–8、正文图表说明、说明性脚注及致谢译为中文。保留公式、参考文献、图内英文及原署名。正文引用的附录和 Checklist 链接到作者版。",
+      "status": "private",
+      "rights": {
+        "decision": "unverified",
+        "checked_on": "2026-11-28",
+        "authors": [
+          "Yizhou Zhang",
+          "Defu Cao",
+          "Yan Liu"
+        ],
+        "original_pdf_sha256": "b518a66f63fd9d60daead5a9b7c8ccd7bb8ea7c7a4ce08560ff66a51d366f2f3",
+        "evidence_url": "https://arxiv.org/abs/2210.07518v1",
+        "evidence_sha256": "a3bac86eceeeba2c0a7de2bba7a35a44648e1a3cb8d1fe155908dbfbc12b8f01",
+        "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "notes": "作者 arXiv 版本采用非独占分发许可，NeurIPS 论文集保留作者署名。未确认公开翻译分发许可。"
+      },
+      "reason": "11 页经 Poppler 逐页渲染核对，原译件均经认证下载验大小与完整 SHA-256。",
+      "private_copy": {
+        "repository": "Lsiming/recsys-knowledge-attachments",
+        "visibility": "private",
+        "tag": "private-zh-pdfs-20261128-batch-13-14",
+        "translation_version": "20261128.1",
+        "asset_name": "SRC-CNTPP.zh-CN.private.20261128.1.pdf",
+        "sha256": "8e1eefd80749d3f869e9b955788a67366e4a911eb840a5545a0599ba31489775",
+        "size_bytes": 961472,
+        "pages": 11,
+        "verified_download_sha256": "8e1eefd80749d3f869e9b955788a67366e4a911eb840a5545a0599ba31489775"
+      }
     }
   ],
   "storage_policy": "private-only",

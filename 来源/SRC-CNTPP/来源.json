@@ -1,0 +1,43 @@
+{
+  "id": "SRC-CNTPP",
+  "title": "Counterfactual Neural Temporal Point Process for Estimating Causal Influence of Misinformation on Social Media",
+  "kind": "paper",
+  "state": "active",
+  "current": "da5a362decc08cff3ce8393215e52898b9d4dae1d34cd024d3341f2f12ae9a1b",
+  "versions": [
+    {
+      "locator": "https://www.proceedings.com/content/068/068431-0773open.pdf",
+      "revision": "NeurIPS 2022 论文集版，DOI 10.52202/068431-0773；作者 LaTeX 为下载后未修改文件的本地重新打包，作者补充材料采用 arXiv 2210.07518v1",
+      "read_scope": "通读论文集摘要、§1–8、图1–3、表1–3和式(1)–(20)，定向复核 arXiv:2210.07518v1 附录A与B的推导和实验定义。未运行模型。",
+      "artifacts": [
+        {
+          "name": "cntpp-proceedings.pdf",
+          "sha256": "b518a66f63fd9d60daead5a9b7c8ccd7bb8ea7c7a4ce08560ff66a51d366f2f3",
+          "snapshot": ".local/sources/SRC-CNTPP/b518a66f63fd9d60daead5a9b7c8ccd7bb8ea7c7a4ce08560ff66a51d366f2f3/cntpp-proceedings.pdf"
+        },
+        {
+          "name": "SRC-CNTPP.source-repacked.tar.gz",
+          "sha256": "c770ba4e3c9177460e359badee3f7007dc725d4faeaa7a35b1e17d9c7bc33b1a",
+          "snapshot": ".local/sources/SRC-CNTPP/c770ba4e3c9177460e359badee3f7007dc725d4faeaa7a35b1e17d9c7bc33b1a/SRC-CNTPP.source-repacked.tar.gz"
+        },
+        {
+          "name": "cntpp-arxiv.pdf",
+          "sha256": "d25616c75a82608f8bccfa8310e4d0bc1cf35011a14ed561a41d97c5b85729ea",
+          "snapshot": ".local/sources/SRC-CNTPP/d25616c75a82608f8bccfa8310e4d0bc1cf35011a14ed561a41d97c5b85729ea/cntpp-arxiv.pdf"
+        }
+      ],
+      "fingerprint": "da5a362decc08cff3ce8393215e52898b9d4dae1d34cd024d3341f2f12ae9a1b",
+      "retrieved_on": "2026-11-28",
+      "integration": {
+        "protocol": "5ccacad6cd0c77f8eeaecbc7d03e955c517e5d11cac79a0f0171e05d48b5a3c7",
+        "notes_sha256": "33eac812d5edbe4d75d46a198944afc74c7b9134075a053d7a7f7b1d0939b016",
+        "pages": [
+          "continuous-time-coupon-uplift"
+        ],
+        "reviewed_on": "2026-11-28",
+        "review_method": "agent-self-review",
+        "review_note": "核对正式版三图、三表、式(1)–(20)及作者版附录A和B.2–B.7，复算积分窗口和特征比值，核对GMM归一化、GRL的两个梯度方向、表2例外及真实数据边界。技术证据与读者路径由当前 Agent 自查。"
+      }
+    }
+  ]
+}

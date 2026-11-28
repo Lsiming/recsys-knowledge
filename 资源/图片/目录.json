@@ -10332,6 +10332,75 @@
         "scale": 3
       },
       "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-CNTPP/以历史和一次互动定义反事实窗口.png",
+      "sha256": "b7f2067c9df3b2e812184ce707f810149754db8f6ce554b92978a9b0435beb07",
+      "kind": "第三方原图",
+      "source_id": "SRC-CNTPP",
+      "source_version": "NeurIPS 2022 论文集正式版",
+      "basis": "图 1，PDF p.4",
+      "license": "保留原作版权与署名",
+      "credit": "Yizhou Zhang、Defu Cao、Yan Liu",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "b518a66f63fd9d60daead5a9b7c8ccd7bb8ea7c7a4ce08560ff66a51d366f2f3",
+      "pdf_page": 4,
+      "crop": {
+        "rect": [
+          265,
+          139,
+          502,
+          248
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-CNTPP/共享编码器与时间强度特征分布和处理头.png",
+      "sha256": "745cca5d2af2d4cb53eb605bd5231aedbae5efea775ef5b57e9c37719ea95cbd",
+      "kind": "第三方原图",
+      "source_id": "SRC-CNTPP",
+      "source_version": "NeurIPS 2022 论文集正式版",
+      "basis": "图 2，PDF p.6",
+      "license": "保留原作版权与署名",
+      "credit": "Yizhou Zhang、Defu Cao、Yan Liu",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "b518a66f63fd9d60daead5a9b7c8ccd7bb8ea7c7a4ce08560ff66a51d366f2f3",
+      "pdf_page": 6,
+      "crop": {
+        "rect": [
+          259,
+          62,
+          505,
+          258
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
+    },
+    {
+      "path": "资源/图片/SRC-CNTPP/转发后的情绪和文本表示估计.png",
+      "sha256": "f0b61fdcad653ea8bac43187bec0308642790aa0dad69bdc2814e0f3a84373d4",
+      "kind": "第三方原图",
+      "source_id": "SRC-CNTPP",
+      "source_version": "NeurIPS 2022 论文集正式版",
+      "basis": "图 3，PDF p.9",
+      "license": "保留原作版权与署名",
+      "credit": "Yizhou Zhang、Defu Cao、Yan Liu",
+      "modification": "从采用版 PDF 裁出图形区域，无改绘",
+      "source_pdf_sha256": "b518a66f63fd9d60daead5a9b7c8ccd7bb8ea7c7a4ce08560ff66a51d366f2f3",
+      "pdf_page": 9,
+      "crop": {
+        "rect": [
+          117,
+          341,
+          498,
+          474
+        ],
+        "scale": 3
+      },
+      "created_on": "2026-11-28"
     }
   ]
 }

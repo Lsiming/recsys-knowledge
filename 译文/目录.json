@@ -3768,5 +3768,22 @@
     "evidence_sha256": "4b7eca07b11cb60478a2c9bf475990b4d0957ee666ddb208195f4670758bf59a",
     "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "reason": "正文中文 PDF 已私有备份。作者 arXiv 版本采用非独占分发许可，PMLR 正式版保留作者署名与 2022 版权栏。未确认公开翻译分发许可。"
+  },
+  {
+    "source_id": "SRC-CNTPP",
+    "title": "Counterfactual Neural Temporal Point Process for Estimating Causal Influence of Misinformation on Social Media",
+    "original_url": "https://www.proceedings.com/content/068/068431-0773open.pdf",
+    "revision": "NeurIPS 2022 论文集版，DOI 10.52202/068431-0773；作者 LaTeX 为下载后未修改文件的本地重新打包，作者补充材料采用 arXiv 2210.07518v1",
+    "authors": [
+      "Yizhou Zhang",
+      "Defu Cao",
+      "Yan Liu"
+    ],
+    "status": "local-only",
+    "checked_on": "2026-11-28",
+    "evidence_url": "https://arxiv.org/abs/2210.07518v1",
+    "evidence_sha256": "a3bac86eceeeba2c0a7de2bba7a35a44648e1a3cb8d1fe155908dbfbc12b8f01",
+    "license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "reason": "正文中文 PDF 已私有备份。作者 arXiv 版本采用非独占分发许可，NeurIPS 论文集保留作者署名。未确认公开翻译分发许可。"
   }
 ]
